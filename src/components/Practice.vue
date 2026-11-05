@@ -66,7 +66,7 @@ async function toggleMic() {
   const audio = await recorder.stop();
   state.value = "transcribing";
   try {
-    const { text } = await api.stt(audio);
+    const { text } = await api.stt(props.scene.id, audio);
     if (!text) {
       error.value = "声が聞き取れませんでした。もう一度話してください。";
       state.value = "idle";

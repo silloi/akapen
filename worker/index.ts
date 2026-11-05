@@ -19,6 +19,7 @@ import {
   type PartnerReply,
   type Speed,
 } from "../shared/prompts.ts";
+import { kanjiDigitsToAscii } from "../shared/numbers.ts";
 import { findScene, SAFETY_CANDO_NOS, SCENES } from "../shared/scenes.ts";
 import type { Kanpe, KanpeLang, Mark, Turn } from "../shared/types.ts";
 import { normalizeAkapen, type RawAkapen } from "../shared/validate.ts";
@@ -126,11 +127,15 @@ async function handleStt(request: Request, env: Env): Promise<Response> {
   if (audio.size === 0 || audio.size > 10_000_000) {
     throw new HttpError(400, "bad_audio", "音声が読めません（10MB まで）");
   }
+  const sceneId = new URL(request.url).searchParams.get("scene");
+  const scene = sceneId ? findScene(sceneId) : undefined;
   const form = new FormData();
   form.append("model_id", env.SCRIBE_MODEL);
   form.append("language_code", "ja");
   form.append("no_verbatim", "false");
   form.append("tag_audio_events", "false");
+  // 場面の語と練習用の固有名詞を前もって渡す（住所・建物名の聞き違いが減る。docs/stt-check.md）
+  for (const k of scene?.keyterms ?? []) form.append("keyterms", k);
   form.append("file", audio, "speech.webm");
   const res = await fetch("https://api.elevenlabs.io/v1/speech-to-text", {
     method: "POST",
@@ -142,7 +147,7 @@ async function handleStt(request: Request, env: Env): Promise<Response> {
     throw new HttpError(502, "stt_failed", "文字起こしに失敗しました");
   }
   const data = (await res.json()) as { text?: string };
-  return json({ text: (data.text ?? "").trim() });
+  return json({ text: kanjiDigitsToAscii((data.text ?? "").trim()) });
 }
 
 /** 相手役の声（ElevenLabs）。声の ID が無ければ 404 を返し、画面はブラウザの読み上げを使う */

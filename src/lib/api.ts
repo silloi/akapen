@@ -46,7 +46,11 @@ export const api = {
     call<{ akapen: Akapen }>("/api/akapen", post({ sceneId, turns })),
   kanpe: (sceneId: string, lang: KanpeLang, fixes: Pick<Mark, "quote" | "next">[]) =>
     call<Kanpe>("/api/kanpe", post({ sceneId, lang, fixes })),
-  stt: (audio: Blob) => call<{ text: string }>("/api/stt", { method: "POST", body: audio }),
+  stt: (sceneId: string, audio: Blob) =>
+    call<{ text: string }>(`/api/stt?scene=${encodeURIComponent(sceneId)}`, {
+      method: "POST",
+      body: audio,
+    }),
   async tts(text: string): Promise<Blob | null> {
     const res = await fetch("/api/tts", post({ text }));
     return res.ok ? await res.blob() : null;

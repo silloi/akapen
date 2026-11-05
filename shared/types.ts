@@ -70,6 +70,8 @@ export interface Scene {
   socialNos: number[];
   /** カンペに足す、場面に固有の知っておくこと（手で書いたもの。出典がある場合は書く） */
   notes: string[];
+  /** 文字起こしに前もって渡す語（場面の語・練習用の固有名詞。Scribe の keyterms） */
+  keyterms: string[];
 }
 
 export type Speaker = "partner" | "me";
