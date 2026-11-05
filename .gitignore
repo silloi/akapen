@@ -1,0 +1,14 @@
+# 依存・ビルド
+node_modules/
+dist/
+.wrangler/
+
+# キー（リポジトリに入れない）
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+
+# 公開しないもの（実在の人の録音・録画・文字起こし、申請で得たものなど）
+local/
