@@ -14,9 +14,9 @@
     "CLAUDE_MODEL": "claude-opus-5-5",
     // ElevenLabs の文字起こしのモデル
     "SCRIBE_MODEL": "scribe_v2",
-    // 相手役の声（ElevenLabs）。空ならブラウザの読み上げを使う
-    "TTS_VOICE_ID": "",
-    "TTS_MODEL": "eleven_multilingual_v2",
+    // 相手役の声（ElevenLabs のボイスライブラリの日本語の声「Aaa - Native Japanese Conversation」。仮）。空ならブラウザの読み上げを使う
+    "TTS_VOICE_ID": "Xe358ecHiAMPqKeziEUB",
+    "TTS_MODEL": "eleven_v3",
   },
   // キー（ANTHROPIC_API_KEY・ELEVENLABS_API_KEY）は `wrangler secret put` で入れる。ローカルは .dev.vars
   "observability": { "enabled": true },
