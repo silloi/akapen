@@ -17,11 +17,12 @@
 
 ## 構成
 
-- `shared/` 共通: `types.ts`、`scenes.ts`（場面カード）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え）、`cando.ts`
+- `shared/` 共通: `types.ts`、`scenes.ts`（場面カード。`keyterms` は文字起こしに渡す語）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`cando.ts`
 - `worker/` Cloudflare Worker: `/api/scenes`、`/api/phone-candos`、`/api/turn`、`/api/akapen`、`/api/kanpe`、`/api/stt`（ElevenLabs Scribe）、`/api/tts`
-- `src/` Vue 3: `SceneList.vue` → `Practice.vue` → `Review.vue`（赤ペン、案A の添削）→ `KanpeView.vue`。`lib/sample.ts` は手で作った見本
+- `src/` Vue 3: `SceneList.vue` → `Practice.vue` → `Review.vue`（赤ペン、案A の添削。2回目以降は前回の赤ペンの ○△）→ `KanpeView.vue`（QR）。`KanpeSheet.vue` はカンペの表示、`LiveKanpe.vue` は QR から開く本番用（`#k=` の URL。`lib/share.ts` で圧縮）。`lib/sample.ts` は手で作った見本
 - `eval/` 評価の会話（`cases/*.json`、正解は作り手が入れる。`draft` は仮）と比べ方（`score.ts`）
-- `scripts/` `build-data.ts`（データの取り込み）、`eval.ts`、`try-partner.ts`、`gold-sheet.ts`
+- `scripts/` `build-data.ts`（データの取り込み）、`eval.ts`（評価）、`try-partner.ts`（相手役を試す）、`simulate.ts`（学習者役も Claude にした通し）、`gold-sheet.ts`（正解を読む表）
+- `docs/` 仕様・計画・評価・文字起こしの確かめ・デモの流れ。`docs/research/` は調査の報告
 
 ## 開発メモ
 
