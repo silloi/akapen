@@ -81,7 +81,7 @@ async function handleAkapen(request: Request, env: Env): Promise<Response> {
   }
   const r = await callJson<RawAkapen>(client(env), {
     model: env.CLAUDE_MODEL,
-    effort: "high",
+    effort: "medium",
     system: AKAPEN_SYSTEM,
     messages: [{ role: "user", content: akapenUser(scene, cando, turns) }],
     schema: AKAPEN_SCHEMA,
@@ -102,7 +102,7 @@ async function handleKanpe(request: Request, env: Env): Promise<Response> {
   const fixes = (body.fixes ?? []).slice(0, 5).filter((f) => typeof f?.next === "string");
   const r = await callJson<Omit<Kanpe, "lang">>(client(env), {
     model: env.CLAUDE_MODEL,
-    effort: "medium",
+    effort: "low",
     system: KANPE_SYSTEM,
     messages: [
       {

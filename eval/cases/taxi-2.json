@@ -50,7 +50,17 @@
         "rank": 1,
         "kind": "missed",
         "turn": 2,
-        "quote": "お迎えの場所"
+        "quote": "お迎えの場所",
+        "alt": [
+          {
+            "turn": 3,
+            "quote": "みなと駅です"
+          },
+          {
+            "turn": 5,
+            "quote": "駅に、行きたいです"
+          }
+        ]
       }
     ],
     "noMark": []

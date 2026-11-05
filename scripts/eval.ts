@@ -1,7 +1,7 @@
 /**
  * 評価: eval/cases の会話に Claude が赤ペンを入れ、作り手の赤ペン（正解）と比べる。
  *
- *   ANTHROPIC_API_KEY=... vpx scripts/eval.ts [--runs 1] [--effort high]
+ *   ANTHROPIC_API_KEY=... vpx scripts/eval.ts [--runs 1] [--effort medium]
  *
  * 結果は eval/results/<日時>.json に保存し、要約を表示する（docs/eval.md に写す）。
  * 会話はすべて架空。
@@ -20,7 +20,7 @@ import { scoreCase, summarize, type CaseScore, type EvalCase } from "../eval/sco
 const { values } = parseArgs({
   options: {
     runs: { type: "string", default: "1" },
-    effort: { type: "string", default: "high" },
+    effort: { type: "string", default: "medium" },
     model: { type: "string", default: "claude-opus-5-5" },
     only: { type: "string" },
   },

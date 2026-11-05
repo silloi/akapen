@@ -1,7 +1,7 @@
 /**
  * 作り手の赤ペン（正解）と Claude の赤ペンを比べる。
  *
- * - 合う: 同じ発話で、引用が重なる（片方がもう片方を含む）。種類は問わない（種類が合ったかは別に数える）
+ * - 合う: 同じ発話で、引用が重なる（片方がもう片方を含む）。正解の alt に挙げた所でもよい。種類は問わない（種類が合ったかは別に数える）
  * - 拾えた割合（recall）: 正解の赤のうち、Claude も入れたもの
  * - 入れすぎ: Claude の赤のうち、正解に無いもの
  * - 1番が合う: 正解の1番と Claude の1番が合う（正解に赤が無いときは、Claude も赤を入れなければ合う）
@@ -14,6 +14,8 @@ export interface GoldMark {
   kind: MarkKind;
   turn: number;
   quote: string;
+  /** 同じつまずきを別の所に入れても合うとする所（例: 聞き取れなかった相手の言葉と、ずれた答え） */
+  alt?: { turn: number; quote: string }[];
 }
 
 export interface EvalCase {
@@ -48,6 +50,10 @@ function overlaps(a: { turn: number; quote: string }, b: { turn: number; quote: 
   return a.turn === b.turn && (a.quote.includes(b.quote) || b.quote.includes(a.quote));
 }
 
+function matches(g: GoldMark, p: { turn: number; quote: string }): boolean {
+  return overlaps(g, p) || (g.alt ?? []).some((a) => overlaps(a, p));
+}
+
 export function scoreCase(c: EvalCase, pred: PredMark[]): CaseScore {
   const gold = [...c.gold.marks].sort((a, b) => a.rank - b.rank);
   const sorted = [...pred].sort((a, b) => a.priority - b.priority);
@@ -55,7 +61,7 @@ export function scoreCase(c: EvalCase, pred: PredMark[]): CaseScore {
   let hit = 0;
   let kindHit = 0;
   for (const g of gold) {
-    const i = sorted.findIndex((p, k) => !used.has(k) && overlaps(g, p));
+    const i = sorted.findIndex((p, k) => !used.has(k) && matches(g, p));
     if (i >= 0) {
       used.add(i);
       hit++;
@@ -63,7 +69,7 @@ export function scoreCase(c: EvalCase, pred: PredMark[]): CaseScore {
     }
   }
   const top1 =
-    gold.length === 0 ? sorted.length === 0 : Boolean(sorted[0] && overlaps(gold[0]!, sorted[0]));
+    gold.length === 0 ? sorted.length === 0 : Boolean(sorted[0] && matches(gold[0]!, sorted[0]));
   const forbidden = sorted.filter((p) => c.gold.noMark.some((n) => overlaps(n, p))).length;
   return {
     id: c.id,

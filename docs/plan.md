@@ -17,7 +17,7 @@
 - [x] 相手役・赤ペン・カンペの指示（`shared/prompts.ts`）と API（`worker/index.ts`）
 - [x] 画面: 場面 → 予行演習（マイク・キーボード）→ 赤ペン（案A）→ カンペ。キーが無くても見本で見られる
 - [x] 評価: 架空の会話8本と**仮の**正解（`eval/cases`、読みやすい形は `docs/eval-gold.md`）。比べ方は `eval/score.ts`
-- [ ] Claude を実際に呼ぶ確かめ。**まだできていない**: 新しいセッションにも `ANTHROPIC_API_KEY` が入っていなかった（環境変数の名前が消される可能性がある。`AKAPEN_ANTHROPIC_API_KEY` という名前でも読めるようにした）
+- [x] Claude を実際に呼ぶ確かめ（11/6 未明、チャットで受け取ったキーで。キーはリポジトリに入れていない）: 評価を回し、赤ペンの指示を .1 → .2 に直した（`docs/eval.md`）。Worker を通して相手役・赤ペン・カンペが動くことを確かめた
 - [x] 相手役の声を仮に決めた（`docs/stt-check.md`）
 - [x] デモ動画の流れ（`docs/demo.md`）と作品の概要（`docs/submission.md`）の下書き
 
