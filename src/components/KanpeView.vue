@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import QRCode from "qrcode";
+import { computed, onMounted, ref, watch } from "vue";
 import { LANG_NAMES } from "../../shared/prompts.ts";
 import type { Kanpe, KanpeLang, Mark } from "../../shared/types.ts";
 import { api, type SceneWithCando } from "../lib/api.ts";
 import { SAMPLE_KANPE } from "../lib/sample.ts";
+import { encodeKanpe, shareUrl } from "../lib/share.ts";
+import KanpeSheet from "./KanpeSheet.vue";
 
 const props = defineProps<{
   scene: SceneWithCando;
@@ -18,6 +21,7 @@ const loading = ref(false);
 const error = ref("");
 const showYomi = ref(true);
 const fromSample = ref(false);
+const partner = computed(() => props.scene.partnerRole.replace(/（.*$/, ""));
 
 async function make() {
   loading.value = true;
@@ -39,11 +43,30 @@ async function make() {
 
 onMounted(make);
 
-const SECTIONS = [
-  { key: "asked", title: "聞かれること", hint: "相手はこう言います" },
-  { key: "say", title: "言うこと", hint: "〔 〕は自分のことを入れる" },
-  { key: "help", title: "困ったとき", hint: "聞き返すのは失礼ではありません" },
-] as const;
+// スマホで開く（QR）。カンペの中身を URL に入れる。サーバーに保存しない
+const showQr = ref(false);
+const qr = ref("");
+const url = ref("");
+const copied = ref(false);
+watch([kanpe, showQr], async ([k, show]) => {
+  if (!k || !show) return;
+  const hash = await encodeKanpe({ title: props.scene.title, partner: partner.value, kanpe: k });
+  url.value = shareUrl(hash);
+  qr.value = await QRCode.toDataURL(url.value, {
+    errorCorrectionLevel: "L",
+    margin: 1,
+    width: 240,
+  });
+});
+async function copy() {
+  try {
+    await navigator.clipboard.writeText(url.value);
+    copied.value = true;
+    setTimeout(() => (copied.value = false), 1500);
+  } catch {
+    // コピーできない環境では、URL を選んでもらう
+  }
+}
 </script>
 
 <template>
@@ -69,42 +92,43 @@ const SECTIONS = [
   <p v-if="loading" class="muted">カンペを作っています…</p>
   <p v-if="error" class="error">{{ error }}</p>
 
-  <article v-if="kanpe" class="kanpe">
-    <header class="kh">
-      <h2>{{ scene.title }}</h2>
-      <p class="small muted">相手: {{ scene.partnerRole.replace(/（.*$/, "") }}</p>
-    </header>
+  <KanpeSheet
+    v-if="kanpe"
+    :title="scene.title"
+    :partner="partner"
+    :kanpe="kanpe"
+    :fixes="fixes"
+    :show-yomi="showYomi"
+  />
 
-    <section v-for="sec in SECTIONS" :key="sec.key" class="sec">
-      <h3>
-        {{ sec.title }} <span class="small muted">{{ sec.hint }}</span>
-      </h3>
-      <ul>
-        <li
-          v-for="(l, i) in kanpe[sec.key]"
-          :key="i"
-          :class="{ fixed: sec.key === 'say' && fixes.some((f) => f.next === l.ja) }"
-        >
-          <span class="ja">{{ l.ja }}</span>
-          <span v-if="showYomi && l.yomi" class="yomi">{{ l.yomi }}</span>
-          <span class="tr">{{ l.tr }}</span>
-        </li>
-      </ul>
-    </section>
-
-    <section class="sec know">
-      <h3>前もって知っておくこと</h3>
-      <ul>
-        <li v-for="(k, i) in kanpe.know" :key="i">
-          {{ k.text }} <span class="src">（{{ k.source }}）</span>
-        </li>
-      </ul>
-    </section>
-  </article>
+  <div v-if="kanpe" class="share no-print">
+    <button class="btn red" type="button" :aria-expanded="showQr" @click="showQr = !showQr">
+      スマホで開く（QR）
+    </button>
+    <p class="small muted">
+      本番の電話のとき、スマホで大きい文字で見られます。中身は URL
+      に入っていて、サーバーには残りません。
+    </p>
+    <div v-if="showQr && qr" class="qr">
+      <img :src="qr" width="240" height="240" alt="カンペを開く QR コード" />
+      <div class="url">
+        <input
+          :value="url"
+          readonly
+          type="text"
+          aria-label="カンペの URL"
+          @focus="($event.target as HTMLInputElement).select()"
+        />
+        <button class="btn ghost small" type="button" @click="copy">
+          {{ copied ? "コピーした" : "URL をコピー" }}
+        </button>
+      </div>
+    </div>
+  </div>
 
   <div class="foot no-print">
     <button class="btn ghost" type="button" @click="emit('back')">赤ペンにもどる</button>
-    <p class="small muted">印刷するか、スマホの画面を写真にとっておくと、本番で見られます。</p>
+    <p class="small muted">印刷もできます。</p>
   </div>
 </template>
 
@@ -129,58 +153,41 @@ select {
   font: inherit;
   margin-left: 6px;
 }
-.kanpe {
+.share {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  margin-top: 20px;
+}
+.qr {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 14px;
-  padding: 20px;
+  padding: 16px;
+  max-width: 100%;
+}
+.qr img {
+  background: #fff;
+  border-radius: 8px;
+}
+.url {
   display: grid;
-  gap: 18px;
+  gap: 8px;
+  flex: 1;
+  min-width: 200px;
 }
-.kh h2 {
-  font-size: 20px;
-}
-.sec h3 {
-  font-size: 16px;
-  border-bottom: 2px solid var(--ink);
-  padding-bottom: 2px;
-  margin-bottom: 8px;
-}
-.sec ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 10px;
-}
-.sec li {
-  display: grid;
-  gap: 0;
-}
-.ja {
-  font-size: 18px;
-  font-weight: 500;
-}
-.yomi {
+.url input {
+  font: inherit;
   font-size: 12px;
-  color: var(--muted);
-}
-.tr {
-  font-size: 15px;
-}
-.fixed .ja {
-  color: var(--red);
-}
-.fixed .ja::before {
-  content: "赤ペン ";
-  font-family: var(--hand);
-  font-size: 13px;
-}
-.know li {
-  font-size: 15px;
-}
-.src {
-  font-size: 12px;
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
   color: var(--muted);
 }
 .foot {
@@ -189,11 +196,5 @@ select {
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 20px;
-}
-@media print {
-  .kanpe {
-    border: 0;
-    padding: 0;
-  }
 }
 </style>

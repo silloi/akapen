@@ -2,13 +2,15 @@
 import { onMounted, ref } from "vue";
 import type { Akapen, Mark, Turn } from "../shared/types.ts";
 import KanpeView from "./components/KanpeView.vue";
+import LiveKanpe from "./components/LiveKanpe.vue";
 import Practice from "./components/Practice.vue";
 import Review from "./components/Review.vue";
 import SceneList from "./components/SceneList.vue";
 import { api, type Health, type SceneWithCando } from "./lib/api.ts";
 import { SAMPLE_AKAPEN, SAMPLE_SCENE_ID, SAMPLE_TURNS } from "./lib/sample.ts";
+import { decodeKanpe, type SharedKanpe } from "./lib/share.ts";
 
-type View = "scenes" | "practice" | "review" | "kanpe";
+type View = "scenes" | "practice" | "review" | "kanpe" | "live";
 
 const view = ref<View>("scenes");
 const scenes = ref<SceneWithCando[]>([]);
@@ -19,8 +21,15 @@ const akapen = ref<Akapen | null>(null);
 const fixes = ref<Pick<Mark, "quote" | "next">[]>([]);
 const isSample = ref(false);
 const loadError = ref("");
+/** QR から開いた本番用のカンペ */
+const shared = ref<SharedKanpe | null>(null);
 
 onMounted(async () => {
+  shared.value = await decodeKanpe(location.hash);
+  if (shared.value) {
+    view.value = "live";
+    return;
+  }
   try {
     [scenes.value, health.value] = await Promise.all([api.scenes(), api.health()]);
   } catch (e) {
@@ -59,7 +68,15 @@ function toKanpe(f: Pick<Mark, "quote" | "next">[]) {
 }
 
 function home() {
+  if (shared.value) history.replaceState(null, "", location.pathname);
+  shared.value = null;
   view.value = "scenes";
+  if (!scenes.value.length) {
+    void Promise.all([api.scenes(), api.health()]).then(([s, h]) => {
+      scenes.value = s;
+      health.value = h;
+    });
+  }
 }
 </script>
 
@@ -104,6 +121,7 @@ function home() {
       @kanpe="toKanpe"
       @retry="choose(scene)"
     />
+    <LiveKanpe v-else-if="view === 'live' && shared" :data="shared" />
     <KanpeView
       v-else-if="view === 'kanpe' && scene"
       :scene="scene"
@@ -113,7 +131,7 @@ function home() {
     />
   </main>
 
-  <footer class="foot no-print">
+  <footer v-if="view !== 'live'" class="foot no-print">
     <p class="small muted">
       場面は、文化審議会国語分科会「地域における日本語教育の在り方について」（報告）別冊「日本語教育の参照枠」に基づく「生活Can
       do」一覧（令和4年11月29日、文化庁）を加工して作成。会話の相手・店・地名・電話番号はすべて架空です。
