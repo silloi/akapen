@@ -44,7 +44,3 @@
 - ElevenLabs: 環境のネットワークシークレット（`api.elevenlabs.io`、ヘッダー `xi-api-key`、プレフィックスなし）。11/5 に通ることを確かめた（声の一覧・文字起こし）。キーの権限は Text to Speech・Speech to Text・Voices（読み取り）。
 - Claude: 環境変数 `ANTHROPIC_API_KEY`（11/5 に登録。新しいセッションから使える）。`api.anthropic.com` はプロキシを通らないので、ネットワークシークレットでは付かない。
 - Cloudflare: まだ。デプロイのときに Worker のシークレットとして入れる。
-
-## 待っていること（作り手が決める）
-
-- 赤ペンの優先順（`docs/spec.md` の 4）

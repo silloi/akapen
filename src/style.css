@@ -1,0 +1,133 @@
+/* 色はここのトークンだけを使う。赤ペンの赤は、白い紙に入れる赤 */
+:root {
+  --bg: #f6f7f8;
+  --paper: #ffffff;
+  --ink: #1d2329;
+  --muted: #5d6872;
+  --line: #d9dee3;
+  --red: #c8241b;
+  --red-soft: #fbe7e5;
+  --ok: #2f6f4f;
+  --ok-soft: #e5f2ea;
+  --other: #eef1f4;
+  --focus: #ffd43d;
+  --hand: "Klee One", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --body: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15191d;
+    --paper: #1f252b;
+    --ink: #e8ecef;
+    --muted: #9aa5ae;
+    --line: #36404a;
+    --red: #ff7b70;
+    --red-soft: #3a2221;
+    --ok: #7fcfa1;
+    --ok-soft: #1d3127;
+    --other: #2a3138;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2 {
+  text-wrap: balance;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
+button:focus-visible,
+a:focus-visible,
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px var(--ink);
+}
+a {
+  color: inherit;
+}
+
+.btn {
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+.btn.ghost {
+  background: transparent;
+  color: var(--ink);
+}
+.btn.red {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--paper);
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.hand {
+  font-family: var(--hand);
+  color: var(--red);
+}
+.muted {
+  color: var(--muted);
+}
+.small {
+  font-size: 13px;
+}
+.badge {
+  display: inline-block;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 16px;
+}
+.error {
+  border: 1px solid var(--red);
+  background: var(--red-soft);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

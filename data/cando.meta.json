@@ -1,0 +1,12 @@
+{
+  "from": "https://github.com/silloi/yasashii-refs/blob/main/data/seikatsu-cando.jsonl",
+  "name": "文化審議会国語分科会 「地域における日本語教育の在り方について」（報告）別冊「日本語教育の参照枠」に基づく「生活Can do」一覧",
+  "version": "2022-11-29",
+  "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/",
+  "license": "PDL-1.0（文部科学省ウェブサイト利用規約に準拠）。jf の付いた Can do は、国際交流基金の JF Can-do・JF生活日本語Can-do から採用したもの（みんなのCan-doサイトの著作権ポリシーでは、無料で新たに許諾を得ることなく使える）",
+  "license_url": "https://www.mext.go.jp/b_menu/1351168.htm",
+  "attribution": "出典：文化審議会国語分科会 「地域における日本語教育の在り方について」（報告）別冊「日本語教育の参照枠」に基づく「生活Can do」一覧（令和4年11月29日、文化庁 https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/）を加工して作成",
+  "note": "言語活動が「やり取り」の Can do と、生活・文化・社会的情報だけを取り出し、項目名を変えた（scripts/build-data.ts）",
+  "candos": 408,
+  "social": 145
+}

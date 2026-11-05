@@ -1,0 +1,3 @@
+# ローカル開発用の環境変数。`cp .dev.vars.example .dev.vars` して値を入れる（.dev.vars は git に入れない）
+ANTHROPIC_API_KEY=
+ELEVENLABS_API_KEY=

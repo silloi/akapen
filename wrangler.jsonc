@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "akapen",
+  "main": "./worker/index.ts",
+  "compatibility_date": "2026-10-30",
+  // @anthropic-ai/sdk が Node 互換 API を使うため
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    // Vue の SPA。/api/* だけ Worker が先に受け取る
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"],
+  },
+  "vars": {
+    "CLAUDE_MODEL": "claude-opus-5-5",
+    // ElevenLabs の文字起こしのモデル
+    "SCRIBE_MODEL": "scribe_v2",
+    // 相手役の声（ElevenLabs）。空ならブラウザの読み上げを使う
+    "TTS_VOICE_ID": "",
+    "TTS_MODEL": "eleven_multilingual_v2",
+  },
+  // キー（ANTHROPIC_API_KEY・ELEVENLABS_API_KEY）は `wrangler secret put` で入れる。ローカルは .dev.vars
+  "observability": { "enabled": true },
+}
