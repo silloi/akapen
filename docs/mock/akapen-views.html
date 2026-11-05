@@ -1,0 +1,168 @@
+<title>赤ペンの見せ方 3案</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* 縦に3案を並べる。各案は電話の画面（幅 380px）と、その案の得失を横に置く。狭いときは縦に積む */
+:root{
+  --bg:#f6f7f8; --paper:#ffffff; --ink:#1d2329; --muted:#5d6872; --line:#d9dee3;
+  --red:#c8241b; --red-soft:#fbe7e5; --ok:#2f6f4f; --ok-soft:#e5f2ea; --other:#eef1f4;
+  --hand:"Klee One","Hiragino Mincho ProN",serif;
+  --body:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15191d; --paper:#1f252b; --ink:#e8ecef; --muted:#9aa5ae; --line:#36404a;
+  --red:#ff7b70; --red-soft:#3a2221; --ok:#7fcfa1; --ok-soft:#1d3127; --other:#2a3138; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#15191d; --paper:#1f252b; --ink:#e8ecef; --muted:#9aa5ae; --line:#36404a;
+  --red:#ff7b70; --red-soft:#3a2221; --ok:#7fcfa1; --ok-soft:#1d3127; --other:#2a3138; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.7;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+main{max-width:1040px;margin:0 auto;display:grid;gap:56px}
+h1{font-size:28px;margin:0;text-wrap:balance}
+h2{font-size:22px;margin:0;text-wrap:balance}
+h3{font-size:15px;margin:0}
+p{margin:0}
+.lead{display:grid;gap:10px;max-width:68ch;color:var(--muted)}
+.lead strong{color:var(--ink)}
+.opt{display:grid;grid-template-columns:380px minmax(0,1fr);gap:32px;align-items:start}
+@media (max-width:820px){.opt{grid-template-columns:minmax(0,1fr)}}
+.label{font-size:12px;letter-spacing:.08em;color:var(--red);font-weight:700}
+.note{display:grid;gap:12px;min-width:0}
+.note ul{margin:0;padding-left:1.2em;display:grid;gap:4px}
+.note .pm{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.phone{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:18px 16px 20px;display:grid;gap:12px;max-width:100%;min-width:0}
+.bar{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:8px}
+.turn{display:grid;gap:2px}
+.who{font-size:11px;color:var(--muted)}
+.them{background:var(--other);border-radius:12px;padding:8px 10px}
+.me{padding:2px 0}
+.hand{font-family:var(--hand);color:var(--red);font-size:15px;line-height:1.5}
+.wavy{text-decoration:underline wavy var(--red);text-decoration-thickness:1.5px;text-underline-offset:5px}
+.circle{border:1.6px solid var(--red);border-radius:999px;padding:0 4px}
+.num{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;border:1.6px solid var(--red);color:var(--red);font-family:var(--hand);font-size:13px;font-weight:600;margin-right:4px;vertical-align:1px}
+.marg{border-left:2px solid var(--red);padding:2px 0 2px 10px;margin-left:4px}
+.filler{color:var(--muted)}
+.okmark{font-family:var(--hand);color:var(--ok);font-size:14px}
+/* 案B */
+.pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;align-items:stretch}
+.pair>div{border-radius:10px;padding:8px 10px;font-size:14px;min-width:0}
+.said{background:var(--other)}
+.heard{border:1px dashed var(--line)}
+.heard.bad{border:1.6px solid var(--red);background:var(--red-soft)}
+.heard.good{border-color:var(--ok);background:var(--ok-soft)}
+.cap{font-size:11px;color:var(--muted);display:block}
+/* 案C */
+.card{border:1.6px solid var(--red);border-radius:12px;padding:10px 12px;display:grid;gap:6px}
+.quote{font-size:14px;background:var(--other);border-radius:8px;padding:6px 8px}
+.why{font-size:13px;color:var(--muted)}
+.next{font-family:var(--hand);color:var(--red);font-size:16px}
+button{font:inherit;font-size:13px;border:1px solid var(--red);color:var(--red);background:transparent;border-radius:999px;padding:3px 12px;cursor:pointer;justify-self:start}
+button:focus-visible,summary:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+button[aria-pressed="true"]{background:var(--red);color:var(--paper)}
+details{border-top:1px solid var(--line);padding-top:8px;font-size:14px}
+summary{cursor:pointer;color:var(--ok)}
+details ul{margin:6px 0 0;padding-left:1.2em;color:var(--muted)}
+.ask{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:10px;max-width:72ch}
+.ask ol{margin:0;padding-left:1.4em;display:grid;gap:4px}
+.src{font-size:12px;color:var(--muted);max-width:80ch}
+</style>
+
+<main>
+<header class="lead">
+  <h1>赤ペンの見せ方 3案</h1>
+  <p>同じ予行演習（<strong>粗大ごみの回収を電話で頼む</strong>。生活Can do 通番588・A2）を、3つの見せ方で並べました。どれも動きません。会話と人物は架空です。</p>
+  <p>3案とも共通: 言いよどみ（えっと・さん…さんちょうめ）は直しません。赤ペンは「伝わらなかった」「誤解されそう」を先に、文法の正しさは後にします。</p>
+</header>
+
+<!-- 案A -->
+<section class="opt" aria-labelledby="a-h">
+  <div class="phone" aria-label="案A の画面">
+    <div class="bar"><span>予行演習のふりかえり</span><span>2分14秒</span></div>
+    <div class="turn"><span class="who">受付</span><div class="them">お電話ありがとうございます。みなと市粗大ごみ受付センターです。</div></div>
+    <div class="turn"><span class="who">わたし</span><div class="me"><span class="filler">あの…えっと、</span>ごみを…大きいごみを、捨てたい、です。</div>
+      <div class="marg hand">伝わった ○　「粗大ごみの申し込み」と言うと、もっと早い</div></div>
+    <div class="turn"><span class="who">受付</span><div class="them">何を出されますか。</div></div>
+    <div class="turn"><span class="who">わたし</span><div class="me">れいぞうこ、と、いす。いすは…木の。</div></div>
+    <div class="turn"><span class="who">受付</span><div class="them">冷蔵庫は<span class="circle">家電リサイクル</span>の対象なので、こちらではお受けできないんです。</div>
+      <div class="marg hand"><span class="num">2</span>聞き取れていない。聞き返してよい所</div></div>
+    <div class="turn"><span class="who">わたし</span><div class="me"><span class="wavy">だいじょうぶです。</span></div>
+      <div class="marg hand"><span class="num">1</span>「出さない」？「わかった」？ 受付は決められない<br>→ 冷蔵庫はやめます。いすだけお願いします。</div></div>
+    <div class="turn"><span class="who">わたし</span><div class="me">いつ来ますか？</div><span class="okmark">○ このままでいい</span></div>
+  </div>
+  <div class="note">
+    <span class="label">案A</span>
+    <h2>添削: 会話の記録に、そのまま赤を入れる</h2>
+    <p>日本語教師が作文に入れる赤ペンに一番近い形です。会話の流れの中で、どこで止まったかが見えます。丸数字が直す順番です。</p>
+    <div class="pm">
+      <div><h3>よい点</h3><ul><li>「赤ペン」の名前とすぐ結び付く。デモで一目で分かる</li><li>伝わった所に ○ を付けられる（ほめる赤ペン）</li></ul></div>
+      <div><h3>気になる点</h3><ul><li>会話が長いと、赤が散らばって優先順が埋もれる</li><li>「先生に直される」感じが強く、学習アプリに見えやすい</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 案B -->
+<section class="opt" aria-labelledby="b-h">
+  <div class="phone" aria-label="案B の画面">
+    <div class="bar"><span>相手にはどう聞こえたか</span><span>4往復</span></div>
+    <div class="pair"><div class="said"><span class="cap">わたしが言った</span>大きいごみを、捨てたいです。</div><div class="heard good"><span class="cap">受付に伝わった</span>粗大ごみの申し込み</div></div>
+    <div class="pair"><div class="said"><span class="cap">わたしが言った</span>れいぞうこ、と、いす。いすは…木の。</div><div class="heard good"><span class="cap">受付に伝わった</span>冷蔵庫1台・木のいす1脚</div></div>
+    <div class="pair"><div class="said"><span class="cap">受付が言った</span>家電リサイクルの対象なので、お受けできないんです。</div><div class="heard bad"><span class="cap">わたしが分かったこと</span>？（「家電リサイクル」が分からない）</div></div>
+    <div class="pair"><div class="said"><span class="cap">わたしが言った</span>だいじょうぶです。</div><div class="heard bad"><span class="cap">受付に伝わった</span>冷蔵庫も出したい？ やめる？<br>→ 分からないので、もう一度聞かれる</div></div>
+    <p class="hand">赤い所: 2つ。ここで話が止まりました。</p>
+  </div>
+  <div class="note">
+    <span class="label">案B</span>
+    <h2 id="b-h">相手の耳: 言ったことと、伝わったことを並べる</h2>
+    <p>文法ではなく「伝わったか」だけで色を付けます。左が言ったこと、右が相手の受け取り方です。聞き取れなかった相手の言葉も同じ形で出せます。</p>
+    <div class="pm">
+      <div><h3>よい点</h3><ul><li>「正しさより伝わったか」という考えが、画面の形そのものになる</li><li>学習用の会話相手との違いが、審査員に伝わりやすい</li></ul></div>
+      <div><h3>気になる点</h3><ul><li>「相手にどう伝わったか」は Claude の推測。外れると信用を落とす</li><li>直し方（次はこう言う）を置く場所が別に要る</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 案C -->
+<section class="opt" aria-labelledby="c-h">
+  <div class="phone" aria-label="案C の画面">
+    <div class="bar"><span>本番の前に、直すのは2つ</span><span>粗大ごみ・A2</span></div>
+    <div class="card">
+      <span class="hand"><span class="num">1</span>誤解されそう</span>
+      <div class="quote">「だいじょうぶです。」</div>
+      <p class="why">「冷蔵庫は出さない」と「分かった」のどちらか、受付が決められません。何を出すかが決まらないと、申し込みが終わりません。</p>
+      <p class="next">冷蔵庫はやめます。いすだけお願いします。</p>
+      <button type="button" aria-pressed="false" onclick="this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true');this.textContent=this.getAttribute('aria-pressed')==='true'?'カンペに入れた':'カンペに入れる'">カンペに入れる</button>
+    </div>
+    <div class="card">
+      <span class="hand"><span class="num">2</span>聞き取れなかった</span>
+      <div class="quote">受付「家電リサイクルの対象なので…」</div>
+      <p class="why">分からないまま進めると、冷蔵庫を出してしまい、回収されません。聞き返しは失礼ではありません。</p>
+      <p class="next">すみません、「かでんリサイクル」は何ですか。</p>
+      <button type="button" aria-pressed="false" onclick="this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true');this.textContent=this.getAttribute('aria-pressed')==='true'?'カンペに入れた':'カンペに入れる'">カンペに入れる</button>
+    </div>
+    <details><summary>伝わったので、今は直さなくていいこと（3）</summary>
+      <ul><li>「捨てたい、です」→ 伝わった。「粗大ごみ」と言えるともっと早い</li><li>「いつ来ますか？」→ 伝わった。ていねいさも問題ない</li><li>言いよどみ（えっと・さん…さんちょうめ）→ 電話ではふつう</li></ul>
+    </details>
+  </div>
+  <div class="note">
+    <span class="label">案C</span>
+    <h2 id="c-h">直すのは2つ: 優先順に絞り、カンペへ送る</h2>
+    <p>本番までに直すことを、多くても3つに絞ります。順番に日本語教師の知見（用件が変わる誤りが先、言いよどみは直さない）を入れます。直したことは、そのまま本番のカンペに入ります。</p>
+    <div class="pm">
+      <div><h3>よい点</h3><ul><li>「本番を通す」目的に一番まっすぐ。練習 → 赤ペン → カンペが一続きになる</li><li>作り手の赤ペンと Claude の赤ペンを「上位いくつが合うか」で比べやすい</li></ul></div>
+      <div><h3>気になる点</h3><ul><li>会話のどこで起きたかが見えにくい（引用だけ）</li><li>「赤ペン」らしさは案Aより弱い</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="ask">
+  <h2>決めてほしいこと</h2>
+  <ol>
+    <li>どの案にするか（組み合わせもできます。例: 案Cを先に出し、「会話で見る」を押すと案Aの添削が開く）</li>
+    <li>優先順の決め方: 「用件が変わる・止まる誤り」＞「聞き取れない」＞「失礼に聞こえそう」＞「文法」の順でよいか</li>
+    <li>伝わった所に ○ を付けるか（ほめる赤ペン）</li>
+  </ol>
+</section>
+
+<p class="src">場面の出典: 文化審議会国語分科会「地域における日本語教育の在り方について」（報告）別冊「日本語教育の参照枠」に基づく「生活Can do」一覧（令和4年11月29日、文化庁）を加工して作成。会話・地名・人物は架空です。</p>
+</main>
