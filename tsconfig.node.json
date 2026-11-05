@@ -21,6 +21,12 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts", "scripts/**/*.ts", "shared/**/*.ts", "**/*.test.ts"],
+  "include": [
+    "vite.config.ts",
+    "scripts/**/*.ts",
+    "shared/**/*.ts",
+    "eval/**/*.ts",
+    "**/*.test.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }

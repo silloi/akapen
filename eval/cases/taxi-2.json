@@ -1,0 +1,59 @@
+{
+  "id": "taxi-2",
+  "sceneId": "taxi",
+  "note": "「お迎えの場所」を行き先と取り違えた",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "はい、かもめタクシーです。"
+    },
+    {
+      "speaker": "me",
+      "text": "あしたの朝6時、タクシーをお願いします。"
+    },
+    {
+      "speaker": "partner",
+      "text": "明日の朝6時ですね。お迎えの場所はどちらでしょうか。"
+    },
+    {
+      "speaker": "me",
+      "text": "みなと駅です。"
+    },
+    {
+      "speaker": "partner",
+      "text": "みなと駅でお待ちいただくということですね。駅の東口と西口、どちらでしょうか。"
+    },
+    {
+      "speaker": "me",
+      "text": "え？ 駅に、行きたいです。"
+    },
+    {
+      "speaker": "partner",
+      "text": "失礼しました。行き先がみなと駅ですね。では、お迎えはどちらに伺えばよろしいですか。"
+    },
+    {
+      "speaker": "me",
+      "text": "さくら町3丁目のコンビニの前です。"
+    },
+    {
+      "speaker": "partner",
+      "text": "かしこまりました。お名前をお願いします。"
+    },
+    {
+      "speaker": "me",
+      "text": "サントス・アナです。"
+    }
+  ],
+  "gold": {
+    "marks": [
+      {
+        "rank": 1,
+        "kind": "missed",
+        "turn": 2,
+        "quote": "お迎えの場所"
+      }
+    ],
+    "noMark": []
+  },
+  "goldBy": "draft"
+}

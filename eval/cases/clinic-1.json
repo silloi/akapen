@@ -1,0 +1,79 @@
+{
+  "id": "clinic-1",
+  "sceneId": "clinic",
+  "note": "「だめ」がぶっきらぼう。「保険証」を聞き返さない",
+  "turns": [
+    {
+      "speaker": "partner",
+      "text": "はい、うみべ内科クリニックです。"
+    },
+    {
+      "speaker": "me",
+      "text": "あの、予約したいです。初めてです。"
+    },
+    {
+      "speaker": "partner",
+      "text": "ご予約ですね。お名前と生年月日をお願いします。"
+    },
+    {
+      "speaker": "me",
+      "text": "チャン・ウェイです。1995年4月10日です。"
+    },
+    {
+      "speaker": "partner",
+      "text": "今日はどうされましたか。簡単で大丈夫です。"
+    },
+    {
+      "speaker": "me",
+      "text": "3日前から、せきが出ます。"
+    },
+    {
+      "speaker": "partner",
+      "text": "かしこまりました。明日の午前10時半でしたらお取りできますが、いかがですか。"
+    },
+    {
+      "speaker": "me",
+      "text": "だめ。仕事。"
+    },
+    {
+      "speaker": "partner",
+      "text": "でしたら、明日の夕方5時はいかがでしょうか。"
+    },
+    {
+      "speaker": "me",
+      "text": "はい、5時、お願いします。"
+    },
+    {
+      "speaker": "partner",
+      "text": "では明日の17時でお取りしました。当日は保険証かマイナンバーカードをお持ちください。"
+    },
+    {
+      "speaker": "me",
+      "text": "はい、わかりました。"
+    }
+  ],
+  "gold": {
+    "marks": [
+      {
+        "rank": 1,
+        "kind": "impolite",
+        "turn": 7,
+        "quote": "だめ。仕事。"
+      },
+      {
+        "rank": 2,
+        "kind": "missed",
+        "turn": 10,
+        "quote": "保険証"
+      }
+    ],
+    "noMark": [
+      {
+        "turn": 1,
+        "quote": "あの",
+        "reason": "言いよどみ"
+      }
+    ]
+  },
+  "goldBy": "draft"
+}
