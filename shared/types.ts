@@ -72,6 +72,8 @@ export interface Scene {
   notes: string[];
   /** 文字起こしに前もって渡す語（場面の語・練習用の固有名詞。Scribe の keyterms） */
   keyterms: string[];
+  /** 役所・公共の窓口か。true なら、2回聞き返しても通じないとき相手役がやさしい日本語に切り替える（多くの自治体が電話応対でしていること） */
+  office?: boolean;
 }
 
 export type Speaker = "partner" | "me";
@@ -170,6 +172,8 @@ export interface Kanpe {
   help: KanpeLine[];
   /** 前もって知っておくこと（その人の言語で） */
   know: { text: string; source: string }[];
+  /** 本番で聞き取って書きとめること（受付番号・日時・料金など）。画面では空欄にする */
+  memo: { label: string; tr: string }[];
 }
 
 export interface ApiError {

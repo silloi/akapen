@@ -43,6 +43,17 @@ const SECTIONS = [
       </ul>
     </section>
 
+    <section v-if="kanpe.memo?.length" id="k-memo" class="sec memo">
+      <h3>聞き取って書くこと <span class="small muted">本番で相手が言うので、ここに書く</span></h3>
+      <ul>
+        <li v-for="(m, i) in kanpe.memo" :key="i">
+          <span class="ja">{{ m.label }}</span>
+          <span class="tr">{{ m.tr }}</span>
+          <span class="blank" aria-hidden="true"></span>
+        </li>
+      </ul>
+    </section>
+
     <section id="k-know" class="sec know">
       <h3>前もって知っておくこと</h3>
       <ul>
@@ -104,6 +115,23 @@ const SECTIONS = [
 }
 .know li {
   font-size: 15px;
+}
+.memo li {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas: "ja blank" "tr blank";
+  column-gap: 12px;
+  align-items: end;
+}
+.memo .ja {
+  grid-area: ja;
+}
+.memo .tr {
+  grid-area: tr;
+}
+.memo .blank {
+  grid-area: blank;
+  border-bottom: 1.5px solid var(--ink);
+  min-height: 2.2em;
 }
 .src {
   font-size: 12px;

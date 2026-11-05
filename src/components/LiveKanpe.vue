@@ -10,6 +10,7 @@ const JUMPS = [
   { id: "k-asked", label: "聞かれる" },
   { id: "k-say", label: "言う" },
   { id: "k-help", label: "困った" },
+  { id: "k-memo", label: "書く" },
   { id: "k-know", label: "知る" },
 ];
 function jump(id: string) {
