@@ -80,7 +80,7 @@ MaestrIA に倣い、評価を先に作る。
 ## 7. 作り
 
 - gyokan と同じ: Vite+ / Vue 3 / TypeScript / Cloudflare Workers。
-- Worker: `/api/scribe`（ElevenLabs へ）、`/api/turn`（相手役）、`/api/akapen`（赤ペン）、`/api/kanpe`（カンペ）。
+- Worker: `/api/stt`（ElevenLabs Scribe へ）、`/api/tts`（相手役の声）、`/api/turn`（相手役）、`/api/akapen`（赤ペン）、`/api/kanpe`（カンペ）、`/api/scenes`・`/api/phone-candos`（場面）。
 - Claude API: 構造化出力。モデルは gyokan と同じものから始める。
 - キー: Claude は `ANTHROPIC_API_KEY`。ElevenLabs・Cloudflare は環境のネットワークシークレット。リポジトリに入れない。
 

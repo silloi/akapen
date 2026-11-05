@@ -26,7 +26,12 @@ const { values } = parseArgs({
   },
 });
 
-const client = new Anthropic();
+// ANTHROPIC_API_KEY が環境から消される場合に備え、AKAPEN_ANTHROPIC_API_KEY も読む
+const client = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY ?? process.env.AKAPEN_ANTHROPIC_API_KEY,
+  // クラウド環境では ANTHROPIC_BASE_URL が別の所を指していることがあるので、明示する
+  baseURL: "https://api.anthropic.com",
+});
 const dir = "eval/cases";
 const cases = readdirSync(dir)
   .filter((f) => f.endsWith(".json"))

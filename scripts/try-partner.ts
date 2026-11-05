@@ -30,7 +30,12 @@ const c = JSON.parse(
   readFileSync(`eval/cases/${positionals[0] ?? "sodai-1"}.json`, "utf8"),
 ) as EvalCase;
 const scene = findScene(c.sceneId)!;
-const client = new Anthropic();
+// ANTHROPIC_API_KEY が環境から消される場合に備え、AKAPEN_ANTHROPIC_API_KEY も読む
+const client = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY ?? process.env.AKAPEN_ANTHROPIC_API_KEY,
+  // クラウド環境では ANTHROPIC_BASE_URL が別の所を指していることがあるので、明示する
+  baseURL: "https://api.anthropic.com",
+});
 const mine = c.turns.filter((t) => t.speaker === "me").map((t) => t.text);
 
 const turns: Turn[] = [{ speaker: "partner", text: scene.opening }];
