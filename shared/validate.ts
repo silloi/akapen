@@ -4,7 +4,7 @@
  * - 言いよどみだけの赤は捨てる
  * - 種類の優先順に並べ直し、多くても3つにし、priority を 1 から振り直す
  */
-import type { Akapen, Mark, MarkKind, Note, Turn } from "./types.ts";
+import type { Akapen, Mark, MarkKind, Note, Retry, Turn } from "./types.ts";
 
 export const KIND_ORDER: MarkKind[] = ["stalled", "missed", "impolite", "grammar"];
 
@@ -14,6 +14,7 @@ export interface RawAkapen {
   marks: Omit<Mark, "priority">[];
   good: Note[];
   later: Note[];
+  retry?: Retry[];
   summary: string;
 }
 
@@ -30,6 +31,7 @@ function quoteOk(turns: Turn[], turn: number, quote: string): boolean {
 export function normalizeAkapen(
   raw: RawAkapen,
   turns: Turn[],
+  previous: Pick<Mark, "quote" | "next">[] = [],
 ): { akapen: Akapen; dropped: Dropped[] } {
   const dropped: Dropped[] = [];
   const marks = raw.marks.filter((m) => {
@@ -70,6 +72,15 @@ export function normalizeAkapen(
       marks: sorted.slice(0, 3).map((m, i) => ({ ...m, priority: i + 1 })),
       good: notes(raw.good, 3, "good"),
       later: notes(raw.later, 4, "later"),
+      // 前回の赤ペンに対応するものだけ残す（Claude が作った項目は捨てる）
+      retry: previous.length
+        ? previous.map((p) => {
+            const r = (raw.retry ?? []).find((x) => x.quote === p.quote || x.next === p.next);
+            return r
+              ? { ...p, done: r.done, note: r.note }
+              : { ...p, done: false, note: "今回は、この場面が出てきませんでした。" };
+          })
+        : undefined,
       summary: raw.summary,
     },
     dropped,

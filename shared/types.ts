@@ -113,9 +113,22 @@ export interface Note {
   note: string;
 }
 
+/** 前回の赤ペンが、今回の練習で直せたか */
+export interface Retry {
+  /** 前回の引用 */
+  quote: string;
+  /** 前回の「次はこう言う」 */
+  next: string;
+  done: boolean;
+  /** 一言（やさしい日本語） */
+  note: string;
+}
+
 export interface Akapen {
   /** 本番までに直すこと（多くても3つ、優先順） */
   marks: Mark[];
+  /** 前回の赤ペンの結果（2回目以降） */
+  retry?: Retry[];
   /** 伝わった所（○） */
   good: Note[];
   /** 伝わったので、今は直さなくていいこと（言いよどみは入れない） */

@@ -5,7 +5,7 @@
  */
 import type { CanDo, Kanpe, KanpeLang, Mark, Scene, Turn } from "./types.ts";
 
-export const PROMPT_VERSION = "2026-11-06.3";
+export const PROMPT_VERSION = "2026-11-06.4";
 
 export type Speed = "slow" | "natural";
 
@@ -128,9 +128,28 @@ export const AKAPEN_SCHEMA = {
         additionalProperties: false,
       },
     },
+    retry: {
+      type: "array",
+      description:
+        "前回の赤ペンが渡されたときだけ。前回の赤ペンごとに、今回の会話で直せたか。渡されていなければ空",
+      items: {
+        type: "object",
+        properties: {
+          quote: { type: "string", description: "前回の引用（渡されたまま）" },
+          next: { type: "string", description: "前回の「次はこう言う」（渡されたまま）" },
+          done: {
+            type: "boolean",
+            description: "今回の会話で、同じつまずきが起きなかった（言い方は違ってよい）",
+          },
+          note: { type: "string", description: "一言。やさしい日本語で1文" },
+        },
+        required: ["quote", "next", "done", "note"],
+        additionalProperties: false,
+      },
+    },
     summary: { type: "string", description: "全体の一言。やさしい日本語で1〜2文" },
   },
-  required: ["marks", "good", "later", "summary"],
+  required: ["marks", "good", "later", "retry", "summary"],
   additionalProperties: false,
 } as const;
 
@@ -156,19 +175,32 @@ export const AKAPEN_SYSTEM = `あなたは、日本で暮らす外国人の生�
 - next は、学習者のレベル（生活Can do のレベル）で本番にそのまま言える、短い「です・ます」の言い方にする。敬語を増やしすぎない。
 - why・note・summary は、やさしい日本語で書く（短い文、漢字を減らす、むずかしいことばを使わない）。
 - good（○）は、用件が伝わった所。言い方が完全に正しくなくてよい。
-- 医療の内容（症状・薬・病名）について、助言をしない。`;
+- 医療の内容（症状・薬・病名）について、助言をしない。
 
-export function akapenUser(scene: Scene, cando: CanDo | undefined, turns: Turn[]): string {
+## 前回の赤ペンが渡されたとき（2回目以降の練習）
+- retry に、前回の赤ペンごとに「今回は同じつまずきが起きなかったか」を書く。前回と同じ言い方でなくてよい。同じ場面が今回の会話に出てこなかったときは done を false にし、note にそう書く。
+- 直せた所は good にも入れてよい。直せなかった所は、今回の marks にも入れる。
+- summary の最初に、前回から良くなった所を1文で書く。`;
+
+export function akapenUser(
+  scene: Scene,
+  cando: CanDo | undefined,
+  turns: Turn[],
+  previous: Pick<Mark, "quote" | "next">[] = [],
+): string {
   const lines = turns
     .map((t, i) => `[${i}] ${t.speaker === "partner" ? "相手" : "学習者"}: ${t.text}`)
     .join("\n");
+  const prev = previous.length
+    ? `\n\n## 前回の赤ペン（この練習は2回目以降）\n${previous.map((p) => `- 「${p.quote}」→ 次はこう言う: 「${p.next}」`).join("\n")}`
+    : "";
   return `## 場面
 ${scene.title}（相手: ${scene.partnerRole}）
 ${cando ? `生活Can do 通番${cando.no}（${cando.level}）: ${cando.cando}` : ""}
 用件が終わったと言える条件: ${scene.goal}
 
 ## 会話の記録（文字起こし。番号は発話の番号）
-${lines}`;
+${lines}${prev}`;
 }
 
 // ───────────────────────── カンペ ─────────────────────────

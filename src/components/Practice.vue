@@ -1,11 +1,16 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 import type { Speed } from "../../shared/prompts.ts";
-import type { Turn } from "../../shared/types.ts";
+import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 import { Recorder, speak, stopSpeaking } from "../lib/voice.ts";
 
-const props = defineProps<{ scene: SceneWithCando; health: Health }>();
+const props = defineProps<{
+  scene: SceneWithCando;
+  health: Health;
+  previous?: Mark[];
+  attempt?: number;
+}>();
 const emit = defineEmits<{ finish: [Turn[]]; back: [] }>();
 
 const turns = ref<Turn[]>([]);
@@ -135,6 +140,15 @@ const stateLabel: Record<string, string> = {
         </template>
       </dl>
       <p class="small muted">自分の本当の名前や電話番号は言わなくて大丈夫です。</p>
+      <div v-if="previous?.length" class="prev">
+        <h2 class="small hand">前回の赤ペン ・ 今回はこう言う</h2>
+        <ol>
+          <li v-for="m in previous" :key="m.priority">
+            <span class="was">「{{ m.quote }}」</span>
+            <span class="hand next">→ {{ m.next }}</span>
+          </li>
+        </ol>
+      </div>
     </aside>
 
     <section class="call card">
@@ -248,6 +262,28 @@ select {
 }
 .info dd {
   margin: 0 0 6px;
+}
+.prev {
+  border-top: 1px dashed var(--red);
+  margin-top: 12px;
+  padding-top: 8px;
+}
+.prev ol {
+  margin: 6px 0 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+.prev li {
+  display: grid;
+}
+.prev .was {
+  color: var(--muted);
+  text-decoration: line-through;
+}
+.prev .next {
+  font-size: 16px;
 }
 .call {
   display: grid;

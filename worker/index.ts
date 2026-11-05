@@ -74,20 +74,28 @@ async function handleTurn(request: Request, env: Env): Promise<Response> {
 }
 
 async function handleAkapen(request: Request, env: Env): Promise<Response> {
-  const body = await readJson<{ sceneId: string; turns: Turn[] }>(request);
+  const body = await readJson<{
+    sceneId: string;
+    turns: Turn[];
+    previous?: Pick<Mark, "quote" | "next">[];
+  }>(request);
   const { scene, cando } = sceneOf(body.sceneId);
   const turns = checkTurns(body.turns);
   if (!turns.some((t) => t.speaker === "me")) {
     throw new HttpError(400, "no_utterance", "まだ何も話していません");
   }
+  const previous = (body.previous ?? [])
+    .slice(0, 3)
+    .filter((p) => typeof p?.quote === "string" && typeof p?.next === "string")
+    .map((p) => ({ quote: p.quote.slice(0, MAX_TEXT), next: p.next.slice(0, MAX_TEXT) }));
   const r = await callJson<RawAkapen>(client(env), {
     model: env.CLAUDE_MODEL,
     effort: "medium",
     system: AKAPEN_SYSTEM,
-    messages: [{ role: "user", content: akapenUser(scene, cando, turns) }],
+    messages: [{ role: "user", content: akapenUser(scene, cando, turns, previous) }],
     schema: AKAPEN_SCHEMA,
   });
-  const { akapen, dropped } = normalizeAkapen(r.data, turns);
+  const { akapen, dropped } = normalizeAkapen(r.data, turns, previous);
   if (dropped.length) console.log("akapen dropped", JSON.stringify(dropped));
   return json({ akapen, promptVersion: PROMPT_VERSION, model: r.model });
 }

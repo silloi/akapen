@@ -20,6 +20,9 @@ const turns = ref<Turn[]>([]);
 const akapen = ref<Akapen | null>(null);
 const fixes = ref<Pick<Mark, "quote" | "next">[]>([]);
 const isSample = ref(false);
+/** 前回の赤ペン（もう一度練習するとき） */
+const previous = ref<Mark[]>([]);
+const attempt = ref(1);
 const loadError = ref("");
 /** QR から開いた本番用のカンペ */
 const shared = ref<SharedKanpe | null>(null);
@@ -39,6 +42,19 @@ onMounted(async () => {
 
 function choose(s: SceneWithCando) {
   scene.value = s;
+  turns.value = [];
+  akapen.value = null;
+  fixes.value = [];
+  isSample.value = false;
+  previous.value = [];
+  attempt.value = 1;
+  view.value = "practice";
+}
+
+/** 赤ペンを見た後、同じ場面をもう一度練習する。前回の赤ペンを持って行く */
+function retry() {
+  previous.value = akapen.value?.marks ?? [];
+  attempt.value += 1;
   turns.value = [];
   akapen.value = null;
   fixes.value = [];
@@ -109,6 +125,8 @@ function home() {
       v-else-if="view === 'practice' && scene"
       :scene="scene"
       :health="health"
+      :previous="previous"
+      :attempt="attempt"
       @finish="finishPractice"
       @back="home"
     />
@@ -118,8 +136,11 @@ function home() {
       :turns="turns"
       :initial="akapen"
       :is-sample="isSample"
+      :previous="previous"
+      :attempt="attempt"
+      @update:akapen="akapen = $event"
       @kanpe="toKanpe"
-      @retry="choose(scene)"
+      @retry="retry"
     />
     <LiveKanpe v-else-if="view === 'live' && shared" :data="shared" />
     <KanpeView

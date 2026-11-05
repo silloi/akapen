@@ -42,8 +42,8 @@ export const api = {
   phoneCandos: () => call<(CanDo & { safety: boolean })[]>("/api/phone-candos"),
   turn: (sceneId: string, speed: Speed, turns: Turn[]) =>
     call<PartnerReply>("/api/turn", post({ sceneId, speed, turns })),
-  akapen: (sceneId: string, turns: Turn[]) =>
-    call<{ akapen: Akapen }>("/api/akapen", post({ sceneId, turns })),
+  akapen: (sceneId: string, turns: Turn[], previous: Pick<Mark, "quote" | "next">[] = []) =>
+    call<{ akapen: Akapen }>("/api/akapen", post({ sceneId, turns, previous })),
   kanpe: (sceneId: string, lang: KanpeLang, fixes: Pick<Mark, "quote" | "next">[]) =>
     call<Kanpe>("/api/kanpe", post({ sceneId, lang, fixes })),
   stt: (sceneId: string, audio: Blob) =>

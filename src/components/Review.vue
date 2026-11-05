@@ -9,8 +9,14 @@ const props = defineProps<{
   turns: Turn[];
   initial: Akapen | null;
   isSample: boolean;
+  previous?: Mark[];
+  attempt?: number;
 }>();
-const emit = defineEmits<{ kanpe: [Pick<Mark, "quote" | "next">[]]; retry: [] }>();
+const emit = defineEmits<{
+  kanpe: [Pick<Mark, "quote" | "next">[]];
+  retry: [];
+  "update:akapen": [Akapen];
+}>();
 
 const akapen = ref<Akapen | null>(props.initial);
 const error = ref("");
@@ -29,7 +35,14 @@ async function load() {
   loading.value = true;
   error.value = "";
   try {
-    akapen.value = (await api.akapen(props.scene.id, props.turns)).akapen;
+    akapen.value = (
+      await api.akapen(
+        props.scene.id,
+        props.turns,
+        (props.previous ?? []).map((m) => ({ quote: m.quote, next: m.next })),
+      )
+    ).akapen;
+    emit("update:akapen", akapen.value);
   } catch (e) {
     error.value = (e as Error).message;
   } finally {
@@ -84,7 +97,8 @@ function toKanpe() {
 <template>
   <section class="head">
     <p class="small muted">
-      赤ペン ・ {{ scene.title }}
+      赤ペン<template v-if="(attempt ?? 1) > 1">（{{ attempt }}回目）</template> ・
+      {{ scene.title }}
       <span v-if="isSample" class="badge">見本（手で作った例）</span>
     </p>
     <h1>
@@ -97,6 +111,19 @@ function toKanpe() {
       {{ error }}
       <button class="btn ghost small" type="button" @click="load">もう一度</button>
     </p>
+  </section>
+
+  <section v-if="akapen?.retry?.length" class="retry card" aria-label="前回の赤ペン">
+    <h2 class="small">前回の赤ペン</h2>
+    <ul>
+      <li v-for="r in akapen.retry" :key="r.quote" :class="{ done: r.done }">
+        <span class="mark hand" aria-hidden="true">{{ r.done ? "○" : "△" }}</span>
+        <span class="body">
+          <span class="was">「{{ r.quote }}」→ {{ r.next }}</span>
+          <span class="hand note">{{ r.done ? "直せた。" : "まだ。" }}{{ r.note }}</span>
+        </span>
+      </li>
+    </ul>
   </section>
 
   <ol v-if="akapen && akapen.marks.length" class="index">
@@ -187,6 +214,44 @@ function toKanpe() {
   margin-right: 6px;
   vertical-align: 1px;
   flex: none;
+}
+.retry {
+  margin-bottom: 16px;
+  display: grid;
+  gap: 6px;
+}
+.retry ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.retry li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.retry .mark {
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--red);
+}
+.retry .done .mark {
+  color: var(--ok);
+}
+.retry .body {
+  display: grid;
+}
+.retry .was {
+  font-size: 14px;
+  color: var(--muted);
+}
+.retry .note {
+  font-size: 16px;
+}
+.retry .done .note {
+  color: var(--ok);
 }
 .index {
   list-style: none;
