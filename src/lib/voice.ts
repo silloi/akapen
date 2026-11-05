@@ -1,6 +1,7 @@
 /**
  * 声の入出力。録音は MediaRecorder、相手役の声は ElevenLabs（無ければブラウザの読み上げ）。
  */
+import { forSpeech } from "../../shared/reading.ts";
 import { api } from "./api.ts";
 
 export class Recorder {
@@ -57,7 +58,7 @@ export async function speak(text: string, slow: boolean, useEleven: boolean): Pr
   }
   if (!("speechSynthesis" in window)) return;
   await new Promise<void>((resolve) => {
-    const u = new SpeechSynthesisUtterance(text);
+    const u = new SpeechSynthesisUtterance(forSpeech(text));
     u.lang = "ja-JP";
     u.rate = slow ? 0.8 : 1;
     const ja = speechSynthesis.getVoices().find((v) => v.lang.startsWith("ja"));

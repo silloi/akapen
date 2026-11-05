@@ -8,9 +8,22 @@ defineProps<{
   /** 赤ペンで直した言い方（say の中で目立たせる） */
   fixes?: Pick<Mark, "quote" | "next">[];
   showYomi: boolean;
-  /** 本番用（スマホで電話しながら見る。文字を大きく） */
+  /** 本番用（スマホで電話しながら見る。文字を大きく、「言うこと」以外はたたむ） */
   live?: boolean;
 }>();
+
+import { ref } from "vue";
+/** 本番用でたたむ（開いているものだけ true） */
+const open = ref<Record<string, boolean>>({
+  asked: false,
+  say: true,
+  help: false,
+  memo: true,
+  know: false,
+});
+function toggle(key: string) {
+  open.value[key] = !open.value[key];
+}
 
 const SECTIONS = [
   { key: "asked", title: "聞かれること", hint: "相手はこう言います" },
@@ -28,9 +41,20 @@ const SECTIONS = [
 
     <section v-for="sec in SECTIONS" :id="`k-${sec.key}`" :key="sec.key" class="sec">
       <h3>
-        {{ sec.title }} <span class="small muted">{{ sec.hint }}</span>
+        <button
+          v-if="live"
+          type="button"
+          class="fold"
+          :aria-expanded="open[sec.key]"
+          @click="toggle(sec.key)"
+        >
+          {{ sec.title }} <span class="count">{{ kanpe[sec.key].length }}</span>
+        </button>
+        <template v-else
+          >{{ sec.title }} <span class="small muted">{{ sec.hint }}</span></template
+        >
       </h3>
-      <ul>
+      <ul v-show="!live || open[sec.key]">
         <li
           v-for="(l, i) in kanpe[sec.key]"
           :key="i"
@@ -44,8 +68,22 @@ const SECTIONS = [
     </section>
 
     <section v-if="kanpe.memo?.length" id="k-memo" class="sec memo">
-      <h3>聞き取って書くこと <span class="small muted">本番で相手が言うので、ここに書く</span></h3>
-      <ul>
+      <h3>
+        <button
+          v-if="live"
+          type="button"
+          class="fold"
+          :aria-expanded="open.memo"
+          @click="toggle('memo')"
+        >
+          聞き取って書くこと <span class="count">{{ kanpe.memo.length }}</span>
+        </button>
+        <template v-else
+          >聞き取って書くこと
+          <span class="small muted">本番で相手が言うので、ここに書く</span></template
+        >
+      </h3>
+      <ul v-show="!live || open.memo">
         <li v-for="(m, i) in kanpe.memo" :key="i">
           <span class="ja">{{ m.label }}</span>
           <span class="tr">{{ m.tr }}</span>
@@ -55,8 +93,19 @@ const SECTIONS = [
     </section>
 
     <section id="k-know" class="sec know">
-      <h3>前もって知っておくこと</h3>
-      <ul>
+      <h3>
+        <button
+          v-if="live"
+          type="button"
+          class="fold"
+          :aria-expanded="open.know"
+          @click="toggle('know')"
+        >
+          前もって知っておくこと <span class="count">{{ kanpe.know.length }}</span>
+        </button>
+        <template v-else>前もって知っておくこと</template>
+      </h3>
+      <ul v-show="!live || open.know">
         <li v-for="(k, i) in kanpe.know" :key="i">
           {{ k.text }} <span class="src">（{{ k.source }}）</span>
         </li>
@@ -135,6 +184,31 @@ const SECTIONS = [
 }
 .src {
   font-size: 12px;
+  color: var(--muted);
+}
+.fold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  padding: 0;
+  text-align: left;
+}
+.fold::before {
+  content: "▸ ";
+  color: var(--muted);
+}
+.fold[aria-expanded="true"]::before {
+  content: "▾ ";
+}
+.count {
+  font-size: 13px;
+  font-weight: 400;
   color: var(--muted);
 }
 

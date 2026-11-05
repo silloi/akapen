@@ -20,6 +20,7 @@ import {
   type Speed,
 } from "../shared/prompts.ts";
 import { kanjiDigitsToAscii } from "../shared/numbers.ts";
+import { forSpeech } from "../shared/reading.ts";
 import { findScene, SAFETY_CANDO_NOS, SCENES } from "../shared/scenes.ts";
 import type { Kanpe, KanpeLang, Mark, Turn } from "../shared/types.ts";
 import { normalizeAkapen, type RawAkapen } from "../shared/validate.ts";
@@ -173,7 +174,11 @@ async function handleTts(request: Request, env: Env): Promise<Response> {
     {
       method: "POST",
       headers: { "xi-api-key": env.ELEVENLABS_API_KEY, "content-type": "application/json" },
-      body: JSON.stringify({ text: body.text, model_id: env.TTS_MODEL, language_code: "ja" }),
+      body: JSON.stringify({
+        text: forSpeech(body.text),
+        model_id: env.TTS_MODEL,
+        language_code: "ja",
+      }),
     },
   );
   if (!res.ok) {

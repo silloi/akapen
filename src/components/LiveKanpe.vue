@@ -14,7 +14,10 @@ const JUMPS = [
   { id: "k-know", label: "知る" },
 ];
 function jump(id: string) {
-  document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const el = document.getElementById(id);
+  const fold = el?.querySelector<HTMLButtonElement>(".fold");
+  if (fold && fold.getAttribute("aria-expanded") !== "true") fold.click();
+  el?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 </script>
 
