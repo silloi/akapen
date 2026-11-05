@@ -188,7 +188,8 @@ const SECTIONS = [
 }
 .fold {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 6px;
   align-items: center;
   width: 100%;
   border: 0;
@@ -207,6 +208,7 @@ const SECTIONS = [
   content: "▾ ";
 }
 .count {
+  margin-left: auto;
   font-size: 13px;
   font-weight: 400;
   color: var(--muted);
