@@ -15,6 +15,44 @@
   --body: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
   color-scheme: light;
 }
+/* 言語ごとのフォント（src/lib/i18n.ts の FONTS で読み込む）。その言語の字を先に、日本語の字は日本語のフォントで */
+:root[data-lang="vi"] {
+  --hand: "Mali", "Klee One", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --body: "Be Vietnam Pro", "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
+:root[data-lang="zh"] {
+  --hand: "Klee One", "Ma Shan Zheng", "Hiragino Mincho ProN", "PingFang SC", serif;
+  --body:
+    "Zen Kaku Gothic New", "Noto Sans SC", "Hiragino Sans", "PingFang SC", "Microsoft YaHei",
+    sans-serif;
+}
+/* 中国語の手書きのラベルは、Klee One に無い字（哪 など）だけが混ざらないよう、中国語の書体を先に */
+:root[data-lang="zh"] .lbl,
+:root[data-lang="zh"] .big {
+  --hand: "Ma Shan Zheng", "Klee One", "Hiragino Mincho ProN", "PingFang SC", serif;
+}
+:root[data-lang="ko"] {
+  --hand: "Klee One", "Nanum Pen Script", "Hiragino Mincho ProN", "Apple SD Gothic Neo", serif;
+  --body:
+    "Zen Kaku Gothic New", "Noto Sans KR", "Hiragino Sans", "Apple SD Gothic Neo", "Malgun Gothic",
+    sans-serif;
+}
+/* Nanum Pen Script は字が小さいので、ラベルだけ少し大きく */
+:root[data-lang="ko"] .lbl {
+  font-size: 15px;
+}
+:root[data-lang="ne"] {
+  --hand: "Klee One", "Kalam", "Hiragino Mincho ProN", "Devanagari Sangam MN", serif;
+  --body:
+    "Zen Kaku Gothic New", "Noto Sans Devanagari", "Hiragino Sans", "Devanagari Sangam MN",
+    "Nirmala UI", sans-serif;
+}
+:root[data-lang="my"] {
+  --hand: "Klee One", "Noto Sans Myanmar", "Hiragino Mincho ProN", "Myanmar Sangam MN", serif;
+  --body:
+    "Zen Kaku Gothic New", "Noto Sans Myanmar", "Hiragino Sans", "Myanmar Sangam MN",
+    "Myanmar Text", sans-serif;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #15191d;

@@ -175,8 +175,37 @@ function detect(): UiLang {
 
 export const lang = ref<UiLang>(detect());
 
+/**
+ * 言語ごとに足す Web フォント（Google Fonts）。
+ * 日本語の Zen Kaku Gothic New・Klee One には、ベトナム語の声調つき文字、ハングル、デーヴァナーガリー、
+ * ミャンマー文字、簡体字の一部が無い。無い字だけが別のフォントに落ちると1行の中で混ざるので、
+ * その言語の本文と手書きの書体を先に置き、日本語の字はこれまでどおり日本語のフォントで出す（style.css の [data-lang]）。
+ */
+const FONTS: Partial<Record<UiLang, string>> = {
+  vi: "Be+Vietnam+Pro:wght@400;500;700&family=Mali:wght@400;600",
+  zh: "Noto+Sans+SC:wght@400;500;700&family=Ma+Shan+Zheng",
+  ko: "Noto+Sans+KR:wght@400;500;700&family=Nanum+Pen+Script",
+  ne: "Noto+Sans+Devanagari:wght@400;500;700&family=Kalam:wght@400;700",
+  my: "Noto+Sans+Myanmar:wght@400;500;700",
+};
+const loaded = new Set<UiLang>();
+function applyLang(l: UiLang): void {
+  if (typeof document === "undefined") return;
+  document.documentElement.lang = l === "easy" ? "ja" : l;
+  document.documentElement.dataset.lang = l;
+  const f = FONTS[l];
+  if (!f || loaded.has(l)) return;
+  loaded.add(l);
+  const link = document.createElement("link");
+  link.rel = "stylesheet";
+  link.href = `https://fonts.googleapis.com/css2?family=${f}&display=swap`;
+  document.head.appendChild(link);
+}
+applyLang(lang.value);
+
 export function setLang(l: UiLang): void {
   lang.value = l;
+  applyLang(l);
   try {
     localStorage.setItem(STORAGE, l);
   } catch {
