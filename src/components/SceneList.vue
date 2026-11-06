@@ -5,9 +5,14 @@ import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 
 const props = defineProps<{ scenes: SceneWithCando[]; health: Health }>();
 const reviewed = computed(() => props.scenes.filter((s) => s.status !== "draft"));
+/** 下書きの絞り込み（電話 / 窓口） */
+const channel = ref<"all" | "phone" | "counter">("all");
 const drafts = computed(() => {
   const map = new Map<string, SceneWithCando[]>();
-  for (const s of props.scenes.filter((x) => x.status === "draft")) {
+  for (const s of props.scenes.filter(
+    (x) =>
+      x.status === "draft" && (channel.value === "all" || (x.channel ?? "phone") === channel.value),
+  )) {
     const key = s.cando?.major ?? "その他";
     map.set(key, [...(map.get(key) ?? []), s]);
   }
@@ -163,6 +168,24 @@ const groups = computed(() => {
 }
 .drafts-h {
   margin-top: 28px;
+}
+.chips {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+.chips button {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 2px 12px;
+  font-size: 13px;
+}
+.chips button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
 }
 .draft-group h3 {
   font-size: 14px;
