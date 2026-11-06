@@ -177,15 +177,15 @@ export const lang = ref<UiLang>(detect());
 
 /**
  * 言語ごとに足す Web フォント（Google Fonts）。
- * 日本語の Zen Kaku Gothic New・Klee One には、ベトナム語の声調つき文字、ハングル、デーヴァナーガリー、
+ * 日本語の Zen Kaku Gothic New には、ベトナム語の声調つき文字、ハングル、デーヴァナーガリー、
  * ミャンマー文字、簡体字の一部が無い。無い字だけが別のフォントに落ちると1行の中で混ざるので、
- * その言語の本文と手書きの書体を先に置き、日本語の字はこれまでどおり日本語のフォントで出す（style.css の [data-lang]）。
+ * その言語の本文の書体を足す（style.css の [data-lang]）。手書きの書体（Klee One）は日本語の赤ペンだけに使う。
  */
 const FONTS: Partial<Record<UiLang, string>> = {
-  vi: "Be+Vietnam+Pro:wght@400;500;700&family=Mali:wght@400;600",
-  zh: "Noto+Sans+SC:wght@400;500;700&family=Ma+Shan+Zheng",
-  ko: "Noto+Sans+KR:wght@400;500;700&family=Nanum+Pen+Script",
-  ne: "Noto+Sans+Devanagari:wght@400;500;700&family=Kalam:wght@400;700",
+  vi: "Be+Vietnam+Pro:wght@400;500;700",
+  zh: "Noto+Sans+SC:wght@400;500;700",
+  ko: "Noto+Sans+KR:wght@400;500;700",
+  ne: "Noto+Sans+Devanagari:wght@400;500;700",
   my: "Noto+Sans+Myanmar:wght@400;500;700",
 };
 const loaded = new Set<UiLang>();

@@ -159,7 +159,7 @@ const stateLabel = computed<Record<string, string>>(() => ({
       </dl>
       <p class="small muted">{{ t("practice.infoNote") }}</p>
       <div v-if="previous?.length" class="prev">
-        <h2 class="small hand">{{ t("practice.previous") }}</h2>
+        <h2 class="small hand tx">{{ t("practice.previous") }}</h2>
         <ol>
           <li v-for="m in previous" :key="m.priority">
             <span class="was">「{{ m.quote }}」</span>
@@ -180,7 +180,7 @@ const stateLabel = computed<Record<string, string>>(() => ({
           }}</span>
           <p>{{ tn.text }}</p>
         </div>
-        <p v-if="ended" class="ended hand">
+        <p v-if="ended" class="ended hand tx">
           {{ t(scene.channel === "counter" ? "practice.endedCounter" : "practice.ended") }}
         </p>
       </div>

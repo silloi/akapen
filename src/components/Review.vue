@@ -142,10 +142,12 @@ function toKanpe() {
     </p>
     <h1>
       {{ t("review.fixBefore") }}
-      <span class="hand big">{{ akapen ? akapen.marks.length : "…" }}{{ t("review.count") }}</span>
+      <span class="hand big tx"
+        >{{ akapen ? akapen.marks.length : "…" }}{{ t("review.count") }}</span
+      >
     </h1>
     <p v-if="akapen" class="summary">
-      <span class="lbl hand">{{ t("review.fromTeacher") }}</span>
+      <span class="lbl hand tx">{{ t("review.fromTeacher") }}</span>
       {{ akapen.summary }}
       <span v-if="tr[akapen.summary]" class="trline">{{ tr[akapen.summary] }}</span>
     </p>
@@ -204,12 +206,12 @@ function toKanpe() {
       <div v-for="m in r.marks" :id="`mark-${m.priority}`" :key="m.priority" class="marg">
         <p class="hand why">
           <span class="num">{{ m.priority }}</span
-          ><span class="lbl">{{ t("review.where") }}</span
+          ><span class="lbl tx">{{ t("review.where") }}</span
           >{{ m.why }}
         </p>
         <p v-if="tr[m.why]" class="trline">{{ tr[m.why] }}</p>
         <p class="hand next">
-          <span class="lbl">{{ t("review.next") }}</span
+          <span class="lbl tx">{{ t("review.next") }}</span
           >{{ m.next }}
         </p>
         <p v-if="tr[m.next]" class="trline">{{ tr[m.next] }}</p>

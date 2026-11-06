@@ -41,7 +41,7 @@ const groups = computed(() => {
   <section class="intro">
     <h1>{{ t("home.title") }}</h1>
     <p>
-      {{ t("home.lead1") }}<span class="hand">{{ t("home.lead.highlight") }}</span
+      {{ t("home.lead1") }}<span class="hand tx">{{ t("home.lead.highlight") }}</span
       >{{ t("home.lead2") }}
     </p>
     <p class="small muted">{{ t("home.note") }}</p>
