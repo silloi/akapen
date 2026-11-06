@@ -48,6 +48,10 @@ export interface Scene {
   id: string;
   /** 生活Can do の通番 */
   candoNo: number;
+  /** reviewed: 作り手（日本語教師）が確かめた / draft: Claude の下書き（検査役は通したが、先生はまだ） */
+  status: "reviewed" | "draft";
+  /** 電話か、窓口（対面）か。無ければ電話 */
+  channel?: "phone" | "counter";
   /** 画面に出す場面の名前 */
   title: string;
   /** 一言の説明（画面用） */
@@ -74,6 +78,8 @@ export interface Scene {
   keyterms: string[];
   /** 役所・公共の窓口か。true なら、2回聞き返しても通じないとき相手役がやさしい日本語に切り替える（多くの自治体が電話応対でしていること） */
   office?: boolean;
+  /** 医療機関の受付か。true なら、相手役は受付として名前・日時・用件だけを聞き、医療の助言をしない */
+  medical?: boolean;
 }
 
 export type Speaker = "partner" | "me";

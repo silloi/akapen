@@ -219,7 +219,7 @@ export default {
           const ready = new Set(SCENES.map((s) => s.candoNo));
           return json(
             allCandos()
-              .filter((c) => c.cando.includes("電話") && !ready.has(c.no))
+              .filter((c) => /電話(で|し|を)|に電話|電話による/.test(c.cando) && !ready.has(c.no))
               .map((c) => ({ ...c, safety: SAFETY_CANDO_NOS.has(c.no) })),
           );
         }

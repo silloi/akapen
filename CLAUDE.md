@@ -8,7 +8,7 @@
 - 医療の助言はしない。病院の場面でも、相手役は受付として名前・日時・用件を聞くだけ。デモの主な場面は医療以外（粗大ごみ）。
 - 安全・生命にかかわる場面（`SAFETY_CANDO_NOS`）は予行演習にしない。
 - リポジトリは公開。実在の人の録音・録画・文字起こし・名前は入れない（`local/`、git 管理外）。キーも入れない。作り手の個人の情報も、書く前に作り手に聞く。
-- 場面・評価・見本の会話の人物・店・地名・電話番号はすべて架空。
+- 場面・評価・見本の会話の人物・店・地名・電話番号はすべて架空。Claude が下書きした場面は、検査役を通しても `status: "draft"` のままにし、作り手が確かめてから `reviewed` にする。
 - データの出典を書く（`data/cando.meta.json`、README の出典）。
 - 赤ペンは相手役と別の呼び出し。言いよどみは直さない。多くても3つ。優先順は `shared/validate.ts` の `KIND_ORDER`。
 - カンペの「知っておくこと」は、場面カードの `notes` と生活・文化・社会的情報だけを元にする（Claude に事実を足させない）。
@@ -17,11 +17,11 @@
 
 ## 構成
 
-- `shared/` 共通: `types.ts`、`scenes.ts`（場面カード。`keyterms` は文字起こしに渡す語）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`cando.ts`
+- `shared/` 共通: `types.ts`、`scenes.ts`（手書きの場面カード＋`data/scenes.generated.json` の下書き。`keyterms` は文字起こしに渡す語、`status` は先生が確かめたか）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`cando.ts`
 - `worker/` Cloudflare Worker: `/api/scenes`、`/api/phone-candos`、`/api/turn`、`/api/akapen`、`/api/kanpe`、`/api/stt`（ElevenLabs Scribe）、`/api/tts`
 - `src/` Vue 3: `SceneList.vue` → `Practice.vue` → `Review.vue`（赤ペン、案A の添削。2回目以降は前回の赤ペンの ○△）→ `KanpeView.vue`（QR）。`KanpeSheet.vue` はカンペの表示、`LiveKanpe.vue` は QR から開く本番用（`#k=` の URL。`lib/share.ts` で圧縮）。`lib/sample.ts` は手で作った見本
 - `eval/` 評価の会話（`cases/*.json`、正解は作り手が入れる。`draft` は仮）と比べ方（`score.ts`）
-- `scripts/` `build-data.ts`（データの取り込み）、`eval.ts`（評価）、`try-partner.ts`（相手役を試す）、`simulate.ts`（学習者役も Claude にした通し）、`gold-sheet.ts`（正解を読む表）
+- `scripts/` `build-data.ts`（データの取り込み）、`build-scenes.ts`（場面の下書き → 検査役）、`scene-sheet.ts`（場面の一覧 `docs/scenes.md`）、`eval.ts`（評価）、`try-partner.ts`（相手役を試す）、`simulate.ts`（学習者役も Claude にした通し）、`gold-sheet.ts`（正解を読む表）
 - `docs/` 仕様・計画・評価・文字起こしの確かめ・デモの流れ。`docs/research/` は調査の報告
 
 ## 開発メモ

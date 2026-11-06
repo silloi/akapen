@@ -4,9 +4,13 @@
  */
 import type { Scene } from "./types.ts";
 
-export const SCENES: Scene[] = [
+import generated from "../data/scenes.generated.json" with { type: "json" };
+
+/** 手で書いた場面（作り手が確かめる） */
+export const HAND_SCENES: Scene[] = [
   {
     id: "sodai-gomi",
+    status: "reviewed",
     candoNo: 588,
     title: "粗大ごみの回収を電話で頼む",
     summary: "市の受付センターに電話して、いすなどの大きいごみを取りに来てもらう。",
@@ -69,6 +73,7 @@ export const SCENES: Scene[] = [
   },
   {
     id: "restaurant",
+    status: "reviewed",
     candoNo: 125,
     title: "レストランの予約を電話でする",
     summary: "お店に電話して、日にち・時間・人数を伝えて席を予約する。",
@@ -118,6 +123,7 @@ export const SCENES: Scene[] = [
   },
   {
     id: "taxi",
+    status: "reviewed",
     candoNo: 160,
     title: "タクシーを電話で予約する",
     summary: "タクシー会社に電話して、日時と場所を伝えて車を呼ぶ。",
@@ -168,6 +174,7 @@ export const SCENES: Scene[] = [
   },
   {
     id: "clinic",
+    status: "reviewed",
     candoNo: 6,
     title: "病院の予約を電話でする",
     summary: "クリニックの受付に電話して、診察の予約をとる。症状のくわしい相談はしない。",
@@ -201,6 +208,7 @@ export const SCENES: Scene[] = [
     ],
     twists: ["初めての受診なので、受付の時間に少し早く来るように言う。"],
     goal: "予約の日時・名前・電話番号・持ち物が決まり、相手が復唱して確かめた。",
+    medical: true,
     limits: [
       "受付として、名前・日時・用件（簡単に）だけを聞く。症状について質問を重ねない。",
       "医療の助言（薬・病名・緊急度の判断）は、決してしない。具合が急に悪いと言われたら、119番か、#7119（救急安心センター。地域による）に電話するように言って、予約の話をやめる。",
@@ -224,6 +232,12 @@ export const SCENES: Scene[] = [
     ],
   },
 ];
+
+/** Claude が下書きし、検査役を通した場面（scripts/build-scenes.ts）。先生が確かめるまで draft */
+export const GENERATED_SCENES: Scene[] = generated as Scene[];
+
+/** 全部の場面（手書きが先） */
+export const SCENES: Scene[] = [...HAND_SCENES, ...GENERATED_SCENES];
 
 export function findScene(id: string): Scene | undefined {
   return SCENES.find((s) => s.id === id);

@@ -11,6 +11,10 @@ export function findSocial(nos: number[]): SocialInfo[] {
   return DATA.social.filter((s) => nos.includes(s.no));
 }
 
+export function findSocialByMinor(minorNo: string): SocialInfo[] {
+  return DATA.social.filter((s) => s.minorNo === minorNo);
+}
+
 export function allCandos(): CanDo[] {
   return DATA.candos;
 }

@@ -3,7 +3,16 @@ import { computed, onMounted, ref } from "vue";
 import type { CanDo } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 
-defineProps<{ scenes: SceneWithCando[]; health: Health }>();
+const props = defineProps<{ scenes: SceneWithCando[]; health: Health }>();
+const reviewed = computed(() => props.scenes.filter((s) => s.status !== "draft"));
+const drafts = computed(() => {
+  const map = new Map<string, SceneWithCando[]>();
+  for (const s of props.scenes.filter((x) => x.status === "draft")) {
+    const key = s.cando?.major ?? "その他";
+    map.set(key, [...(map.get(key) ?? []), s]);
+  }
+  return [...map.entries()];
+});
 const emit = defineEmits<{ choose: [SceneWithCando]; sample: [] }>();
 
 const others = ref<(CanDo & { safety: boolean })[]>([]);
@@ -37,7 +46,7 @@ const groups = computed(() => {
     <h2 class="h">場面をえらぶ</h2>
     <div class="grid">
       <button
-        v-for="s in scenes"
+        v-for="s in reviewed"
         :key="s.id"
         class="scene"
         type="button"
@@ -46,11 +55,38 @@ const groups = computed(() => {
         <span class="meta">
           <span class="badge">{{ s.cando?.level }}</span>
           <span class="badge">生活Can do {{ s.candoNo }}</span>
-          <span v-if="s.id === 'clinic'" class="badge">受付と話すだけ</span>
+          <span v-if="s.medical" class="badge">受付と話すだけ</span>
         </span>
         <span class="title">{{ s.title }}</span>
         <span class="sum">{{ s.summary }}</span>
       </button>
+    </div>
+    <h2 class="h drafts-h">
+      ほかの場面
+      <span class="small muted"
+        >下書き。先生が確かめる前のもの（{{ scenes.length - reviewed.length }}）</span
+      >
+    </h2>
+    <div v-for="[major, list] in drafts" :key="major" class="draft-group">
+      <h3>{{ major }}</h3>
+      <div class="grid">
+        <button
+          v-for="s in list"
+          :key="s.id"
+          class="scene draft"
+          type="button"
+          @click="emit('choose', s)"
+        >
+          <span class="meta">
+            <span class="badge">{{ s.cando?.level }}</span>
+            <span class="badge">{{ s.channel === "counter" ? "窓口" : "電話" }}</span>
+            <span v-if="s.medical" class="badge">受付と話すだけ</span>
+            <span class="badge draft-badge">下書き</span>
+          </span>
+          <span class="title">{{ s.title }}</span>
+          <span class="sum">{{ s.summary }}</span>
+        </button>
+      </div>
     </div>
     <p class="sample">
       <button class="btn ghost" type="button" @click="emit('sample')">見本の赤ペンを見る</button>
@@ -73,7 +109,7 @@ const groups = computed(() => {
   </section>
 
   <details v-if="groups.length" class="others">
-    <summary>ほかの電話の場面（準備中）</summary>
+    <summary>まだ場面になっていない電話の Can do</summary>
     <div v-for="[major, list] in groups" :key="major" class="group">
       <h3>{{ major }}</h3>
       <ul>
@@ -117,6 +153,21 @@ const groups = computed(() => {
 }
 .scene:hover {
   border-color: var(--red);
+}
+.scene.draft {
+  border-style: dashed;
+}
+.draft-badge {
+  color: var(--red);
+  border-color: var(--red);
+}
+.drafts-h {
+  margin-top: 28px;
+}
+.draft-group h3 {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 12px 0 6px;
 }
 .meta {
   display: flex;
