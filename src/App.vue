@@ -9,6 +9,7 @@ import SceneList from "./components/SceneList.vue";
 import { api, type Health, type SceneWithCando } from "./lib/api.ts";
 import { SAMPLE_AKAPEN, SAMPLE_SCENE_ID, SAMPLE_TURNS } from "./lib/sample.ts";
 import { decodeKanpe, type SharedKanpe } from "./lib/share.ts";
+import { STYLE_LABELS, type PartnerStyle } from "../shared/prompts.ts";
 
 type View = "scenes" | "practice" | "review" | "kanpe" | "live";
 
@@ -23,6 +24,8 @@ const isSample = ref(false);
 /** 前回の赤ペン（もう一度練習するとき） */
 const previous = ref<Mark[]>([]);
 const attempt = ref(1);
+/** 今回の相手の様子（赤ペンの画面で明かす） */
+const style = ref<PartnerStyle>("normal");
 const loadError = ref("");
 /** QR から開いた本番用のカンペ */
 const shared = ref<SharedKanpe | null>(null);
@@ -71,8 +74,9 @@ function showSample() {
   view.value = "review";
 }
 
-function finishPractice(t: Turn[]) {
+function finishPractice(t: Turn[], s: PartnerStyle) {
   turns.value = t;
+  style.value = s;
   akapen.value = null;
   fixes.value = [];
   view.value = "review";
@@ -138,6 +142,7 @@ function home() {
       :is-sample="isSample"
       :previous="previous"
       :attempt="attempt"
+      :style-label="isSample ? '' : STYLE_LABELS[style]"
       @update:akapen="akapen = $event"
       @kanpe="toKanpe"
       @retry="retry"

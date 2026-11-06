@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, onMounted, ref } from "vue";
-import type { Speed } from "../../shared/prompts.ts";
+import { randomStyle, STYLE_LABELS, type PartnerStyle, type Speed } from "../../shared/prompts.ts";
 import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 import { Recorder, speak, stopSpeaking } from "../lib/voice.ts";
@@ -11,10 +11,13 @@ const props = defineProps<{
   previous?: Mark[];
   attempt?: number;
 }>();
-const emit = defineEmits<{ finish: [Turn[]]; back: [] }>();
+const emit = defineEmits<{ finish: [Turn[], PartnerStyle]; back: [] }>();
 
 const turns = ref<Turn[]>([]);
 const speed = ref<Speed>("slow");
+/** 相手の様子。"random" は開始のたびに引く（本番の相手は選べない） */
+const styleChoice = ref<PartnerStyle | "random">("random");
+const style = ref<PartnerStyle>(randomStyle());
 const state = ref<"idle" | "recording" | "transcribing" | "thinking" | "speaking">("idle");
 const ended = ref(false);
 const error = ref("");
@@ -40,7 +43,7 @@ async function partnerTurn() {
   state.value = "thinking";
   error.value = "";
   try {
-    const r = await api.turn(props.scene.id, speed.value, turns.value);
+    const r = await api.turn(props.scene.id, speed.value, style.value, turns.value);
     ended.value = r.ended;
     await partnerSays(r.say);
   } catch (e) {
@@ -125,6 +128,17 @@ const stateLabel: Record<string, string> = {
         <select v-model="speed" :disabled="turns.length > 1">
           <option value="slow">ゆっくり、はっきり</option>
           <option value="natural">ふつう</option>
+        </select>
+      </label>
+      <label class="small">
+        相手の様子
+        <select
+          v-model="styleChoice"
+          :disabled="turns.length > 1"
+          @change="style = styleChoice === 'random' ? randomStyle() : styleChoice"
+        >
+          <option value="random">おまかせ（毎回ちがう）</option>
+          <option v-for="(label, key) in STYLE_LABELS" :key="key" :value="key">{{ label }}</option>
         </select>
       </label>
     </div>
@@ -217,7 +231,7 @@ const stateLabel: Record<string, string> = {
       class="btn red"
       type="button"
       :disabled="!turns.some((t) => t.speaker === 'me') || state !== 'idle'"
-      @click="emit('finish', turns)"
+      @click="emit('finish', turns, style)"
     >
       {{ ended ? "赤ペンを見る" : "ここで終えて、赤ペンを見る" }}
     </button>

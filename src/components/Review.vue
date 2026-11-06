@@ -11,6 +11,8 @@ const props = defineProps<{
   isSample: boolean;
   previous?: Mark[];
   attempt?: number;
+  /** 今回の相手の様子（練習中は明かさない） */
+  styleLabel?: string;
 }>();
 const emit = defineEmits<{
   kanpe: [Pick<Mark, "quote" | "next">[]];
@@ -100,6 +102,7 @@ function toKanpe() {
       赤ペン<template v-if="(attempt ?? 1) > 1">（{{ attempt }}回目）</template> ・
       {{ scene.title }}
       <span v-if="isSample" class="badge">見本（手で作った例）</span>
+      <span v-if="styleLabel" class="badge">今日の相手: {{ styleLabel }}</span>
     </p>
     <h1>
       本番の前に直すのは

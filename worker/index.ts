@@ -17,7 +17,9 @@ import {
   partnerSystem,
   PROMPT_VERSION,
   type PartnerReply,
+  type PartnerStyle,
   type Speed,
+  STYLE_LABELS,
 } from "../shared/prompts.ts";
 import { kanjiDigitsToAscii } from "../shared/numbers.ts";
 import { forSpeech } from "../shared/reading.ts";
@@ -58,15 +60,21 @@ function checkTurns(turns: unknown): Turn[] {
 }
 
 async function handleTurn(request: Request, env: Env): Promise<Response> {
-  const body = await readJson<{ sceneId: string; speed?: Speed; turns: Turn[] }>(request);
+  const body = await readJson<{
+    sceneId: string;
+    speed?: Speed;
+    style?: PartnerStyle;
+    turns: Turn[];
+  }>(request);
   const { scene, cando } = sceneOf(body.sceneId);
   const turns = checkTurns(body.turns);
   if (turns.length === 0) return json<PartnerReply>({ say: scene.opening, ended: false });
   const speed: Speed = body.speed === "natural" ? "natural" : "slow";
+  const style: PartnerStyle = body.style && body.style in STYLE_LABELS ? body.style : "normal";
   const r = await callJson<PartnerReply>(client(env), {
     model: env.CLAUDE_MODEL,
     effort: "low",
-    system: partnerSystem(scene, cando, speed),
+    system: partnerSystem(scene, cando, speed, style),
     messages: partnerMessages(turns),
     schema: PARTNER_SCHEMA,
     maxTokens: 4000,

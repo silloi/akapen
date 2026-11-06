@@ -5,9 +5,38 @@
  */
 import type { CanDo, Kanpe, KanpeLang, Mark, Scene, Turn } from "./types.ts";
 
-export const PROMPT_VERSION = "2026-11-06.6";
+export const PROMPT_VERSION = "2026-11-06.7";
 
 export type Speed = "slow" | "natural";
+
+/**
+ * 相手の様子（難しさは相手役のふるまいとして決める。学習者のレベルで決めない）。
+ * 既定は開始のたびにランダム（本番の相手は選べないので）。
+ */
+export type PartnerStyle = "warm" | "normal" | "busy" | "curt";
+
+export const STYLE_LABELS: Record<PartnerStyle, string> = {
+  warm: "ていねいで、ゆっくり",
+  normal: "ふつう（友好的だが本物）",
+  busy: "急いでいる",
+  curt: "気むずかしい",
+};
+
+/** ランダムに選ぶ（ふつうが出やすい） */
+export function randomStyle(rand: () => number = Math.random): PartnerStyle {
+  const r = rand();
+  if (r < 0.15) return "warm";
+  if (r < 0.6) return "normal";
+  if (r < 0.85) return "busy";
+  return "curt";
+}
+
+const STYLE_NOTES: Record<PartnerStyle, string> = {
+  warm: "今日は手が空いていて、気持ちに余裕がある。言い直しも、区切り方も、ていねい。それでも敬語と手順は本物のまま。",
+  normal: "ふつうの受付。友好的だが、仕事として手順どおりに進める。",
+  busy: "ほかの電話が待っていて、急いでいる。文は短く、少し早口（画面では文を短くする）。相手が考えている間も「はい」「それで？」とせかすことがある。聞き返されれば言い直すが、長くは説明しない。",
+  curt: "今日は機嫌がよくなく、ぶっきらぼう。ため息まじり。必要なことしか言わず、「ですから」「先ほども申し上げましたが」が出る。ただし失礼な言葉は使わず、手順は守り、聞き返しには（面倒そうに）答える。学習者が落ち着いて確かめれば、話は進む。",
+};
 
 // ───────────────────────── 相手役 ─────────────────────────
 
@@ -26,13 +55,19 @@ export interface PartnerReply {
   ended: boolean;
 }
 
-export function partnerSystem(scene: Scene, cando: CanDo | undefined, speed: Speed): string {
+export function partnerSystem(
+  scene: Scene,
+  cando: CanDo | undefined,
+  speed: Speed,
+  style: PartnerStyle = "normal",
+): string {
   const asks = scene.asks.map((a) => `- ${a.label}: 「${a.example}」`).join("\n");
   const twists = scene.twists.map((t) => `- ${t}`).join("\n");
   const limits = scene.limits.map((t) => `- ${t}`).join("\n");
   return `あなたは、日本で暮らす外国人が、本番の電話の前に予行演習をするための相手役です。
 役: ${scene.partnerRole}
 場面: ${scene.title}${cando ? `（生活Can do 通番${cando.no}・${cando.level}: ${cando.cando}）` : ""}
+今日の様子: ${STYLE_NOTES[style]}
 
 ## ふるまい
 - 本物の${scene.partnerRole}として、ふだん使う日本語（敬語・決まった言い方）で話す。学習者に合わせて言い換えたり、英語など他の言語を使ったりしない（例外は下の「通じないとき」）。

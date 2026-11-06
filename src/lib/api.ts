@@ -1,4 +1,4 @@
-import type { PartnerReply, Speed } from "../../shared/prompts.ts";
+import type { PartnerReply, PartnerStyle, Speed } from "../../shared/prompts.ts";
 import type { Akapen, CanDo, Kanpe, KanpeLang, Mark, Scene, Turn } from "../../shared/types.ts";
 
 export type SceneWithCando = Scene & { cando?: CanDo };
@@ -40,8 +40,8 @@ export const api = {
   health: () => call<Health>("/api/health"),
   scenes: () => call<SceneWithCando[]>("/api/scenes"),
   phoneCandos: () => call<(CanDo & { safety: boolean })[]>("/api/phone-candos"),
-  turn: (sceneId: string, speed: Speed, turns: Turn[]) =>
-    call<PartnerReply>("/api/turn", post({ sceneId, speed, turns })),
+  turn: (sceneId: string, speed: Speed, style: PartnerStyle, turns: Turn[]) =>
+    call<PartnerReply>("/api/turn", post({ sceneId, speed, style, turns })),
   akapen: (sceneId: string, turns: Turn[], previous: Pick<Mark, "quote" | "next">[] = []) =>
     call<{ akapen: Akapen }>("/api/akapen", post({ sceneId, turns, previous })),
   kanpe: (sceneId: string, lang: KanpeLang, fixes: Pick<Mark, "quote" | "next">[]) =>
