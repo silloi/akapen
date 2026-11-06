@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Kanpe, Mark } from "../../shared/types.ts";
+import { t } from "../lib/i18n.ts";
 
 defineProps<{
   title: string;
@@ -26,9 +27,9 @@ function toggle(key: string) {
 }
 
 const SECTIONS = [
-  { key: "asked", title: "聞かれること", hint: "相手はこう言います" },
-  { key: "say", title: "言うこと", hint: "〔 〕は自分のことを入れる" },
-  { key: "help", title: "困ったとき", hint: "聞き返すのは失礼ではありません" },
+  { key: "asked", title: "kanpe.asked", hint: "kanpe.askedHint" },
+  { key: "say", title: "kanpe.say", hint: "kanpe.sayHint" },
+  { key: "help", title: "kanpe.help", hint: "kanpe.helpHint" },
 ] as const;
 </script>
 
@@ -36,7 +37,7 @@ const SECTIONS = [
   <article :class="['kanpe', { live }]">
     <header class="kh">
       <h2>{{ title }}</h2>
-      <p class="small muted">相手: {{ partner }}</p>
+      <p class="small muted">{{ t("common.partner") }}: {{ partner }}</p>
     </header>
 
     <section v-for="sec in SECTIONS" :id="`k-${sec.key}`" :key="sec.key" class="sec">
@@ -48,7 +49,7 @@ const SECTIONS = [
           :aria-expanded="open[sec.key]"
           @click="toggle(sec.key)"
         >
-          {{ sec.title }} <span class="count">{{ kanpe[sec.key].length }}</span>
+          {{ t(sec.title) }} <span class="count">{{ kanpe[sec.key].length }}</span>
         </button>
         <template v-else
           >{{ sec.title }} <span class="small muted">{{ sec.hint }}</span></template
@@ -76,11 +77,11 @@ const SECTIONS = [
           :aria-expanded="open.memo"
           @click="toggle('memo')"
         >
-          聞き取って書くこと <span class="count">{{ kanpe.memo.length }}</span>
+          {{ t("kanpe.memo") }} <span class="count">{{ kanpe.memo.length }}</span>
         </button>
         <template v-else
-          >聞き取って書くこと
-          <span class="small muted">本番で相手が言うので、ここに書く</span></template
+          >{{ t("kanpe.memo") }}
+          <span class="small muted">{{ t("kanpe.memoHint") }}</span></template
         >
       </h3>
       <ul v-show="!live || open.memo">
@@ -101,9 +102,9 @@ const SECTIONS = [
           :aria-expanded="open.know"
           @click="toggle('know')"
         >
-          前もって知っておくこと <span class="count">{{ kanpe.know.length }}</span>
+          {{ t("kanpe.know") }} <span class="count">{{ kanpe.know.length }}</span>
         </button>
-        <template v-else>前もって知っておくこと</template>
+        <template v-else>{{ t("kanpe.know") }}</template>
       </h3>
       <ul v-show="!live || open.know">
         <li v-for="(k, i) in kanpe.know" :key="i">

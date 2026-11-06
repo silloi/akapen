@@ -1,0 +1,2022 @@
+{
+  "easy": {
+    "sodai-gomi": {
+      "title": "大きいごみを電話でたのむ",
+      "summary": "市の受付センターに電話します。いすなどの大きいごみを取りに来てもらいます。"
+    },
+    "restaurant": {
+      "title": "レストランを電話で予約する",
+      "summary": "お店に電話します。日にち・時間・人数を言って、席を予約します。"
+    },
+    "taxi": {
+      "title": "タクシーを電話で予約する",
+      "summary": "タクシー会社に電話します。日にち・時間・場所を言って、車を呼びます。"
+    },
+    "clinic": {
+      "title": "病院を電話で予約する",
+      "summary": "病院の受付に電話して、みてもらう日を予約します。病気のくわしい話はしません。"
+    },
+    "cando-8": {
+      "title": "はじめての病院で受付をする",
+      "summary": "はじめて行く病院の受付で、保険証を出します。質問に答えて、体のことを書く紙をもらいます。"
+    },
+    "cando-77": {
+      "title": "不動産屋で住みたい部屋を話す",
+      "summary": "不動産屋（家を紹介する店）で、住みたい部屋のことを言います。家賃（毎月払うお金）、部屋の数、場所、住みはじめる日です。"
+    },
+    "cando-87": {
+      "title": "家を借りるときの書類を聞く",
+      "summary": "不動産屋で、家を借りる約束に必要な書類を聞きます。いつまでに出すか、どこでもらうかも聞きます。"
+    },
+    "cando-95": {
+      "title": "市役所で転入届を出す",
+      "summary": "引っ越してきた市の市役所で、転入届（新しい住所の役所に出す紙）を出します。聞かれたことに答えます。"
+    },
+    "cando-96": {
+      "title": "引っ越しでいらない物の捨て方を聞く",
+      "summary": "市役所のごみの窓口で聞きます。引っ越しでいらなくなった家具や電気の道具の捨て方を聞いて、わかるようにします。"
+    },
+    "cando-101": {
+      "title": "ガスを使いたいと電話する",
+      "summary": "引っ越した家のガス会社に電話します。ガスを使えるようにする日を決めます。"
+    },
+    "cando-105": {
+      "title": "ガスのお金のまちがいを聞く",
+      "summary": "ガス会社に電話します。住む前のガスのお金も書いてあるので、確かめます。"
+    },
+    "cando-110": {
+      "title": "服の色とサイズを店の人に聞く",
+      "summary": "デパートの服の売り場で、セーターのほかの色やサイズがあるか、店の人に聞きます。"
+    },
+    "cando-121": {
+      "title": "こわれていた物を取りかえてもらう",
+      "summary": "ホームセンターのカウンターで話します。買った物がこわれていたので、取りかえるか、お金を返してもらいます。"
+    },
+    "cando-128": {
+      "title": "レストランで人数と席を言う",
+      "summary": "レストランに入って、店の人に人数を言います。たばこをすう席か、すわない席かも言います。"
+    },
+    "cando-134": {
+      "title": "食べられない物を言って注文する",
+      "summary": "日本料理の店で、宗教で食べられない物を説明します。注文できるか確かめます。"
+    },
+    "cando-143": {
+      "title": "クリーニング店に服を出す",
+      "summary": "店に服を出します。よごれを取ることや洗い方について、店の人の質問に答えます。"
+    },
+    "cando-151": {
+      "title": "銀行で外国にお金を送る方法を聞く",
+      "summary": "銀行の窓口で、外国の家族にお金を送る方法と、必要な書類を聞きます。説明を聞いてわかるようにします。"
+    },
+    "cando-158": {
+      "title": "駅で早い行き方を聞く",
+      "summary": "駅の窓口で、いちばん早く行ける電車を聞きます。乗りかえと時間も聞いて決めます。"
+    },
+    "cando-161": {
+      "title": "ホテルでタクシーをたのむ",
+      "summary": "ホテルの受付で、駅や空港に行くタクシーを呼んでもらいます。"
+    },
+    "cando-187": {
+      "title": "運転免許の更新を電話で聞く",
+      "summary": "免許の更新（新しくすること）のセンターに電話します。やり方、持って行く物、払うお金を聞いてわかるようにします。"
+    },
+    "cando-188": {
+      "title": "運転を習う学校に電話で聞く",
+      "summary": "運転を習う学校に電話します。コース、お金、通い方を聞きます。自分に合うか相談します。"
+    },
+    "cando-191": {
+      "title": "車の保険に電話で入る",
+      "summary": "保険会社に電話します。買った車の保険（事故のときのためのお金の制度）に入ります。"
+    },
+    "cando-203": {
+      "title": "妊婦健診を電話で予約する",
+      "summary": "産婦人科（赤ちゃんを産む病院）に電話します。妊婦健診（お腹に赤ちゃんがいる人が健康か調べること）の日と時間を予約します。"
+    },
+    "cando-219": {
+      "title": "赤ちゃんの在留資格の手続きを聞く",
+      "summary": "市役所の窓口で、生まれた子どもの在留資格（外国人が日本でできること）の手続きを聞きます。いつまでに、どこでするかも聞きます。"
+    },
+    "cando-222": {
+      "title": "乳幼児健診を電話で予約する",
+      "summary": "子どもの病院に電話します。子どもの月の年齢と来たい日を言います。乳幼児健診（赤ちゃんが健康か調べること）を予約します。"
+    },
+    "cando-266": {
+      "title": "保育園の申しこみの日を聞く",
+      "summary": "市役所の保育の窓口で聞きます。保育園（親が働くとき子どもの世話をするところ）に入る書類の出し方と、最後の日を聞きます。"
+    },
+    "cando-295": {
+      "title": "子どもの日本語の手伝いを聞く",
+      "summary": "教育委員会の窓口で聞きます。子どもの学校に、日本語のクラスや日本語の手伝いがあるか聞きます。"
+    },
+    "cando-299": {
+      "title": "小学校に入る前の健康の検査を聞く",
+      "summary": "小学校に入る前の健康の検査のお知らせが来ました。小学校に電話して、内容と当日のことを確かめます。"
+    },
+    "cando-316": {
+      "title": "給食のお金の払い方を学校で聞く",
+      "summary": "子どもの小学校の事務室で、給食のお金の払い方を聞きます。銀行から自動で払う手続きも聞きます。"
+    },
+    "cando-331": {
+      "title": "これからの学校の相談と通訳を聞く",
+      "summary": "中学校の先生に電話します。卒業したあとの学校の相談の日を聞きます。通訳の人がいっしょに来られるかも聞きます。"
+    },
+    "cando-348": {
+      "title": "特別支援学級を学校に聞く",
+      "summary": "近くの小学校に電話します。障害がある子どものクラスがあるか、どんな手伝いがあるか聞きます。"
+    },
+    "cando-356": {
+      "title": "ハローワークで仕事の探し方を聞く",
+      "summary": "ハローワーク（仕事を紹介する国の役所）の窓口で、仕事の探し方を聞きます。見つけたあとの申しこみ方も聞きます。"
+    },
+    "cando-380": {
+      "title": "できる働き方を窓口で聞く",
+      "summary": "仕事探しの窓口で、自分の在留資格と働ける時間を言います。どんな働き方ができるか聞きます。"
+    },
+    "cando-424": {
+      "title": "電車の事故でおくれると電話する",
+      "summary": "電車が止まって、会社におくれます。会社に電話して、理由を説明します。"
+    },
+    "cando-433": {
+      "title": "会社の電話で同僚がいないと言う",
+      "summary": "会社の中の電話で、同僚に電話が来ました。今は席にいないと短く言います。"
+    },
+    "cando-443": {
+      "title": "取引先の問題を上司に電話で相談",
+      "summary": "取引先（いっしょに仕事をする会社）から、届けた数が足りないと言われました。外から上司に電話して、どうするか相談します。"
+    },
+    "cando-563": {
+      "title": "引っ越して転入と転校の手続き",
+      "summary": "市役所の窓口で転入届（新しい住所の役所に出す紙）を出します。子どもが学校を変える手続きも聞きます。"
+    },
+    "cando-566": {
+      "title": "市役所で手続きの窓口を聞く",
+      "summary": "市役所の案内で、引っ越しの届けなどをする窓口がどこか聞きます。"
+    },
+    "cando-569": {
+      "title": "印鑑登録証明書を窓口でもらう",
+      "summary": "市役所の窓口で、書類の書き方と必要な物を聞きます。印鑑登録証明書（あなたの実印がどれか書いてある紙）をもらいます。"
+    },
+    "cando-577": {
+      "title": "税金の払い方を窓口で聞く",
+      "summary": "市役所の税金の窓口で聞きます。住民税（県や市に払う税金）をどこで、どうやって払うか聞きます。"
+    },
+    "cando-601": {
+      "title": "犬の登録を市役所に電話で聞く",
+      "summary": "市役所に電話します。かいはじめた犬の登録のやり方、必要な物、払うお金を聞きます。"
+    },
+    "cando-639": {
+      "title": "国民健康保険と国民年金に入る",
+      "summary": "会社をやめたあと、市役所の窓口で手続きをします。国民健康保険（自分で入る医療保険）と国民年金（国の年金）に入ります。"
+    },
+    "cando-651": {
+      "title": "日本語教室について電話で聞く",
+      "summary": "国際交流協会に電話します。日本語教室で何をするか、だれが参加できるか聞きます。"
+    },
+    "cando-654": {
+      "title": "日本語教室に電話で申しこむ",
+      "summary": "市の国際交流協会に電話します。近くの日本語教室に参加したいと申しこみます。"
+    },
+    "cando-731": {
+      "title": "公民館の部屋について電話で聞く",
+      "summary": "公民館に電話します。部屋の広さ、机といすの数、食べたり飲んだりできるかを聞きます。"
+    },
+    "cando-732": {
+      "title": "図書館で本の借り方を聞く",
+      "summary": "市の図書館の窓口で本を借ります。いつまでに返すか、何冊借りられるか聞きます。"
+    },
+    "cando-735": {
+      "title": "郵便局のサービスを窓口で聞く",
+      "summary": "郵便局の窓口で、どんな送り方やサービスがあるか聞きます。かんたんな答えをわかるようにします。"
+    },
+    "cando-746": {
+      "title": "店でインターネットの契約を相談",
+      "summary": "電気の道具の店で、インターネットの契約（店との約束）の内容と、申しこみ方を聞きます。"
+    },
+    "cando-763": {
+      "title": "携帯電話の店でプランを聞く",
+      "summary": "携帯電話の店で、店の人がすすめるプランやオプションを聞きます。質問して決めます。"
+    },
+    "cando-767": {
+      "title": "担当の人がいないので伝言をたのむ",
+      "summary": "国際交流センターに電話します。担当の人がいないので、短い伝言をたのみます。"
+    }
+  },
+  "en": {
+    "sodai-gomi": {
+      "title": "Request bulky trash pickup by phone",
+      "summary": "Call the city's reception center and ask them to pick up large trash items like a chair."
+    },
+    "restaurant": {
+      "title": "Book a restaurant by phone",
+      "summary": "Call the restaurant and give the date, time, and number of people to reserve a table."
+    },
+    "taxi": {
+      "title": "Book a taxi by phone",
+      "summary": "Call a taxi company and give the date, time, and place to get a car."
+    },
+    "clinic": {
+      "title": "Book a doctor's appointment by phone",
+      "summary": "Call the clinic's reception and book a day to see the doctor. You won't discuss your symptoms in detail."
+    },
+    "cando-8": {
+      "title": "Check in at a new clinic",
+      "summary": "At a clinic you're visiting for the first time, show your health insurance card, answer questions, and get a medical questionnaire."
+    },
+    "cando-77": {
+      "title": "Tell a real estate agent what you want",
+      "summary": "At a real estate agency, explain the place you want: rent, number of rooms, location, and move-in date."
+    },
+    "cando-87": {
+      "title": "Ask about rental documents",
+      "summary": "At a real estate agency, ask which documents you need for the lease, the deadline, and where to get them."
+    },
+    "cando-95": {
+      "title": "Register your move-in at city hall",
+      "summary": "At city hall in your new city, submit a moving-in notice (tenyu-todoke) and answer the clerk's questions."
+    },
+    "cando-96": {
+      "title": "Ask how to dispose of items when moving",
+      "summary": "At the city hall's waste desk, ask how to throw away furniture and appliances you no longer need after moving."
+    },
+    "cando-101": {
+      "title": "Call to start gas service",
+      "summary": "Call the gas company for your new home and set a date to turn on the gas."
+    },
+    "cando-105": {
+      "title": "Ask about a gas billing error",
+      "summary": "Call the gas company to check a bill that includes charges from before you moved in."
+    },
+    "cando-110": {
+      "title": "Ask staff about colors and sizes",
+      "summary": "In a department store's clothing section, ask staff if a sweater comes in other colors or sizes."
+    },
+    "cando-121": {
+      "title": "Exchange a broken item",
+      "summary": "At a home center's service counter, ask for an exchange or refund for an item that was broken."
+    },
+    "cando-128": {
+      "title": "Tell party size and seating",
+      "summary": "At a restaurant, tell the staff how many people and whether you want smoking or non-smoking seats."
+    },
+    "cando-134": {
+      "title": "Order with dietary restrictions",
+      "summary": "At a Japanese restaurant, explain foods you can't eat for religious reasons and check what you can order."
+    },
+    "cando-143": {
+      "title": "Drop off clothes at the dry cleaner",
+      "summary": "Drop off clothes and answer the staff's questions about stain removal and special washing."
+    },
+    "cando-151": {
+      "title": "Ask about sending money abroad",
+      "summary": "At a bank counter, ask how to send money to family overseas and what documents you need, and understand the explanation."
+    },
+    "cando-158": {
+      "title": "Ask for the fastest route at a station",
+      "summary": "At the station ticket office, ask about the fastest train, transfers, and travel time, then decide."
+    },
+    "cando-161": {
+      "title": "Ask a hotel to call a taxi",
+      "summary": "At the hotel front desk, ask them to call a taxi to the station or airport."
+    },
+    "cando-187": {
+      "title": "Ask about license renewal by phone",
+      "summary": "Call the license renewal center and understand the steps, what to bring, and the fee."
+    },
+    "cando-188": {
+      "title": "Ask a driving school about courses",
+      "summary": "Call a driving school, ask about courses, fees, and schedules, and discuss whether they suit you."
+    },
+    "cando-191": {
+      "title": "Get car insurance by phone",
+      "summary": "Call an insurance company and sign up for optional insurance (coverage for accidents) for the car you bought."
+    },
+    "cando-203": {
+      "title": "Book a prenatal checkup by phone",
+      "summary": "Call an OB-GYN clinic and book a date and time for a prenatal checkup (a health check during pregnancy)."
+    },
+    "cando-219": {
+      "title": "Ask about your baby's residence status",
+      "summary": "At city hall, ask about the residence status procedure for your newborn: deadline and where to apply."
+    },
+    "cando-222": {
+      "title": "Book a baby checkup by phone",
+      "summary": "Call a pediatric clinic, give your child's age in months and preferred date, and book a well-baby checkup."
+    },
+    "cando-266": {
+      "title": "Ask about the daycare application deadline",
+      "summary": "At city hall's childcare desk, ask how to submit the daycare (hoikuen) application and the deadline."
+    },
+    "cando-295": {
+      "title": "Ask about Japanese support for kids",
+      "summary": "At the board of education, ask if your child's school has Japanese classes or Japanese language support."
+    },
+    "cando-299": {
+      "title": "Ask about the pre-school health check",
+      "summary": "You got a notice about the health check before elementary school. Call the school to check the details and what happens that day."
+    },
+    "cando-316": {
+      "title": "Ask how to pay for school lunch",
+      "summary": "At your child's elementary school office, ask how to pay for school lunch, including automatic bank payment."
+    },
+    "cando-331": {
+      "title": "Ask about career counseling and an interpreter",
+      "summary": "Call the junior high homeroom teacher, ask the date for career counseling after graduation, and whether an interpreter can come."
+    },
+    "cando-348": {
+      "title": "Ask a school about special needs classes",
+      "summary": "Call a nearby elementary school and ask if they have a class for children with disabilities and what support is available."
+    },
+    "cando-356": {
+      "title": "Ask Hello Work how to find jobs",
+      "summary": "At Hello Work (the public employment office), ask how to search for jobs and how to apply once you find one."
+    },
+    "cando-380": {
+      "title": "Ask what work you can do",
+      "summary": "At a job center, give your residence status and allowed working hours, and ask what kind of work you can do."
+    },
+    "cando-424": {
+      "title": "Call in late due to a train delay",
+      "summary": "Your train stopped and you'll be late. Call your company and explain why."
+    },
+    "cando-433": {
+      "title": "Say a coworker is away",
+      "summary": "You get an internal call for a coworker. Briefly say they're away from their desk."
+    },
+    "cando-443": {
+      "title": "Call your boss about a client problem",
+      "summary": "A client says the delivery was short. Call your boss from outside and discuss what to do."
+    },
+    "cando-563": {
+      "title": "Move-in and school transfer",
+      "summary": "At city hall, submit a moving-in notice and ask about transferring your child to a new school."
+    },
+    "cando-566": {
+      "title": "Find the right desk at city hall",
+      "summary": "At the city hall information desk, ask where to go for procedures like registering your move."
+    },
+    "cando-569": {
+      "title": "Get a seal registration certificate",
+      "summary": "At city hall, ask how to fill out the form and what to bring, and get a seal registration certificate (proof of your registered seal)."
+    },
+    "cando-577": {
+      "title": "Ask how to pay taxes",
+      "summary": "At the city hall tax desk, ask where and how to pay resident tax (tax paid to the prefecture and city)."
+    },
+    "cando-601": {
+      "title": "Ask city hall about dog registration",
+      "summary": "Call city hall and ask how to register your new dog, what you need, and the fee."
+    },
+    "cando-639": {
+      "title": "Join national health insurance and pension",
+      "summary": "After leaving your job, sign up at city hall for National Health Insurance and the National Pension."
+    },
+    "cando-651": {
+      "title": "Ask about Japanese classes by phone",
+      "summary": "Call the international association and ask what the Japanese class does and who can join."
+    },
+    "cando-654": {
+      "title": "Sign up for Japanese classes by phone",
+      "summary": "Call the city's international association and sign up for a local Japanese class."
+    },
+    "cando-731": {
+      "title": "Ask about community center rooms",
+      "summary": "Call the community center and ask about room size, number of tables and chairs, and if food and drinks are allowed."
+    },
+    "cando-732": {
+      "title": "Ask how to borrow library books",
+      "summary": "Borrow books at the city library desk and ask the due date and how many you can borrow."
+    },
+    "cando-735": {
+      "title": "Ask about post office services",
+      "summary": "At the post office counter, ask about shipping options and services, and understand simple answers."
+    },
+    "cando-746": {
+      "title": "Discuss internet service at a store",
+      "summary": "At an electronics store, ask about internet contract details and how to apply."
+    },
+    "cando-763": {
+      "title": "Ask about phone plans",
+      "summary": "At a mobile phone shop, ask about the plans and options staff recommend, then decide."
+    },
+    "cando-767": {
+      "title": "Leave a message",
+      "summary": "Call the international center. The person in charge is out, so leave a short message."
+    }
+  },
+  "zh": {
+    "sodai-gomi": {
+      "title": "打电话预约回收大件垃圾",
+      "summary": "给市里的受理中心打电话，请他们来收椅子等大件垃圾。"
+    },
+    "restaurant": {
+      "title": "打电话预约餐厅",
+      "summary": "给店里打电话，说明日期、时间和人数，预约座位。"
+    },
+    "taxi": {
+      "title": "打电话预约出租车",
+      "summary": "给出租车公司打电话，说明日期、时间和地点，叫车。"
+    },
+    "clinic": {
+      "title": "打电话预约看病",
+      "summary": "给医院前台打电话，预约看病的日子。不详细谈病情。"
+    },
+    "cando-8": {
+      "title": "第一次去医院挂号",
+      "summary": "在第一次去的医院前台出示保险证，回答问题，领取填写身体情况的问诊表。"
+    },
+    "cando-77": {
+      "title": "在房产中介说租房要求",
+      "summary": "在房产中介（介绍房子的店）说明想住的房子：房租（每月付的钱）、房间数、地点、入住日期。"
+    },
+    "cando-87": {
+      "title": "询问租房所需材料",
+      "summary": "在房产中介询问签租房合同需要的材料，也问清楚什么时候交、在哪里办。"
+    },
+    "cando-95": {
+      "title": "在市政府办理迁入登记",
+      "summary": "在搬入城市的市政府提交迁入申报（交给新住址政府的表格），回答工作人员的问题。"
+    },
+    "cando-96": {
+      "title": "询问搬家时如何扔东西",
+      "summary": "在市政府垃圾窗口询问搬家时不要的家具和电器怎么扔，并弄明白。"
+    },
+    "cando-101": {
+      "title": "打电话申请开通燃气",
+      "summary": "给新家的燃气公司打电话，确定开通燃气的日期。"
+    },
+    "cando-105": {
+      "title": "咨询燃气费账单错误",
+      "summary": "给燃气公司打电话，账单里包含了入住前的费用，确认一下。"
+    },
+    "cando-110": {
+      "title": "向店员询问衣服颜色和尺码",
+      "summary": "在百货商店服装区，问店员这件毛衣有没有其他颜色和尺码。"
+    },
+    "cando-121": {
+      "title": "请求更换坏了的商品",
+      "summary": "在家居建材店服务台，因为买的东西是坏的，请求换货或退款。"
+    },
+    "cando-128": {
+      "title": "在餐厅说人数和座位",
+      "summary": "进餐厅后告诉店员人数，并说要吸烟区还是禁烟区。"
+    },
+    "cando-134": {
+      "title": "说明忌口并点餐",
+      "summary": "在日本料理店说明因宗教原因不能吃的东西，确认能否点餐。"
+    },
+    "cando-143": {
+      "title": "去洗衣店送洗衣服",
+      "summary": "把衣服交给店里，回答店员关于去污渍和洗法的问题。"
+    },
+    "cando-151": {
+      "title": "在银行咨询国际汇款",
+      "summary": "在银行窗口询问给国外家人汇款的方法和所需材料，听懂说明。"
+    },
+    "cando-158": {
+      "title": "在车站询问最快路线",
+      "summary": "在车站窗口询问最快到达的电车，也问换乘和时间，然后做决定。"
+    },
+    "cando-161": {
+      "title": "在酒店请人叫出租车",
+      "summary": "在酒店前台请人叫去车站或机场的出租车。"
+    },
+    "cando-187": {
+      "title": "打电话咨询驾照更新",
+      "summary": "给驾照更新中心打电话，问清楚更新的步骤、要带的东西和费用。"
+    },
+    "cando-188": {
+      "title": "打电话咨询驾校",
+      "summary": "给驾校打电话，询问课程、费用和上课方式，商量是否适合自己。"
+    },
+    "cando-191": {
+      "title": "打电话办理车险",
+      "summary": "给保险公司打电话，为买的车办理保险（为事故准备的保障制度）。"
+    },
+    "cando-203": {
+      "title": "打电话预约孕检",
+      "summary": "给妇产科（生孩子的医院）打电话，预约孕检（检查孕妇健康状况）的日期和时间。"
+    },
+    "cando-219": {
+      "title": "咨询婴儿在留资格手续",
+      "summary": "在市政府窗口询问新生儿的在留资格（外国人在日本的居留身份）手续，也问截止日期和办理地点。"
+    },
+    "cando-222": {
+      "title": "打电话预约婴幼儿体检",
+      "summary": "给儿科医院打电话，说明孩子的月龄和希望日期，预约婴幼儿体检（检查宝宝是否健康）。"
+    },
+    "cando-266": {
+      "title": "询问保育园申请截止日",
+      "summary": "在市政府保育窗口询问保育园（父母工作时照看孩子的地方）入园材料的提交方法和截止日期。"
+    },
+    "cando-295": {
+      "title": "咨询孩子的日语支援",
+      "summary": "在教育委员会窗口询问孩子的学校有没有日语班或日语辅导。"
+    },
+    "cando-299": {
+      "title": "咨询入学前体检",
+      "summary": "收到了入学前体检的通知，给小学打电话确认内容和当天安排。"
+    },
+    "cando-316": {
+      "title": "在学校询问午餐费缴法",
+      "summary": "在孩子小学的办公室询问午餐费怎么交，也问银行自动扣款的手续。"
+    },
+    "cando-331": {
+      "title": "咨询升学面谈和翻译",
+      "summary": "给初中老师打电话，询问毕业后升学面谈的日期，以及翻译能否一起来。"
+    },
+    "cando-348": {
+      "title": "向学校咨询特别支援班",
+      "summary": "给附近的小学打电话，询问有没有为残障儿童开设的班级，有哪些支援。"
+    },
+    "cando-356": {
+      "title": "在Hello Work询问找工作",
+      "summary": "在Hello Work（国家的职业介绍机构）窗口询问怎么找工作，以及找到后怎么应聘。"
+    },
+    "cando-380": {
+      "title": "在窗口询问可做的工作",
+      "summary": "在求职窗口说明自己的在留资格和可工作时间，询问能做什么样的工作。"
+    },
+    "cando-424": {
+      "title": "电车事故打电话说迟到",
+      "summary": "电车停了，上班会迟到。给公司打电话说明原因。"
+    },
+    "cando-433": {
+      "title": "内线电话告知同事不在",
+      "summary": "公司内线有人找同事，简短地说他现在不在座位上。"
+    },
+    "cando-443": {
+      "title": "打电话和上司商量客户问题",
+      "summary": "客户（合作公司）说交货数量不够，在外面给上司打电话商量怎么处理。"
+    },
+    "cando-563": {
+      "title": "搬家后办迁入和转学",
+      "summary": "在市政府窗口提交迁入申报（交给新住址政府的表格），也询问孩子转学的手续。"
+    },
+    "cando-566": {
+      "title": "在市政府询问办事窗口",
+      "summary": "在市政府咨询处询问办理搬家登记等手续的窗口在哪里。"
+    },
+    "cando-569": {
+      "title": "在窗口办印鉴登记证明",
+      "summary": "在市政府窗口询问表格填法和所需物品，领取印鉴登记证明（证明哪个是你的正式印章）。"
+    },
+    "cando-577": {
+      "title": "在窗口询问缴税方法",
+      "summary": "在市政府税务窗口询问住民税（交给县和市的税）在哪里、怎么交。"
+    },
+    "cando-601": {
+      "title": "打电话咨询狗的登记",
+      "summary": "给市政府打电话，询问新养的狗怎么登记、需要什么、费用多少。"
+    },
+    "cando-639": {
+      "title": "加入国民健康保险和国民年金",
+      "summary": "辞职后在市政府窗口办理手续，加入国民健康保险（自己参加的医疗保险）和国民年金（国家养老金）。"
+    },
+    "cando-651": {
+      "title": "打电话咨询日语教室",
+      "summary": "给国际交流协会打电话，询问日语教室做什么、谁可以参加。"
+    },
+    "cando-654": {
+      "title": "打电话报名日语教室",
+      "summary": "给市国际交流协会打电话，报名参加附近的日语教室。"
+    },
+    "cando-731": {
+      "title": "打电话咨询公民馆房间",
+      "summary": "给公民馆打电话，询问房间大小、桌椅数量、能否饮食。"
+    },
+    "cando-732": {
+      "title": "在图书馆询问借书方法",
+      "summary": "在市图书馆窗口借书，询问什么时候还、能借几本。"
+    },
+    "cando-735": {
+      "title": "在邮局询问服务",
+      "summary": "在邮局窗口询问有哪些寄送方式和服务，听懂简单的回答。"
+    },
+    "cando-746": {
+      "title": "在店里咨询网络签约",
+      "summary": "在电器店询问网络合约的内容和申请方法。"
+    },
+    "cando-763": {
+      "title": "在手机店咨询套餐",
+      "summary": "在手机店听店员推荐的套餐和附加服务，提问后做决定。"
+    },
+    "cando-767": {
+      "title": "负责人不在，请人留言",
+      "summary": "给国际交流中心打电话，负责人不在，请对方转达一句简短的留言。"
+    }
+  },
+  "vi": {
+    "sodai-gomi": {
+      "title": "Gọi điện nhờ thu gom rác cỡ lớn",
+      "summary": "Gọi điện đến trung tâm tiếp nhận của thành phố, nhờ đến lấy rác cỡ lớn như ghế."
+    },
+    "restaurant": {
+      "title": "Gọi điện đặt bàn nhà hàng",
+      "summary": "Gọi điện cho nhà hàng, nói ngày, giờ, số người và đặt bàn."
+    },
+    "taxi": {
+      "title": "Gọi điện đặt taxi",
+      "summary": "Gọi điện cho hãng taxi, nói ngày, giờ, địa điểm và gọi xe."
+    },
+    "clinic": {
+      "title": "Gọi điện đặt lịch khám bệnh",
+      "summary": "Gọi điện đến quầy tiếp nhận của phòng khám để đặt ngày khám. Không nói chi tiết về bệnh."
+    },
+    "cando-8": {
+      "title": "Làm thủ tục ở bệnh viện lần đầu",
+      "summary": "Tại quầy tiếp nhận của phòng khám lần đầu đến, đưa thẻ bảo hiểm, trả lời câu hỏi và nhận phiếu khai sức khỏe."
+    },
+    "cando-77": {
+      "title": "Nói phòng muốn thuê ở công ty BĐS",
+      "summary": "Tại công ty bất động sản (nơi giới thiệu nhà), nói về phòng muốn ở: tiền thuê hằng tháng, số phòng, vị trí, ngày bắt đầu ở."
+    },
+    "cando-87": {
+      "title": "Hỏi giấy tờ để thuê nhà",
+      "summary": "Tại công ty bất động sản, hỏi giấy tờ cần cho hợp đồng thuê nhà, hạn nộp và nơi lấy giấy tờ."
+    },
+    "cando-95": {
+      "title": "Nộp đơn chuyển đến ở tòa thị chính",
+      "summary": "Tại tòa thị chính nơi mới chuyển đến, nộp đơn chuyển đến (giấy nộp cho cơ quan nơi ở mới) và trả lời các câu hỏi."
+    },
+    "cando-96": {
+      "title": "Hỏi cách bỏ đồ không dùng khi chuyển nhà",
+      "summary": "Tại quầy rác của tòa thị chính, hỏi và hiểu cách bỏ đồ nội thất, đồ điện không còn dùng khi chuyển nhà."
+    },
+    "cando-101": {
+      "title": "Gọi điện để bắt đầu dùng ga",
+      "summary": "Gọi điện cho công ty ga ở nhà mới, chọn ngày mở ga để sử dụng."
+    },
+    "cando-105": {
+      "title": "Hỏi về hóa đơn ga bị sai",
+      "summary": "Gọi điện cho công ty ga để xác nhận vì hóa đơn có cả tiền ga trước khi bạn chuyển đến."
+    },
+    "cando-110": {
+      "title": "Hỏi nhân viên về màu và cỡ áo",
+      "summary": "Tại quầy quần áo ở trung tâm thương mại, hỏi nhân viên xem chiếc áo len có màu hoặc cỡ khác không."
+    },
+    "cando-121": {
+      "title": "Nhờ đổi hàng bị hỏng",
+      "summary": "Tại quầy dịch vụ của cửa hàng đồ gia dụng, nhờ đổi hoặc trả tiền vì hàng đã mua bị hỏng."
+    },
+    "cando-128": {
+      "title": "Nói số người và chỗ ngồi ở nhà hàng",
+      "summary": "Vào nhà hàng, nói với nhân viên số người và muốn ngồi khu hút thuốc hay không hút thuốc."
+    },
+    "cando-134": {
+      "title": "Gọi món, nói món không ăn được",
+      "summary": "Tại quán ăn Nhật, giải thích món không ăn được vì tôn giáo và hỏi xem có gọi món được không."
+    },
+    "cando-143": {
+      "title": "Gửi quần áo ở tiệm giặt",
+      "summary": "Gửi quần áo ở tiệm, trả lời câu hỏi của nhân viên về tẩy vết bẩn và cách giặt."
+    },
+    "cando-151": {
+      "title": "Hỏi cách gửi tiền ra nước ngoài ở ngân hàng",
+      "summary": "Tại quầy ngân hàng, hỏi cách gửi tiền cho gia đình ở nước ngoài và giấy tờ cần thiết, rồi hiểu lời giải thích."
+    },
+    "cando-158": {
+      "title": "Hỏi đường đi nhanh ở nhà ga",
+      "summary": "Tại quầy nhà ga, hỏi chuyến tàu nhanh nhất, chỗ đổi tàu và thời gian rồi quyết định."
+    },
+    "cando-161": {
+      "title": "Nhờ gọi taxi ở khách sạn",
+      "summary": "Tại quầy lễ tân khách sạn, nhờ gọi taxi đi ga hoặc sân bay."
+    },
+    "cando-187": {
+      "title": "Gọi điện hỏi gia hạn bằng lái",
+      "summary": "Gọi điện đến trung tâm gia hạn bằng lái, hỏi và hiểu cách làm, đồ cần mang và lệ phí."
+    },
+    "cando-188": {
+      "title": "Gọi điện hỏi trường dạy lái xe",
+      "summary": "Gọi điện đến trường dạy lái xe, hỏi khóa học, học phí, cách đi học và trao đổi xem có phù hợp với mình không."
+    },
+    "cando-191": {
+      "title": "Gọi điện mua bảo hiểm ô tô",
+      "summary": "Gọi điện cho công ty bảo hiểm để mua bảo hiểm (chế độ chi trả khi có tai nạn) cho xe mới mua."
+    },
+    "cando-203": {
+      "title": "Gọi điện đặt lịch khám thai",
+      "summary": "Gọi điện đến phòng khám sản phụ khoa, đặt ngày giờ khám thai định kỳ (kiểm tra sức khỏe cho người đang mang thai)."
+    },
+    "cando-219": {
+      "title": "Hỏi thủ tục tư cách lưu trú cho con",
+      "summary": "Tại quầy tòa thị chính, hỏi thủ tục tư cách lưu trú (điều người nước ngoài được làm ở Nhật) cho con mới sinh, hạn chót và nơi làm."
+    },
+    "cando-222": {
+      "title": "Gọi điện đặt lịch khám cho bé",
+      "summary": "Gọi điện đến phòng khám nhi, nói số tháng tuổi của bé và ngày muốn đến, đặt lịch khám sức khỏe trẻ nhỏ."
+    },
+    "cando-266": {
+      "title": "Hỏi hạn đăng ký nhà trẻ",
+      "summary": "Tại quầy nhà trẻ của tòa thị chính, hỏi cách nộp hồ sơ vào nhà trẻ (nơi trông trẻ khi cha mẹ đi làm) và hạn chót."
+    },
+    "cando-295": {
+      "title": "Hỏi hỗ trợ tiếng Nhật cho con",
+      "summary": "Tại quầy Ủy ban Giáo dục, hỏi trường của con có lớp tiếng Nhật hoặc hỗ trợ tiếng Nhật không."
+    },
+    "cando-299": {
+      "title": "Hỏi về khám sức khỏe trước khi vào lớp 1",
+      "summary": "Nhận được thông báo khám sức khỏe trước khi vào tiểu học, gọi điện cho trường để xác nhận nội dung và lịch trình hôm đó."
+    },
+    "cando-316": {
+      "title": "Hỏi cách trả tiền ăn trưa ở trường",
+      "summary": "Tại văn phòng trường tiểu học của con, hỏi cách trả tiền ăn trưa và thủ tục trừ tiền tự động qua ngân hàng."
+    },
+    "cando-331": {
+      "title": "Hỏi buổi tư vấn hướng nghiệp và phiên dịch",
+      "summary": "Gọi điện cho giáo viên chủ nhiệm cấp 2, hỏi ngày tư vấn về trường sau khi tốt nghiệp và phiên dịch có đi cùng được không."
+    },
+    "cando-348": {
+      "title": "Hỏi trường về lớp hỗ trợ đặc biệt",
+      "summary": "Gọi điện cho trường tiểu học gần nhà, hỏi có lớp cho trẻ khuyết tật không và có những hỗ trợ gì."
+    },
+    "cando-356": {
+      "title": "Hỏi cách tìm việc ở Hello Work",
+      "summary": "Tại quầy Hello Work (cơ quan nhà nước giới thiệu việc làm), hỏi cách tìm việc và cách ứng tuyển sau khi tìm được."
+    },
+    "cando-380": {
+      "title": "Hỏi cách làm việc được phép",
+      "summary": "Tại quầy tìm việc, nói tư cách lưu trú và số giờ được làm, rồi hỏi mình có thể làm việc kiểu nào."
+    },
+    "cando-424": {
+      "title": "Gọi báo đến muộn vì tàu gặp sự cố",
+      "summary": "Tàu dừng nên đến công ty muộn. Gọi điện cho công ty để giải thích lý do."
+    },
+    "cando-433": {
+      "title": "Báo đồng nghiệp vắng mặt qua điện thoại nội bộ",
+      "summary": "Nhận cuộc gọi nội bộ tìm đồng nghiệp, nói ngắn gọn rằng người đó hiện không có ở chỗ."
+    },
+    "cando-443": {
+      "title": "Gọi sếp bàn về sự cố với đối tác",
+      "summary": "Đối tác báo số hàng giao bị thiếu. Từ bên ngoài, gọi điện cho cấp trên để bàn cách xử lý."
+    },
+    "cando-563": {
+      "title": "Thủ tục chuyển đến và chuyển trường",
+      "summary": "Tại quầy tòa thị chính, nộp đơn chuyển đến (giấy nộp cho cơ quan nơi ở mới) và hỏi thủ tục chuyển trường cho con."
+    },
+    "cando-566": {
+      "title": "Hỏi quầy làm thủ tục ở tòa thị chính",
+      "summary": "Tại quầy hướng dẫn của tòa thị chính, hỏi quầy làm thủ tục chuyển nhà ở đâu."
+    },
+    "cando-569": {
+      "title": "Xin giấy chứng nhận đăng ký con dấu",
+      "summary": "Tại quầy tòa thị chính, hỏi cách điền đơn và đồ cần mang, rồi nhận giấy chứng nhận đăng ký con dấu (giấy ghi con dấu chính thức của bạn)."
+    },
+    "cando-577": {
+      "title": "Hỏi cách nộp thuế ở quầy",
+      "summary": "Tại quầy thuế của tòa thị chính, hỏi nộp thuế cư trú (thuế nộp cho tỉnh và thành phố) ở đâu và bằng cách nào."
+    },
+    "cando-601": {
+      "title": "Gọi điện hỏi đăng ký chó",
+      "summary": "Gọi điện cho tòa thị chính, hỏi cách đăng ký chó mới nuôi, đồ cần thiết và lệ phí."
+    },
+    "cando-639": {
+      "title": "Tham gia bảo hiểm y tế và lương hưu quốc dân",
+      "summary": "Sau khi nghỉ việc, làm thủ tục ở tòa thị chính để tham gia bảo hiểm y tế quốc dân (bảo hiểm y tế tự đóng) và lương hưu quốc dân (lương hưu nhà nước)."
+    },
+    "cando-651": {
+      "title": "Gọi điện hỏi về lớp tiếng Nhật",
+      "summary": "Gọi điện cho Hiệp hội Giao lưu Quốc tế, hỏi lớp tiếng Nhật học gì và ai được tham gia."
+    },
+    "cando-654": {
+      "title": "Gọi điện đăng ký lớp tiếng Nhật",
+      "summary": "Gọi điện cho Hiệp hội Giao lưu Quốc tế của thành phố, đăng ký tham gia lớp tiếng Nhật gần nhà."
+    },
+    "cando-731": {
+      "title": "Gọi điện hỏi phòng ở nhà văn hóa",
+      "summary": "Gọi điện cho nhà văn hóa, hỏi diện tích phòng, số bàn ghế và có được ăn uống không."
+    },
+    "cando-732": {
+      "title": "Hỏi cách mượn sách ở thư viện",
+      "summary": "Mượn sách ở quầy thư viện thành phố, hỏi hạn trả và được mượn bao nhiêu cuốn."
+    },
+    "cando-735": {
+      "title": "Hỏi dịch vụ ở bưu điện",
+      "summary": "Tại quầy bưu điện, hỏi có những cách gửi và dịch vụ nào, rồi hiểu câu trả lời đơn giản."
+    },
+    "cando-746": {
+      "title": "Tư vấn hợp đồng Internet ở cửa hàng",
+      "summary": "Tại cửa hàng điện máy, hỏi nội dung hợp đồng Internet và cách đăng ký."
+    },
+    "cando-763": {
+      "title": "Hỏi gói cước ở cửa hàng điện thoại",
+      "summary": "Tại cửa hàng điện thoại di động, hỏi về gói cước và dịch vụ thêm mà nhân viên giới thiệu, rồi quyết định."
+    },
+    "cando-767": {
+      "title": "Nhờ nhắn lại vì người phụ trách vắng",
+      "summary": "Gọi điện cho Trung tâm Giao lưu Quốc tế. Người phụ trách không có mặt nên nhờ nhắn lại lời ngắn."
+    }
+  },
+  "tl": {
+    "sodai-gomi": {
+      "title": "Magpakuha ng malaking basura sa telepono",
+      "summary": "Tatawag ka sa reception center ng lungsod. Ipapakuha mo ang malaking basura, gaya ng upuan."
+    },
+    "restaurant": {
+      "title": "Magpareserba sa restaurant sa telepono",
+      "summary": "Tatawag ka sa restaurant. Sasabihin mo ang petsa, oras, at bilang ng tao para magpareserba ng upuan."
+    },
+    "taxi": {
+      "title": "Magpareserba ng taxi sa telepono",
+      "summary": "Tatawag ka sa taxi company. Sasabihin mo ang petsa, oras, at lugar para magpasundo."
+    },
+    "clinic": {
+      "title": "Magpa-appointment sa ospital sa telepono",
+      "summary": "Tatawag ka sa reception ng ospital para magpa-appointment ng araw ng check-up. Hindi mo ikukuwento nang detalyado ang sakit."
+    },
+    "cando-8": {
+      "title": "Mag-register sa bagong ospital",
+      "summary": "Sa reception ng ospital na unang beses mong pupuntahan, ibibigay mo ang health insurance card. Sasagutin mo ang mga tanong at tatanggapin ang form tungkol sa iyong katawan."
+    },
+    "cando-77": {
+      "title": "Sabihin ang gustong kuwarto sa real estate",
+      "summary": "Sa real estate agency (tindahang nagpapakilala ng bahay), sasabihin mo ang gusto mong kuwarto: upa (bayad buwan-buwan), bilang ng kuwarto, lugar, at araw ng paglipat."
+    },
+    "cando-87": {
+      "title": "Itanong ang dokumento sa pag-upa",
+      "summary": "Sa real estate agency, itatanong mo ang mga dokumentong kailangan para sa kontrata ng pag-upa. Itatanong mo rin kung hanggang kailan ito ibibigay at saan ito makukuha."
+    },
+    "cando-95": {
+      "title": "Magpasa ng tennyu-todoke sa city hall",
+      "summary": "Sa city hall ng lungsod na nilipatan mo, ipapasa mo ang tennyu-todoke (papel na ibinibigay sa opisina ng bagong tirahan). Sasagutin mo ang mga tanong."
+    },
+    "cando-96": {
+      "title": "Itanong kung paano itapon ang di na kailangan",
+      "summary": "Sa garbage counter ng city hall, itatanong mo kung paano itapon ang mga muwebles at appliances na hindi na kailangan dahil sa paglipat, at uunawain mo ito."
+    },
+    "cando-101": {
+      "title": "Tumawag para makagamit ng gas",
+      "summary": "Tatawag ka sa gas company ng bagong bahay. Pagpapasyahan ninyo ang araw na magagamit na ang gas."
+    },
+    "cando-105": {
+      "title": "Itanong ang mali sa singil ng gas",
+      "summary": "Tatawag ka sa gas company. Kasama sa singil ang gas bago ka tumira, kaya kukumpirmahin mo ito."
+    },
+    "cando-110": {
+      "title": "Itanong sa staff ang kulay at size",
+      "summary": "Sa bilihan ng damit sa department store, itatanong mo sa staff kung may ibang kulay o size ang sweater."
+    },
+    "cando-121": {
+      "title": "Magpapalit ng sirang binili",
+      "summary": "Sa counter ng home center, sasabihin mong sira ang binili mo, at magpapapalit o magpapa-refund ka."
+    },
+    "cando-128": {
+      "title": "Sabihin ang bilang ng tao at upuan",
+      "summary": "Pagpasok sa restaurant, sasabihin mo sa staff kung ilan kayo. Sasabihin mo rin kung gusto ninyo ng smoking o non-smoking na upuan."
+    },
+    "cando-134": {
+      "title": "Umorder at sabihin ang bawal kainin",
+      "summary": "Sa Japanese restaurant, ipapaliwanag mo ang mga pagkaing bawal sa iyong relihiyon. Kukumpirmahin mo kung makakaorder ka."
+    },
+    "cando-143": {
+      "title": "Magpa-laundry ng damit",
+      "summary": "Iiwan mo ang damit sa laundry shop. Sasagutin mo ang mga tanong ng staff tungkol sa pagtanggal ng mantsa at paraan ng paglaba."
+    },
+    "cando-151": {
+      "title": "Itanong sa bangko ang pagpapadala abroad",
+      "summary": "Sa counter ng bangko, itatanong mo kung paano magpadala ng pera sa pamilya sa ibang bansa at ang mga kailangang dokumento. Uunawain mo ang paliwanag."
+    },
+    "cando-158": {
+      "title": "Itanong sa istasyon ang mabilis na ruta",
+      "summary": "Sa counter ng istasyon, itatanong mo ang pinakamabilis na tren. Itatanong mo rin ang paglipat ng tren at oras, saka ka magpapasya."
+    },
+    "cando-161": {
+      "title": "Magpatawag ng taxi sa hotel",
+      "summary": "Sa front desk ng hotel, magpapatawag ka ng taxi papunta sa istasyon o airport."
+    },
+    "cando-187": {
+      "title": "Itanong ang renewal ng lisensya sa telepono",
+      "summary": "Tatawag ka sa center para sa renewal (pagpapabago) ng lisensya. Itatanong mo ang proseso, mga dadalhin, at bayad, at uunawain mo ito."
+    },
+    "cando-188": {
+      "title": "Tumawag sa driving school",
+      "summary": "Tatawag ka sa driving school. Itatanong mo ang mga course, bayad, at paraan ng pagpasok. Kokonsulta ka kung bagay ito sa iyo."
+    },
+    "cando-191": {
+      "title": "Kumuha ng car insurance sa telepono",
+      "summary": "Tatawag ka sa insurance company. Kukuha ka ng insurance (sistema ng pera para sa aksidente) para sa binili mong kotse."
+    },
+    "cando-203": {
+      "title": "Magpa-appointment ng prenatal check-up",
+      "summary": "Tatawag ka sa OB-GYN (ospital para sa panganganak). Magpapareserba ka ng araw at oras ng prenatal check-up (pagsusuri kung malusog ang buntis)."
+    },
+    "cando-219": {
+      "title": "Itanong ang visa status ng baby",
+      "summary": "Sa counter ng city hall, itatanong mo ang proseso ng status of residence (kung ano ang puwedeng gawin ng dayuhan sa Japan) ng ipinanganak na anak. Itatanong mo rin kung hanggang kailan at saan ito gagawin."
+    },
+    "cando-222": {
+      "title": "Magpa-appointment ng check-up ng baby",
+      "summary": "Tatawag ka sa clinic ng bata. Sasabihin mo ang edad ng bata sa buwan at ang gustong araw. Magpapareserba ka ng check-up ng baby (pagsusuri kung malusog ang baby)."
+    },
+    "cando-266": {
+      "title": "Itanong ang deadline ng daycare",
+      "summary": "Sa childcare counter ng city hall, itatanong mo kung paano ipasa ang mga dokumento para makapasok sa daycare (lugar na nag-aalaga ng bata habang nagtatrabaho ang magulang), at ang huling araw."
+    },
+    "cando-295": {
+      "title": "Itanong ang tulong sa Japanese ng anak",
+      "summary": "Sa counter ng Board of Education, itatanong mo kung may Japanese class o tulong sa wikang Japanese sa paaralan ng anak mo."
+    },
+    "cando-299": {
+      "title": "Itanong ang health check bago mag-elementary",
+      "summary": "Dumating ang abiso tungkol sa health check bago pumasok sa elementary. Tatawag ka sa paaralan para kumpirmahin ang nilalaman at ang mangyayari sa araw na iyon."
+    },
+    "cando-316": {
+      "title": "Itanong ang bayad sa school lunch",
+      "summary": "Sa office ng elementary school ng anak, itatanong mo kung paano magbayad ng school lunch. Itatanong mo rin ang proseso ng auto-debit mula sa bangko."
+    },
+    "cando-331": {
+      "title": "Itanong ang career consultation at interpreter",
+      "summary": "Tatawag ka sa teacher sa junior high. Itatanong mo ang araw ng konsultasyon tungkol sa susunod na paaralan. Itatanong mo rin kung puwedeng sumama ang interpreter."
+    },
+    "cando-348": {
+      "title": "Itanong ang special needs class",
+      "summary": "Tatawag ka sa malapit na elementary school. Itatanong mo kung may klase para sa batang may kapansanan at anong tulong ang meron."
+    },
+    "cando-356": {
+      "title": "Itanong sa Hello Work ang paghahanap ng trabaho",
+      "summary": "Sa counter ng Hello Work (opisina ng gobyerno na nagpapakilala ng trabaho), itatanong mo kung paano maghanap ng trabaho at kung paano mag-apply kapag may nakita ka."
+    },
+    "cando-380": {
+      "title": "Itanong ang puwedeng trabaho",
+      "summary": "Sa job counter, sasabihin mo ang iyong status of residence at ilang oras ka puwedeng magtrabaho. Itatanong mo kung anong klase ng trabaho ang puwede sa iyo."
+    },
+    "cando-424": {
+      "title": "Tumawag na late dahil sa aksidente sa tren",
+      "summary": "Huminto ang tren, kaya male-late ka sa trabaho. Tatawag ka sa kompanya at ipapaliwanag ang dahilan."
+    },
+    "cando-433": {
+      "title": "Sabihing wala ang katrabaho",
+      "summary": "May tawag sa internal phone para sa katrabaho mo. Sasabihin mo nang maikli na wala siya sa upuan ngayon."
+    },
+    "cando-443": {
+      "title": "Kumonsulta sa boss tungkol sa kliyente",
+      "summary": "Sinabi ng kliyente (kompanyang katrabaho ninyo) na kulang ang dineliver. Tatawagan mo ang boss mula sa labas para pag-usapan ang gagawin."
+    },
+    "cando-563": {
+      "title": "Paglipat: tirahan at paaralan",
+      "summary": "Sa city hall, ipapasa mo ang tennyu-todoke (papel na ibinibigay sa opisina ng bagong tirahan). Itatanong mo rin ang proseso ng paglipat ng paaralan ng anak."
+    },
+    "cando-566": {
+      "title": "Itanong ang tamang counter sa city hall",
+      "summary": "Sa information ng city hall, itatanong mo kung saan ang counter para sa pag-report ng paglipat at iba pa."
+    },
+    "cando-569": {
+      "title": "Kumuha ng inkan registration certificate",
+      "summary": "Sa counter ng city hall, itatanong mo kung paano punan ang form at ang mga kailangan. Kukuha ka ng inkan registration certificate (papel na nagsasabi kung alin ang iyong opisyal na tatak)."
+    },
+    "cando-577": {
+      "title": "Itanong kung paano magbayad ng buwis",
+      "summary": "Sa tax counter ng city hall, itatanong mo kung saan at paano babayaran ang resident tax (buwis sa prefecture at lungsod)."
+    },
+    "cando-601": {
+      "title": "Itanong ang dog registration sa telepono",
+      "summary": "Tatawag ka sa city hall. Itatanong mo ang proseso, mga kailangan, at bayad sa pag-register ng bagong alagang aso."
+    },
+    "cando-639": {
+      "title": "Sumali sa health insurance at pension",
+      "summary": "Matapos umalis sa kompanya, aasikasuhin mo sa city hall ang pagsali sa National Health Insurance (medical insurance na ikaw mismo ang sasali) at National Pension (pension ng gobyerno)."
+    },
+    "cando-651": {
+      "title": "Itanong ang Japanese class sa telepono",
+      "summary": "Tatawag ka sa international exchange association. Itatanong mo kung ano ang ginagawa sa Japanese class at sino ang puwedeng sumali."
+    },
+    "cando-654": {
+      "title": "Mag-apply sa Japanese class sa telepono",
+      "summary": "Tatawag ka sa international exchange association ng lungsod. Mag-a-apply ka para sumali sa malapit na Japanese class."
+    },
+    "cando-731": {
+      "title": "Itanong ang kuwarto sa community center",
+      "summary": "Tatawag ka sa community center. Itatanong mo ang laki ng kuwarto, bilang ng mesa at upuan, at kung puwedeng kumain at uminom."
+    },
+    "cando-732": {
+      "title": "Itanong sa library ang paghiram",
+      "summary": "Hihiram ka ng libro sa counter ng city library. Itatanong mo kung hanggang kailan ibabalik at ilang libro ang puwedeng hiramin."
+    },
+    "cando-735": {
+      "title": "Itanong ang serbisyo ng post office",
+      "summary": "Sa counter ng post office, itatanong mo kung anong mga paraan ng pagpapadala at serbisyo ang meron. Uunawain mo ang simpleng sagot."
+    },
+    "cando-746": {
+      "title": "Kumonsulta sa internet contract sa tindahan",
+      "summary": "Sa tindahan ng appliances, itatanong mo ang nilalaman ng internet contract (kasunduan sa kompanya) at kung paano mag-apply."
+    },
+    "cando-763": {
+      "title": "Itanong ang plan sa phone shop",
+      "summary": "Sa cellphone shop, makikinig ka sa plan at options na inirerekomenda ng staff. Magtatanong ka at magpapasya."
+    },
+    "cando-767": {
+      "title": "Mag-iwan ng mensahe dahil wala ang in-charge",
+      "summary": "Tatawag ka sa international exchange center. Wala ang taong in-charge, kaya mag-iiwan ka ng maikling mensahe."
+    }
+  },
+  "ne": {
+    "sodai-gomi": {
+      "title": "ठूलो फोहोर उठाउन फोन गर्ने",
+      "summary": "सहरको रिसेप्सन सेन्टरमा फोन गर्नुहोस्। कुर्सी जस्ता ठूला फोहोर लिन आउन भन्नुहोस्।"
+    },
+    "restaurant": {
+      "title": "फोनबाट रेस्टुरेन्ट बुक गर्ने",
+      "summary": "पसलमा फोन गर्नुहोस्। मिति, समय र मान्छे संख्या भनेर सिट बुक गर्नुहोस्।"
+    },
+    "taxi": {
+      "title": "फोनबाट ट्याक्सी बुक गर्ने",
+      "summary": "ट्याक्सी कम्पनीमा फोन गर्नुहोस्। मिति, समय र ठाउँ भनेर गाडी बोलाउनुहोस्।"
+    },
+    "clinic": {
+      "title": "फोनबाट अस्पताल बुक गर्ने",
+      "summary": "अस्पतालको रिसेप्सनमा फोन गरी जाँच गराउने दिन बुक गर्नुहोस्। रोगको विस्तृत कुरा गर्नु पर्दैन।"
+    },
+    "cando-8": {
+      "title": "नयाँ अस्पतालमा दर्ता गर्ने",
+      "summary": "पहिलो पटक जाने अस्पतालको रिसेप्सनमा बीमा कार्ड दिनुहोस्। प्रश्नको जवाफ दिएर स्वास्थ्यबारे लेख्ने फारम लिनुहोस्।"
+    },
+    "cando-77": {
+      "title": "घर एजेन्सीमा चाहेको कोठा भन्ने",
+      "summary": "घर एजेन्सी (घर देखाउने पसल) मा चाहेको कोठाबारे भन्नुहोस्: भाडा (हरेक महिना तिर्ने पैसा), कोठा संख्या, ठाउँ र बस्न सुरु गर्ने दिन।"
+    },
+    "cando-87": {
+      "title": "घर भाडाका कागजात सोध्ने",
+      "summary": "घर एजेन्सीमा भाडा सम्झौताका लागि चाहिने कागजात सोध्नुहोस्। कहिलेसम्म बुझाउने र कहाँ पाइन्छ भनेर पनि सोध्नुहोस्।"
+    },
+    "cando-95": {
+      "title": "नगरपालिकामा बसाइँ-सराइ दर्ता",
+      "summary": "सरेर आएको सहरको नगरपालिकामा 転入届 (नयाँ ठेगानाको कार्यालयमा बुझाउने फारम) बुझाउनुहोस्। सोधिएका प्रश्नको जवाफ दिनुहोस्।"
+    },
+    "cando-96": {
+      "title": "सर्दा नचाहिने सामान फाल्ने तरिका",
+      "summary": "नगरपालिकाको फोहोर काउन्टरमा सोध्नुहोस्। सर्दा नचाहिने फर्निचर र बिजुलीका सामान फाल्ने तरिका बुझ्नुहोस्।"
+    },
+    "cando-101": {
+      "title": "ग्यास सुरु गर्न फोन गर्ने",
+      "summary": "नयाँ घरको ग्यास कम्पनीमा फोन गर्नुहोस्। ग्यास चलाउन सकिने दिन तय गर्नुहोस्।"
+    },
+    "cando-105": {
+      "title": "ग्यास बिलको गल्ती सोध्ने",
+      "summary": "ग्यास कम्पनीमा फोन गर्नुहोस्। बस्नुअघिको ग्यास पैसा पनि लेखिएकोले जाँच गर्नुहोस्।"
+    },
+    "cando-110": {
+      "title": "लुगाको रङ र साइज सोध्ने",
+      "summary": "डिपार्टमेन्ट स्टोरको लुगा पसलमा स्वेटरको अर्को रङ वा साइज छ कि भनेर कर्मचारीलाई सोध्नुहोस्।"
+    },
+    "cando-121": {
+      "title": "बिग्रिएको सामान साट्ने",
+      "summary": "होम सेन्टरको काउन्टरमा कुरा गर्नुहोस्। किनेको सामान बिग्रिएकोले साट्न वा पैसा फिर्ता माग्नुहोस्।"
+    },
+    "cando-128": {
+      "title": "रेस्टुरेन्टमा मान्छे र सिट भन्ने",
+      "summary": "रेस्टुरेन्टमा पसेर कर्मचारीलाई मान्छे संख्या भन्नुहोस्। चुरोट खाने वा नखाने सिट पनि भन्नुहोस्।"
+    },
+    "cando-134": {
+      "title": "खान नहुने कुरा भनेर अर्डर",
+      "summary": "जापानी खानाको पसलमा धर्मका कारण खान नहुने कुरा बताउनुहोस्। अर्डर गर्न मिल्छ कि जाँच गर्नुहोस्।"
+    },
+    "cando-143": {
+      "title": "लुगा धुने पसलमा लुगा दिने",
+      "summary": "पसलमा लुगा दिनुहोस्। दाग हटाउने र धुने तरिकाबारे कर्मचारीको प्रश्नको जवाफ दिनुहोस्।"
+    },
+    "cando-151": {
+      "title": "बैंकमा विदेश पैसा पठाउने तरिका",
+      "summary": "बैंकको काउन्टरमा विदेशमा परिवारलाई पैसा पठाउने तरिका र चाहिने कागजात सोध्नुहोस्। व्याख्या सुनेर बुझ्नुहोस्।"
+    },
+    "cando-158": {
+      "title": "स्टेशनमा छिटो जाने बाटो सोध्ने",
+      "summary": "स्टेशनको काउन्टरमा सबैभन्दा छिटो पुग्ने ट्रेन सोध्नुहोस्। ट्रेन फेर्ने र समय पनि सोधेर तय गर्नुहोस्।"
+    },
+    "cando-161": {
+      "title": "होटलमा ट्याक्सी माग्ने",
+      "summary": "होटलको रिसेप्सनमा स्टेशन वा एयरपोर्ट जाने ट्याक्सी बोलाइदिन भन्नुहोस्।"
+    },
+    "cando-187": {
+      "title": "लाइसेन्स नवीकरण फोनमा सोध्ने",
+      "summary": "लाइसेन्स नवीकरण (नयाँ बनाउने) सेन्टरमा फोन गर्नुहोस्। तरिका, लैजाने सामान र शुल्क सोधेर बुझ्नुहोस्।"
+    },
+    "cando-188": {
+      "title": "ड्राइभिङ स्कुलमा फोनमा सोध्ने",
+      "summary": "ड्राइभिङ सिकाउने स्कुलमा फोन गर्नुहोस्। कोर्स, शुल्क र आउने तरिका सोध्नुहोस्। आफूलाई मिल्छ कि सल्लाह गर्नुहोस्।"
+    },
+    "cando-191": {
+      "title": "फोनबाट गाडीको बीमा गर्ने",
+      "summary": "बीमा कम्पनीमा फोन गर्नुहोस्। किनेको गाडीको बीमा (दुर्घटनाका लागि पैसाको व्यवस्था) गर्नुहोस्।"
+    },
+    "cando-203": {
+      "title": "गर्भ जाँच फोनबाट बुक गर्ने",
+      "summary": "प्रसूति अस्पताल (बच्चा जन्माउने अस्पताल) मा फोन गर्नुहोस्। गर्भ जाँच (पेटमा बच्चा भएको व्यक्ति स्वस्थ छ कि जाँच) को दिन र समय बुक गर्नुहोस्।"
+    },
+    "cando-219": {
+      "title": "बच्चाको भिसा प्रक्रिया सोध्ने",
+      "summary": "नगरपालिकाको काउन्टरमा जन्मेको बच्चाको 在留資格 (विदेशीले जापानमा बस्ने अनुमति) प्रक्रिया सोध्नुहोस्। कहिलेसम्म र कहाँ गर्ने पनि सोध्नुहोस्।"
+    },
+    "cando-222": {
+      "title": "शिशु जाँच फोनबाट बुक गर्ने",
+      "summary": "बालबालिकाको अस्पतालमा फोन गर्नुहोस्। बच्चा कति महिनाको भयो र आउन चाहेको दिन भन्नुहोस्। शिशु स्वास्थ्य जाँच बुक गर्नुहोस्।"
+    },
+    "cando-266": {
+      "title": "नर्सरी आवेदनको अन्तिम दिन सोध्ने",
+      "summary": "नगरपालिकाको बाल हेरचाह काउन्टरमा सोध्नुहोस्। नर्सरी (आमाबुबा काम गर्दा बच्चा हेर्ने ठाउँ) भर्नाको कागजात बुझाउने तरिका र अन्तिम दिन सोध्नुहोस्।"
+    },
+    "cando-295": {
+      "title": "बच्चाको जापानी भाषा सहयोग सोध्ने",
+      "summary": "शिक्षा समितिको काउन्टरमा सोध्नुहोस्। बच्चाको स्कुलमा जापानी कक्षा वा जापानी भाषा सहयोग छ कि सोध्नुहोस्।"
+    },
+    "cando-299": {
+      "title": "स्कुल भर्नाअघिको स्वास्थ्य जाँच सोध्ने",
+      "summary": "प्राथमिक स्कुल भर्नाअघिको स्वास्थ्य जाँचको सूचना आयो। स्कुलमा फोन गरी विषय र त्यस दिनको कुरा जाँच गर्नुहोस्।"
+    },
+    "cando-316": {
+      "title": "स्कुलमा खाजा शुल्क तिर्ने तरिका",
+      "summary": "बच्चाको प्राथमिक स्कुलको कार्यालयमा खाजा शुल्क तिर्ने तरिका सोध्नुहोस्। बैंकबाट स्वतः तिर्ने प्रक्रिया पनि सोध्नुहोस्।"
+    },
+    "cando-331": {
+      "title": "आगामी पढाइ सल्लाह र दोभाषे सोध्ने",
+      "summary": "माध्यमिक स्कुलका शिक्षकलाई फोन गर्नुहोस्। स्नातकपछिको पढाइबारे सल्लाहको दिन सोध्नुहोस्। दोभाषे सँगै आउन मिल्छ कि पनि सोध्नुहोस्।"
+    },
+    "cando-348": {
+      "title": "विशेष सहयोग कक्षा सोध्ने",
+      "summary": "नजिकको प्राथमिक स्कुलमा फोन गर्नुहोस्। अपाङ्गता भएका बच्चाको कक्षा छ कि, कस्तो सहयोग छ भनेर सोध्नुहोस्।"
+    },
+    "cando-356": {
+      "title": "हेलो वर्कमा काम खोज्ने तरिका",
+      "summary": "हेलो वर्क (काम दिलाउने सरकारी कार्यालय) को काउन्टरमा काम खोज्ने तरिका सोध्नुहोस्। काम भेटेपछि आवेदन गर्ने तरिका पनि सोध्नुहोस्।"
+    },
+    "cando-380": {
+      "title": "गर्न मिल्ने कामको प्रकार सोध्ने",
+      "summary": "काम खोज्ने काउन्टरमा आफ्नो 在留資格 (भिसा) र काम गर्न मिल्ने समय भन्नुहोस्। कस्तो काम गर्न मिल्छ सोध्नुहोस्।"
+    },
+    "cando-424": {
+      "title": "ट्रेन दुर्घटनाले ढिला हुने फोन",
+      "summary": "ट्रेन रोकियो, कम्पनी ढिला पुगिन्छ। कम्पनीमा फोन गरी कारण बताउनुहोस्।"
+    },
+    "cando-433": {
+      "title": "सहकर्मी छैनन् भनेर भन्ने",
+      "summary": "कम्पनीभित्रको फोनमा सहकर्मीलाई फोन आयो। अहिले सिटमा हुनुहुन्न भनेर छोटकरीमा भन्नुहोस्।"
+    },
+    "cando-443": {
+      "title": "ग्राहक कम्पनीको समस्या हाकिमसँग",
+      "summary": "सँगै काम गर्ने कम्पनीले पठाएको संख्या नपुगेको भन्यो। बाहिरबाट हाकिमलाई फोन गरी के गर्ने सल्लाह गर्नुहोस्।"
+    },
+    "cando-563": {
+      "title": "सर्दा बसाइँ र स्कुल सरुवा",
+      "summary": "नगरपालिकाको काउन्टरमा 転入届 (नयाँ ठेगानाको कार्यालयमा बुझाउने फारम) बुझाउनुहोस्। बच्चाको स्कुल सरुवाको प्रक्रिया पनि सोध्नुहोस्।"
+    },
+    "cando-566": {
+      "title": "नगरपालिकामा काउन्टर सोध्ने",
+      "summary": "नगरपालिकाको सोधपुछमा बसाइँ-सराइ दर्ता जस्ता काम गर्ने काउन्टर कहाँ छ सोध्नुहोस्।"
+    },
+    "cando-569": {
+      "title": "छाप दर्ता प्रमाणपत्र लिने",
+      "summary": "नगरपालिकाको काउन्टरमा फारम भर्ने तरिका र चाहिने कुरा सोध्नुहोस्। छाप दर्ता प्रमाणपत्र (तपाईंको आधिकारिक छाप देखाउने कागज) लिनुहोस्।"
+    },
+    "cando-577": {
+      "title": "कर तिर्ने तरिका सोध्ने",
+      "summary": "नगरपालिकाको कर काउन्टरमा सोध्नुहोस्। बासिन्दा कर (प्रिफेक्चर र सहरलाई तिर्ने कर) कहाँ र कसरी तिर्ने सोध्नुहोस्।"
+    },
+    "cando-601": {
+      "title": "कुकुर दर्ता फोनमा सोध्ने",
+      "summary": "नगरपालिकामा फोन गर्नुहोस्। भर्खर पालेको कुकुर दर्ता गर्ने तरिका, चाहिने कुरा र शुल्क सोध्नुहोस्।"
+    },
+    "cando-639": {
+      "title": "राष्ट्रिय स्वास्थ्य बीमा र पेन्सन",
+      "summary": "कम्पनी छोडेपछि नगरपालिकाको काउन्टरमा प्रक्रिया गर्नुहोस्। राष्ट्रिय स्वास्थ्य बीमा (आफैं गर्ने उपचार बीमा) र राष्ट्रिय पेन्सनमा सामेल हुनुहोस्।"
+    },
+    "cando-651": {
+      "title": "जापानी कक्षाबारे फोनमा सोध्ने",
+      "summary": "अन्तर्राष्ट्रिय आदानप्रदान संघमा फोन गर्नुहोस्। जापानी कक्षामा के गरिन्छ, को सहभागी हुन सक्छ सोध्नुहोस्।"
+    },
+    "cando-654": {
+      "title": "जापानी कक्षामा फोनबाट भर्ना",
+      "summary": "सहरको अन्तर्राष्ट्रिय आदानप्रदान संघमा फोन गर्नुहोस्। नजिकको जापानी कक्षामा सहभागी हुन आवेदन दिनुहोस्।"
+    },
+    "cando-731": {
+      "title": "सामुदायिक भवनको कोठा सोध्ने",
+      "summary": "सामुदायिक भवनमा फोन गर्नुहोस्। कोठाको आकार, टेबल-कुर्सी संख्या र खानपिन गर्न मिल्छ कि सोध्नुहोस्।"
+    },
+    "cando-732": {
+      "title": "पुस्तकालयमा किताब लिने तरिका",
+      "summary": "सहरको पुस्तकालयमा किताब लिनुहोस्। कहिलेसम्म फिर्ता गर्ने र कति किताब लिन मिल्छ सोध्नुहोस्।"
+    },
+    "cando-735": {
+      "title": "हुलाक सेवा सोध्ने",
+      "summary": "हुलाक कार्यालयको काउन्टरमा कस्ता पठाउने तरिका र सेवा छन् सोध्नुहोस्। सजिलो जवाफ बुझ्नुहोस्।"
+    },
+    "cando-746": {
+      "title": "पसलमा इन्टरनेट सम्झौता सल्लाह",
+      "summary": "इलेक्ट्रोनिक्स पसलमा इन्टरनेट सम्झौता (पसलसँगको सहमति) को विषय र आवेदन तरिका सोध्नुहोस्।"
+    },
+    "cando-763": {
+      "title": "मोबाइल पसलमा प्लान सोध्ने",
+      "summary": "मोबाइल पसलमा कर्मचारीले सिफारिस गरेका प्लान र अप्सन सुन्नुहोस्। प्रश्न सोधेर तय गर्नुहोस्।"
+    },
+    "cando-767": {
+      "title": "जिम्मेवार व्यक्ति नहुँदा सन्देश छोड्ने",
+      "summary": "अन्तर्राष्ट्रिय आदानप्रदान केन्द्रमा फोन गर्नुहोस्। जिम्मेवार व्यक्ति नभएकाले छोटो सन्देश छोड्न अनुरोध गर्नुहोस्।"
+    }
+  },
+  "id": {
+    "sodai-gomi": {
+      "title": "Minta angkut sampah besar lewat telepon",
+      "summary": "Telepon pusat layanan kota. Minta petugas datang mengambil sampah besar seperti kursi."
+    },
+    "restaurant": {
+      "title": "Pesan restoran lewat telepon",
+      "summary": "Telepon restoran. Sebutkan tanggal, jam, dan jumlah orang, lalu pesan meja."
+    },
+    "taxi": {
+      "title": "Pesan taksi lewat telepon",
+      "summary": "Telepon perusahaan taksi. Sebutkan tanggal, jam, dan tempat, lalu panggil mobil."
+    },
+    "clinic": {
+      "title": "Buat janji dokter lewat telepon",
+      "summary": "Telepon bagian pendaftaran rumah sakit/klinik dan buat janji periksa. Tidak membahas detail penyakit."
+    },
+    "cando-8": {
+      "title": "Mendaftar di klinik pertama kali",
+      "summary": "Di pendaftaran klinik yang baru pertama kali didatangi, serahkan kartu asuransi. Jawab pertanyaan dan terima formulir tentang kondisi badan."
+    },
+    "cando-77": {
+      "title": "Menjelaskan kamar yang dicari di agen properti",
+      "summary": "Di agen properti (toko yang mengenalkan rumah), jelaskan kamar yang ingin ditempati: sewa bulanan, jumlah kamar, lokasi, dan tanggal mulai tinggal."
+    },
+    "cando-87": {
+      "title": "Menanyakan dokumen sewa rumah",
+      "summary": "Di agen properti, tanyakan dokumen yang perlu untuk kontrak sewa. Tanyakan juga batas waktu menyerahkan dan tempat mendapatkannya."
+    },
+    "cando-95": {
+      "title": "Lapor pindah datang di kantor kota",
+      "summary": "Di kantor kota tempat tinggal baru, serahkan formulir lapor pindah datang (tenyū todoke). Jawab pertanyaan petugas."
+    },
+    "cando-96": {
+      "title": "Menanyakan cara buang barang saat pindahan",
+      "summary": "Di loket sampah kantor kota, tanyakan cara membuang perabot dan alat elektronik yang tidak dipakai lagi karena pindahan, sampai paham."
+    },
+    "cando-101": {
+      "title": "Minta gas dinyalakan lewat telepon",
+      "summary": "Telepon perusahaan gas di rumah baru. Tentukan tanggal gas mulai bisa dipakai."
+    },
+    "cando-105": {
+      "title": "Menanyakan tagihan gas yang salah",
+      "summary": "Telepon perusahaan gas. Tagihan juga mencakup masa sebelum mulai tinggal, jadi cek isinya."
+    },
+    "cando-110": {
+      "title": "Menanyakan warna dan ukuran baju",
+      "summary": "Di bagian pakaian toserba, tanyakan ke pegawai apakah ada warna atau ukuran lain dari sweter yang dipajang."
+    },
+    "cando-121": {
+      "title": "Minta tukar barang yang rusak",
+      "summary": "Di konter layanan toko perkakas (home center), barang yang dibeli ternyata rusak. Minta ditukar atau uang dikembalikan."
+    },
+    "cando-128": {
+      "title": "Menyebut jumlah orang dan tempat duduk",
+      "summary": "Saat masuk restoran, sebutkan jumlah orang ke pegawai. Sebutkan juga ingin area merokok atau bebas rokok."
+    },
+    "cando-134": {
+      "title": "Memesan dengan menyebut pantangan makanan",
+      "summary": "Di restoran Jepang, jelaskan makanan yang tidak boleh dimakan karena agama. Pastikan apakah bisa memesan."
+    },
+    "cando-143": {
+      "title": "Menitipkan baju ke laundry",
+      "summary": "Serahkan baju di toko laundry. Jawab pertanyaan pegawai tentang menghilangkan noda dan cara mencuci."
+    },
+    "cando-151": {
+      "title": "Menanyakan kirim uang ke luar negeri",
+      "summary": "Di loket bank, tanyakan cara mengirim uang ke keluarga di luar negeri dan dokumen yang perlu, sampai paham penjelasannya."
+    },
+    "cando-158": {
+      "title": "Menanyakan rute tercepat di stasiun",
+      "summary": "Di loket stasiun, tanyakan kereta yang paling cepat sampai. Tanyakan juga transit dan waktunya, lalu putuskan."
+    },
+    "cando-161": {
+      "title": "Minta taksi di hotel",
+      "summary": "Di resepsionis hotel, minta dipanggilkan taksi ke stasiun atau bandara."
+    },
+    "cando-187": {
+      "title": "Menanyakan perpanjangan SIM lewat telepon",
+      "summary": "Telepon pusat perpanjangan SIM. Tanyakan caranya, barang yang dibawa, dan biayanya sampai paham."
+    },
+    "cando-188": {
+      "title": "Menanyakan kursus mengemudi lewat telepon",
+      "summary": "Telepon sekolah mengemudi. Tanyakan kursus, biaya, dan jadwal datang. Konsultasikan apakah cocok untuk Anda."
+    },
+    "cando-191": {
+      "title": "Daftar asuransi mobil lewat telepon",
+      "summary": "Telepon perusahaan asuransi. Daftarkan asuransi (sistem uang untuk jaga-jaga saat kecelakaan) untuk mobil yang dibeli."
+    },
+    "cando-203": {
+      "title": "Buat janji cek kehamilan lewat telepon",
+      "summary": "Telepon klinik kandungan (tempat melahirkan). Pesan tanggal dan jam cek kehamilan (pemeriksaan kesehatan ibu hamil)."
+    },
+    "cando-219": {
+      "title": "Menanyakan izin tinggal untuk bayi",
+      "summary": "Di loket kantor kota, tanyakan prosedur status izin tinggal (zairyū shikaku) anak yang baru lahir. Tanyakan juga batas waktu dan tempatnya."
+    },
+    "cando-222": {
+      "title": "Buat janji cek kesehatan bayi lewat telepon",
+      "summary": "Telepon klinik anak. Sebutkan umur anak dalam bulan dan tanggal yang diinginkan. Pesan cek kesehatan bayi/balita."
+    },
+    "cando-266": {
+      "title": "Menanyakan batas daftar penitipan anak",
+      "summary": "Di loket penitipan anak kantor kota, tanyakan cara menyerahkan dokumen masuk hoikuen (tempat penitipan anak saat orang tua bekerja) dan batas waktunya."
+    },
+    "cando-295": {
+      "title": "Menanyakan bantuan bahasa Jepang untuk anak",
+      "summary": "Di loket dewan pendidikan, tanyakan apakah sekolah anak punya kelas atau bantuan bahasa Jepang."
+    },
+    "cando-299": {
+      "title": "Menanyakan cek kesehatan sebelum masuk SD",
+      "summary": "Ada surat pemberitahuan cek kesehatan sebelum masuk SD. Telepon SD untuk memastikan isinya dan alur pada hari itu."
+    },
+    "cando-316": {
+      "title": "Menanyakan cara bayar makan siang sekolah",
+      "summary": "Di kantor tata usaha SD anak, tanyakan cara bayar biaya makan siang. Tanyakan juga prosedur potong otomatis dari rekening bank."
+    },
+    "cando-331": {
+      "title": "Menanyakan konsultasi studi dan penerjemah",
+      "summary": "Telepon wali kelas SMP. Tanyakan tanggal konsultasi sekolah lanjutan setelah lulus, dan apakah penerjemah boleh ikut."
+    },
+    "cando-348": {
+      "title": "Menanyakan kelas kebutuhan khusus",
+      "summary": "Telepon SD terdekat. Tanyakan apakah ada kelas untuk anak berkebutuhan khusus dan bantuan apa saja yang ada."
+    },
+    "cando-356": {
+      "title": "Menanyakan cara cari kerja di Hello Work",
+      "summary": "Di loket Hello Work (kantor pemerintah penyalur kerja), tanyakan cara mencari kerja dan cara melamar setelah menemukannya."
+    },
+    "cando-380": {
+      "title": "Menanyakan jenis kerja yang boleh",
+      "summary": "Di loket pencarian kerja, sebutkan status izin tinggal dan jam kerja yang diizinkan. Tanyakan jenis pekerjaan yang bisa dilakukan."
+    },
+    "cando-424": {
+      "title": "Telepon kantor: terlambat karena kereta",
+      "summary": "Kereta berhenti dan Anda terlambat ke kantor. Telepon kantor dan jelaskan alasannya."
+    },
+    "cando-433": {
+      "title": "Bilang rekan kerja sedang tidak ada",
+      "summary": "Ada telepon internal kantor untuk rekan kerja. Katakan singkat bahwa dia sedang tidak di mejanya."
+    },
+    "cando-443": {
+      "title": "Konsultasi masalah klien ke atasan",
+      "summary": "Klien (perusahaan mitra kerja) bilang jumlah barang kiriman kurang. Telepon atasan dari luar dan diskusikan apa yang harus dilakukan."
+    },
+    "cando-563": {
+      "title": "Lapor pindah dan pindah sekolah",
+      "summary": "Di loket kantor kota, serahkan formulir lapor pindah datang. Tanyakan juga prosedur pindah sekolah anak."
+    },
+    "cando-566": {
+      "title": "Menanyakan loket di kantor kota",
+      "summary": "Di bagian informasi kantor kota, tanyakan di mana loket untuk lapor pindahan dan lainnya."
+    },
+    "cando-569": {
+      "title": "Ambil surat keterangan cap (inkan)",
+      "summary": "Di loket kantor kota, tanyakan cara mengisi formulir dan barang yang perlu. Terima surat keterangan cap terdaftar (surat yang menunjukkan cap resmi Anda)."
+    },
+    "cando-577": {
+      "title": "Menanyakan cara bayar pajak",
+      "summary": "Di loket pajak kantor kota, tanyakan di mana dan bagaimana cara bayar pajak penduduk (pajak untuk prefektur dan kota)."
+    },
+    "cando-601": {
+      "title": "Menanyakan registrasi anjing lewat telepon",
+      "summary": "Telepon kantor kota. Tanyakan cara mendaftarkan anjing yang baru dipelihara, barang yang perlu, dan biayanya."
+    },
+    "cando-639": {
+      "title": "Daftar asuransi kesehatan dan pensiun nasional",
+      "summary": "Setelah berhenti kerja, urus di loket kantor kota. Daftar Asuransi Kesehatan Nasional (asuransi yang didaftar sendiri) dan Pensiun Nasional."
+    },
+    "cando-651": {
+      "title": "Menanyakan kelas bahasa Jepang lewat telepon",
+      "summary": "Telepon asosiasi pertukaran internasional. Tanyakan kegiatan kelas bahasa Jepang dan siapa yang boleh ikut."
+    },
+    "cando-654": {
+      "title": "Daftar kelas bahasa Jepang lewat telepon",
+      "summary": "Telepon asosiasi pertukaran internasional kota. Daftar untuk ikut kelas bahasa Jepang terdekat."
+    },
+    "cando-731": {
+      "title": "Menanyakan ruangan balai warga",
+      "summary": "Telepon balai warga (kōminkan). Tanyakan luas ruangan, jumlah meja dan kursi, dan apakah boleh makan dan minum."
+    },
+    "cando-732": {
+      "title": "Menanyakan cara pinjam buku di perpustakaan",
+      "summary": "Pinjam buku di loket perpustakaan kota. Tanyakan batas waktu kembali dan berapa buku yang bisa dipinjam."
+    },
+    "cando-735": {
+      "title": "Menanyakan layanan kantor pos",
+      "summary": "Di loket kantor pos, tanyakan cara kirim dan layanan apa saja yang ada. Pahami jawaban sederhananya."
+    },
+    "cando-746": {
+      "title": "Konsultasi kontrak internet di toko",
+      "summary": "Di toko elektronik, tanyakan isi kontrak internet dan cara mendaftarnya."
+    },
+    "cando-763": {
+      "title": "Menanyakan paket di toko ponsel",
+      "summary": "Di toko ponsel, dengarkan paket dan opsi yang disarankan pegawai. Bertanya, lalu putuskan."
+    },
+    "cando-767": {
+      "title": "Titip pesan karena petugas tidak ada",
+      "summary": "Telepon pusat pertukaran internasional. Petugasnya tidak ada, jadi titip pesan singkat."
+    }
+  },
+  "pt": {
+    "sodai-gomi": {
+      "title": "Pedir coleta de lixo grande por telefone",
+      "summary": "Você liga para a central de atendimento da prefeitura e pede para buscarem lixo grande, como cadeiras."
+    },
+    "restaurant": {
+      "title": "Reservar restaurante por telefone",
+      "summary": "Você liga para o restaurante, diz o dia, o horário e o número de pessoas e reserva uma mesa."
+    },
+    "taxi": {
+      "title": "Reservar táxi por telefone",
+      "summary": "Você liga para a empresa de táxi, diz o dia, o horário e o local e chama um carro."
+    },
+    "clinic": {
+      "title": "Marcar consulta por telefone",
+      "summary": "Você liga para a recepção da clínica e marca o dia da consulta. Não fala dos sintomas em detalhes."
+    },
+    "cando-8": {
+      "title": "Recepção na primeira consulta",
+      "summary": "Na recepção de uma clínica nova, você entrega o cartão do seguro de saúde, responde às perguntas e recebe o questionário médico."
+    },
+    "cando-77": {
+      "title": "Dizer que imóvel você quer",
+      "summary": "Na imobiliária, você diz como quer o imóvel: aluguel (valor pago todo mês), número de cômodos, local e data de mudança."
+    },
+    "cando-87": {
+      "title": "Perguntar documentos para alugar",
+      "summary": "Na imobiliária, você pergunta quais documentos são necessários para o contrato de aluguel, o prazo e onde consegui-los."
+    },
+    "cando-95": {
+      "title": "Registrar mudança na prefeitura",
+      "summary": "Na prefeitura da nova cidade, você entrega o aviso de mudança (tennyū todoke, formulário do novo endereço) e responde às perguntas."
+    },
+    "cando-96": {
+      "title": "Como descartar itens da mudança",
+      "summary": "No balcão de lixo da prefeitura, você pergunta como jogar fora móveis e eletrodomésticos que não usa mais por causa da mudança e entende a explicação."
+    },
+    "cando-101": {
+      "title": "Ligar para ativar o gás",
+      "summary": "Você liga para a empresa de gás da nova casa e marca o dia para ligar o gás."
+    },
+    "cando-105": {
+      "title": "Reclamar de erro na conta de gás",
+      "summary": "Você liga para a empresa de gás para verificar a conta, que inclui o gás de antes de você morar lá."
+    },
+    "cando-110": {
+      "title": "Perguntar cor e tamanho de roupa",
+      "summary": "Na seção de roupas da loja de departamentos, você pergunta ao vendedor se há outras cores ou tamanhos do suéter."
+    },
+    "cando-121": {
+      "title": "Trocar produto com defeito",
+      "summary": "No balcão da loja de materiais, você pede a troca ou o reembolso de um produto que veio quebrado."
+    },
+    "cando-128": {
+      "title": "Dizer número de pessoas e mesa",
+      "summary": "Ao entrar no restaurante, você diz ao atendente quantas pessoas são e se quer área para fumantes ou não fumantes."
+    },
+    "cando-134": {
+      "title": "Pedir comida com restrições",
+      "summary": "Num restaurante japonês, você explica o que não pode comer por motivo religioso e confirma se pode fazer o pedido."
+    },
+    "cando-143": {
+      "title": "Levar roupa à lavanderia",
+      "summary": "Você leva roupas à lavanderia e responde às perguntas do atendente sobre manchas e forma de lavar."
+    },
+    "cando-151": {
+      "title": "Enviar dinheiro ao exterior",
+      "summary": "No banco, você pergunta como enviar dinheiro para a família no exterior e quais documentos são necessários, e entende a explicação."
+    },
+    "cando-158": {
+      "title": "Perguntar o caminho mais rápido",
+      "summary": "Na bilheteria da estação, você pergunta qual trem chega mais rápido, as baldeações e o tempo, e decide."
+    },
+    "cando-161": {
+      "title": "Pedir táxi no hotel",
+      "summary": "Na recepção do hotel, você pede para chamarem um táxi para a estação ou o aeroporto."
+    },
+    "cando-187": {
+      "title": "Renovação da carteira de motorista",
+      "summary": "Você liga para o centro de renovação (fazer uma nova carteira) e entende o procedimento, o que levar e a taxa."
+    },
+    "cando-188": {
+      "title": "Consultar autoescola por telefone",
+      "summary": "Você liga para a autoescola, pergunta sobre cursos, preços e frequência, e vê se combina com você."
+    },
+    "cando-191": {
+      "title": "Fazer seguro de carro por telefone",
+      "summary": "Você liga para a seguradora e contrata o seguro do carro que comprou (sistema que paga em caso de acidente)."
+    },
+    "cando-203": {
+      "title": "Marcar pré-natal por telefone",
+      "summary": "Você liga para a clínica de obstetrícia (onde se tem bebê) e marca dia e horário do pré-natal (exame de saúde para grávidas)."
+    },
+    "cando-219": {
+      "title": "Visto do bebê: perguntar trâmites",
+      "summary": "Na prefeitura, você pergunta sobre o visto de residência (o que o estrangeiro pode fazer no Japão) do bebê que nasceu, o prazo e onde fazer."
+    },
+    "cando-222": {
+      "title": "Marcar check-up do bebê",
+      "summary": "Você liga para a clínica pediátrica, diz a idade do bebê em meses e o dia desejado, e marca o check-up infantil (exame de saúde do bebê)."
+    },
+    "cando-266": {
+      "title": "Prazo de inscrição na creche",
+      "summary": "No setor de creches da prefeitura, você pergunta como entregar os documentos para a creche (onde cuidam das crianças enquanto os pais trabalham) e o último dia."
+    },
+    "cando-295": {
+      "title": "Apoio de japonês para a criança",
+      "summary": "Na secretaria de educação, você pergunta se a escola do seu filho tem aula de japonês ou apoio no idioma."
+    },
+    "cando-299": {
+      "title": "Exame de saúde antes da escola",
+      "summary": "Chegou o aviso do exame de saúde antes de entrar no primário. Você liga para a escola e confirma o conteúdo e como será o dia."
+    },
+    "cando-316": {
+      "title": "Como pagar a merenda escolar",
+      "summary": "Na secretaria da escola primária, você pergunta como pagar a merenda e como fazer o débito automático no banco."
+    },
+    "cando-331": {
+      "title": "Orientação escolar e intérprete",
+      "summary": "Você liga para o professor do ginásio, pergunta o dia da conversa sobre a escola depois da formatura e se um intérprete pode ir junto."
+    },
+    "cando-348": {
+      "title": "Perguntar sobre classe especial",
+      "summary": "Você liga para a escola primária próxima e pergunta se há classe para crianças com deficiência e que apoio oferecem."
+    },
+    "cando-356": {
+      "title": "Buscar emprego na Hello Work",
+      "summary": "Na Hello Work (agência pública de empregos), você pergunta como procurar trabalho e como se candidatar depois."
+    },
+    "cando-380": {
+      "title": "Que tipo de trabalho posso fazer",
+      "summary": "No balcão de empregos, você diz seu visto de residência e as horas que pode trabalhar, e pergunta que tipo de trabalho pode fazer."
+    },
+    "cando-424": {
+      "title": "Avisar atraso por problema no trem",
+      "summary": "O trem parou e você vai chegar atrasado. Você liga para a empresa e explica o motivo."
+    },
+    "cando-433": {
+      "title": "Avisar que o colega não está",
+      "summary": "No telefone interno da empresa, ligam para um colega. Você diz rapidamente que ele não está na mesa agora."
+    },
+    "cando-443": {
+      "title": "Consultar o chefe sobre um problema",
+      "summary": "Um cliente (empresa parceira) disse que faltou mercadoria na entrega. Você liga de fora para o chefe e pergunta o que fazer."
+    },
+    "cando-563": {
+      "title": "Mudança: registro e troca de escola",
+      "summary": "Na prefeitura, você entrega o aviso de mudança (formulário do novo endereço) e pergunta como transferir seu filho de escola."
+    },
+    "cando-566": {
+      "title": "Perguntar qual é o balcão",
+      "summary": "No balcão de informações da prefeitura, você pergunta onde fica o balcão para registrar a mudança e outros trâmites."
+    },
+    "cando-569": {
+      "title": "Pedir certificado do carimbo",
+      "summary": "Na prefeitura, você pergunta como preencher o formulário e o que levar, e recebe o certificado de registro do carimbo (documento que mostra qual é seu carimbo oficial)."
+    },
+    "cando-577": {
+      "title": "Como pagar impostos",
+      "summary": "No setor de impostos da prefeitura, você pergunta onde e como pagar o imposto de residente (pago à província e à cidade)."
+    },
+    "cando-601": {
+      "title": "Registro de cachorro por telefone",
+      "summary": "Você liga para a prefeitura e pergunta como registrar o cachorro que começou a criar, o que levar e a taxa."
+    },
+    "cando-639": {
+      "title": "Entrar no seguro de saúde e pensão",
+      "summary": "Depois de sair da empresa, você faz na prefeitura a inscrição no Seguro Nacional de Saúde (seguro médico por conta própria) e na Pensão Nacional (aposentadoria do governo)."
+    },
+    "cando-651": {
+      "title": "Perguntar sobre aula de japonês",
+      "summary": "Você liga para a associação de intercâmbio internacional e pergunta o que se faz na aula de japonês e quem pode participar."
+    },
+    "cando-654": {
+      "title": "Inscrever-se na aula de japonês",
+      "summary": "Você liga para a associação de intercâmbio internacional da cidade e se inscreve numa aula de japonês perto de casa."
+    },
+    "cando-731": {
+      "title": "Perguntar sobre sala no centro",
+      "summary": "Você liga para o centro comunitário e pergunta o tamanho da sala, quantas mesas e cadeiras há e se pode comer e beber."
+    },
+    "cando-732": {
+      "title": "Como pegar livros na biblioteca",
+      "summary": "No balcão da biblioteca municipal, você pega livros emprestados e pergunta o prazo de devolução e quantos pode levar."
+    },
+    "cando-735": {
+      "title": "Serviços dos correios",
+      "summary": "No balcão dos correios, você pergunta que formas de envio e serviços existem e entende respostas simples."
+    },
+    "cando-746": {
+      "title": "Contratar internet na loja",
+      "summary": "Na loja de eletrônicos, você pergunta sobre o contrato de internet (acordo com a empresa) e como se inscrever."
+    },
+    "cando-763": {
+      "title": "Perguntar planos de celular",
+      "summary": "Na loja de celular, você ouve os planos e opções que o vendedor recomenda, faz perguntas e decide."
+    },
+    "cando-767": {
+      "title": "Deixar recado",
+      "summary": "Você liga para o centro de intercâmbio internacional. O responsável não está, então você deixa um recado curto."
+    }
+  },
+  "ko": {
+    "sodai-gomi": {
+      "title": "대형 쓰레기 수거 전화로 신청하기",
+      "summary": "시의 접수 센터에 전화합니다. 의자 같은 큰 쓰레기를 가지러 와 달라고 합니다."
+    },
+    "restaurant": {
+      "title": "레스토랑 전화로 예약하기",
+      "summary": "가게에 전화합니다. 날짜·시간·인원을 말하고 자리를 예약합니다."
+    },
+    "taxi": {
+      "title": "택시 전화로 예약하기",
+      "summary": "택시 회사에 전화합니다. 날짜·시간·장소를 말하고 차를 부릅니다."
+    },
+    "clinic": {
+      "title": "병원 전화로 예약하기",
+      "summary": "병원 접수처에 전화해서 진료받을 날을 예약합니다. 자세한 증상 이야기는 하지 않습니다."
+    },
+    "cando-8": {
+      "title": "처음 가는 병원에서 접수하기",
+      "summary": "처음 가는 병원 접수처에서 건강보험증을 냅니다. 질문에 답하고, 몸 상태를 적는 종이(문진표)를 받습니다."
+    },
+    "cando-77": {
+      "title": "부동산에서 원하는 집 말하기",
+      "summary": "부동산(집을 소개하는 가게)에서 살고 싶은 집에 대해 말합니다. 월세(매달 내는 돈), 방 개수, 위치, 입주일입니다."
+    },
+    "cando-87": {
+      "title": "집 계약 서류 물어보기",
+      "summary": "부동산에서 집을 빌리는 계약에 필요한 서류를 묻습니다. 언제까지 내는지, 어디서 받는지도 묻습니다."
+    },
+    "cando-95": {
+      "title": "시청에 전입신고 하기",
+      "summary": "이사 온 시의 시청에서 전입신고서(새 주소의 관청에 내는 서류)를 냅니다. 질문에 답합니다."
+    },
+    "cando-96": {
+      "title": "이사 때 안 쓰는 물건 버리는 법 묻기",
+      "summary": "시청 쓰레기 창구에서 묻습니다. 이사로 필요 없어진 가구나 가전제품을 버리는 법을 듣고 이해합니다."
+    },
+    "cando-101": {
+      "title": "가스 사용 신청 전화하기",
+      "summary": "이사한 집의 가스 회사에 전화합니다. 가스를 쓸 수 있게 하는 날을 정합니다."
+    },
+    "cando-105": {
+      "title": "가스 요금 오류 문의하기",
+      "summary": "가스 회사에 전화합니다. 입주 전 가스 요금까지 청구되어 있어서 확인합니다."
+    },
+    "cando-110": {
+      "title": "옷 색상과 사이즈 직원에게 묻기",
+      "summary": "백화점 옷 매장에서 스웨터의 다른 색이나 사이즈가 있는지 직원에게 묻습니다."
+    },
+    "cando-121": {
+      "title": "불량 상품 교환 요청하기",
+      "summary": "홈센터 카운터에서 말합니다. 산 물건이 고장 나 있어서 교환이나 환불을 요청합니다."
+    },
+    "cando-128": {
+      "title": "식당에서 인원과 자리 말하기",
+      "summary": "레스토랑에 들어가 직원에게 인원을 말합니다. 흡연석인지 금연석인지도 말합니다."
+    },
+    "cando-134": {
+      "title": "못 먹는 음식 말하고 주문하기",
+      "summary": "일식집에서 종교 때문에 먹을 수 없는 것을 설명합니다. 주문할 수 있는지 확인합니다."
+    },
+    "cando-143": {
+      "title": "세탁소에 옷 맡기기",
+      "summary": "가게에 옷을 맡깁니다. 얼룩 제거나 세탁 방법에 대한 직원의 질문에 답합니다."
+    },
+    "cando-151": {
+      "title": "은행에서 해외 송금 방법 묻기",
+      "summary": "은행 창구에서 외국에 있는 가족에게 돈을 보내는 방법과 필요한 서류를 묻습니다. 설명을 듣고 이해합니다."
+    },
+    "cando-158": {
+      "title": "역에서 빠른 길 묻기",
+      "summary": "역 창구에서 가장 빨리 갈 수 있는 전철을 묻습니다. 환승과 시간도 묻고 정합니다."
+    },
+    "cando-161": {
+      "title": "호텔에서 택시 부탁하기",
+      "summary": "호텔 프런트에서 역이나 공항에 가는 택시를 불러 달라고 합니다."
+    },
+    "cando-187": {
+      "title": "운전면허 갱신 전화로 묻기",
+      "summary": "면허 갱신(새로 바꾸는 것) 센터에 전화합니다. 절차, 가져갈 것, 수수료를 듣고 이해합니다."
+    },
+    "cando-188": {
+      "title": "운전학원에 전화로 묻기",
+      "summary": "운전학원에 전화합니다. 코스, 비용, 다니는 방법을 묻습니다. 자신에게 맞는지 상담합니다."
+    },
+    "cando-191": {
+      "title": "자동차 보험 전화로 가입하기",
+      "summary": "보험 회사에 전화합니다. 산 차의 보험(사고에 대비하는 제도)에 가입합니다."
+    },
+    "cando-203": {
+      "title": "임산부 검진 전화로 예약하기",
+      "summary": "산부인과(아기를 낳는 병원)에 전화합니다. 임산부 검진(배 속 아기와 엄마가 건강한지 확인하는 것) 날짜와 시간을 예약합니다."
+    },
+    "cando-219": {
+      "title": "아기 체류 자격 절차 묻기",
+      "summary": "시청 창구에서 태어난 아이의 체류 자격(외국인이 일본에서 할 수 있는 활동) 절차를 묻습니다. 언제까지, 어디서 하는지도 묻습니다."
+    },
+    "cando-222": {
+      "title": "영유아 검진 전화로 예약하기",
+      "summary": "소아과에 전화합니다. 아이의 개월 수와 원하는 날을 말합니다. 영유아 검진(아기가 건강한지 확인하는 것)을 예약합니다."
+    },
+    "cando-266": {
+      "title": "어린이집 신청 기한 묻기",
+      "summary": "시청 보육 창구에서 묻습니다. 어린이집(부모가 일할 때 아이를 돌보는 곳) 입소 서류 내는 법과 마감일을 묻습니다."
+    },
+    "cando-295": {
+      "title": "아이 일본어 지원 묻기",
+      "summary": "교육위원회 창구에서 묻습니다. 아이 학교에 일본어 반이나 일본어 지원이 있는지 묻습니다."
+    },
+    "cando-299": {
+      "title": "취학 전 건강검진 학교에 묻기",
+      "summary": "초등학교 입학 전 건강검진 안내문이 왔습니다. 초등학교에 전화해서 내용과 당일 일정을 확인합니다."
+    },
+    "cando-316": {
+      "title": "급식비 내는 법 학교에 묻기",
+      "summary": "아이 초등학교 행정실에서 급식비 내는 법을 묻습니다. 은행 자동이체 절차도 묻습니다."
+    },
+    "cando-331": {
+      "title": "진학 상담과 통역 동행 묻기",
+      "summary": "중학교 담임 선생님께 전화합니다. 졸업 후 진학 상담 날짜를 묻습니다. 통역사가 함께 와도 되는지도 묻습니다."
+    },
+    "cando-348": {
+      "title": "특수학급에 대해 학교에 묻기",
+      "summary": "가까운 초등학교에 전화합니다. 장애가 있는 아이를 위한 반이 있는지, 어떤 지원이 있는지 묻습니다."
+    },
+    "cando-356": {
+      "title": "헬로워크에서 일자리 찾는 법 묻기",
+      "summary": "헬로워크(일자리를 소개하는 국가 기관) 창구에서 일 찾는 법을 묻습니다. 찾은 뒤 지원하는 방법도 묻습니다."
+    },
+    "cando-380": {
+      "title": "가능한 근무 형태 창구에서 묻기",
+      "summary": "구직 창구에서 자신의 체류 자격과 일할 수 있는 시간을 말합니다. 어떤 방식으로 일할 수 있는지 묻습니다."
+    },
+    "cando-424": {
+      "title": "전철 사고로 지각한다고 전화하기",
+      "summary": "전철이 멈춰서 회사에 늦습니다. 회사에 전화해서 이유를 설명합니다."
+    },
+    "cando-433": {
+      "title": "내선 전화로 동료 부재 알리기",
+      "summary": "회사 내선으로 동료에게 전화가 왔습니다. 지금 자리에 없다고 짧게 말합니다."
+    },
+    "cando-443": {
+      "title": "거래처 문제 상사와 전화 상담",
+      "summary": "거래처(함께 일하는 회사)에서 납품 수량이 부족하다고 했습니다. 밖에서 상사에게 전화해 어떻게 할지 상담합니다."
+    },
+    "cando-563": {
+      "title": "이사 후 전입·전학 절차",
+      "summary": "시청 창구에서 전입신고서(새 주소의 관청에 내는 서류)를 냅니다. 아이가 학교를 옮기는 절차도 묻습니다."
+    },
+    "cando-566": {
+      "title": "시청에서 담당 창구 묻기",
+      "summary": "시청 안내 데스크에서 이사 신고 등을 하는 창구가 어디인지 묻습니다."
+    },
+    "cando-569": {
+      "title": "인감등록증명서 발급받기",
+      "summary": "시청 창구에서 서류 작성법과 필요한 것을 묻습니다. 인감등록증명서(당신의 인감이 어떤 것인지 적힌 서류)를 받습니다."
+    },
+    "cando-577": {
+      "title": "세금 내는 법 창구에서 묻기",
+      "summary": "시청 세무 창구에서 묻습니다. 주민세(현이나 시에 내는 세금)를 어디서, 어떻게 내는지 묻습니다."
+    },
+    "cando-601": {
+      "title": "반려견 등록 시청에 전화로 묻기",
+      "summary": "시청에 전화합니다. 키우기 시작한 개의 등록 방법, 필요한 것, 수수료를 묻습니다."
+    },
+    "cando-639": {
+      "title": "국민건강보험·국민연금 가입",
+      "summary": "회사를 그만둔 뒤 시청 창구에서 절차를 밟습니다. 국민건강보험(스스로 가입하는 의료보험)과 국민연금(나라의 연금)에 가입합니다."
+    },
+    "cando-651": {
+      "title": "일본어 교실 전화로 묻기",
+      "summary": "국제교류협회에 전화합니다. 일본어 교실에서 무엇을 하는지, 누가 참가할 수 있는지 묻습니다."
+    },
+    "cando-654": {
+      "title": "일본어 교실 전화로 신청하기",
+      "summary": "시의 국제교류협회에 전화합니다. 가까운 일본어 교실에 참가하고 싶다고 신청합니다."
+    },
+    "cando-731": {
+      "title": "공민관 방 전화로 묻기",
+      "summary": "공민관(지역 주민 센터)에 전화합니다. 방 크기, 책상과 의자 수, 음식을 먹을 수 있는지 묻습니다."
+    },
+    "cando-732": {
+      "title": "도서관에서 대출 방법 묻기",
+      "summary": "시립 도서관 창구에서 책을 빌립니다. 언제까지 반납하는지, 몇 권 빌릴 수 있는지 묻습니다."
+    },
+    "cando-735": {
+      "title": "우체국 서비스 창구에서 묻기",
+      "summary": "우체국 창구에서 어떤 발송 방법과 서비스가 있는지 묻습니다. 간단한 답을 이해합니다."
+    },
+    "cando-746": {
+      "title": "매장에서 인터넷 계약 상담",
+      "summary": "전자제품 매장에서 인터넷 계약 내용과 신청 방법을 묻습니다."
+    },
+    "cando-763": {
+      "title": "휴대폰 매장에서 요금제 묻기",
+      "summary": "휴대폰 매장에서 직원이 추천하는 요금제와 옵션을 듣습니다. 질문하고 결정합니다."
+    },
+    "cando-767": {
+      "title": "담당자 부재로 메시지 남기기",
+      "summary": "국제교류센터에 전화합니다. 담당자가 없어서 짧은 메시지를 부탁합니다."
+    }
+  },
+  "my": {
+    "sodai-gomi": {
+      "title": "အမှိုက်အကြီးစား သိမ်းရန် ဖုန်းဖြင့် တောင်းဆိုခြင်း",
+      "summary": "မြို့၏ လက်ခံရေးစင်တာသို့ ဖုန်းဆက်ပါ။ ကုလားထိုင်ကဲ့သို့ အမှိုက်အကြီးစားများကို လာသိမ်းပေးရန် တောင်းဆိုပါ။"
+    },
+    "restaurant": {
+      "title": "စားသောက်ဆိုင်ကို ဖုန်းဖြင့် ကြိုတင်မှာခြင်း",
+      "summary": "ဆိုင်သို့ ဖုန်းဆက်ပါ။ ရက်စွဲ၊ အချိန်၊ လူဦးရေကို ပြောပြီး ထိုင်ခုံ ကြိုတင်မှာပါ။"
+    },
+    "taxi": {
+      "title": "တက္ကစီကို ဖုန်းဖြင့် ကြိုတင်မှာခြင်း",
+      "summary": "တက္ကစီကုမ္ပဏီသို့ ဖုန်းဆက်ပါ။ ရက်စွဲ၊ အချိန်၊ နေရာကို ပြောပြီး ကားခေါ်ပါ။"
+    },
+    "clinic": {
+      "title": "ဆေးရုံကို ဖုန်းဖြင့် ချိန်းဆိုခြင်း",
+      "summary": "ဆေးရုံ၏ ကောင်တာသို့ ဖုန်းဆက်ပြီး ဆရာဝန်ပြမည့်ရက်ကို ချိန်းပါ။ ရောဂါအကြောင်း အသေးစိတ် မပြောပါ။"
+    },
+    "cando-8": {
+      "title": "ဆေးရုံသို့ ပထမဆုံးအကြိမ် မှတ်ပုံတင်ခြင်း",
+      "summary": "ပထမဆုံးသွားသော ဆေးရုံ၏ ကောင်တာတွင် ကျန်းမာရေးအာမခံကတ်ကို ပေးပါ။ မေးခွန်းများကို ဖြေပြီး ကျန်းမာရေးအခြေအနေ ရေးရမည့်စာရွက်ကို ယူပါ။"
+    },
+    "cando-77": {
+      "title": "အိမ်ခြံမြေရုံးတွင် လိုချင်သောအခန်းအကြောင်း ပြောခြင်း",
+      "summary": "အိမ်ခြံမြေရုံး (အိမ်ရှာပေးသောဆိုင်) တွင် နေချင်သော အခန်းအကြောင်း ပြောပါ။ အိမ်လခ (လစဉ်ပေးရသောငွေ)၊ အခန်းအရေအတွက်၊ နေရာ၊ စတင်နေမည့်ရက် စသည်တို့ ဖြစ်သည်။"
+    },
+    "cando-87": {
+      "title": "အိမ်ငှားရာတွင် လိုအပ်သော စာရွက်စာတမ်းများကို မေးခြင်း",
+      "summary": "အိမ်ခြံမြေရုံးတွင် အိမ်ငှားစာချုပ်အတွက် လိုအပ်သော စာရွက်စာတမ်းများကို မေးပါ။ ဘယ်နေ့အထိ တင်ရမလဲ၊ ဘယ်မှာ ရနိုင်လဲ ဆိုတာလည်း မေးပါ။"
+    },
+    "cando-95": {
+      "title": "မြို့နယ်ရုံးတွင် ပြောင်းရွှေ့ဝင်ရောက်ကြောင်း အကြောင်းကြားစာ တင်ခြင်း",
+      "summary": "ပြောင်းလာသော မြို့၏ မြို့နယ်ရုံးတွင် ပြောင်းရွှေ့ဝင်ရောက်ကြောင်း အကြောင်းကြားစာ (လိပ်စာအသစ်ရှိ ရုံးသို့ တင်ရသောစာရွက်) ကို တင်ပါ။ မေးသည့်အရာများကို ဖြေပါ။"
+    },
+    "cando-96": {
+      "title": "အိမ်ပြောင်းရာတွင် မလိုတော့သောပစ္စည်း စွန့်ပစ်နည်း မေးခြင်း",
+      "summary": "မြို့နယ်ရုံး၏ အမှိုက်ကောင်တာတွင် မေးပါ။ အိမ်ပြောင်းသဖြင့် မလိုတော့သော ပရိဘောဂနှင့် လျှပ်စစ်ပစ္စည်းများ စွန့်ပစ်နည်းကို မေးပြီး နားလည်အောင် လုပ်ပါ။"
+    },
+    "cando-101": {
+      "title": "ဂတ်စ်သုံးချင်ကြောင်း ဖုန်းဆက်ခြင်း",
+      "summary": "ပြောင်းလာသောအိမ်၏ ဂတ်စ်ကုမ္ပဏီသို့ ဖုန်းဆက်ပါ။ ဂတ်စ်စတင်သုံးနိုင်မည့်ရက်ကို သတ်မှတ်ပါ။"
+    },
+    "cando-105": {
+      "title": "ဂတ်စ်ခ အမှားကို မေးမြန်းခြင်း",
+      "summary": "ဂတ်စ်ကုမ္ပဏီသို့ ဖုန်းဆက်ပါ။ မနေခင်ကာလ၏ ဂတ်စ်ခပါ ပါနေသဖြင့် စစ်ဆေးပါ။"
+    },
+    "cando-110": {
+      "title": "အဝတ်အရောင်နှင့် ဆိုဒ်ကို ဆိုင်ဝန်ထမ်းအား မေးခြင်း",
+      "summary": "ကုန်တိုက်၏ အဝတ်အထည်ဌာနတွင် ဆွယ်တာ၏ အခြားအရောင် သို့မဟုတ် ဆိုဒ် ရှိမရှိ ဆိုင်ဝန်ထမ်းကို မေးပါ။"
+    },
+    "cando-121": {
+      "title": "ပျက်နေသောပစ္စည်းကို လဲပေးရန် တောင်းဆိုခြင်း",
+      "summary": "Home center ၏ ကောင်တာတွင် ပြောပါ။ ဝယ်ထားသောပစ္စည်း ပျက်နေသဖြင့် လဲပေးရန် သို့မဟုတ် ငွေပြန်အမ်းရန် တောင်းဆိုပါ။"
+    },
+    "cando-128": {
+      "title": "စားသောက်ဆိုင်တွင် လူဦးရေနှင့် ထိုင်ခုံကို ပြောခြင်း",
+      "summary": "စားသောက်ဆိုင်ထဲဝင်ပြီး ဆိုင်ဝန်ထမ်းကို လူဦးရေ ပြောပါ။ ဆေးလိပ်သောက်ခွင့်ရှိသောခုံလား၊ မရှိသောခုံလား ဆိုတာလည်း ပြောပါ။"
+    },
+    "cando-134": {
+      "title": "မစားနိုင်သောအစားအစာကို ပြောပြီး မှာခြင်း",
+      "summary": "ဂျပန်အစားအစာဆိုင်တွင် ဘာသာရေးအရ မစားနိုင်သော အစားအစာများကို ရှင်းပြပါ။ မှာနိုင်မနိုင် စစ်ဆေးပါ။"
+    },
+    "cando-143": {
+      "title": "အဝတ်လျှော်ဆိုင်တွင် အဝတ်အပ်ခြင်း",
+      "summary": "ဆိုင်တွင် အဝတ်အပ်ပါ။ အစွန်းအထင်းဖယ်ခြင်းနှင့် လျှော်နည်းအကြောင်း ဆိုင်ဝန်ထမ်း၏ မေးခွန်းများကို ဖြေပါ။"
+    },
+    "cando-151": {
+      "title": "ဘဏ်တွင် နိုင်ငံခြားသို့ ငွေပို့နည်း မေးခြင်း",
+      "summary": "ဘဏ်ကောင်တာတွင် နိုင်ငံခြားရှိ မိသားစုထံ ငွေပို့နည်းနှင့် လိုအပ်သော စာရွက်စာတမ်းများကို မေးပါ။ ရှင်းပြချက်ကို နားထောင်ပြီး နားလည်အောင် လုပ်ပါ။"
+    },
+    "cando-158": {
+      "title": "ဘူတာတွင် အမြန်ဆုံးသွားနည်း မေးခြင်း",
+      "summary": "ဘူတာကောင်တာတွင် အမြန်ဆုံးရောက်နိုင်သော ရထားကို မေးပါ။ ရထားပြောင်းစီးခြင်းနှင့် အချိန်ကိုလည်း မေးပြီး ဆုံးဖြတ်ပါ။"
+    },
+    "cando-161": {
+      "title": "ဟိုတယ်တွင် တက္ကစီခေါ်ခိုင်းခြင်း",
+      "summary": "ဟိုတယ်ကောင်တာတွင် ဘူတာ သို့မဟုတ် လေဆိပ်သို့ သွားမည့် တက္ကစီ ခေါ်ပေးရန် တောင်းဆိုပါ။"
+    },
+    "cando-187": {
+      "title": "ယာဉ်မောင်းလိုင်စင် သက်တမ်းတိုးခြင်းကို ဖုန်းဖြင့် မေးခြင်း",
+      "summary": "လိုင်စင်သက်တမ်းတိုး (အသစ်ပြန်လုပ်ခြင်း) စင်တာသို့ ဖုန်းဆက်ပါ။ လုပ်ဆောင်ပုံ၊ ယူသွားရမည့်ပစ္စည်း၊ ပေးရမည့်ငွေကို မေးပြီး နားလည်အောင် လုပ်ပါ။"
+    },
+    "cando-188": {
+      "title": "ယာဉ်မောင်းသင်ကျောင်းသို့ ဖုန်းဖြင့် မေးခြင်း",
+      "summary": "ယာဉ်မောင်းသင်ကျောင်းသို့ ဖုန်းဆက်ပါ။ သင်တန်း၊ ကုန်ကျငွေ၊ တက်ရောက်ပုံကို မေးပါ။ မိမိနှင့် ကိုက်ညီမညီ တိုင်ပင်ပါ။"
+    },
+    "cando-191": {
+      "title": "ကားအာမခံကို ဖုန်းဖြင့် ဝင်ခြင်း",
+      "summary": "အာမခံကုမ္ပဏီသို့ ဖုန်းဆက်ပါ။ ဝယ်ထားသောကားအတွက် အာမခံ (မတော်တဆမှုဖြစ်လျှင် ငွေထောက်ပံ့သောစနစ်) ဝင်ပါ။"
+    },
+    "cando-203": {
+      "title": "ကိုယ်ဝန်စစ်ဆေးမှုကို ဖုန်းဖြင့် ချိန်းဆိုခြင်း",
+      "summary": "သားဖွားမီးယပ်ဆေးခန်း (ကလေးမွေးသောဆေးရုံ) သို့ ဖုန်းဆက်ပါ။ ကိုယ်ဝန်စစ်ဆေးမှု (ကိုယ်ဝန်ဆောင်သူ ကျန်းမာမမာ စစ်ဆေးခြင်း) အတွက် ရက်နှင့် အချိန်ကို ချိန်းပါ။"
+    },
+    "cando-219": {
+      "title": "ကလေး၏ နေထိုင်ခွင့်အမျိုးအစား လုပ်ငန်းစဉ်ကို မေးခြင်း",
+      "summary": "မြို့နယ်ရုံးကောင်တာတွင် မွေးလာသောကလေး၏ နေထိုင်ခွင့်အမျိုးအစား (နိုင်ငံခြားသားများ ဂျပန်တွင် လုပ်နိုင်သည့်အရာ) လုပ်ငန်းစဉ်ကို မေးပါ။ ဘယ်နေ့အထိ၊ ဘယ်မှာ လုပ်ရမလဲ ဆိုတာလည်း မေးပါ။"
+    },
+    "cando-222": {
+      "title": "မွေးကင်းစကလေး ကျန်းမာရေးစစ်ဆေးမှုကို ဖုန်းဖြင့် ချိန်းဆိုခြင်း",
+      "summary": "ကလေးဆေးခန်းသို့ ဖုန်းဆက်ပါ။ ကလေး၏ လအရွယ်နှင့် လာချင်သောရက်ကို ပြောပါ။ မွေးကင်းစကလေး ကျန်းမာရေးစစ်ဆေးမှု (ကလေး ကျန်းမာမမာ စစ်ဆေးခြင်း) ကို ချိန်းပါ။"
+    },
+    "cando-266": {
+      "title": "မူကြိုကျောင်း လျှောက်ရမည့်ရက်ကို မေးခြင်း",
+      "summary": "မြို့နယ်ရုံး၏ ကလေးထိန်းဌာနကောင်တာတွင် မေးပါ။ မူကြိုကျောင်း (မိဘအလုပ်လုပ်စဉ် ကလေးကို စောင့်ရှောက်ပေးသောနေရာ) ဝင်ရန် စာရွက်စာတမ်းတင်နည်းနှင့် နောက်ဆုံးရက်ကို မေးပါ။"
+    },
+    "cando-295": {
+      "title": "ကလေး၏ ဂျပန်စာ အကူအညီအကြောင်း မေးခြင်း",
+      "summary": "ပညာရေးကော်မတီ၏ ကောင်တာတွင် မေးပါ။ ကလေး၏ကျောင်းတွင် ဂျပန်စာအတန်း သို့မဟုတ် ဂျပန်စာ အကူအညီ ရှိမရှိ မေးပါ။"
+    },
+    "cando-299": {
+      "title": "မူလတန်းမဝင်မီ ကျန်းမာရေးစစ်ဆေးမှုအကြောင်း မေးခြင်း",
+      "summary": "မူလတန်းကျောင်းမဝင်မီ ကျန်းမာရေးစစ်ဆေးမှု အကြောင်းကြားစာ ရောက်လာပါသည်။ ကျောင်းသို့ ဖုန်းဆက်ပြီး အကြောင်းအရာနှင့် ထိုနေ့အစီအစဉ်ကို စစ်ဆေးပါ။"
+    },
+    "cando-316": {
+      "title": "နေ့လယ်စာကြေး ပေးနည်းကို ကျောင်းတွင် မေးခြင်း",
+      "summary": "ကလေး၏ မူလတန်းကျောင်းရုံးခန်းတွင် ကျောင်းနေ့လယ်စာကြေး ပေးနည်းကို မေးပါ။ ဘဏ်မှ အလိုအလျောက် ဖြတ်ပေးသည့် လုပ်ငန်းစဉ်ကိုလည်း မေးပါ။"
+    },
+    "cando-331": {
+      "title": "နောက်ဆက်တက်မည့်ကျောင်း တိုင်ပင်ခြင်းနှင့် စကားပြန်အကြောင်း မေးခြင်း",
+      "summary": "အလယ်တန်းကျောင်းဆရာထံ ဖုန်းဆက်ပါ။ ကျောင်းပြီးနောက် တက်မည့်ကျောင်းအကြောင်း တိုင်ပင်မည့်ရက်ကို မေးပါ။ စကားပြန်တစ်ဦး အတူလာနိုင်မနိုင်လည်း မေးပါ။"
+    },
+    "cando-348": {
+      "title": "အထူးပံ့ပိုးမှုအတန်းအကြောင်း ကျောင်းကို မေးခြင်း",
+      "summary": "အနီးရှိ မူလတန်းကျောင်းသို့ ဖုန်းဆက်ပါ။ မသန်စွမ်းကလေးများအတွက် အတန်း ရှိမရှိ၊ မည်သည့်အကူအညီများ ရှိသလဲ မေးပါ။"
+    },
+    "cando-356": {
+      "title": "Hello Work တွင် အလုပ်ရှာနည်း မေးခြင်း",
+      "summary": "Hello Work (အလုပ်ရှာပေးသော အစိုးရရုံး) ကောင်တာတွင် အလုပ်ရှာနည်းကို မေးပါ။ အလုပ်တွေ့ပြီးနောက် လျှောက်ထားနည်းကိုလည်း မေးပါ။"
+    },
+    "cando-380": {
+      "title": "လုပ်နိုင်သော အလုပ်ပုံစံကို ကောင်တာတွင် မေးခြင်း",
+      "summary": "အလုပ်ရှာကောင်တာတွင် မိမိ၏ နေထိုင်ခွင့်အမျိုးအစားနှင့် အလုပ်လုပ်နိုင်သည့်အချိန်ကို ပြောပါ။ မည်သို့သော အလုပ်ပုံစံ လုပ်နိုင်သလဲ မေးပါ။"
+    },
+    "cando-424": {
+      "title": "ရထားမတော်တဆမှုကြောင့် နောက်ကျမည်ဟု ဖုန်းဆက်ခြင်း",
+      "summary": "ရထားရပ်သွားသဖြင့် ကုမ္ပဏီသို့ နောက်ကျပါမည်။ ကုမ္ပဏီသို့ ဖုန်းဆက်ပြီး အကြောင်းရင်းကို ရှင်းပြပါ။"
+    },
+    "cando-433": {
+      "title": "ရုံးဖုန်းတွင် လုပ်ဖော်ကိုင်ဖက် မရှိကြောင်း ပြောခြင်း",
+      "summary": "ကုမ္ပဏီအတွင်းဖုန်းဖြင့် လုပ်ဖော်ကိုင်ဖက်ထံ ဖုန်းဝင်လာပါသည်။ ယခု ခုံတွင် မရှိကြောင်း တိုတိုပြောပါ။"
+    },
+    "cando-443": {
+      "title": "ကုန်သွယ်ဖက်ပြဿနာကို အထက်လူကြီးနှင့် ဖုန်းဖြင့် တိုင်ပင်ခြင်း",
+      "summary": "ကုန်သွယ်ဖက် (အတူအလုပ်လုပ်သော ကုမ္ပဏီ) က ပို့ပေးသောအရေအတွက် မလုံလောက်ဟု ပြောပါသည်။ အပြင်မှ အထက်လူကြီးထံ ဖုန်းဆက်ပြီး ဘာလုပ်ရမလဲ တိုင်ပင်ပါ။"
+    },
+    "cando-563": {
+      "title": "အိမ်ပြောင်းပြီး ပြောင်းရွှေ့ဝင်ရောက်ခြင်းနှင့် ကျောင်းပြောင်းခြင်း လုပ်ငန်းစဉ်",
+      "summary": "မြို့နယ်ရုံးကောင်တာတွင် ပြောင်းရွှေ့ဝင်ရောက်ကြောင်း အကြောင်းကြားစာ (လိပ်စာအသစ်ရှိ ရုံးသို့ တင်ရသောစာရွက်) ကို တင်ပါ။ ကလေး ကျောင်းပြောင်းရန် လုပ်ငန်းစဉ်ကိုလည်း မေးပါ။"
+    },
+    "cando-566": {
+      "title": "မြို့နယ်ရုံးတွင် သက်ဆိုင်ရာကောင်တာကို မေးခြင်း",
+      "summary": "မြို့နယ်ရုံး၏ စုံစမ်းရေးကောင်တာတွင် အိမ်ပြောင်းအကြောင်းကြားခြင်း စသည်တို့ လုပ်ရမည့် ကောင်တာ ဘယ်မှာလဲ မေးပါ။"
+    },
+    "cando-569": {
+      "title": "တံဆိပ်တုံးမှတ်ပုံတင် အထောက်အထားလက်မှတ်ကို ကောင်တာတွင် ယူခြင်း",
+      "summary": "မြို့နယ်ရုံးကောင်တာတွင် ပုံစံဖြည့်နည်းနှင့် လိုအပ်သောပစ္စည်းများကို မေးပါ။ တံဆိပ်တုံးမှတ်ပုံတင် အထောက်အထားလက်မှတ် (သင်၏ တရားဝင်တံဆိပ်တုံးကို ဖော်ပြသောစာရွက်) ကို ယူပါ။"
+    },
+    "cando-577": {
+      "title": "အခွန်ပေးနည်းကို ကောင်တာတွင် မေးခြင်း",
+      "summary": "မြို့နယ်ရုံး၏ အခွန်ကောင်တာတွင် မေးပါ။ နေထိုင်သူအခွန် (ခရိုင်နှင့် မြို့သို့ ပေးရသောအခွန်) ကို ဘယ်မှာ၊ ဘယ်လို ပေးရမလဲ မေးပါ။"
+    },
+    "cando-601": {
+      "title": "ခွေးမှတ်ပုံတင်ခြင်းကို မြို့နယ်ရုံးသို့ ဖုန်းဖြင့် မေးခြင်း",
+      "summary": "မြို့နယ်ရုံးသို့ ဖုန်းဆက်ပါ။ စမွေးထားသော ခွေး၏ မှတ်ပုံတင်နည်း၊ လိုအပ်သောပစ္စည်း၊ ပေးရမည့်ငွေကို မေးပါ။"
+    },
+    "cando-639": {
+      "title": "အမျိုးသားကျန်းမာရေးအာမခံနှင့် အမျိုးသားပင်စင် ဝင်ခြင်း",
+      "summary": "ကုမ္ပဏီမှ ထွက်ပြီးနောက် မြို့နယ်ရုံးကောင်တာတွင် လုပ်ငန်းစဉ် လုပ်ပါ။ အမျိုးသားကျန်းမာရေးအာမခံ (ကိုယ်တိုင်ဝင်ရသော ဆေးကုသမှုအာမခံ) နှင့် အမျိုးသားပင်စင် (နိုင်ငံ၏ပင်စင်) ဝင်ပါ။"
+    },
+    "cando-651": {
+      "title": "ဂျပန်စာသင်တန်းအကြောင်း ဖုန်းဖြင့် မေးခြင်း",
+      "summary": "နိုင်ငံတကာ ဖလှယ်ရေးအသင်းသို့ ဖုန်းဆက်ပါ။ ဂျပန်စာသင်တန်းတွင် ဘာလုပ်သလဲ၊ ဘယ်သူတွေ တက်နိုင်သလဲ မေးပါ။"
+    },
+    "cando-654": {
+      "title": "ဂျပန်စာသင်တန်းကို ဖုန်းဖြင့် လျှောက်ခြင်း",
+      "summary": "မြို့၏ နိုင်ငံတကာ ဖလှယ်ရေးအသင်းသို့ ဖုန်းဆက်ပါ။ အနီးရှိ ဂျပန်စာသင်တန်း တက်ချင်ကြောင်း လျှောက်ပါ။"
+    },
+    "cando-731": {
+      "title": "ရပ်ရွာခန်းမ၏ အခန်းအကြောင်း ဖုန်းဖြင့် မေးခြင်း",
+      "summary": "ရပ်ရွာခန်းမသို့ ဖုန်းဆက်ပါ။ အခန်းအကျယ်၊ စားပွဲနှင့် ကုလားထိုင် အရေအတွက်၊ စားသောက်ခွင့် ရှိမရှိ မေးပါ။"
+    },
+    "cando-732": {
+      "title": "စာကြည့်တိုက်တွင် စာအုပ်ငှားနည်း မေးခြင်း",
+      "summary": "မြို့၏ စာကြည့်တိုက်ကောင်တာတွင် စာအုပ်ငှားပါ။ ဘယ်နေ့အထိ ပြန်ပေးရမလဲ၊ စာအုပ်ဘယ်နှအုပ် ငှားနိုင်လဲ မေးပါ။"
+    },
+    "cando-735": {
+      "title": "စာတိုက်ဝန်ဆောင်မှုများကို ကောင်တာတွင် မေးခြင်း",
+      "summary": "စာတိုက်ကောင်တာတွင် မည်သည့် ပို့နည်းများ၊ ဝန်ဆောင်မှုများ ရှိသလဲ မေးပါ။ ရိုးရှင်းသော အဖြေများကို နားလည်အောင် လုပ်ပါ။"
+    },
+    "cando-746": {
+      "title": "ဆိုင်တွင် အင်တာနက်စာချုပ်အကြောင်း တိုင်ပင်ခြင်း",
+      "summary": "လျှပ်စစ်ပစ္စည်းဆိုင်တွင် အင်တာနက်စာချုပ် (ဆိုင်နှင့် သဘောတူညီချက်) ၏ အကြောင်းအရာနှင့် လျှောက်ထားနည်းကို မေးပါ။"
+    },
+    "cando-763": {
+      "title": "ဖုန်းဆိုင်တွင် Plan များကို မေးခြင်း",
+      "summary": "မိုဘိုင်းဖုန်းဆိုင်တွင် ဆိုင်ဝန်ထမ်း အကြံပြုသော Plan နှင့် Option များကို နားထောင်ပါ။ မေးခွန်းမေးပြီး ဆုံးဖြတ်ပါ။"
+    },
+    "cando-767": {
+      "title": "တာဝန်ခံ မရှိသဖြင့် မက်ဆေ့ချ် ချန်ခဲ့ခြင်း",
+      "summary": "နိုင်ငံတကာ ဖလှယ်ရေးစင်တာသို့ ဖုန်းဆက်ပါ။ တာဝန်ခံ မရှိသဖြင့် မက်ဆေ့ချ်တိုတစ်ခု ပြောပေးရန် တောင်းဆိုပါ။"
+    }
+  }
+}

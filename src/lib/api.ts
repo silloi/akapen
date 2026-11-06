@@ -46,6 +46,8 @@ export const api = {
     call<{ akapen: Akapen }>("/api/akapen", post({ sceneId, turns, previous })),
   kanpe: (sceneId: string, lang: KanpeLang, fixes: Pick<Mark, "quote" | "next">[]) =>
     call<Kanpe>("/api/kanpe", post({ sceneId, lang, fixes })),
+  translate: (lang: string, texts: string[]) =>
+    call<{ texts: string[] }>("/api/translate", post({ lang, texts })).then((r) => r.texts),
   stt: (sceneId: string, audio: Blob) =>
     call<{ text: string }>(`/api/stt?scene=${encodeURIComponent(sceneId)}`, {
       method: "POST",

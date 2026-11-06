@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import { t } from "../lib/i18n.ts";
 import type { SharedKanpe } from "../lib/share.ts";
 import KanpeSheet from "./KanpeSheet.vue";
 
@@ -7,12 +8,12 @@ defineProps<{ data: SharedKanpe }>();
 const showYomi = ref(true);
 
 const JUMPS = [
-  { id: "k-asked", label: "聞かれる" },
-  { id: "k-say", label: "言う" },
-  { id: "k-help", label: "困った" },
-  { id: "k-memo", label: "書く" },
-  { id: "k-know", label: "知る" },
-];
+  { id: "k-asked", label: "kanpe.jump.asked" },
+  { id: "k-say", label: "kanpe.jump.say" },
+  { id: "k-help", label: "kanpe.jump.help" },
+  { id: "k-memo", label: "kanpe.jump.memo" },
+  { id: "k-know", label: "kanpe.jump.know" },
+] as const;
 function jump(id: string) {
   const el = document.getElementById(id);
   const fold = el?.querySelector<HTMLButtonElement>(".fold");
@@ -22,9 +23,13 @@ function jump(id: string) {
 </script>
 
 <template>
-  <nav class="jumps" aria-label="カンペの中">
-    <button v-for="j in JUMPS" :key="j.id" type="button" @click="jump(j.id)">{{ j.label }}</button>
-    <label class="small yomi"><input v-model="showYomi" type="checkbox" /> 読み</label>
+  <nav class="jumps" :aria-label="t('kanpe.inside')">
+    <button v-for="j in JUMPS" :key="j.id" type="button" @click="jump(j.id)">
+      {{ t(j.label) }}
+    </button>
+    <label class="small yomi"
+      ><input v-model="showYomi" type="checkbox" /> {{ t("kanpe.jump.yomi") }}</label
+    >
   </nav>
   <KanpeSheet
     :title="data.title"

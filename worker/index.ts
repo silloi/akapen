@@ -20,6 +20,8 @@ import {
   type PartnerStyle,
   type Speed,
   STYLE_LABELS,
+  TRANSLATE_SYSTEM,
+  UI_LANG_NAMES,
 } from "../shared/prompts.ts";
 import { kanjiDigitsToAscii } from "../shared/numbers.ts";
 import { forSpeech } from "../shared/reading.ts";
@@ -133,6 +135,39 @@ async function handleKanpe(request: Request, env: Env): Promise<Response> {
   return json<Kanpe>({ ...r.data, lang: body.lang });
 }
 
+/** 赤ペンの説明文を、その人の言語に訳す（会話の引用や「次はこう言う」の日本語はそのまま。意味だけを添える） */
+async function handleTranslate(request: Request, env: Env): Promise<Response> {
+  const body = await readJson<{ lang: string; texts: string[] }>(request);
+  const lang = typeof body.lang === "string" ? body.lang : "";
+  if (!(lang in UI_LANG_NAMES)) throw new HttpError(400, "bad_lang", "言語が選べません");
+  const texts = Array.isArray(body.texts)
+    ? body.texts
+        .filter((x) => typeof x === "string")
+        .slice(0, 40)
+        .map((x) => x.slice(0, 400))
+    : [];
+  if (texts.length === 0) return json({ texts: [] });
+  const r = await callJson<{ texts: string[] }>(client(env), {
+    model: env.CLAUDE_MODEL,
+    effort: "low",
+    system: TRANSLATE_SYSTEM,
+    messages: [
+      {
+        role: "user",
+        content: `## 言語\n${UI_LANG_NAMES[lang as keyof typeof UI_LANG_NAMES]}（${lang}）\n\n## 文（順番どおり、同じ数だけ返す）\n${JSON.stringify(texts)}`,
+      },
+    ],
+    schema: {
+      type: "object",
+      properties: { texts: { type: "array", items: { type: "string" } } },
+      required: ["texts"],
+      additionalProperties: false,
+    },
+    maxTokens: 8000,
+  });
+  return json({ texts: r.data.texts.slice(0, texts.length) });
+}
+
 /** 文字起こし: 誤りと言いよどみを残す（no_verbatim: false） */
 async function handleStt(request: Request, env: Env): Promise<Response> {
   if (request.method !== "POST")
@@ -229,6 +264,8 @@ export default {
           return await handleAkapen(request, env);
         case "/api/kanpe":
           return await handleKanpe(request, env);
+        case "/api/translate":
+          return await handleTranslate(request, env);
         case "/api/stt":
           return await handleStt(request, env);
         case "/api/tts":

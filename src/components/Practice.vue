@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { nextTick, onBeforeUnmount, onMounted, ref } from "vue";
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 import { randomStyle, STYLE_LABELS, type PartnerStyle, type Speed } from "../../shared/prompts.ts";
 import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
+import { sceneTr, t } from "../lib/i18n.ts";
 import { Recorder, speak, stopSpeaking } from "../lib/voice.ts";
 
 const props = defineProps<{
@@ -66,7 +67,7 @@ async function toggleMic() {
       await recorder.start();
       state.value = "recording";
     } catch {
-      error.value = "マイクが使えません。キーボードで入力できます。";
+      error.value = t("practice.micError");
       showKeyboard.value = true;
     }
     return;
@@ -76,7 +77,7 @@ async function toggleMic() {
   try {
     const { text } = await api.stt(props.scene.id, audio);
     if (!text) {
-      error.value = "声が聞き取れませんでした。もう一度話してください。";
+      error.value = t("practice.noVoice");
       state.value = "idle";
       return;
     }
@@ -104,13 +105,13 @@ onMounted(async () => {
 });
 onBeforeUnmount(stopSpeaking);
 
-const stateLabel: Record<string, string> = {
+const stateLabel = computed<Record<string, string>>(() => ({
   idle: "",
-  recording: "録音しています。話しおわったら、もう一度おしてください。",
-  transcribing: "文字にしています…",
-  thinking: "相手が考えています…",
-  speaking: "相手が話しています…",
-};
+  recording: t("practice.recording"),
+  transcribing: t("practice.transcribing"),
+  thinking: t("practice.thinking"),
+  speaking: t("practice.speaking"),
+}));
 </script>
 
 <template>
@@ -120,25 +121,28 @@ const stateLabel: Record<string, string> = {
         予行演習 ・ 生活Can do {{ scene.candoNo }}（{{ scene.cando?.level }}）
       </p>
       <h1>{{ scene.title }}</h1>
-      <p class="muted">相手: {{ scene.partnerRole }}</p>
+      <p v-if="sceneTr(scene.id)" class="tr">{{ sceneTr(scene.id)?.title }}</p>
+      <p class="muted">{{ t("practice.partner") }}: {{ scene.partnerRole }}</p>
     </div>
     <div class="opts no-print">
       <label class="small">
-        相手の話す速さ
+        {{ t("practice.speed") }}
         <select v-model="speed" :disabled="turns.length > 1">
-          <option value="slow">ゆっくり、はっきり</option>
-          <option value="natural">ふつう</option>
+          <option value="slow">{{ t("practice.speed.slow") }}</option>
+          <option value="natural">{{ t("practice.speed.natural") }}</option>
         </select>
       </label>
       <label class="small">
-        相手の様子
+        {{ t("practice.style") }}
         <select
           v-model="styleChoice"
           :disabled="turns.length > 1"
           @change="style = styleChoice === 'random' ? randomStyle() : styleChoice"
         >
-          <option value="random">おまかせ（毎回ちがう）</option>
-          <option v-for="(label, key) in STYLE_LABELS" :key="key" :value="key">{{ label }}</option>
+          <option value="random">{{ t("practice.style.random") }}</option>
+          <option v-for="(_label, key) in STYLE_LABELS" :key="key" :value="key">
+            {{ t(`style.${key}`) }}
+          </option>
         </select>
       </label>
     </div>
@@ -146,16 +150,16 @@ const stateLabel: Record<string, string> = {
 
   <div class="layout">
     <aside class="info card">
-      <h2 class="small">練習で使う情報（架空）</h2>
+      <h2 class="small">{{ t("practice.info") }}</h2>
       <dl>
         <template v-for="i in scene.practiceInfo" :key="i.label">
           <dt>{{ i.label }}</dt>
           <dd>{{ i.value }}</dd>
         </template>
       </dl>
-      <p class="small muted">自分の本当の名前や電話番号は言わなくて大丈夫です。</p>
+      <p class="small muted">{{ t("practice.infoNote") }}</p>
       <div v-if="previous?.length" class="prev">
-        <h2 class="small hand">前回の赤ペン ・ 今回はこう言う</h2>
+        <h2 class="small hand">{{ t("practice.previous") }}</h2>
         <ol>
           <li v-for="m in previous" :key="m.priority">
             <span class="was">「{{ m.quote }}」</span>
@@ -168,13 +172,17 @@ const stateLabel: Record<string, string> = {
     <section class="call card">
       <div ref="logEl" class="log" aria-live="polite">
         <p v-if="!health.claude" class="muted">
-          Claude につながっていないので、予行演習はできません。
+          {{ t("practice.noClaude") }}
         </p>
-        <div v-for="(t, i) in turns" :key="i" :class="['turn', t.speaker]">
-          <span class="who">{{ t.speaker === "partner" ? "相手" : "わたし" }}</span>
-          <p>{{ t.text }}</p>
+        <div v-for="(tn, i) in turns" :key="i" :class="['turn', tn.speaker]">
+          <span class="who">{{
+            t(tn.speaker === "partner" ? "common.partner" : "common.me")
+          }}</span>
+          <p>{{ tn.text }}</p>
         </div>
-        <p v-if="ended" class="ended hand">電話が終わりました。赤ペンを見てみましょう。</p>
+        <p v-if="ended" class="ended hand">
+          {{ t(scene.channel === "counter" ? "practice.endedCounter" : "practice.ended") }}
+        </p>
       </div>
 
       <p class="status small muted" aria-live="polite">{{ stateLabel[state] }}</p>
@@ -198,17 +206,17 @@ const stateLabel: Record<string, string> = {
               fill="none"
             />
           </svg>
-          <span>{{ state === "recording" ? "話しおわった" : "話す" }}</span>
+          <span>{{ t(state === "recording" ? "practice.talkDone" : "practice.talk") }}</span>
         </button>
         <button class="btn ghost" type="button" :disabled="!turns.length" @click="replayLast">
-          もう一度聞く
+          {{ t("practice.replay") }}
         </button>
         <button class="btn ghost small" type="button" @click="showKeyboard = !showKeyboard">
-          キーボード
+          {{ t("practice.keyboard") }}
         </button>
       </div>
       <form v-if="showKeyboard && !ended" class="typed no-print" @submit.prevent="sendTyped">
-        <label class="small" for="typed">話すかわりに入力する</label>
+        <label class="small" for="typed">{{ t("practice.typed") }}</label>
         <div class="row">
           <input
             id="typed"
@@ -218,7 +226,7 @@ const stateLabel: Record<string, string> = {
             :disabled="!health.claude"
           />
           <button class="btn" type="submit" :disabled="!typed.trim() || state !== 'idle'">
-            送る
+            {{ t("practice.send") }}
           </button>
         </div>
       </form>
@@ -226,14 +234,14 @@ const stateLabel: Record<string, string> = {
   </div>
 
   <div class="foot no-print">
-    <button class="btn ghost" type="button" @click="emit('back')">場面にもどる</button>
+    <button class="btn ghost" type="button" @click="emit('back')">{{ t("practice.back") }}</button>
     <button
       class="btn red"
       type="button"
       :disabled="!turns.some((t) => t.speaker === 'me') || state !== 'idle'"
       @click="emit('finish', turns, style)"
     >
-      {{ ended ? "赤ペンを見る" : "ここで終えて、赤ペンを見る" }}
+      {{ t(ended ? "practice.toReview" : "practice.toReviewEarly") }}
     </button>
   </div>
 </template>
@@ -249,6 +257,10 @@ const stateLabel: Record<string, string> = {
 }
 .head h1 {
   font-size: 24px;
+}
+.tr {
+  font-size: 16px;
+  font-weight: 500;
 }
 select {
   font: inherit;

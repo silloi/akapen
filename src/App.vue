@@ -8,8 +8,9 @@ import Review from "./components/Review.vue";
 import SceneList from "./components/SceneList.vue";
 import { api, type Health, type SceneWithCando } from "./lib/api.ts";
 import { SAMPLE_AKAPEN, SAMPLE_SCENE_ID, SAMPLE_TURNS } from "./lib/sample.ts";
+import { lang, setLang, t, UI_LANGS, type UiLang } from "./lib/i18n.ts";
 import { decodeKanpe, type SharedKanpe } from "./lib/share.ts";
-import { STYLE_LABELS, type PartnerStyle } from "../shared/prompts.ts";
+import type { PartnerStyle } from "../shared/prompts.ts";
 
 type View = "scenes" | "practice" | "review" | "kanpe" | "live";
 
@@ -109,11 +110,17 @@ function home() {
       </svg>
       <span>赤ペン</span>
     </button>
-    <nav v-if="scene && view !== 'scenes'" class="steps" aria-label="すすみぐあい">
-      <span :class="{ on: view === 'practice' }">1 予行演習</span>
-      <span :class="{ on: view === 'review' }">2 赤ペン</span>
-      <span :class="{ on: view === 'kanpe' }">3 本番のカンペ</span>
+    <nav v-if="scene && view !== 'scenes'" class="steps" :aria-label="t('nav.progress')">
+      <span :class="{ on: view === 'practice' }">{{ t("step.practice") }}</span>
+      <span :class="{ on: view === 'review' }">{{ t("step.review") }}</span>
+      <span :class="{ on: view === 'kanpe' }">{{ t("step.kanpe") }}</span>
     </nav>
+    <label class="langpick small">
+      <span class="sr">{{ t("lang.label") }}</span>
+      <select :value="lang" @change="setLang(($event.target as HTMLSelectElement).value as UiLang)">
+        <option v-for="(name, code) in UI_LANGS" :key="code" :value="code">{{ name }}</option>
+      </select>
+    </label>
   </header>
 
   <main class="wrap">
@@ -142,7 +149,7 @@ function home() {
       :is-sample="isSample"
       :previous="previous"
       :attempt="attempt"
-      :style-label="isSample ? '' : STYLE_LABELS[style]"
+      :style-label="isSample ? '' : t(`style.${style}`)"
       @update:akapen="akapen = $event"
       @kanpe="toKanpe"
       @retry="retry"
@@ -158,10 +165,7 @@ function home() {
   </main>
 
   <footer v-if="view !== 'live'" class="foot no-print">
-    <p class="small muted">
-      場面は、文化審議会国語分科会「地域における日本語教育の在り方について」（報告）別冊「日本語教育の参照枠」に基づく「生活Can
-      do」一覧（令和4年11月29日、文化庁）を加工して作成。会話の相手・店・地名・電話番号はすべて架空です。
-    </p>
+    <p class="small muted">{{ t("footer.source") }}</p>
   </footer>
 </template>
 
@@ -196,6 +200,22 @@ function home() {
 .steps .on {
   color: var(--red);
   font-weight: 700;
+}
+.langpick select {
+  font: inherit;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 .wrap {
   max-width: 880px;

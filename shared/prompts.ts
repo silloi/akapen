@@ -345,3 +345,24 @@ ${social.map((s) => `- 生活・文化・社会的情報 No.${s.no}: ${s.text}`)
 export function emptyKanpe(lang: KanpeLang): Kanpe {
   return { lang, asked: [], say: [], help: [], know: [], memo: [] };
 }
+
+// ───────────────────────── 訳（赤ペンの説明文） ─────────────────────────
+
+/** 画面の言語（src/lib/i18n.ts の UI_LANGS と同じ。Worker から参照するためここにも置く） */
+export const UI_LANG_NAMES = {
+  en: "English",
+  zh: "中文（简体）",
+  vi: "Tiếng Việt",
+  tl: "Filipino",
+  ne: "नेपाली",
+  id: "Bahasa Indonesia",
+  pt: "Português",
+  ko: "한국어",
+  my: "မြန်မာ",
+} as const;
+
+export const TRANSLATE_SYSTEM = `あなたは、日本語教師が外国人の学習者に書いた短い説明文（赤ペンのコメント）を、学習者の言語に訳す翻訳者です。
+- 渡された文を、順番どおり、同じ数だけ訳して返す。
+- 「〜と言いましょう」のような日本語の言い方の例が文の中に引用されているときは、その日本語はそのまま残し、意味をかっこで添える。
+- 短く、その言語で自然に。敬語の説明は、その言語で通じる言い方にする。
+- 訳せないときは空文字にする。`;

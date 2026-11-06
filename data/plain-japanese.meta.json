@@ -1,0 +1,10 @@
+{
+  "from": "https://github.com/silloi/yasashii-refs/blob/main/data/plain-japanese-rewrites.jsonl",
+  "name": "在留支援のためのやさしい日本語ガイドライン 別冊「やさしい日本語書き換え例」",
+  "version": "2020年8月",
+  "url": "https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html",
+  "license": "PDL-1.0",
+  "attribution": "出典：出入国在留管理庁・文化庁「在留支援のためのやさしい日本語ガイドライン 別冊 やさしい日本語書き換え例」（https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html）を加工して作成",
+  "note": "語・読み・やさしい日本語の意味だけを取り出した（scripts/build-i18n.ts が、画面の言葉と場面の名前をやさしい日本語に書き換えるときの用語集）",
+  "records": 134
+}

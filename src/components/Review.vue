@@ -2,6 +2,7 @@
 import { computed, onMounted, ref, watch } from "vue";
 import type { Akapen, Mark, MarkKind, Turn } from "../../shared/types.ts";
 import { api, type SceneWithCando } from "../lib/api.ts";
+import { isJa, lang, t } from "../lib/i18n.ts";
 import { segment, type Highlight } from "../lib/segments.ts";
 
 const props = defineProps<{
@@ -26,12 +27,45 @@ const loading = ref(false);
 /** カンペに入れる赤ペン（priority） */
 const picked = ref<Set<number>>(new Set());
 
-const KIND_LABEL: Record<MarkKind, string> = {
-  stalled: "話が止まった・誤解されそう",
-  missed: "聞き取れなかった",
-  impolite: "ぶっきらぼうに聞こえそう",
-  grammar: "ことばの誤り",
+const KIND_KEY: Record<
+  MarkKind,
+  "kind.stalled" | "kind.missed" | "kind.impolite" | "kind.grammar"
+> = {
+  stalled: "kind.stalled",
+  missed: "kind.missed",
+  impolite: "kind.impolite",
+  grammar: "kind.grammar",
 };
+
+/** 赤ペンの説明文の訳（画面の言語が日本語でないとき）。鍵は元の日本語 */
+const tr = ref<Record<string, string>>({});
+const translating = ref(false);
+async function translate(a: Akapen) {
+  if (isJa.value) return;
+  const texts = [
+    a.summary,
+    ...a.marks.flatMap((m) => [m.why, m.next]),
+    ...a.good.map((g) => g.note),
+    ...a.later.map((l) => l.note),
+    ...(a.retry ?? []).map((r) => r.note),
+  ].filter((x, i, arr) => x && arr.indexOf(x) === i);
+  translating.value = true;
+  try {
+    const out = await api.translate(lang.value, texts);
+    tr.value = Object.fromEntries(texts.map((x, i) => [x, out[i] ?? ""]));
+  } catch {
+    tr.value = {};
+  } finally {
+    translating.value = false;
+  }
+}
+watch(
+  akapen,
+  (a) => {
+    if (a) void translate(a);
+  },
+  { immediate: true },
+);
 
 async function load() {
   loading.value = true;
@@ -99,31 +133,41 @@ function toKanpe() {
 <template>
   <section class="head">
     <p class="small muted">
-      赤ペン<template v-if="(attempt ?? 1) > 1">（{{ attempt }}回目）</template> ・
+      {{ t("review.title")
+      }}<template v-if="(attempt ?? 1) > 1">（{{ attempt }}{{ t("practice.attempt") }}）</template>
+      ・
       {{ scene.title }}
-      <span v-if="isSample" class="badge">見本（手で作った例）</span>
-      <span v-if="styleLabel" class="badge">今日の相手: {{ styleLabel }}</span>
+      <span v-if="isSample" class="badge">{{ t("review.sample") }}</span>
+      <span v-if="styleLabel" class="badge">{{ t("review.todaysPartner") }}: {{ styleLabel }}</span>
     </p>
     <h1>
-      本番の前に直すのは
-      <span class="hand big">{{ akapen ? akapen.marks.length : "…" }}つ</span>
+      {{ t("review.fixBefore") }}
+      <span class="hand big">{{ akapen ? akapen.marks.length : "…" }}{{ t("review.count") }}</span>
     </h1>
-    <p v-if="akapen" class="summary">{{ akapen.summary }}</p>
-    <p v-if="loading" class="muted">先生が赤ペンを入れています…（30秒ほど）</p>
+    <p v-if="akapen" class="summary">
+      <span class="lbl hand">{{ t("review.fromTeacher") }}</span>
+      {{ akapen.summary }}
+      <span v-if="tr[akapen.summary]" class="trline">{{ tr[akapen.summary] }}</span>
+    </p>
+    <p v-if="loading" class="muted">{{ t("review.loading") }}</p>
+    <p v-if="translating" class="small muted">{{ t("review.translating") }}</p>
     <p v-if="error" class="error">
       {{ error }}
-      <button class="btn ghost small" type="button" @click="load">もう一度</button>
+      <button class="btn ghost small" type="button" @click="load">{{ t("common.retry") }}</button>
     </p>
   </section>
 
-  <section v-if="akapen?.retry?.length" class="retry card" aria-label="前回の赤ペン">
-    <h2 class="small">前回の赤ペン</h2>
+  <section v-if="akapen?.retry?.length" class="retry card">
+    <h2 class="small">{{ t("review.previous") }}</h2>
     <ul>
       <li v-for="r in akapen.retry" :key="r.quote" :class="{ done: r.done }">
         <span class="mark hand" aria-hidden="true">{{ r.done ? "○" : "△" }}</span>
         <span class="body">
           <span class="was">「{{ r.quote }}」→ {{ r.next }}</span>
-          <span class="hand note">{{ r.done ? "直せた。" : "まだ。" }}{{ r.note }}</span>
+          <span class="hand note"
+            >{{ t(r.done ? "review.fixed" : "review.notYet") }}{{ r.note }}</span
+          >
+          <span v-if="tr[r.note]" class="trline">{{ tr[r.note] }}</span>
         </span>
       </li>
     </ul>
@@ -133,14 +177,14 @@ function toKanpe() {
     <li v-for="m in akapen.marks" :key="m.priority">
       <a :href="`#mark-${m.priority}`"
         ><span class="num">{{ m.priority }}</span
-        >{{ KIND_LABEL[m.kind] }}「{{ m.quote }}」</a
+        >{{ t(KIND_KEY[m.kind]) }}「{{ m.quote }}」</a
       >
     </li>
   </ol>
 
-  <section class="paper" aria-label="会話の記録と赤ペン">
+  <section class="paper">
     <div v-for="r in rows" :key="r.i" :class="['turn', r.t.speaker]">
-      <span class="who">{{ r.t.speaker === "partner" ? "相手" : "わたし" }}</span>
+      <span class="who">{{ t(r.t.speaker === "partner" ? "common.partner" : "common.me") }}</span>
       <p class="text">
         <template v-for="(s, k) in r.segs" :key="k">
           <span
@@ -151,44 +195,79 @@ function toKanpe() {
           <span v-else-if="s.highlight?.type === 'good'" class="good">{{ s.text }}</span>
           <template v-else>{{ s.text }}</template>
         </template>
-        <span v-if="r.good.length" class="okmark" aria-label="伝わった">○</span>
+        <span v-if="r.good.length" class="okmark" :aria-label="t('review.good')">○</span>
       </p>
-      <div v-for="g in r.good" :key="g.quote" class="okline">○ {{ g.note }}</div>
+      <div v-for="g in r.good" :key="g.quote" class="okline">
+        ○ {{ g.note }}
+        <span v-if="tr[g.note]" class="trline">{{ tr[g.note] }}</span>
+      </div>
       <div v-for="m in r.marks" :id="`mark-${m.priority}`" :key="m.priority" class="marg">
         <p class="hand why">
           <span class="num">{{ m.priority }}</span
+          ><span class="lbl">{{ t("review.where") }}</span
           >{{ m.why }}
         </p>
-        <p class="hand next">→ {{ m.next }}</p>
+        <p v-if="tr[m.why]" class="trline">{{ tr[m.why] }}</p>
+        <p class="hand next">
+          <span class="lbl">{{ t("review.next") }}</span
+          >{{ m.next }}
+        </p>
+        <p v-if="tr[m.next]" class="trline">{{ tr[m.next] }}</p>
         <button
           class="pick no-print"
           type="button"
           :aria-pressed="picked.has(m.priority)"
           @click="toggle(m.priority)"
         >
-          {{ picked.has(m.priority) ? "カンペに入れる ✓" : "カンペに入れない" }}
+          {{ picked.has(m.priority) ? t("review.toKanpe") + " ✓" : t("review.notToKanpe") }}
         </button>
       </div>
     </div>
   </section>
 
   <details v-if="akapen && akapen.later.length" class="later">
-    <summary>伝わったので、今は直さなくていいこと（{{ akapen.later.length }}）</summary>
+    <summary>{{ t("review.later") }}（{{ akapen.later.length }}）</summary>
     <ul>
-      <li v-for="l in akapen.later" :key="l.turn + l.quote">「{{ l.quote }}」→ {{ l.note }}</li>
-      <li>言いよどみ（えっと・あの）や言い直し → 電話ではふつうです。</li>
+      <li v-for="l in akapen.later" :key="l.turn + l.quote">
+        「{{ l.quote }}」→ {{ l.note }}
+        <span v-if="tr[l.note]" class="trline">{{ tr[l.note] }}</span>
+      </li>
+      <li>{{ t("review.fillers") }}</li>
     </ul>
   </details>
 
   <div class="foot no-print">
-    <button class="btn ghost" type="button" @click="emit('retry')">もう一度練習する</button>
+    <button class="btn ghost" type="button" @click="emit('retry')">{{ t("review.retry") }}</button>
     <button class="btn red" type="button" :disabled="!akapen" @click="toKanpe">
-      本番のカンペを作る
+      {{ t("review.makeKanpe") }}
     </button>
   </div>
 </template>
 
 <style scoped>
+.lbl {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: var(--hand);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 999px;
+  padding: 0 7px;
+  margin-right: 6px;
+  vertical-align: 2px;
+}
+.summary .lbl {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.trline {
+  display: block;
+  font-family: var(--body);
+  font-size: 14px;
+  color: var(--muted);
+}
 .head {
   display: grid;
   gap: 8px;

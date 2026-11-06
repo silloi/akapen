@@ -5,6 +5,7 @@ import { LANG_NAMES } from "../../shared/prompts.ts";
 import type { Kanpe, KanpeLang, Mark } from "../../shared/types.ts";
 import { api, type SceneWithCando } from "../lib/api.ts";
 import { SAMPLE_KANPE } from "../lib/sample.ts";
+import { defaultKanpeLang, t } from "../lib/i18n.ts";
 import { encodeKanpe, shareUrl } from "../lib/share.ts";
 import KanpeSheet from "./KanpeSheet.vue";
 
@@ -15,7 +16,7 @@ const props = defineProps<{
 }>();
 const emit = defineEmits<{ back: [] }>();
 
-const lang = ref<KanpeLang>("zh");
+const lang = ref<KanpeLang>(defaultKanpeLang.value);
 const kanpe = ref<Kanpe | null>(null);
 const loading = ref(false);
 const error = ref("");
@@ -73,23 +74,25 @@ async function copy() {
   <section class="head no-print">
     <div>
       <p class="small muted">
-        本番のカンペ ・ {{ scene.title }}
-        <span v-if="fromSample" class="badge">見本（手で作った例）</span>
+        {{ t("kanpe.title") }} ・ {{ scene.title }}
+        <span v-if="fromSample" class="badge">{{ t("review.sample") }}</span>
       </p>
-      <h1>本番で手元に置くメモ</h1>
+      <h1>{{ t("kanpe.heading") }}</h1>
     </div>
     <div class="opts">
       <label class="small"
-        >ことば
+        >{{ t("lang.label") }}
         <select v-model="lang" :disabled="loading" @change="make">
           <option v-for="(name, code) in LANG_NAMES" :key="code" :value="code">{{ name }}</option>
         </select>
       </label>
-      <label class="small"><input v-model="showYomi" type="checkbox" /> ひらがなの読み</label>
+      <label class="small"
+        ><input v-model="showYomi" type="checkbox" /> {{ t("kanpe.yomi") }}</label
+      >
     </div>
   </section>
 
-  <p v-if="loading" class="muted">カンペを作っています…</p>
+  <p v-if="loading" class="muted">{{ t("kanpe.loading") }}</p>
   <p v-if="error" class="error">{{ error }}</p>
 
   <KanpeSheet
@@ -103,32 +106,29 @@ async function copy() {
 
   <div v-if="kanpe" class="share no-print">
     <button class="btn red" type="button" :aria-expanded="showQr" @click="showQr = !showQr">
-      スマホで開く（QR）
+      {{ t("kanpe.qr") }}
     </button>
-    <p class="small muted">
-      本番の電話のとき、スマホで大きい文字で見られます。中身は URL
-      に入っていて、サーバーには残りません。
-    </p>
+    <p class="small muted">{{ t("kanpe.qrNote") }}</p>
     <div v-if="showQr && qr" class="qr">
-      <img :src="qr" width="240" height="240" alt="カンペを開く QR コード" />
+      <img :src="qr" width="240" height="240" :alt="t('kanpe.qrAlt')" />
       <div class="url">
         <input
           :value="url"
           readonly
           type="text"
-          aria-label="カンペの URL"
+          :aria-label="t('kanpe.url')"
           @focus="($event.target as HTMLInputElement).select()"
         />
         <button class="btn ghost small" type="button" @click="copy">
-          {{ copied ? "コピーした" : "URL をコピー" }}
+          {{ t(copied ? "kanpe.copied" : "kanpe.copy") }}
         </button>
       </div>
     </div>
   </div>
 
   <div class="foot no-print">
-    <button class="btn ghost" type="button" @click="emit('back')">赤ペンにもどる</button>
-    <p class="small muted">印刷もできます。</p>
+    <button class="btn ghost" type="button" @click="emit('back')">{{ t("kanpe.back") }}</button>
+    <p class="small muted">{{ t("kanpe.print") }}</p>
   </div>
 </template>
 
