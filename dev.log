@@ -1,0 +1,28 @@
+note: You are running `vp dev` as a Vite+ built-in command. If you meant to run the dev npm script, use `vpr dev` instead.
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+Using secrets defined in .dev.vars
+
+  [34m[1mVITE+[22m v1.4.0[39m  [2mready in [0m[1m7436[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+  [32m➜[39m  [1mDebug[22m:   [2m[33mhttp://localhost:[1m5173[22m[2m/__debug[39m[22m
+
+The Cloudflare Vite plugin detected this dev session is running in an AI agent.
+The Local Explorer API is available at http://localhost:5173/cdn-cgi/local/explorer/api
+Useful routes:
+  GET http://localhost:5173/cdn-cgi/local/explorer/api/local/workers - local Workers and bindings
+  POST http://localhost:5173/cdn-cgi/local/explorer/api/local/scheduled?worker=<name> - invoke a Worker's scheduled handler; cron is required (see the OpenAPI schema for the full request)
+  GET http://localhost:5173/cdn-cgi/local/explorer/api/storage/kv/namespaces - KV namespaces
+  GET http://localhost:5173/cdn-cgi/local/explorer/api/d1/database - D1 databases
+  GET http://localhost:5173/cdn-cgi/local/explorer/api/r2/buckets - R2 buckets
+  GET http://localhost:5173/cdn-cgi/local/explorer/api/workers/durable_objects/namespaces - Durable Object namespaces
+  GET http://localhost:5173/cdn-cgi/local/explorer/api/workflows - Workflows
+  POST http://localhost:5173/cdn-cgi/local/explorer/api/local/observability/query - run a read-only SQL query (SELECT/WITH only) over captured request traces and console logs. Tables: spans, logs (read attributes via json(attributes)). Example:
+    curl -X POST http://localhost:5173/cdn-cgi/local/explorer/api/local/observability/query -H 'Content-Type: application/json' -d '{"sql":"SELECT service, name, outcome, duration_ms FROM spans WHERE parent_id IS NULL LIMIT 20"}'
+  POST http://localhost:5173/cdn-cgi/local/explorer/api/local/observability/clear - clear all captured traces and logs
+If the routes above don't cover what you need, fetch the full OpenAPI schema (large - use only as a last resort):
+  GET http://localhost:5173/cdn-cgi/local/explorer/api - OpenAPI schema
+
