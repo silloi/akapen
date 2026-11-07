@@ -4,7 +4,7 @@
 
 日本で暮らす外国人が、生活の電話（粗大ごみの申し込み、お店やタクシーの予約、病院の予約など）を、**本番の前に声で予行演習**する Web アプリです。
 
-> Built with Claude: Japan 2026 に向けて作っています。仕様は [docs/spec.md](docs/spec.md)、計画は [docs/plan.md](docs/plan.md)。
+> Built with Claude: Japan 2026 に向けて作っています。公開先: https://jaws.ni-hongo.workers.dev （Cloudflare Workers。デプロイは [docs/deploy.md](docs/deploy.md)）。仕様は [docs/spec.md](docs/spec.md)、計画は [docs/plan.md](docs/plan.md)。
 
 1. **場面を選ぶ**: 文化庁の「生活Can do」一覧から、電話や窓口でのやり取りの場面を選びます（手書き4 ＋ Claude が下書きし、別の検査役を通した46。一覧は [docs/scenes.md](docs/scenes.md)）。
 2. **予行演習**: Claude が相手役（受付・店員など）になり、声でやり取りします。相手役は本物の受付のように話し、日本語を教えたり直したりしません。

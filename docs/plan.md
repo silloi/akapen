@@ -41,8 +41,11 @@
 
 ## 11/7（土）
 
-- 赤ペンとカンペの仕上げ
-- 夜: デプロイ（Cloudflare のキー）。デモの流れを通しで確かめる
+- [x] 名前を「JAWS 日本語じょうず」に（Worker 名 `jaws`）。`main` に反映
+- [x] Cloudflare Workers に公開（https://jaws.ni-hongo.workers.dev 。GitHub Actions から push のたびに。`docs/deploy.md`）。実環境の遅延を測った（相手の返事まで 4.5〜5秒）
+- [x] RED 向けの縦画面・中国語のデモ動画（`local/akapen-red-zh.mp4`）
+- 作り手: 外国人住民のコミュニティで試してもらい、意見を聞く。本物のマイクで通しを確かめる
+- 赤ペンとカンペの仕上げ。デモの流れを通しで確かめる
 
 ## 11/8（日）
 
