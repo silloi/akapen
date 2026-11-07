@@ -187,7 +187,7 @@ export const HAND_SCENES: Scene[] = [
       { key: "phone", label: "電話番号", example: "お電話番号をお願いします。" },
       {
         key: "reason",
-        label: "用件（どんなことで）",
+        label: "診察理由",
         example: "今日はどうされましたか。簡単で大丈夫です。",
       },
       {
@@ -205,7 +205,7 @@ export const HAND_SCENES: Scene[] = [
       { label: "名前", value: "チャン・ウェイ" },
       { label: "生年月日", value: "1995年4月10日" },
       { label: "電話番号", value: "090-4567-8901" },
-      { label: "どんなことで", value: "3日前からせきが出る" },
+      { label: "診察理由", value: "3日前からせきが出る" },
     ],
     twists: ["初めての受診なので、受付の時間に少し早く来るように言う。"],
     goal: "予約の日時・名前・電話番号・持ち物が決まり、相手が復唱して確かめた。",

@@ -193,10 +193,8 @@ const stateLabel = computed<Record<string, string>>(() => ({
       <h2 class="small">{{ t("practice.asks") }}</h2>
       <ol class="asks">
         <li v-for="a in askRows" :key="a.key">
-          <span class="al">
-            {{ a.label }}
-            <span v-if="a.tr" class="atr tx">{{ a.tr }}</span>
-          </span>
+          <!-- 日本語以外（やさしい日本語も）では、訳だけを見出しにする。答え（言うこと）は日本語のまま -->
+          <span class="al tx">{{ a.tr || a.label }}</span>
           <span v-if="a.value" class="av">{{ a.value }}</span>
         </li>
       </ol>
@@ -357,11 +355,6 @@ select {
     gap: 0 10px;
     align-items: baseline;
   }
-}
-.asks .atr {
-  font-weight: 500;
-  color: var(--muted);
-  margin-left: 4px;
 }
 .asks .av {
   color: var(--ink);
