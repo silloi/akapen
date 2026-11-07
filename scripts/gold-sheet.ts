@@ -25,7 +25,7 @@ const out: string[] = [
   "# 評価の会話と正解の赤ペン",
   "",
   "`eval/cases/*.json` から作った読みやすい形（`vpx scripts/gold-sheet.ts > docs/eval-gold.md`）。会話はすべて架空。",
-  "正解の「誰が入れたか」が `draft` のものは、Claude Code が作った**仮**の正解で、作り手（日本語教師）が確かめて直す。直すときは JSON を直す。",
+  "正解の「誰が入れたか」が `draft` のものは、Claude Code が作った**仮**の正解で、作り手（日本語教師）が確かめて直す（`teacher` は作り手が確かめたもの）。直すときは、公開先の `/dev/gold` で直して書き出し、`vpx scripts/apply-gold.ts <ファイル>` で入れる。",
   "",
 ];
 for (const c of cases) {
@@ -49,6 +49,7 @@ for (const c of cases) {
     out.push("", "直さなくていい所（赤を入れたら減点）:");
     for (const n of c.gold.noMark) out.push(`- ${n.turn}「${n.quote}」: ${n.reason}`);
   }
+  if (c.goldNote) out.push("", `作り手のメモ: ${c.goldNote}`);
   out.push("");
 }
 console.log(out.join("\n"));

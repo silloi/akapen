@@ -29,7 +29,7 @@ export const HAND_SCENES: Scene[] = [
       {
         key: "date",
         label: "収集の日",
-        example: "最短ですと11月18日の火曜日になりますが、よろしいですか。",
+        example: "最短ですと、〇月〇日の〇曜日になりますが、よろしいですか。",
       },
       {
         key: "fee",

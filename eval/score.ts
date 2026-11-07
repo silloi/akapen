@@ -22,10 +22,19 @@ export interface EvalCase {
   id: string;
   sceneId: string;
   note: string;
-  /** 正解を誰が入れたか（draft: 作り手が確かめる前の仮） */
+  /** 正解を誰が入れたか（draft: 作り手が確かめる前の仮。teacher: 作り手が確かめた） */
   goldBy: string;
   turns: Turn[];
-  gold: { marks: GoldMark[]; noMark: { turn: number; quote: string; reason: string }[] };
+  gold: { marks: GoldMark[]; noMark: NoMark[] };
+  /** 作り手の判断の理由（正解を確かめる道具 /dev/gold で書く） */
+  goldNote?: string;
+}
+
+/** 正解で「直さなくていい」とした所（Claude が赤を入れたら減点） */
+export interface NoMark {
+  turn: number;
+  quote: string;
+  reason: string;
 }
 
 export interface PredMark {
@@ -46,11 +55,14 @@ export interface CaseScore {
   forbidden: number;
 }
 
-function overlaps(a: { turn: number; quote: string }, b: { turn: number; quote: string }): boolean {
+export function overlaps(
+  a: { turn: number; quote: string },
+  b: { turn: number; quote: string },
+): boolean {
   return a.turn === b.turn && (a.quote.includes(b.quote) || b.quote.includes(a.quote));
 }
 
-function matches(g: GoldMark, p: { turn: number; quote: string }): boolean {
+export function matches(g: GoldMark, p: { turn: number; quote: string }): boolean {
   return overlaps(g, p) || (g.alt ?? []).some((a) => overlaps(a, p));
 }
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref, watch } from "vue";
+import { defineAsyncComponent, onMounted, ref, watch } from "vue";
 import type { Akapen, Mark, Turn } from "../shared/types.ts";
 import KanpeView from "./components/KanpeView.vue";
 import LiveKanpe from "./components/LiveKanpe.vue";
@@ -12,7 +12,10 @@ import { lang, setLang, t, UI_LANGS, type UiLang } from "./lib/i18n.ts";
 import { loadShared, type SharedKanpe } from "./lib/share.ts";
 import type { PartnerStyle } from "../shared/prompts.ts";
 
-type View = "scenes" | "practice" | "review" | "kanpe" | "live";
+type View = "scenes" | "practice" | "review" | "kanpe" | "live" | "gold";
+
+/** 評価の正解を確かめる道具（作り手用、/dev/gold）。その URL を開いたときだけ読み込む */
+const GoldReview = defineAsyncComponent(() => import("./dev/GoldReview.vue"));
 
 const view = ref<View>("scenes");
 // 画面を切り替えたら上から見せる（前の画面のスクロール位置を引きずると、スマホでは赤ペンが下まで送られた状態で開く）
@@ -53,6 +56,10 @@ const loadError = ref("");
 const shared = ref<SharedKanpe | null>(null);
 
 onMounted(async () => {
+  if (location.pathname.startsWith("/dev/gold")) {
+    view.value = "gold";
+    return;
+  }
   shared.value = await loadShared();
   if (shared.value) {
     view.value = "live";
@@ -116,7 +123,7 @@ function toKanpe(f: Pick<Mark, "quote" | "next">[]) {
 }
 
 function home() {
-  if (shared.value) history.replaceState(null, "", "/");
+  if (location.pathname !== "/") history.replaceState(null, "", "/");
   shared.value = null;
   view.value = "scenes";
   if (!scenes.value.length) {
@@ -184,6 +191,7 @@ function home() {
       @retry="retry"
     />
     <LiveKanpe v-else-if="view === 'live' && shared" :data="shared" />
+    <GoldReview v-else-if="view === 'gold'" />
     <KanpeView
       v-else-if="view === 'kanpe' && scene"
       :scene="scene"
