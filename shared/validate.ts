@@ -71,7 +71,7 @@ export function normalizeAkapen(
     akapen: {
       marks: sorted.slice(0, 3).map((m, i) => ({ ...m, priority: i + 1 })),
       good: notes(raw.good, 3, "good"),
-      later: notes(raw.later, 4, "later"),
+      later: notes(raw.later, 6, "later"),
       // 前回の赤ペンに対応するものだけ残す（Claude が作った項目は捨てる）
       retry: previous.length
         ? previous.map((p) => {

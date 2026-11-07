@@ -10,7 +10,9 @@
  *
  *   ANTHROPIC_API_KEY=... vpx scripts/build-i18n.ts [--langs en,vi] [--ui] [--scenes] [--force]
  *
- * 出力: data/ui.i18n.json（{lang: {key: text}}。easy を含む）、data/scenes.i18n.json（{lang: {sceneId: {title, summary}}}）
+ * 出力: data/ui.i18n.json（{lang: {key: text}}。easy を含む）、
+ *       data/scenes.i18n.json（{lang: {sceneId: {title, summary, asks: {askKey: 見出しの訳}}}}。
+ *       asks は「本番で聞かれること」の見出し。練習の画面で、聞かれる順に見せる）
  * 既にある訳は残し、無い鍵・無い場面だけ足す（--force で全部作り直す）。
  */
 import Anthropic from "@anthropic-ai/sdk";
@@ -121,7 +123,27 @@ const SCENE_PAIRS_SCHEMA = {
 
 type Pairs = { items: { key: string; text: string }[] };
 type ScenePairs = { items: { id: string; title: string; summary: string }[] };
-type SceneText = { title: string; summary: string };
+type SceneText = { title: string; summary: string; asks?: Record<string, string> };
+
+/** 「本番で聞かれること」の見出しを {sceneId/askKey: 見出し} の形に（鍵の配列として訳すため） */
+const askKeyOf = (sceneId: string, askKey: string) => `${sceneId}/${askKey}`;
+function missingAsks(have: Record<string, SceneText>): Record<string, string> {
+  const src: Record<string, string> = {};
+  for (const s of SCENES)
+    for (const a of s.asks)
+      if (values.force || !have[s.id]?.asks?.[a.key]) src[askKeyOf(s.id, a.key)] = a.label;
+  return src;
+}
+function putAsks(out: Record<string, SceneText>, got: Record<string, string>): void {
+  for (const [k, text] of Object.entries(got)) {
+    const [sceneId, askKey] = k.split("/");
+    if (!sceneId || !askKey) continue;
+    const s = SCENES.find((x) => x.id === sceneId);
+    out[sceneId] ??= { title: s?.title ?? sceneId, summary: s?.summary ?? "" };
+    out[sceneId].asks ??= {};
+    out[sceneId].asks[askKey] = text;
+  }
+}
 
 async function askPairs(
   system: string,
@@ -223,6 +245,23 @@ if (doScenes) {
     writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
     console.log(`scenes easy: ${targets.length} 件`);
   }
+  // 1b. 「本番で聞かれること」の見出し（やさしい日本語）
+  {
+    const easyNow = (out.easy ?? {}) as Record<string, SceneText>;
+    const src = missingAsks(easyNow);
+    const keys = Object.keys(src);
+    if (keys.length) {
+      const got = await askPairs(
+        EASY_SYSTEM,
+        `## 「本番で聞かれること」の見出し（鍵: 見出し）。鍵は「場面の id/項目」。見出しは、電話や窓口で相手が聞いてくる項目の名前（名前・住所・用件 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形でやさしい日本語の見出しを返してください。見出しは短く（語か、短い句）。`,
+        keys,
+      );
+      putAsks(easyNow, got);
+      out.easy = easyNow;
+      writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
+      console.log(`asks easy: ${keys.length} 件`);
+    }
+  }
 
   // 2. 各言語（やさしい日本語を元に）
   const easyAll = (out.easy ?? {}) as Record<string, SceneText>;
@@ -247,5 +286,29 @@ if (doScenes) {
     out[l] = { ...have, ...got };
     writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
     console.log(`scenes ${l}: ${ts.length} 件`);
+  }
+
+  // 2b. 「本番で聞かれること」の見出し（各言語。やさしい日本語を元に）
+  const easyAsks = (out.easy ?? {}) as Record<string, SceneText>;
+  for (const l of TARGET_LANGS) {
+    const have = (out[l] ?? {}) as Record<string, SceneText>;
+    const ja = missingAsks(have);
+    const keys = Object.keys(ja);
+    if (keys.length === 0) continue;
+    const src = Object.fromEntries(
+      keys.map((k) => {
+        const [sceneId, askKey] = k.split("/");
+        return [k, { easy: easyAsks[sceneId ?? ""]?.asks?.[askKey ?? ""] ?? ja[k], ja: ja[k] }];
+      }),
+    );
+    const got = await askPairs(
+      TRANSLATE_SYSTEM,
+      `## 言語\n${UI_LANGS[l]}（${l}）\n\n## 「本番で聞かれること」の見出し。鍵は「場面の id/項目」。鍵: {easy: やさしい日本語, ja: 元の日本語}。電話や窓口で相手が聞いてくる項目の名前（名前・住所・用件 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。見出しは短く（語か、短い句）。`,
+      keys,
+    );
+    putAsks(have, got);
+    out[l] = have;
+    writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
+    console.log(`asks ${l}: ${keys.length} 件`);
   }
 }

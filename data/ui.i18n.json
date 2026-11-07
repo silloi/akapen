@@ -115,7 +115,8 @@
     "kanpe.jump.yomi": "読み",
     "kanpe.inside": "カンペの 中",
     "kanpe.qrNote": "本番の電話のとき、スマホで見ることができます。字が大きいです。URL を知っている人だけが開くことができます。30日たつと、消えます。",
-    "kanpe.gone": "このカンペは、ありません。カンペは30日たつと、消えます。もう一度作ってください。"
+    "kanpe.gone": "このカンペは、ありません。カンペは30日たつと、消えます。もう一度作ってください。",
+    "practice.asks": "本番で聞かれること（この順番です）"
   },
   "en": {
     "app.name": "JAWS: Good for Japanese",
@@ -184,7 +185,7 @@
     "review.sample": "Sample (made by a person)",
     "review.todaysPartner": "Today's partner",
     "review.fixBefore": "To fix before the real thing:",
-    "review.count": "",
+    "review.count": "items",
     "review.loading": "The teacher is marking with the red pen… (about 30 seconds)",
     "review.fromTeacher": "From the teacher",
     "review.where": "Where it's hard",
@@ -233,7 +234,8 @@
     "kanpe.jump.yomi": "Reading",
     "kanpe.inside": "Cheat sheet contents",
     "kanpe.qrNote": "During the real call, you can view this on your phone in large text. Only people who have the URL can open it. It will be deleted after 30 days.",
-    "kanpe.gone": "This cheat sheet can't be found. Cheat sheets are deleted after 30 days. Please make a new one."
+    "kanpe.gone": "This cheat sheet can't be found. Cheat sheets are deleted after 30 days. Please make a new one.",
+    "practice.asks": "What they'll ask you (in this order)"
   },
   "zh": {
     "app.name": "JAWS 日语说得很好",
@@ -351,7 +353,8 @@
     "kanpe.jump.yomi": "读音",
     "kanpe.inside": "提示卡内容",
     "kanpe.qrNote": "正式打电话时，可以用手机以大字查看。只有知道URL的人才能打开。30天后会自动删除。",
-    "kanpe.gone": "找不到这份提示小抄（30天后会自动删除）。请重新制作。"
+    "kanpe.gone": "找不到这份提示小抄（30天后会自动删除）。请重新制作。",
+    "practice.asks": "正式场合会被问到的问题（按此顺序）"
   },
   "vi": {
     "app.name": "JAWS: Giỏi tiếng Nhật",
@@ -469,7 +472,8 @@
     "kanpe.jump.yomi": "Cách đọc",
     "kanpe.inside": "Nội dung ghi chú",
     "kanpe.qrNote": "Khi gọi điện thật, bạn có thể xem trên điện thoại với chữ to. Chỉ người biết URL mới mở được. Sau 30 ngày sẽ bị xóa.",
-    "kanpe.gone": "Không tìm thấy giấy nhắc (kanpe) này. Giấy nhắc sẽ bị xóa sau 30 ngày. Hãy tạo lại."
+    "kanpe.gone": "Không tìm thấy giấy nhắc (kanpe) này. Giấy nhắc sẽ bị xóa sau 30 ngày. Hãy tạo lại.",
+    "practice.asks": "Những điều sẽ được hỏi khi làm thật (theo thứ tự này)"
   },
   "tl": {
     "app.name": "JAWS: Magaling sa Nihongo",
@@ -587,7 +591,8 @@
     "kanpe.jump.yomi": "Basa",
     "kanpe.inside": "Laman ng kodigo",
     "kanpe.qrNote": "Makikita mo ito sa phone mo sa malalaking letra habang tumatawag ka talaga. Ang mga may URL lang ang makakapagbukas nito. Mabubura ito pagkalipas ng 30 araw.",
-    "kanpe.gone": "Wala na ang kanpe (notes) na ito. Nabubura ang kanpe pagkalipas ng 30 araw. Pakigawa ulit."
+    "kanpe.gone": "Wala na ang kanpe (notes) na ito. Nabubura ang kanpe pagkalipas ng 30 araw. Pakigawa ulit.",
+    "practice.asks": "Mga itatanong sa totoong usapan (sa ganitong pagkakasunod)"
   },
   "ne": {
     "app.name": "JAWS: राम्रो जापानी",
@@ -705,7 +710,8 @@
     "kanpe.jump.yomi": "पढाइ",
     "kanpe.inside": "नोटभित्र",
     "kanpe.qrNote": "वास्तविक फोन गर्दा, तपाईं यो स्मार्टफोनमा ठूला अक्षरमा हेर्न सक्नुहुन्छ। URL थाहा भएका मानिसले मात्र खोल्न सक्छन्। ३० दिनपछि यो मेटिन्छ।",
-    "kanpe.gone": "यो कान्पे (नोट) भेटिएन। कान्पे ३० दिनपछि मेटिन्छ। कृपया फेरि बनाउनुहोस्।"
+    "kanpe.gone": "यो कान्पे (नोट) भेटिएन। कान्पे ३० दिनपछि मेटिन्छ। कृपया फेरि बनाउनुहोस्।",
+    "practice.asks": "वास्तविक कुराकानीमा सोधिने कुराहरू (यही क्रममा)"
   },
   "id": {
     "app.name": "JAWS: Jago Bahasa Jepang",
@@ -823,7 +829,8 @@
     "kanpe.jump.yomi": "Bacaan",
     "kanpe.inside": "Isi contekan",
     "kanpe.qrNote": "Saat menelepon sungguhan, kamu bisa melihatnya di HP dengan huruf besar. Hanya orang yang tahu URL-nya yang bisa membukanya. Akan terhapus setelah 30 hari.",
-    "kanpe.gone": "Contekan (catatan) ini tidak ditemukan. Contekan terhapus setelah 30 hari. Silakan buat lagi."
+    "kanpe.gone": "Contekan (catatan) ini tidak ditemukan. Contekan terhapus setelah 30 hari. Silakan buat lagi.",
+    "practice.asks": "Yang akan ditanyakan saat sebenarnya (sesuai urutan ini)"
   },
   "pt": {
     "app.name": "JAWS: Bom de Japonês",
@@ -941,7 +948,8 @@
     "kanpe.jump.yomi": "Leitura",
     "kanpe.inside": "Conteúdo da cola",
     "kanpe.qrNote": "Na hora da ligação de verdade, você pode ver no celular, com letras grandes. Só quem tem a URL pode abrir. Some depois de 30 dias.",
-    "kanpe.gone": "Esta cola (anotação) não existe mais. As colas somem depois de 30 dias. Crie de novo, por favor."
+    "kanpe.gone": "Esta cola (anotação) não existe mais. As colas somem depois de 30 dias. Crie de novo, por favor.",
+    "practice.asks": "O que vão perguntar na hora (nesta ordem)"
   },
   "ko": {
     "app.name": "JAWS 일본어 잘하다",
@@ -1059,7 +1067,8 @@
     "kanpe.jump.yomi": "읽기",
     "kanpe.inside": "메모 내용",
     "kanpe.qrNote": "실제로 전화할 때 스마트폰에서 큰 글씨로 볼 수 있어요. URL을 아는 사람만 열 수 있어요. 30일이 지나면 사라져요.",
-    "kanpe.gone": "이 메모(칸페)를 찾을 수 없어요. 메모는 30일이 지나면 사라져요. 다시 만들어 주세요."
+    "kanpe.gone": "이 메모(칸페)를 찾을 수 없어요. 메모는 30일이 지나면 사라져요. 다시 만들어 주세요.",
+    "practice.asks": "실제 상황에서 받을 질문 (이 순서대로)"
   },
   "my": {
     "app.name": "JAWS ဂျပန်စကား တော်တယ်",
@@ -1177,6 +1186,7 @@
     "kanpe.jump.yomi": "အသံထွက်",
     "kanpe.inside": "မှတ်စုထဲ",
     "kanpe.qrNote": "တကယ့်ဖုန်းခေါ်ချိန်မှာ ဖုန်းထဲမှာ စာလုံးကြီးကြီးနဲ့ ကြည့်လို့ရပါတယ်။ URL သိတဲ့သူပဲ ဖွင့်လို့ရပါတယ်။ ရက် 30 ကြာရင် ပျက်သွားပါမယ်။",
-    "kanpe.gone": "ဒီ ကာန်ပေ (မှတ်စု) ကို ရှာမတွေ့ပါ။ ကာန်ပေ (မှတ်စု) တွေဟာ ရက် 30 ကြာရင် ပျက်သွားပါတယ်။ နောက်တစ်ခါ ပြန်လုပ်ပါ။"
+    "kanpe.gone": "ဒီ ကာန်ပေ (မှတ်စု) ကို ရှာမတွေ့ပါ။ ကာန်ပေ (မှတ်စု) တွေဟာ ရက် 30 ကြာရင် ပျက်သွားပါတယ်။ နောက်တစ်ခါ ပြန်လုပ်ပါ။",
+    "practice.asks": "တကယ့်အချိန်မှာ မေးမယ့်အရာများ (ဒီအစီအစဉ်အတိုင်း)"
   }
 }

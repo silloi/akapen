@@ -229,7 +229,8 @@ function toKanpe() {
     </div>
   </section>
 
-  <details v-if="akapen && akapen.later.length" class="later">
+  <!-- 赤は多くても3つ。4つ目以降はここに入るので、折りたたまずに見せる（たたむと「赤が少ない」と見える） -->
+  <details v-if="akapen && akapen.later.length" class="later" open>
     <summary>{{ t("review.later") }}（{{ akapen.later.length }}）</summary>
     <ul>
       <li v-for="l in akapen.later" :key="l.turn + l.quote">

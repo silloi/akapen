@@ -3,7 +3,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 import { randomStyle, STYLE_LABELS, type PartnerStyle, type Speed } from "../../shared/prompts.ts";
 import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
-import { sceneTr, t } from "../lib/i18n.ts";
+import { askTr, sceneTr, t } from "../lib/i18n.ts";
 import { Recorder, speak, stopSpeaking } from "../lib/voice.ts";
 
 const props = defineProps<{
@@ -115,6 +115,36 @@ onMounted(async () => {
 });
 onBeforeUnmount(stopSpeaking);
 
+/**
+ * 「本番で聞かれること」（asks。Can do の文に書かれた伝えることを、受付が聞く順に並べたもの）の横に、
+ * 練習用の答え（practiceInfo）を付ける。見出しが同じか、片方が片方を含むか、「・」で区切った語が重なれば同じ項目とみなす。
+ */
+const bare = (s: string) => s.replace(/[（(].*?[）)]/g, "").trim();
+const words = (s: string) =>
+  bare(s)
+    .split(/[・、/／]/)
+    .filter(Boolean);
+function matches(askLabel: string, infoLabel: string): boolean {
+  const a = bare(askLabel);
+  const b = bare(infoLabel);
+  if (!a || !b) return false;
+  if (a === b || a.includes(b) || b.includes(a) || askLabel.includes(b)) return true;
+  const wa = words(askLabel);
+  return words(infoLabel).some((w) => wa.includes(w));
+}
+const askRows = computed(() =>
+  props.scene.asks.map((a) => ({
+    key: a.key,
+    label: a.label,
+    tr: askTr(props.scene.id, a.key),
+    value: props.scene.practiceInfo.find((i) => matches(a.label, i.label))?.value ?? "",
+  })),
+);
+/** どの「聞かれること」にも付かなかった練習用の情報（下にそのまま出す） */
+const restInfo = computed(() =>
+  props.scene.practiceInfo.filter((i) => !props.scene.asks.some((a) => matches(a.label, i.label))),
+);
+
 const stateLabel = computed<Record<string, string>>(() => ({
   idle: "",
   recording: t("practice.recording"),
@@ -160,9 +190,19 @@ const stateLabel = computed<Record<string, string>>(() => ({
 
   <div class="layout">
     <aside class="info card">
-      <h2 class="small">{{ t("practice.info") }}</h2>
-      <dl>
-        <template v-for="i in scene.practiceInfo" :key="i.label">
+      <h2 class="small">{{ t("practice.asks") }}</h2>
+      <ol class="asks">
+        <li v-for="a in askRows" :key="a.key">
+          <span class="al">
+            {{ a.label }}
+            <span v-if="a.tr" class="atr tx">{{ a.tr }}</span>
+          </span>
+          <span v-if="a.value" class="av">{{ a.value }}</span>
+        </li>
+      </ol>
+      <h2 v-if="restInfo.length" class="small rest">{{ t("practice.info") }}</h2>
+      <dl v-if="restInfo.length">
+        <template v-for="i in restInfo" :key="i.label">
           <dt>{{ i.label }}</dt>
           <dd>{{ i.value }}</dd>
         </template>
@@ -286,6 +326,48 @@ select {
   .layout {
     grid-template-columns: minmax(0, 1fr);
   }
+}
+.asks {
+  margin: 8px 0 4px;
+  padding: 0;
+  list-style: none;
+  counter-reset: ask;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+.asks li {
+  counter-increment: ask;
+  display: grid;
+  gap: 1px;
+}
+.asks .al {
+  font-weight: 700;
+}
+.asks .al::before {
+  content: counter(ask) " ";
+  color: var(--red);
+  font-weight: 700;
+}
+/* スマホでは、聞かれることの下に会話が来るので、1行にまとめて高さを抑える */
+@media (max-width: 720px) {
+  .asks li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 10px;
+    align-items: baseline;
+  }
+}
+.asks .atr {
+  font-weight: 500;
+  color: var(--muted);
+  margin-left: 4px;
+}
+.asks .av {
+  color: var(--ink);
+}
+.rest {
+  margin-top: 10px;
 }
 .info dl {
   margin: 8px 0;

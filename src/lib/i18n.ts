@@ -74,6 +74,7 @@ export const JA = {
   "style.normal": "ふつう（友好的だが本物）",
   "style.busy": "急いでいる",
   "style.curt": "気むずかしい",
+  "practice.asks": "本番で聞かれること（この順）",
   "practice.info": "練習で使う情報（架空）",
   "practice.infoNote": "自分の本当の名前や電話番号は言わなくて大丈夫です。",
   "practice.previous": "前回の赤ペン ・ 次はどう言う？",
@@ -158,7 +159,7 @@ export type UiKey = keyof typeof JA;
 
 type Table = Partial<Record<UiKey, string>>;
 const UI = uiI18n as Record<string, Table>;
-const SCENES = scenesI18n as Record<string, Record<string, { title: string; summary: string }>>;
+const SCENES = scenesI18n as Record<string, Record<string, SceneText>>;
 
 const STORAGE = "akapen.lang";
 
@@ -220,10 +221,22 @@ export function t(key: UiKey): string {
   return UI[lang.value]?.[key] ?? JA[key];
 }
 
+/** 場面の訳。asks は「本番で聞かれること」の見出しの訳（ask の key → 訳） */
+export interface SceneText {
+  title: string;
+  summary: string;
+  asks?: Record<string, string>;
+}
+
 /** 日本語でないとき、場面の名前の訳（無ければ空） */
-export function sceneTr(sceneId: string): { title: string; summary: string } | null {
+export function sceneTr(sceneId: string): SceneText | null {
   if (lang.value === "ja") return null;
   return SCENES[lang.value]?.[sceneId] ?? null;
+}
+
+/** 日本語でないとき、「本番で聞かれること」の見出しの訳（無ければ空） */
+export function askTr(sceneId: string, askKey: string): string {
+  return sceneTr(sceneId)?.asks?.[askKey] ?? "";
 }
 
 /** カンペの言語の初期値: 画面の言語（日本語のときはやさしい日本語） */

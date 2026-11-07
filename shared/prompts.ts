@@ -5,7 +5,7 @@
  */
 import type { CanDo, Kanpe, KanpeLang, Mark, Scene, Turn } from "./types.ts";
 
-export const PROMPT_VERSION = "2026-11-06.7";
+export const PROMPT_VERSION = "2026-11-07.1";
 
 export type Speed = "slow" | "natural";
 
@@ -161,7 +161,7 @@ export const AKAPEN_SCHEMA = {
     },
     later: {
       type: "array",
-      description: "伝わったので、今は直さなくていいこと。多くても4つ",
+      description: "伝わったので、今は直さなくていいこと。多くても6つ",
       items: {
         type: "object",
         properties: {
