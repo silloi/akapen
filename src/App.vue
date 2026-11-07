@@ -29,6 +29,25 @@ const previous = ref<Mark[]>([]);
 const attempt = ref(1);
 /** 今回の相手の様子（赤ペンの画面で明かす） */
 const style = ref<PartnerStyle>("normal");
+/** 相手役が会話を終えた瞬間に裏で始めた赤ペン。会話（key）が同じときだけ使う */
+const prefetched = ref<{ key: string; promise: Promise<Akapen> } | null>(null);
+const keyOf = (t: Turn[]) => JSON.stringify(t);
+function prefetchAkapen(t: Turn[]) {
+  if (!scene.value) return;
+  const key = keyOf(t);
+  if (prefetched.value?.key === key) return;
+  const promise = api
+    .akapen(
+      scene.value.id,
+      t,
+      previous.value.map((m) => ({ quote: m.quote, next: m.next })),
+    )
+    .then((r) => r.akapen);
+  promise.catch(() => {
+    if (prefetched.value?.key === key) prefetched.value = null;
+  });
+  prefetched.value = { key, promise };
+}
 const loadError = ref("");
 /** QR から開いた本番用のカンペ */
 const shared = ref<SharedKanpe | null>(null);
@@ -50,6 +69,7 @@ function choose(s: SceneWithCando) {
   scene.value = s;
   turns.value = [];
   akapen.value = null;
+  prefetched.value = null;
   fixes.value = [];
   isSample.value = false;
   previous.value = [];
@@ -63,6 +83,7 @@ function retry() {
   attempt.value += 1;
   turns.value = [];
   akapen.value = null;
+  prefetched.value = null;
   fixes.value = [];
   isSample.value = false;
   view.value = "practice";
@@ -141,6 +162,7 @@ function home() {
       :previous="previous"
       :attempt="attempt"
       @finish="finishPractice"
+      @ended="prefetchAkapen"
       @back="home"
     />
     <Review
@@ -148,6 +170,7 @@ function home() {
       :scene="scene"
       :turns="turns"
       :initial="akapen"
+      :pending="prefetched && prefetched.key === keyOf(turns) ? prefetched.promise : null"
       :is-sample="isSample"
       :previous="previous"
       :attempt="attempt"
@@ -206,11 +229,16 @@ function home() {
 .langpick select {
   font: inherit;
   font-size: 13px;
+  line-height: 1.4;
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 2px 8px;
-  background: var(--paper);
+  padding: 3px 26px 3px 10px;
   color: var(--ink);
+  /* ブラウザ任せだとキャレットの位置がずれるので、自前の矢印を右端の中央に置く */
+  appearance: none;
+  background: var(--paper)
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2.5 4.5 6 8l3.5-3.5' fill='none' stroke='%235d6872' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>")
+    no-repeat right 9px center;
 }
 .sr {
   position: absolute;

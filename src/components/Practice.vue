@@ -12,7 +12,12 @@ const props = defineProps<{
   previous?: Mark[];
   attempt?: number;
 }>();
-const emit = defineEmits<{ finish: [Turn[], PartnerStyle]; back: [] }>();
+const emit = defineEmits<{
+  finish: [Turn[], PartnerStyle];
+  /** 相手役が会話を終えた（読み上げの前）。赤ペンを裏で始めるために、会話の写しを渡す */
+  ended: [Turn[]];
+  back: [];
+}>();
 
 const turns = ref<Turn[]>([]);
 const speed = ref<Speed>("slow");
@@ -35,6 +40,11 @@ async function scrollDown() {
 async function partnerSays(text: string) {
   turns.value.push({ speaker: "partner", text });
   await scrollDown();
+  if (ended.value)
+    emit(
+      "ended",
+      turns.value.map((t) => ({ ...t })),
+    );
   state.value = "speaking";
   await speak(text, speed.value === "slow", props.health.tts);
   state.value = "idle";

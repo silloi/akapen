@@ -9,6 +9,8 @@ const props = defineProps<{
   scene: SceneWithCando;
   turns: Turn[];
   initial: Akapen | null;
+  /** 練習の終わりに裏で始めた赤ペン（会話が同じときだけ渡される） */
+  pending?: Promise<Akapen> | null;
   isSample: boolean;
   previous?: Mark[];
   attempt?: number;
@@ -71,13 +73,15 @@ async function load() {
   loading.value = true;
   error.value = "";
   try {
-    akapen.value = (
-      await api.akapen(
-        props.scene.id,
-        props.turns,
-        (props.previous ?? []).map((m) => ({ quote: m.quote, next: m.next })),
-      )
-    ).akapen;
+    akapen.value = props.pending
+      ? await props.pending
+      : (
+          await api.akapen(
+            props.scene.id,
+            props.turns,
+            (props.previous ?? []).map((m) => ({ quote: m.quote, next: m.next })),
+          )
+        ).akapen;
     emit("update:akapen", akapen.value);
   } catch (e) {
     error.value = (e as Error).message;
@@ -142,9 +146,7 @@ function toKanpe() {
     </p>
     <h1>
       {{ t("review.fixBefore") }}
-      <span class="hand big tx"
-        >{{ akapen ? akapen.marks.length : "…" }}{{ t("review.count") }}</span
-      >
+      <span class="hand big tx">{{ akapen ? akapen.marks.length + t("review.count") : "…" }}</span>
     </h1>
     <p v-if="akapen" class="summary">
       <span class="lbl hand tx">{{ t("review.fromTeacher") }}</span>
