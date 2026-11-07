@@ -118,7 +118,7 @@
     "kanpe.gone": "このカンペは、ありません。カンペは30日たつと、消えます。もう一度作ってください。"
   },
   "en": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS: Good for Japanese",
     "step.practice": "1 Practice",
     "step.review": "2 Red pen",
     "step.kanpe": "3 Cheat sheet",
@@ -236,7 +236,7 @@
     "kanpe.gone": "This cheat sheet can't be found. Cheat sheets are deleted after 30 days. Please make a new one."
   },
   "zh": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS 日语说得很好",
     "step.practice": "1 练习",
     "step.review": "2 红笔批改",
     "step.kanpe": "3 正式用的提示卡",
@@ -354,7 +354,7 @@
     "kanpe.gone": "找不到这份提示小抄（30天后会自动删除）。请重新制作。"
   },
   "vi": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS: Giỏi tiếng Nhật",
     "step.practice": "1 Luyện tập",
     "step.review": "2 Bút đỏ",
     "step.kanpe": "3 Ghi chú cho lần thật",
@@ -472,7 +472,7 @@
     "kanpe.gone": "Không tìm thấy giấy nhắc (kanpe) này. Giấy nhắc sẽ bị xóa sau 30 ngày. Hãy tạo lại."
   },
   "tl": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS: Magaling sa Nihongo",
     "step.practice": "1 Ensayo",
     "step.review": "2 Pulang panulat",
     "step.kanpe": "3 Kodigo para sa totoong usapan",
@@ -590,7 +590,7 @@
     "kanpe.gone": "Wala na ang kanpe (notes) na ito. Nabubura ang kanpe pagkalipas ng 30 araw. Pakigawa ulit."
   },
   "ne": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS: राम्रो जापानी",
     "step.practice": "1 अभ्यास",
     "step.review": "2 रातो कलम (शिक्षकको सुधार)",
     "step.kanpe": "3 वास्तविक कुराकानीको नोट",
@@ -708,7 +708,7 @@
     "kanpe.gone": "यो कान्पे (नोट) भेटिएन। कान्पे ३० दिनपछि मेटिन्छ। कृपया फेरि बनाउनुहोस्।"
   },
   "id": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS: Jago Bahasa Jepang",
     "step.practice": "1 Latihan",
     "step.review": "2 Pena Merah",
     "step.kanpe": "3 Contekan",
@@ -826,7 +826,7 @@
     "kanpe.gone": "Contekan (catatan) ini tidak ditemukan. Contekan terhapus setelah 30 hari. Silakan buat lagi."
   },
   "pt": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS: Bom de Japonês",
     "step.practice": "1 Treino",
     "step.review": "2 Correção",
     "step.kanpe": "3 Cola para a hora H",
@@ -944,7 +944,7 @@
     "kanpe.gone": "Esta cola (anotação) não existe mais. As colas somem depois de 30 dias. Crie de novo, por favor."
   },
   "ko": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS 일본어 잘하다",
     "step.practice": "1 연습",
     "step.review": "2 빨간 펜 첨삭",
     "step.kanpe": "3 실전 메모",
@@ -1062,7 +1062,7 @@
     "kanpe.gone": "이 메모(칸페)를 찾을 수 없어요. 메모는 30일이 지나면 사라져요. 다시 만들어 주세요."
   },
   "my": {
-    "app.name": "JAWS: Nihongo Jozu",
+    "app.name": "JAWS ဂျပန်စကား တော်တယ်",
     "step.practice": "1 လေ့ကျင့်ရန်",
     "step.review": "2 ဆရာ့အမှားပြင်",
     "step.kanpe": "3 အစစ်အတွက် မှတ်စု",

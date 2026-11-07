@@ -1,6 +1,6 @@
 # JAWS 日本語じょうず（リポジトリ名 akapen）
 
-生活の電話を本番の前に声で予行演習し、赤ペン（先生の添削）とカンペを出す Web アプリ。アプリの名前は「JAWS 日本語じょうず」（英語では「JAWS: Nihongo Jozu」）。「赤ペン」は機能の呼び名としてだけ使う。公開先は Cloudflare Workers（`jaws.ni-hongo.workers.dev`、`docs/deploy.md`）。Built with Claude: Japan 2026 の作品。仕様は `docs/spec.md`、計画と進み具合は `docs/plan.md`。作り手は日本語教師。作り手とは日本語で、短く話す。決めることは作り手に聞く。
+生活の電話を本番の前に声で予行演習し、赤ペン（先生の添削）とカンペを出す Web アプリ。アプリの名前は「JAWS」が正で、副題は言語ごとに訳し分ける（日本語「JAWS 日本語じょうず」、英語「JAWS: Good for Japanese」。欧文はコロン、日本語・中国語・韓国語・ミャンマー語は空白で区切る。`data/ui.i18n.json` の `app.name`）。「赤ペン」は機能の呼び名としてだけ使う。公開先は Cloudflare Workers（`jaws.ni-hongo.workers.dev`、`docs/deploy.md`）。Built with Claude: Japan 2026 の作品。仕様は `docs/spec.md`、計画と進み具合は `docs/plan.md`。作り手は日本語教師。作り手とは日本語で、短く話す。決めることは作り手に聞く。
 
 ## 守ること
 

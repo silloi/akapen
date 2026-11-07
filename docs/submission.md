@@ -4,7 +4,7 @@
 
 ## 名前
 
-JAWS 日本語じょうず（英語表記: JAWS: Nihongo Jozu。リポジトリ名は akapen）
+JAWS 日本語じょうず（英語: JAWS: Good for Japanese。副題は言語ごとに訳し分ける。リポジトリ名は akapen）
 
 ## 一言で
 
