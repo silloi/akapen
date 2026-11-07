@@ -27,7 +27,7 @@ export const SAMPLE_TURNS: Turn[] = [
   { speaker: "me", text: "いすだけ。いつ来ますか？" },
   {
     speaker: "partner",
-    text: "いすだけですね。最短ですと11月18日の火曜日になりますが、よろしいですか。",
+    text: "いすだけですね。最短ですと11月17日の火曜日になりますが、よろしいですか。",
   },
   { speaker: "me", text: "はい。お金は？" },
   {
