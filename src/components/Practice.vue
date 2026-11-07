@@ -54,8 +54,9 @@ async function partnerSays(text: string) {
 }
 
 /**
- * 相手の声を流す。途中で止められた（「話す」や「もう一度聞く」が押された）ときは、
+ * 相手の声を流す。途中で止められた（「止めて話す」や「もう一度聞く」が押された）ときは、
  * 状態はそちらが決めるので触らない（触ると、録音中なのに「話す」に戻ってしまう）。
+ * 流し終えたら、そのまま聞き取りに入る（電話と同じく、相手が話し終えたら自分の番）。
  */
 async function say(text: string, slow: boolean) {
   state.value = "speaking";
@@ -64,7 +65,16 @@ async function say(text: string, slow: boolean) {
   if (r === "stopped") return;
   state.value = "idle";
   audioBlocked.value = r === "blocked";
+  if (r === "done" && autoListen.value) await startRecording();
 }
+
+/**
+ * 相手が話し終えたら、自動で聞き取りに入るか。声で練習しているときだけ
+ * （キーボードを開いているとき・相手が電話を終えたときは入らない。声が流れなかったときは say で除く）
+ */
+const autoListen = computed(
+  () => props.health.stt && props.health.claude && !showKeyboard.value && !ended.value,
+);
 
 async function partnerTurn() {
   state.value = "thinking";
@@ -85,28 +95,36 @@ async function addMine(text: string) {
   await partnerTurn();
 }
 
-async function toggleMic() {
-  unlockAudio();
-  if (starting.value) return;
-  error.value = "";
-  audioBlocked.value = false;
-  if (state.value === "speaking") {
-    stopSpeaking();
-    state.value = "idle";
-  }
-  if (state.value !== "recording") {
-    starting.value = true;
-    try {
-      await recorder.start();
-      state.value = "recording";
-    } catch {
-      error.value = t("practice.micError");
-      showKeyboard.value = true;
-    } finally {
-      starting.value = false;
+/** 練習の画面を出たか（出た後に、自動の聞き取りでマイクを開き直さない） */
+let alive = true;
+/** 録音の長さの上限（押し忘れても、ずっと録り続けない） */
+const RECORD_LIMIT_MS = 60_000;
+let limitTimer = 0;
+
+async function startRecording() {
+  if (starting.value || state.value === "recording" || !alive) return;
+  starting.value = true;
+  try {
+    await recorder.start();
+    if (!alive) {
+      recorder.release();
+      return;
     }
-    return;
+    state.value = "recording";
+    limitTimer = window.setTimeout(() => {
+      if (state.value === "recording") void finishRecording();
+    }, RECORD_LIMIT_MS);
+  } catch {
+    error.value = t("practice.micError");
+    showKeyboard.value = true;
+  } finally {
+    starting.value = false;
   }
+}
+
+/** 録り終えて、文字にして送る */
+async function finishRecording() {
+  clearTimeout(limitTimer);
   const audio = await recorder.stop();
   state.value = "transcribing";
   try {
@@ -129,6 +147,26 @@ async function toggleMic() {
   }
 }
 
+/** 録っている分を捨てる（もう一度聞く・キーボードに切り替えるとき） */
+async function discardRecording() {
+  clearTimeout(limitTimer);
+  await recorder.stop();
+  state.value = "idle";
+}
+
+async function toggleMic() {
+  unlockAudio();
+  if (starting.value) return;
+  error.value = "";
+  audioBlocked.value = false;
+  if (state.value === "speaking") {
+    stopSpeaking();
+    state.value = "idle";
+  }
+  if (state.value === "recording") await finishRecording();
+  else await startRecording();
+}
+
 async function sendTyped() {
   unlockAudio();
   const text = typed.value.trim();
@@ -137,17 +175,30 @@ async function sendTyped() {
   await addMine(text);
 }
 
-/** 最後の相手の言葉を、ゆっくり流し直す。流れている途中なら、止めて最初から（重ねない） */
-function replayLast() {
+/**
+ * 最後の相手の言葉を、ゆっくり流し直す。流れている途中なら、止めて最初から（重ねない）。
+ * 聞き取りに入っていたら、録った分は捨てて聞き直す（聞き終えたら、また聞き取りに入る）。
+ */
+async function replayLast() {
   unlockAudio();
   const last = [...turns.value].reverse().find((t) => t.speaker === "partner");
-  if (last) void say(last.text, true);
+  if (!last) return;
+  if (state.value === "recording") await discardRecording();
+  await say(last.text, true);
+}
+
+/** キーボードに切り替えたら、聞き取りはやめる */
+function toggleKeyboard() {
+  showKeyboard.value = !showKeyboard.value;
+  if (showKeyboard.value && state.value === "recording") void discardRecording();
 }
 
 onMounted(async () => {
   if (props.health.claude) await partnerTurn();
 });
 onBeforeUnmount(() => {
+  alive = false;
+  clearTimeout(limitTimer);
   stopSpeaking();
   recorder.release();
 });
@@ -318,17 +369,12 @@ const stateLabel = computed<Record<string, string>>(() => ({
         <button
           :class="['btn', audioBlocked ? 'red' : 'ghost']"
           type="button"
-          :disabled="
-            !turns.length ||
-            state === 'recording' ||
-            state === 'transcribing' ||
-            state === 'thinking'
-          "
+          :disabled="!turns.length || starting || state === 'transcribing' || state === 'thinking'"
           @click="replayLast"
         >
           {{ t("practice.replay") }}
         </button>
-        <button class="btn ghost small" type="button" @click="showKeyboard = !showKeyboard">
+        <button class="btn ghost small" type="button" @click="toggleKeyboard">
           {{ t("practice.keyboard") }}
         </button>
       </div>
