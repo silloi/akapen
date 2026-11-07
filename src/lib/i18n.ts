@@ -226,6 +226,8 @@ export interface SceneText {
   title: string;
   summary: string;
   asks?: Record<string, string>;
+  /** 練習用の情報（practiceInfo）の見出しの訳（日本語の見出し → 訳） */
+  info?: Record<string, string>;
 }
 
 /** 日本語でないとき、場面の名前の訳（無ければ空） */
@@ -237,6 +239,11 @@ export function sceneTr(sceneId: string): SceneText | null {
 /** 日本語でないとき、「本番で聞かれること」の見出しの訳（無ければ空） */
 export function askTr(sceneId: string, askKey: string): string {
   return sceneTr(sceneId)?.asks?.[askKey] ?? "";
+}
+
+/** 日本語でないとき、練習用の情報の見出しの訳（無ければ空） */
+export function infoTr(sceneId: string, label: string): string {
+  return sceneTr(sceneId)?.info?.[label] ?? "";
 }
 
 /** カンペの言語の初期値: 画面の言語（日本語のときはやさしい日本語） */

@@ -22,6 +22,7 @@ import {
   PROMPT_VERSION,
   type PartnerReply,
 } from "../shared/prompts.ts";
+import { fillPersona } from "../shared/persona.ts";
 import { findScene } from "../shared/scenes.ts";
 import type { Turn } from "../shared/types.ts";
 import { normalizeAkapen, type RawAkapen } from "../shared/validate.ts";
@@ -47,7 +48,7 @@ const LEARNER_SCHEMA = {
 
 const learnerSystem = `あなたは、日本語を勉強中の外国人（${cando?.level ?? "A2"}くらい）の役をします。日本語の教材を作るための、架空の練習の会話です。
 電話の相手は「${scene.partnerRole}」です。用件: ${scene.summary}
-使う情報（架空）: ${scene.practiceInfo.map((i) => `${i.label}=${i.value}`).join("、")}
+使う情報（架空）: ${scene.practiceInfo.map((i) => `${i.label}=${fillPersona(i.value, "ja")}`).join("、")}
 
 - 学習者らしく、短い文で話す。「えっと」「あの」などの言いよどみや、言い直しを、ときどき入れる。
 - 会話の中で、次のつまずきを1つか2つ、自然に入れる: あいまいな「だいじょうぶです」「いいです」/ 名詞だけの質問（「お金は？」）/ 分からない語に「はい」とだけ答える / 聞かれたことと少しずれた答え。

@@ -3,7 +3,8 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
 import { randomStyle, STYLE_LABELS, type PartnerStyle, type Speed } from "../../shared/prompts.ts";
 import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
-import { askTr, sceneTr, t } from "../lib/i18n.ts";
+import { fillPersona } from "../../shared/persona.ts";
+import { askTr, infoTr, lang, sceneTr, t } from "../lib/i18n.ts";
 import { Recorder, speak, stopSpeaking } from "../lib/voice.ts";
 
 const props = defineProps<{
@@ -85,7 +86,7 @@ async function toggleMic() {
   const audio = await recorder.stop();
   state.value = "transcribing";
   try {
-    const { text } = await api.stt(props.scene.id, audio);
+    const { text } = await api.stt(props.scene.id, audio, lang.value);
     if (!text) {
       error.value = t("practice.noVoice");
       state.value = "idle";
@@ -137,12 +138,22 @@ const askRows = computed(() =>
     key: a.key,
     label: a.label,
     tr: askTr(props.scene.id, a.key),
-    value: props.scene.practiceInfo.find((i) => matches(a.label, i.label))?.value ?? "",
+    // 名前（〔名前〕など）は、画面の言語ごとの架空の人物に差し替える
+    value: fillPersona(
+      props.scene.practiceInfo.find((i) => matches(a.label, i.label))?.value ?? "",
+      lang.value,
+    ),
   })),
 );
 /** どの「聞かれること」にも付かなかった練習用の情報（下にそのまま出す） */
 const restInfo = computed(() =>
-  props.scene.practiceInfo.filter((i) => !props.scene.asks.some((a) => matches(a.label, i.label))),
+  props.scene.practiceInfo
+    .filter((i) => !props.scene.asks.some((a) => matches(a.label, i.label)))
+    .map((i) => ({
+      label: i.label,
+      tr: infoTr(props.scene.id, i.label),
+      value: fillPersona(i.value, lang.value),
+    })),
 );
 
 const stateLabel = computed<Record<string, string>>(() => ({
@@ -201,7 +212,7 @@ const stateLabel = computed<Record<string, string>>(() => ({
       <h2 v-if="restInfo.length" class="small rest">{{ t("practice.info") }}</h2>
       <dl v-if="restInfo.length">
         <template v-for="i in restInfo" :key="i.label">
-          <dt>{{ i.label }}</dt>
+          <dt class="tx">{{ i.tr || i.label }}</dt>
           <dd>{{ i.value }}</dd>
         </template>
       </dl>

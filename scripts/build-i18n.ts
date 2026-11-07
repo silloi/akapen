@@ -123,7 +123,12 @@ const SCENE_PAIRS_SCHEMA = {
 
 type Pairs = { items: { key: string; text: string }[] };
 type ScenePairs = { items: { id: string; title: string; summary: string }[] };
-type SceneText = { title: string; summary: string; asks?: Record<string, string> };
+type SceneText = {
+  title: string;
+  summary: string;
+  asks?: Record<string, string>;
+  info?: Record<string, string>;
+};
 
 /** 「本番で聞かれること」の見出しを {sceneId/askKey: 見出し} の形に（鍵の配列として訳すため） */
 const askKeyOf = (sceneId: string, askKey: string) => `${sceneId}/${askKey}`;
@@ -133,6 +138,28 @@ function missingAsks(have: Record<string, SceneText>): Record<string, string> {
     for (const a of s.asks)
       if (values.force || !have[s.id]?.asks?.[a.key]) src[askKeyOf(s.id, a.key)] = a.label;
   return src;
+}
+/** 練習用の情報（practiceInfo）の見出しを {sceneId|見出し: 見出し} の形に */
+const infoKeyOf = (sceneId: string, label: string) => `${sceneId}|${label}`;
+function missingInfo(have: Record<string, SceneText>): Record<string, string> {
+  const src: Record<string, string> = {};
+  for (const s of SCENES)
+    for (const i of s.practiceInfo)
+      if (values.force || !have[s.id]?.info?.[i.label]) src[infoKeyOf(s.id, i.label)] = i.label;
+  return src;
+}
+function putInfo(out: Record<string, SceneText>, got: Record<string, string>): void {
+  for (const [k, text] of Object.entries(got)) {
+    const at = k.indexOf("|");
+    if (at < 0) continue;
+    const sceneId = k.slice(0, at);
+    const label = k.slice(at + 1);
+    const s = SCENES.find((x) => x.id === sceneId);
+    if (!s || !label) continue;
+    out[sceneId] ??= { title: s.title, summary: s.summary };
+    out[sceneId].info ??= {};
+    out[sceneId].info[label] = text;
+  }
 }
 function putAsks(out: Record<string, SceneText>, got: Record<string, string>): void {
   for (const [k, text] of Object.entries(got)) {
@@ -262,6 +289,23 @@ if (doScenes) {
       console.log(`asks easy: ${keys.length} 件`);
     }
   }
+  // 1c. 練習用の情報の見出し（やさしい日本語）
+  {
+    const easyNow = (out.easy ?? {}) as Record<string, SceneText>;
+    const src = missingInfo(easyNow);
+    const keys = Object.keys(src);
+    if (keys.length) {
+      const got = await askPairs(
+        EASY_SYSTEM,
+        `## 練習で使う架空の情報の見出し（鍵: 見出し）。鍵は「場面の id|見出し」。見出しは、本番で言う自分の情報の項目名（名前・住所・子どもの名前 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形でやさしい日本語の見出しを返してください。見出しは短く（語か、短い句）。`,
+        keys,
+      );
+      putInfo(easyNow, got);
+      out.easy = easyNow;
+      writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
+      console.log(`info easy: ${keys.length} 件`);
+    }
+  }
 
   // 2. 各言語（やさしい日本語を元に）
   const easyAll = (out.easy ?? {}) as Record<string, SceneText>;
@@ -310,5 +354,31 @@ if (doScenes) {
     out[l] = have;
     writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
     console.log(`asks ${l}: ${keys.length} 件`);
+  }
+
+  // 2c. 練習用の情報の見出し（各言語。やさしい日本語を元に）
+  const easyInfo = (out.easy ?? {}) as Record<string, SceneText>;
+  for (const l of TARGET_LANGS) {
+    const have = (out[l] ?? {}) as Record<string, SceneText>;
+    const ja = missingInfo(have);
+    const keys = Object.keys(ja);
+    if (keys.length === 0) continue;
+    const src = Object.fromEntries(
+      keys.map((k) => {
+        const at = k.indexOf("|");
+        const sceneId = k.slice(0, at);
+        const label = k.slice(at + 1);
+        return [k, { easy: easyInfo[sceneId]?.info?.[label] ?? ja[k], ja: ja[k] }];
+      }),
+    );
+    const got = await askPairs(
+      TRANSLATE_SYSTEM,
+      `## 言語\n${UI_LANGS[l]}（${l}）\n\n## 練習で使う架空の情報の見出し。鍵は「場面の id|見出し」。鍵: {easy: やさしい日本語, ja: 元の日本語}。本番で言う自分の情報の項目名（名前・住所・子どもの名前 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。見出しは短く（語か、短い句）。`,
+      keys,
+    );
+    putInfo(have, got);
+    out[l] = have;
+    writeFileSync(SC_OUT, JSON.stringify(out, null, 2) + "\n");
+    console.log(`info ${l}: ${keys.length} 件`);
   }
 }

@@ -39,7 +39,7 @@ export const HAND_SCENES: Scene[] = [
       },
     ],
     practiceInfo: [
-      { label: "名前", value: "リン・メイ" },
+      { label: "名前", value: "〔名前〕" },
       { label: "住所", value: "みなと市さくら町3丁目5の12　さくらハイツ201" },
       { label: "電話番号", value: "090-1234-5678" },
       { label: "出すもの", value: "木のいす1つ、小さい冷蔵庫1つ" },
@@ -61,7 +61,7 @@ export const HAND_SCENES: Scene[] = [
       "みなと市",
       "さくら町",
       "さくらハイツ",
-      "リン・メイ",
+      "〔名前〕",
       "粗大ごみ",
       "処理券",
       "家電リサイクル",
@@ -91,7 +91,7 @@ export const HAND_SCENES: Scene[] = [
       },
     ],
     practiceInfo: [
-      { label: "名前", value: "グエン・ラン" },
+      { label: "名前", value: "〔名前〕" },
       { label: "電話番号", value: "080-2345-6789" },
       { label: "日時", value: "今週の土曜日、夜7時" },
       { label: "人数", value: "4人（子ども1人をふくむ）" },
@@ -109,17 +109,7 @@ export const HAND_SCENES: Scene[] = [
       "予約の時間に遅れそうなときや、行けなくなったときは、お店に電話する。連絡せずに行かないと、キャンセル料がかかることがある。",
       "電話では、相手が「〜名様」「〜でございます」など、ていねいな言い方を使う。自分は「です・ます」で大丈夫。",
     ],
-    keyterms: [
-      "なぎさ亭",
-      "グエン・ラン",
-      "予約",
-      "満席",
-      "コース",
-      "お席",
-      "名様",
-      "子ども",
-      "いす",
-    ],
+    keyterms: ["なぎさ亭", "〔名前〕", "予約", "満席", "コース", "お席", "名様", "子ども", "いす"],
   },
   {
     id: "taxi",
@@ -142,7 +132,7 @@ export const HAND_SCENES: Scene[] = [
       { key: "people", label: "人数・荷物", example: "何名様で、大きいお荷物はありますか。" },
     ],
     practiceInfo: [
-      { label: "名前", value: "サントス・アナ" },
+      { label: "名前", value: "〔名前〕" },
       { label: "電話番号", value: "070-3456-7890" },
       { label: "迎えの場所", value: "みなと市さくら町3丁目のコンビニの前" },
       { label: "日時", value: "あしたの朝6時" },
@@ -162,7 +152,7 @@ export const HAND_SCENES: Scene[] = [
     ],
     keyterms: [
       "かもめタクシー",
-      "サントス・アナ",
+      "〔名前〕",
       "みなと市",
       "さくら町",
       "みなと駅",
@@ -202,7 +192,7 @@ export const HAND_SCENES: Scene[] = [
       },
     ],
     practiceInfo: [
-      { label: "名前", value: "チャン・ウェイ" },
+      { label: "名前", value: "〔名前〕" },
       { label: "生年月日", value: "1995年4月10日" },
       { label: "電話番号", value: "090-4567-8901" },
       { label: "診察理由", value: "3日前からせきが出る" },
@@ -222,7 +212,7 @@ export const HAND_SCENES: Scene[] = [
     ],
     keyterms: [
       "うみべ内科クリニック",
-      "チャン・ウェイ",
+      "〔名前〕",
       "予約",
       "初診",
       "保険証",

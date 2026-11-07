@@ -11,6 +11,12 @@
         "items": "出すもの",
         "date": "とりに来る日",
         "fee": "お金と出し方"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "出すもの": "出すもの"
       }
     },
     "restaurant": {
@@ -22,6 +28,12 @@
         "name": "名前",
         "phone": "電話番号",
         "seat": "席・ほかのこと"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "日時": "日と時間",
+        "人数": "何人"
       }
     },
     "taxi": {
@@ -34,6 +46,14 @@
         "name": "名前",
         "phone": "電話番号",
         "people": "何人か・荷物"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "迎えの場所": "来てほしい場所",
+        "日時": "日と時間",
+        "行き先": "行きたい場所",
+        "人数・荷物": "何人・荷物"
       }
     },
     "clinic": {
@@ -46,6 +66,12 @@
         "reason": "どうして行くか",
         "date": "日と時間",
         "bring": "持っていくもの"
+      },
+      "info": {
+        "名前": "名前",
+        "生年月日": "生まれた日",
+        "電話番号": "電話番号",
+        "診察理由": "病院に行く理由"
       }
     },
     "cando-8": {
@@ -58,6 +84,13 @@
         "form": "体のことを書く紙（問診票）",
         "phone": "電話番号",
         "wait": "待つ場所"
+      },
+      "info": {
+        "名前": "名前",
+        "生年月日": "生まれた日",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "来た理由": "来た理由"
       }
     },
     "cando-77": {
@@ -71,6 +104,13 @@
         "people": "住む人の数",
         "movein": "住み始める日",
         "other": "ほかの希望と名前・連絡先"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "希望の地域": "住みたい場所",
+        "家賃・間取り": "家賃・部屋の形",
+        "入居予定日": "住み始めたい日"
       }
     },
     "cando-87": {
@@ -84,6 +124,13 @@
         "work": "働く会社と給料の紙",
         "contact": "何かあったときの連絡先",
         "deadline": "紙を出す日と約束の日"
+      },
+      "info": {
+        "名前": "名前",
+        "今の住所": "今の住所",
+        "電話番号": "電話番号",
+        "借りたい部屋": "借りたい部屋",
+        "勤務先": "働いている会社"
       }
     },
     "cando-95": {
@@ -97,6 +144,13 @@
         "family": "一緒に引っ越した人",
         "phone": "電話番号",
         "other": "ほかの手続き"
+      },
+      "info": {
+        "名前": "名前",
+        "前の住所": "前の住所",
+        "新しい住所": "新しい住所",
+        "引っ越した日": "引っ越した日",
+        "電話番号": "電話番号"
       }
     },
     "cando-96": {
@@ -109,6 +163,12 @@
         "address": "住所（地区）",
         "method": "出し方",
         "confirm": "わかったかどうか"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "引っ越しの日": "引っ越しの日",
+        "出したいもの": "出したいもの"
       }
     },
     "cando-101": {
@@ -122,6 +182,13 @@
         "date": "ガスを使い始める日と時間",
         "appliance": "ガスで使う道具",
         "payment": "お金の払い方"
+      },
+      "info": {
+        "名前": "名前",
+        "新しい住所": "新しい住所",
+        "電話番号": "電話番号",
+        "ガスを使い始めたい日": "ガスを使い始めたい日",
+        "ガスコンロ": "ガスコンロ"
       }
     },
     "cando-105": {
@@ -135,6 +202,13 @@
         "detail": "お金の紙のどこが違うか",
         "movein": "住み始めた日・使い始めた日",
         "phone": "連絡先"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "お客さま番号": "お客さま番号",
+        "請求書の内容": "お金を払う紙に書いてあること"
       }
     },
     "cando-110": {
@@ -147,6 +221,12 @@
         "size": "サイズ",
         "stock": "店にあるかどうか",
         "fitting": "着てみる"
+      },
+      "info": {
+        "名前": "名前",
+        "見ている商品": "見ている物",
+        "ほしい色": "ほしい色",
+        "ほしいサイズ": "ほしい大きさ"
       }
     },
     "cando-121": {
@@ -160,6 +240,13 @@
         "choice": "かえるか、お金を返してもらうか",
         "payment": "お金の払い方",
         "contact": "名前と連絡先"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "買った商品": "買った物",
+        "買った日と払い方": "買った日と払い方",
+        "不具合": "悪いところ"
       }
     },
     "cando-128": {
@@ -171,6 +258,12 @@
         "seat": "席の種類",
         "child": "子どものいす",
         "wait": "待つかどうかと名前"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "名前（待つ人の紙に書く）",
+        "人数": "何人",
+        "席の希望": "座りたい席",
+        "子ども用のいす": "子どものいす"
       }
     },
     "cando-134": {
@@ -183,6 +276,12 @@
         "detail": "どこまで食べられないか",
         "change": "料理を変える話",
         "confirm": "たのんだ料理の確認"
+      },
+      "info": {
+        "名前": "名前",
+        "人数": "何人",
+        "食べられないもの": "食べられないもの",
+        "頼みたいもの": "頼みたいもの"
       }
     },
     "cando-143": {
@@ -196,6 +295,12 @@
         "shirt": "ワイシャツのしあげ方",
         "pickup": "できあがる日",
         "payment": "お金を払う"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "出す服": "出す服",
+        "取りに来られる日": "取りに来ることができる日"
       }
     },
     "cando-151": {
@@ -209,6 +314,13 @@
         "destination": "お金を送る国とお金の種類",
         "recipient": "受け取る人と銀行",
         "amount": "いくら送るかと理由"
+      },
+      "info": {
+        "名前": "名前",
+        "口座": "銀行の口座",
+        "送金先": "お金を送る相手",
+        "金額と目的": "いくら・何のため",
+        "電話番号": "電話番号"
       }
     },
     "cando-158": {
@@ -221,6 +333,12 @@
         "route": "行き方",
         "seat": "指定席か自由席か",
         "payment": "お金を払う"
+      },
+      "info": {
+        "今いる駅": "今いる駅",
+        "行きたい所": "行きたい所",
+        "着きたい時間": "着きたい時間",
+        "人数": "何人"
       }
     },
     "cando-161": {
@@ -233,6 +351,13 @@
         "people": "何人かと荷物",
         "room": "名前・部屋の番号",
         "wait": "待つ場所と時間"
+      },
+      "info": {
+        "名前": "名前",
+        "部屋番号": "部屋の番号",
+        "行き先": "行きたい場所",
+        "人数と荷物": "何人と荷物",
+        "支払い": "払い方"
       }
     },
     "cando-187": {
@@ -246,6 +371,13 @@
         "address": "住所が変わったか",
         "documents": "持ち物とすること",
         "fee": "お金と受付の時間"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "免許証の有効期限": "運転免許証を使うことができる最後の日",
+        "講習区分（はがき）": "講習の種類（はがき）"
       }
     },
     "cando-188": {
@@ -259,6 +391,12 @@
         "transport": "行く方法",
         "name": "名前と連絡先",
         "visit": "説明の会・入る手続き"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "希望": "したいこと",
+        "最寄り駅": "いちばん近い駅"
       }
     },
     "cando-191": {
@@ -272,6 +410,12 @@
         "license": "免許証の色",
         "driver": "運転する人",
         "start": "保険が始まる日"
+      },
+      "info": {
+        "名前・生年月日": "名前・生まれた日",
+        "住所・電話番号": "住所・電話番号",
+        "車": "車",
+        "免許証の色・運転する人": "運転免許証の色・運転する人"
       }
     },
     "cando-203": {
@@ -285,6 +429,13 @@
         "date": "行きたい日と時間",
         "phone": "電話番号",
         "bring": "持っていくもの"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "妊娠週数": "お腹に赤ちゃんがいる週の数",
+        "希望の日時": "行きたい日と時間",
+        "受診": "病院に行ったこと"
       }
     },
     "cando-219": {
@@ -298,6 +449,13 @@
         "stay": "日本にいる予定",
         "procedure": "手続き・いつまで・どこで",
         "documents": "必要なもの"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "子供の名前と生まれた日": "子どもの名前と生まれた日",
+        "電話番号": "電話番号",
+        "親の在留カード": "親の在留カード"
       }
     },
     "cando-222": {
@@ -311,6 +469,13 @@
         "date": "行きたい日と時間",
         "parent": "親の名前と電話番号",
         "bring": "持ち物の確認"
+      },
+      "info": {
+        "子どもの名前": "子どもの名前",
+        "子どもの生年月日・月齢": "子どもの生まれた日・何か月",
+        "保護者の名前": "親の名前",
+        "電話番号": "電話番号",
+        "希望の日時": "行きたい日と時間"
       }
     },
     "cando-266": {
@@ -324,6 +489,13 @@
         "work": "保育園が必要な理由",
         "deadline": "出す日（いつまで）",
         "place": "出す場所と紙"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "子ども": "子ども",
+        "入園したい時期": "入りたいとき",
+        "仕事": "仕事"
       }
     },
     "cando-295": {
@@ -336,6 +508,13 @@
         "japanese": "子どもの日本語の力",
         "support": "どんな手伝いか",
         "next": "次にすること"
+      },
+      "info": {
+        "保護者の名前": "親の名前",
+        "子どもの名前・学年": "子どもの名前・何年生",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "子どもの日本語": "子どもの日本語"
       }
     },
     "cando-299": {
@@ -349,6 +528,13 @@
         "question": "聞きたいこと",
         "explain": "その日にすることと持ち物",
         "phone": "連絡先"
+      },
+      "info": {
+        "子どもの名前": "子どもの名前",
+        "保護者の名前": "親の名前",
+        "電話番号": "電話番号",
+        "通知に書いてある健診の日": "お知らせに書いてある体を調べる日",
+        "聞きたいこと": "聞きたいこと"
       }
     },
     "cando-316": {
@@ -361,6 +547,12 @@
         "form": "口座から払うための紙",
         "bank": "お金を払う口座",
         "phone": "連絡先"
+      },
+      "info": {
+        "子供の名前・学年": "子どもの名前・何年生",
+        "保護者の名前": "親の名前",
+        "電話番号": "電話番号",
+        "使いたい口座": "使いたい銀行の口座"
       }
     },
     "cando-331": {
@@ -374,6 +566,13 @@
         "interpreter": "通訳の人が一緒に来るか",
         "date": "相談の日と時間",
         "phone": "連絡先"
+      },
+      "info": {
+        "自分の名前（保護者）": "自分の名前（親）",
+        "子ども": "子ども",
+        "担任": "クラスの先生",
+        "電話番号": "電話番号",
+        "通訳": "通訳"
       }
     },
     "cando-348": {
@@ -387,6 +586,13 @@
         "needs": "子どものようす",
         "answer": "クラスと手伝いのようす",
         "next": "見に行く日と連絡先"
+      },
+      "info": {
+        "保護者の名前": "親の名前",
+        "子どもの名前・年齢": "子どもの名前・何歳",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "子どものようす": "子どものようす"
       }
     },
     "cando-356": {
@@ -400,6 +606,13 @@
         "search": "仕事の探し方",
         "referral": "仕事に申し込む手続き",
         "report": "結果の連絡"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "在留資格": "在留資格",
+        "希望の仕事": "したい仕事"
       }
     },
     "cando-380": {
@@ -413,6 +626,13 @@
         "jobtype": "したい仕事と働き方",
         "experience": "前にした仕事・日本語",
         "explain": "働き方の説明"
+      },
+      "info": {
+        "名前": "名前",
+        "在留資格": "在留資格",
+        "働ける時間": "働くことができる時間",
+        "希望": "したいこと",
+        "経験": "前にした仕事"
       }
     },
     "cando-424": {
@@ -425,6 +645,13 @@
         "arrival": "着きそうな時間",
         "work": "今日の予定・仕事",
         "contact": "連絡先と次の連絡"
+      },
+      "info": {
+        "名前・部署": "名前・会社のグループ",
+        "今いる場所": "今いる場所",
+        "着く時間の見込み": "たぶん着く時間",
+        "今日の予定": "今日の予定",
+        "携帯電話": "携帯電話"
       }
     },
     "cando-433": {
@@ -435,6 +662,12 @@
         "status": "今どうしているか",
         "return": "戻る時間",
         "closing": "最後のあいさつ"
+      },
+      "info": {
+        "自分の名前・部署": "自分の名前・会社のグループ",
+        "離席中の同僚": "今いない人",
+        "田中さんが戻る時間": "田中さんが戻る時間",
+        "電話をかけてきた人": "電話をかけてきた人"
       }
     },
     "cando-443": {
@@ -448,6 +681,13 @@
         "demand": "相手がしてほしいこと",
         "reply": "相手への返事",
         "next": "これからすること"
+      },
+      "info": {
+        "自分": "自分",
+        "取引先と担当者": "相手の会社と相手の人",
+        "トラブルの内容": "困ったこと",
+        "先方の要望": "相手がしてほしいこと",
+        "自分がしたこと": "自分がしたこと"
       }
     },
     "cando-563": {
@@ -461,6 +701,13 @@
         "card": "在留カード",
         "school": "子どもの学校を変える",
         "next": "このあとの手続き"
+      },
+      "info": {
+        "名前": "名前",
+        "新しい住所（引っ越した日：先週の土曜日）": "新しい住所（引っ越した日：先週の土曜日）",
+        "前の住所": "前の住所",
+        "家族": "家族",
+        "電話番号": "電話番号"
       }
     },
     "cando-566": {
@@ -473,6 +720,13 @@
         "place": "窓口の場所",
         "ticket": "番号の紙と待ち方",
         "other": "ほかの用事"
+      },
+      "info": {
+        "名前": "名前",
+        "新しい住所": "新しい住所",
+        "前の住所": "前の住所",
+        "今日の用事": "今日の用事",
+        "持っているもの": "持っているもの"
       }
     },
     "cando-569": {
@@ -485,6 +739,13 @@
         "copies": "何枚いるか",
         "id": "自分を確かめる物",
         "fee": "お金と受け取り"
+      },
+      "info": {
+        "名前": "名前",
+        "生年月日": "生まれた日",
+        "住所": "住所",
+        "必要な通数": "ほしい枚数",
+        "持っている物": "持っているもの"
       }
     },
     "cando-577": {
@@ -497,6 +758,12 @@
         "name": "名前と住所の確認",
         "method": "払い方の希望",
         "account": "口座から払う手続き"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "持っている書類": "持っている紙",
+        "使っている金融機関": "使っている銀行"
       }
     },
     "cando-601": {
@@ -510,6 +777,13 @@
         "procedure": "することと必要なもの",
         "fee": "お金ともらう物",
         "name": "名前と連絡先"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "犬": "犬",
+        "予防注射": "病気にならないための注射"
       }
     },
     "cando-639": {
@@ -523,6 +797,13 @@
         "household": "一緒に住む家族",
         "payment": "保険のお金の払い方",
         "contact": "連絡先"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "前の会社と、やめた日": "前の会社と、やめた日",
+        "家族": "家族"
       }
     },
     "cando-651": {
@@ -536,6 +817,13 @@
         "name": "名前",
         "phone": "電話番号",
         "howto": "参加のしかた"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "参加できる時間": "行くことができる時間",
+        "日本語のレベル・目的": "日本語の力・勉強する理由"
       }
     },
     "cando-654": {
@@ -548,6 +836,13 @@
         "phone": "電話番号",
         "level": "日本語のレベル",
         "howknew": "教室を何で知ったか"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "参加したい教室": "行きたい教室",
+        "教室を知った方法": "教室を知ったきっかけ"
       }
     },
     "cando-731": {
@@ -561,6 +856,13 @@
         "facility": "部屋の説明",
         "food": "食べること・飲むこと",
         "name": "名前と連絡先"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "グループ": "グループ",
+        "使いたい日・人数": "使いたい日・何人",
+        "やりたいこと": "やりたいこと"
       }
     },
     "cando-732": {
@@ -573,6 +875,12 @@
         "duedate": "返す日の確認",
         "return": "返し方",
         "other": "ほかの質問"
+      },
+      "info": {
+        "名前": "名前",
+        "利用者カードの番号": "図書館のカードの番号",
+        "借りたい本": "借りたい本",
+        "聞きたいこと": "聞きたいこと"
       }
     },
     "cando-735": {
@@ -585,6 +893,13 @@
         "speed": "急ぐかどうか",
         "record": "記録となくなったときのお金",
         "confirm": "確認"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "送りたいもの": "送りたいもの",
+        "もうすぐあること": "もうすぐあること"
       }
     },
     "cando-746": {
@@ -597,6 +912,13 @@
         "plan": "プランの説明",
         "documents": "自分を確かめる物と払い方",
         "construction": "工事の日"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "電話番号": "電話番号",
+        "使い方": "使い方",
+        "持っているもの": "持っているもの"
       }
     },
     "cando-763": {
@@ -610,6 +932,13 @@
         "options": "つけたすもの",
         "payment": "払い方",
         "confirm": "中身の確認"
+      },
+      "info": {
+        "名前": "名前",
+        "住所": "住所",
+        "今の電話番号（乗り換え）": "今の電話番号（会社を変える）",
+        "使い方": "使い方",
+        "持っているもの": "持っているもの"
       }
     },
     "cando-767": {
@@ -623,6 +952,13 @@
         "phone": "電話してほしい番号",
         "time": "電話に出られる時間",
         "confirm": "もう一度言って確認"
+      },
+      "info": {
+        "名前": "名前",
+        "電話番号": "電話番号",
+        "話したい人": "話したい人",
+        "伝言": "伝えてほしいこと",
+        "電話がつながる時間": "電話に出ることができる時間"
       }
     }
   },
@@ -638,6 +974,12 @@
         "items": "Items to throw out",
         "date": "Pickup date",
         "fee": "Fee and how to put it out"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "出すもの": "Items to throw out"
       }
     },
     "restaurant": {
@@ -649,6 +991,12 @@
         "name": "Name",
         "phone": "Phone number",
         "seat": "Seating and other requests"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "日時": "Date and time",
+        "人数": "Number of people"
       }
     },
     "taxi": {
@@ -661,6 +1009,14 @@
         "name": "Name",
         "phone": "Phone number",
         "people": "People and luggage"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "迎えの場所": "Pickup location",
+        "日時": "Date and time",
+        "行き先": "Destination",
+        "人数・荷物": "People・Luggage"
       }
     },
     "clinic": {
@@ -673,6 +1029,12 @@
         "reason": "Reason for visit",
         "date": "Date and time",
         "bring": "What to bring"
+      },
+      "info": {
+        "名前": "Name",
+        "生年月日": "Date of birth",
+        "電話番号": "Phone number",
+        "診察理由": "Reason for visit"
       }
     },
     "cando-8": {
@@ -685,6 +1047,13 @@
         "form": "Medical questionnaire",
         "phone": "Phone number",
         "wait": "Where to wait"
+      },
+      "info": {
+        "名前": "Name",
+        "生年月日": "Date of birth",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "来た理由": "Reason for visit"
       }
     },
     "cando-77": {
@@ -698,6 +1067,13 @@
         "people": "Number of residents",
         "movein": "Move-in date",
         "other": "Other wishes, name, contact"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "希望の地域": "Preferred area",
+        "家賃・間取り": "Rent・Layout",
+        "入居予定日": "Move-in date"
       }
     },
     "cando-87": {
@@ -711,6 +1087,13 @@
         "work": "Employer and income documents",
         "contact": "Emergency contact",
         "deadline": "Document deadline and contract date"
+      },
+      "info": {
+        "名前": "Name",
+        "今の住所": "Current address",
+        "電話番号": "Phone number",
+        "借りたい部屋": "Apartment you want",
+        "勤務先": "Employer"
       }
     },
     "cando-95": {
@@ -724,6 +1107,13 @@
         "family": "Who moved with you",
         "phone": "Phone number",
         "other": "Other procedures"
+      },
+      "info": {
+        "名前": "Name",
+        "前の住所": "Previous address",
+        "新しい住所": "New address",
+        "引っ越した日": "Moving date",
+        "電話番号": "Phone number"
       }
     },
     "cando-96": {
@@ -736,6 +1126,12 @@
         "address": "Address (district)",
         "method": "How to put it out",
         "confirm": "Did you understand?"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "引っ越しの日": "Moving day",
+        "出したいもの": "Items to throw out"
       }
     },
     "cando-101": {
@@ -749,6 +1145,13 @@
         "date": "Gas start date and time",
         "appliance": "Gas appliances",
         "payment": "Payment method"
+      },
+      "info": {
+        "名前": "Name",
+        "新しい住所": "New address",
+        "電話番号": "Phone number",
+        "ガスを使い始めたい日": "Gas start date",
+        "ガスコンロ": "Gas stove"
       }
     },
     "cando-105": {
@@ -762,6 +1165,13 @@
         "detail": "What's wrong with the bill",
         "movein": "Move-in / start date",
         "phone": "Contact info"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "お客さま番号": "Customer number",
+        "請求書の内容": "Bill details"
       }
     },
     "cando-110": {
@@ -774,6 +1184,12 @@
         "size": "Size",
         "stock": "In stock?",
         "fitting": "Trying it on"
+      },
+      "info": {
+        "名前": "Name",
+        "見ている商品": "Item you're looking at",
+        "ほしい色": "Color you want",
+        "ほしいサイズ": "Size you want"
       }
     },
     "cando-121": {
@@ -787,6 +1203,13 @@
         "choice": "Exchange or refund",
         "payment": "Payment method",
         "contact": "Name and contact"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "買った商品": "Item purchased",
+        "買った日と払い方": "Purchase date and payment",
+        "不具合": "Problem"
       }
     },
     "cando-128": {
@@ -798,6 +1221,12 @@
         "seat": "Seat type",
         "child": "Child seat",
         "wait": "Waiting and name"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "Name (for the waiting list)",
+        "人数": "Number of people",
+        "席の希望": "Seating preference",
+        "子ども用のいす": "Child seat"
       }
     },
     "cando-134": {
@@ -810,6 +1239,12 @@
         "detail": "How strict",
         "change": "Suggested changes",
         "confirm": "Order check"
+      },
+      "info": {
+        "名前": "Name",
+        "人数": "Number of people",
+        "食べられないもの": "Foods you can't eat",
+        "頼みたいもの": "What you want to order"
       }
     },
     "cando-143": {
@@ -823,6 +1258,12 @@
         "shirt": "Shirt finish",
         "pickup": "Ready date",
         "payment": "Payment"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "出す服": "Clothes to drop off",
+        "取りに来られる日": "Pickup date"
       }
     },
     "cando-151": {
@@ -836,6 +1277,13 @@
         "destination": "Country and currency",
         "recipient": "Recipient and bank",
         "amount": "Amount and purpose"
+      },
+      "info": {
+        "名前": "Name",
+        "口座": "Bank account",
+        "送金先": "Recipient",
+        "金額と目的": "Amount and purpose",
+        "電話番号": "Phone number"
       }
     },
     "cando-158": {
@@ -848,6 +1296,12 @@
         "route": "Route",
         "seat": "Reserved or non-reserved",
         "payment": "Payment"
+      },
+      "info": {
+        "今いる駅": "Current station",
+        "行きたい所": "Destination",
+        "着きたい時間": "Arrival time",
+        "人数": "Number of people"
       }
     },
     "cando-161": {
@@ -860,6 +1314,13 @@
         "people": "People and luggage",
         "room": "Name and room number",
         "wait": "Where and when to wait"
+      },
+      "info": {
+        "名前": "Name",
+        "部屋番号": "Room number",
+        "行き先": "Destination",
+        "人数と荷物": "People and luggage",
+        "支払い": "Payment"
       }
     },
     "cando-187": {
@@ -873,6 +1334,13 @@
         "address": "Address change",
         "documents": "What to bring and steps",
         "fee": "Fee and office hours"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "免許証の有効期限": "License expiration date",
+        "講習区分（はがき）": "Course type (postcard)"
       }
     },
     "cando-188": {
@@ -886,6 +1354,12 @@
         "transport": "How you'll get there",
         "name": "Name and contact",
         "visit": "Info session / enrollment"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "希望": "What you want",
+        "最寄り駅": "Nearest station"
       }
     },
     "cando-191": {
@@ -899,6 +1373,12 @@
         "license": "License color",
         "driver": "Drivers",
         "start": "Coverage start date"
+      },
+      "info": {
+        "名前・生年月日": "Name・Date of birth",
+        "住所・電話番号": "Address・Phone number",
+        "車": "Car",
+        "免許証の色・運転する人": "License color・Drivers"
       }
     },
     "cando-203": {
@@ -912,6 +1392,13 @@
         "date": "Preferred date and time",
         "phone": "Phone number",
         "bring": "What to bring"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "妊娠週数": "Weeks pregnant",
+        "希望の日時": "Preferred date and time",
+        "受診": "Doctor visits"
       }
     },
     "cando-219": {
@@ -925,6 +1412,13 @@
         "stay": "Plans in Japan",
         "procedure": "Procedure, deadline, place",
         "documents": "What you need"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "子供の名前と生まれた日": "Child's name and birth date",
+        "電話番号": "Phone number",
+        "親の在留カード": "Parent's residence card"
       }
     },
     "cando-222": {
@@ -938,6 +1432,13 @@
         "date": "Preferred date and time",
         "parent": "Parent's name and phone",
         "bring": "What to bring"
+      },
+      "info": {
+        "子どもの名前": "Child's name",
+        "子どもの生年月日・月齢": "Child's birth date・Age in months",
+        "保護者の名前": "Parent's name",
+        "電話番号": "Phone number",
+        "希望の日時": "Preferred date and time"
       }
     },
     "cando-266": {
@@ -951,6 +1452,13 @@
         "work": "Why you need daycare",
         "deadline": "Deadline",
         "place": "Where to submit and forms"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "子ども": "Child",
+        "入園したい時期": "Preferred start date",
+        "仕事": "Job"
       }
     },
     "cando-295": {
@@ -963,6 +1471,13 @@
         "japanese": "Child's Japanese level",
         "support": "Type of support",
         "next": "Next steps"
+      },
+      "info": {
+        "保護者の名前": "Parent's name",
+        "子どもの名前・学年": "Child's name・Grade",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "子どもの日本語": "Child's Japanese"
       }
     },
     "cando-299": {
@@ -976,6 +1491,13 @@
         "question": "Your question",
         "explain": "Schedule and what to bring",
         "phone": "Contact info"
+      },
+      "info": {
+        "子どもの名前": "Child's name",
+        "保護者の名前": "Parent's name",
+        "電話番号": "Phone number",
+        "通知に書いてある健診の日": "Checkup date on the notice",
+        "聞きたいこと": "Questions"
       }
     },
     "cando-316": {
@@ -988,6 +1510,12 @@
         "form": "Direct debit form",
         "bank": "Debit account",
         "phone": "Contact info"
+      },
+      "info": {
+        "子供の名前・学年": "Child's name・Grade",
+        "保護者の名前": "Parent's name",
+        "電話番号": "Phone number",
+        "使いたい口座": "Bank account to use"
       }
     },
     "cando-331": {
@@ -1001,6 +1529,13 @@
         "interpreter": "Bringing an interpreter?",
         "date": "Meeting date and time",
         "phone": "Contact info"
+      },
+      "info": {
+        "自分の名前（保護者）": "Your name (parent)",
+        "子ども": "Child",
+        "担任": "Homeroom teacher",
+        "電話番号": "Phone number",
+        "通訳": "Interpreter"
       }
     },
     "cando-348": {
@@ -1014,6 +1549,13 @@
         "needs": "About your child",
         "answer": "Class and support",
         "next": "Visit and contact"
+      },
+      "info": {
+        "保護者の名前": "Parent's name",
+        "子どもの名前・年齢": "Child's name・Age",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "子どものようす": "Child's condition"
       }
     },
     "cando-356": {
@@ -1027,6 +1569,13 @@
         "search": "How to search for jobs",
         "referral": "Applying for a job",
         "report": "Reporting the result"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "在留資格": "Visa status",
+        "希望の仕事": "Job you want"
       }
     },
     "cando-380": {
@@ -1040,6 +1589,13 @@
         "jobtype": "Desired job and work style",
         "experience": "Experience and Japanese",
         "explain": "Work conditions"
+      },
+      "info": {
+        "名前": "Name",
+        "在留資格": "Visa status",
+        "働ける時間": "Available hours",
+        "希望": "What you want",
+        "経験": "Work experience"
       }
     },
     "cando-424": {
@@ -1052,6 +1608,13 @@
         "arrival": "Expected arrival time",
         "work": "Today's schedule and tasks",
         "contact": "Contact and next update"
+      },
+      "info": {
+        "名前・部署": "Name・Department",
+        "今いる場所": "Current location",
+        "着く時間の見込み": "Expected arrival time",
+        "今日の予定": "Today's schedule",
+        "携帯電話": "Mobile phone"
       }
     },
     "cando-433": {
@@ -1062,6 +1625,12 @@
         "status": "What they're doing now",
         "return": "Return time",
         "closing": "Closing words"
+      },
+      "info": {
+        "自分の名前・部署": "Your name・Department",
+        "離席中の同僚": "Coworker who is away",
+        "田中さんが戻る時間": "When Tanaka-san returns",
+        "電話をかけてきた人": "Caller"
       }
     },
     "cando-443": {
@@ -1075,6 +1644,13 @@
         "demand": "Client's request",
         "reply": "Reply to client",
         "next": "Next steps"
+      },
+      "info": {
+        "自分": "You",
+        "取引先と担当者": "Client and contact person",
+        "トラブルの内容": "The problem",
+        "先方の要望": "Client's request",
+        "自分がしたこと": "What you did"
       }
     },
     "cando-563": {
@@ -1088,6 +1664,13 @@
         "card": "Residence card",
         "school": "Child's school transfer",
         "next": "Next procedures"
+      },
+      "info": {
+        "名前": "Name",
+        "新しい住所（引っ越した日：先週の土曜日）": "New address (moved: last Saturday)",
+        "前の住所": "Previous address",
+        "家族": "Family",
+        "電話番号": "Phone number"
       }
     },
     "cando-566": {
@@ -1100,6 +1683,13 @@
         "place": "Counter location",
         "ticket": "Number ticket and waiting",
         "other": "Other business"
+      },
+      "info": {
+        "名前": "Name",
+        "新しい住所": "New address",
+        "前の住所": "Previous address",
+        "今日の用事": "Today's purpose",
+        "持っているもの": "What you have with you"
       }
     },
     "cando-569": {
@@ -1112,6 +1702,13 @@
         "copies": "Number of copies",
         "id": "ID check",
         "fee": "Fee and pickup"
+      },
+      "info": {
+        "名前": "Name",
+        "生年月日": "Date of birth",
+        "住所": "Address",
+        "必要な通数": "Number of copies",
+        "持っている物": "What you have with you"
       }
     },
     "cando-577": {
@@ -1124,6 +1721,12 @@
         "name": "Name and address check",
         "method": "Preferred payment method",
         "account": "Direct debit setup"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "持っている書類": "Documents you have",
+        "使っている金融機関": "Your bank"
       }
     },
     "cando-601": {
@@ -1137,6 +1740,13 @@
         "procedure": "Steps and what you need",
         "fee": "Fee and what you receive",
         "name": "Name and contact"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "犬": "Dog",
+        "予防注射": "Vaccination"
       }
     },
     "cando-639": {
@@ -1150,6 +1760,13 @@
         "household": "Household members",
         "payment": "How to pay premiums",
         "contact": "Contact info"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "前の会社と、やめた日": "Previous employer and last day",
+        "家族": "Family"
       }
     },
     "cando-651": {
@@ -1163,6 +1780,13 @@
         "name": "Name",
         "phone": "Phone number",
         "howto": "How to join"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "参加できる時間": "Available times",
+        "日本語のレベル・目的": "Japanese level・Goal"
       }
     },
     "cando-654": {
@@ -1175,6 +1799,13 @@
         "phone": "Phone number",
         "level": "Japanese level",
         "howknew": "How you heard about it"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "参加したい教室": "Class you want to join",
+        "教室を知った方法": "How you heard about the class"
       }
     },
     "cando-731": {
@@ -1188,6 +1819,13 @@
         "facility": "About the room",
         "food": "Food and drinks",
         "name": "Name and contact"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "グループ": "Group",
+        "使いたい日・人数": "Date・Number of people",
+        "やりたいこと": "What you want to do"
       }
     },
     "cando-732": {
@@ -1200,6 +1838,12 @@
         "duedate": "Due date",
         "return": "How to return",
         "other": "Other questions"
+      },
+      "info": {
+        "名前": "Name",
+        "利用者カードの番号": "Library card number",
+        "借りたい本": "Book you want to borrow",
+        "聞きたいこと": "Questions"
       }
     },
     "cando-735": {
@@ -1212,6 +1856,13 @@
         "speed": "Urgent or not",
         "record": "Tracking and compensation",
         "confirm": "Confirmation"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "送りたいもの": "What you want to send",
+        "もうすぐあること": "Upcoming event"
       }
     },
     "cando-746": {
@@ -1224,6 +1875,13 @@
         "plan": "Plan details",
         "documents": "ID and payment method",
         "construction": "Installation date"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "電話番号": "Phone number",
+        "使い方": "How you'll use it",
+        "持っているもの": "What you have with you"
       }
     },
     "cando-763": {
@@ -1237,6 +1895,13 @@
         "options": "Add-ons",
         "payment": "Payment method",
         "confirm": "Review details"
+      },
+      "info": {
+        "名前": "Name",
+        "住所": "Address",
+        "今の電話番号（乗り換え）": "Current phone number (switching carriers)",
+        "使い方": "How you'll use it",
+        "持っているもの": "What you have with you"
       }
     },
     "cando-767": {
@@ -1250,6 +1915,13 @@
         "phone": "Callback number",
         "time": "When you can be reached",
         "confirm": "Repeat to confirm"
+      },
+      "info": {
+        "名前": "Name",
+        "電話番号": "Phone number",
+        "話したい人": "Person you want to talk to",
+        "伝言": "Message",
+        "電話がつながる時間": "When you can take calls"
       }
     }
   },
@@ -1265,6 +1937,12 @@
         "items": "要扔的东西",
         "date": "收运日期",
         "fee": "费用和丢弃方法"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "出すもの": "要扔的东西"
       }
     },
     "restaurant": {
@@ -1276,6 +1954,12 @@
         "name": "姓名",
         "phone": "电话号码",
         "seat": "座位・其他"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "日時": "日期和时间",
+        "人数": "人数"
       }
     },
     "taxi": {
@@ -1288,6 +1972,14 @@
         "name": "姓名",
         "phone": "电话号码",
         "people": "人数・行李"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "迎えの場所": "上车地点",
+        "日時": "日期和时间",
+        "行き先": "目的地",
+        "人数・荷物": "人数・行李"
       }
     },
     "clinic": {
@@ -1300,6 +1992,12 @@
         "reason": "就诊原因",
         "date": "日期和时间",
         "bring": "携带物品"
+      },
+      "info": {
+        "名前": "姓名",
+        "生年月日": "出生日期",
+        "電話番号": "电话号码",
+        "診察理由": "就诊原因"
       }
     },
     "cando-8": {
@@ -1312,6 +2010,13 @@
         "form": "问诊表",
         "phone": "电话号码",
         "wait": "等候地点"
+      },
+      "info": {
+        "名前": "姓名",
+        "生年月日": "出生日期",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "来た理由": "来访原因"
       }
     },
     "cando-77": {
@@ -1325,6 +2030,13 @@
         "people": "居住人数",
         "movein": "入住日期",
         "other": "其他条件和姓名・联系方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "希望の地域": "想住的地区",
+        "家賃・間取り": "房租・户型",
+        "入居予定日": "预计入住日"
       }
     },
     "cando-87": {
@@ -1338,6 +2050,13 @@
         "work": "工作单位和收入证明",
         "contact": "紧急联系人",
         "deadline": "材料期限和签约日"
+      },
+      "info": {
+        "名前": "姓名",
+        "今の住所": "现住址",
+        "電話番号": "电话号码",
+        "借りたい部屋": "想租的房间",
+        "勤務先": "工作单位"
       }
     },
     "cando-95": {
@@ -1351,6 +2070,13 @@
         "family": "一起搬家的人",
         "phone": "电话号码",
         "other": "其他手续"
+      },
+      "info": {
+        "名前": "姓名",
+        "前の住所": "原住址",
+        "新しい住所": "新住址",
+        "引っ越した日": "搬家日期",
+        "電話番号": "电话号码"
       }
     },
     "cando-96": {
@@ -1363,6 +2089,12 @@
         "address": "地址（地区）",
         "method": "丢弃方法",
         "confirm": "是否明白"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "引っ越しの日": "搬家日期",
+        "出したいもの": "要扔的东西"
       }
     },
     "cando-101": {
@@ -1376,6 +2108,13 @@
         "date": "开通燃气的日期和时间",
         "appliance": "燃气器具",
         "payment": "付款方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "新しい住所": "新住址",
+        "電話番号": "电话号码",
+        "ガスを使い始めたい日": "开始用燃气的日期",
+        "ガスコンロ": "燃气灶"
       }
     },
     "cando-105": {
@@ -1389,6 +2128,13 @@
         "detail": "账单哪里不对",
         "movein": "入住日・开始使用日",
         "phone": "联系方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "お客さま番号": "客户编号",
+        "請求書の内容": "账单内容"
       }
     },
     "cando-110": {
@@ -1401,6 +2147,12 @@
         "size": "尺码",
         "stock": "有没有货",
         "fitting": "试穿"
+      },
+      "info": {
+        "名前": "姓名",
+        "見ている商品": "在看的商品",
+        "ほしい色": "想要的颜色",
+        "ほしいサイズ": "想要的尺码"
       }
     },
     "cando-121": {
@@ -1414,6 +2166,13 @@
         "choice": "换货还是退款",
         "payment": "付款方式",
         "contact": "姓名和联系方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "買った商品": "购买的商品",
+        "買った日と払い方": "购买日期和付款方式",
+        "不具合": "故障问题"
       }
     },
     "cando-128": {
@@ -1425,6 +2184,12 @@
         "seat": "座位类型",
         "child": "儿童椅",
         "wait": "是否等位和姓名"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "姓名（写在排队登记表上）",
+        "人数": "人数",
+        "席の希望": "座位要求",
+        "子ども用のいす": "儿童座椅"
       }
     },
     "cando-134": {
@@ -1437,6 +2202,12 @@
         "detail": "忌口到什么程度",
         "change": "换菜建议",
         "confirm": "确认点单"
+      },
+      "info": {
+        "名前": "姓名",
+        "人数": "人数",
+        "食べられないもの": "不能吃的东西",
+        "頼みたいもの": "想点的菜"
       }
     },
     "cando-143": {
@@ -1450,6 +2221,12 @@
         "shirt": "衬衫整烫方式",
         "pickup": "取件日期",
         "payment": "付款"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "出す服": "要送洗的衣服",
+        "取りに来られる日": "可以来取的日期"
       }
     },
     "cando-151": {
@@ -1463,6 +2240,13 @@
         "destination": "汇款国家和币种",
         "recipient": "收款人和收款银行",
         "amount": "金额和汇款目的"
+      },
+      "info": {
+        "名前": "姓名",
+        "口座": "银行账户",
+        "送金先": "收款人",
+        "金額と目的": "金额和用途",
+        "電話番号": "电话号码"
       }
     },
     "cando-158": {
@@ -1475,6 +2259,12 @@
         "route": "路线",
         "seat": "指定席还是自由席",
         "payment": "付款"
+      },
+      "info": {
+        "今いる駅": "现在所在的车站",
+        "行きたい所": "想去的地方",
+        "着きたい時間": "想到达的时间",
+        "人数": "人数"
       }
     },
     "cando-161": {
@@ -1487,6 +2277,13 @@
         "people": "人数和行李",
         "room": "姓名・房间号",
         "wait": "等候地点和时间"
+      },
+      "info": {
+        "名前": "姓名",
+        "部屋番号": "房间号",
+        "行き先": "目的地",
+        "人数と荷物": "人数和行李",
+        "支払い": "付款方式"
       }
     },
     "cando-187": {
@@ -1500,6 +2297,13 @@
         "address": "地址是否变更",
         "documents": "携带物品和流程",
         "fee": "手续费和受理时间"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "免許証の有効期限": "驾照有效期",
+        "講習区分（はがき）": "讲习类别（明信片）"
       }
     },
     "cando-188": {
@@ -1513,6 +2317,12 @@
         "transport": "交通方式",
         "name": "姓名和联系方式",
         "visit": "说明会・入学手续"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "希望": "需求",
+        "最寄り駅": "最近的车站"
       }
     },
     "cando-191": {
@@ -1526,6 +2336,12 @@
         "license": "驾照颜色",
         "driver": "驾驶人",
         "start": "保险生效日"
+      },
+      "info": {
+        "名前・生年月日": "姓名・出生日期",
+        "住所・電話番号": "地址・电话号码",
+        "車": "车辆",
+        "免許証の色・運転する人": "驾照颜色・驾驶人"
       }
     },
     "cando-203": {
@@ -1539,6 +2355,13 @@
         "date": "希望的日期和时间",
         "phone": "电话号码",
         "bring": "携带物品"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "妊娠週数": "怀孕周数",
+        "希望の日時": "希望的日期和时间",
+        "受診": "就诊情况"
       }
     },
     "cando-219": {
@@ -1552,6 +2375,13 @@
         "stay": "在日本的计划",
         "procedure": "手续・期限・地点",
         "documents": "所需材料"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "子供の名前と生まれた日": "孩子的姓名和出生日期",
+        "電話番号": "电话号码",
+        "親の在留カード": "父母的在留卡"
       }
     },
     "cando-222": {
@@ -1565,6 +2395,13 @@
         "date": "希望的日期和时间",
         "parent": "家长姓名和电话",
         "bring": "确认携带物品"
+      },
+      "info": {
+        "子どもの名前": "孩子的姓名",
+        "子どもの生年月日・月齢": "孩子的出生日期・月龄",
+        "保護者の名前": "家长姓名",
+        "電話番号": "电话号码",
+        "希望の日時": "希望的日期和时间"
       }
     },
     "cando-266": {
@@ -1578,6 +2415,13 @@
         "work": "需要保育的理由",
         "deadline": "提交期限",
         "place": "提交地点和材料"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "子ども": "孩子",
+        "入園したい時期": "希望入园时间",
+        "仕事": "工作"
       }
     },
     "cando-295": {
@@ -1590,6 +2434,13 @@
         "japanese": "孩子的日语水平",
         "support": "支援内容",
         "next": "下一步"
+      },
+      "info": {
+        "保護者の名前": "家长姓名",
+        "子どもの名前・学年": "孩子的姓名・年级",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "子どもの日本語": "孩子的日语水平"
       }
     },
     "cando-299": {
@@ -1603,6 +2454,13 @@
         "question": "想问的事",
         "explain": "当天流程和携带物品",
         "phone": "联系方式"
+      },
+      "info": {
+        "子どもの名前": "孩子的姓名",
+        "保護者の名前": "家长姓名",
+        "電話番号": "电话号码",
+        "通知に書いてある健診の日": "通知上的体检日期",
+        "聞きたいこと": "想问的事"
       }
     },
     "cando-316": {
@@ -1615,6 +2473,12 @@
         "form": "账户扣款申请表",
         "bank": "扣款账户",
         "phone": "联系方式"
+      },
+      "info": {
+        "子供の名前・学年": "孩子的姓名・年级",
+        "保護者の名前": "家长姓名",
+        "電話番号": "电话号码",
+        "使いたい口座": "想用的银行账户"
       }
     },
     "cando-331": {
@@ -1628,6 +2492,13 @@
         "interpreter": "是否有翻译陪同",
         "date": "咨询日期和时间",
         "phone": "联系方式"
+      },
+      "info": {
+        "自分の名前（保護者）": "本人姓名（家长）",
+        "子ども": "孩子",
+        "担任": "班主任",
+        "電話番号": "电话号码",
+        "通訳": "翻译"
       }
     },
     "cando-348": {
@@ -1641,6 +2512,13 @@
         "needs": "孩子的情况",
         "answer": "班级和支援情况",
         "next": "参观日期和联系方式"
+      },
+      "info": {
+        "保護者の名前": "家长姓名",
+        "子どもの名前・年齢": "孩子的姓名・年龄",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "子どものようす": "孩子的情况"
       }
     },
     "cando-356": {
@@ -1654,6 +2532,13 @@
         "search": "找工作的方法",
         "referral": "应聘手续",
         "report": "结果通知"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "在留資格": "在留资格",
+        "希望の仕事": "想做的工作"
       }
     },
     "cando-380": {
@@ -1667,6 +2552,13 @@
         "jobtype": "希望的工作和工作方式",
         "experience": "工作经验・日语",
         "explain": "工作方式说明"
+      },
+      "info": {
+        "名前": "姓名",
+        "在留資格": "在留资格",
+        "働ける時間": "可工作时间",
+        "希望": "需求",
+        "経験": "工作经验"
       }
     },
     "cando-424": {
@@ -1679,6 +2571,13 @@
         "arrival": "预计到达时间",
         "work": "今天的安排・工作",
         "contact": "联系方式和下次联系"
+      },
+      "info": {
+        "名前・部署": "姓名・部门",
+        "今いる場所": "现在的位置",
+        "着く時間の見込み": "预计到达时间",
+        "今日の予定": "今天的安排",
+        "携帯電話": "手机"
       }
     },
     "cando-433": {
@@ -1689,6 +2588,12 @@
         "status": "现在在做什么",
         "return": "回来的时间",
         "closing": "结束语"
+      },
+      "info": {
+        "自分の名前・部署": "本人姓名・部门",
+        "離席中の同僚": "不在座位的同事",
+        "田中さんが戻る時間": "田中回来的时间",
+        "電話をかけてきた人": "来电人"
       }
     },
     "cando-443": {
@@ -1702,6 +2607,13 @@
         "demand": "对方的要求",
         "reply": "给对方的答复",
         "next": "今后的处理"
+      },
+      "info": {
+        "自分": "本人",
+        "取引先と担当者": "客户公司和负责人",
+        "トラブルの内容": "问题内容",
+        "先方の要望": "对方的要求",
+        "自分がしたこと": "自己做了什么"
       }
     },
     "cando-563": {
@@ -1715,6 +2627,13 @@
         "card": "在留卡",
         "school": "孩子转学",
         "next": "之后的手续"
+      },
+      "info": {
+        "名前": "姓名",
+        "新しい住所（引っ越した日：先週の土曜日）": "新住址（搬家日期：上周六）",
+        "前の住所": "原住址",
+        "家族": "家人",
+        "電話番号": "电话号码"
       }
     },
     "cando-566": {
@@ -1727,6 +2646,13 @@
         "place": "窗口位置",
         "ticket": "号码牌和等候方法",
         "other": "其他事项"
+      },
+      "info": {
+        "名前": "姓名",
+        "新しい住所": "新住址",
+        "前の住所": "原住址",
+        "今日の用事": "今天要办的事",
+        "持っているもの": "带来的东西"
       }
     },
     "cando-569": {
@@ -1739,6 +2665,13 @@
         "copies": "需要几份",
         "id": "身份证明",
         "fee": "手续费和领取"
+      },
+      "info": {
+        "名前": "姓名",
+        "生年月日": "出生日期",
+        "住所": "地址",
+        "必要な通数": "所需份数",
+        "持っている物": "带来的东西"
       }
     },
     "cando-577": {
@@ -1751,6 +2684,12 @@
         "name": "确认姓名和地址",
         "method": "希望的缴纳方式",
         "account": "账户扣款手续"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "持っている書類": "带来的文件",
+        "使っている金融機関": "使用的银行"
       }
     },
     "cando-601": {
@@ -1764,6 +2703,13 @@
         "procedure": "流程和所需材料",
         "fee": "手续费和领取物品",
         "name": "姓名和联系方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "犬": "狗",
+        "予防注射": "预防针"
       }
     },
     "cando-639": {
@@ -1777,6 +2723,13 @@
         "household": "同住家人（户）",
         "payment": "保险费缴纳方式",
         "contact": "联系方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "前の会社と、やめた日": "原公司和离职日期",
+        "家族": "家人"
       }
     },
     "cando-651": {
@@ -1790,6 +2743,13 @@
         "name": "姓名",
         "phone": "电话号码",
         "howto": "参加方法"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "参加できる時間": "可参加的时间",
+        "日本語のレベル・目的": "日语水平・学习目的"
       }
     },
     "cando-654": {
@@ -1802,6 +2762,13 @@
         "phone": "电话号码",
         "level": "日语水平",
         "howknew": "从哪里得知教室"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "参加したい教室": "想参加的教室",
+        "教室を知った方法": "了解教室的途径"
       }
     },
     "cando-731": {
@@ -1815,6 +2782,13 @@
         "facility": "房间说明",
         "food": "饮食相关",
         "name": "姓名和联系方式"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "グループ": "团体",
+        "使いたい日・人数": "使用日期・人数",
+        "やりたいこと": "想做的事"
       }
     },
     "cando-732": {
@@ -1827,6 +2801,12 @@
         "duedate": "确认还书日期",
         "return": "还书方法",
         "other": "其他问题"
+      },
+      "info": {
+        "名前": "姓名",
+        "利用者カードの番号": "借书证号码",
+        "借りたい本": "想借的书",
+        "聞きたいこと": "想问的事"
       }
     },
     "cando-735": {
@@ -1839,6 +2819,13 @@
         "speed": "是否加急",
         "record": "记录和丢失赔偿",
         "confirm": "确认"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "送りたいもの": "要寄的东西",
+        "もうすぐあること": "即将发生的事"
       }
     },
     "cando-746": {
@@ -1851,6 +2838,13 @@
         "plan": "套餐说明",
         "documents": "身份证明和付款方式",
         "construction": "施工日期"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "電話番号": "电话号码",
+        "使い方": "使用方式",
+        "持っているもの": "带来的东西"
       }
     },
     "cando-763": {
@@ -1864,6 +2858,13 @@
         "options": "附加服务",
         "payment": "付款方式",
         "confirm": "确认内容"
+      },
+      "info": {
+        "名前": "姓名",
+        "住所": "地址",
+        "今の電話番号（乗り換え）": "现在的号码（携号转网）",
+        "使い方": "使用方式",
+        "持っているもの": "带来的东西"
       }
     },
     "cando-767": {
@@ -1877,6 +2878,13 @@
         "phone": "回电号码",
         "time": "方便接电话的时间",
         "confirm": "复述确认"
+      },
+      "info": {
+        "名前": "姓名",
+        "電話番号": "电话号码",
+        "話したい人": "想找的人",
+        "伝言": "留言",
+        "電話がつながる時間": "方便接电话的时间"
       }
     }
   },
@@ -1892,6 +2900,12 @@
         "items": "Đồ cần bỏ",
         "date": "Ngày đến thu gom",
         "fee": "Phí và cách bỏ"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "出すもの": "Đồ muốn bỏ"
       }
     },
     "restaurant": {
@@ -1903,6 +2917,12 @@
         "name": "Họ tên",
         "phone": "Số điện thoại",
         "seat": "Chỗ ngồi, yêu cầu khác"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "日時": "Ngày giờ",
+        "人数": "Số người"
       }
     },
     "taxi": {
@@ -1915,6 +2935,14 @@
         "name": "Họ tên",
         "phone": "Số điện thoại",
         "people": "Số người, hành lý"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "迎えの場所": "Nơi đón",
+        "日時": "Ngày giờ",
+        "行き先": "Nơi muốn đến",
+        "人数・荷物": "Số người・Hành lý"
       }
     },
     "clinic": {
@@ -1927,6 +2955,12 @@
         "reason": "Lý do đi khám",
         "date": "Ngày giờ",
         "bring": "Đồ cần mang"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "生年月日": "Ngày sinh",
+        "電話番号": "Số điện thoại",
+        "診察理由": "Lý do khám bệnh"
       }
     },
     "cando-8": {
@@ -1939,6 +2973,13 @@
         "form": "Phiếu khai sức khỏe (問診票)",
         "phone": "Số điện thoại",
         "wait": "Nơi chờ"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "生年月日": "Ngày sinh",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "来た理由": "Lý do đến"
       }
     },
     "cando-77": {
@@ -1952,6 +2993,13 @@
         "people": "Số người ở",
         "movein": "Ngày bắt đầu ở",
         "other": "Yêu cầu khác, tên, liên lạc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "希望の地域": "Khu vực muốn sống",
+        "家賃・間取り": "Tiền thuê・Kiểu phòng",
+        "入居予定日": "Ngày muốn vào ở"
       }
     },
     "cando-87": {
@@ -1965,6 +3013,13 @@
         "work": "Nơi làm việc, giấy tờ thu nhập",
         "contact": "Liên lạc khẩn cấp",
         "deadline": "Hạn nộp giấy tờ, ngày ký hợp đồng"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "今の住所": "Địa chỉ hiện tại",
+        "電話番号": "Số điện thoại",
+        "借りたい部屋": "Phòng muốn thuê",
+        "勤務先": "Nơi làm việc"
       }
     },
     "cando-95": {
@@ -1978,6 +3033,13 @@
         "family": "Người chuyển cùng",
         "phone": "Số điện thoại",
         "other": "Thủ tục khác"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "前の住所": "Địa chỉ cũ",
+        "新しい住所": "Địa chỉ mới",
+        "引っ越した日": "Ngày chuyển nhà",
+        "電話番号": "Số điện thoại"
       }
     },
     "cando-96": {
@@ -1990,6 +3052,12 @@
         "address": "Địa chỉ (khu vực)",
         "method": "Cách bỏ rác",
         "confirm": "Đã hiểu chưa"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "引っ越しの日": "Ngày chuyển nhà",
+        "出したいもの": "Đồ muốn bỏ"
       }
     },
     "cando-101": {
@@ -2003,6 +3071,13 @@
         "date": "Ngày giờ mở gas",
         "appliance": "Thiết bị dùng gas",
         "payment": "Cách thanh toán"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "新しい住所": "Địa chỉ mới",
+        "電話番号": "Số điện thoại",
+        "ガスを使い始めたい日": "Ngày muốn bắt đầu dùng gas",
+        "ガスコンロ": "Bếp gas"
       }
     },
     "cando-105": {
@@ -2016,6 +3091,13 @@
         "detail": "Hóa đơn sai chỗ nào",
         "movein": "Ngày vào ở, ngày bắt đầu dùng",
         "phone": "Thông tin liên lạc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "お客さま番号": "Mã khách hàng",
+        "請求書の内容": "Nội dung hóa đơn"
       }
     },
     "cando-110": {
@@ -2028,6 +3110,12 @@
         "size": "Cỡ",
         "stock": "Còn hàng không",
         "fitting": "Mặc thử"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "見ている商品": "Sản phẩm đang xem",
+        "ほしい色": "Màu muốn mua",
+        "ほしいサイズ": "Cỡ muốn mua"
       }
     },
     "cando-121": {
@@ -2041,6 +3129,13 @@
         "choice": "Đổi hàng hay hoàn tiền",
         "payment": "Cách thanh toán",
         "contact": "Tên và liên lạc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "買った商品": "Sản phẩm đã mua",
+        "買った日と払い方": "Ngày mua và cách trả tiền",
+        "不具合": "Chỗ bị hỏng"
       }
     },
     "cando-128": {
@@ -2052,6 +3147,12 @@
         "seat": "Loại chỗ ngồi",
         "child": "Ghế trẻ em",
         "wait": "Có chờ không, họ tên"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "Họ tên (ghi vào giấy chờ lượt)",
+        "人数": "Số người",
+        "席の希望": "Chỗ ngồi muốn chọn",
+        "子ども用のいす": "Ghế trẻ em"
       }
     },
     "cando-134": {
@@ -2064,6 +3165,12 @@
         "detail": "Mức độ kiêng",
         "change": "Đề xuất đổi món",
         "confirm": "Xác nhận món đã gọi"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "人数": "Số người",
+        "食べられないもの": "Món không ăn được",
+        "頼みたいもの": "Món muốn gọi"
       }
     },
     "cando-143": {
@@ -2077,6 +3184,12 @@
         "shirt": "Cách hoàn thiện áo sơ mi",
         "pickup": "Ngày lấy đồ",
         "payment": "Thanh toán"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "出す服": "Quần áo gửi giặt",
+        "取りに来られる日": "Ngày có thể đến lấy"
       }
     },
     "cando-151": {
@@ -2090,6 +3203,13 @@
         "destination": "Nước nhận và loại tiền",
         "recipient": "Người nhận và ngân hàng nhận",
         "amount": "Số tiền và mục đích gửi"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "口座": "Tài khoản ngân hàng",
+        "送金先": "Người nhận tiền",
+        "金額と目的": "Số tiền và mục đích",
+        "電話番号": "Số điện thoại"
       }
     },
     "cando-158": {
@@ -2102,6 +3222,12 @@
         "route": "Cách đi",
         "seat": "Ghế chỉ định hay ghế tự do",
         "payment": "Thanh toán"
+      },
+      "info": {
+        "今いる駅": "Ga đang ở",
+        "行きたい所": "Nơi muốn đến",
+        "着きたい時間": "Giờ muốn đến nơi",
+        "人数": "Số người"
       }
     },
     "cando-161": {
@@ -2114,6 +3240,13 @@
         "people": "Số người và hành lý",
         "room": "Họ tên, số phòng",
         "wait": "Nơi chờ và giờ chờ"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "部屋番号": "Số phòng",
+        "行き先": "Nơi muốn đến",
+        "人数と荷物": "Số người và hành lý",
+        "支払い": "Cách trả tiền"
       }
     },
     "cando-187": {
@@ -2127,6 +3260,13 @@
         "address": "Có đổi địa chỉ không",
         "documents": "Đồ mang theo và các bước",
         "fee": "Lệ phí và giờ tiếp nhận"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "免許証の有効期限": "Hạn bằng lái xe",
+        "講習区分（はがき）": "Loại khóa học (bưu thiếp)"
       }
     },
     "cando-188": {
@@ -2140,6 +3280,12 @@
         "transport": "Cách đi học",
         "name": "Tên và liên lạc",
         "visit": "Buổi giới thiệu, thủ tục nhập học"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "希望": "Điều mong muốn",
+        "最寄り駅": "Ga gần nhất"
       }
     },
     "cando-191": {
@@ -2153,6 +3299,12 @@
         "license": "Màu bằng lái",
         "driver": "Người lái xe",
         "start": "Ngày bảo hiểm bắt đầu"
+      },
+      "info": {
+        "名前・生年月日": "Họ tên・Ngày sinh",
+        "住所・電話番号": "Địa chỉ・Số điện thoại",
+        "車": "Xe ô tô",
+        "免許証の色・運転する人": "Màu bằng lái・Người lái xe"
       }
     },
     "cando-203": {
@@ -2166,6 +3318,13 @@
         "date": "Ngày giờ mong muốn",
         "phone": "Số điện thoại",
         "bring": "Đồ cần mang"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "妊娠週数": "Số tuần mang thai",
+        "希望の日時": "Ngày giờ mong muốn",
+        "受診": "Việc đi khám"
       }
     },
     "cando-219": {
@@ -2179,6 +3338,13 @@
         "stay": "Dự định ở Nhật",
         "procedure": "Thủ tục, thời hạn, nơi làm",
         "documents": "Giấy tờ cần thiết"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "子供の名前と生まれた日": "Tên và ngày sinh của con",
+        "電話番号": "Số điện thoại",
+        "親の在留カード": "Thẻ cư trú của cha mẹ"
       }
     },
     "cando-222": {
@@ -2192,6 +3358,13 @@
         "date": "Ngày giờ mong muốn",
         "parent": "Tên và SĐT phụ huynh",
         "bring": "Kiểm tra đồ cần mang"
+      },
+      "info": {
+        "子どもの名前": "Tên của con",
+        "子どもの生年月日・月齢": "Ngày sinh・Số tháng tuổi của con",
+        "保護者の名前": "Tên phụ huynh",
+        "電話番号": "Số điện thoại",
+        "希望の日時": "Ngày giờ mong muốn"
       }
     },
     "cando-266": {
@@ -2205,6 +3378,13 @@
         "work": "Lý do cần gửi trẻ",
         "deadline": "Hạn nộp",
         "place": "Nơi nộp và giấy tờ"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "子ども": "Con",
+        "入園したい時期": "Thời gian muốn vào trường",
+        "仕事": "Công việc"
       }
     },
     "cando-295": {
@@ -2217,6 +3397,13 @@
         "japanese": "Trình độ tiếng Nhật của con",
         "support": "Nội dung hỗ trợ",
         "next": "Việc làm tiếp theo"
+      },
+      "info": {
+        "保護者の名前": "Tên phụ huynh",
+        "子どもの名前・学年": "Tên・Lớp của con",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "子どもの日本語": "Tiếng Nhật của con"
       }
     },
     "cando-299": {
@@ -2230,6 +3417,13 @@
         "question": "Điều muốn hỏi",
         "explain": "Lịch trình hôm đó và đồ mang theo",
         "phone": "Thông tin liên lạc"
+      },
+      "info": {
+        "子どもの名前": "Tên của con",
+        "保護者の名前": "Tên phụ huynh",
+        "電話番号": "Số điện thoại",
+        "通知に書いてある健診の日": "Ngày khám sức khỏe ghi trong thông báo",
+        "聞きたいこと": "Điều muốn hỏi"
       }
     },
     "cando-316": {
@@ -2242,6 +3436,12 @@
         "form": "Đơn đăng ký trừ tiền tài khoản",
         "bank": "Tài khoản trừ tiền",
         "phone": "Thông tin liên lạc"
+      },
+      "info": {
+        "子供の名前・学年": "Tên・Lớp của con",
+        "保護者の名前": "Tên phụ huynh",
+        "電話番号": "Số điện thoại",
+        "使いたい口座": "Tài khoản muốn dùng"
       }
     },
     "cando-331": {
@@ -2255,6 +3455,13 @@
         "interpreter": "Có phiên dịch đi cùng không",
         "date": "Ngày giờ trao đổi",
         "phone": "Thông tin liên lạc"
+      },
+      "info": {
+        "自分の名前（保護者）": "Tên mình (phụ huynh)",
+        "子ども": "Con",
+        "担任": "Giáo viên chủ nhiệm",
+        "電話番号": "Số điện thoại",
+        "通訳": "Phiên dịch"
       }
     },
     "cando-348": {
@@ -2268,6 +3475,13 @@
         "needs": "Tình trạng của con",
         "answer": "Lớp học và hỗ trợ",
         "next": "Ngày tham quan và liên lạc"
+      },
+      "info": {
+        "保護者の名前": "Tên phụ huynh",
+        "子どもの名前・年齢": "Tên・Tuổi của con",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "子どものようす": "Tình trạng của con"
       }
     },
     "cando-356": {
@@ -2281,6 +3495,13 @@
         "search": "Cách tìm việc",
         "referral": "Thủ tục ứng tuyển",
         "report": "Báo kết quả"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "在留資格": "Tư cách lưu trú",
+        "希望の仕事": "Công việc mong muốn"
       }
     },
     "cando-380": {
@@ -2294,6 +3515,13 @@
         "jobtype": "Công việc và cách làm mong muốn",
         "experience": "Kinh nghiệm, tiếng Nhật",
         "explain": "Giải thích cách làm việc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "在留資格": "Tư cách lưu trú",
+        "働ける時間": "Thời gian có thể làm",
+        "希望": "Điều mong muốn",
+        "経験": "Kinh nghiệm"
       }
     },
     "cando-424": {
@@ -2306,6 +3534,13 @@
         "arrival": "Giờ dự kiến đến",
         "work": "Lịch và công việc hôm nay",
         "contact": "Liên lạc và lần báo tiếp"
+      },
+      "info": {
+        "名前・部署": "Họ tên・Bộ phận",
+        "今いる場所": "Nơi đang ở",
+        "着く時間の見込み": "Giờ dự kiến đến",
+        "今日の予定": "Lịch hôm nay",
+        "携帯電話": "Điện thoại di động"
       }
     },
     "cando-433": {
@@ -2316,6 +3551,12 @@
         "status": "Đang làm gì",
         "return": "Giờ quay lại",
         "closing": "Lời chào cuối"
+      },
+      "info": {
+        "自分の名前・部署": "Tên mình・Bộ phận",
+        "離席中の同僚": "Đồng nghiệp đang vắng",
+        "田中さんが戻る時間": "Giờ anh/chị Tanaka quay lại",
+        "電話をかけてきた人": "Người gọi đến"
       }
     },
     "cando-443": {
@@ -2329,6 +3570,13 @@
         "demand": "Yêu cầu của đối tác",
         "reply": "Trả lời đối tác",
         "next": "Cách xử lý tiếp theo"
+      },
+      "info": {
+        "自分": "Bản thân",
+        "取引先と担当者": "Công ty đối tác và người phụ trách",
+        "トラブルの内容": "Nội dung sự cố",
+        "先方の要望": "Yêu cầu của đối tác",
+        "自分がしたこと": "Việc mình đã làm"
       }
     },
     "cando-563": {
@@ -2342,6 +3590,13 @@
         "card": "Thẻ cư trú",
         "school": "Chuyển trường cho con",
         "next": "Thủ tục tiếp theo"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "新しい住所（引っ越した日：先週の土曜日）": "Địa chỉ mới (ngày chuyển: thứ Bảy tuần trước)",
+        "前の住所": "Địa chỉ cũ",
+        "家族": "Gia đình",
+        "電話番号": "Số điện thoại"
       }
     },
     "cando-566": {
@@ -2354,6 +3609,13 @@
         "place": "Vị trí quầy",
         "ticket": "Phiếu số và cách chờ",
         "other": "Việc khác"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "新しい住所": "Địa chỉ mới",
+        "前の住所": "Địa chỉ cũ",
+        "今日の用事": "Việc hôm nay",
+        "持っているもの": "Đồ mang theo"
       }
     },
     "cando-569": {
@@ -2366,6 +3628,13 @@
         "copies": "Cần mấy bản",
         "id": "Xác minh danh tính",
         "fee": "Lệ phí và nhận giấy"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "生年月日": "Ngày sinh",
+        "住所": "Địa chỉ",
+        "必要な通数": "Số bản cần",
+        "持っている物": "Đồ mang theo"
       }
     },
     "cando-577": {
@@ -2378,6 +3647,12 @@
         "name": "Xác nhận tên và địa chỉ",
         "method": "Cách nộp mong muốn",
         "account": "Thủ tục trừ tiền tài khoản"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "持っている書類": "Giấy tờ mang theo",
+        "使っている金融機関": "Ngân hàng đang dùng"
       }
     },
     "cando-601": {
@@ -2391,6 +3666,13 @@
         "procedure": "Các bước và đồ cần thiết",
         "fee": "Lệ phí và đồ được nhận",
         "name": "Tên và liên lạc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "犬": "Chó",
+        "予防注射": "Tiêm phòng"
       }
     },
     "cando-639": {
@@ -2404,6 +3686,13 @@
         "household": "Gia đình sống cùng",
         "payment": "Cách đóng phí bảo hiểm",
         "contact": "Thông tin liên lạc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "前の会社と、やめた日": "Công ty cũ và ngày nghỉ việc",
+        "家族": "Gia đình"
       }
     },
     "cando-651": {
@@ -2417,6 +3706,13 @@
         "name": "Họ tên",
         "phone": "Số điện thoại",
         "howto": "Cách tham gia"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "参加できる時間": "Thời gian có thể tham gia",
+        "日本語のレベル・目的": "Trình độ tiếng Nhật・Mục đích"
       }
     },
     "cando-654": {
@@ -2429,6 +3725,13 @@
         "phone": "Số điện thoại",
         "level": "Trình độ tiếng Nhật",
         "howknew": "Biết lớp qua đâu"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "参加したい教室": "Lớp muốn tham gia",
+        "教室を知った方法": "Biết lớp học qua đâu"
       }
     },
     "cando-731": {
@@ -2442,6 +3745,13 @@
         "facility": "Giới thiệu phòng",
         "food": "Ăn uống",
         "name": "Tên và liên lạc"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "グループ": "Nhóm",
+        "使いたい日・人数": "Ngày muốn dùng・Số người",
+        "やりたいこと": "Việc muốn làm"
       }
     },
     "cando-732": {
@@ -2454,6 +3764,12 @@
         "duedate": "Xác nhận hạn trả",
         "return": "Cách trả sách",
         "other": "Câu hỏi khác"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "利用者カードの番号": "Số thẻ thư viện",
+        "借りたい本": "Sách muốn mượn",
+        "聞きたいこと": "Điều muốn hỏi"
       }
     },
     "cando-735": {
@@ -2466,6 +3782,13 @@
         "speed": "Có gấp không",
         "record": "Theo dõi và bồi thường",
         "confirm": "Xác nhận"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "送りたいもの": "Đồ muốn gửi",
+        "もうすぐあること": "Sự kiện sắp tới"
       }
     },
     "cando-746": {
@@ -2478,6 +3801,13 @@
         "plan": "Giới thiệu gói cước",
         "documents": "Giấy tờ tùy thân và cách thanh toán",
         "construction": "Ngày lắp đặt"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "電話番号": "Số điện thoại",
+        "使い方": "Cách dùng",
+        "持っているもの": "Đồ mang theo"
       }
     },
     "cando-763": {
@@ -2491,6 +3821,13 @@
         "options": "Dịch vụ thêm",
         "payment": "Cách thanh toán",
         "confirm": "Xác nhận nội dung"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "住所": "Địa chỉ",
+        "今の電話番号（乗り換え）": "Số điện thoại hiện tại (đổi nhà mạng)",
+        "使い方": "Cách dùng",
+        "持っているもの": "Đồ mang theo"
       }
     },
     "cando-767": {
@@ -2504,6 +3841,13 @@
         "phone": "Số để gọi lại",
         "time": "Giờ có thể nghe máy",
         "confirm": "Nhắc lại để xác nhận"
+      },
+      "info": {
+        "名前": "Họ tên",
+        "電話番号": "Số điện thoại",
+        "話したい人": "Người muốn nói chuyện",
+        "伝言": "Lời nhắn",
+        "電話がつながる時間": "Giờ có thể nghe máy"
       }
     }
   },
@@ -2519,6 +3863,12 @@
         "items": "Mga itatapon",
         "date": "Araw ng pagkuha",
         "fee": "Bayad at paraan ng pagtapon"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "出すもの": "Itatapon"
       }
     },
     "restaurant": {
@@ -2530,6 +3880,12 @@
         "name": "Pangalan",
         "phone": "Numero ng telepono",
         "seat": "Upuan at iba pa"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "日時": "Petsa at oras",
+        "人数": "Ilang tao"
       }
     },
     "taxi": {
@@ -2542,6 +3898,14 @@
         "name": "Pangalan",
         "phone": "Numero ng telepono",
         "people": "Ilang tao at bagahe"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "迎えの場所": "Lugar ng sundo",
+        "日時": "Petsa at oras",
+        "行き先": "Pupuntahan",
+        "人数・荷物": "Ilang tao・Bagahe"
       }
     },
     "clinic": {
@@ -2554,6 +3918,12 @@
         "reason": "Dahilan ng pagpunta",
         "date": "Petsa at oras",
         "bring": "Mga dadalhin"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "生年月日": "Petsa ng kapanganakan",
+        "電話番号": "Numero ng telepono",
+        "診察理由": "Dahilan ng pagpapatingin"
       }
     },
     "cando-8": {
@@ -2566,6 +3936,13 @@
         "form": "Health form (問診票)",
         "phone": "Numero ng telepono",
         "wait": "Lugar ng paghihintay"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "生年月日": "Petsa ng kapanganakan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "来た理由": "Dahilan ng pagpunta"
       }
     },
     "cando-77": {
@@ -2579,6 +3956,13 @@
         "people": "Ilang titira",
         "movein": "Araw ng paglipat",
         "other": "Ibang gusto, pangalan at contact"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "希望の地域": "Gustong lugar na tirhan",
+        "家賃・間取り": "Upa・Ayos ng kuwarto",
+        "入居予定日": "Petsa ng paglipat"
       }
     },
     "cando-87": {
@@ -2592,6 +3976,13 @@
         "work": "Trabaho at papeles ng sahod",
         "contact": "Emergency contact",
         "deadline": "Deadline ng papeles at araw ng kontrata"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "今の住所": "Kasalukuyang address",
+        "電話番号": "Numero ng telepono",
+        "借りたい部屋": "Gustong upahang kuwarto",
+        "勤務先": "Pinagtatrabahuhan"
       }
     },
     "cando-95": {
@@ -2605,6 +3996,13 @@
         "family": "Mga kasamang lumipat",
         "phone": "Numero ng telepono",
         "other": "Ibang proseso"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "前の住所": "Dating address",
+        "新しい住所": "Bagong address",
+        "引っ越した日": "Petsa ng paglipat",
+        "電話番号": "Numero ng telepono"
       }
     },
     "cando-96": {
@@ -2617,6 +4015,12 @@
         "address": "Address (lugar)",
         "method": "Paraan ng pagtapon",
         "confirm": "Naintindihan ba"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "引っ越しの日": "Araw ng paglipat",
+        "出したいもの": "Gustong itapon"
       }
     },
     "cando-101": {
@@ -2630,6 +4034,13 @@
         "date": "Petsa at oras ng pagbukas ng gas",
         "appliance": "Gamit na de-gas",
         "payment": "Paraan ng pagbayad"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "新しい住所": "Bagong address",
+        "電話番号": "Numero ng telepono",
+        "ガスを使い始めたい日": "Petsa ng simula ng gas",
+        "ガスコンロ": "Gas stove"
       }
     },
     "cando-105": {
@@ -2643,6 +4054,13 @@
         "detail": "Mali sa bill",
         "movein": "Araw ng paglipat / simula ng paggamit",
         "phone": "Contact"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "お客さま番号": "Customer number",
+        "請求書の内容": "Nakasulat sa bill"
       }
     },
     "cando-110": {
@@ -2655,6 +4073,12 @@
         "size": "Size",
         "stock": "May stock ba",
         "fitting": "Pagsukat"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "見ている商品": "Tinitingnang item",
+        "ほしい色": "Gustong kulay",
+        "ほしいサイズ": "Gustong size"
       }
     },
     "cando-121": {
@@ -2668,6 +4092,13 @@
         "choice": "Palit o refund",
         "payment": "Paraan ng pagbayad",
         "contact": "Pangalan at contact"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "買った商品": "Binili",
+        "買った日と払い方": "Petsa ng bili at paraan ng bayad",
+        "不具合": "Sira o problema"
       }
     },
     "cando-128": {
@@ -2679,6 +4110,12 @@
         "seat": "Uri ng upuan",
         "child": "Upuang pambata",
         "wait": "Maghihintay ba at pangalan"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "Pangalan (isulat sa listahan ng naghihintay)",
+        "人数": "Ilang tao",
+        "席の希望": "Gustong upuan",
+        "子ども用のいす": "Upuan ng bata"
       }
     },
     "cando-134": {
@@ -2691,6 +4128,12 @@
         "detail": "Gaano kahigpit",
         "change": "Mungkahing pagpalit",
         "confirm": "Pag-check ng order"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "人数": "Ilang tao",
+        "食べられないもの": "Hindi makakain",
+        "頼みたいもの": "Gustong i-order"
       }
     },
     "cando-143": {
@@ -2704,6 +4147,12 @@
         "shirt": "Tapos ng polo",
         "pickup": "Araw na tapos na",
         "payment": "Bayad"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "出す服": "Damit na ipapalaba",
+        "取りに来られる日": "Araw na makakakuha"
       }
     },
     "cando-151": {
@@ -2717,6 +4166,13 @@
         "destination": "Bansa at currency",
         "recipient": "Tatanggap at bangko",
         "amount": "Halaga at dahilan"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "口座": "Bank account",
+        "送金先": "Padadalhan ng pera",
+        "金額と目的": "Halaga・Layunin",
+        "電話番号": "Numero ng telepono"
       }
     },
     "cando-158": {
@@ -2729,6 +4185,12 @@
         "route": "Paano pumunta",
         "seat": "Reserved o non-reserved",
         "payment": "Bayad"
+      },
+      "info": {
+        "今いる駅": "Istasyon ngayon",
+        "行きたい所": "Gustong puntahan",
+        "着きたい時間": "Oras ng gustong pagdating",
+        "人数": "Ilang tao"
       }
     },
     "cando-161": {
@@ -2741,6 +4203,13 @@
         "people": "Ilang tao at bagahe",
         "room": "Pangalan at room number",
         "wait": "Lugar at oras ng paghihintay"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "部屋番号": "Numero ng kuwarto",
+        "行き先": "Pupuntahan",
+        "人数と荷物": "Ilang tao at bagahe",
+        "支払い": "Paraan ng bayad"
       }
     },
     "cando-187": {
@@ -2754,6 +4223,13 @@
         "address": "Nagbago ba ang address",
         "documents": "Dadalhin at proseso",
         "fee": "Bayad at oras ng pagtanggap"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "免許証の有効期限": "Expiration ng lisensya",
+        "講習区分（はがき）": "Uri ng seminar (postcard)"
       }
     },
     "cando-188": {
@@ -2767,6 +4243,12 @@
         "transport": "Paraan ng pagpunta",
         "name": "Pangalan at contact",
         "visit": "Orientation at enrollment"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "希望": "Gustong gawin",
+        "最寄り駅": "Pinakamalapit na istasyon"
       }
     },
     "cando-191": {
@@ -2780,6 +4262,12 @@
         "license": "Kulay ng lisensya",
         "driver": "Magmamaneho",
         "start": "Simula ng insurance"
+      },
+      "info": {
+        "名前・生年月日": "Pangalan・Petsa ng kapanganakan",
+        "住所・電話番号": "Address・Numero ng telepono",
+        "車": "Sasakyan",
+        "免許証の色・運転する人": "Kulay ng lisensya・Magmamaneho"
       }
     },
     "cando-203": {
@@ -2793,6 +4281,13 @@
         "date": "Gustong petsa at oras",
         "phone": "Numero ng telepono",
         "bring": "Mga dadalhin"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "妊娠週数": "Ilang linggong buntis",
+        "希望の日時": "Gustong petsa at oras",
+        "受診": "Pagpapatingin sa ospital"
       }
     },
     "cando-219": {
@@ -2806,6 +4301,13 @@
         "stay": "Plano sa Japan",
         "procedure": "Proseso, deadline, lugar",
         "documents": "Kailangan"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "子供の名前と生まれた日": "Pangalan at kaarawan ng anak",
+        "電話番号": "Numero ng telepono",
+        "親の在留カード": "Residence card ng magulang"
       }
     },
     "cando-222": {
@@ -2819,6 +4321,13 @@
         "date": "Gustong petsa at oras",
         "parent": "Pangalan at telepono ng magulang",
         "bring": "Pag-check ng dadalhin"
+      },
+      "info": {
+        "子どもの名前": "Pangalan ng anak",
+        "子どもの生年月日・月齢": "Kaarawan・Ilang buwan ang anak",
+        "保護者の名前": "Pangalan ng magulang",
+        "電話番号": "Numero ng telepono",
+        "希望の日時": "Gustong petsa at oras"
       }
     },
     "cando-266": {
@@ -2832,6 +4341,13 @@
         "work": "Dahilan ng daycare",
         "deadline": "Deadline",
         "place": "Saan ipapasa at papeles"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "子ども": "Anak",
+        "入園したい時期": "Kailan gustong pumasok",
+        "仕事": "Trabaho"
       }
     },
     "cando-295": {
@@ -2844,6 +4360,13 @@
         "japanese": "Japanese ng bata",
         "support": "Uri ng tulong",
         "next": "Susunod na gagawin"
+      },
+      "info": {
+        "保護者の名前": "Pangalan ng magulang",
+        "子どもの名前・学年": "Pangalan・Grade ng anak",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "子どもの日本語": "Japanese ng anak"
       }
     },
     "cando-299": {
@@ -2857,6 +4380,13 @@
         "question": "Gustong itanong",
         "explain": "Gagawin sa araw at dadalhin",
         "phone": "Contact"
+      },
+      "info": {
+        "子どもの名前": "Pangalan ng anak",
+        "保護者の名前": "Pangalan ng magulang",
+        "電話番号": "Numero ng telepono",
+        "通知に書いてある健診の日": "Araw ng checkup sa abiso",
+        "聞きたいこと": "Gustong itanong"
       }
     },
     "cando-316": {
@@ -2869,6 +4399,12 @@
         "form": "Form ng auto-debit",
         "bank": "Account na kakaltasan",
         "phone": "Contact"
+      },
+      "info": {
+        "子供の名前・学年": "Pangalan・Grade ng anak",
+        "保護者の名前": "Pangalan ng magulang",
+        "電話番号": "Numero ng telepono",
+        "使いたい口座": "Gustong gamiting bank account"
       }
     },
     "cando-331": {
@@ -2882,6 +4418,13 @@
         "interpreter": "May kasamang interpreter ba",
         "date": "Petsa at oras ng konsulta",
         "phone": "Contact"
+      },
+      "info": {
+        "自分の名前（保護者）": "Sariling pangalan (magulang)",
+        "子ども": "Anak",
+        "担任": "Guro ng klase",
+        "電話番号": "Numero ng telepono",
+        "通訳": "Interpreter"
       }
     },
     "cando-348": {
@@ -2895,6 +4438,13 @@
         "needs": "Kalagayan ng bata",
         "answer": "Klase at uri ng tulong",
         "next": "Pagbisita at contact"
+      },
+      "info": {
+        "保護者の名前": "Pangalan ng magulang",
+        "子どもの名前・年齢": "Pangalan・Edad ng anak",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "子どものようす": "Kalagayan ng anak"
       }
     },
     "cando-356": {
@@ -2908,6 +4458,13 @@
         "search": "Paano maghanap ng trabaho",
         "referral": "Proseso ng pag-apply",
         "report": "Pag-ulat ng resulta"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "在留資格": "Status of residence",
+        "希望の仕事": "Gustong trabaho"
       }
     },
     "cando-380": {
@@ -2921,6 +4478,13 @@
         "jobtype": "Gustong trabaho at schedule",
         "experience": "Karanasan at Japanese",
         "explain": "Paliwanag sa trabaho"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "在留資格": "Status of residence",
+        "働ける時間": "Oras na makakapagtrabaho",
+        "希望": "Gustong gawin",
+        "経験": "Dating trabaho"
       }
     },
     "cando-424": {
@@ -2933,6 +4497,13 @@
         "arrival": "Inaasahang pagdating",
         "work": "Schedule at trabaho ngayon",
         "contact": "Contact at susunod na tawag"
+      },
+      "info": {
+        "名前・部署": "Pangalan・Departamento",
+        "今いる場所": "Kinaroroonan ngayon",
+        "着く時間の見込み": "Tantiyang oras ng pagdating",
+        "今日の予定": "Iskedyul ngayong araw",
+        "携帯電話": "Cellphone"
       }
     },
     "cando-433": {
@@ -2943,6 +4514,12 @@
         "status": "Ano ang ginagawa niya",
         "return": "Oras ng pagbalik",
         "closing": "Huling bati"
+      },
+      "info": {
+        "自分の名前・部署": "Sariling pangalan・Departamento",
+        "離席中の同僚": "Katrabahong wala sa puwesto",
+        "田中さんが戻る時間": "Oras ng pagbalik ni Tanaka-san",
+        "電話をかけてきた人": "Tumawag"
       }
     },
     "cando-443": {
@@ -2956,6 +4533,13 @@
         "demand": "Hiling ng kliyente",
         "reply": "Sagot sa kliyente",
         "next": "Susunod na hakbang"
+      },
+      "info": {
+        "自分": "Sarili",
+        "取引先と担当者": "Kliyenteng kumpanya at kausap",
+        "トラブルの内容": "Problema",
+        "先方の要望": "Hiling ng kabila",
+        "自分がしたこと": "Ginawa ko"
       }
     },
     "cando-563": {
@@ -2969,6 +4553,13 @@
         "card": "Residence card",
         "school": "Paglipat ng paaralan ng bata",
         "next": "Susunod na proseso"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "新しい住所（引っ越した日：先週の土曜日）": "Bagong address (lumipat: noong Sabado)",
+        "前の住所": "Dating address",
+        "家族": "Pamilya",
+        "電話番号": "Numero ng telepono"
       }
     },
     "cando-566": {
@@ -2981,6 +4572,13 @@
         "place": "Lugar ng counter",
         "ticket": "Number ticket at paghihintay",
         "other": "Ibang pakay"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "新しい住所": "Bagong address",
+        "前の住所": "Dating address",
+        "今日の用事": "Pakay ngayon",
+        "持っているもの": "Dala"
       }
     },
     "cando-569": {
@@ -2993,6 +4591,13 @@
         "copies": "Ilang kopya",
         "id": "ID",
         "fee": "Bayad at pagkuha"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "生年月日": "Petsa ng kapanganakan",
+        "住所": "Address",
+        "必要な通数": "Ilang kopya",
+        "持っている物": "Dala"
       }
     },
     "cando-577": {
@@ -3005,6 +4610,12 @@
         "name": "Pag-check ng pangalan at address",
         "method": "Gustong paraan ng pagbayad",
         "account": "Proseso ng auto-debit"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "持っている書類": "Dalang dokumento",
+        "使っている金融機関": "Gamit na bangko"
       }
     },
     "cando-601": {
@@ -3018,6 +4629,13 @@
         "procedure": "Proseso at kailangan",
         "fee": "Bayad at matatanggap",
         "name": "Pangalan at contact"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "犬": "Aso",
+        "予防注射": "Bakuna"
       }
     },
     "cando-639": {
@@ -3031,6 +4649,13 @@
         "household": "Kasamang pamilya sa bahay",
         "payment": "Paraan ng pagbayad ng insurance",
         "contact": "Contact"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "前の会社と、やめた日": "Dating kumpanya at petsa ng pag-alis",
+        "家族": "Pamilya"
       }
     },
     "cando-651": {
@@ -3044,6 +4669,13 @@
         "name": "Pangalan",
         "phone": "Numero ng telepono",
         "howto": "Paano sumali"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "参加できる時間": "Oras na makakadalo",
+        "日本語のレベル・目的": "Antas sa Japanese・Dahilan ng pag-aaral"
       }
     },
     "cando-654": {
@@ -3056,6 +4688,13 @@
         "phone": "Numero ng telepono",
         "level": "Level sa Japanese",
         "howknew": "Paano nalaman ang klase"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "参加したい教室": "Gustong klase",
+        "教室を知った方法": "Paano nalaman ang klase"
       }
     },
     "cando-731": {
@@ -3069,6 +4708,13 @@
         "facility": "Paliwanag sa kuwarto",
         "food": "Pagkain at inumin",
         "name": "Pangalan at contact"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "グループ": "Grupo",
+        "使いたい日・人数": "Gustong petsa・Ilang tao",
+        "やりたいこと": "Gustong gawin"
       }
     },
     "cando-732": {
@@ -3081,6 +4727,12 @@
         "duedate": "Pag-check ng due date",
         "return": "Paraan ng pagsauli",
         "other": "Ibang tanong"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "利用者カードの番号": "Numero ng library card",
+        "借りたい本": "Gustong hiraming libro",
+        "聞きたいこと": "Gustong itanong"
       }
     },
     "cando-735": {
@@ -3093,6 +4745,13 @@
         "speed": "Madalian ba",
         "record": "Tracking at bayad-pinsala",
         "confirm": "Pag-check"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "送りたいもの": "Gustong ipadala",
+        "もうすぐあること": "Malapit nang mangyari"
       }
     },
     "cando-746": {
@@ -3105,6 +4764,13 @@
         "plan": "Paliwanag sa plan",
         "documents": "ID at paraan ng pagbayad",
         "construction": "Araw ng installation"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "電話番号": "Numero ng telepono",
+        "使い方": "Paggamit",
+        "持っているもの": "Dala"
       }
     },
     "cando-763": {
@@ -3118,6 +4784,13 @@
         "options": "Mga option",
         "payment": "Paraan ng pagbayad",
         "confirm": "Pag-check ng detalye"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "住所": "Address",
+        "今の電話番号（乗り換え）": "Kasalukuyang numero (lilipat ng kumpanya)",
+        "使い方": "Paggamit",
+        "持っているもの": "Dala"
       }
     },
     "cando-767": {
@@ -3131,6 +4804,13 @@
         "phone": "Numerong tatawagan pabalik",
         "time": "Oras na puwedeng tawagan",
         "confirm": "Pag-ulit para i-check"
+      },
+      "info": {
+        "名前": "Pangalan",
+        "電話番号": "Numero ng telepono",
+        "話したい人": "Gustong makausap",
+        "伝言": "Mensahe",
+        "電話がつながる時間": "Oras na makakasagot sa tawag"
       }
     }
   },
@@ -3146,6 +4826,12 @@
         "items": "फाल्ने सामान",
         "date": "लिन आउने दिन",
         "fee": "शुल्क र फाल्ने तरिका"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "出すもの": "फाल्ने सामान"
       }
     },
     "restaurant": {
@@ -3157,6 +4843,12 @@
         "name": "नाम",
         "phone": "फोन नम्बर",
         "seat": "सिट र अन्य"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "日時": "मिति र समय",
+        "人数": "मानिस संख्या"
       }
     },
     "taxi": {
@@ -3169,6 +4861,14 @@
         "name": "नाम",
         "phone": "फोन नम्बर",
         "people": "मानिस संख्या र सामान"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "迎えの場所": "लिन आउने ठाउँ",
+        "日時": "मिति र समय",
+        "行き先": "जाने ठाउँ",
+        "人数・荷物": "मानिस संख्या・सामान"
       }
     },
     "clinic": {
@@ -3181,6 +4881,12 @@
         "reason": "जानुको कारण",
         "date": "मिति र समय",
         "bring": "लैजाने सामान"
+      },
+      "info": {
+        "名前": "नाम",
+        "生年月日": "जन्म मिति",
+        "電話番号": "फोन नम्बर",
+        "診察理由": "अस्पताल जाने कारण"
       }
     },
     "cando-8": {
@@ -3193,6 +4899,13 @@
         "form": "स्वास्थ्य प्रश्नावली (問診票)",
         "phone": "फोन नम्बर",
         "wait": "पर्खने ठाउँ"
+      },
+      "info": {
+        "名前": "नाम",
+        "生年月日": "जन्म मिति",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "来た理由": "आउनुको कारण"
       }
     },
     "cando-77": {
@@ -3206,6 +4919,13 @@
         "people": "बस्ने मानिस संख्या",
         "movein": "बस्न सुरु गर्ने दिन",
         "other": "अन्य इच्छा, नाम र सम्पर्क"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "希望の地域": "बस्न चाहेको ठाउँ",
+        "家賃・間取り": "भाडा・कोठाको बनावट",
+        "入居予定日": "बस्न सुरु गर्ने मिति"
       }
     },
     "cando-87": {
@@ -3219,6 +4939,13 @@
         "work": "काम गर्ने कम्पनी र आम्दानीको कागज",
         "contact": "आपतकालीन सम्पर्क",
         "deadline": "कागज बुझाउने दिन र सम्झौताको दिन"
+      },
+      "info": {
+        "名前": "नाम",
+        "今の住所": "हालको ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "借りたい部屋": "भाडामा लिन चाहेको कोठा",
+        "勤務先": "काम गर्ने कम्पनी"
       }
     },
     "cando-95": {
@@ -3232,6 +4959,13 @@
         "family": "सँगै सरेका मानिस",
         "phone": "फोन नम्बर",
         "other": "अन्य प्रक्रिया"
+      },
+      "info": {
+        "名前": "नाम",
+        "前の住所": "पुरानो ठेगाना",
+        "新しい住所": "नयाँ ठेगाना",
+        "引っ越した日": "सरेको मिति",
+        "電話番号": "फोन नम्बर"
       }
     },
     "cando-96": {
@@ -3244,6 +4978,12 @@
         "address": "ठेगाना (क्षेत्र)",
         "method": "फाल्ने तरिका",
         "confirm": "बुझियो कि बुझिएन"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "引っ越しの日": "सर्ने मिति",
+        "出したいもの": "फाल्न चाहेको सामान"
       }
     },
     "cando-101": {
@@ -3257,6 +4997,13 @@
         "date": "ग्यास सुरु गर्ने दिन र समय",
         "appliance": "ग्यासका उपकरण",
         "payment": "भुक्तानी तरिका"
+      },
+      "info": {
+        "名前": "नाम",
+        "新しい住所": "नयाँ ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "ガスを使い始めたい日": "ग्यास सुरु गर्न चाहेको मिति",
+        "ガスコンロ": "ग्यास चुलो"
       }
     },
     "cando-105": {
@@ -3270,6 +5017,13 @@
         "detail": "बिलमा के फरक छ",
         "movein": "बस्न/प्रयोग सुरु गरेको दिन",
         "phone": "सम्पर्क"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "お客さま番号": "ग्राहक नम्बर",
+        "請求書の内容": "बिलमा लेखिएको कुरा"
       }
     },
     "cando-110": {
@@ -3282,6 +5036,12 @@
         "size": "साइज",
         "stock": "पसलमा छ कि छैन",
         "fitting": "लगाएर हेर्ने"
+      },
+      "info": {
+        "名前": "नाम",
+        "見ている商品": "हेरिरहेको सामान",
+        "ほしい色": "चाहेको रङ",
+        "ほしいサイズ": "चाहेको साइज"
       }
     },
     "cando-121": {
@@ -3295,6 +5055,13 @@
         "choice": "साट्ने कि पैसा फिर्ता",
         "payment": "भुक्तानी तरिका",
         "contact": "नाम र सम्पर्क"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "買った商品": "किनेको सामान",
+        "買った日と払い方": "किनेको मिति र तिरेको तरिका",
+        "不具合": "समस्या"
       }
     },
     "cando-128": {
@@ -3306,6 +5073,12 @@
         "seat": "सिटको प्रकार",
         "child": "बच्चाको कुर्सी",
         "wait": "पर्खने कि नपर्खने र नाम"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "नाम (पालो पर्खने कागजमा लेख्ने)",
+        "人数": "मानिस संख्या",
+        "席の希望": "बस्न चाहेको सिट",
+        "子ども用のいす": "बच्चाको कुर्सी"
       }
     },
     "cando-134": {
@@ -3318,6 +5091,12 @@
         "detail": "कतिसम्म खान हुँदैन",
         "change": "खाना परिवर्तनको कुरा",
         "confirm": "अर्डरको पुष्टि"
+      },
+      "info": {
+        "名前": "नाम",
+        "人数": "मानिस संख्या",
+        "食べられないもの": "खान नमिल्ने कुरा",
+        "頼みたいもの": "अर्डर गर्न चाहेको कुरा"
       }
     },
     "cando-143": {
@@ -3331,6 +5110,12 @@
         "shirt": "सर्टको फिनिसिङ",
         "pickup": "तयार हुने दिन",
         "payment": "भुक्तानी"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "出す服": "दिने लुगा",
+        "取りに来られる日": "लिन आउन सक्ने मिति"
       }
     },
     "cando-151": {
@@ -3344,6 +5129,13 @@
         "destination": "पैसा पठाउने देश र मुद्रा",
         "recipient": "पाउने व्यक्ति र बैंक",
         "amount": "रकम र कारण"
+      },
+      "info": {
+        "名前": "नाम",
+        "口座": "बैंक खाता",
+        "送金先": "पैसा पठाउने व्यक्ति",
+        "金額と目的": "रकम र उद्देश्य",
+        "電話番号": "फोन नम्बर"
       }
     },
     "cando-158": {
@@ -3356,6 +5148,12 @@
         "route": "जाने बाटो",
         "seat": "आरक्षित वा खुला सिट",
         "payment": "भुक्तानी"
+      },
+      "info": {
+        "今いる駅": "अहिले भएको स्टेसन",
+        "行きたい所": "जान चाहेको ठाउँ",
+        "着きたい時間": "पुग्न चाहेको समय",
+        "人数": "मानिस संख्या"
       }
     },
     "cando-161": {
@@ -3368,6 +5166,13 @@
         "people": "मानिस संख्या र सामान",
         "room": "नाम र कोठा नम्बर",
         "wait": "पर्खने ठाउँ र समय"
+      },
+      "info": {
+        "名前": "नाम",
+        "部屋番号": "कोठा नम्बर",
+        "行き先": "जाने ठाउँ",
+        "人数と荷物": "मानिस संख्या र सामान",
+        "支払い": "तिर्ने तरिका"
       }
     },
     "cando-187": {
@@ -3381,6 +5186,13 @@
         "address": "ठेगाना फेरियो कि",
         "documents": "लैजाने सामान र प्रक्रिया",
         "fee": "शुल्क र काउन्टर समय"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "免許証の有効期限": "लाइसेन्सको म्याद",
+        "講習区分（はがき）": "तालिमको प्रकार (पोस्टकार्ड)"
       }
     },
     "cando-188": {
@@ -3394,6 +5206,12 @@
         "transport": "जाने तरिका",
         "name": "नाम र सम्पर्क",
         "visit": "जानकारी सभा र भर्ना प्रक्रिया"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "希望": "गर्न चाहेको कुरा",
+        "最寄り駅": "नजिकको स्टेसन"
       }
     },
     "cando-191": {
@@ -3407,6 +5225,12 @@
         "license": "लाइसेन्सको रङ",
         "driver": "चलाउने व्यक्ति",
         "start": "बीमा सुरु हुने दिन"
+      },
+      "info": {
+        "名前・生年月日": "नाम・जन्म मिति",
+        "住所・電話番号": "ठेगाना・फोन नम्बर",
+        "車": "गाडी",
+        "免許証の色・運転する人": "लाइसेन्सको रङ・चलाउने व्यक्ति"
       }
     },
     "cando-203": {
@@ -3420,6 +5244,13 @@
         "date": "जान चाहेको दिन र समय",
         "phone": "फोन नम्बर",
         "bring": "लैजाने सामान"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "妊娠週数": "गर्भको हप्ता",
+        "希望の日時": "जान चाहेको मिति र समय",
+        "受診": "अस्पताल गएको कुरा"
       }
     },
     "cando-219": {
@@ -3433,6 +5264,13 @@
         "stay": "जापानमा बस्ने योजना",
         "procedure": "प्रक्रिया, म्याद, ठाउँ",
         "documents": "चाहिने कुरा"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "子供の名前と生まれた日": "बच्चाको नाम र जन्म मिति",
+        "電話番号": "फोन नम्बर",
+        "親の在留カード": "अभिभावकको在留カード (बसोबास कार्ड)"
       }
     },
     "cando-222": {
@@ -3446,6 +5284,13 @@
         "date": "जान चाहेको दिन र समय",
         "parent": "अभिभावकको नाम र फोन नम्बर",
         "bring": "लैजाने सामानको पुष्टि"
+      },
+      "info": {
+        "子どもの名前": "बच्चाको नाम",
+        "子どもの生年月日・月齢": "बच्चाको जन्म मिति・कति महिना",
+        "保護者の名前": "अभिभावकको नाम",
+        "電話番号": "फोन नम्बर",
+        "希望の日時": "जान चाहेको मिति र समय"
       }
     },
     "cando-266": {
@@ -3459,6 +5304,13 @@
         "work": "शिशु स्याहार केन्द्र चाहिने कारण",
         "deadline": "बुझाउने म्याद",
         "place": "बुझाउने ठाउँ र कागज"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "子ども": "बच्चा",
+        "入園したい時期": "भर्ना हुन चाहेको समय",
+        "仕事": "काम"
       }
     },
     "cando-295": {
@@ -3471,6 +5323,13 @@
         "japanese": "बच्चाको जापानी भाषा क्षमता",
         "support": "कस्तो सहयोग",
         "next": "अब गर्ने काम"
+      },
+      "info": {
+        "保護者の名前": "अभिभावकको नाम",
+        "子どもの名前・学年": "बच्चाको नाम・कक्षा",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "子どもの日本語": "बच्चाको जापानी भाषा"
       }
     },
     "cando-299": {
@@ -3484,6 +5343,13 @@
         "question": "सोध्न चाहेको कुरा",
         "explain": "त्यो दिनको काम र सामान",
         "phone": "सम्पर्क"
+      },
+      "info": {
+        "子どもの名前": "बच्चाको नाम",
+        "保護者の名前": "अभिभावकको नाम",
+        "電話番号": "फोन नम्बर",
+        "通知に書いてある健診の日": "सूचनामा लेखिएको स्वास्थ्य जाँच मिति",
+        "聞きたいこと": "सोध्न चाहेको कुरा"
       }
     },
     "cando-316": {
@@ -3496,6 +5362,12 @@
         "form": "खाताबाट भुक्तानीको फारम",
         "bank": "पैसा काटिने खाता",
         "phone": "सम्पर्क"
+      },
+      "info": {
+        "子供の名前・学年": "बच्चाको नाम・कक्षा",
+        "保護者の名前": "अभिभावकको नाम",
+        "電話番号": "फोन नम्बर",
+        "使いたい口座": "प्रयोग गर्न चाहेको बैंक खाता"
       }
     },
     "cando-331": {
@@ -3509,6 +5381,13 @@
         "interpreter": "दोभाषे सँगै आउने कि",
         "date": "सल्लाहको दिन र समय",
         "phone": "सम्पर्क"
+      },
+      "info": {
+        "自分の名前（保護者）": "आफ्नो नाम (अभिभावक)",
+        "子ども": "बच्चा",
+        "担任": "कक्षा शिक्षक",
+        "電話番号": "फोन नम्बर",
+        "通訳": "दोभाषे"
       }
     },
     "cando-348": {
@@ -3522,6 +5401,13 @@
         "needs": "बच्चाको अवस्था",
         "answer": "कक्षा र सहयोगको अवस्था",
         "next": "हेर्न जाने दिन र सम्पर्क"
+      },
+      "info": {
+        "保護者の名前": "अभिभावकको नाम",
+        "子どもの名前・年齢": "बच्चाको नाम・उमेर",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "子どものようす": "बच्चाको अवस्था"
       }
     },
     "cando-356": {
@@ -3535,6 +5421,13 @@
         "search": "काम खोज्ने तरिका",
         "referral": "कामको आवेदन प्रक्रिया",
         "report": "नतिजाको खबर"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "在留資格": "भिसाको प्रकार (在留資格)",
+        "希望の仕事": "गर्न चाहेको काम"
       }
     },
     "cando-380": {
@@ -3548,6 +5441,13 @@
         "jobtype": "चाहेको काम र काम गर्ने तरिका",
         "experience": "पहिलेको काम र जापानी भाषा",
         "explain": "काम गर्ने तरिकाको व्याख्या"
+      },
+      "info": {
+        "名前": "नाम",
+        "在留資格": "भिसाको प्रकार (在留資格)",
+        "働ける時間": "काम गर्न सक्ने समय",
+        "希望": "गर्न चाहेको कुरा",
+        "経験": "पहिले गरेको काम"
       }
     },
     "cando-424": {
@@ -3560,6 +5460,13 @@
         "arrival": "पुग्ने अनुमानित समय",
         "work": "आजको योजना र काम",
         "contact": "सम्पर्क र अर्को खबर"
+      },
+      "info": {
+        "名前・部署": "नाम・विभाग",
+        "今いる場所": "अहिले भएको ठाउँ",
+        "着く時間の見込み": "पुग्ने अनुमानित समय",
+        "今日の予定": "आजको कार्यक्रम",
+        "携帯電話": "मोबाइल फोन"
       }
     },
     "cando-433": {
@@ -3570,6 +5477,12 @@
         "status": "अहिले के गर्दै छन्",
         "return": "फर्कने समय",
         "closing": "अन्तिम अभिवादन"
+      },
+      "info": {
+        "自分の名前・部署": "आफ्नो नाम・विभाग",
+        "離席中の同僚": "अहिले नभएको सहकर्मी",
+        "田中さんが戻る時間": "तानाका-सान फर्कने समय",
+        "電話をかけてきた人": "फोन गर्ने व्यक्ति"
       }
     },
     "cando-443": {
@@ -3583,6 +5496,13 @@
         "demand": "उहाँहरूको माग",
         "reply": "उहाँहरूलाई जवाफ",
         "next": "अब गर्ने काम"
+      },
+      "info": {
+        "自分": "आफू",
+        "取引先と担当者": "ग्राहक कम्पनी र जिम्मेवार व्यक्ति",
+        "トラブルの内容": "समस्या के हो",
+        "先方の要望": "उनीहरूको माग",
+        "自分がしたこと": "आफूले गरेको कुरा"
       }
     },
     "cando-563": {
@@ -3596,6 +5516,13 @@
         "card": "निवास कार्ड",
         "school": "बच्चाको विद्यालय परिवर्तन",
         "next": "यसपछिको प्रक्रिया"
+      },
+      "info": {
+        "名前": "नाम",
+        "新しい住所（引っ越した日：先週の土曜日）": "नयाँ ठेगाना (सरेको मिति: गएको शनिबार)",
+        "前の住所": "पुरानो ठेगाना",
+        "家族": "परिवार",
+        "電話番号": "फोन नम्बर"
       }
     },
     "cando-566": {
@@ -3608,6 +5535,13 @@
         "place": "काउन्टरको ठाउँ",
         "ticket": "नम्बर टिकट र पर्खने तरिका",
         "other": "अन्य काम"
+      },
+      "info": {
+        "名前": "नाम",
+        "新しい住所": "नयाँ ठेगाना",
+        "前の住所": "पुरानो ठेगाना",
+        "今日の用事": "आजको काम",
+        "持っているもの": "साथमा भएका कुरा"
       }
     },
     "cando-569": {
@@ -3620,6 +5554,13 @@
         "copies": "कति प्रति चाहिन्छ",
         "id": "परिचय कागजात",
         "fee": "शुल्क र लिने तरिका"
+      },
+      "info": {
+        "名前": "नाम",
+        "生年月日": "जन्म मिति",
+        "住所": "ठेगाना",
+        "必要な通数": "चाहिने प्रति संख्या",
+        "持っている物": "साथमा भएका कुरा"
       }
     },
     "cando-577": {
@@ -3632,6 +5573,12 @@
         "name": "नाम र ठेगानाको पुष्टि",
         "method": "चाहेको भुक्तानी तरिका",
         "account": "खाताबाट भुक्तानीको प्रक्रिया"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "持っている書類": "साथमा भएका कागजात",
+        "使っている金融機関": "प्रयोग गरिरहेको बैंक"
       }
     },
     "cando-601": {
@@ -3645,6 +5592,13 @@
         "procedure": "प्रक्रिया र चाहिने कुरा",
         "fee": "शुल्क र पाउने कुरा",
         "name": "नाम र सम्पर्क"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "犬": "कुकुर",
+        "予防注射": "खोप"
       }
     },
     "cando-639": {
@@ -3658,6 +5612,13 @@
         "household": "सँगै बस्ने परिवार",
         "payment": "बीमा शुल्क तिर्ने तरिका",
         "contact": "सम्पर्क"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "前の会社と、やめた日": "पुरानो कम्पनी र छोडेको मिति",
+        "家族": "परिवार"
       }
     },
     "cando-651": {
@@ -3671,6 +5632,13 @@
         "name": "नाम",
         "phone": "फोन नम्बर",
         "howto": "सहभागी हुने तरिका"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "参加できる時間": "सहभागी हुन सक्ने समय",
+        "日本語のレベル・目的": "जापानी भाषाको स्तर・उद्देश्य"
       }
     },
     "cando-654": {
@@ -3683,6 +5651,13 @@
         "phone": "फोन नम्बर",
         "level": "जापानी भाषाको स्तर",
         "howknew": "कक्षाबारे कसरी थाहा भयो"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "参加したい教室": "जान चाहेको कक्षा",
+        "教室を知った方法": "कक्षाबारे थाहा पाएको तरिका"
       }
     },
     "cando-731": {
@@ -3696,6 +5671,13 @@
         "facility": "कोठाको जानकारी",
         "food": "खानपान",
         "name": "नाम र सम्पर्क"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "グループ": "समूह",
+        "使いたい日・人数": "प्रयोग गर्न चाहेको मिति・मानिस संख्या",
+        "やりたいこと": "गर्न चाहेको कुरा"
       }
     },
     "cando-732": {
@@ -3708,6 +5690,12 @@
         "duedate": "फिर्ता गर्ने दिनको पुष्टि",
         "return": "फिर्ता गर्ने तरिका",
         "other": "अन्य प्रश्न"
+      },
+      "info": {
+        "名前": "नाम",
+        "利用者カードの番号": "पुस्तकालय कार्ड नम्बर",
+        "借りたい本": "लिन चाहेको किताब",
+        "聞きたいこと": "सोध्न चाहेको कुरा"
       }
     },
     "cando-735": {
@@ -3720,6 +5708,13 @@
         "speed": "हतार छ कि छैन",
         "record": "रेकर्ड र हराएमा क्षतिपूर्ति",
         "confirm": "पुष्टि"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "送りたいもの": "पठाउन चाहेको सामान",
+        "もうすぐあること": "चाँडै हुने कुरा"
       }
     },
     "cando-746": {
@@ -3732,6 +5727,13 @@
         "plan": "प्लानको जानकारी",
         "documents": "परिचय कागजात र भुक्तानी तरिका",
         "construction": "जडान कामको दिन"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "電話番号": "फोन नम्बर",
+        "使い方": "प्रयोग गर्ने तरिका",
+        "持っているもの": "साथमा भएका कुरा"
       }
     },
     "cando-763": {
@@ -3745,6 +5747,13 @@
         "options": "थप सेवा (अप्सन)",
         "payment": "भुक्तानी तरिका",
         "confirm": "विवरणको पुष्टि"
+      },
+      "info": {
+        "名前": "नाम",
+        "住所": "ठेगाना",
+        "今の電話番号（乗り換え）": "हालको फोन नम्बर (कम्पनी फेर्ने)",
+        "使い方": "प्रयोग गर्ने तरिका",
+        "持っているもの": "साथमा भएका कुरा"
       }
     },
     "cando-767": {
@@ -3758,6 +5767,13 @@
         "phone": "फिर्ता फोन गर्ने नम्बर",
         "time": "फोन उठाउन सकिने समय",
         "confirm": "दोहोर्याएर पुष्टि"
+      },
+      "info": {
+        "名前": "नाम",
+        "電話番号": "फोन नम्बर",
+        "話したい人": "कुरा गर्न चाहेको व्यक्ति",
+        "伝言": "सन्देश",
+        "電話がつながる時間": "फोन उठाउन सक्ने समय"
       }
     }
   },
@@ -3773,6 +5789,12 @@
         "items": "Barang yang dibuang",
         "date": "Tanggal pengambilan",
         "fee": "Biaya dan cara membuang"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "出すもの": "Barang yang dibuang"
       }
     },
     "restaurant": {
@@ -3784,6 +5806,12 @@
         "name": "Nama",
         "phone": "Nomor telepon",
         "seat": "Tempat duduk, dll."
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "日時": "Tanggal dan jam",
+        "人数": "Jumlah orang"
       }
     },
     "taxi": {
@@ -3796,6 +5824,14 @@
         "name": "Nama",
         "phone": "Nomor telepon",
         "people": "Jumlah orang, barang bawaan"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "迎えの場所": "Tempat penjemputan",
+        "日時": "Tanggal dan jam",
+        "行き先": "Tujuan",
+        "人数・荷物": "Jumlah orang・Barang bawaan"
       }
     },
     "clinic": {
@@ -3808,6 +5844,12 @@
         "reason": "Alasan berobat",
         "date": "Tanggal dan jam",
         "bring": "Barang yang dibawa"
+      },
+      "info": {
+        "名前": "Nama",
+        "生年月日": "Tanggal lahir",
+        "電話番号": "Nomor telepon",
+        "診察理由": "Alasan berobat"
       }
     },
     "cando-8": {
@@ -3820,6 +5862,13 @@
         "form": "Formulir kesehatan (monshinhyo)",
         "phone": "Nomor telepon",
         "wait": "Tempat menunggu"
+      },
+      "info": {
+        "名前": "Nama",
+        "生年月日": "Tanggal lahir",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "来た理由": "Alasan datang"
       }
     },
     "cando-77": {
@@ -3833,6 +5882,13 @@
         "people": "Jumlah penghuni",
         "movein": "Tanggal mulai tinggal",
         "other": "Syarat lain, nama, kontak"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "希望の地域": "Daerah yang diinginkan",
+        "家賃・間取り": "Sewa・Tata letak kamar",
+        "入居予定日": "Tanggal mulai tinggal"
       }
     },
     "cando-87": {
@@ -3846,6 +5902,13 @@
         "work": "Tempat kerja dan bukti gaji",
         "contact": "Kontak darurat",
         "deadline": "Batas dokumen dan tanggal kontrak"
+      },
+      "info": {
+        "名前": "Nama",
+        "今の住所": "Alamat sekarang",
+        "電話番号": "Nomor telepon",
+        "借りたい部屋": "Kamar yang ingin disewa",
+        "勤務先": "Tempat kerja"
       }
     },
     "cando-95": {
@@ -3859,6 +5922,13 @@
         "family": "Orang yang ikut pindah",
         "phone": "Nomor telepon",
         "other": "Prosedur lain"
+      },
+      "info": {
+        "名前": "Nama",
+        "前の住所": "Alamat lama",
+        "新しい住所": "Alamat baru",
+        "引っ越した日": "Tanggal pindah",
+        "電話番号": "Nomor telepon"
       }
     },
     "cando-96": {
@@ -3871,6 +5941,12 @@
         "address": "Alamat (wilayah)",
         "method": "Cara membuang",
         "confirm": "Sudah paham atau belum"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "引っ越しの日": "Tanggal pindahan",
+        "出したいもの": "Barang yang ingin dibuang"
       }
     },
     "cando-101": {
@@ -3884,6 +5960,13 @@
         "date": "Tanggal dan jam mulai pakai gas",
         "appliance": "Alat gas",
         "payment": "Cara bayar"
+      },
+      "info": {
+        "名前": "Nama",
+        "新しい住所": "Alamat baru",
+        "電話番号": "Nomor telepon",
+        "ガスを使い始めたい日": "Tanggal mulai pakai gas",
+        "ガスコンロ": "Kompor gas"
       }
     },
     "cando-105": {
@@ -3897,6 +5980,13 @@
         "detail": "Bagian tagihan yang salah",
         "movein": "Tanggal mulai tinggal/pakai",
         "phone": "Kontak"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "お客さま番号": "Nomor pelanggan",
+        "請求書の内容": "Isi tagihan"
       }
     },
     "cando-110": {
@@ -3909,6 +5999,12 @@
         "size": "Ukuran",
         "stock": "Cek stok",
         "fitting": "Mencoba pakaian"
+      },
+      "info": {
+        "名前": "Nama",
+        "見ている商品": "Barang yang dilihat",
+        "ほしい色": "Warna yang diinginkan",
+        "ほしいサイズ": "Ukuran yang diinginkan"
       }
     },
     "cando-121": {
@@ -3922,6 +6018,13 @@
         "choice": "Tukar atau uang kembali",
         "payment": "Cara bayar",
         "contact": "Nama dan kontak"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "買った商品": "Barang yang dibeli",
+        "買った日と払い方": "Tanggal beli dan cara bayar",
+        "不具合": "Kerusakan"
       }
     },
     "cando-128": {
@@ -3933,6 +6036,12 @@
         "seat": "Jenis tempat duduk",
         "child": "Kursi anak",
         "wait": "Mau menunggu? dan nama"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "Nama (ditulis di daftar tunggu)",
+        "人数": "Jumlah orang",
+        "席の希望": "Tempat duduk yang diinginkan",
+        "子ども用のいす": "Kursi anak"
       }
     },
     "cando-134": {
@@ -3945,6 +6054,12 @@
         "detail": "Batas pantangan",
         "change": "Usul ganti menu",
         "confirm": "Cek pesanan"
+      },
+      "info": {
+        "名前": "Nama",
+        "人数": "Jumlah orang",
+        "食べられないもの": "Makanan pantangan",
+        "頼みたいもの": "Pesanan"
       }
     },
     "cando-143": {
@@ -3958,6 +6073,12 @@
         "shirt": "Penyelesaian kemeja",
         "pickup": "Tanggal selesai",
         "payment": "Pembayaran"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "出す服": "Pakaian yang dititipkan",
+        "取りに来られる日": "Tanggal bisa ambil"
       }
     },
     "cando-151": {
@@ -3971,6 +6092,13 @@
         "destination": "Negara tujuan dan mata uang",
         "recipient": "Penerima dan bank penerima",
         "amount": "Jumlah dan tujuan kiriman"
+      },
+      "info": {
+        "名前": "Nama",
+        "口座": "Rekening bank",
+        "送金先": "Penerima kiriman uang",
+        "金額と目的": "Jumlah dan tujuan",
+        "電話番号": "Nomor telepon"
       }
     },
     "cando-158": {
@@ -3983,6 +6111,12 @@
         "route": "Rute",
         "seat": "Kursi reserved atau bebas",
         "payment": "Pembayaran"
+      },
+      "info": {
+        "今いる駅": "Stasiun sekarang",
+        "行きたい所": "Tempat tujuan",
+        "着きたい時間": "Jam ingin tiba",
+        "人数": "Jumlah orang"
       }
     },
     "cando-161": {
@@ -3995,6 +6129,13 @@
         "people": "Jumlah orang dan barang",
         "room": "Nama, nomor kamar",
         "wait": "Tempat dan jam menunggu"
+      },
+      "info": {
+        "名前": "Nama",
+        "部屋番号": "Nomor kamar",
+        "行き先": "Tujuan",
+        "人数と荷物": "Jumlah orang dan barang bawaan",
+        "支払い": "Cara bayar"
       }
     },
     "cando-187": {
@@ -4008,6 +6149,13 @@
         "address": "Perubahan alamat",
         "documents": "Barang bawaan dan langkah",
         "fee": "Biaya dan jam layanan"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "免許証の有効期限": "Masa berlaku SIM",
+        "講習区分（はがき）": "Jenis kursus (kartu pos)"
       }
     },
     "cando-188": {
@@ -4021,6 +6169,12 @@
         "transport": "Cara datang",
         "name": "Nama dan kontak",
         "visit": "Sesi penjelasan, pendaftaran"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "希望": "Keinginan",
+        "最寄り駅": "Stasiun terdekat"
       }
     },
     "cando-191": {
@@ -4034,6 +6188,12 @@
         "license": "Warna SIM",
         "driver": "Pengemudi",
         "start": "Tanggal mulai asuransi"
+      },
+      "info": {
+        "名前・生年月日": "Nama・Tanggal lahir",
+        "住所・電話番号": "Alamat・Nomor telepon",
+        "車": "Mobil",
+        "免許証の色・運転する人": "Warna SIM・Pengemudi"
       }
     },
     "cando-203": {
@@ -4047,6 +6207,13 @@
         "date": "Tanggal dan jam yang diinginkan",
         "phone": "Nomor telepon",
         "bring": "Barang yang dibawa"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "妊娠週数": "Usia kehamilan (minggu)",
+        "希望の日時": "Tanggal dan jam yang diinginkan",
+        "受診": "Riwayat periksa"
       }
     },
     "cando-219": {
@@ -4060,6 +6227,13 @@
         "stay": "Rencana di Jepang",
         "procedure": "Prosedur, batas waktu, tempat",
         "documents": "Yang diperlukan"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "子供の名前と生まれた日": "Nama dan tanggal lahir anak",
+        "電話番号": "Nomor telepon",
+        "親の在留カード": "Kartu izin tinggal orang tua"
       }
     },
     "cando-222": {
@@ -4073,6 +6247,13 @@
         "date": "Tanggal dan jam yang diinginkan",
         "parent": "Nama dan telepon orang tua",
         "bring": "Cek barang bawaan"
+      },
+      "info": {
+        "子どもの名前": "Nama anak",
+        "子どもの生年月日・月齢": "Tanggal lahir・Usia anak (bulan)",
+        "保護者の名前": "Nama orang tua",
+        "電話番号": "Nomor telepon",
+        "希望の日時": "Tanggal dan jam yang diinginkan"
       }
     },
     "cando-266": {
@@ -4086,6 +6267,13 @@
         "work": "Alasan perlu penitipan",
         "deadline": "Batas penyerahan",
         "place": "Tempat dan dokumen"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "子ども": "Anak",
+        "入園したい時期": "Waktu ingin masuk",
+        "仕事": "Pekerjaan"
       }
     },
     "cando-295": {
@@ -4098,6 +6286,13 @@
         "japanese": "Kemampuan bahasa Jepang anak",
         "support": "Jenis bantuan",
         "next": "Langkah berikutnya"
+      },
+      "info": {
+        "保護者の名前": "Nama orang tua",
+        "子どもの名前・学年": "Nama・Kelas anak",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "子どもの日本語": "Bahasa Jepang anak"
       }
     },
     "cando-299": {
@@ -4111,6 +6306,13 @@
         "question": "Yang ingin ditanyakan",
         "explain": "Acara hari itu dan barang bawaan",
         "phone": "Kontak"
+      },
+      "info": {
+        "子どもの名前": "Nama anak",
+        "保護者の名前": "Nama orang tua",
+        "電話番号": "Nomor telepon",
+        "通知に書いてある健診の日": "Tanggal cek kesehatan di surat pemberitahuan",
+        "聞きたいこと": "Yang ingin ditanyakan"
       }
     },
     "cando-316": {
@@ -4123,6 +6325,12 @@
         "form": "Formulir autodebet",
         "bank": "Rekening autodebet",
         "phone": "Kontak"
+      },
+      "info": {
+        "子供の名前・学年": "Nama・Kelas anak",
+        "保護者の名前": "Nama orang tua",
+        "電話番号": "Nomor telepon",
+        "使いたい口座": "Rekening bank yang ingin dipakai"
       }
     },
     "cando-331": {
@@ -4136,6 +6344,13 @@
         "interpreter": "Penerjemah ikut atau tidak",
         "date": "Tanggal dan jam konsultasi",
         "phone": "Kontak"
+      },
+      "info": {
+        "自分の名前（保護者）": "Nama Anda (orang tua)",
+        "子ども": "Anak",
+        "担任": "Wali kelas",
+        "電話番号": "Nomor telepon",
+        "通訳": "Penerjemah"
       }
     },
     "cando-348": {
@@ -4149,6 +6364,13 @@
         "needs": "Kondisi anak",
         "answer": "Kelas dan bentuk bantuan",
         "next": "Kunjungan dan kontak"
+      },
+      "info": {
+        "保護者の名前": "Nama orang tua",
+        "子どもの名前・年齢": "Nama・Usia anak",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "子どものようす": "Kondisi anak"
       }
     },
     "cando-356": {
@@ -4162,6 +6384,13 @@
         "search": "Cara cari lowongan",
         "referral": "Prosedur melamar",
         "report": "Laporan hasil"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "在留資格": "Status izin tinggal",
+        "希望の仕事": "Pekerjaan yang diinginkan"
       }
     },
     "cando-380": {
@@ -4175,6 +6404,13 @@
         "jobtype": "Pekerjaan dan cara kerja yang diinginkan",
         "experience": "Pengalaman, bahasa Jepang",
         "explain": "Penjelasan cara kerja"
+      },
+      "info": {
+        "名前": "Nama",
+        "在留資格": "Status izin tinggal",
+        "働ける時間": "Jam bisa bekerja",
+        "希望": "Keinginan",
+        "経験": "Pengalaman kerja"
       }
     },
     "cando-424": {
@@ -4187,6 +6423,13 @@
         "arrival": "Perkiraan jam tiba",
         "work": "Jadwal dan kerja hari ini",
         "contact": "Kontak dan kabar berikutnya"
+      },
+      "info": {
+        "名前・部署": "Nama・Bagian",
+        "今いる場所": "Lokasi sekarang",
+        "着く時間の見込み": "Perkiraan jam tiba",
+        "今日の予定": "Jadwal hari ini",
+        "携帯電話": "Nomor HP"
       }
     },
     "cando-433": {
@@ -4197,6 +6440,12 @@
         "status": "Sedang apa",
         "return": "Jam kembali",
         "closing": "Salam penutup"
+      },
+      "info": {
+        "自分の名前・部署": "Nama Anda・Bagian",
+        "離席中の同僚": "Rekan yang sedang tidak di tempat",
+        "田中さんが戻る時間": "Jam Tanaka-san kembali",
+        "電話をかけてきた人": "Penelepon"
       }
     },
     "cando-443": {
@@ -4210,6 +6459,13 @@
         "demand": "Permintaan klien",
         "reply": "Jawaban ke klien",
         "next": "Tindakan selanjutnya"
+      },
+      "info": {
+        "自分": "Diri Anda",
+        "取引先と担当者": "Perusahaan klien dan PIC-nya",
+        "トラブルの内容": "Isi masalah",
+        "先方の要望": "Permintaan klien",
+        "自分がしたこと": "Yang sudah Anda lakukan"
       }
     },
     "cando-563": {
@@ -4223,6 +6479,13 @@
         "card": "Kartu Izin Tinggal",
         "school": "Pindah sekolah anak",
         "next": "Prosedur selanjutnya"
+      },
+      "info": {
+        "名前": "Nama",
+        "新しい住所（引っ越した日：先週の土曜日）": "Alamat baru (tanggal pindah: Sabtu lalu)",
+        "前の住所": "Alamat lama",
+        "家族": "Keluarga",
+        "電話番号": "Nomor telepon"
       }
     },
     "cando-566": {
@@ -4235,6 +6498,13 @@
         "place": "Lokasi loket",
         "ticket": "Nomor antrean dan cara menunggu",
         "other": "Keperluan lain"
+      },
+      "info": {
+        "名前": "Nama",
+        "新しい住所": "Alamat baru",
+        "前の住所": "Alamat lama",
+        "今日の用事": "Keperluan hari ini",
+        "持っているもの": "Barang yang dibawa"
       }
     },
     "cando-569": {
@@ -4247,6 +6517,13 @@
         "copies": "Jumlah lembar",
         "id": "Cek identitas",
         "fee": "Biaya dan pengambilan"
+      },
+      "info": {
+        "名前": "Nama",
+        "生年月日": "Tanggal lahir",
+        "住所": "Alamat",
+        "必要な通数": "Jumlah lembar",
+        "持っている物": "Barang yang dibawa"
       }
     },
     "cando-577": {
@@ -4259,6 +6536,12 @@
         "name": "Cek nama dan alamat",
         "method": "Cara bayar yang diinginkan",
         "account": "Prosedur autodebet"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "持っている書類": "Dokumen yang dibawa",
+        "使っている金融機関": "Bank yang dipakai"
       }
     },
     "cando-601": {
@@ -4272,6 +6555,13 @@
         "procedure": "Langkah dan yang diperlukan",
         "fee": "Biaya dan yang diterima",
         "name": "Nama dan kontak"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "犬": "Anjing",
+        "予防注射": "Vaksinasi"
       }
     },
     "cando-639": {
@@ -4285,6 +6575,13 @@
         "household": "Anggota rumah tangga",
         "payment": "Cara bayar premi",
         "contact": "Kontak"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "前の会社と、やめた日": "Perusahaan lama dan tanggal berhenti",
+        "家族": "Keluarga"
       }
     },
     "cando-651": {
@@ -4298,6 +6595,13 @@
         "name": "Nama",
         "phone": "Nomor telepon",
         "howto": "Cara ikut"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "参加できる時間": "Waktu bisa ikut",
+        "日本語のレベル・目的": "Level bahasa Jepang・Tujuan belajar"
       }
     },
     "cando-654": {
@@ -4310,6 +6614,13 @@
         "phone": "Nomor telepon",
         "level": "Level bahasa Jepang",
         "howknew": "Tahu kelas dari mana"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "参加したい教室": "Kelas yang ingin diikuti",
+        "教室を知った方法": "Tahu kelas dari mana"
       }
     },
     "cando-731": {
@@ -4323,6 +6634,13 @@
         "facility": "Penjelasan ruangan",
         "food": "Makan dan minum",
         "name": "Nama dan kontak"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "グループ": "Kelompok",
+        "使いたい日・人数": "Tanggal pakai・Jumlah orang",
+        "やりたいこと": "Kegiatan yang ingin dilakukan"
       }
     },
     "cando-732": {
@@ -4335,6 +6653,12 @@
         "duedate": "Cek batas pengembalian",
         "return": "Cara mengembalikan",
         "other": "Pertanyaan lain"
+      },
+      "info": {
+        "名前": "Nama",
+        "利用者カードの番号": "Nomor kartu perpustakaan",
+        "借りたい本": "Buku yang ingin dipinjam",
+        "聞きたいこと": "Yang ingin ditanyakan"
       }
     },
     "cando-735": {
@@ -4347,6 +6671,13 @@
         "speed": "Kilat atau tidak",
         "record": "Pelacakan dan ganti rugi",
         "confirm": "Konfirmasi"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "送りたいもの": "Barang yang ingin dikirim",
+        "もうすぐあること": "Acara yang akan datang"
       }
     },
     "cando-746": {
@@ -4359,6 +6690,13 @@
         "plan": "Penjelasan paket",
         "documents": "Identitas dan cara bayar",
         "construction": "Tanggal pemasangan"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "電話番号": "Nomor telepon",
+        "使い方": "Cara pemakaian",
+        "持っているもの": "Barang yang dibawa"
       }
     },
     "cando-763": {
@@ -4372,6 +6710,13 @@
         "options": "Opsi tambahan",
         "payment": "Cara bayar",
         "confirm": "Cek isi kontrak"
+      },
+      "info": {
+        "名前": "Nama",
+        "住所": "Alamat",
+        "今の電話番号（乗り換え）": "Nomor telepon sekarang (pindah operator)",
+        "使い方": "Cara pemakaian",
+        "持っているもの": "Barang yang dibawa"
       }
     },
     "cando-767": {
@@ -4385,6 +6730,13 @@
         "phone": "Nomor untuk ditelepon balik",
         "time": "Jam bisa dihubungi",
         "confirm": "Ulangi untuk konfirmasi"
+      },
+      "info": {
+        "名前": "Nama",
+        "電話番号": "Nomor telepon",
+        "話したい人": "Orang yang ingin diajak bicara",
+        "伝言": "Pesan",
+        "電話がつながる時間": "Jam bisa ditelepon"
       }
     }
   },
@@ -4400,6 +6752,12 @@
         "items": "Itens a descartar",
         "date": "Dia da coleta",
         "fee": "Taxa e como descartar"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "出すもの": "Itens para descartar"
       }
     },
     "restaurant": {
@@ -4411,6 +6769,12 @@
         "name": "Nome",
         "phone": "Telefone",
         "seat": "Lugar e outros pedidos"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "日時": "Data e horário",
+        "人数": "Número de pessoas"
       }
     },
     "taxi": {
@@ -4423,6 +6787,14 @@
         "name": "Nome",
         "phone": "Telefone",
         "people": "Pessoas e bagagem"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "迎えの場所": "Local de embarque",
+        "日時": "Data e horário",
+        "行き先": "Destino",
+        "人数・荷物": "Pessoas e bagagem"
       }
     },
     "clinic": {
@@ -4435,6 +6807,12 @@
         "reason": "Motivo da consulta",
         "date": "Data e hora",
         "bring": "O que levar"
+      },
+      "info": {
+        "名前": "Nome",
+        "生年月日": "Data de nascimento",
+        "電話番号": "Telefone",
+        "診察理由": "Motivo da consulta"
       }
     },
     "cando-8": {
@@ -4447,6 +6825,13 @@
         "form": "Ficha de saúde (monshinhyō)",
         "phone": "Telefone",
         "wait": "Onde esperar"
+      },
+      "info": {
+        "名前": "Nome",
+        "生年月日": "Data de nascimento",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "来た理由": "Motivo da visita"
       }
     },
     "cando-77": {
@@ -4460,6 +6845,13 @@
         "people": "Número de moradores",
         "movein": "Data de mudança",
         "other": "Outras condições e contato"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "希望の地域": "Região desejada",
+        "家賃・間取り": "Aluguel e planta",
+        "入居予定日": "Data de mudança prevista"
       }
     },
     "cando-87": {
@@ -4473,6 +6865,13 @@
         "work": "Empresa e comprovante de renda",
         "contact": "Contato de emergência",
         "deadline": "Prazo dos documentos e data do contrato"
+      },
+      "info": {
+        "名前": "Nome",
+        "今の住所": "Endereço atual",
+        "電話番号": "Telefone",
+        "借りたい部屋": "Imóvel desejado",
+        "勤務先": "Local de trabalho"
       }
     },
     "cando-95": {
@@ -4486,6 +6885,13 @@
         "family": "Quem mudou junto",
         "phone": "Telefone",
         "other": "Outros trâmites"
+      },
+      "info": {
+        "名前": "Nome",
+        "前の住所": "Endereço anterior",
+        "新しい住所": "Novo endereço",
+        "引っ越した日": "Data da mudança",
+        "電話番号": "Telefone"
       }
     },
     "cando-96": {
@@ -4498,6 +6904,12 @@
         "address": "Endereço (bairro)",
         "method": "Como descartar",
         "confirm": "Entendeu?"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "引っ越しの日": "Data da mudança",
+        "出したいもの": "Itens para descartar"
       }
     },
     "cando-101": {
@@ -4511,6 +6923,13 @@
         "date": "Data e hora da ligação do gás",
         "appliance": "Aparelhos a gás",
         "payment": "Forma de pagamento"
+      },
+      "info": {
+        "名前": "Nome",
+        "新しい住所": "Novo endereço",
+        "電話番号": "Telefone",
+        "ガスを使い始めたい日": "Início do uso do gás",
+        "ガスコンロ": "Fogão a gás"
       }
     },
     "cando-105": {
@@ -4524,6 +6943,13 @@
         "detail": "Erro na cobrança",
         "movein": "Data de mudança / início de uso",
         "phone": "Contato"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "お客さま番号": "Número de cliente",
+        "請求書の内容": "Dados da conta"
       }
     },
     "cando-110": {
@@ -4536,6 +6962,12 @@
         "size": "Tamanho",
         "stock": "Tem em estoque?",
         "fitting": "Provar a roupa"
+      },
+      "info": {
+        "名前": "Nome",
+        "見ている商品": "Produto de interesse",
+        "ほしい色": "Cor desejada",
+        "ほしいサイズ": "Tamanho desejado"
       }
     },
     "cando-121": {
@@ -4549,6 +6981,13 @@
         "choice": "Troca ou reembolso",
         "payment": "Forma de pagamento",
         "contact": "Nome e contato"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "買った商品": "Produto comprado",
+        "買った日と払い方": "Data da compra e pagamento",
+        "不具合": "Defeito"
       }
     },
     "cando-128": {
@@ -4560,6 +6999,12 @@
         "seat": "Tipo de lugar",
         "child": "Cadeira infantil",
         "wait": "Esperar? e nome"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "Nome (na lista de espera)",
+        "人数": "Número de pessoas",
+        "席の希望": "Mesa preferida",
+        "子ども用のいす": "Cadeira infantil"
       }
     },
     "cando-134": {
@@ -4572,6 +7017,12 @@
         "detail": "Até que ponto não pode",
         "change": "Sugestão de troca",
         "confirm": "Confirmar o pedido"
+      },
+      "info": {
+        "名前": "Nome",
+        "人数": "Número de pessoas",
+        "食べられないもの": "Restrições alimentares",
+        "頼みたいもの": "Pedido"
       }
     },
     "cando-143": {
@@ -4585,6 +7036,12 @@
         "shirt": "Acabamento da camisa",
         "pickup": "Dia de ficar pronto",
         "payment": "Pagamento"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "出す服": "Roupas a entregar",
+        "取りに来られる日": "Data para retirada"
       }
     },
     "cando-151": {
@@ -4598,6 +7055,13 @@
         "destination": "País e moeda de destino",
         "recipient": "Destinatário e banco",
         "amount": "Valor e motivo da remessa"
+      },
+      "info": {
+        "名前": "Nome",
+        "口座": "Conta bancária",
+        "送金先": "Destinatário",
+        "金額と目的": "Valor e finalidade",
+        "電話番号": "Telefone"
       }
     },
     "cando-158": {
@@ -4610,6 +7074,12 @@
         "route": "Como chegar",
         "seat": "Assento reservado ou livre",
         "payment": "Pagamento"
+      },
+      "info": {
+        "今いる駅": "Estação atual",
+        "行きたい所": "Destino",
+        "着きたい時間": "Horário de chegada desejado",
+        "人数": "Número de pessoas"
       }
     },
     "cando-161": {
@@ -4622,6 +7092,13 @@
         "people": "Pessoas e bagagem",
         "room": "Nome e nº do quarto",
         "wait": "Onde e quando esperar"
+      },
+      "info": {
+        "名前": "Nome",
+        "部屋番号": "Número do quarto",
+        "行き先": "Destino",
+        "人数と荷物": "Pessoas e bagagem",
+        "支払い": "Pagamento"
       }
     },
     "cando-187": {
@@ -4635,6 +7112,13 @@
         "address": "Mudança de endereço",
         "documents": "O que levar e passos",
         "fee": "Taxa e horário"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "免許証の有効期限": "Validade da carteira de motorista",
+        "講習区分（はがき）": "Tipo de curso (cartão postal)"
       }
     },
     "cando-188": {
@@ -4648,6 +7132,12 @@
         "transport": "Como ir",
         "name": "Nome e contato",
         "visit": "Sessão informativa e matrícula"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "希望": "O que deseja",
+        "最寄り駅": "Estação mais próxima"
       }
     },
     "cando-191": {
@@ -4661,6 +7151,12 @@
         "license": "Cor da carteira de motorista",
         "driver": "Quem vai dirigir",
         "start": "Início do seguro"
+      },
+      "info": {
+        "名前・生年月日": "Nome e data de nascimento",
+        "住所・電話番号": "Endereço e telefone",
+        "車": "Carro",
+        "免許証の色・運転する人": "Cor da carteira e motoristas"
       }
     },
     "cando-203": {
@@ -4674,6 +7170,13 @@
         "date": "Data e hora desejadas",
         "phone": "Telefone",
         "bring": "O que levar"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "妊娠週数": "Semanas de gravidez",
+        "希望の日時": "Data e horário desejados",
+        "受診": "Consultas anteriores"
       }
     },
     "cando-219": {
@@ -4687,6 +7190,13 @@
         "stay": "Planos no Japão",
         "procedure": "Trâmite, prazo e local",
         "documents": "O que é necessário"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "子供の名前と生まれた日": "Nome e nascimento da criança",
+        "電話番号": "Telefone",
+        "親の在留カード": "Zairyu Card dos pais"
       }
     },
     "cando-222": {
@@ -4700,6 +7210,13 @@
         "date": "Data e hora desejadas",
         "parent": "Nome e telefone do responsável",
         "bring": "Conferir o que levar"
+      },
+      "info": {
+        "子どもの名前": "Nome da criança",
+        "子どもの生年月日・月齢": "Nascimento e idade (meses) da criança",
+        "保護者の名前": "Nome do responsável",
+        "電話番号": "Telefone",
+        "希望の日時": "Data e horário desejados"
       }
     },
     "cando-266": {
@@ -4713,6 +7230,13 @@
         "work": "Por que precisa da creche",
         "deadline": "Prazo de entrega",
         "place": "Onde entregar e documentos"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "子ども": "Criança",
+        "入園したい時期": "Quando quer matricular",
+        "仕事": "Trabalho"
       }
     },
     "cando-295": {
@@ -4725,6 +7249,13 @@
         "japanese": "Japonês da criança",
         "support": "Tipo de apoio",
         "next": "Próximos passos"
+      },
+      "info": {
+        "保護者の名前": "Nome do responsável",
+        "子どもの名前・学年": "Nome e série da criança",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "子どもの日本語": "Japonês da criança"
       }
     },
     "cando-299": {
@@ -4738,6 +7269,13 @@
         "question": "Dúvidas",
         "explain": "Programa do dia e o que levar",
         "phone": "Contato"
+      },
+      "info": {
+        "子どもの名前": "Nome da criança",
+        "保護者の名前": "Nome do responsável",
+        "電話番号": "Telefone",
+        "通知に書いてある健診の日": "Data do exame de saúde (no aviso)",
+        "聞きたいこと": "Dúvidas"
       }
     },
     "cando-316": {
@@ -4750,6 +7288,12 @@
         "form": "Formulário de débito automático",
         "bank": "Conta para débito",
         "phone": "Contato"
+      },
+      "info": {
+        "子供の名前・学年": "Nome e série da criança",
+        "保護者の名前": "Nome do responsável",
+        "電話番号": "Telefone",
+        "使いたい口座": "Conta bancária a usar"
       }
     },
     "cando-331": {
@@ -4763,6 +7307,13 @@
         "interpreter": "Vem com intérprete?",
         "date": "Data e hora da conversa",
         "phone": "Contato"
+      },
+      "info": {
+        "自分の名前（保護者）": "Seu nome (responsável)",
+        "子ども": "Criança",
+        "担任": "Professor da turma",
+        "電話番号": "Telefone",
+        "通訳": "Intérprete"
       }
     },
     "cando-348": {
@@ -4776,6 +7327,13 @@
         "needs": "Situação da criança",
         "answer": "Turma e apoio",
         "next": "Visita e contato"
+      },
+      "info": {
+        "保護者の名前": "Nome do responsável",
+        "子どもの名前・年齢": "Nome e idade da criança",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "子どものようす": "Situação da criança"
       }
     },
     "cando-356": {
@@ -4789,6 +7347,13 @@
         "search": "Como buscar vagas",
         "referral": "Como se candidatar",
         "report": "Avisar o resultado"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "在留資格": "Status de residência",
+        "希望の仕事": "Trabalho desejado"
       }
     },
     "cando-380": {
@@ -4802,6 +7367,13 @@
         "jobtype": "Trabalho e jornada desejados",
         "experience": "Experiência e japonês",
         "explain": "Explicação do trabalho"
+      },
+      "info": {
+        "名前": "Nome",
+        "在留資格": "Status de residência",
+        "働ける時間": "Horário disponível",
+        "希望": "O que deseja",
+        "経験": "Experiência"
       }
     },
     "cando-424": {
@@ -4814,6 +7386,13 @@
         "arrival": "Previsão de chegada",
         "work": "Agenda e tarefas de hoje",
         "contact": "Contato e próximo aviso"
+      },
+      "info": {
+        "名前・部署": "Nome e setor",
+        "今いる場所": "Onde está agora",
+        "着く時間の見込み": "Previsão de chegada",
+        "今日の予定": "Agenda de hoje",
+        "携帯電話": "Celular"
       }
     },
     "cando-433": {
@@ -4824,6 +7403,12 @@
         "status": "O que está fazendo",
         "return": "Hora de volta",
         "closing": "Despedida"
+      },
+      "info": {
+        "自分の名前・部署": "Seu nome e setor",
+        "離席中の同僚": "Colega ausente",
+        "田中さんが戻る時間": "Horário de volta do Tanaka",
+        "電話をかけてきた人": "Quem ligou"
       }
     },
     "cando-443": {
@@ -4837,6 +7422,13 @@
         "demand": "Pedido do cliente",
         "reply": "Resposta ao cliente",
         "next": "Próximas ações"
+      },
+      "info": {
+        "自分": "Você",
+        "取引先と担当者": "Cliente e responsável",
+        "トラブルの内容": "Problema",
+        "先方の要望": "Pedido do cliente",
+        "自分がしたこと": "O que você fez"
       }
     },
     "cando-563": {
@@ -4850,6 +7442,13 @@
         "card": "Zairyu Card",
         "school": "Transferência escolar",
         "next": "Próximos trâmites"
+      },
+      "info": {
+        "名前": "Nome",
+        "新しい住所（引っ越した日：先週の土曜日）": "Novo endereço (mudança: sábado passado)",
+        "前の住所": "Endereço anterior",
+        "家族": "Família",
+        "電話番号": "Telefone"
       }
     },
     "cando-566": {
@@ -4862,6 +7461,13 @@
         "place": "Local do guichê",
         "ticket": "Senha e como esperar",
         "other": "Outros assuntos"
+      },
+      "info": {
+        "名前": "Nome",
+        "新しい住所": "Novo endereço",
+        "前の住所": "Endereço anterior",
+        "今日の用事": "Motivo da visita hoje",
+        "持っているもの": "O que você trouxe"
       }
     },
     "cando-569": {
@@ -4874,6 +7480,13 @@
         "copies": "Número de cópias",
         "id": "Documento de identidade",
         "fee": "Taxa e retirada"
+      },
+      "info": {
+        "名前": "Nome",
+        "生年月日": "Data de nascimento",
+        "住所": "Endereço",
+        "必要な通数": "Número de cópias",
+        "持っている物": "O que você trouxe"
       }
     },
     "cando-577": {
@@ -4886,6 +7499,12 @@
         "name": "Confirmar nome e endereço",
         "method": "Forma de pagamento desejada",
         "account": "Cadastro de débito automático"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "持っている書類": "Documentos que tem",
+        "使っている金融機関": "Banco que usa"
       }
     },
     "cando-601": {
@@ -4899,6 +7518,13 @@
         "procedure": "Passos e o que é necessário",
         "fee": "Taxa e o que recebe",
         "name": "Nome e contato"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "犬": "Cachorro",
+        "予防注射": "Vacina"
       }
     },
     "cando-639": {
@@ -4912,6 +7538,13 @@
         "household": "Família que mora junto",
         "payment": "Pagamento do seguro",
         "contact": "Contato"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "前の会社と、やめた日": "Empresa anterior e data de saída",
+        "家族": "Família"
       }
     },
     "cando-651": {
@@ -4925,6 +7558,13 @@
         "name": "Nome",
         "phone": "Telefone",
         "howto": "Como participar"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "参加できる時間": "Horário disponível",
+        "日本語のレベル・目的": "Nível de japonês e objetivo"
       }
     },
     "cando-654": {
@@ -4937,6 +7577,13 @@
         "phone": "Telefone",
         "level": "Nível de japonês",
         "howknew": "Como soube da aula"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "参加したい教室": "Aula desejada",
+        "教室を知った方法": "Como conheceu a aula"
       }
     },
     "cando-731": {
@@ -4950,6 +7597,13 @@
         "facility": "Sobre a sala",
         "food": "Comida e bebida",
         "name": "Nome e contato"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "グループ": "Grupo",
+        "使いたい日・人数": "Data de uso e número de pessoas",
+        "やりたいこと": "Atividade"
       }
     },
     "cando-732": {
@@ -4962,6 +7616,12 @@
         "duedate": "Prazo de devolução",
         "return": "Como devolver",
         "other": "Outras perguntas"
+      },
+      "info": {
+        "名前": "Nome",
+        "利用者カードの番号": "Número do cartão da biblioteca",
+        "借りたい本": "Livro desejado",
+        "聞きたいこと": "Dúvidas"
       }
     },
     "cando-735": {
@@ -4974,6 +7634,13 @@
         "speed": "Urgência",
         "record": "Rastreio e indenização",
         "confirm": "Confirmação"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "送りたいもの": "O que quer enviar",
+        "もうすぐあること": "Evento próximo"
       }
     },
     "cando-746": {
@@ -4986,6 +7653,13 @@
         "plan": "Explicação do plano",
         "documents": "Identidade e pagamento",
         "construction": "Dia da instalação"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "電話番号": "Telefone",
+        "使い方": "Forma de uso",
+        "持っているもの": "O que você trouxe"
       }
     },
     "cando-763": {
@@ -4999,6 +7673,13 @@
         "options": "Opcionais",
         "payment": "Forma de pagamento",
         "confirm": "Confirmar o contrato"
+      },
+      "info": {
+        "名前": "Nome",
+        "住所": "Endereço",
+        "今の電話番号（乗り換え）": "Número atual (portabilidade)",
+        "使い方": "Forma de uso",
+        "持っているもの": "O que você trouxe"
       }
     },
     "cando-767": {
@@ -5012,6 +7693,13 @@
         "phone": "Número para retorno",
         "time": "Horário para atender",
         "confirm": "Repetir para confirmar"
+      },
+      "info": {
+        "名前": "Nome",
+        "電話番号": "Telefone",
+        "話したい人": "Com quem quer falar",
+        "伝言": "Recado",
+        "電話がつながる時間": "Horário para retorno"
       }
     }
   },
@@ -5027,6 +7715,12 @@
         "items": "버릴 물건",
         "date": "수거 날짜",
         "fee": "요금과 배출 방법"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "出すもの": "버릴 물건"
       }
     },
     "restaurant": {
@@ -5038,6 +7732,12 @@
         "name": "이름",
         "phone": "전화번호",
         "seat": "좌석·기타"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "日時": "날짜와 시간",
+        "人数": "인원"
       }
     },
     "taxi": {
@@ -5050,6 +7750,14 @@
         "name": "이름",
         "phone": "전화번호",
         "people": "인원·짐"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "迎えの場所": "탑승 장소",
+        "日時": "날짜와 시간",
+        "行き先": "목적지",
+        "人数・荷物": "인원·짐"
       }
     },
     "clinic": {
@@ -5062,6 +7770,12 @@
         "reason": "진료 이유",
         "date": "날짜와 시간",
         "bring": "준비물"
+      },
+      "info": {
+        "名前": "이름",
+        "生年月日": "생년월일",
+        "電話番号": "전화번호",
+        "診察理由": "진료 이유"
       }
     },
     "cando-8": {
@@ -5074,6 +7788,13 @@
         "form": "문진표",
         "phone": "전화번호",
         "wait": "대기 장소"
+      },
+      "info": {
+        "名前": "이름",
+        "生年月日": "생년월일",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "来た理由": "방문 이유"
       }
     },
     "cando-77": {
@@ -5087,6 +7808,13 @@
         "people": "거주 인원",
         "movein": "입주 예정일",
         "other": "기타 조건과 이름·연락처"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "希望の地域": "희망 지역",
+        "家賃・間取り": "월세·방 구조",
+        "入居予定日": "입주 희망일"
       }
     },
     "cando-87": {
@@ -5100,6 +7828,13 @@
         "work": "직장과 소득 서류",
         "contact": "비상 연락처",
         "deadline": "서류 기한과 계약일"
+      },
+      "info": {
+        "名前": "이름",
+        "今の住所": "현재 주소",
+        "電話番号": "전화번호",
+        "借りたい部屋": "빌리고 싶은 방",
+        "勤務先": "직장"
       }
     },
     "cando-95": {
@@ -5113,6 +7848,13 @@
         "family": "함께 이사한 사람",
         "phone": "전화번호",
         "other": "다른 절차"
+      },
+      "info": {
+        "名前": "이름",
+        "前の住所": "이전 주소",
+        "新しい住所": "새 주소",
+        "引っ越した日": "이사한 날",
+        "電話番号": "전화번호"
       }
     },
     "cando-96": {
@@ -5125,6 +7867,12 @@
         "address": "주소(지역)",
         "method": "배출 방법",
         "confirm": "이해 확인"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "引っ越しの日": "이삿날",
+        "出したいもの": "버리고 싶은 물건"
       }
     },
     "cando-101": {
@@ -5138,6 +7886,13 @@
         "date": "개전 날짜와 시간",
         "appliance": "가스 기기",
         "payment": "지불 방법"
+      },
+      "info": {
+        "名前": "이름",
+        "新しい住所": "새 주소",
+        "電話番号": "전화번호",
+        "ガスを使い始めたい日": "가스 사용 시작일",
+        "ガスコンロ": "가스레인지"
       }
     },
     "cando-105": {
@@ -5151,6 +7906,13 @@
         "detail": "청구 오류 내용",
         "movein": "입주일·사용 시작일",
         "phone": "연락처"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "お客さま番号": "고객 번호",
+        "請求書の内容": "청구서 내용"
       }
     },
     "cando-110": {
@@ -5163,6 +7925,12 @@
         "size": "사이즈",
         "stock": "재고 확인",
         "fitting": "시착"
+      },
+      "info": {
+        "名前": "이름",
+        "見ている商品": "보고 있는 상품",
+        "ほしい色": "원하는 색",
+        "ほしいサイズ": "원하는 사이즈"
       }
     },
     "cando-121": {
@@ -5176,6 +7944,13 @@
         "choice": "교환 또는 환불",
         "payment": "지불 방법",
         "contact": "이름과 연락처"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "買った商品": "구입한 상품",
+        "買った日と払い方": "구입일과 결제 방법",
+        "不具合": "고장·문제점"
       }
     },
     "cando-128": {
@@ -5187,6 +7962,12 @@
         "seat": "좌석 종류",
         "child": "유아용 의자",
         "wait": "대기 여부와 이름"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "이름(대기 명단에 적기)",
+        "人数": "인원",
+        "席の希望": "희망 좌석",
+        "子ども用のいす": "아기 의자"
       }
     },
     "cando-134": {
@@ -5199,6 +7980,12 @@
         "detail": "제한 정도",
         "change": "메뉴 변경 제안",
         "confirm": "주문 확인"
+      },
+      "info": {
+        "名前": "이름",
+        "人数": "인원",
+        "食べられないもの": "못 먹는 음식",
+        "頼みたいもの": "주문하고 싶은 것"
       }
     },
     "cando-143": {
@@ -5212,6 +7999,12 @@
         "shirt": "와이셔츠 마무리",
         "pickup": "완성일",
         "payment": "결제"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "出す服": "맡길 옷",
+        "取りに来られる日": "찾으러 올 수 있는 날"
       }
     },
     "cando-151": {
@@ -5225,6 +8018,13 @@
         "destination": "송금 국가와 통화",
         "recipient": "수취인과 수취 은행",
         "amount": "금액과 송금 목적"
+      },
+      "info": {
+        "名前": "이름",
+        "口座": "은행 계좌",
+        "送金先": "받는 사람",
+        "金額と目的": "금액과 목적",
+        "電話番号": "전화번호"
       }
     },
     "cando-158": {
@@ -5237,6 +8037,12 @@
         "route": "가는 방법",
         "seat": "지정석·자유석",
         "payment": "결제"
+      },
+      "info": {
+        "今いる駅": "지금 있는 역",
+        "行きたい所": "가고 싶은 곳",
+        "着きたい時間": "도착 희망 시간",
+        "人数": "인원"
       }
     },
     "cando-161": {
@@ -5249,6 +8055,13 @@
         "people": "인원과 짐",
         "room": "이름·방 번호",
         "wait": "대기 장소와 시간"
+      },
+      "info": {
+        "名前": "이름",
+        "部屋番号": "방 번호",
+        "行き先": "목적지",
+        "人数と荷物": "인원과 짐",
+        "支払い": "결제 방법"
       }
     },
     "cando-187": {
@@ -5262,6 +8075,13 @@
         "address": "주소 변경",
         "documents": "준비물과 절차",
         "fee": "수수료와 접수 시간"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "免許証の有効期限": "면허증 유효기간",
+        "講習区分（はがき）": "강습 구분(엽서)"
       }
     },
     "cando-188": {
@@ -5275,6 +8095,12 @@
         "transport": "통학 방법",
         "name": "이름과 연락처",
         "visit": "설명회·입교 절차"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "希望": "희망 사항",
+        "最寄り駅": "가장 가까운 역"
       }
     },
     "cando-191": {
@@ -5288,6 +8114,12 @@
         "license": "면허증 색",
         "driver": "운전자",
         "start": "보장 시작일"
+      },
+      "info": {
+        "名前・生年月日": "이름·생년월일",
+        "住所・電話番号": "주소·전화번호",
+        "車": "자동차",
+        "免許証の色・運転する人": "면허증 색·운전자"
       }
     },
     "cando-203": {
@@ -5301,6 +8133,13 @@
         "date": "희망 날짜와 시간",
         "phone": "전화번호",
         "bring": "준비물"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "妊娠週数": "임신 주수",
+        "希望の日時": "희망 날짜와 시간",
+        "受診": "진료 이력"
       }
     },
     "cando-219": {
@@ -5314,6 +8153,13 @@
         "stay": "일본 체류 예정",
         "procedure": "절차·기한·장소",
         "documents": "필요한 것"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "子供の名前と生まれた日": "아이 이름과 생일",
+        "電話番号": "전화번호",
+        "親の在留カード": "부모의 재류카드"
       }
     },
     "cando-222": {
@@ -5327,6 +8173,13 @@
         "date": "희망 날짜와 시간",
         "parent": "보호자 이름과 전화번호",
         "bring": "준비물 확인"
+      },
+      "info": {
+        "子どもの名前": "아이 이름",
+        "子どもの生年月日・月齢": "아이 생년월일·개월 수",
+        "保護者の名前": "보호자 이름",
+        "電話番号": "전화번호",
+        "希望の日時": "희망 날짜와 시간"
       }
     },
     "cando-266": {
@@ -5340,6 +8193,13 @@
         "work": "보육이 필요한 이유",
         "deadline": "제출 기한",
         "place": "제출 장소와 서류"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "子ども": "아이",
+        "入園したい時期": "입소 희망 시기",
+        "仕事": "일"
       }
     },
     "cando-295": {
@@ -5352,6 +8212,13 @@
         "japanese": "아이의 일본어 실력",
         "support": "지원 내용",
         "next": "다음에 할 일"
+      },
+      "info": {
+        "保護者の名前": "보호자 이름",
+        "子どもの名前・学年": "아이 이름·학년",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "子どもの日本語": "아이의 일본어 실력"
       }
     },
     "cando-299": {
@@ -5365,6 +8232,13 @@
         "question": "묻고 싶은 것",
         "explain": "당일 일정과 준비물",
         "phone": "연락처"
+      },
+      "info": {
+        "子どもの名前": "아이 이름",
+        "保護者の名前": "보호자 이름",
+        "電話番号": "전화번호",
+        "通知に書いてある健診の日": "안내문의 검진일",
+        "聞きたいこと": "묻고 싶은 것"
       }
     },
     "cando-316": {
@@ -5377,6 +8251,12 @@
         "form": "자동이체 신청서",
         "bank": "출금 계좌",
         "phone": "연락처"
+      },
+      "info": {
+        "子供の名前・学年": "아이 이름·학년",
+        "保護者の名前": "보호자 이름",
+        "電話番号": "전화번호",
+        "使いたい口座": "사용할 은행 계좌"
       }
     },
     "cando-331": {
@@ -5390,6 +8270,13 @@
         "interpreter": "통역 동행",
         "date": "상담 날짜와 시간",
         "phone": "연락처"
+      },
+      "info": {
+        "自分の名前（保護者）": "내 이름(보호자)",
+        "子ども": "아이",
+        "担任": "담임 선생님",
+        "電話番号": "전화번호",
+        "通訳": "통역"
       }
     },
     "cando-348": {
@@ -5403,6 +8290,13 @@
         "needs": "아이의 상황",
         "answer": "학급과 지원 상황",
         "next": "견학과 연락처"
+      },
+      "info": {
+        "保護者の名前": "보호자 이름",
+        "子どもの名前・年齢": "아이 이름·나이",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "子どものようす": "아이 상태"
       }
     },
     "cando-356": {
@@ -5416,6 +8310,13 @@
         "search": "구인 찾는 법",
         "referral": "지원 절차",
         "report": "결과 연락"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "在留資格": "재류자격",
+        "希望の仕事": "희망 직종"
       }
     },
     "cando-380": {
@@ -5429,6 +8330,13 @@
         "jobtype": "희망 직종과 근무 형태",
         "experience": "경력·일본어",
         "explain": "근무 형태 설명"
+      },
+      "info": {
+        "名前": "이름",
+        "在留資格": "재류자격",
+        "働ける時間": "근무 가능 시간",
+        "希望": "희망 사항",
+        "経験": "경력"
       }
     },
     "cando-424": {
@@ -5441,6 +8349,13 @@
         "arrival": "도착 예상 시간",
         "work": "오늘 일정·업무",
         "contact": "연락처와 다음 연락"
+      },
+      "info": {
+        "名前・部署": "이름·부서",
+        "今いる場所": "현재 위치",
+        "着く時間の見込み": "도착 예상 시간",
+        "今日の予定": "오늘 일정",
+        "携帯電話": "휴대전화"
       }
     },
     "cando-433": {
@@ -5451,6 +8366,12 @@
         "status": "현재 상황",
         "return": "복귀 시간",
         "closing": "마무리 인사"
+      },
+      "info": {
+        "自分の名前・部署": "내 이름·부서",
+        "離席中の同僚": "자리를 비운 동료",
+        "田中さんが戻る時間": "다나카 씨가 돌아오는 시간",
+        "電話をかけてきた人": "전화한 사람"
       }
     },
     "cando-443": {
@@ -5464,6 +8385,13 @@
         "demand": "상대방 요청",
         "reply": "상대방에게 답변",
         "next": "향후 대응"
+      },
+      "info": {
+        "自分": "나",
+        "取引先と担当者": "거래처와 담당자",
+        "トラブルの内容": "문제 내용",
+        "先方の要望": "상대방 요청",
+        "自分がしたこと": "내가 한 일"
       }
     },
     "cando-563": {
@@ -5477,6 +8405,13 @@
         "card": "재류카드",
         "school": "아이 전학",
         "next": "이후 절차"
+      },
+      "info": {
+        "名前": "이름",
+        "新しい住所（引っ越した日：先週の土曜日）": "새 주소(이사한 날: 지난주 토요일)",
+        "前の住所": "이전 주소",
+        "家族": "가족",
+        "電話番号": "전화번호"
       }
     },
     "cando-566": {
@@ -5489,6 +8424,13 @@
         "place": "창구 위치",
         "ticket": "번호표와 대기 방법",
         "other": "다른 용건"
+      },
+      "info": {
+        "名前": "이름",
+        "新しい住所": "새 주소",
+        "前の住所": "이전 주소",
+        "今日の用事": "오늘 용건",
+        "持っているもの": "가지고 있는 것"
       }
     },
     "cando-569": {
@@ -5501,6 +8443,13 @@
         "copies": "필요 매수",
         "id": "신분 확인",
         "fee": "수수료와 수령"
+      },
+      "info": {
+        "名前": "이름",
+        "生年月日": "생년월일",
+        "住所": "주소",
+        "必要な通数": "필요한 매수",
+        "持っている物": "가지고 있는 것"
       }
     },
     "cando-577": {
@@ -5513,6 +8462,12 @@
         "name": "이름과 주소 확인",
         "method": "희망 납부 방법",
         "account": "자동이체 절차"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "持っている書類": "가지고 있는 서류",
+        "使っている金融機関": "이용 중인 은행"
       }
     },
     "cando-601": {
@@ -5526,6 +8481,13 @@
         "procedure": "절차와 필요한 것",
         "fee": "수수료와 받는 것",
         "name": "이름과 연락처"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "犬": "개",
+        "予防注射": "예방접종"
       }
     },
     "cando-639": {
@@ -5539,6 +8501,13 @@
         "household": "세대(함께 사는 가족)",
         "payment": "보험료 납부 방법",
         "contact": "연락처"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "前の会社と、やめた日": "이전 회사와 퇴사일",
+        "家族": "가족"
       }
     },
     "cando-651": {
@@ -5552,6 +8521,13 @@
         "name": "이름",
         "phone": "전화번호",
         "howto": "참가 방법"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "参加できる時間": "참가 가능 시간",
+        "日本語のレベル・目的": "일본어 수준·목적"
       }
     },
     "cando-654": {
@@ -5564,6 +8540,13 @@
         "phone": "전화번호",
         "level": "일본어 수준",
         "howknew": "교실을 알게 된 경로"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "参加したい教室": "참가하고 싶은 교실",
+        "教室を知った方法": "교실을 알게 된 계기"
       }
     },
     "cando-731": {
@@ -5577,6 +8560,13 @@
         "facility": "방 설명",
         "food": "음식물 반입",
         "name": "이름과 연락처"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "グループ": "그룹",
+        "使いたい日・人数": "이용 희망일·인원",
+        "やりたいこと": "하고 싶은 것"
       }
     },
     "cando-732": {
@@ -5589,6 +8579,12 @@
         "duedate": "반납 기한 확인",
         "return": "반납 방법",
         "other": "기타 질문"
+      },
+      "info": {
+        "名前": "이름",
+        "利用者カードの番号": "도서관 카드 번호",
+        "借りたい本": "빌리고 싶은 책",
+        "聞きたいこと": "묻고 싶은 것"
       }
     },
     "cando-735": {
@@ -5601,6 +8597,13 @@
         "speed": "급한지 여부",
         "record": "기록과 분실 보상",
         "confirm": "확인"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "送りたいもの": "보내고 싶은 것",
+        "もうすぐあること": "곧 있을 일"
       }
     },
     "cando-746": {
@@ -5613,6 +8616,13 @@
         "plan": "요금제 설명",
         "documents": "신분 확인과 지불 방법",
         "construction": "공사 날짜"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "電話番号": "전화번호",
+        "使い方": "사용 방법",
+        "持っているもの": "가지고 있는 것"
       }
     },
     "cando-763": {
@@ -5626,6 +8636,13 @@
         "options": "옵션",
         "payment": "지불 방법",
         "confirm": "내용 확인"
+      },
+      "info": {
+        "名前": "이름",
+        "住所": "주소",
+        "今の電話番号（乗り換え）": "현재 전화번호(번호 이동)",
+        "使い方": "사용 방법",
+        "持っているもの": "가지고 있는 것"
       }
     },
     "cando-767": {
@@ -5639,6 +8656,13 @@
         "phone": "회신받을 번호",
         "time": "통화 가능 시간",
         "confirm": "복창 확인"
+      },
+      "info": {
+        "名前": "이름",
+        "電話番号": "전화번호",
+        "話したい人": "통화하고 싶은 사람",
+        "伝言": "전할 말",
+        "電話がつながる時間": "통화 가능 시간"
       }
     }
   },
@@ -5654,6 +8678,12 @@
         "items": "စွန့်ပစ်မည့်ပစ္စည်း",
         "date": "လာသိမ်းမည့်ရက်",
         "fee": "ကြေးနှင့် ထုတ်ပုံ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "出すもの": "စွန့်ပစ်မည့်ပစ္စည်း"
       }
     },
     "restaurant": {
@@ -5665,6 +8695,12 @@
         "name": "အမည်",
         "phone": "ဖုန်းနံပါတ်",
         "seat": "ထိုင်ခုံ・အခြား"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "日時": "ရက်နှင့်အချိန်",
+        "人数": "လူဦးရေ"
       }
     },
     "taxi": {
@@ -5677,6 +8713,14 @@
         "name": "အမည်",
         "phone": "ဖုန်းနံပါတ်",
         "people": "လူဦးရေ・ပစ္စည်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "迎えの場所": "လာကြိုစေလိုသည့်နေရာ",
+        "日時": "ရက်နှင့်အချိန်",
+        "行き先": "သွားလိုသည့်နေရာ",
+        "人数・荷物": "လူဦးရေ・ဝန်စည်"
       }
     },
     "clinic": {
@@ -5689,6 +8733,12 @@
         "reason": "သွားရသည့်အကြောင်း",
         "date": "ရက်နှင့် အချိန်",
         "bring": "ယူလာရမည့်ပစ္စည်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "生年月日": "မွေးသက္ကရာဇ်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "診察理由": "ဆေးခန်းပြရသည့်အကြောင်း"
       }
     },
     "cando-8": {
@@ -5701,6 +8751,13 @@
         "form": "ရောဂါမေးခွန်းလွှာ",
         "phone": "ဖုန်းနံပါတ်",
         "wait": "စောင့်ရမည့်နေရာ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "生年月日": "မွေးသက္ကရာဇ်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "来た理由": "လာရသည့်အကြောင်း"
       }
     },
     "cando-77": {
@@ -5714,6 +8771,13 @@
         "people": "နေမည့်လူဦးရေ",
         "movein": "စနေမည့်ရက်",
         "other": "အခြားဆန္ဒ၊ အမည်・ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "希望の地域": "နေလိုသည့်ဒေသ",
+        "家賃・間取り": "အိမ်လခ・အခန်းပုံစံ",
+        "入居予定日": "စနေလိုသည့်ရက်"
       }
     },
     "cando-87": {
@@ -5727,6 +8791,13 @@
         "work": "အလုပ်နှင့် လစာစာရွက်",
         "contact": "အရေးပေါ်ဆက်သွယ်ရန်",
         "deadline": "စာရွက်တင်ရက်နှင့် စာချုပ်ရက်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "今の住所": "လက်ရှိလိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "借りたい部屋": "ငှားလိုသည့်အခန်း",
+        "勤務先": "အလုပ်လုပ်သည့်ကုမ္ပဏီ"
       }
     },
     "cando-95": {
@@ -5740,6 +8811,13 @@
         "family": "အတူပြောင်းလာသူ",
         "phone": "ဖုန်းနံပါတ်",
         "other": "အခြားလုပ်ငန်းစဉ်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "前の住所": "ယခင်လိပ်စာ",
+        "新しい住所": "လိပ်စာအသစ်",
+        "引っ越した日": "အိမ်ပြောင်းခဲ့သည့်ရက်",
+        "電話番号": "ဖုန်းနံပါတ်"
       }
     },
     "cando-96": {
@@ -5752,6 +8830,12 @@
         "address": "လိပ်စာ (ရပ်ကွက်)",
         "method": "ထုတ်ပုံ",
         "confirm": "နားလည်/မလည်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "引っ越しの日": "အိမ်ပြောင်းမည့်ရက်",
+        "出したいもの": "စွန့်ပစ်လိုသည့်ပစ္စည်း"
       }
     },
     "cando-101": {
@@ -5765,6 +8849,13 @@
         "date": "ဂတ်စ်စသုံးမည့်ရက်နှင့် အချိန်",
         "appliance": "ဂတ်စ်သုံးပစ္စည်း",
         "payment": "ငွေပေးချေပုံ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "新しい住所": "လိပ်စာအသစ်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "ガスを使い始めたい日": "ဂက်စ်စသုံးလိုသည့်ရက်",
+        "ガスコンロ": "ဂက်စ်မီးဖို"
       }
     },
     "cando-105": {
@@ -5778,6 +8869,13 @@
         "detail": "ငွေတောင်းခံလွှာ မှားသည့်နေရာ",
         "movein": "စနေသည့်ရက်・စသုံးသည့်ရက်",
         "phone": "ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "お客さま番号": "ဖောက်သည်နံပါတ်",
+        "請求書の内容": "ငွေတောင်းခံလွှာပါအကြောင်းအရာ"
       }
     },
     "cando-110": {
@@ -5790,6 +8888,12 @@
         "size": "ဆိုဒ်",
         "stock": "ဆိုင်မှာ ရှိ/မရှိ",
         "fitting": "ဝတ်ကြည့်ခြင်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "見ている商品": "ကြည့်နေသည့်ပစ္စည်း",
+        "ほしい色": "လိုချင်သည့်အရောင်",
+        "ほしいサイズ": "လိုချင်သည့်အရွယ်အစား"
       }
     },
     "cando-121": {
@@ -5803,6 +8907,13 @@
         "choice": "လဲမလား၊ ငွေပြန်ယူမလား",
         "payment": "ငွေပေးချေပုံ",
         "contact": "အမည်နှင့် ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "買った商品": "ဝယ်ခဲ့သည့်ပစ္စည်း",
+        "買った日と払い方": "ဝယ်သည့်ရက်နှင့်ငွေချေပုံ",
+        "不具合": "ချို့ယွင်းချက်"
       }
     },
     "cando-128": {
@@ -5814,6 +8925,12 @@
         "seat": "ထိုင်ခုံအမျိုးအစား",
         "child": "ကလေးထိုင်ခုံ",
         "wait": "စောင့်/မစောင့်နှင့် အမည်"
+      },
+      "info": {
+        "名前（順番待ちの紙に書く）": "အမည်（စောင့်ဆိုင်းစာရင်းတွင်ရေးရန်）",
+        "人数": "လူဦးရေ",
+        "席の希望": "ထိုင်လိုသည့်နေရာ",
+        "子ども用のいす": "ကလေးထိုင်ခုံ"
       }
     },
     "cando-134": {
@@ -5826,6 +8943,12 @@
         "detail": "ဘယ်အထိ မစားနိုင်လဲ",
         "change": "ဟင်းပြောင်းရန် အကြံ",
         "confirm": "မှာထားတာ အတည်ပြု"
+      },
+      "info": {
+        "名前": "အမည်",
+        "人数": "လူဦးရေ",
+        "食べられないもの": "မစားနိုင်သည့်အစားအစာ",
+        "頼みたいもの": "မှာလိုသည့်အရာ"
       }
     },
     "cando-143": {
@@ -5839,6 +8962,12 @@
         "shirt": "ရှပ်အင်္ကျီ အချောသတ်ပုံ",
         "pickup": "ပြီးမည့်ရက်",
         "payment": "ငွေပေးချေခြင်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "出す服": "အပ်မည့်အဝတ်",
+        "取りに来られる日": "လာယူနိုင်သည့်ရက်"
       }
     },
     "cando-151": {
@@ -5852,6 +8981,13 @@
         "destination": "ပို့မည့်နိုင်ငံနှင့် ငွေကြေး",
         "recipient": "လက်ခံသူနှင့် ဘဏ်",
         "amount": "ပမာဏနှင့် ပို့ရသည့်အကြောင်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "口座": "ဘဏ်အကောင့်",
+        "送金先": "ငွေလက်ခံမည့်သူ",
+        "金額と目的": "ငွေပမာဏနှင့်ရည်ရွယ်ချက်",
+        "電話番号": "ဖုန်းနံပါတ်"
       }
     },
     "cando-158": {
@@ -5864,6 +9000,12 @@
         "route": "သွားပုံ",
         "seat": "နေရာသတ်မှတ်ခုံ/လွတ်လပ်ခုံ",
         "payment": "ငွေပေးချေခြင်း"
+      },
+      "info": {
+        "今いる駅": "ယခုရောက်နေသည့်ဘူတာ",
+        "行きたい所": "သွားလိုသည့်နေရာ",
+        "着きたい時間": "ရောက်လိုသည့်အချိန်",
+        "人数": "လူဦးရေ"
       }
     },
     "cando-161": {
@@ -5876,6 +9018,13 @@
         "people": "လူဦးရေနှင့် ပစ္စည်း",
         "room": "အမည်・အခန်းနံပါတ်",
         "wait": "စောင့်မည့်နေရာနှင့် အချိန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "部屋番号": "အခန်းနံပါတ်",
+        "行き先": "သွားလိုသည့်နေရာ",
+        "人数と荷物": "လူဦးရေနှင့်ဝန်စည်",
+        "支払い": "ငွေချေပုံ"
       }
     },
     "cando-187": {
@@ -5889,6 +9038,13 @@
         "address": "လိပ်စာ ပြောင်း/မပြောင်း",
         "documents": "ယူလာရမည့်ပစ္စည်းနှင့် လုပ်ရမည့်အဆင့်",
         "fee": "ကြေးနှင့် လက်ခံချိန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "免許証の有効期限": "ယာဉ်မောင်းလိုင်စင် သက်တမ်းကုန်ရက်",
+        "講習区分（はがき）": "သင်တန်းအမျိုးအစား（ပို့စကတ်）"
       }
     },
     "cando-188": {
@@ -5902,6 +9058,12 @@
         "transport": "လာမည့်နည်း",
         "name": "အမည်နှင့် ဆက်သွယ်ရန်",
         "visit": "ရှင်းပြပွဲ・ဝင်ခွင့်လုပ်ငန်းစဉ်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "希望": "လိုလားချက်",
+        "最寄り駅": "အနီးဆုံးဘူတာ"
       }
     },
     "cando-191": {
@@ -5915,6 +9077,12 @@
         "license": "လိုင်စင်အရောင်",
         "driver": "မောင်းမည့်သူ",
         "start": "အာမခံ စမည့်ရက်"
+      },
+      "info": {
+        "名前・生年月日": "အမည်・မွေးသက္ကရာဇ်",
+        "住所・電話番号": "လိပ်စာ・ဖုန်းနံပါတ်",
+        "車": "ကား",
+        "免許証の色・運転する人": "လိုင်စင်အရောင်・မောင်းမည့်သူ"
       }
     },
     "cando-203": {
@@ -5928,6 +9096,13 @@
         "date": "သွားလိုသည့်ရက်နှင့် အချိန်",
         "phone": "ဖုန်းနံပါတ်",
         "bring": "ယူလာရမည့်ပစ္စည်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "妊娠週数": "ကိုယ်ဝန်ရက်သတ္တပတ်",
+        "希望の日時": "သွားလိုသည့်ရက်နှင့်အချိန်",
+        "受診": "ဆေးခန်းပြဖူးခြင်း"
       }
     },
     "cando-219": {
@@ -5941,6 +9116,13 @@
         "stay": "ဂျပန်မှာ နေမည့်အစီအစဉ်",
         "procedure": "လုပ်ငန်းစဉ်・နောက်ဆုံးရက်・နေရာ",
         "documents": "လိုအပ်သည့်အရာ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "子供の名前と生まれた日": "ကလေးအမည်နှင့်မွေးနေ့",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "親の在留カード": "မိဘ၏ နေထိုင်ခွင့်ကတ်"
       }
     },
     "cando-222": {
@@ -5954,6 +9136,13 @@
         "date": "သွားလိုသည့်ရက်နှင့် အချိန်",
         "parent": "မိဘအမည်နှင့် ဖုန်းနံပါတ်",
         "bring": "ယူလာရမည့်ပစ္စည်း အတည်ပြု"
+      },
+      "info": {
+        "子どもの名前": "ကလေးအမည်",
+        "子どもの生年月日・月齢": "ကလေးမွေးနေ့・အသက်(လ)",
+        "保護者の名前": "မိဘအမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "希望の日時": "သွားလိုသည့်ရက်နှင့်အချိန်"
       }
     },
     "cando-266": {
@@ -5967,6 +9156,13 @@
         "work": "မူကြိုလိုအပ်သည့်အကြောင်း",
         "deadline": "တင်ရမည့်နောက်ဆုံးရက်",
         "place": "တင်ရမည့်နေရာနှင့် စာရွက်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "子ども": "ကလေး",
+        "入園したい時期": "စတင်အပ်လိုသည့်အချိန်",
+        "仕事": "အလုပ်"
       }
     },
     "cando-295": {
@@ -5979,6 +9175,13 @@
         "japanese": "ကလေး၏ ဂျပန်စာအရည်အချင်း",
         "support": "ကူညီမှုအမျိုးအစား",
         "next": "နောက်လုပ်ရမည့်အရာ"
+      },
+      "info": {
+        "保護者の名前": "မိဘအမည်",
+        "子どもの名前・学年": "ကလေးအမည်・အတန်း",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "子どもの日本語": "ကလေး၏ ဂျပန်စကား"
       }
     },
     "cando-299": {
@@ -5992,6 +9195,13 @@
         "question": "မေးလိုသည့်အရာ",
         "explain": "ထိုနေ့ လုပ်ရမည့်အရာနှင့် ပစ္စည်း",
         "phone": "ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "子どもの名前": "ကလေးအမည်",
+        "保護者の名前": "မိဘအမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "通知に書いてある健診の日": "အကြောင်းကြားစာပါ ကျန်းမာရေးစစ်ဆေးရက်",
+        "聞きたいこと": "မေးလိုသည့်အရာ"
       }
     },
     "cando-316": {
@@ -6004,6 +9214,12 @@
         "form": "အကောင့်မှ အလိုအလျောက်ပေးချေရန် လျှောက်လွှာ",
         "bank": "ငွေဖြတ်မည့်အကောင့်",
         "phone": "ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "子供の名前・学年": "ကလေးအမည်・အတန်း",
+        "保護者の名前": "မိဘအမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "使いたい口座": "သုံးလိုသည့်ဘဏ်အကောင့်"
       }
     },
     "cando-331": {
@@ -6017,6 +9233,13 @@
         "interpreter": "စကားပြန် အတူလာ/မလာ",
         "date": "တိုင်ပင်မည့်ရက်နှင့် အချိန်",
         "phone": "ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "自分の名前（保護者）": "ကိုယ့်အမည်（မိဘ）",
+        "子ども": "ကလေး",
+        "担任": "အတန်းပိုင်ဆရာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "通訳": "စကားပြန်"
       }
     },
     "cando-348": {
@@ -6030,6 +9253,13 @@
         "needs": "ကလေး၏ အခြေအနေ",
         "answer": "အတန်းနှင့် ကူညီမှုအခြေအနေ",
         "next": "လာကြည့်မည့်ရက်နှင့် ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "保護者の名前": "မိဘအမည်",
+        "子どもの名前・年齢": "ကလေးအမည်・အသက်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "子どものようす": "ကလေး၏ အခြေအနေ"
       }
     },
     "cando-356": {
@@ -6043,6 +9273,13 @@
         "search": "အလုပ်ရှာပုံ",
         "referral": "အလုပ်လျှောက်ရန် လုပ်ငန်းစဉ်",
         "report": "ရလဒ် အကြောင်းကြားခြင်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "在留資格": "နေထိုင်ခွင့်အမျိုးအစား",
+        "希望の仕事": "လုပ်လိုသည့်အလုပ်"
       }
     },
     "cando-380": {
@@ -6056,6 +9293,13 @@
         "jobtype": "လုပ်လိုသည့်အလုပ်နှင့် လုပ်ပုံ",
         "experience": "အတွေ့အကြုံ・ဂျပန်စာ",
         "explain": "အလုပ်လုပ်ပုံ ရှင်းပြချက်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "在留資格": "နေထိုင်ခွင့်အမျိုးအစား",
+        "働ける時間": "အလုပ်လုပ်နိုင်သည့်အချိန်",
+        "希望": "လိုလားချက်",
+        "経験": "အလုပ်အတွေ့အကြုံ"
       }
     },
     "cando-424": {
@@ -6068,6 +9312,13 @@
         "arrival": "ရောက်မည့်ခန့်မှန်းချိန်",
         "work": "ဒီနေ့ အစီအစဉ်・အလုပ်",
         "contact": "ဆက်သွယ်ရန်နှင့် နောက်တစ်ကြိမ် ဆက်သွယ်ခြင်း"
+      },
+      "info": {
+        "名前・部署": "အမည်・ဌာန",
+        "今いる場所": "ယခုရောက်နေသည့်နေရာ",
+        "着く時間の見込み": "ရောက်မည့်ခန့်မှန်းအချိန်",
+        "今日の予定": "ယနေ့အစီအစဉ်",
+        "携帯電話": "မိုဘိုင်းဖုန်း"
       }
     },
     "cando-433": {
@@ -6078,6 +9329,12 @@
         "status": "ယခု ဘာလုပ်နေလဲ",
         "return": "ပြန်လာမည့်အချိန်",
         "closing": "နောက်ဆုံး နှုတ်ဆက်စကား"
+      },
+      "info": {
+        "自分の名前・部署": "ကိုယ့်အမည်・ဌာန",
+        "離席中の同僚": "နေရာမှာမရှိသည့်လုပ်ဖော်ကိုင်ဖက်",
+        "田中さんが戻る時間": "Tanaka-san ပြန်လာမည့်အချိန်",
+        "電話をかけてきた人": "ဖုန်းဆက်လာသူ"
       }
     },
     "cando-443": {
@@ -6091,6 +9348,13 @@
         "demand": "တစ်ဖက်၏ တောင်းဆိုချက်",
         "reply": "တစ်ဖက်သို့ ပြန်ကြားချက်",
         "next": "နောက်လုပ်မည့်အရာ"
+      },
+      "info": {
+        "自分": "ကိုယ်တိုင်",
+        "取引先と担当者": "ဖောက်သည်ကုမ္ပဏီနှင့်တာဝန်ခံ",
+        "トラブルの内容": "ပြဿနာအကြောင်း",
+        "先方の要望": "တစ်ဖက်၏ တောင်းဆိုချက်",
+        "自分がしたこと": "ကိုယ်လုပ်ခဲ့သည့်အရာ"
       }
     },
     "cando-563": {
@@ -6104,6 +9368,13 @@
         "card": "နေထိုင်ခွင့်ကတ်",
         "school": "ကလေး ကျောင်းပြောင်းခြင်း",
         "next": "နောက်ထပ် လုပ်ငန်းစဉ်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "新しい住所（引っ越した日：先週の土曜日）": "လိပ်စာအသစ်（ပြောင်းသည့်ရက်：ပြီးခဲ့သည့်စနေနေ့）",
+        "前の住所": "ယခင်လိပ်စာ",
+        "家族": "မိသားစု",
+        "電話番号": "ဖုန်းနံပါတ်"
       }
     },
     "cando-566": {
@@ -6116,6 +9387,13 @@
         "place": "ကောင်တာနေရာ",
         "ticket": "နံပါတ်စာရွက်နှင့် စောင့်ပုံ",
         "other": "အခြားကိစ္စ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "新しい住所": "လိပ်စာအသစ်",
+        "前の住所": "ယခင်လိပ်စာ",
+        "今日の用事": "ယနေ့လာရသည့်ကိစ္စ",
+        "持っているもの": "ပါလာသည့်ပစ္စည်း"
       }
     },
     "cando-569": {
@@ -6128,6 +9406,13 @@
         "copies": "လိုအပ်သည့် အရေအတွက်",
         "id": "မိမိကိုယ်ကို အတည်ပြုခြင်း",
         "fee": "ကြေးနှင့် လက်ခံယူခြင်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "生年月日": "မွေးသက္ကရာဇ်",
+        "住所": "လိပ်စာ",
+        "必要な通数": "လိုအပ်သည့်အရေအတွက်",
+        "持っている物": "ပါလာသည့်ပစ္စည်း"
       }
     },
     "cando-577": {
@@ -6140,6 +9425,12 @@
         "name": "အမည်နှင့် လိပ်စာ အတည်ပြု",
         "method": "ပေးချေလိုသည့်နည်း",
         "account": "အကောင့်မှ ပေးချေရန် လုပ်ငန်းစဉ်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "持っている書類": "ပါလာသည့်စာရွက်စာတမ်း",
+        "使っている金融機関": "သုံးနေသည့်ဘဏ်"
       }
     },
     "cando-601": {
@@ -6153,6 +9444,13 @@
         "procedure": "လုပ်ရမည့်အဆင့်နှင့် လိုအပ်သည့်အရာ",
         "fee": "ကြေးနှင့် ရမည့်ပစ္စည်း",
         "name": "အမည်နှင့် ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "犬": "ခွေး",
+        "予防注射": "ကာကွယ်ဆေးထိုးခြင်း"
       }
     },
     "cando-639": {
@@ -6166,6 +9464,13 @@
         "household": "အတူနေမိသားစု",
         "payment": "အာမခံကြေး ပေးချေပုံ",
         "contact": "ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "前の会社と、やめた日": "ယခင်ကုမ္ပဏီနှင့် ထွက်သည့်ရက်",
+        "家族": "မိသားစု"
       }
     },
     "cando-651": {
@@ -6179,6 +9484,13 @@
         "name": "အမည်",
         "phone": "ဖုန်းနံပါတ်",
         "howto": "ပါဝင်ပုံ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "参加できる時間": "တက်နိုင်သည့်အချိန်",
+        "日本語のレベル・目的": "ဂျပန်စာအဆင့်・လေ့လာရသည့်အကြောင်း"
       }
     },
     "cando-654": {
@@ -6191,6 +9503,13 @@
         "phone": "ဖုန်းနံပါတ်",
         "level": "ဂျပန်စာအဆင့်",
         "howknew": "အတန်းကို ဘယ်လိုသိခဲ့လဲ"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "参加したい教室": "တက်လိုသည့်စာသင်ဝိုင်း",
+        "教室を知った方法": "စာသင်ဝိုင်းကို သိခဲ့ပုံ"
       }
     },
     "cando-731": {
@@ -6204,6 +9523,13 @@
         "facility": "အခန်း ရှင်းပြချက်",
         "food": "စားသောက်ခြင်း",
         "name": "အမည်နှင့် ဆက်သွယ်ရန်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "グループ": "အဖွဲ့",
+        "使いたい日・人数": "သုံးလိုသည့်ရက်・လူဦးရေ",
+        "やりたいこと": "လုပ်လိုသည့်အရာ"
       }
     },
     "cando-732": {
@@ -6216,6 +9542,12 @@
         "duedate": "ပြန်အပ်ရက် အတည်ပြု",
         "return": "ပြန်အပ်ပုံ",
         "other": "အခြားမေးခွန်း"
+      },
+      "info": {
+        "名前": "အမည်",
+        "利用者カードの番号": "စာကြည့်တိုက်ကတ်နံပါတ်",
+        "借りたい本": "ငှားလိုသည့်စာအုပ်",
+        "聞きたいこと": "မေးလိုသည့်အရာ"
       }
     },
     "cando-735": {
@@ -6228,6 +9560,13 @@
         "speed": "အလျင်လို/မလို",
         "record": "မှတ်တမ်းနှင့် ပျောက်ပါက လျော်ကြေး",
         "confirm": "အတည်ပြု"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "送りたいもの": "ပို့လိုသည့်ပစ္စည်း",
+        "もうすぐあること": "မကြာမီဖြစ်မည့်ကိစ္စ"
       }
     },
     "cando-746": {
@@ -6240,6 +9579,13 @@
         "plan": "အစီအစဉ် ရှင်းပြချက်",
         "documents": "မိမိကိုယ်ကို အတည်ပြုစာရွက်နှင့် ပေးချေပုံ",
         "construction": "တပ်ဆင်မည့်ရက်"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "使い方": "အသုံးပြုပုံ",
+        "持っているもの": "ပါလာသည့်ပစ္စည်း"
       }
     },
     "cando-763": {
@@ -6253,6 +9599,13 @@
         "options": "ထပ်ဖြည့်ဝန်ဆောင်မှု",
         "payment": "ပေးချေပုံ",
         "confirm": "အကြောင်းအရာ အတည်ပြု"
+      },
+      "info": {
+        "名前": "အမည်",
+        "住所": "လိပ်စာ",
+        "今の電話番号（乗り換え）": "လက်ရှိဖုန်းနံပါတ်（ကုမ္ပဏီပြောင်းရန်）",
+        "使い方": "အသုံးပြုပုံ",
+        "持っているもの": "ပါလာသည့်ပစ္စည်း"
       }
     },
     "cando-767": {
@@ -6266,6 +9619,13 @@
         "phone": "ပြန်ဆက်ရမည့်ဖုန်းနံပါတ်",
         "time": "ဖုန်းကိုင်နိုင်သည့်အချိန်",
         "confirm": "ပြန်ပြောပြီး အတည်ပြု"
+      },
+      "info": {
+        "名前": "အမည်",
+        "電話番号": "ဖုန်းနံပါတ်",
+        "話したい人": "စကားပြောလိုသူ",
+        "伝言": "မှာကြားချက်",
+        "電話がつながる時間": "ဖုန်းကိုင်နိုင်သည့်အချိန်"
       }
     }
   }

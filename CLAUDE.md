@@ -17,7 +17,7 @@
 
 ## 構成
 
-- `shared/` 共通: `types.ts`、`scenes.ts`（手書きの場面カード＋`data/scenes.generated.json` の下書き。`keyterms` は文字起こしに渡す語、`status` は先生が確かめたか）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`cando.ts`
+- `shared/` 共通: `types.ts`、`scenes.ts`（手書きの場面カード＋`data/scenes.generated.json` の下書き。`keyterms` は文字起こしに渡す語、`status` は先生が確かめたか）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`persona.ts`（練習で名乗る架空の名前。画面の言語ごと。場面カードの 〔名前〕 を埋める）、`cando.ts`
 - `worker/` Cloudflare Worker: `/api/scenes`、`/api/phone-candos`、`/api/turn`、`/api/akapen`、`/api/kanpe`、`/api/stt`（ElevenLabs Scribe）、`/api/tts`、`/api/share`（カンペを KV に置く・取り出す）
 - `src/` Vue 3: `SceneList.vue` → `Practice.vue` → `Review.vue`（赤ペン、案A の添削。2回目以降は前回の赤ペンの ○△）→ `KanpeView.vue`（QR）。`KanpeSheet.vue` はカンペの表示、`LiveKanpe.vue` は QR から開く本番用（`/k/<ID>`。`lib/share.ts` が `/api/share` で KV に30日置く）。`lib/sample.ts` は手で作った見本
 - `eval/` 評価の会話（`cases/*.json`、正解は作り手が入れる。`draft` は仮）と比べ方（`score.ts`）

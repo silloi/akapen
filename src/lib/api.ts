@@ -48,11 +48,15 @@ export const api = {
     call<Kanpe>("/api/kanpe", post({ sceneId, lang, fixes })),
   translate: (lang: string, texts: string[]) =>
     call<{ texts: string[] }>("/api/translate", post({ lang, texts })).then((r) => r.texts),
-  stt: (sceneId: string, audio: Blob) =>
-    call<{ text: string }>(`/api/stt?scene=${encodeURIComponent(sceneId)}`, {
-      method: "POST",
-      body: audio,
-    }),
+  /** lang は、練習で名乗る名前（画面の言語ごとに違う）を文字起こしの語に入れるため */
+  stt: (sceneId: string, audio: Blob, lang: string) =>
+    call<{ text: string }>(
+      `/api/stt?scene=${encodeURIComponent(sceneId)}&lang=${encodeURIComponent(lang)}`,
+      {
+        method: "POST",
+        body: audio,
+      },
+    ),
   async tts(text: string): Promise<Blob | null> {
     const res = await fetch("/api/tts", post({ text }));
     return res.ok ? await res.blob() : null;
