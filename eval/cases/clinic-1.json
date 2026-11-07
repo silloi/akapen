@@ -72,8 +72,33 @@
         "turn": 1,
         "quote": "あの",
         "reason": "言いよどみ"
+      },
+      {
+        "turn": 1,
+        "quote": "あの、予約したいです。初めてです。",
+        "reason": ""
+      },
+      {
+        "turn": 3,
+        "quote": "チャン・ウェイです。1995年4月10日です。",
+        "reason": ""
+      },
+      {
+        "turn": 5,
+        "quote": "3日前から、せきが出ます。",
+        "reason": ""
+      },
+      {
+        "turn": 9,
+        "quote": "はい、5時、お願いします。",
+        "reason": ""
+      },
+      {
+        "turn": 11,
+        "quote": "はい、わかりました。",
+        "reason": ""
       }
     ]
   },
-  "goldBy": "draft"
+  "goldBy": "teacher"
 }

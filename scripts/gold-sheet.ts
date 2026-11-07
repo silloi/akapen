@@ -47,7 +47,10 @@ for (const c of cases) {
     out.push(`| ${m.rank} | ${KIND[m.kind]} | ${m.turn} | ${m.quote} |`);
   if (c.gold.noMark.length) {
     out.push("", "直さなくていい所（赤を入れたら減点）:");
-    for (const n of c.gold.noMark) out.push(`- ${n.turn}「${n.quote}」: ${n.reason}`);
+    for (const n of c.gold.noMark)
+      out.push(
+        `- ${n.turn}「${n.quote}」: ${n.reason || "（理由の記入なし。発話をまるごと直さないとした）"}`,
+      );
   }
   if (c.goldNote) out.push("", `作り手のメモ: ${c.goldNote}`);
   out.push("");

@@ -99,8 +99,13 @@
         "turn": 5,
         "quote": "さん、3丁目",
         "reason": "言い直し"
+      },
+      {
+        "turn": 7,
+        "quote": "れいぞうこ、と、いす。いすは、木の。",
+        "reason": ""
       }
     ]
   },
-  "goldBy": "draft"
+  "goldBy": "teacher"
 }

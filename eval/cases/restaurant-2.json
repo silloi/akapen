@@ -51,8 +51,13 @@
         "turn": 1,
         "quote": "あの",
         "reason": "言いよどみ"
+      },
+      {
+        "turn": 3,
+        "quote": "今週の土曜日、夜の7時、4人です。子どもが1人います。",
+        "reason": ""
       }
     ]
   },
-  "goldBy": "draft"
+  "goldBy": "teacher"
 }
