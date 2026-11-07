@@ -8,9 +8,12 @@
   // @anthropic-ai/sdk が Node 互換 API を使うため
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
-    // Vue の SPA。/api/* だけ Worker が先に受け取る
+    // Vue の SPA。/api/* だけ Worker が先に受け取る。
+    // /media/*（トップの動画）も Worker を通す: 静的ファイルは Range（一部だけの取得）に 206 で答えず、
+    // iPhone・iPad の Safari は 206 が返らない動画を流さないため（worker/media.ts）
+    "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"],
+    "run_worker_first": ["/api/*", "/media/*"],
   },
   "vars": {
     "CLAUDE_MODEL": "claude-opus-5-5",

@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import { computed, ref, watchEffect } from "vue";
 import type { Kanpe, Mark } from "../../shared/types.ts";
-import { t } from "../lib/i18n.ts";
+import { loadFont, t } from "../lib/i18n.ts";
 
-defineProps<{
+const props = defineProps<{
   title: string;
   partner: string;
   kanpe: Kanpe;
@@ -13,7 +14,10 @@ defineProps<{
   live?: boolean;
 }>();
 
-import { ref } from "vue";
+/** 訳の言語（画面の言語と違うことがある）。訳に lang を付け、その言語の書体を読み込む */
+const trLang = computed(() => (props.kanpe.lang === "easy" ? "ja" : props.kanpe.lang));
+watchEffect(() => loadFont(props.kanpe.lang));
+
 /** 本番用でたたむ（開いているものだけ true） */
 const open = ref<Record<string, boolean>>({
   asked: false,
@@ -63,7 +67,7 @@ const SECTIONS = [
         >
           <span class="ja">{{ l.ja }}</span>
           <span v-if="showYomi && l.yomi" class="yomi">{{ l.yomi }}</span>
-          <span class="tr">{{ l.tr }}</span>
+          <span class="tr" :lang="trLang">{{ l.tr }}</span>
         </li>
       </ul>
     </section>
@@ -87,7 +91,7 @@ const SECTIONS = [
       <ul v-show="!live || open.memo">
         <li v-for="(m, i) in kanpe.memo" :key="i">
           <span class="ja">{{ m.label }}</span>
-          <span class="tr">{{ m.tr }}</span>
+          <span class="tr" :lang="trLang">{{ m.tr }}</span>
           <span class="blank" aria-hidden="true"></span>
         </li>
       </ul>

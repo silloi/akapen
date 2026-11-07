@@ -58,6 +58,24 @@
     "Zen Kaku Gothic New", "Noto Sans Myanmar", "Hiragino Sans", "Myanmar Sangam MN",
     "Myanmar Text", sans-serif;
 }
+/* カンペの訳は、画面の言語と違うことがある（日本語の画面でベトナム語のカンペなど）。訳の言語の書体で
+   （KanpeSheet.vue が訳に lang を付け、loadFont で読み込む） */
+.kanpe .tr:lang(vi) {
+  font-family: "Be Vietnam Pro", "Zen Kaku Gothic New", "Hiragino Sans", sans-serif;
+}
+.kanpe .tr:lang(zh) {
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Zen Kaku Gothic New", sans-serif;
+}
+.kanpe .tr:lang(ko) {
+  font-family:
+    "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", "Zen Kaku Gothic New", sans-serif;
+}
+.kanpe .tr:lang(ne) {
+  font-family: "Noto Sans Devanagari", "Devanagari Sangam MN", "Nirmala UI", sans-serif;
+}
+.kanpe .tr:lang(my) {
+  font-family: "Noto Sans Myanmar", "Myanmar Sangam MN", "Myanmar Text", sans-serif;
+}
 /* 手書きの書体は日本語の赤ペンだけ。訳された画面の言葉（.tx）は、その言語の本文の書体で */
 :root:not([data-lang="ja"]):not([data-lang="easy"]) .tx {
   font-family: var(--body);

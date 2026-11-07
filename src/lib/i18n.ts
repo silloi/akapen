@@ -48,8 +48,32 @@ export const JA = {
   "home.lead2": "に赤ペンを入れます。最後に、本番で手元に置くカンペを作ります。",
   "home.note": "日本語のテストではありません。文法の正しさより、用件が伝わったかを先に見ます。",
   "home.choose": "場面をえらぶ",
-  "home.more": "ほかの場面",
   "home.filter.all": "すべて",
+  "home.filter.topic": "分野",
+  "home.filter.level": "レベル",
+  "home.filter.checked": "先生が確かめた場面だけ",
+  "home.filter.reset": "しぼりこみをやめる",
+  "home.empty": "この組み合わせの場面は、まだありません。",
+  "home.checked": "先生が確かめた",
+  "home.draftNote":
+    "「先生が確かめた」の付いていない場面は、Claude が生活Can do から下書きし、検査役の Claude が確かめたものです。日本語教師は、まだ確かめていません。",
+  // 生活Can do の大分類（場面の分け方。元の言葉のまま）
+  "major.1": "健康・安全に暮らす",
+  "major.2": "住居を確保・維持する",
+  "major.3": "消費活動を行う",
+  "major.4": "目的地に移動する",
+  "major.5": "子育て・教育を行う",
+  "major.6": "働く",
+  "major.7": "人とかかわる",
+  "major.8": "社会の一員となる",
+  "major.9": "自身を豊かにする",
+  "major.10": "情報を収集・発信する",
+  // トップの動画（実際の画面を順に見せる）
+  "hero.langs": "11のことば",
+  "hero.alt":
+    "アプリの画面の動画。電話の予行演習、会話の記録に入った赤ペン、本番のカンペ、いろいろなことばの画面を順に見せます。",
+  "hero.pause": "動画を止める",
+  "hero.play": "動画を再生する",
   "home.sample": "見本の赤ペンを見る",
   "home.sampleNote": "手で作った見本の会話です",
   "home.noClaude":
@@ -201,18 +225,26 @@ const FONTS: Partial<Record<UiLang, string>> = {
   ne: "Noto+Sans+Devanagari:wght@400;500;700",
   my: "Noto+Sans+Myanmar:wght@400;500;700",
 };
-const loaded = new Set<UiLang>();
-function applyLang(l: UiLang): void {
+const loaded = new Set<string>();
+/**
+ * その言語の書体を読み込む（無ければ何もしない）。画面の言語のほか、カンペの訳の言語にも使う
+ * （日本語の画面でベトナム語のカンペを作ると、訳は日本語の書体では声調の記号が崩れる）
+ */
+export function loadFont(l: string): void {
   if (typeof document === "undefined") return;
-  document.documentElement.lang = l === "easy" ? "ja" : l;
-  document.documentElement.dataset.lang = l;
-  const f = FONTS[l];
+  const f = FONTS[l as UiLang];
   if (!f || loaded.has(l)) return;
   loaded.add(l);
   const link = document.createElement("link");
   link.rel = "stylesheet";
   link.href = `https://fonts.googleapis.com/css2?family=${f}&display=swap`;
   document.head.appendChild(link);
+}
+function applyLang(l: UiLang): void {
+  if (typeof document === "undefined") return;
+  document.documentElement.lang = l === "easy" ? "ja" : l;
+  document.documentElement.dataset.lang = l;
+  loadFont(l);
 }
 applyLang(lang.value);
 

@@ -1,0 +1,14 @@
+{
+  "mp4": "/media/hero-cbcabacb7c.mp4",
+  "webm": "/media/hero-87d2ea694c.webm",
+  "poster": "/media/hero-66b949d1a2.webp",
+  "width": 660,
+  "height": 826,
+  "duration": 19.1,
+  "segments": [
+    { "key": "practice", "start": 0 },
+    { "key": "review", "start": 4.59 },
+    { "key": "kanpe", "start": 8.97 },
+    { "key": "langs", "start": 14.61 }
+  ]
+}

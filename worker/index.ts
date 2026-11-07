@@ -31,6 +31,7 @@ import { findScene, SAFETY_CANDO_NOS, SCENES } from "../shared/scenes.ts";
 import type { Kanpe, KanpeLang, Mark, Turn } from "../shared/types.ts";
 import { normalizeAkapen, type RawAkapen } from "../shared/validate.ts";
 import { errorResponse, HttpError, json, readJson } from "./http.ts";
+import { serveMedia } from "./media.ts";
 
 const MAX_TURNS = 40;
 const MAX_TEXT = 1000;
@@ -299,6 +300,7 @@ async function handleShared(id: string, env: Env): Promise<Response> {
 export default {
   async fetch(request, env): Promise<Response> {
     const { pathname } = new URL(request.url);
+    if (pathname.startsWith("/media/")) return serveMedia(request, env.ASSETS);
     try {
       const shared = /^\/api\/share\/([^/]+)$/.exec(pathname);
       if (shared) return await handleShared(shared[1], env);
