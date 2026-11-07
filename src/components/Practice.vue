@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { computed, nextTick, onBeforeUnmount, onMounted, ref } from "vue";
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from "vue";
 import { randomStyle, STYLE_LABELS, type PartnerStyle, type Speed } from "../../shared/prompts.ts";
 import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 import { fillPersona } from "../../shared/persona.ts";
-import { askTr, infoTr, lang, sceneTr, t } from "../lib/i18n.ts";
+import { furiganaReady, furiganaSegments, loadFurigana } from "../lib/furigana.ts";
+import { askTr, infoTr, isJa, lang, sceneTr, t } from "../lib/i18n.ts";
 import {
   MIN_RECORDING_BYTES,
   Recorder,
@@ -44,6 +45,76 @@ const recorder = new Recorder();
 const starting = ref(false);
 /** 端末が相手の声を流すのを断った（iPad などで、操作の前に鳴らそうとしたとき） */
 const audioBlocked = ref(false);
+/** ふりがな（Furifont）。はじめはオン。この端末に覚えておく */
+const FURI_KEY = "akapen.furigana";
+const furigana = ref(
+  (() => {
+    try {
+      return localStorage.getItem(FURI_KEY) !== "0";
+    } catch {
+      return true;
+    }
+  })(),
+);
+watch(
+  furigana,
+  (on) => {
+    try {
+      localStorage.setItem(FURI_KEY, on ? "1" : "0");
+    } catch {
+      // 覚えられなくてもよい
+    }
+    if (on) void loadFurigana();
+  },
+  { immediate: true },
+);
+/** 文を、読みを選んだ漢字とそれ以外に分ける（送りがなの表を読み終えたら描き直す） */
+function segs(text: string) {
+  void furiganaReady.value;
+  return furiganaSegments(text);
+}
+
+/**
+ * 文をタップしたときの意味。日本語・やさしい日本語の画面では、やさしい日本語に言い換える。
+ * 同じ文は覚えておき、取り直さない。
+ */
+const glossLang = computed(() =>
+  lang.value === "ja" || lang.value === "easy" ? "easy" : lang.value,
+);
+const shown = ref<Record<number, boolean>>({});
+const glosses = ref<Record<number, string>>({});
+const glossCache = new Map<string, string>();
+async function toggleGloss(i: number) {
+  if (shown.value[i]) {
+    shown.value[i] = false;
+    return;
+  }
+  const text = turns.value[i]?.text;
+  if (!text) return;
+  shown.value[i] = true;
+  const l = glossLang.value;
+  const key = `${l}\n${text}`;
+  const hit = glossCache.get(key);
+  if (hit !== undefined) {
+    glosses.value[i] = hit;
+    return;
+  }
+  delete glosses.value[i];
+  try {
+    const [g] = await api.gloss(l, [text]);
+    const v = g?.trim() || t("practice.glossError");
+    if (g?.trim()) glossCache.set(key, v);
+    if (glossLang.value === l) glosses.value[i] = v;
+  } catch {
+    glosses.value[i] = t("practice.glossError");
+  }
+}
+// 画面の言語を変えたら、出している意味を閉じる（前の言語のままにしない）
+watch(lang, () => {
+  shown.value = {};
+  glosses.value = {};
+});
+
 /** URL に #debug を付けて開くと、声の入出力の記録を出す（実機の不具合を調べるため） */
 const debug = (() => {
   try {
@@ -217,6 +288,29 @@ async function replayLast() {
   await say(last.text, true);
 }
 
+/** 赤ペンへ進めるか（文字にしている途中・相手が考えている途中は待つ） */
+const canFinish = computed(
+  () =>
+    turns.value.some((x) => x.speaker === "me") &&
+    !starting.value &&
+    state.value !== "transcribing" &&
+    state.value !== "thinking",
+);
+/** 赤ペンへ。相手が話している途中でも、聞き取りの途中でも進める（声は止め、録った分は捨てる） */
+async function finish() {
+  if (!canFinish.value) return;
+  stopSpeaking();
+  if (state.value === "recording") await discardRecording();
+  state.value = "idle";
+  emit("finish", turns.value, style.value);
+}
+/** 場面の一覧へ。話した後なら、練習が消えることを確かめる */
+function back() {
+  if (turns.value.some((x) => x.speaker === "me") && !window.confirm(t("practice.backConfirm")))
+    return;
+  emit("back");
+}
+
 /** キーボードに切り替えたら、聞き取りはやめる */
 function toggleKeyboard() {
   showKeyboard.value = !showKeyboard.value;
@@ -313,6 +407,10 @@ const stateLabel = computed<Record<string, string>>(() => ({
           </option>
         </select>
       </label>
+      <label class="small check">
+        <input v-model="furigana" type="checkbox" />
+        {{ t("practice.furigana") }}
+      </label>
     </div>
   </section>
 
@@ -346,6 +444,9 @@ const stateLabel = computed<Record<string, string>>(() => ({
     </aside>
 
     <section class="call card">
+      <p v-if="turns.length" class="small muted tap-hint tx">
+        {{ t(isJa ? "practice.tapToEasy" : "practice.tapToTranslate") }}
+      </p>
       <div ref="logEl" class="log" aria-live="polite">
         <p v-if="!health.claude" class="muted">
           {{ t("practice.noClaude") }}
@@ -354,7 +455,28 @@ const stateLabel = computed<Record<string, string>>(() => ({
           <span class="who">{{
             t(tn.speaker === "partner" ? "common.partner" : "common.me")
           }}</span>
-          <p>{{ tn.text }}</p>
+          <!-- タップすると意味が出る。ふりがなは Furifont（読みを選んだ漢字には salt をかける） -->
+          <p
+            :class="['line', { furi: furigana }]"
+            role="button"
+            tabindex="0"
+            :aria-expanded="shown[i] ? 'true' : 'false'"
+            @click="toggleGloss(i)"
+            @keydown.enter.prevent="toggleGloss(i)"
+          >
+            <template v-if="furigana">
+              <span
+                v-for="(sg, k) in segs(tn.text)"
+                :key="k"
+                :style="sg.salt ? { fontFeatureSettings: `'salt' ${sg.salt}` } : undefined"
+                >{{ sg.text }}</span
+              >
+            </template>
+            <template v-else>{{ tn.text }}</template>
+          </p>
+          <p v-if="shown[i]" :class="['gloss', glossLang === 'easy' ? { furi: furigana } : 'tx']">
+            {{ glosses[i] ?? "…" }}
+          </p>
         </div>
         <p v-if="ended" class="ended hand tx">
           {{ t(scene.channel === "counter" ? "practice.endedCounter" : "practice.ended") }}
@@ -368,9 +490,15 @@ const stateLabel = computed<Record<string, string>>(() => ({
       <p v-if="error" class="error small">{{ error }}</p>
       <pre v-if="debug" class="debug">{{ voiceLog.join("\n") }}</pre>
 
-      <div class="controls no-print">
+      <!-- 電話が終わったら、すぐ赤ペンへ進めるボタンだけにする（「もう一度聞く」の押しまちがいを防ぐ） -->
+      <div v-if="ended" class="done no-print">
+        <button class="btn red" type="button" :disabled="!canFinish" @click="finish">
+          {{ t("practice.toReview") }}
+        </button>
+      </div>
+      <div v-else class="controls no-print">
         <button
-          v-if="health.stt && !ended"
+          v-if="health.stt"
           :class="['mic', { rec: state === 'recording' }]"
           type="button"
           :disabled="!health.claude || starting || state === 'transcribing' || state === 'thinking'"
@@ -428,14 +556,9 @@ const stateLabel = computed<Record<string, string>>(() => ({
   </div>
 
   <div class="foot no-print">
-    <button class="btn ghost" type="button" @click="emit('back')">{{ t("practice.back") }}</button>
-    <button
-      class="btn red"
-      type="button"
-      :disabled="!turns.some((t) => t.speaker === 'me') || state !== 'idle'"
-      @click="emit('finish', turns, style)"
-    >
-      {{ t(ended ? "practice.toReview" : "practice.toReviewEarly") }}
+    <button class="btn ghost" type="button" @click="back">{{ t("practice.back") }}</button>
+    <button v-if="!ended" class="btn red" type="button" :disabled="!canFinish" @click="finish">
+      {{ t("practice.toReviewEarly") }}
     </button>
   </div>
 </template>
@@ -559,18 +682,44 @@ select {
   gap: 2px;
   max-width: 85%;
 }
-.turn p {
+.turn .line {
   border-radius: 12px;
   padding: 8px 12px;
+  cursor: pointer;
 }
-.turn.partner p {
+.turn.partner .line {
   background: var(--other);
 }
 .turn.me {
   justify-self: end;
 }
-.turn.me p {
+.turn.me .line {
   border: 1px solid var(--line);
+}
+/* タップしたときの意味（吹き出しの下に小さく） */
+.gloss {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 2px 6px 0;
+}
+.turn.me .gloss {
+  text-align: right;
+}
+.tap-hint {
+  margin: 0;
+}
+.check {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+.done {
+  display: flex;
+  justify-content: center;
+}
+.done .btn {
+  font-size: 18px;
+  padding: 12px 32px;
 }
 .who {
   font-size: 11px;

@@ -1,3 +1,21 @@
+/* ふりがなの書体（Furifont、Anthony Fu。SIL OFL 1.1。public/fonts/furifont/）。
+   日本語の字だけに使い（unicode-range）、数字やラテン文字は本文の書体のまま。
+   使う所（.furi）が画面に出たときだけ読み込まれる。読み込むまでは本文の書体で出す（swap） */
+@font-face {
+  font-family: "Furifont Sans";
+  src: url("/fonts/furifont/FurifontSansVF.woff2") format("woff2");
+  font-weight: 250 900;
+  font-display: swap;
+  unicode-range:
+    U+2E80-2FDF, U+3000-30FF, U+3190-319F, U+31F0-31FF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF,
+    U+FE00-FE0F, U+FF00-FFEF, U+20000-3FFFF, U+E0100-E01EF;
+}
+/* ふりがなを付ける文。読みが漢字の上に入るので、行の間を広げる（1.6 より狭いと読みが切れる） */
+.furi {
+  font-family: "Furifont Sans", var(--body);
+  line-height: 2.1;
+}
+
 /* 色はここのトークンだけを使う。赤ペンの赤は、白い紙に入れる赤 */
 :root {
   --bg: #f6f7f8;

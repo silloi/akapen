@@ -20,6 +20,7 @@ import {
   type PartnerStyle,
   type Speed,
   STYLE_LABELS,
+  GLOSS_SYSTEM,
   TRANSLATE_SYSTEM,
   UI_LANG_NAMES,
 } from "../shared/prompts.ts";
@@ -138,9 +139,17 @@ async function handleKanpe(request: Request, env: Env): Promise<Response> {
 
 /** 赤ペンの説明文を、その人の言語に訳す（会話の引用や「次はこう言う」の日本語はそのまま。意味だけを添える） */
 async function handleTranslate(request: Request, env: Env): Promise<Response> {
-  const body = await readJson<{ lang: string; texts: string[] }>(request);
+  const body = await readJson<{ lang: string; texts: string[]; kind?: string }>(request);
   const lang = typeof body.lang === "string" ? body.lang : "";
-  if (!(lang in UI_LANG_NAMES)) throw new HttpError(400, "bad_lang", "言語が選べません");
+  // utterance: 練習の会話の一文（タップしたとき）。やさしい日本語（easy）への言い換えもできる
+  const utterance = body.kind === "utterance";
+  const langName =
+    utterance && lang === "easy"
+      ? "やさしい日本語"
+      : lang in UI_LANG_NAMES
+        ? UI_LANG_NAMES[lang as keyof typeof UI_LANG_NAMES]
+        : "";
+  if (!langName) throw new HttpError(400, "bad_lang", "言語が選べません");
   const texts = Array.isArray(body.texts)
     ? body.texts
         .filter((x) => typeof x === "string")
@@ -151,11 +160,11 @@ async function handleTranslate(request: Request, env: Env): Promise<Response> {
   const r = await callJson<{ texts: string[] }>(client(env), {
     model: env.CLAUDE_MODEL,
     effort: "low",
-    system: TRANSLATE_SYSTEM,
+    system: utterance ? GLOSS_SYSTEM : TRANSLATE_SYSTEM,
     messages: [
       {
         role: "user",
-        content: `## 言語\n${UI_LANG_NAMES[lang as keyof typeof UI_LANG_NAMES]}（${lang}）\n\n## 文（順番どおり、同じ数だけ返す）\n${JSON.stringify(texts)}`,
+        content: `## 言語\n${langName}（${lang}）\n\n## 文（順番どおり、同じ数だけ返す）\n${JSON.stringify(texts)}`,
       },
     ],
     schema: {

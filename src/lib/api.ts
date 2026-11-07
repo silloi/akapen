@@ -48,6 +48,11 @@ export const api = {
     call<Kanpe>("/api/kanpe", post({ sceneId, lang, fixes })),
   translate: (lang: string, texts: string[]) =>
     call<{ texts: string[] }>("/api/translate", post({ lang, texts })).then((r) => r.texts),
+  /** 会話の一文の意味（lang が easy なら、やさしい日本語に言い換える） */
+  gloss: (lang: string, texts: string[]) =>
+    call<{ texts: string[] }>("/api/translate", post({ lang, texts, kind: "utterance" })).then(
+      (r) => r.texts,
+    ),
   /** lang は、練習で名乗る名前（画面の言語ごとに違う）を文字起こしの語に入れるため */
   stt: (sceneId: string, audio: Blob, lang: string) =>
     call<{ text: string }>(

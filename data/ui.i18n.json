@@ -121,7 +121,12 @@
     "practice.attempt": "回目",
     "practice.sttError": "声を文字にすることが できません。キーボードで 書いてください。",
     "practice.talkInterrupt": "止めて話す",
-    "practice.audioBlocked": "相手の声が出ませんでした。「もう一度 聞く」を押してください。"
+    "practice.audioBlocked": "相手の声が出ませんでした。「もう一度 聞く」を押してください。",
+    "practice.furigana": "ふりがな",
+    "practice.tapToTranslate": "文をタップしてください。意味が出ます。",
+    "practice.tapToEasy": "文をタップしてください。やさしい日本語が出ます。",
+    "practice.glossError": "意味を出すことができませんでした。もう一度タップしてください。",
+    "practice.backConfirm": "場面のリストにもどりますか？もどると、この練習は消えます。"
   },
   "en": {
     "app.name": "JAWS: Good for Japanese",
@@ -245,7 +250,12 @@
     "practice.attempt": "Try #",
     "practice.sttError": "Voice-to-text isn't working. Please type with the keyboard.",
     "practice.talkInterrupt": "Interrupt and speak",
-    "practice.audioBlocked": "The other person's voice didn't play. Tap \"Listen again.\""
+    "practice.audioBlocked": "The other person's voice didn't play. Tap \"Listen again.\"",
+    "practice.furigana": "Furigana",
+    "practice.tapToTranslate": "Tap a sentence to see its meaning.",
+    "practice.tapToEasy": "Tap a sentence to see it in easy Japanese.",
+    "practice.glossError": "Couldn't show the meaning. Please tap again.",
+    "practice.backConfirm": "Go back to the list of scenes? This practice will be deleted."
   },
   "zh": {
     "app.name": "JAWS 日语说得很好",
@@ -369,7 +379,12 @@
     "practice.attempt": "次",
     "practice.sttError": "无法将语音转成文字。请用键盘输入。",
     "practice.talkInterrupt": "打断并说话",
-    "practice.audioBlocked": "对方的声音没有播放出来。请点击“再听一次”。"
+    "practice.audioBlocked": "对方的声音没有播放出来。请点击“再听一次”。",
+    "practice.furigana": "注音假名",
+    "practice.tapToTranslate": "点击句子即可查看意思。",
+    "practice.tapToEasy": "点击句子即可查看简明日语。",
+    "practice.glossError": "无法显示意思。请再点击一次。",
+    "practice.backConfirm": "要返回场景列表吗？返回后，本次练习将被删除。"
   },
   "vi": {
     "app.name": "JAWS: Giỏi tiếng Nhật",
@@ -493,7 +508,12 @@
     "practice.attempt": "Lần thứ",
     "practice.sttError": "Không thể chuyển giọng nói thành chữ. Vui lòng nhập bằng bàn phím.",
     "practice.talkInterrupt": "Ngắt lời để nói",
-    "practice.audioBlocked": "Không phát được giọng của người kia. Hãy bấm «Nghe lại»."
+    "practice.audioBlocked": "Không phát được giọng của người kia. Hãy bấm «Nghe lại».",
+    "practice.furigana": "Phiên âm furigana",
+    "practice.tapToTranslate": "Chạm vào câu để xem nghĩa.",
+    "practice.tapToEasy": "Chạm vào câu để xem tiếng Nhật dễ hiểu.",
+    "practice.glossError": "Không hiển thị được nghĩa. Vui lòng chạm lại.",
+    "practice.backConfirm": "Quay lại danh sách tình huống? Nếu quay lại, bài luyện tập này sẽ bị xóa."
   },
   "tl": {
     "app.name": "JAWS: Magaling sa Nihongo",
@@ -617,7 +637,12 @@
     "practice.attempt": "Ulit",
     "practice.sttError": "Hindi magawang text ang boses. Paki-type gamit ang keyboard.",
     "practice.talkInterrupt": "Sumingit at magsalita",
-    "practice.audioBlocked": "Hindi lumabas ang boses ng kausap. Pindutin ang \"Pakinggan ulit\"."
+    "practice.audioBlocked": "Hindi lumabas ang boses ng kausap. Pindutin ang \"Pakinggan ulit\".",
+    "practice.furigana": "Furigana",
+    "practice.tapToTranslate": "I-tap ang pangungusap para makita ang kahulugan.",
+    "practice.tapToEasy": "I-tap ang pangungusap para makita ito sa madaling Japanese.",
+    "practice.glossError": "Hindi maipakita ang kahulugan. Paki-tap ulit.",
+    "practice.backConfirm": "Babalik ka ba sa listahan ng mga sitwasyon? Kapag bumalik ka, mabubura ang practice na ito."
   },
   "ne": {
     "app.name": "JAWS: राम्रो जापानी",
@@ -741,7 +766,12 @@
     "practice.attempt": "औँ पटक",
     "practice.sttError": "आवाजलाई अक्षरमा बदल्न सकिएन। किबोर्डबाट लेख्नुहोस्।",
     "practice.talkInterrupt": "रोकेर बोल्नुहोस्",
-    "practice.audioBlocked": "अर्को व्यक्तिको आवाज आएन। \"फेरि सुन्नुहोस्\" थिच्नुहोस्।"
+    "practice.audioBlocked": "अर्को व्यक्तिको आवाज आएन। \"फेरि सुन्नुहोस्\" थिच्नुहोस्।",
+    "practice.furigana": "फुरिगाना (पढ्ने तरिका)",
+    "practice.tapToTranslate": "वाक्यमा ट्याप गर्नुहोस्। अर्थ देखिन्छ।",
+    "practice.tapToEasy": "वाक्यमा ट्याप गर्नुहोस्। सजिलो जापानी देखिन्छ।",
+    "practice.glossError": "अर्थ देखाउन सकिएन। फेरि ट्याप गर्नुहोस्।",
+    "practice.backConfirm": "दृश्यको सूचीमा फर्कने? फर्किएमा यो अभ्यास मेटिन्छ।"
   },
   "id": {
     "app.name": "JAWS: Jago Bahasa Jepang",
@@ -865,7 +895,12 @@
     "practice.attempt": "Percobaan ke-",
     "practice.sttError": "Suara tidak bisa diubah menjadi teks. Silakan ketik dengan keyboard.",
     "practice.talkInterrupt": "Sela dan bicara",
-    "practice.audioBlocked": "Suara lawan bicara tidak keluar. Tekan \"Dengar lagi\"."
+    "practice.audioBlocked": "Suara lawan bicara tidak keluar. Tekan \"Dengar lagi\".",
+    "practice.furigana": "Furigana (cara baca)",
+    "practice.tapToTranslate": "Ketuk kalimat untuk melihat artinya.",
+    "practice.tapToEasy": "Ketuk kalimat untuk melihat versi bahasa Jepang yang mudah.",
+    "practice.glossError": "Arti tidak bisa ditampilkan. Silakan ketuk sekali lagi.",
+    "practice.backConfirm": "Kembali ke daftar situasi? Jika kembali, latihan ini akan terhapus."
   },
   "pt": {
     "app.name": "JAWS: Bom de Japonês",
@@ -989,7 +1024,12 @@
     "practice.attempt": "ª tentativa",
     "practice.sttError": "Não foi possível transformar sua voz em texto. Por favor, digite no teclado.",
     "practice.talkInterrupt": "Interromper e falar",
-    "practice.audioBlocked": "Não foi possível tocar a voz da outra pessoa. Toque em “Ouvir de novo”."
+    "practice.audioBlocked": "Não foi possível tocar a voz da outra pessoa. Toque em “Ouvir de novo”.",
+    "practice.furigana": "Furigana (leitura)",
+    "practice.tapToTranslate": "Toque numa frase para ver o significado.",
+    "practice.tapToEasy": "Toque numa frase para ver em japonês simples.",
+    "practice.glossError": "Não foi possível mostrar o significado. Toque de novo.",
+    "practice.backConfirm": "Voltar à lista de situações? Este treino será apagado."
   },
   "ko": {
     "app.name": "JAWS 일본어 잘하다",
@@ -1113,7 +1153,12 @@
     "practice.attempt": "번째",
     "practice.sttError": "음성을 글자로 바꿀 수 없습니다. 키보드로 입력해 주세요.",
     "practice.talkInterrupt": "끊고 말하기",
-    "practice.audioBlocked": "상대방 목소리가 나오지 않았어요. 「다시 듣기」를 눌러 주세요."
+    "practice.audioBlocked": "상대방 목소리가 나오지 않았어요. 「다시 듣기」를 눌러 주세요.",
+    "practice.furigana": "후리가나(읽는 법)",
+    "practice.tapToTranslate": "문장을 탭하면 뜻이 나와요.",
+    "practice.tapToEasy": "문장을 탭하면 쉬운 일본어가 나와요.",
+    "practice.glossError": "뜻을 표시하지 못했어요. 다시 탭해 주세요.",
+    "practice.backConfirm": "장면 목록으로 돌아갈까요? 돌아가면 이 연습은 사라져요."
   },
   "my": {
     "app.name": "JAWS ဂျပန်စကား တော်တယ်",
@@ -1237,6 +1282,11 @@
     "practice.attempt": "ကြိမ်မြောက်",
     "practice.sttError": "အသံကို စာအဖြစ် ပြောင်းလို့ မရပါ။ ကီးဘုတ်ဖြင့် ရိုက်ထည့်ပါ။",
     "practice.talkInterrupt": "ရပ်ပြီး ပြောမယ်",
-    "practice.audioBlocked": "တစ်ဖက်လူရဲ့ အသံ မထွက်ပါ။ 「ထပ်နားထောင်」 ကို နှိပ်ပါ။"
+    "practice.audioBlocked": "တစ်ဖက်လူရဲ့ အသံ မထွက်ပါ။ 「ထပ်နားထောင်」 ကို နှိပ်ပါ။",
+    "practice.furigana": "ဖုရိဂနะ (အသံထွက်)",
+    "practice.tapToTranslate": "စာကြောင်းကို နှိပ်ပါ။ အဓိပ္ပာယ် ပေါ်လာပါမယ်။",
+    "practice.tapToEasy": "စာကြောင်းကို နှိပ်ပါ။ လွယ်ကူတဲ့ ဂျပန်စာ ပေါ်လာပါမယ်။",
+    "practice.glossError": "အဓိပ္ပာယ်ကို မပြနိုင်ခဲ့ပါ။ နောက်တစ်ခါ ထပ်နှိပ်ပါ။",
+    "practice.backConfirm": "အခြေအနေများ စာရင်းသို့ ပြန်သွားမလား။ ပြန်သွားရင် ဒီလေ့ကျင့်မှု ပျက်သွားပါမယ်။"
   }
 }
