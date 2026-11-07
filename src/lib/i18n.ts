@@ -89,6 +89,8 @@ export const JA = {
   "practice.sttError": "声の文字起こしが使えません。キーボードで入力してください。",
   "practice.noVoice": "声が聞き取れませんでした。もう一度話してください。",
   "practice.talk": "話す",
+  "practice.talkInterrupt": "止めて話す",
+  "practice.audioBlocked": "相手の声が出ませんでした。「もう一度聞く」を押してください。",
   "practice.talkDone": "話しおわった",
   "practice.replay": "もう一度聞く",
   "practice.keyboard": "キーボード",

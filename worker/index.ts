@@ -192,7 +192,16 @@ async function handleStt(request: Request, env: Env): Promise<Response> {
   form.append("tag_audio_events", "false");
   // 場面の語と練習用の固有名詞を前もって渡す（住所・建物名の聞き違いが減る。docs/stt-check.md）
   for (const k of scene?.keyterms ?? []) form.append("keyterms", fillPersona(k, lang));
-  form.append("file", audio, "speech.webm");
+  // iPad / iPhone の録音は MP4（AAC）、Chrome は WebM。中身に合う名前で渡す
+  const type = request.headers.get("content-type") ?? "";
+  const ext = /mp4|m4a|aac/.test(type)
+    ? "mp4"
+    : /ogg/.test(type)
+      ? "ogg"
+      : /wav/.test(type)
+        ? "wav"
+        : "webm";
+  form.append("file", audio, `speech.${ext}`);
   const res = await fetch("https://api.elevenlabs.io/v1/speech-to-text", {
     method: "POST",
     headers: { "xi-api-key": env.ELEVENLABS_API_KEY },

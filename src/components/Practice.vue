@@ -5,7 +5,7 @@ import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 import { fillPersona } from "../../shared/persona.ts";
 import { askTr, infoTr, lang, sceneTr, t } from "../lib/i18n.ts";
-import { Recorder, speak, stopSpeaking } from "../lib/voice.ts";
+import { Recorder, speak, stopSpeaking, unlockAudio } from "../lib/voice.ts";
 
 const props = defineProps<{
   scene: SceneWithCando;
@@ -32,6 +32,10 @@ const typed = ref("");
 const showKeyboard = ref(!props.health.stt);
 const logEl = ref<HTMLElement | null>(null);
 const recorder = new Recorder();
+/** マイクを開いている途中（許可の確認が出ている間に、もう一度押されても重ねて開かない） */
+const starting = ref(false);
+/** 端末が相手の声を流すのを断った（iPad などで、操作の前に鳴らそうとしたとき） */
+const audioBlocked = ref(false);
 
 async function scrollDown() {
   await nextTick();
@@ -46,9 +50,20 @@ async function partnerSays(text: string) {
       "ended",
       turns.value.map((t) => ({ ...t })),
     );
+  await say(text, speed.value === "slow");
+}
+
+/**
+ * 相手の声を流す。途中で止められた（「話す」や「もう一度聞く」が押された）ときは、
+ * 状態はそちらが決めるので触らない（触ると、録音中なのに「話す」に戻ってしまう）。
+ */
+async function say(text: string, slow: boolean) {
   state.value = "speaking";
-  await speak(text, speed.value === "slow", props.health.tts);
+  audioBlocked.value = false;
+  const r = await speak(text, slow, props.health.tts);
+  if (r === "stopped") return;
   state.value = "idle";
+  audioBlocked.value = r === "blocked";
 }
 
 async function partnerTurn() {
@@ -71,15 +86,24 @@ async function addMine(text: string) {
 }
 
 async function toggleMic() {
+  unlockAudio();
+  if (starting.value) return;
   error.value = "";
-  if (state.value === "speaking") stopSpeaking();
+  audioBlocked.value = false;
+  if (state.value === "speaking") {
+    stopSpeaking();
+    state.value = "idle";
+  }
   if (state.value !== "recording") {
+    starting.value = true;
     try {
       await recorder.start();
       state.value = "recording";
     } catch {
       error.value = t("practice.micError");
       showKeyboard.value = true;
+    } finally {
+      starting.value = false;
     }
     return;
   }
@@ -106,21 +130,27 @@ async function toggleMic() {
 }
 
 async function sendTyped() {
+  unlockAudio();
   const text = typed.value.trim();
   if (!text || state.value !== "idle") return;
   typed.value = "";
   await addMine(text);
 }
 
+/** 最後の相手の言葉を、ゆっくり流し直す。流れている途中なら、止めて最初から（重ねない） */
 function replayLast() {
+  unlockAudio();
   const last = [...turns.value].reverse().find((t) => t.speaker === "partner");
-  if (last) void speak(last.text, true, props.health.tts);
+  if (last) void say(last.text, true);
 }
 
 onMounted(async () => {
   if (props.health.claude) await partnerTurn();
 });
-onBeforeUnmount(stopSpeaking);
+onBeforeUnmount(() => {
+  stopSpeaking();
+  recorder.release();
+});
 
 /**
  * 「本番で聞かれること」（asks。Can do の文に書かれた伝えることを、受付が聞く順に並べたもの）の横に、
@@ -250,7 +280,10 @@ const stateLabel = computed<Record<string, string>>(() => ({
         </p>
       </div>
 
-      <p class="status small muted" aria-live="polite">{{ stateLabel[state] }}</p>
+      <p v-if="audioBlocked" class="status small blocked" aria-live="polite">
+        {{ t("practice.audioBlocked") }}
+      </p>
+      <p v-else class="status small muted" aria-live="polite">{{ stateLabel[state] }}</p>
       <p v-if="error" class="error small">{{ error }}</p>
 
       <div class="controls no-print">
@@ -258,7 +291,7 @@ const stateLabel = computed<Record<string, string>>(() => ({
           v-if="health.stt && !ended"
           :class="['mic', { rec: state === 'recording' }]"
           type="button"
-          :disabled="!health.claude || state === 'transcribing' || state === 'thinking'"
+          :disabled="!health.claude || starting || state === 'transcribing' || state === 'thinking'"
           :aria-pressed="state === 'recording'"
           @click="toggleMic"
         >
@@ -271,9 +304,28 @@ const stateLabel = computed<Record<string, string>>(() => ({
               fill="none"
             />
           </svg>
-          <span>{{ t(state === "recording" ? "practice.talkDone" : "practice.talk") }}</span>
+          <!-- 相手が話している間は「話す」と出さない（自分の番に見えてしまう）。押せば止めて話せる -->
+          <span>{{
+            t(
+              state === "recording"
+                ? "practice.talkDone"
+                : state === "speaking"
+                  ? "practice.talkInterrupt"
+                  : "practice.talk",
+            )
+          }}</span>
         </button>
-        <button class="btn ghost" type="button" :disabled="!turns.length" @click="replayLast">
+        <button
+          :class="['btn', audioBlocked ? 'red' : 'ghost']"
+          type="button"
+          :disabled="
+            !turns.length ||
+            state === 'recording' ||
+            state === 'transcribing' ||
+            state === 'thinking'
+          "
+          @click="replayLast"
+        >
           {{ t("practice.replay") }}
         </button>
         <button class="btn ghost small" type="button" @click="showKeyboard = !showKeyboard">
@@ -456,6 +508,10 @@ select {
 }
 .status {
   min-height: 1.5em;
+}
+.status.blocked {
+  color: var(--red);
+  font-weight: 700;
 }
 .controls {
   display: flex;
