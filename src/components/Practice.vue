@@ -5,7 +5,15 @@ import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 import { fillPersona } from "../../shared/persona.ts";
 import { askTr, infoTr, lang, sceneTr, t } from "../lib/i18n.ts";
-import { Recorder, speak, stopSpeaking, unlockAudio } from "../lib/voice.ts";
+import {
+  MIN_RECORDING_BYTES,
+  Recorder,
+  speak,
+  stopSpeaking,
+  unlockAudio,
+  vlog,
+  voiceLog,
+} from "../lib/voice.ts";
 
 const props = defineProps<{
   scene: SceneWithCando;
@@ -36,6 +44,14 @@ const recorder = new Recorder();
 const starting = ref(false);
 /** 端末が相手の声を流すのを断った（iPad などで、操作の前に鳴らそうとしたとき） */
 const audioBlocked = ref(false);
+/** URL に #debug を付けて開くと、声の入出力の記録を出す（実機の不具合を調べるため） */
+const debug = (() => {
+  try {
+    return location.hash.includes("debug") || localStorage.getItem("akapen.debug") === "1";
+  } catch {
+    return false;
+  }
+})();
 
 async function scrollDown() {
   await nextTick();
@@ -65,7 +81,11 @@ async function say(text: string, slow: boolean) {
   if (r === "stopped") return;
   state.value = "idle";
   audioBlocked.value = r === "blocked";
-  if (r === "done" && autoListen.value) await startRecording();
+  if (r === "done" && autoListen.value) {
+    // 声が終わってすぐは端末の音の切り替えの途中のことがあるので、少しだけ待つ
+    await new Promise((x) => setTimeout(x, 250));
+    if (state.value === "idle" && autoListen.value) await startRecording();
+  }
 }
 
 /**
@@ -126,10 +146,20 @@ async function startRecording() {
 async function finishRecording() {
   clearTimeout(limitTimer);
   const audio = await recorder.stop();
+  // 録れていない（入れ物だけ）なら、文字起こしに送らない。次からはマイクを開き直す
+  if (audio.size < MIN_RECORDING_BYTES) {
+    recorder.failed();
+    error.value = t("practice.noVoice");
+    state.value = "idle";
+    return;
+  }
   state.value = "transcribing";
   try {
     const { text } = await api.stt(props.scene.id, audio, lang.value);
+    vlog(`stt ${text.length} chars`);
     if (!text) {
+      // 声が届いていなかったかもしれない。次からはマイクを開き直す（1回目と同じやり方）
+      recorder.failed();
       error.value = t("practice.noVoice");
       state.value = "idle";
       return;
@@ -336,6 +366,7 @@ const stateLabel = computed<Record<string, string>>(() => ({
       </p>
       <p v-else class="status small muted" aria-live="polite">{{ stateLabel[state] }}</p>
       <p v-if="error" class="error small">{{ error }}</p>
+      <pre v-if="debug" class="debug">{{ voiceLog.join("\n") }}</pre>
 
       <div class="controls no-print">
         <button
@@ -554,6 +585,15 @@ select {
 }
 .status {
   min-height: 1.5em;
+}
+.debug {
+  font-size: 11px;
+  max-height: 220px;
+  overflow: auto;
+  white-space: pre-wrap;
+  background: var(--other);
+  border-radius: 6px;
+  padding: 6px 8px;
 }
 .status.blocked {
   color: var(--red);

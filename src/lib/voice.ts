@@ -9,29 +9,105 @@
  *   停止で世代（gen）を進め、古い読み上げは止め、待っていた結果は捨てる。ElevenLabs の声は
  *   文ごとに覚えておき、聞き直しで取り直さない（待たない・クレジットを使わない）。
  * - 録音のたびにマイクの許可を聞かれた → マイクは練習の間ずっと開いておき、練習を出るときに閉じる。
+ * - そうすると iPad で、1回目は録れるが2回目から声が届かなかった → 録音ごとにマイクの複製を作って録る。
+ *   止まっていたら開き直す。それでも空だったら、その練習の間は録音ごとにマイクを開き直す
+ *   （1回目と同じやり方。許可の確認がまた出ることがある）。
+ * - 実機でしか起きないことを調べるため、URL に #debug を付けて開くと、練習の画面に記録が出る。
  */
+import { reactive } from "vue";
 import { forSpeech } from "../../shared/reading.ts";
 import { api } from "./api.ts";
 
+// ───────────────────────── 記録（#debug）─────────────────────────
+
+export const voiceLog = reactive<string[]>([]);
+const t0 = Date.now();
+export function vlog(msg: string): void {
+  voiceLog.push(`${((Date.now() - t0) / 1000).toFixed(1)}s ${msg}`);
+  if (voiceLog.length > 80) voiceLog.splice(0, voiceLog.length - 80);
+}
+
 // ───────────────────────── 録音 ─────────────────────────
+
+/** これより小さい録音は、録れていない（入れ物だけ） */
+export const MIN_RECORDING_BYTES = 1000;
+/** マイクが開いているか（開いている間は、音の準備で端末の声を鳴らさない） */
+let micOpen = false;
+
+function waitUnmuted(t: MediaStreamTrack, ms: number): Promise<void> {
+  return new Promise((resolve) => {
+    if (!t.muted) return resolve();
+    const timer = setTimeout(resolve, ms);
+    t.addEventListener(
+      "unmute",
+      () => {
+        clearTimeout(timer);
+        resolve();
+      },
+      { once: true },
+    );
+  });
+}
 
 export class Recorder {
   private rec: MediaRecorder | null = null;
   private chunks: Blob[] = [];
+  /** 開いたままにするマイク（許可の確認を毎回出さないため） */
   private stream: MediaStream | null = null;
+  /** 録音ごとの複製（録り終えたら閉じる） */
+  private take: MediaStream | null = null;
+  /**
+   * keep: マイクを開いたまま、録音ごとに複製して録る（はじめはこれ）
+   * fresh: 録音ごとにマイクを開き直す（keep で録れなかったとき。1回目と同じやり方）
+   */
+  private mode: "keep" | "fresh" = "keep";
 
-  /** マイクを開く（開いていれば、そのまま使う） */
+  constructor() {
+    if (typeof navigator !== "undefined")
+      vlog(
+        `${navigator.userAgent.slice(0, 110)} mp4=${typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported("audio/mp4")}`,
+      );
+  }
+
+  private closeStream(): void {
+    this.stream?.getTracks().forEach((t) => t.stop());
+    this.stream = null;
+    micOpen = false;
+  }
+
+  /** マイクを開く（keep で、開いていて止まっていなければ、そのまま使う） */
   private async open(): Promise<MediaStream> {
-    if (this.stream?.getAudioTracks().some((t) => t.readyState === "live")) return this.stream;
-    this.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    return this.stream;
+    const track = this.stream?.getAudioTracks()[0];
+    if (this.mode === "keep" && this.stream && track?.readyState === "live") {
+      if (track.muted) {
+        vlog("mic muted, waiting");
+        await waitUnmuted(track, 1500);
+      }
+      if (!track.muted) return this.stream;
+      vlog("mic still muted, reopening");
+    }
+    this.closeStream();
+    vlog(`getUserMedia (${this.mode})`);
+    const s = await navigator.mediaDevices.getUserMedia({ audio: true });
+    const t = s.getAudioTracks()[0];
+    if (t) {
+      t.onmute = () => vlog("track muted");
+      t.onunmute = () => vlog("track unmuted");
+      t.onended = () => vlog("track ended");
+    }
+    this.stream = s;
+    micOpen = true;
+    return s;
   }
 
   /** 録り始める。本当に録り始めてから返す（返る前に話した分が切れないように） */
   async start(): Promise<void> {
     const stream = await this.open();
+    // 同じトラックで MediaRecorder を作り直すと、2回目から録れない端末がある → 録音ごとに複製
+    const source = this.mode === "keep" ? stream.clone() : stream;
+    this.take = this.mode === "keep" ? source : null;
     this.chunks = [];
-    const rec = new MediaRecorder(stream);
+    const rec = new MediaRecorder(source);
     this.rec = rec;
     rec.ondataavailable = (e) => {
       if (e.data.size > 0) this.chunks.push(e.data);
@@ -41,25 +117,55 @@ export class Recorder {
       setTimeout(resolve, 600);
       rec.start();
     });
+    const t = source.getAudioTracks()[0];
+    vlog(
+      `rec start ${rec.mimeType || "?"} ${rec.state} track=${t?.readyState}${t?.muted ? " muted" : ""}`,
+    );
   }
 
-  /** 録り終える。マイクは閉じない（次の録音で、また許可を聞かれないように） */
+  /** 録り終える。keep のときマイクは閉じない（次の録音で、また許可を聞かれないように） */
   stop(): Promise<Blob> {
     return new Promise((resolve) => {
       const rec = this.rec;
       this.rec = null;
-      if (!rec || rec.state === "inactive") return resolve(new Blob());
-      rec.onstop = () => resolve(new Blob(this.chunks, { type: rec.mimeType || "audio/webm" }));
+      let done = false;
+      let timer = 0;
+      const finish = () => {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        const blob = new Blob(this.chunks, { type: rec?.mimeType || "audio/webm" });
+        this.take?.getTracks().forEach((t) => t.stop());
+        this.take = null;
+        if (this.mode === "fresh") this.closeStream();
+        vlog(`rec stop ${blob.size}B ${blob.type}`);
+        resolve(blob);
+      };
+      if (!rec || rec.state === "inactive") return finish();
+      // stop の知らせが来ない端末のための見張り
+      timer = window.setTimeout(() => {
+        vlog("rec stop timeout");
+        finish();
+      }, 3000);
+      rec.onstop = finish;
       rec.stop();
     });
+  }
+
+  /** 録れなかった（空だった・声が無かった）。この練習の間は、録音ごとにマイクを開き直す */
+  failed(): void {
+    if (this.mode === "keep") vlog("switch to fresh mode");
+    this.mode = "fresh";
+    this.closeStream();
   }
 
   /** 練習を出るときに、マイクを閉じる */
   release(): void {
     if (this.rec && this.rec.state !== "inactive") this.rec.stop();
     this.rec = null;
-    this.stream?.getTracks().forEach((t) => t.stop());
-    this.stream = null;
+    this.take?.getTracks().forEach((t) => t.stop());
+    this.take = null;
+    this.closeStream();
   }
 }
 
@@ -106,17 +212,22 @@ function silentWav(): string {
  * タップなどの操作の中で（await の前に）呼ぶ。iOS は、操作の中で一度鳴らした <audio> と読み上げだけを、
  * あとから（通信を待ってから）鳴らせる。一度うまくいけば、あとは何もしない。
  */
+let primed = false;
 export function unlockAudio(): void {
-  if (unlocked || !player || finishCurrent) return;
+  // マイクが開いている間は何も鳴らさない（端末の声などで、マイクが止まることがある）
+  if (unlocked || !player || finishCurrent || micOpen) return;
   player.src = silentWav();
   unlocking = player
     .play()
     .then(() => {
       unlocked = true;
+      vlog("audio unlocked");
       if (!finishCurrent) player.pause();
     })
-    .catch(() => {});
-  if ("speechSynthesis" in window) {
+    .catch((e: unknown) => vlog(`unlock failed ${e instanceof Error ? e.name : ""}`));
+  // 端末の読み上げ（ElevenLabs が使えないとき）の準備は、一度だけ
+  if (!primed && "speechSynthesis" in window) {
+    primed = true;
     const u = new SpeechSynthesisUtterance(" ");
     u.volume = 0;
     speechSynthesis.speak(u);
@@ -182,6 +293,8 @@ function playBlob(blob: Blob, slow: boolean): Promise<SpeakResult | "error"> {
     audio.onerror = () => finish("error");
     audio.onplaying = () => {
       started = true;
+      // 本物の声が一度鳴れば、もう準備は要らない
+      unlocked = true;
     };
     // ended が来ない端末のための見張り（長さ ÷ 速さ ＋ 3秒）
     audio.onloadedmetadata = () => {
@@ -258,9 +371,12 @@ export async function speak(text: string, slow: boolean, useEleven: boolean): Pr
     if (my !== gen) return "stopped";
     if (blob) {
       const r = await playBlob(blob, slow);
+      vlog(`voice ${r}`);
       if (r !== "error") return r;
       if (my !== gen) return "stopped";
     }
   }
-  return speakBrowser(text, slow);
+  const r = await speakBrowser(text, slow);
+  vlog(`device voice ${r}`);
+  return r;
 }
