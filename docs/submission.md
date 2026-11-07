@@ -4,7 +4,7 @@
 
 ## 名前
 
-赤ペン（akapen）※仮
+JAWS 日本語じょうず（英語表記: JAWS: Nihongo Jozu。リポジトリ名は akapen）
 
 ## 一言で
 

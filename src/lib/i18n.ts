@@ -27,7 +27,7 @@ export const UI_LANGS: Record<UiLang, string> = {
 /** 日本語の元の文。鍵は変えない（訳はこの鍵で引く） */
 export const JA = {
   // 共通
-  "app.name": "赤ペン",
+  "app.name": "JAWS 日本語じょうず",
   "step.practice": "1 予行演習",
   "step.review": "2 赤ペン",
   "step.kanpe": "3 本番のカンペ",

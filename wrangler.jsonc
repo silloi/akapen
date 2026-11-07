@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "akapen",
+  "name": "jaws",
   // Cloudflare のアカウント（ni-hongo）
   "account_id": "2e998ce6e8a59b4583b436cdfcdbc393",
   "main": "./worker/index.ts",

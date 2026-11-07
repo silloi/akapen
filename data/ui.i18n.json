@@ -1,6 +1,6 @@
 {
   "easy": {
-    "app.name": "赤ペン",
+    "app.name": "JAWS 日本語じょうず",
     "step.practice": "1 練習",
     "step.review": "2 赤ペン",
     "step.kanpe": "3 本番のカンペ",
@@ -117,7 +117,7 @@
     "kanpe.inside": "カンペの 中"
   },
   "en": {
-    "app.name": "Red Pen",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 Practice",
     "step.review": "2 Red pen",
     "step.kanpe": "3 Cheat sheet",
@@ -234,7 +234,7 @@
     "kanpe.inside": "Cheat sheet contents"
   },
   "zh": {
-    "app.name": "红笔批改",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 练习",
     "step.review": "2 红笔批改",
     "step.kanpe": "3 正式用的提示卡",
@@ -351,7 +351,7 @@
     "kanpe.inside": "提示卡内容"
   },
   "vi": {
-    "app.name": "Bút đỏ",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 Luyện tập",
     "step.review": "2 Bút đỏ",
     "step.kanpe": "3 Ghi chú cho lần thật",
@@ -468,7 +468,7 @@
     "kanpe.inside": "Nội dung ghi chú"
   },
   "tl": {
-    "app.name": "Akapen (Pulang Panulat)",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 Ensayo",
     "step.review": "2 Pulang panulat",
     "step.kanpe": "3 Kodigo para sa totoong usapan",
@@ -585,7 +585,7 @@
     "kanpe.inside": "Laman ng kodigo"
   },
   "ne": {
-    "app.name": "रातो कलम",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 अभ्यास",
     "step.review": "2 रातो कलम (शिक्षकको सुधार)",
     "step.kanpe": "3 वास्तविक कुराकानीको नोट",
@@ -702,7 +702,7 @@
     "kanpe.inside": "नोटभित्र"
   },
   "id": {
-    "app.name": "Pena Merah",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 Latihan",
     "step.review": "2 Pena Merah",
     "step.kanpe": "3 Contekan",
@@ -819,7 +819,7 @@
     "kanpe.inside": "Isi contekan"
   },
   "pt": {
-    "app.name": "Caneta Vermelha",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 Treino",
     "step.review": "2 Correção",
     "step.kanpe": "3 Cola para a hora H",
@@ -936,7 +936,7 @@
     "kanpe.inside": "Conteúdo da cola"
   },
   "ko": {
-    "app.name": "빨간 펜",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 연습",
     "step.review": "2 빨간 펜 첨삭",
     "step.kanpe": "3 실전 메모",
@@ -1053,7 +1053,7 @@
     "kanpe.inside": "메모 내용"
   },
   "my": {
-    "app.name": "အနီရောင်ဘောပင် (ဆရာ့အမှားပြင်)",
+    "app.name": "JAWS: Nihongo Jozu",
     "step.practice": "1 လေ့ကျင့်ရန်",
     "step.review": "2 ဆရာ့အမှားပြင်",
     "step.kanpe": "3 အစစ်အတွက် မှတ်စု",

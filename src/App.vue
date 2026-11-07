@@ -110,7 +110,7 @@ function home() {
         <path d="M7 25 L22 10 L25 13 L10 28 L6 29 Z" fill="var(--red)" />
         <path d="M22 10 L24.5 7.5 L27.5 10.5 L25 13 Z" fill="var(--ink)" />
       </svg>
-      <span>赤ペン</span>
+      <span>{{ t("app.name") }}</span>
     </button>
     <nav v-if="scene && view !== 'scenes'" class="steps" :aria-label="t('nav.progress')">
       <span :class="{ on: view === 'practice' }">{{ t("step.practice") }}</span>

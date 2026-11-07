@@ -1,6 +1,6 @@
 # デプロイ（Cloudflare Workers）
 
-アカウント: `ni-hongo`（Account ID は `wrangler.jsonc`）。URL は `https://akapen.ni-hongo.workers.dev`（予定）。
+アカウント: `ni-hongo`（Account ID は `wrangler.jsonc`）。URL は `https://jaws.ni-hongo.workers.dev`（予定）。
 
 ## 仕組み
 
@@ -15,10 +15,10 @@ GitHub Actions（`.github/workflows/deploy.yml`）が、`main` か `claude/spec-
    - `ANTHROPIC_API_KEY`: Claude のキー（相手役・赤ペン・カンペ）
 3. Actions の「deploy」を Run workflow で動かす（以後は push のたびに動く）。
 
-キーは Worker のシークレットに入る（Cloudflare のダッシュボード → Workers & Pages → akapen → Settings → Variables and Secrets でも入れ替えられる）。リポジトリには入れない。
+キーは Worker のシークレットに入る（Cloudflare のダッシュボード → Workers & Pages → jaws → Settings → Variables and Secrets でも入れ替えられる）。リポジトリには入れない。
 
 ## 確かめ方
 
-- `https://akapen.ni-hongo.workers.dev/api/health` の `claude`・`stt`・`tts` が true か。
+- `https://jaws.ni-hongo.workers.dev/api/health` の `claude`・`stt`・`tts` が true か。
 - 声で通しで試す（マイクは https でだけ使える）。
 - 公開した後は、Cloudflare のダッシュボードで Requests（無料枠 1日 10 万）と、Anthropic・ElevenLabs の使用量を見る。だれでも使える URL なので、使われすぎたら Worker の Rate Limiting を足すか、URL を変える。
