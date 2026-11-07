@@ -9,9 +9,11 @@
  *   停止で世代（gen）を進め、古い読み上げは止め、待っていた結果は捨てる。ElevenLabs の声は
  *   文ごとに覚えておき、聞き直しで取り直さない（待たない・クレジットを使わない）。
  * - 録音のたびにマイクの許可を聞かれた → マイクは練習の間ずっと開いておき、練習を出るときに閉じる。
- * - そうすると iPad で、1回目は録れるが2回目から声が届かなかった → 録音ごとにマイクの複製を作って録る。
- *   止まっていたら開き直す。それでも空だったら、その練習の間は録音ごとにマイクを開き直す
- *   （1回目と同じやり方。許可の確認がまた出ることがある）。
+ * - そうすると iPad で、1回目は録れるが2回目から声が届かなかった。相手の2回目の声も小さかった。
+ *   iPad / iPhone は、マイクが開いている間、音を「通話」の状態で扱う（ふつうの音も通話の音量になり、
+ *   その間に流した音の後の録音が空になる。WebKit の報告あり）→ iPad / iPhone では、録音のたびにマイクを
+ *   開き、録り終えたらすぐ閉じる（fresh）。作り手の iPad では、このやり方で許可の確認は毎回は出なかった。
+ *   ほかの端末では開いたままにし（keep）、録音ごとにマイクの複製で録る。それでも空だったら fresh に切り替える。
  * - 実機でしか起きないことを調べるため、URL に #debug を付けて開くと、練習の画面に記録が出る。
  */
 import { reactive } from "vue";
@@ -33,6 +35,16 @@ export function vlog(msg: string): void {
 export const MIN_RECORDING_BYTES = 1000;
 /** マイクが開いているか（開いている間は、音の準備で端末の声を鳴らさない） */
 let micOpen = false;
+
+/**
+ * iPad / iPhone か（中身はどれも WebKit）。iPadOS は、PC と同じ見え方（Macintosh）をすることがあるので、
+ * タッチの点の数でも見る。
+ */
+function isAppleMobile(): boolean {
+  if (typeof navigator === "undefined") return false;
+  const ua = navigator.userAgent;
+  return /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+}
 
 function waitUnmuted(t: MediaStreamTrack, ms: number): Promise<void> {
   return new Promise((resolve) => {
@@ -60,12 +72,12 @@ export class Recorder {
    * keep: マイクを開いたまま、録音ごとに複製して録る（はじめはこれ）
    * fresh: 録音ごとにマイクを開き直す（keep で録れなかったとき。1回目と同じやり方）
    */
-  private mode: "keep" | "fresh" = "keep";
+  private mode: "keep" | "fresh" = isAppleMobile() ? "fresh" : "keep";
 
   constructor() {
     if (typeof navigator !== "undefined")
       vlog(
-        `${navigator.userAgent.slice(0, 110)} mp4=${typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported("audio/mp4")}`,
+        `${navigator.userAgent.slice(0, 110)} mp4=${typeof MediaRecorder !== "undefined" && MediaRecorder.isTypeSupported("audio/mp4")} mode=${this.mode}`,
       );
   }
 
