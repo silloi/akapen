@@ -52,7 +52,7 @@ const SECTIONS = [
           {{ t(sec.title) }} <span class="count">{{ kanpe[sec.key].length }}</span>
         </button>
         <template v-else
-          >{{ sec.title }} <span class="small muted">{{ sec.hint }}</span></template
+          >{{ t(sec.title) }} <span class="small muted">{{ t(sec.hint) }}</span></template
         >
       </h3>
       <ul v-show="!live || open[sec.key]">
