@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 import type { Akapen, Mark, Turn } from "../shared/types.ts";
 import KanpeView from "./components/KanpeView.vue";
 import LiveKanpe from "./components/LiveKanpe.vue";
@@ -15,6 +15,8 @@ import type { PartnerStyle } from "../shared/prompts.ts";
 type View = "scenes" | "practice" | "review" | "kanpe" | "live";
 
 const view = ref<View>("scenes");
+// 画面を切り替えたら上から見せる（前の画面のスクロール位置を引きずると、スマホでは赤ペンが下まで送られた状態で開く）
+watch(view, () => window.scrollTo({ top: 0 }));
 const scenes = ref<SceneWithCando[]>([]);
 const health = ref<Health>({ claude: false, stt: false, tts: false });
 const scene = ref<SceneWithCando | null>(null);
