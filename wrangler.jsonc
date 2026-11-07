@@ -21,5 +21,7 @@
     "TTS_MODEL": "eleven_v3",
   },
   // キー（ANTHROPIC_API_KEY・ELEVENLABS_API_KEY）は `wrangler secret put` で入れる。ローカルは .dev.vars
+  // QR で開くカンペの置き場（推測できない ID、30日で消える）
+  "kv_namespaces": [{ "binding": "KANPE", "id": "3aa8d95c4c164b7a9597dfa87abef2fe" }],
   "observability": { "enabled": true },
 }

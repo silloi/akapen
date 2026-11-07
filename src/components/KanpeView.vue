@@ -6,7 +6,7 @@ import type { Kanpe, KanpeLang, Mark } from "../../shared/types.ts";
 import { api, type SceneWithCando } from "../lib/api.ts";
 import { SAMPLE_KANPE } from "../lib/sample.ts";
 import { defaultKanpeLang, t } from "../lib/i18n.ts";
-import { encodeKanpe, shareUrl } from "../lib/share.ts";
+import { shareKanpe } from "../lib/share.ts";
 import KanpeSheet from "./KanpeSheet.vue";
 
 const props = defineProps<{
@@ -44,20 +44,27 @@ async function make() {
 
 onMounted(make);
 
-// スマホで開く（QR）。カンペの中身を URL に入れる。サーバーに保存しない
+// スマホで開く（QR）。カンペをサーバーに置き（30日）、短い URL を QR にする
 const showQr = ref(false);
 const qr = ref("");
 const url = ref("");
+const qrError = ref("");
 const copied = ref(false);
 watch([kanpe, showQr], async ([k, show]) => {
   if (!k || !show) return;
-  const hash = await encodeKanpe({ title: props.scene.title, partner: partner.value, kanpe: k });
-  url.value = shareUrl(hash);
-  qr.value = await QRCode.toDataURL(url.value, {
-    errorCorrectionLevel: "L",
-    margin: 1,
-    width: 240,
-  });
+  qr.value = "";
+  url.value = "";
+  qrError.value = "";
+  try {
+    url.value = await shareKanpe({ title: props.scene.title, partner: partner.value, kanpe: k });
+    qr.value = await QRCode.toDataURL(url.value, {
+      errorCorrectionLevel: "M",
+      margin: 1,
+      width: 240,
+    });
+  } catch (e) {
+    qrError.value = (e as Error).message;
+  }
 });
 async function copy() {
   try {
@@ -109,6 +116,7 @@ async function copy() {
       {{ t("kanpe.qr") }}
     </button>
     <p class="small muted">{{ t("kanpe.qrNote") }}</p>
+    <p v-if="qrError" class="error">{{ qrError }}</p>
     <div v-if="showQr && qr" class="qr">
       <img :src="qr" width="240" height="240" :alt="t('kanpe.qrAlt')" />
       <div class="url">

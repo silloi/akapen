@@ -233,10 +233,53 @@ async function handleTts(request: Request, env: Env): Promise<Response> {
   });
 }
 
+/** QR で開くカンペの保存期間（秒）。30日 */
+const SHARE_TTL = 30 * 24 * 60 * 60;
+const SHARE_MAX_BYTES = 64 * 1024;
+
+/**
+ * カンペをサーバーに置き、短い URL（/k/<id>）で開けるようにする。
+ * id は 128 ビットの乱数（base64url 22文字）なので、URL を知らない人がたどり着くことはまずない。
+ * 中身はカンペ（架空の練習の情報と言い回し）だけ。録音や文字起こしは入らない。
+ */
+async function handleShare(request: Request, env: Env): Promise<Response> {
+  if (request.method !== "POST") throw new HttpError(405, "method", "POST だけです");
+  const raw = await request.text();
+  if (raw.length > SHARE_MAX_BYTES) throw new HttpError(413, "too_big", "カンペが大きすぎます");
+  let data: { title?: unknown; partner?: unknown; kanpe?: { say?: unknown } };
+  try {
+    data = JSON.parse(raw);
+  } catch {
+    throw new HttpError(400, "bad_json", "JSON が読めません");
+  }
+  if (typeof data.title !== "string" || !Array.isArray(data.kanpe?.say)) {
+    throw new HttpError(400, "bad_kanpe", "カンペの形が違います");
+  }
+  const bytes = new Uint8Array(16);
+  crypto.getRandomValues(bytes);
+  const id = btoa(String.fromCharCode(...bytes))
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/, "");
+  await env.KANPE.put(id, raw, { expirationTtl: SHARE_TTL });
+  return json({ id, ttlDays: SHARE_TTL / 86400 });
+}
+
+async function handleShared(id: string, env: Env): Promise<Response> {
+  if (!/^[A-Za-z0-9_-]{22}$/.test(id)) throw new HttpError(404, "no_kanpe", "カンペがありません");
+  const raw = await env.KANPE.get(id);
+  if (!raw) throw new HttpError(404, "no_kanpe", "カンペがありません（30日で消えます）");
+  return new Response(raw, {
+    headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" },
+  });
+}
+
 export default {
   async fetch(request, env): Promise<Response> {
     const { pathname } = new URL(request.url);
     try {
+      const shared = /^\/api\/share\/([^/]+)$/.exec(pathname);
+      if (shared) return await handleShared(shared[1], env);
       switch (pathname) {
         case "/api/health":
           return json({
@@ -270,6 +313,8 @@ export default {
           return await handleStt(request, env);
         case "/api/tts":
           return await handleTts(request, env);
+        case "/api/share":
+          return await handleShare(request, env);
         default:
           return json({ error: "not_found", message: "見つかりません" }, 404);
       }

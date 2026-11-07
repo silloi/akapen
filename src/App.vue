@@ -9,7 +9,7 @@ import SceneList from "./components/SceneList.vue";
 import { api, type Health, type SceneWithCando } from "./lib/api.ts";
 import { SAMPLE_AKAPEN, SAMPLE_SCENE_ID, SAMPLE_TURNS } from "./lib/sample.ts";
 import { lang, setLang, t, UI_LANGS, type UiLang } from "./lib/i18n.ts";
-import { decodeKanpe, type SharedKanpe } from "./lib/share.ts";
+import { loadShared, type SharedKanpe } from "./lib/share.ts";
 import type { PartnerStyle } from "../shared/prompts.ts";
 
 type View = "scenes" | "practice" | "review" | "kanpe" | "live";
@@ -53,10 +53,14 @@ const loadError = ref("");
 const shared = ref<SharedKanpe | null>(null);
 
 onMounted(async () => {
-  shared.value = await decodeKanpe(location.hash);
+  shared.value = await loadShared();
   if (shared.value) {
     view.value = "live";
     return;
+  }
+  if (location.pathname.startsWith("/k/")) {
+    loadError.value = t("kanpe.gone");
+    history.replaceState(null, "", "/");
   }
   try {
     [scenes.value, health.value] = await Promise.all([api.scenes(), api.health()]);
@@ -112,7 +116,7 @@ function toKanpe(f: Pick<Mark, "quote" | "next">[]) {
 }
 
 function home() {
-  if (shared.value) history.replaceState(null, "", location.pathname);
+  if (shared.value) history.replaceState(null, "", "/");
   shared.value = null;
   view.value = "scenes";
   if (!scenes.value.length) {

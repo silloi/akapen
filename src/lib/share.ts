@@ -1,6 +1,7 @@
 /**
- * カンペを URL に入れて、スマホで開く（QR）。サーバーに保存しない。
- * 中身は JSON → deflate-raw → base64url。名前などは〔 〕のままなので、個人の情報は入らない。
+ * カンペをスマホで開く（QR）。
+ * サーバー（KV）に推測できない ID で30日だけ置き、短い URL（/k/<id>）を QR にする。
+ * 中身を URL に詰める古い形（#k=）も、開く側は読める。
  */
 import type { Kanpe } from "../../shared/types.ts";
 
@@ -50,6 +51,30 @@ export async function decodeKanpe(hash: string): Promise<SharedKanpe | null> {
   }
 }
 
-export function shareUrl(hash: string): string {
-  return `${location.origin}${location.pathname}${hash}`;
+/** サーバーに置いて、短い URL を返す */
+export async function shareKanpe(data: SharedKanpe): Promise<string> {
+  const res = await fetch("/api/share", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(data),
+  });
+  if (!res.ok) throw new Error("カンペを置けませんでした");
+  const { id } = (await res.json()) as { id: string };
+  return `${location.origin}/k/${id}`;
+}
+
+/** /k/<id> か #k=… で開かれたか */
+export async function loadShared(): Promise<SharedKanpe | null> {
+  const m = /^\/k\/([A-Za-z0-9_-]{22})$/.exec(location.pathname);
+  if (m) {
+    try {
+      const res = await fetch(`/api/share/${m[1]}`);
+      if (!res.ok) return null;
+      const data = (await res.json()) as SharedKanpe;
+      return data.kanpe && Array.isArray(data.kanpe.say) ? data : null;
+    } catch {
+      return null;
+    }
+  }
+  return decodeKanpe(location.hash);
 }

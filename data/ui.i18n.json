@@ -92,7 +92,6 @@
     "kanpe.yomi": "ひらがなの 読み方",
     "kanpe.loading": "カンペを 作っています…",
     "kanpe.qr": "スマホで 開く（QR）",
-    "kanpe.qrNote": "本番の 電話の とき、スマホで 大きい 字で 見ることが できます。カンペの 中身は URL に 入っています。サーバーには 残りません。",
     "kanpe.qrAlt": "カンペを 開く QR コード",
     "kanpe.url": "カンペの URL",
     "kanpe.copy": "URL を コピー",
@@ -114,7 +113,9 @@
     "kanpe.jump.memo": "書く",
     "kanpe.jump.know": "知る",
     "kanpe.jump.yomi": "読み",
-    "kanpe.inside": "カンペの 中"
+    "kanpe.inside": "カンペの 中",
+    "kanpe.qrNote": "本番の電話のとき、スマホで見ることができます。字が大きいです。URL を知っている人だけが開くことができます。30日たつと、消えます。",
+    "kanpe.gone": "このカンペは、ありません。カンペは30日たつと、消えます。もう一度作ってください。"
   },
   "en": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -209,7 +210,6 @@
     "kanpe.yomi": "Hiragana reading",
     "kanpe.loading": "Making your cheat sheet…",
     "kanpe.qr": "Open on phone (QR)",
-    "kanpe.qrNote": "During the real call, view it in large text on your phone. The content is stored in the URL, not on a server.",
     "kanpe.qrAlt": "QR code to open the cheat sheet",
     "kanpe.url": "Cheat sheet URL",
     "kanpe.copy": "Copy URL",
@@ -231,7 +231,9 @@
     "kanpe.jump.memo": "Write",
     "kanpe.jump.know": "Know",
     "kanpe.jump.yomi": "Reading",
-    "kanpe.inside": "Cheat sheet contents"
+    "kanpe.inside": "Cheat sheet contents",
+    "kanpe.qrNote": "During the real call, you can view this on your phone in large text. Only people who have the URL can open it. It will be deleted after 30 days.",
+    "kanpe.gone": "This cheat sheet can't be found. Cheat sheets are deleted after 30 days. Please make a new one."
   },
   "zh": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -326,7 +328,6 @@
     "kanpe.yomi": "平假名读音",
     "kanpe.loading": "正在制作提示卡…",
     "kanpe.qr": "用手机打开（QR）",
-    "kanpe.qrNote": "正式打电话时，可以在手机上用大字查看。内容保存在 URL 中，不会留在服务器上。",
     "kanpe.qrAlt": "打开提示卡的 QR 码",
     "kanpe.url": "提示卡的 URL",
     "kanpe.copy": "复制 URL",
@@ -348,7 +349,9 @@
     "kanpe.jump.memo": "写",
     "kanpe.jump.know": "知道",
     "kanpe.jump.yomi": "读音",
-    "kanpe.inside": "提示卡内容"
+    "kanpe.inside": "提示卡内容",
+    "kanpe.qrNote": "正式打电话时，可以用手机以大字查看。只有知道URL的人才能打开。30天后会自动删除。",
+    "kanpe.gone": "找不到这份提示小抄（30天后会自动删除）。请重新制作。"
   },
   "vi": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -443,7 +446,6 @@
     "kanpe.yomi": "Cách đọc bằng hiragana",
     "kanpe.loading": "Đang làm ghi chú…",
     "kanpe.qr": "Mở trên điện thoại (QR)",
-    "kanpe.qrNote": "Khi gọi thật, bạn có thể xem chữ to trên điện thoại. Nội dung ghi chú nằm trong URL, không lưu trên máy chủ.",
     "kanpe.qrAlt": "Mã QR để mở ghi chú",
     "kanpe.url": "URL ghi chú",
     "kanpe.copy": "Sao chép URL",
@@ -465,7 +467,9 @@
     "kanpe.jump.memo": "Ghi",
     "kanpe.jump.know": "Biết trước",
     "kanpe.jump.yomi": "Cách đọc",
-    "kanpe.inside": "Nội dung ghi chú"
+    "kanpe.inside": "Nội dung ghi chú",
+    "kanpe.qrNote": "Khi gọi điện thật, bạn có thể xem trên điện thoại với chữ to. Chỉ người biết URL mới mở được. Sau 30 ngày sẽ bị xóa.",
+    "kanpe.gone": "Không tìm thấy giấy nhắc (kanpe) này. Giấy nhắc sẽ bị xóa sau 30 ngày. Hãy tạo lại."
   },
   "tl": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -560,7 +564,6 @@
     "kanpe.yomi": "Basa sa hiragana",
     "kanpe.loading": "Ginagawa ang kodigo…",
     "kanpe.qr": "Buksan sa phone (QR)",
-    "kanpe.qrNote": "Sa totoong tawag, makikita mo ito sa phone nang malaki ang letra. Nasa URL ang laman ng kodigo at hindi ito nase-save sa server.",
     "kanpe.qrAlt": "QR code para buksan ang kodigo",
     "kanpe.url": "URL ng kodigo",
     "kanpe.copy": "Kopyahin ang URL",
@@ -582,7 +585,9 @@
     "kanpe.jump.memo": "Isulat",
     "kanpe.jump.know": "Alamin",
     "kanpe.jump.yomi": "Basa",
-    "kanpe.inside": "Laman ng kodigo"
+    "kanpe.inside": "Laman ng kodigo",
+    "kanpe.qrNote": "Makikita mo ito sa phone mo sa malalaking letra habang tumatawag ka talaga. Ang mga may URL lang ang makakapagbukas nito. Mabubura ito pagkalipas ng 30 araw.",
+    "kanpe.gone": "Wala na ang kanpe (notes) na ito. Nabubura ang kanpe pagkalipas ng 30 araw. Pakigawa ulit."
   },
   "ne": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -677,7 +682,6 @@
     "kanpe.yomi": "हिरागानामा पढ्ने तरिका",
     "kanpe.loading": "नोट बनाउँदै…",
     "kanpe.qr": "स्मार्टफोनमा खोल्नुहोस् (QR)",
-    "kanpe.qrNote": "वास्तविक फोन गर्दा स्मार्टफोनमा ठूलो अक्षरमा हेर्न सकिन्छ। नोटको सामग्री URL भित्र हुन्छ। सर्भरमा बाँकी रहँदैन।",
     "kanpe.qrAlt": "नोट खोल्ने QR कोड",
     "kanpe.url": "नोटको URL",
     "kanpe.copy": "URL कपी गर्नुहोस्",
@@ -699,7 +703,9 @@
     "kanpe.jump.memo": "लेख्ने",
     "kanpe.jump.know": "जान्ने",
     "kanpe.jump.yomi": "पढाइ",
-    "kanpe.inside": "नोटभित्र"
+    "kanpe.inside": "नोटभित्र",
+    "kanpe.qrNote": "वास्तविक फोन गर्दा, तपाईं यो स्मार्टफोनमा ठूला अक्षरमा हेर्न सक्नुहुन्छ। URL थाहा भएका मानिसले मात्र खोल्न सक्छन्। ३० दिनपछि यो मेटिन्छ।",
+    "kanpe.gone": "यो कान्पे (नोट) भेटिएन। कान्पे ३० दिनपछि मेटिन्छ। कृपया फेरि बनाउनुहोस्।"
   },
   "id": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -794,7 +800,6 @@
     "kanpe.yomi": "Cara baca hiragana",
     "kanpe.loading": "Membuat contekan…",
     "kanpe.qr": "Buka di HP (QR)",
-    "kanpe.qrNote": "Saat menelepon sungguhan, Anda bisa melihatnya di HP dengan huruf besar. Isi contekan ada di URL dan tidak disimpan di server.",
     "kanpe.qrAlt": "Kode QR untuk membuka contekan",
     "kanpe.url": "URL contekan",
     "kanpe.copy": "Salin URL",
@@ -816,7 +821,9 @@
     "kanpe.jump.memo": "Catat",
     "kanpe.jump.know": "Info",
     "kanpe.jump.yomi": "Bacaan",
-    "kanpe.inside": "Isi contekan"
+    "kanpe.inside": "Isi contekan",
+    "kanpe.qrNote": "Saat menelepon sungguhan, kamu bisa melihatnya di HP dengan huruf besar. Hanya orang yang tahu URL-nya yang bisa membukanya. Akan terhapus setelah 30 hari.",
+    "kanpe.gone": "Contekan (catatan) ini tidak ditemukan. Contekan terhapus setelah 30 hari. Silakan buat lagi."
   },
   "pt": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -885,7 +892,7 @@
     "review.sample": "Exemplo (feito por uma pessoa)",
     "review.todaysPartner": "Pessoa de hoje",
     "review.fixBefore": "Para corrigir antes da hora H",
-    "review.count": "",
+    "review.count": "itens",
     "review.loading": "O professor está corrigindo… (cerca de 30 segundos)",
     "review.fromTeacher": "Do professor",
     "review.where": "Onde é difícil?",
@@ -911,7 +918,6 @@
     "kanpe.yomi": "Leitura em hiragana",
     "kanpe.loading": "Fazendo a cola…",
     "kanpe.qr": "Abrir no celular (QR)",
-    "kanpe.qrNote": "Na hora da ligação, você pode ver em letras grandes no celular. O conteúdo fica na URL e não é salvo no servidor.",
     "kanpe.qrAlt": "Código QR para abrir a cola",
     "kanpe.url": "URL da cola",
     "kanpe.copy": "Copiar URL",
@@ -933,7 +939,9 @@
     "kanpe.jump.memo": "Anotar",
     "kanpe.jump.know": "Saber",
     "kanpe.jump.yomi": "Leitura",
-    "kanpe.inside": "Conteúdo da cola"
+    "kanpe.inside": "Conteúdo da cola",
+    "kanpe.qrNote": "Na hora da ligação de verdade, você pode ver no celular, com letras grandes. Só quem tem a URL pode abrir. Some depois de 30 dias.",
+    "kanpe.gone": "Esta cola (anotação) não existe mais. As colas somem depois de 30 dias. Crie de novo, por favor."
   },
   "ko": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -1028,7 +1036,6 @@
     "kanpe.yomi": "히라가나 읽기",
     "kanpe.loading": "메모를 만드는 중…",
     "kanpe.qr": "휴대폰으로 열기 (QR)",
-    "kanpe.qrNote": "실제 통화할 때 휴대폰에서 큰 글씨로 볼 수 있습니다. 내용은 URL에 들어 있고 서버에는 남지 않습니다.",
     "kanpe.qrAlt": "메모를 여는 QR 코드",
     "kanpe.url": "메모 URL",
     "kanpe.copy": "URL 복사",
@@ -1050,7 +1057,9 @@
     "kanpe.jump.memo": "적기",
     "kanpe.jump.know": "알기",
     "kanpe.jump.yomi": "읽기",
-    "kanpe.inside": "메모 내용"
+    "kanpe.inside": "메모 내용",
+    "kanpe.qrNote": "실제로 전화할 때 스마트폰에서 큰 글씨로 볼 수 있어요. URL을 아는 사람만 열 수 있어요. 30일이 지나면 사라져요.",
+    "kanpe.gone": "이 메모(칸페)를 찾을 수 없어요. 메모는 30일이 지나면 사라져요. 다시 만들어 주세요."
   },
   "my": {
     "app.name": "JAWS: Nihongo Jozu",
@@ -1145,7 +1154,6 @@
     "kanpe.yomi": "ဟိရဂန အသံထွက်",
     "kanpe.loading": "မှတ်စု ပြုလုပ်နေသည်…",
     "kanpe.qr": "ဖုန်းဖြင့် ဖွင့် (QR)",
-    "kanpe.qrNote": "ဖုန်းအစစ် ပြောချိန်တွင် စမတ်ဖုန်း၌ စာလုံးကြီးဖြင့် ကြည့်နိုင်သည်။ မှတ်စုပါအကြောင်းအရာများသည် URL ထဲတွင်သာ ရှိပြီး ဆာဗာတွင် မကျန်ပါ။",
     "kanpe.qrAlt": "မှတ်စုဖွင့်ရန် QR ကုဒ်",
     "kanpe.url": "မှတ်စု၏ URL",
     "kanpe.copy": "URL ကူးမည်",
@@ -1167,6 +1175,8 @@
     "kanpe.jump.memo": "ရေး",
     "kanpe.jump.know": "သိရန်",
     "kanpe.jump.yomi": "အသံထွက်",
-    "kanpe.inside": "မှတ်စုထဲ"
+    "kanpe.inside": "မှတ်စုထဲ",
+    "kanpe.qrNote": "တကယ့်ဖုန်းခေါ်ချိန်မှာ ဖုန်းထဲမှာ စာလုံးကြီးကြီးနဲ့ ကြည့်လို့ရပါတယ်။ URL သိတဲ့သူပဲ ဖွင့်လို့ရပါတယ်။ ရက် 30 ကြာရင် ပျက်သွားပါမယ်။",
+    "kanpe.gone": "ဒီ ကာန်ပေ (မှတ်စု) ကို ရှာမတွေ့ပါ။ ကာန်ပေ (မှတ်စု) တွေဟာ ရက် 30 ကြာရင် ပျက်သွားပါတယ်။ နောက်တစ်ခါ ပြန်လုပ်ပါ။"
   }
 }
