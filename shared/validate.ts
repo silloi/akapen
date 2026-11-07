@@ -28,6 +28,48 @@ function quoteOk(turns: Turn[], turn: number, quote: string): boolean {
   return Boolean(t && quote && t.text.includes(quote));
 }
 
+/** 引用の比べ方: 記号・空白・かっこを除いて比べる（Claude が句点やかぎかっこを落としても対応づく） */
+const loose = (s: string) => s.replace(/[\s「」『』（）()。、．，.,!?！？…・　]/g, "");
+
+/**
+ * 前回の赤ペンと、Claude の retry を対応づける。
+ * 1. 引用か「次はこう言う」が文字どおり同じ → 2. 記号を除いて同じか片方が片方を含む → 3. 数が同じなら順番どおり。
+ * 対応が無いものは △（この場面が出てこなかった）。
+ * 以前は 1 だけだったため、Claude が句点などを変えると全部 △ になった（11/7 の試し撮りで起きた）。
+ */
+export function matchRetry(raw: Retry[], previous: Pick<Mark, "quote" | "next">[]): Retry[] {
+  const used = new Set<number>();
+  const take = (i: number) => {
+    used.add(i);
+    return raw[i]!;
+  };
+  const pick = (p: Pick<Mark, "quote" | "next">, idx: number): Retry | undefined => {
+    const exact = raw.findIndex(
+      (x, i) => !used.has(i) && (x.quote === p.quote || x.next === p.next),
+    );
+    if (exact >= 0) return take(exact);
+    const lq = loose(p.quote);
+    const ln = loose(p.next);
+    const near = raw.findIndex((x, i) => {
+      if (used.has(i)) return false;
+      const xq = loose(x.quote);
+      const xn = loose(x.next);
+      const same = (a: string, b: string) =>
+        !!a && !!b && (a === b || a.includes(b) || b.includes(a));
+      return same(xq, lq) || same(xn, ln);
+    });
+    if (near >= 0) return take(near);
+    if (raw.length === previous.length && !used.has(idx)) return take(idx);
+    return undefined;
+  };
+  return previous.map((p, idx) => {
+    const r = pick(p, idx);
+    return r
+      ? { ...p, done: r.done, note: r.note }
+      : { ...p, done: false, note: "今回は、この場面が出てきませんでした。" };
+  });
+}
+
 export function normalizeAkapen(
   raw: RawAkapen,
   turns: Turn[],
@@ -73,14 +115,7 @@ export function normalizeAkapen(
       good: notes(raw.good, 3, "good"),
       later: notes(raw.later, 6, "later"),
       // 前回の赤ペンに対応するものだけ残す（Claude が作った項目は捨てる）
-      retry: previous.length
-        ? previous.map((p) => {
-            const r = (raw.retry ?? []).find((x) => x.quote === p.quote || x.next === p.next);
-            return r
-              ? { ...p, done: r.done, note: r.note }
-              : { ...p, done: false, note: "今回は、この場面が出てきませんでした。" };
-          })
-        : undefined,
+      retry: previous.length ? matchRetry(raw.retry ?? [], previous) : undefined,
       summary: raw.summary,
     },
     dropped,

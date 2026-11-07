@@ -61,7 +61,7 @@ const SECTIONS = [
           :key="i"
           :class="{ fixed: sec.key === 'say' && fixes?.some((f) => f.next === l.ja) }"
         >
-          <span class="ja">{{ l.ja }}</span>
+          <span class="ja" :data-tag="t('review.title')">{{ l.ja }}</span>
           <span v-if="showYomi && l.yomi" class="yomi">{{ l.yomi }}</span>
           <span class="tr">{{ l.tr }}</span>
         </li>
@@ -159,7 +159,8 @@ const SECTIONS = [
   color: var(--red);
 }
 .fixed .ja::before {
-  content: "赤ペン ";
+  /* 「赤ペン」の札。画面の言語に合わせる（data-tag は template で t("review.title")） */
+  content: attr(data-tag) " ";
   font-family: var(--hand);
   font-size: 13px;
 }

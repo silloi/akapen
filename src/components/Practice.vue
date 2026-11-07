@@ -94,7 +94,13 @@ async function toggleMic() {
     }
     await addMine(text);
   } catch (e) {
-    error.value = (e as Error).message;
+    // 文字起こしが使えないとき（クレジット切れなど）は、キーボードを開いて続けられるようにする
+    if (state.value === "transcribing") {
+      error.value = t("practice.sttError");
+      showKeyboard.value = true;
+    } else {
+      error.value = (e as Error).message;
+    }
     state.value = "idle";
   }
 }

@@ -30,7 +30,6 @@
     "home.others": "まだ 練習が ない 電話の Can do",
     "home.others.safety": "練習しません（いろいろな ことばの 窓口を 使ってください）",
     "practice.title": "練習",
-    "practice.attempt": "回目",
     "practice.partner": "相手",
     "practice.speed": "相手が 話す 速さ",
     "practice.speed.slow": "ゆっくり、はっきり",
@@ -66,7 +65,6 @@
     "review.sample": "見本（人が 作った 例）",
     "review.todaysPartner": "今日の 相手",
     "review.fixBefore": "本番の 前に 直すことは",
-    "review.count": "つ",
     "review.loading": "先生が 赤ペンを 入れています…（30秒ぐらい）",
     "review.fromTeacher": "先生から",
     "review.where": "どこが むずかしい？",
@@ -116,7 +114,12 @@
     "kanpe.inside": "カンペの 中",
     "kanpe.qrNote": "本番の電話のとき、スマホで見ることができます。字が大きいです。URL を知っている人だけが開くことができます。30日たつと、消えます。",
     "kanpe.gone": "このカンペは、ありません。カンペは30日たつと、消えます。もう一度作ってください。",
-    "practice.asks": "本番で聞かれること（この順番です）"
+    "practice.asks": "本番で聞かれること（この順番です）",
+    "review.countOne": "{n}つ",
+    "review.countMany": "{n}つ",
+    "review.attempt": "（{n}回目）",
+    "practice.attempt": "回目",
+    "practice.sttError": "声を文字にすることが できません。キーボードで 書いてください。"
   },
   "en": {
     "app.name": "JAWS: Good for Japanese",
@@ -149,7 +152,6 @@
     "home.others": "Phone Can do items without practice yet",
     "home.others.safety": "No practice (use a multilingual help line)",
     "practice.title": "Practice",
-    "practice.attempt": "Try #",
     "practice.partner": "Other person",
     "practice.speed": "Speaking speed",
     "practice.speed.slow": "Slow and clear",
@@ -185,7 +187,6 @@
     "review.sample": "Sample (made by a person)",
     "review.todaysPartner": "Today's partner",
     "review.fixBefore": "To fix before the real thing:",
-    "review.count": "items",
     "review.loading": "The teacher is marking with the red pen… (about 30 seconds)",
     "review.fromTeacher": "From the teacher",
     "review.where": "Where it's hard",
@@ -235,7 +236,12 @@
     "kanpe.inside": "Cheat sheet contents",
     "kanpe.qrNote": "During the real call, you can view this on your phone in large text. Only people who have the URL can open it. It will be deleted after 30 days.",
     "kanpe.gone": "This cheat sheet can't be found. Cheat sheets are deleted after 30 days. Please make a new one.",
-    "practice.asks": "What they'll ask you (in this order)"
+    "practice.asks": "What they'll ask you (in this order)",
+    "review.countOne": "{n} item",
+    "review.countMany": "{n} items",
+    "review.attempt": " (Try {n})",
+    "practice.attempt": "Try #",
+    "practice.sttError": "Voice-to-text isn't working. Please type with the keyboard."
   },
   "zh": {
     "app.name": "JAWS 日语说得很好",
@@ -268,7 +274,6 @@
     "home.others": "还没有练习场景的电话 Can do",
     "home.others.safety": "不做练习（请使用多语言窗口）",
     "practice.title": "练习",
-    "practice.attempt": "次",
     "practice.partner": "对方",
     "practice.speed": "对方的语速",
     "practice.speed.slow": "慢速、清楚",
@@ -304,7 +309,6 @@
     "review.sample": "示例（人工制作）",
     "review.todaysPartner": "今天的对方",
     "review.fixBefore": "正式前要改的地方",
-    "review.count": "处",
     "review.loading": "老师正在批改…（约30秒）",
     "review.fromTeacher": "老师的话",
     "review.where": "哪里卡住了？",
@@ -354,7 +358,12 @@
     "kanpe.inside": "提示卡内容",
     "kanpe.qrNote": "正式打电话时，可以用手机以大字查看。只有知道URL的人才能打开。30天后会自动删除。",
     "kanpe.gone": "找不到这份提示小抄（30天后会自动删除）。请重新制作。",
-    "practice.asks": "正式场合会被问到的问题（按此顺序）"
+    "practice.asks": "正式场合会被问到的问题（按此顺序）",
+    "review.countOne": "{n}处",
+    "review.countMany": "{n}处",
+    "review.attempt": "（第{n}次）",
+    "practice.attempt": "次",
+    "practice.sttError": "无法将语音转成文字。请用键盘输入。"
   },
   "vi": {
     "app.name": "JAWS: Giỏi tiếng Nhật",
@@ -387,7 +396,6 @@
     "home.others": "Can do về điện thoại chưa có bài luyện",
     "home.others.safety": "Không luyện tập (hãy dùng quầy hỗ trợ đa ngôn ngữ)",
     "practice.title": "Luyện tập",
-    "practice.attempt": "Lần",
     "practice.partner": "Đối phương",
     "practice.speed": "Tốc độ nói của đối phương",
     "practice.speed.slow": "Chậm, rõ ràng",
@@ -423,7 +431,6 @@
     "review.sample": "Mẫu (ví dụ do người soạn)",
     "review.todaysPartner": "Đối phương hôm nay",
     "review.fixBefore": "Cần sửa trước lần thật:",
-    "review.count": "điểm",
     "review.loading": "Giáo viên đang sửa bằng bút đỏ… (khoảng 30 giây)",
     "review.fromTeacher": "Từ giáo viên",
     "review.where": "Khó ở đâu?",
@@ -473,7 +480,12 @@
     "kanpe.inside": "Nội dung ghi chú",
     "kanpe.qrNote": "Khi gọi điện thật, bạn có thể xem trên điện thoại với chữ to. Chỉ người biết URL mới mở được. Sau 30 ngày sẽ bị xóa.",
     "kanpe.gone": "Không tìm thấy giấy nhắc (kanpe) này. Giấy nhắc sẽ bị xóa sau 30 ngày. Hãy tạo lại.",
-    "practice.asks": "Những điều sẽ được hỏi khi làm thật (theo thứ tự này)"
+    "practice.asks": "Những điều sẽ được hỏi khi làm thật (theo thứ tự này)",
+    "review.countOne": "{n} điểm",
+    "review.countMany": "{n} điểm",
+    "review.attempt": " (Lần {n})",
+    "practice.attempt": "Lần thứ",
+    "practice.sttError": "Không thể chuyển giọng nói thành chữ. Vui lòng nhập bằng bàn phím."
   },
   "tl": {
     "app.name": "JAWS: Magaling sa Nihongo",
@@ -506,7 +518,6 @@
     "home.others": "Mga Can do sa telepono na wala pang ensayo",
     "home.others.safety": "Walang ensayo (gumamit ng serbisyong may iba't ibang wika)",
     "practice.title": "Ensayo",
-    "practice.attempt": "Subok blg.",
     "practice.partner": "Kausap",
     "practice.speed": "Bilis ng pagsasalita ng kausap",
     "practice.speed.slow": "Mabagal at malinaw",
@@ -542,7 +553,6 @@
     "review.sample": "Halimbawa (gawa ng tao)",
     "review.todaysPartner": "Kausap ngayon",
     "review.fixBefore": "Aayusin bago ang totoong usapan:",
-    "review.count": "",
     "review.loading": "Nagwawasto ang guro… (mga 30 segundo)",
     "review.fromTeacher": "Mula sa guro",
     "review.where": "Saan nahihirapan?",
@@ -592,7 +602,12 @@
     "kanpe.inside": "Laman ng kodigo",
     "kanpe.qrNote": "Makikita mo ito sa phone mo sa malalaking letra habang tumatawag ka talaga. Ang mga may URL lang ang makakapagbukas nito. Mabubura ito pagkalipas ng 30 araw.",
     "kanpe.gone": "Wala na ang kanpe (notes) na ito. Nabubura ang kanpe pagkalipas ng 30 araw. Pakigawa ulit.",
-    "practice.asks": "Mga itatanong sa totoong usapan (sa ganitong pagkakasunod)"
+    "practice.asks": "Mga itatanong sa totoong usapan (sa ganitong pagkakasunod)",
+    "review.countOne": "{n}",
+    "review.countMany": "{n}",
+    "review.attempt": " (Ika-{n} subok)",
+    "practice.attempt": "Ulit",
+    "practice.sttError": "Hindi magawang text ang boses. Paki-type gamit ang keyboard."
   },
   "ne": {
     "app.name": "JAWS: राम्रो जापानी",
@@ -625,7 +640,6 @@
     "home.others": "अझै अभ्यास नभएका फोनका Can do",
     "home.others.safety": "अभ्यास गरिँदैन (बहुभाषिक सहायता केन्द्र प्रयोग गर्नुहोस्)",
     "practice.title": "अभ्यास",
-    "practice.attempt": "औं पटक",
     "practice.partner": "अर्को व्यक्ति",
     "practice.speed": "बोल्ने गति",
     "practice.speed.slow": "बिस्तारै, स्पष्ट",
@@ -661,7 +675,6 @@
     "review.sample": "नमूना (मानिसले बनाएको उदाहरण)",
     "review.todaysPartner": "आजको अर्को व्यक्ति",
     "review.fixBefore": "वास्तविक कुराकानीअघि सुधार्ने कुरा",
-    "review.count": "वटा",
     "review.loading": "शिक्षकले रातो कलमले सुधार गर्दै हुनुहुन्छ… (करिब 30 सेकेन्ड)",
     "review.fromTeacher": "शिक्षकबाट",
     "review.where": "कहाँ गाह्रो छ?",
@@ -711,7 +724,12 @@
     "kanpe.inside": "नोटभित्र",
     "kanpe.qrNote": "वास्तविक फोन गर्दा, तपाईं यो स्मार्टफोनमा ठूला अक्षरमा हेर्न सक्नुहुन्छ। URL थाहा भएका मानिसले मात्र खोल्न सक्छन्। ३० दिनपछि यो मेटिन्छ।",
     "kanpe.gone": "यो कान्पे (नोट) भेटिएन। कान्पे ३० दिनपछि मेटिन्छ। कृपया फेरि बनाउनुहोस्।",
-    "practice.asks": "वास्तविक कुराकानीमा सोधिने कुराहरू (यही क्रममा)"
+    "practice.asks": "वास्तविक कुराकानीमा सोधिने कुराहरू (यही क्रममा)",
+    "review.countOne": "{n} वटा",
+    "review.countMany": "{n} वटा",
+    "review.attempt": " ({n} औं पटक)",
+    "practice.attempt": "औँ पटक",
+    "practice.sttError": "आवाजलाई अक्षरमा बदल्न सकिएन। किबोर्डबाट लेख्नुहोस्।"
   },
   "id": {
     "app.name": "JAWS: Jago Bahasa Jepang",
@@ -744,7 +762,6 @@
     "home.others": "Can do telepon yang belum ada latihannya",
     "home.others.safety": "Tidak dilatih (gunakan layanan multibahasa)",
     "practice.title": "Latihan",
-    "practice.attempt": "Percobaan ke-",
     "practice.partner": "Lawan bicara",
     "practice.speed": "Kecepatan bicara",
     "practice.speed.slow": "Pelan dan jelas",
@@ -780,7 +797,6 @@
     "review.sample": "Contoh (buatan manusia)",
     "review.todaysPartner": "Lawan bicara hari ini",
     "review.fixBefore": "Yang perlu diperbaiki sebelum menelepon sungguhan",
-    "review.count": "hal",
     "review.loading": "Guru sedang memberi pena merah… (sekitar 30 detik)",
     "review.fromTeacher": "Dari guru",
     "review.where": "Di mana sulitnya?",
@@ -830,7 +846,12 @@
     "kanpe.inside": "Isi contekan",
     "kanpe.qrNote": "Saat menelepon sungguhan, kamu bisa melihatnya di HP dengan huruf besar. Hanya orang yang tahu URL-nya yang bisa membukanya. Akan terhapus setelah 30 hari.",
     "kanpe.gone": "Contekan (catatan) ini tidak ditemukan. Contekan terhapus setelah 30 hari. Silakan buat lagi.",
-    "practice.asks": "Yang akan ditanyakan saat sebenarnya (sesuai urutan ini)"
+    "practice.asks": "Yang akan ditanyakan saat sebenarnya (sesuai urutan ini)",
+    "review.countOne": "{n} hal",
+    "review.countMany": "{n} hal",
+    "review.attempt": " (Percobaan ke-{n})",
+    "practice.attempt": "Percobaan ke-",
+    "practice.sttError": "Suara tidak bisa diubah menjadi teks. Silakan ketik dengan keyboard."
   },
   "pt": {
     "app.name": "JAWS: Bom de Japonês",
@@ -863,7 +884,6 @@
     "home.others": "Can do de telefone ainda sem treino",
     "home.others.safety": "Sem treino (use atendimento em vários idiomas)",
     "practice.title": "Treino",
-    "practice.attempt": "ª vez",
     "practice.partner": "Outra pessoa",
     "practice.speed": "Velocidade da fala",
     "practice.speed.slow": "Devagar e claro",
@@ -899,7 +919,6 @@
     "review.sample": "Exemplo (feito por uma pessoa)",
     "review.todaysPartner": "Pessoa de hoje",
     "review.fixBefore": "Para corrigir antes da hora H",
-    "review.count": "itens",
     "review.loading": "O professor está corrigindo… (cerca de 30 segundos)",
     "review.fromTeacher": "Do professor",
     "review.where": "Onde é difícil?",
@@ -949,7 +968,12 @@
     "kanpe.inside": "Conteúdo da cola",
     "kanpe.qrNote": "Na hora da ligação de verdade, você pode ver no celular, com letras grandes. Só quem tem a URL pode abrir. Some depois de 30 dias.",
     "kanpe.gone": "Esta cola (anotação) não existe mais. As colas somem depois de 30 dias. Crie de novo, por favor.",
-    "practice.asks": "O que vão perguntar na hora (nesta ordem)"
+    "practice.asks": "O que vão perguntar na hora (nesta ordem)",
+    "review.countOne": "{n} item",
+    "review.countMany": "{n} itens",
+    "review.attempt": " ({n}ª vez)",
+    "practice.attempt": "ª tentativa",
+    "practice.sttError": "Não foi possível transformar sua voz em texto. Por favor, digite no teclado."
   },
   "ko": {
     "app.name": "JAWS 일본어 잘하다",
@@ -982,7 +1006,6 @@
     "home.others": "아직 연습이 없는 전화 Can do",
     "home.others.safety": "연습하지 않음 (다국어 창구를 이용하세요)",
     "practice.title": "연습",
-    "practice.attempt": "번째",
     "practice.partner": "상대",
     "practice.speed": "상대의 말 속도",
     "practice.speed.slow": "천천히, 또박또박",
@@ -1018,7 +1041,6 @@
     "review.sample": "예시 (사람이 만든 예)",
     "review.todaysPartner": "오늘의 상대",
     "review.fixBefore": "실전 전에 고칠 점",
-    "review.count": "개",
     "review.loading": "선생님이 첨삭하고 있습니다… (30초 정도)",
     "review.fromTeacher": "선생님의 한마디",
     "review.where": "어디서 막히나요?",
@@ -1068,7 +1090,12 @@
     "kanpe.inside": "메모 내용",
     "kanpe.qrNote": "실제로 전화할 때 스마트폰에서 큰 글씨로 볼 수 있어요. URL을 아는 사람만 열 수 있어요. 30일이 지나면 사라져요.",
     "kanpe.gone": "이 메모(칸페)를 찾을 수 없어요. 메모는 30일이 지나면 사라져요. 다시 만들어 주세요.",
-    "practice.asks": "실제 상황에서 받을 질문 (이 순서대로)"
+    "practice.asks": "실제 상황에서 받을 질문 (이 순서대로)",
+    "review.countOne": "{n}개",
+    "review.countMany": "{n}개",
+    "review.attempt": " ({n}번째)",
+    "practice.attempt": "번째",
+    "practice.sttError": "음성을 글자로 바꿀 수 없습니다. 키보드로 입력해 주세요."
   },
   "my": {
     "app.name": "JAWS ဂျပန်စကား တော်တယ်",
@@ -1101,7 +1128,6 @@
     "home.others": "လေ့ကျင့်ခန်း မရှိသေးသော ဖုန်း Can do များ",
     "home.others.safety": "မလေ့ကျင့်ပါ (ဘာသာစကားစုံ ကောင်တာကို သုံးပါ)",
     "practice.title": "လေ့ကျင့်ရန်",
-    "practice.attempt": "ကြိမ်မြောက်",
     "practice.partner": "တစ်ဖက်လူ",
     "practice.speed": "တစ်ဖက်လူ၏ ပြောနှုန်း",
     "practice.speed.slow": "ဖြည်းဖြည်း၊ ပီပီသသ",
@@ -1137,7 +1163,6 @@
     "review.sample": "နမူနာ (လူက ပြုလုပ်ထားသည်)",
     "review.todaysPartner": "ယနေ့ တစ်ဖက်လူ",
     "review.fixBefore": "အစစ်မတိုင်မီ ပြင်ရန်",
-    "review.count": "ခု",
     "review.loading": "ဆရာ အမှားပြင်နေသည်… (စက္ကန့် 30 ခန့်)",
     "review.fromTeacher": "ဆရာထံမှ",
     "review.where": "ဘယ်နေရာ ခက်သလဲ?",
@@ -1187,6 +1212,11 @@
     "kanpe.inside": "မှတ်စုထဲ",
     "kanpe.qrNote": "တကယ့်ဖုန်းခေါ်ချိန်မှာ ဖုန်းထဲမှာ စာလုံးကြီးကြီးနဲ့ ကြည့်လို့ရပါတယ်။ URL သိတဲ့သူပဲ ဖွင့်လို့ရပါတယ်။ ရက် 30 ကြာရင် ပျက်သွားပါမယ်။",
     "kanpe.gone": "ဒီ ကာန်ပေ (မှတ်စု) ကို ရှာမတွေ့ပါ။ ကာန်ပေ (မှတ်စု) တွေဟာ ရက် 30 ကြာရင် ပျက်သွားပါတယ်။ နောက်တစ်ခါ ပြန်လုပ်ပါ။",
-    "practice.asks": "တကယ့်အချိန်မှာ မေးမယ့်အရာများ (ဒီအစီအစဉ်အတိုင်း)"
+    "practice.asks": "တကယ့်အချိန်မှာ မေးမယ့်အရာများ (ဒီအစီအစဉ်အတိုင်း)",
+    "review.countOne": "{n} ခု",
+    "review.countMany": "{n} ခု",
+    "review.attempt": " ({n} ကြိမ်မြောက်)",
+    "practice.attempt": "ကြိမ်မြောက်",
+    "practice.sttError": "အသံကို စာအဖြစ် ပြောင်းလို့ မရပါ။ ကီးဘုတ်ဖြင့် ရိုက်ထည့်ပါ။"
   }
 }

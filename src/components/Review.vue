@@ -26,6 +26,9 @@ const emit = defineEmits<{
 const akapen = ref<Akapen | null>(props.initial);
 const error = ref("");
 const loading = ref(false);
+/** 「本番の前に直すのは 3つ」の数の部分（英語などは単数・複数で形が違う） */
+const countLabel = (n: number) =>
+  t(n === 1 ? "review.countOne" : "review.countMany").replace("{n}", String(n));
 /** カンペに入れる赤ペン（priority） */
 const picked = ref<Set<number>>(new Set());
 
@@ -138,7 +141,9 @@ function toKanpe() {
   <section class="head">
     <p class="small muted">
       {{ t("review.title")
-      }}<template v-if="(attempt ?? 1) > 1">（{{ attempt }}{{ t("practice.attempt") }}）</template>
+      }}<template v-if="(attempt ?? 1) > 1">{{
+        t("review.attempt").replace("{n}", String(attempt))
+      }}</template>
       ・
       {{ scene.title }}
       <span v-if="isSample" class="badge">{{ t("review.sample") }}</span>
@@ -146,7 +151,7 @@ function toKanpe() {
     </p>
     <h1>
       {{ t("review.fixBefore") }}
-      <span class="hand big tx">{{ akapen ? akapen.marks.length + t("review.count") : "…" }}</span>
+      <span class="hand big tx">{{ akapen ? countLabel(akapen.marks.length) : "…" }}</span>
     </h1>
     <p v-if="akapen" class="summary">
       <span class="lbl hand tx">{{ t("review.fromTeacher") }}</span>
@@ -168,8 +173,10 @@ function toKanpe() {
         <span class="mark hand" aria-hidden="true">{{ r.done ? "○" : "△" }}</span>
         <span class="body">
           <span class="was">「{{ r.quote }}」→ {{ r.next }}</span>
+          <!-- 英語などの文の後には空白を置く（「Not yet.今回は…」とくっつかないように） -->
           <span class="hand note"
-            >{{ t(r.done ? "review.fixed" : "review.notYet") }}{{ r.note }}</span
+            >{{ t(r.done ? "review.fixed" : "review.notYet") }}{{ isJa ? "" : " "
+            }}{{ r.note }}</span
           >
           <span v-if="tr[r.note]" class="trline">{{ tr[r.note] }}</span>
         </span>
@@ -181,7 +188,7 @@ function toKanpe() {
     <li v-for="m in akapen.marks" :key="m.priority">
       <a :href="`#mark-${m.priority}`"
         ><span class="num">{{ m.priority }}</span
-        >{{ t(KIND_KEY[m.kind]) }}「{{ m.quote }}」</a
+        >{{ t(KIND_KEY[m.kind]) }}{{ isJa ? "" : " " }}「{{ m.quote }}」</a
       >
     </li>
   </ol>
@@ -231,7 +238,10 @@ function toKanpe() {
 
   <!-- 赤は多くても3つ。4つ目以降はここに入るので、折りたたまずに見せる（たたむと「赤が少ない」と見える） -->
   <details v-if="akapen && akapen.later.length" class="later" open>
-    <summary>{{ t("review.later") }}（{{ akapen.later.length }}）</summary>
+    <summary>
+      {{ t("review.later") }}{{ isJa ? "（" : " (" }}{{ akapen.later.length
+      }}{{ isJa ? "）" : ")" }}
+    </summary>
     <ul>
       <li v-for="l in akapen.later" :key="l.turn + l.quote">
         「{{ l.quote }}」→ {{ l.note }}
