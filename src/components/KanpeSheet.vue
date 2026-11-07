@@ -61,7 +61,7 @@ const SECTIONS = [
           :key="i"
           :class="{ fixed: sec.key === 'say' && fixes?.some((f) => f.next === l.ja) }"
         >
-          <span class="ja" :data-tag="t('review.title')">{{ l.ja }}</span>
+          <span class="ja">{{ l.ja }}</span>
           <span v-if="showYomi && l.yomi" class="yomi">{{ l.yomi }}</span>
           <span class="tr">{{ l.tr }}</span>
         </li>
@@ -155,14 +155,9 @@ const SECTIONS = [
 .tr {
   font-size: 15px;
 }
+/* 赤ペンで直した言い方は、赤字だけで示す（「赤ペン」の札は付けない。作り手の判断、11/8） */
 .fixed .ja {
   color: var(--red);
-}
-.fixed .ja::before {
-  /* 「赤ペン」の札。画面の言語に合わせる（data-tag は template で t("review.title")） */
-  content: attr(data-tag) " ";
-  font-family: var(--hand);
-  font-size: 13px;
 }
 .know li {
   font-size: 15px;
