@@ -12,16 +12,17 @@
 - データの出典を書く（`data/cando.meta.json`、README の出典）。
 - 赤ペンは相手役と別の呼び出し。言いよどみは直さない。多くても3つ。優先順は `shared/validate.ts` の `KIND_ORDER`。
 - カンペの「知っておくこと」は、場面カードの `notes` と生活・文化・社会的情報だけを元にする（Claude に事実を足させない）。
+- 公的な情報のリンクは yasashii-refs の目録にあるページだけ（Claude に URL を作らせない）。ことばの説明は公的な用語集を先に使い、Claude が書いた説明は「下書き」と出す（作り手が確かめたら `reviewed`）。
 - `shared/prompts.ts` を変えたら `PROMPT_VERSION` を上げ、`vpx scripts/eval.ts` を回して `docs/eval.md` に結果を書く。
 - Claude API は `claude-opus-5-5`、構造化出力（`output_config.format`）、`fallbacks: "default"`（beta `server-side-fallback-2026-07-01`）。
 
 ## 構成
 
-- `shared/` 共通: `types.ts`、`scenes.ts`（手書きの場面カード＋`data/scenes.generated.json` の下書き。`keyterms` は文字起こしに渡す語、`status` は先生が確かめたか）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`persona.ts`（練習で名乗る架空の名前。画面の言語ごと。場面カードの 〔名前〕 を埋める）、`calendar.ts`（相手役に渡す今日の日付とカレンダー。日本時間）、`cando.ts`
+- `shared/` 共通: `types.ts`、`scenes.ts`（手書きの場面カード＋`data/scenes.generated.json` の下書き。`keyterms` は文字起こしに渡す語、`status` は先生が確かめたか）、`prompts.ts`（相手役・赤ペン・カンペの指示とスキーマ）、`claude.ts`（呼び出し）、`validate.ts`（赤ペンの引用の照合・並べ替え・前回の赤ペンとの対応）、`numbers.ts`（漢数字→算用数字）、`persona.ts`（練習で名乗る架空の名前。画面の言語ごと。場面カードの 〔名前〕 を埋める）、`calendar.ts`（相手役に渡す今日の日付とカレンダー。日本時間）、`cando.ts`、`glossary.ts`（用語集の語を文の中から見つける）、`public-info.ts`（場面に関係する公的な情報の型）
 - `worker/` Cloudflare Worker: `/api/scenes`、`/api/phone-candos`、`/api/turn`、`/api/akapen`、`/api/kanpe`、`/api/stt`（ElevenLabs Scribe）、`/api/tts`、`/api/share`（カンペを KV に置く・取り出す）、`/media/*`（トップの動画。Range に 206 で答える、`worker/media.ts`）
-- `src/` Vue 3: `SceneList.vue`（トップ。動画 `HeroVideo.vue` と、生活Can do の大分類で分けた場面の一覧・絞り込み）→ `Practice.vue` → `Review.vue`（赤ペン、案A の添削。2回目以降は前回の赤ペンの ○△）→ `KanpeView.vue`（QR）。`KanpeSheet.vue` はカンペの表示、`LiveKanpe.vue` は QR から開く本番用（`/k/<ID>`。`lib/share.ts` が `/api/share` で KV に30日置く）。`lib/sample.ts` は手で作った見本。`lib/furigana.ts` は会話のふりがな（Furifont。フォントと表は `public/fonts/furifont/`、利用条件もそこ）。`lib/voice.ts` は録音と相手の声（iPad の対策、`#debug` で記録）。`dev/GoldReview.vue` は作り手が評価の正解を確かめる道具（`/dev/gold`。日本語だけ。サーバーに送らず、書き出した JSON を `scripts/apply-gold.ts` で入れる）
+- `src/` Vue 3: `SceneList.vue`（トップ。動画 `HeroVideo.vue` と、生活Can do の大分類で分けた場面の一覧・絞り込み）→ `Practice.vue` → `Review.vue`（赤ペン、案A の添削。2回目以降は前回の赤ペンの ○△）→ `KanpeView.vue`（QR）。`KanpeSheet.vue` はカンペの表示（「ことば」も）、`PublicInfo.vue` はカンペの画面の下の公的な情報、`TermInfo.vue` は語の意味（`lib/glossary.ts` が用語集を読む）、`LiveKanpe.vue` は QR から開く本番用（`/k/<ID>`。`lib/share.ts` が `/api/share` で KV に30日置く）。`lib/sample.ts` は手で作った見本。`lib/furigana.ts` は会話のふりがな（Furifont。フォントと表は `public/fonts/furifont/`、利用条件もそこ）。`lib/voice.ts` は録音と相手の声（iPad の対策、`#debug` で記録）。`dev/GoldReview.vue` は作り手が評価の正解を確かめる道具（`/dev/gold`。日本語だけ。サーバーに送らず、書き出した JSON を `scripts/apply-gold.ts` で入れる）
 - `eval/` 評価の会話（`cases/*.json`、正解は作り手が入れる。`draft` は仮、`teacher` は作り手が確かめた）と比べ方（`score.ts`）、正解の確かめと当てはめ（`gold.ts`）
-- `scripts/` `build-data.ts`（データの取り込み）、`build-scenes.ts`（場面の下書き → 検査役）、`scene-sheet.ts`（場面の一覧 `docs/scenes.md`）、`eval.ts`（評価）、`check-dates.ts`（相手役が相対的な日を日付に直すか）、`apply-gold.ts`（`/dev/gold` の書き出しを正解に入れる）、`try-partner.ts`（相手役を試す）、`simulate.ts`（学習者役も Claude にした通し）、`gold-sheet.ts`（正解を読む表）、`hero/`（トップの動画を撮って作る。`scripts/hero/README.md`）
+- `scripts/` `build-data.ts`（データの取り込み）、`build-scenes.ts`（場面の下書き → 検査役）、`scene-sheet.ts`（場面の一覧 `docs/scenes.md`）、`eval.ts`（評価）、`check-dates.ts`（相手役が相対的な日を日付に直すか）、`apply-gold.ts`（`/dev/gold` の書き出しを正解に入れる）、`try-partner.ts`（相手役を試す）、`simulate.ts`（学習者役も Claude にした通し）、`gold-sheet.ts`（正解を読む表）、`hero/`（トップの動画を撮って作る。`scripts/hero/README.md`）、`build-glossary.ts`（用語集。yasashii-refs の公的な用語集＋Claude の下書き `data/glossary/`）、`build-public-info.ts`（場面に関係する公的な情報。yasashii-refs の目録から `data/public-info.json`）、`info-sheet.ts`（その2つを作り手が確かめる一覧 `docs/glossary.md`・`docs/public-info.md`）
 - `docs/` 仕様・計画・評価・文字起こしの確かめ・デモの流れ。`docs/research/` は調査の報告
 
 ## 開発メモ

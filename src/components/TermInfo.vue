@@ -51,7 +51,9 @@ const trByClaude = computed(
     <p v-else-if="entry.en && lang !== 'en'" class="easy sub">English: {{ entry.en }}</p>
     <p v-if="compact" class="src">
       <span v-if="draft" class="tag draft">{{ t("glossary.draftShort") }}</span>
-      <span v-else class="tag official">{{ t("glossary.official") }}: {{ SHORT[entry.source] }}</span>
+      <span v-else class="tag official"
+        >{{ t("glossary.official") }}: {{ SHORT[entry.source] }}</span
+      >
       <template v-if="trByClaude"> ・ {{ t("glossary.trByClaude") }}</template>
     </p>
     <p v-else class="src">
