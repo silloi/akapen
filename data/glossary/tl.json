@@ -1,0 +1,4242 @@
+{
+ "mh1": [
+  "Pagsubok sa pagpili",
+  "Pgabibigay ng mga katanungan upang malaman kung ang tao ay nararapat para sa kumpanya.",
+  "o"
+ ],
+ "mh2": [
+  "Resident's card entry certificate",
+  "Dokumento na inisyu ng tanggapan ng gobyerno na nagpapatunay na ang nakasulat sa resident's card ay tama.",
+  "o"
+ ],
+ "mh3": [
+  "Driver's license",
+  "Dokumentong ibinigay ng istasyon ng pulisya na nagpapatunay na pinapayagan kang magmaneho ng sasakyan.",
+  "o"
+ ],
+ "mh4": [
+  "Mga Nakasaad",
+  "Mga nakasulat sa dokumento.",
+  "o"
+ ],
+ "mh5": [
+  "Trial period",
+  "Panahon upang magkaroon ng trial work.",
+  "o"
+ ],
+ "mh6": [
+  "Na-disqualify",
+  "Hindi angkop.",
+  "o"
+ ],
+ "mh7": [
+  "Kondisyon sa Pagtatrabaho",
+  "Mga kundisyon sa pagtatrabaho.",
+  "o"
+ ],
+ "mh8": [
+  "Lugar ng trabaho",
+  "Kung saan magtratrabaho.",
+  "o"
+ ],
+ "mh9": [
+  "Nilalaman ng trabaho",
+  "Ang nilalaman ng trabaho.",
+  "o"
+ ],
+ "mh10": [
+  "Paunawa sa mga Kondisyon sa trabaho",
+  "Dokumento na naglalarawan sa mga kundisyon para sa pagtatrabaho.",
+  "o"
+ ],
+ "mh11": [
+  "Labor contract period",
+  "Termino ng kontrata sa trabaho.",
+  "o"
+ ],
+ "mh12": [
+  "Pagbigay",
+  "Pagbigay.",
+  "o"
+ ],
+ "mh13": [
+  "Hire",
+  "Pagkuha ng mga tao.",
+  "o"
+ ],
+ "mh14": [
+  "Mid-Career Recruitment",
+  "Pagkuha ng mangagawa na nakapag-trabaho na sa ibang kumpanya.",
+  "o"
+ ],
+ "mh15": [
+  "Suweldo/Sahod",
+  "Sweldo/Sahod sa trabaho.",
+  "o"
+ ],
+ "mh16": [
+  "Bayaran ng Suweldo/Sahod",
+  "Araw ng pagbabayad.",
+  "o"
+ ],
+ "mh17": [
+  "Pagtaas ng Suweldo/Sahod",
+  "Pagtaas ng suweldo.",
+  "o"
+ ],
+ "mh18": [
+  "Absent",
+  "Ang hindi pagpasok sa araw ng trabaho nang walang pahintulot mula sa kumpanya.",
+  "o"
+ ],
+ "mh19": [
+  "Wage ledger",
+  "Isang libro (kuwaderno) na nilikha ng kumpanya upang isulat ang suweldo na binabayaran sa mga manggagawa.",
+  "o"
+ ],
+ "mh20": [
+  "Wage calculation cut-off",
+  "Petsa ng deadline na para sa kalkulasyon ng buwanang suweldo.",
+  "o"
+ ],
+ "mh21": [
+  "Pay slip",
+  "Papel na naglalarawan kung magkano ang suweldong natatanggap.",
+  "o"
+ ],
+ "mh22": [
+  "Basic salary",
+  "Pangunahing suweldo.",
+  "o"
+ ],
+ "mh23": [
+  "Family allowance",
+  "Perang matatanggap mula sa kumpanya ng mangagawang may pamilya.",
+  "o"
+ ],
+ "mh24": [
+  "Commuting allowance",
+  "Perang matatanggap mula sa kumpanya para sa gastusin sa byahe upang makapunta sa kumpanya.",
+  "o"
+ ],
+ "mh25": [
+  "Role allowance",
+  "Perang matatanggap mula sa kumpanya ng mga taong may mahalagang posisyon sa kumpanya.",
+  "o"
+ ],
+ "mh26": [
+  "Skills / Qualification allowance",
+  "Perang matatanggap mula sa kumpanya ng mga taong may espesyal na kasanayan at kwalipikasyon.",
+  "o"
+ ],
+ "mh27": [
+  "Attendance allowance",
+  "Perang matatanggap mula sa kumpanya para sa mga taong nagsusumikap.",
+  "o"
+ ],
+ "mh28": [
+  "Premium wage",
+  "Special rate na maaring idagdag sa suweldo.",
+  "o"
+ ],
+ "mh29": [
+  "Overtime extra wage/ Overtime pay",
+  "Special rate na dagdag sa suweldo kapag nagtatrabaho maliban sa ligal na kinakailangang oras.",
+  "o"
+ ],
+ "mh30": [
+  "Holiday work extra wage/Holiday pay",
+  "Special rate na dagdag sa suweldo kapag nagtrabaho sa araw ng pahinga.",
+  "o"
+ ],
+ "mh31": [
+  "Late night work extra wage",
+  "Special rate na maaring idagdag sa suweldo kapag nagtrabaho hanggang sa hatinggabi.",
+  "o"
+ ],
+ "mh32": [
+  "Nilalalaman ng trabaho",
+  "Ang nilalaman ng trabaho ng manggagawa.",
+  "o"
+ ],
+ "mh33": [
+  "Skill",
+  "Ang teknolohiyang taglay ng manggagawa.",
+  "o"
+ ],
+ "mh34": [
+  "Work performance",
+  "Pagganap sa trabaho.",
+  "o"
+ ],
+ "mh35": [
+  "Minimum wage",
+  "Ang pinakamababang suweldo na dapat bayaran ayon sa itinakda ng batas.",
+  "o"
+ ],
+ "mh36": [
+  "Support",
+  "Ang iyong pamilya na dumedepende sa iyo para mabuhay.",
+  "o"
+ ],
+ "mh37": [
+  "Actual cost",
+  "Ang halaga na ginastos.",
+  "o"
+ ],
+ "mh38": [
+  "Promotion",
+  "Ang pagtaas ng iyong posisyon sa kumpanya.",
+  "o"
+ ],
+ "mh39": [
+  "Demotion",
+  "Bumaba ang posisyon sa kumpanya.",
+  "o"
+ ],
+ "mh40": [
+  "Perfect attendance (Walang absent)",
+  "Ang hindi pag-absent sa trabaho kahit isang beses maliban sa paid leave.",
+  "o"
+ ],
+ "mh41": [
+  "Monthly Salary System",
+  "Isang mekanismo upang makalkula ang suweldo sa buwanang batayan.",
+  "o"
+ ],
+ "mh42": [
+  "Daily Salary System",
+  "Isang mekanismo upang makalkula ang suweldo ng arawan.",
+  "o"
+ ],
+ "mh43": [
+  "Hourly Wage System",
+  "Isang mekanismo upang makalkula ang suweldo kada oras.",
+  "o"
+ ],
+ "mh44": [
+  "Overpaid",
+  "Sumobra sa pagbayad ng pera.",
+  "o"
+ ],
+ "mh45": [
+  "Legal Premium Wage Rate",
+  "Isang espesyal na porsyento na kung saan tataas ang iyong suweldo kung nagovertime ka o nagtratrabaho sa gabi, na itinakda ng batas.",
+  "o"
+ ],
+ "mh46": [
+  "Pansamantalang Pagsara",
+  "Dahil sa mga kadahilanan ng kumpanya, kailangan kumuha ng isang day-off sa araw na dapat may trabaho.",
+  "o"
+ ],
+ "mh47": [
+  "Average Wage",
+  "Ang halaga na binayaran ng kumpanya sa tatlong buwan na hinati sa bilang ng mga araw sa kalendaryo sa loob ng tatlong buwan.",
+  "o"
+ ],
+ "mh48": [
+  "Leave Allowance",
+  "Ang perang binabayaran ng kumpanya kapag nag-take ng rest day ang worker. Nakasaad sa Labor Standards Law na kapag ang isang worker ay pinagpahinga ng kumpanya sa araw na siya ay dapat na magtrabaho dahil sa kagustuhan ng kumpanya, magababayad sila ng 60% o higit pa sa average na suweldo sa manggagawa.",
+  "o"
+ ],
+ "mh49": [
+  "Daily Basis",
+  "Upang makalkula ang suweldo atbp sa pamamagitan ng bilang ng mga araw ng pagtatrabaho.",
+  "o"
+ ],
+ "mh50": [
+  "Currency",
+  "Pera.",
+  "o"
+ ],
+ "mh51": [
+  "Financial Institution",
+  "Ang namamahala ng pera tulad ng mga banko.",
+  "o"
+ ],
+ "mh52": [
+  "Bank Account",
+  "Account kung saan nagdedeposito ng pera ang kumpanya at tao na mayroong banko.",
+  "o"
+ ],
+ "mh53": [
+  "Securities General Account",
+  "Account kung saan nagdedeposito ng pera at mga seguridad na mayroon ang isang tao o kumpanya.",
+  "o"
+ ],
+ "mh54": [
+  "Income Tax",
+  "Mga buwis na binabayaran ng mga mangagawa sa bansa gamit ang mekanismo na binabayaran ng kumpanya para sa manggagawa.",
+  "o"
+ ],
+ "mh59": [
+  "Health Insurance Expense",
+  "Ang isang naka insured na tao ay kinakailangan bayaran ang halaga ng insurance.",
+  "o"
+ ],
+ "mh60": [
+  "Company Housing Fee/Rent",
+  "Pabahay mula sa kumpanya (Company Housing).",
+  "o"
+ ],
+ "mh61": [
+  "Property Accumulation Savings",
+  "Ipon na pera ng mga manggagawa sa kumpanya.",
+  "o"
+ ],
+ "mh62": [
+  "Reserved fund",
+  "Pera upang makapagipon nang paunti-unti para sa isang bagay.",
+  "o"
+ ],
+ "mh63": [
+  "Union fees",
+  "Pera para sa mga workers na sumali sa isang samahan(UNION) na isinagawa upang mapabuti ang kanilang kapaligiran sa pagtatrabaho.",
+  "o"
+ ],
+ "mh64": [
+  "Emergency Payment",
+  "Paglabas ng sahod bago pa man dumating ang mismong araw ng suweldo na itinakda ng kumpanya.",
+  "o"
+ ],
+ "mh65": [
+  "Past Labor",
+  "Ang dami ng araw na natrabaho ng manggagawa.",
+  "o"
+ ],
+ "mh66": [
+  "Performance",
+  "Mga nagawa sa trabaho.",
+  "o"
+ ],
+ "mh67": [
+  "Bonus",
+  "Pera na binabayaran ng kumpanya bukod pa sa suweldo. Bonus.",
+  "o"
+ ],
+ "mh68": [
+  "Allowance para sa pabahay",
+  "Para sa kabuuang halagang binabayaran ng manggagawa sa upa o ilang bahagi ng renta ay maaring makatanggap ng pera galing sa kumpanya.",
+  "o"
+ ],
+ "mh69": [
+  "Allowance para sa trabaho",
+  "Ang perang binabayaran ng kumpanya para sa mga kasanayan, kakayahan, at kwalipikasyon na mayroon ang isang manggagawa para sa isang trabaho.",
+  "o"
+ ],
+ "mh70": [
+  "Allowance para sa pag tratrabaho malayo sa pamilya",
+  "Ang perang binabayaran ng kumpanya sa mga manggagawa na nakatirang mag-isa malayo sa kanilang mga pamilya sapagkat ang lugar ng trabaho ay nagbago alinsunod sa order ng kumpanya.",
+  "o"
+ ],
+ "mh71": [
+  "Sales allowance",
+  "Ito ang pera na ang isang manggagawa na nagtatrabaho sa sales ng isang kumpanya ay kailangang gumawa ng isang trabaho sa pagbebenta. Binabayaran ng kumpanya ang taong iyon.",
+  "o"
+ ],
+ "mh72": [
+  "Suweldo matatangap ayon sa nagawang trabaho",
+  "Isang mekanismo kung saan nagpapasya ang kumpanya ng halagang ibabayad sa manggagawa ayon sa nagawang trabaho (halimbawa, ang halaga ng mga naibenta).",
+  "o"
+ ],
+ "mh73": [
+  "Guaranteed wages",
+  "Isang mekanismo kung saan nagpasya ang kumpanya na magbayad ng tiyak na halaga ng sweldo para sa isang manggagawa anuman ang resulta ng trabaho.",
+  "o"
+ ],
+ "mh74": [
+  "Uri ng trabaho",
+  "Uri ng istilo ng trabaho. Full-time, part-time, maikling oras ng pagtatrabaho, atbp.",
+  "o"
+ ],
+ "mh75": [
+  "Bayad sa Fixed overtime",
+  "Babayaran ng kumpanya and bayad sa fixed overtime sa napagpasyahang lagpas na oras na isinagawa sa halip na ikalkula ang dami ng mga oras ng overtime sa trabaho.",
+  "o"
+ ],
+ "mh76": [
+  "Paraan ng pagbabayad ng suweldo",
+  "Paraan ng pagkalkula at pagbayad ng suweldo/sahod sa mga taong nagtatrabaho para sa kumpanya.",
+  "o"
+ ],
+ "mh79": [
+  "Income (Earned Income)",
+  "Ang halagang natitira pagkatapos ibawas ang mga dapat ibawas (ito ay tinatawag na Wage salary deduction) mula sa pera (kita) ng manggagawa sa isang taon.",
+  "o"
+ ],
+ "mh80": [
+  "Taxable income",
+  "Ang halaga kapag kinakalkula ang buwis (Income tax) na binabayaran ng isang manggagawa sa bansa.",
+  "o"
+ ],
+ "mh81": [
+  "Suweldo/Sahod",
+  "Pera na nakukuha ng mga manggagawa sa pagtratrabaho. Halimbawa, ang buwanan kinikita ay tinatawag na \"monthly income\". Ang halaga ng pera na talagang matanggap mo (net salary) ay ang iyong kita na binawasan ang mga buwis at sa social insurance premiums.",
+  "o"
+ ],
+ "mh82": [
+  "Employment Income Deduction",
+  "Sa pagbawas ng kailangan mula sa pera (kita) na kinita sa iang taon ng isang taong nagtatrabaho sa mga kumpanya atbp. siguraduhing mas maliit ang binawas kumpara sa kinita nito.",
+  "o"
+ ],
+ "mh83": [
+  "Income Deduction",
+  "Ibawas ang kinakailangang pera mula sa manggagawa mula sa pera na kinita nito sa loob ng isang taon,at pagkatapos ay ibawas ang halaga bilang pagsasaalang-alang sa mga kalagayan ng bawat manggagawa. Halimbawa, deduction para sa mga dependents, medical expenses,life insurance, spouse, at basic deduction.",
+  "o"
+ ],
+ "mh84": [
+  "Basic Deduction",
+  "Sa pagbawas sa kinita para sa lahat ng mga nagbabayad ng buwis, ibawas ang tiyak na halaga mula sa kinita (income) nila sila sa isang buong taon.",
+  "o"
+ ],
+ "mh85": [
+  "Deduction for Dependents",
+  "Sa nagbabayad ng buwis, mula sa halaga (income) na natitira pagkatapos ibawas ang halaga na dapat, ibawas ang nararapat na halaga kung siya ay (Supporter) na may pamilya na sinusuportahan upang mapababa ang buwis.",
+  "o"
+ ],
+ "mh87": [
+  "Tax Withholding Slip",
+  "Isang dokumento na naglalarawan kung magkano ang natanggap na suweldo ng manggagawa mula sa kumpanya at kung magkano ang ibinayad niyang buwis sa bansa sa taon mula Enero ika-1 hanggang Disyembre 31.",
+  "o"
+ ],
+ "mh91": [
+  "Relasyon",
+  "Relasyon sa pamilya.",
+  "o"
+ ],
+ "mh92": [
+  "Tax Certificate",
+  "Mga dokumentong inilabas ng tanggapan ng gobyerno na nagpapatunay kung magkano ang buwis na dapat bayaran ng tao.",
+  "o"
+ ],
+ "mh93": [
+  "Tax Payment Certificate",
+  "Mga dokumentong inilabas ng tanggapan ng gobyerno na nagpapatunay kung ang nasabing tao ay nagbabayad ng buwis.",
+  "o"
+ ],
+ "mh95": [
+  "Social Security",
+  "Ginagamit ng gobyerno ang buwis at pera na nakolekta mula sa mga nagtatrabaho at mula sa mga kumpanya upang matulungan ang buhay ng bawat isa sa panahon ng pagkakasakit, sa pagsilang ng bata (panganganak), pagkawala ng trabaho (kawalan ng trabaho), pagkakasakit (karamdaman), pag tumanda (pagtanda), o pag namatay (kamatayan).",
+  "o"
+ ],
+ "mh96": [
+  "Social Insurance",
+  "Isang mekanismo na kung saan ang kumpanya at manggagawa ay magbibigay ng bahagi sa isa' isa upang matulungan ang buhay ng mangagawa kapag ang mga taong nagtatrabaho sa isang kumpanya ay nagkaproblema sa panahon ng pagkakasakit, nasugatan, nawalan ng trabaho (kawalan ng trabaho), tumanda (pagtanda), o nangangailangan ng pangangalaga.",
+  "o"
+ ],
+ "mh97": [
+  "Public Assistance",
+  "Gumamit ng mga buwis upang matulungan ang mga taong hindi mabubuhay ng malusog at ligtas sa pamumuhay sa kanilang sariling kakayahan.",
+  "o"
+ ],
+ "mh98": [
+  "Public Health",
+  "Ang linisin ang kapaligiran tulad ng bayan upang ang bawat isa ay mabuhay ng malusog at maiwasan ang sakit (nakakahawang sakit) na nakakahawa sa ibang tao.",
+  "o"
+ ],
+ "mh99": [
+  "Social Welfare",
+  "Gumamit ng mga buwis upang matulungan ang mga taong may kapansanan na mabuhay ng isang malusog at ligtas sa pamumuhyay.",
+  "o"
+ ],
+ "mh101": [
+  "National Pension Insurance",
+  "Insurance na sumasakop sa lahat ng mga taong nasa edad 20 at 59 sa Japan kung sakaling walang kikitaing pera sa pamamagitan ng pagtatrabaho, katulad ng sa pagtanda at pagtigilt sa kumpanya o sa pagkakasakit.",
+  "o"
+ ],
+ "mh102": [
+  "Insured",
+  "Ang mga taong insured at maaaring makakuha ng pera pagkatapos na tumigil sa kumpanya sa kanilang pagtanda o kapag nagkasakit sila.",
+  "o"
+ ],
+ "mh106": [
+  "Average standard remuneration",
+  "Ang halaga ng pinagsama-samang suweldo at bonus at kung magkano ang halaga ng napagtrabahuhan ng isang manggagawa na tinatanggap sa isang buwan. Ang halagang ito ay kinakailangan upang makalkula kung magkano ang halagang insurance (Welfare Pension Insurance) na nagbibigay-daan sa mga manggagawa na makakuha ng pera kapag umalis sa kumpanya sa kanilang pagtanda.",
+  "o"
+ ],
+ "mh107": [
+  "Standard bonus amount",
+  "Ang halaga ng bonus na hindi bababa sa 1,000 yen bago ibawas ang buwis.",
+  "o"
+ ],
+ "mh108": [
+  "Self-pay",
+  "Magbabayad ka para sa iyong sarili (hindi ang kumpanya).",
+  "o"
+ ],
+ "mh109": [
+  "Seniority-based wage system",
+  "Ang suweldo na pinagpasya ng kumpanya ayon sa edad ng manggagawa at ang haba ng panahon ng pagtatrabaho.",
+  "o"
+ ],
+ "mh110": [
+  "Annual salary system",
+  "Isang mekanismo upang magpasya kung magkano ang sahod sa taunang batayan.",
+  "o"
+ ],
+ "mh111": [
+  "Qualification allowance",
+  "Pera na makukuha mula sa kumpanya ng isang taong may espesyal na kwalipikasyon.",
+  "o"
+ ],
+ "mh116": [
+  "Congratulatory Endowment /Solatium",
+  "Pera na maaaring makuha mula sa kumpanya kapag ikinasal, nanganak o namatayan ng pamilya ang manggagawa.",
+  "o"
+ ],
+ "mh117": [
+  "Sickness and Injury Allowance",
+  "Pera na maaaring makuha mula sa health insurance kung ang isang manggagawa ay hindi makapagtrabaho dahil sa pinsala o karamdaman at hindi makakatanggap ng suweldo.",
+  "o"
+ ],
+ "mh118": [
+  "Deemed Overtime",
+  "Huwag isipin ang mahabang oras na tinarabaho ng manggagawa nang mas mahaba kaysa sa takdang oras (mga oras ng overtime), ngunit sa halip ay magdesisyon ng oras ng pagtratrabaho ng mas mahaba kaysa sa fixed working time (oras ng trabaho), at babayaran ng kumpanya ang mga taong nagtatrabaho para sa oras na iyon. Tinatawag din ito na fixed overtime pay.",
+  "o"
+ ],
+ "mh119": [
+  "Oras ng trabaho",
+  "Oras ng pagtatrabaho.",
+  "o"
+ ],
+ "mh120": [
+  "Simula ng trabaho",
+  "Simula ng oras ng trabaho.",
+  "o"
+ ],
+ "mh121": [
+  "Tapos ng trabaho",
+  "Oras ng tapos ng trabaho.",
+  "o"
+ ],
+ "mh122": [
+  "Iskedyul sa oras ng pagtatrabaho",
+  "Ang oras ng simula hanggang sa oras ng pagtatapos ng trabaho na napagpasyahan ng kumpanya, hindi kasama ang oras ng pahinga.",
+  "o"
+ ],
+ "mh123": [
+  "Break time",
+  "Oras ng pahinga.",
+  "o"
+ ],
+ "mh124": [
+  "Shift system",
+  "Palitan ng shift sa bawat katrabaho.",
+  "o"
+ ],
+ "mh125": [
+  "Pagbabago sa trabaho",
+  "Kung makikipagpalit ng pasok sa trabaho sa kung sino man, kailangan tugma ang oras/shift ng trabaho.",
+  "o"
+ ],
+ "mh126": [
+  "Time-card",
+  "Ang card at makina na nagtatala ng oras ng pagtatrabaho ng mga manggagawa.",
+  "o"
+ ],
+ "mh127": [
+  "Stamping",
+  "Pindutin ang time card upang mai-set ang oras.",
+  "o"
+ ],
+ "mh128": [
+  "Self-report system",
+  "Paano mo ito i-rereport.",
+  "o"
+ ],
+ "mh129": [
+  "Oras ng Overtime",
+  "Nag trabaho na lumampas sa takdang oras.",
+  "o"
+ ],
+ "mh130": [
+  "Overtime allowance",
+  "Pera na maaari mong makuha kapag nagtatrabaho na lampas sa takdang oras.",
+  "o"
+ ],
+ "mh131": [
+  "Late",
+  "Pumasok sa kumpanya nang mas huli sa simula ng oras ng trabaho.",
+  "o"
+ ],
+ "mh132": [
+  "Undertime",
+  "Umuwi nang mas maaga kaysa sa oras nang tapos nang trabaho.",
+  "o"
+ ],
+ "mh133": [
+  "Pagliban sa trabaho",
+  "Ang pagliban sa oras ng trabaho.",
+  "o"
+ ],
+ "mh134": [
+  "2 days off in a week system",
+  "2 araw na pahinga sa isang linggo.",
+  "o"
+ ],
+ "mh135": [
+  "Pangkalahatang gawain",
+  "Karaniwang paraan ng pagtatrabaho.",
+  "o"
+ ],
+ "mh136": [
+  "Shift work",
+  "Pamamaraan ng pagtatrabaho sa shifting.",
+  "o"
+ ],
+ "mh137": [
+  "Day-shift",
+  "Trabaho sa araw.",
+  "o"
+ ],
+ "mh138": [
+  "Semi-night shift",
+  "Trabaho mula hapon pa-gabi.",
+  "o"
+ ],
+ "mh139": [
+  "Night-shift",
+  "Trabaho sa gabi.",
+  "o"
+ ],
+ "mh140": [
+  "Shift table",
+  "Isang talahanayan na naglalarawan sa mga araw at oras ng pagtatrabaho kapag nagtatrabaho ng shifting.",
+  "o"
+ ],
+ "mh141": [
+  "Off-duty day",
+  "Ang araw na sinundan ng day off kung saan nagtrabaho hanggang sa umaga bago ang araw ng day off sa ilalim ng shifting work system.",
+  "o"
+ ],
+ "mh142": [
+  "Modified working hours system",
+  "Isang istilo ng pagtatrabaho na inaayos ang kabuuang oras ng trabaho ayon sa buwan o taon sa pamamagitan ng pagbawas ng oras ng pagtatrabaho kung matumal at pagdaragdag ng oras ng pagtatrabaho sa abalang panahon.",
+  "o"
+ ],
+ "mh143": [
+  "Legal na oras ng pagtatrabaho",
+  "Mga oras ng pagtatrabaho na itinakda ng batas.",
+  "o"
+ ],
+ "mh144": [
+  "Overtime",
+  "Overtime na trabaho.",
+  "o"
+ ],
+ "mh145": [
+  "Lingguhang schedule ng araw ng pagtatrabaho",
+  "Ang oras ng trabaho sa isang linggo na napagpasyahan ng kumpanya.",
+  "o"
+ ],
+ "mh146": [
+  "Commuting mitigating measures",
+  "Pag-iwas sa abalang oras sa pagsakay sa tren para mapagaan ang pag-byahe papunta sa trabaho.",
+  "o"
+ ],
+ "mh147": [
+  "Flexible hours",
+  "Ang pagbabago ng oras ng panimula at pagtatapos ng trabaho sa pagitan ng oras ng trabaho na napagpasyahan ng kumpanya.",
+  "o"
+ ],
+ "mh148": [
+  "Average Number of Regular Working Hours",
+  "Ang average na bilang ng mga oras ng pagtratrabaho na itinakda ng kumpanya sa bawat panahon.",
+  "o"
+ ],
+ "mh149": [
+  "Pribadong lakad",
+  "Paglabas ng kumpanya para sa sariling lakad.",
+  "o"
+ ],
+ "mh150": [
+  "Flextime system",
+  "Isang mekanismo na nagpapahintulot sa mga manggagawa na magpasya kung kailan magsisimulang magtrabaho at hanggang kelan magtratrabaho.",
+  "o"
+ ],
+ "mh151": [
+  "Flexible time",
+  "Sa flextime system, ito ang oras kung kailan maaari kang magsimulang magtrabaho o tapusin ang trabaho sa anumang oras.",
+  "o"
+ ],
+ "mh152": [
+  "Off-site deemed working hour system",
+  "Isang sistema kung saan ang isang taong nagtatrabaho ay itinuturing na nagtrabaho sa isang takdang oras kung mahirap malaman kung magkano ang nagtatrabaho sa kumpanya na nagtatrabaho kapag nagtatrabaho sa labas ng lugar kung saan nagtatrabaho ang tao.",
+  "o"
+ ],
+ "mh153": [
+  "Discretionary labor system",
+  "Walang kaugnayan kung ilan oras nagtrabaho ang manggagawa, ang kumpanya ang nagpapasya ng oras nito.",
+  "o"
+ ],
+ "mh154": [
+  "Core time",
+  "Sistema na fixed ang oras ng pagtatrabaho.",
+  "o"
+ ],
+ "mh155": [
+  "Iskedyul na mga araw ng pagtatrabaho bawat linggo",
+  "Ang kumpanya ang nag desisyon, sa bilang ng mga araw ng pagtatrabaho sa isang linggo.",
+  "o"
+ ],
+ "mh156": [
+  "Average na Overtime kada buwan",
+  "Bukod sa 1 buwan average ng oras na trabaho (schedule ng oras ng pagtatrabaho) na napag desisyunan ng kumpanya.",
+  "o"
+ ],
+ "mh157": [
+  "Reduced working hours system",
+  "Isang mekanismo na maaaring paikliin ang oras ng pagtatrabaho ng mga manggagawa upang mapalaki ang mga bata at mapangalagaan sila.",
+  "o"
+ ],
+ "mh158": [
+  "Bakasyon",
+  "Bakasyon na makukuha ng mga manggagawa kahit pa ito ay sa araw na sinasakop ng trabaho.",
+  "o"
+ ],
+ "mh159": [
+  "Calculation date",
+  "Ang simula ng araw ng kalkulasyon taunang bayad na bakasyon.",
+  "o"
+ ],
+ "mh160": [
+  "National Holidays",
+  "National holiday na itinakda ng batas.",
+  "o"
+ ],
+ "mh161": [
+  "New Year Holidays",
+  "Ang pagtatapos at simula ng bagong taon.",
+  "o"
+ ],
+ "mh162": [
+  "Summer Holidays",
+  "Bakasyon sa tag-init.",
+  "o"
+ ],
+ "mh163": [
+  "Transfer Holiday",
+  "Pagpalitin ang araw ng pahinga sa araw ng trabaho bago umabsent.",
+  "o"
+ ],
+ "mh164": [
+  "Substitute Holiday",
+  "Kapag nagtatrabaho ka sa holiday (sa halip na tumanggap ng extra pay), ipagpalit ito sa ibang araw na pahinga.",
+  "o"
+ ],
+ "mh165": [
+  "Holiday work",
+  "Ang pagtatrabaho sa mga piyesta opisyal ayon sa hinihiling ng batas.",
+  "o"
+ ],
+ "mh166": [
+  "Legal Holidays",
+  "Isang piyesta opisyal na itinakda ng batas.",
+  "o"
+ ],
+ "mh167": [
+  "Pregnant worker",
+  "Buntis o bagong panganak na hindi lumalagpas ng isang taon.",
+  "o"
+ ],
+ "mh169": [
+  "Schedule ng mga araw ng pagtatrabaho",
+  "Araw ng trabaho na napagpasyahan ng kumpanya.",
+  "o"
+ ],
+ "mh170": [
+  "Attendance rate",
+  "Porsyento ng mga araw ng pinasukan sa loob ng mga araw na napagpasyahan ng kumpanya.",
+  "o"
+ ],
+ "mh171": [
+  "Bago at Pagkatapos ng Panganganak",
+  "Bago at pagkatapos ng panganganak.",
+  "o"
+ ],
+ "mh172": [
+  "Child-care/ Batas para sa nursing care leave",
+  "Batas para sa pagpapalaki ng mga bata at pag-aalaga ng mga pamilya.",
+  "o"
+ ],
+ "mh173": [
+  "Carry over",
+  "Pagpapalipas sa susunod na panahon ng mga bagay na hindi nagawa.",
+  "o"
+ ],
+ "mh174": [
+  "Total",
+  "Kasama din ang mga piyesta opisyal, atbp). Ilagay ang lahat at kuwentahin.",
+  "o"
+ ],
+ "mh175": [
+  "Hourly annual leave",
+  "Isang leave na nagpapahintulot na gamitin per oras ang pahinga sa halip na isang araw habang tumatanggap ng suweldo.",
+  "o"
+ ],
+ "mh176": [
+  "Bigay",
+  "Ibibigay.",
+  "o"
+ ],
+ "mh177": [
+  "Karapatan sa Pagbabago ng Panahon",
+  "Hiling ng kumpanya sa mga manggagawa na palitan ang araw ng day off na maaaring kunin habang tumatanggap ng suweldo.",
+  "o"
+ ],
+ "mh178": [
+  "Multiple pregnancy",
+  "Pagbubuntis sa mahigit 2 sanggol sa isang panahon.",
+  "o"
+ ],
+ "mh179": [
+  "Childcare time",
+  "Oras para sa pangangalaga ng anak.",
+  "o"
+ ],
+ "mh180": [
+  "Menstrual leave",
+  "Leave para sa mga kababaihan kung may menstrual period.",
+  "o"
+ ],
+ "mh183": [
+  "Child nursing leave",
+  "Isang leave upang mapangalagaan ang batang may sakit.",
+  "o"
+ ],
+ "mh184": [
+  "Condolence leave",
+  "Leave para sa mga pagdiriwang o pakikiramay kapag may namatay na pamilya.",
+  "o"
+ ],
+ "mh185": [
+  "Sick leave",
+  "Leave dahil sa karamdaman.",
+  "o"
+ ],
+ "mh186": [
+  "Illness",
+  "Karamdaman.",
+  "o"
+ ],
+ "mh187": [
+  "Alternative leave",
+  "Isang araw na pahinga mula sa kumpanya na kung saan nagtratrabaho ka ng mas mahaba kaysa sa legal na oras na kinakailangan ng pagtratrabaho sa isang buwan.",
+  "o"
+ ],
+ "mh188": [
+  "Pagbalik sa bansa",
+  "Makauwi sa kanilang bansa.",
+  "o"
+ ],
+ "mh189": [
+  "Araw ng Pagkakatatag",
+  "Araw kung kailan itinatag ang kumpanya.",
+  "o"
+ ],
+ "mh190": [
+  "Bilang ng taunang paid leave pagtapos ng 6 na buwan",
+  "Ang bilang ng mga araw ng day-off (paid leave) na maaaring kunin ng isang manggagawa habang tumatanggap ng suweldo, na maaaring matanggap 6 na buwan pagkatapos ng araw na nagsimula siyang magtrabaho.",
+  "o"
+ ],
+ "mh191": [
+  "Average na bilang ng mga empleyado na kumukuha ng paid leave",
+  "Average na bilang ng mga taong kumukuha ng paid leave kung saan maaaring makatanggap ng sahod.",
+  "o"
+ ],
+ "mh192": [
+  "Bilang ng mga taong kumukuha ng bakasyon para sa pangangalaga ng bata",
+  "Ang bilang ng mga taong wala sa trabaho upang palakihin ang kanilang mga anak.",
+  "o"
+ ],
+ "mh193": [
+  "Holiday",
+  "Off-day",
+  "o"
+ ],
+ "mh194": [
+  "Leave",
+  "Ang isang manggagawa ay magkakaroon ng long break mula sa kumpanya pagkatapos makatanggap ng isang deklerasyon mula sa kumpanya na \"wag pumasok sa kumpanya\".",
+  "o"
+ ],
+ "mh195": [
+  "Haba ng Serbisyo",
+  "Bilang ng mga taon na nagserbisyo sa parehong kumpanya.",
+  "o"
+ ],
+ "mh196": [
+  "Retiro",
+  "Pag-retiro sa kumpanya.",
+  "o"
+ ],
+ "mh197": [
+  "Rason",
+  "Rason.",
+  "o"
+ ],
+ "mh198": [
+  "Staff re-assignment",
+  "Pagbabago sa lugar o nilalaman ng trabaho.",
+  "o"
+ ],
+ "mh199": [
+  "Trabahador",
+  "Pagiging miyembro ng kumpanya.",
+  "o"
+ ],
+ "mh200": [
+  "Kaakibat na Kumpanya",
+  "Isang kumpanya na kabilang sa grupo ng kumpanya.",
+  "o"
+ ],
+ "mh201": [
+  "Destino",
+  "Pagtatrabaho sa ibang kumpanya sa kautusan ng sariling kumpanya.",
+  "o"
+ ],
+ "mh202": [
+  "Pagbabago",
+  "Pagbabago sa lugar ng trabaho.",
+  "o"
+ ],
+ "mh203": [
+  "Leave",
+  "Ang pagliban sa trabaho ng mahaba para sa pansariling kagustuhan ng manggagawa.",
+  "o"
+ ],
+ "mh204": [
+  "Pagbalik sa trabaho",
+  "Pagbalik sa trabaho.",
+  "o"
+ ],
+ "mh205": [
+  "Dahilan para mag-leave",
+  "Dahilan para magpahinga sa trabaho nang mahabang panahon.",
+  "o"
+ ],
+ "mh206": [
+  "Medical Certificate",
+  "Medical certificate mula sa doktor.",
+  "o"
+ ],
+ "mh207": [
+  "Announcement date",
+  "Ang araw kung saan may anunsyo tungkol sa utos mula sa kumpanya.",
+  "o"
+ ],
+ "mh208": [
+  "Retirement Age",
+  "Kung saan ang isang mangagawa ay titigil na sa kumpanya kapag tumuntong na siya sa edad na ito.",
+  "o"
+ ],
+ "mh209": [
+  "Continued Employment　",
+  "Kapag umabot na sa retirement age ng kumpanya, kinukuha ng kumpanya ang mangagawa ito para ipagpatuloy ang trabaho.",
+  "o"
+ ],
+ "mh210": [
+  "Letter of Resignation",
+  "Dokumento na nagsasaad na nais ng mangagawa na umalis sa kumpanya.",
+  "o"
+ ],
+ "mh211": [
+  "Batay sa Kahilingan",
+  "Hiling ng manggagawa sa kumpanya.",
+  "o"
+ ],
+ "mh212": [
+  "Retirement Certificate",
+  "Isang sertipiko na nagsasaad ng mga dahilan ng pagalis sa kumpanya.",
+  "o"
+ ],
+ "mh213": [
+  "Dismissal",
+  "Pinatigil ng kumpanya.",
+  "o"
+ ],
+ "mh214": [
+  "Katayuan sa trabaho",
+  "Ang kondisyon ng tao kapag nagtatrabaho.",
+  "o"
+ ],
+ "mh215": [
+  "Masama",
+  "Hindi maganda.",
+  "o"
+ ],
+ "mh216": [
+  "Disiplinary Dismissal",
+  "Pagtanggal sa trabaho mula sa kumpanya bilang isang parusa.",
+  "o"
+ ],
+ "mh217": [
+  "Mga Sakuna",
+  "Iba't ibang mga sakuna na sanhi ng kalikasan.",
+  "o"
+ ],
+ "mh218": [
+  "Dismissal Notice Allowance",
+  "Kung walang paunang abiso sa manggagagawa na ikaw ay aalisin na sa trabaho bago mag ika-30 na araw, magbabayad ng higit sa 30 araw na average na suweldo.",
+  "o"
+ ],
+ "mh219": [
+  "Certificate of Reason for Dismissal",
+  "Isang sertipiko na nakasaad kung bakit pinatigil ng kumpanya ang isang tao.",
+  "o"
+ ],
+ "mh220": [
+  "Embezzlement",
+  "Ang pag-angkin ng pera at gamit ng ibang tao.",
+  "o"
+ ],
+ "mh221": [
+  "Pinsala",
+  "Nakapinsala ng tao.",
+  "o"
+ ],
+ "mh222": [
+  "Absent nang walang abiso",
+  "Nag-absent nang walang paalam sa kumpanya sa araw na kailangan mong magtrabaho.",
+  "o"
+ ],
+ "mh223": [
+  "Retirement pay",
+  "Ang perang makukuha mo kapag umalis ka sa kumpanya.",
+  "o"
+ ],
+ "mh224": [
+  "Personal na kagustuhan",
+  "Personal na hiling ng mga taong nagtatrabaho.",
+  "o"
+ ],
+ "mh225": [
+  "Re-employment",
+  "Pagpapatuloy ng trabaho sa kumpanya ng isang manggagawa pagkatapos ng retirement age nito.",
+  "o"
+ ],
+ "mh226": [
+  "Mga Naiwan na Pamilya",
+  "Kamaganak ng namayapa.",
+  "o"
+ ],
+ "mh227": [
+  "Tagapagmana",
+  "Ang isang tao na tatanggap ng pera o bagay mula sa isang namayapa.",
+  "o"
+ ],
+ "mh228": [
+  "Disiplina",
+  "Kapag ang isang manggagawa ay may ginawang mali, binibigyan siya ng kumpanya ng parusa, tulad ng pagbawas ng kanyang suweldo o pansamatanlang pinapatigil sa trabaho.",
+  "o"
+ ],
+ "mh229": [
+  "Mga Kundisyon",
+  "Kapag gumawa ka ng isang aksyon, ang tunay na dahilan para sa aksyon iyon.",
+  "o"
+ ],
+ "mh230": [
+  "Pananagutan",
+  "Pagagalitan ang isang tao na may nagawang mali.",
+  "o"
+ ],
+ "mh231": [
+  "Pagsasalaysay ng pagkakamali nagawa",
+  "Isang dokumento na nag sasaad ng paghingi ng tawad sa nagawang pagkakamali sa trabaho.",
+  "o"
+ ],
+ "mh232": [
+  "Pagbawas ng suweldo",
+  "Babawasan ang suweldo/sahod.",
+  "o"
+ ],
+ "mh233": [
+  "Pagsuspinde ng trabaho",
+  "Pansamantala hindi papapasukin sa trabaho at sa panahon iyon hindi din babayaran ang suweldo.",
+  "o"
+ ],
+ "mh234": [
+  "Pagbibigay ng mali impormasyon",
+  "Pagbibigay ng maling impormasyon ng manggagawa, sakanyang mga school na napasukan at sa hanggang ngayon mga napasukan na trabaho.",
+  "o"
+ ],
+ "mh235": [
+  "Sinadya o malubhang kapabayaan",
+  "Sinadya o isang malaking pagkakamali.",
+  "o"
+ ],
+ "mh236": [
+  "Katotohanan na napapailalim sa mga krimen",
+  "Pag-uugali na lumalabag sa batas na kriminal o ibang mga batas na nagbibigay ng parusa.",
+  "o"
+ ],
+ "mh237": [
+  "Masamang asal",
+  "Karaniwang mga masamang gawain.",
+  "o"
+ ],
+ "mh238": [
+  "Regulasyon sa loob ng kumpanya",
+  "Mga patakaran sa kumpanya.",
+  "o"
+ ],
+ "mh239": [
+  "Disiplina sa kumpanya",
+  "Dapat pangalagaan para maging maayos ang pag tratrabaho.",
+  "o"
+ ],
+ "mh240": [
+  "Hindi pagsunod",
+  "Masamang pag-uugali o gawain na lumalabag sa batas.",
+  "o"
+ ],
+ "mh241": [
+  "Paninirang Puri",
+  "Para masaktan ang isang tao sa pamamagitan ng pagsasabi ng masasamang bagay tungkol sa taong iyon.",
+  "o"
+ ],
+ "mh242": [
+  "Reputasyon",
+  "Ipinagmamalaki ang tao na ito at nais maprotektahan kung ano ang tiwala ng ibang tao sakanya",
+  "o"
+ ],
+ "mh243": [
+  "Posibilidad ng paglilipat ng trabaho",
+  "Lugar ng trabaho ay maaaring magbago.",
+  "o"
+ ],
+ "mh244": [
+  "Pagtukoy ng kontribusyon sa pensiyon",
+  "Isang mekanismo kung saan ang kumpanya ay nagbabayad ng paunti-unti para sa mga taong nagtatrabaho at ginagamit ito ng mga manggagawa upang makagawa ng kanilang sariling pera na maaari nilang makuha pagkatapos nilang tumanda at huminto sa kanilang　trabaho.",
+  "o"
+ ],
+ "mh245": [
+  "Pagtukoy ng benepisyo sa pensiyon",
+  "Ang halaga ng pera na makukuha ng isang trabahador mula sa kumpanya sa pagtanda niya at pagtigil sa trabaho ay fixed amount, at naiipon ng kumpanya ang pera nang paunti-unti at makukuha ito sa pagtanda niya at pag tumigil sa trabaho.",
+  "o"
+ ],
+ "mh246": [
+  "Extension ng trabaho",
+  "Isang mekanismo kung saan patuloy na kumukuha ang kumpanya ng mga manggagawa na umabot sa edad ng pagretiro sa kumpanya (edad ng pagreretiro).",
+  "o"
+ ],
+ "mh247": [
+  "Turnover Slip",
+  "Mga dokumento na kinakailangan para sa isang taong umalis sa kumpanya upang makatanggap ng pera (unemployment benefits) ibibigay ito ng Hello Work sa kumpanya, at ang kumpanya magbibigay sa inyo.",
+  "o"
+ ],
+ "mh248": [
+  "Unemployment Allowance (Unemployment Benefits)",
+  "Kapag nawalan ng trabaho ito'y pera na makukuha ng mga manggagawa upang makahanap sila ng bagong trabaho nang hindi nag-aalala sa kanilang pamumuhay.",
+  "o"
+ ],
+ "mh249": [
+  "Pinsala at Karamdaman",
+  "Pinsala at Karamdaman.",
+  "o"
+ ],
+ "mh250": [
+  "Pagpapagaling",
+  "Pahinga sa trabaho upang magpagaling sa pinsala o karamdaman.",
+  "o"
+ ],
+ "mh251": [
+  "Paggaling",
+  "Paggaling mula sa pinsala o karamdaman.",
+  "o"
+ ],
+ "mh252": [
+  "Safety・Health Manager",
+  "Tao na namamahala sa lugar ng trabaho upang ang mga manggagawa ay makapagtrabaho nang ligtas at maayos.",
+  "o"
+ ],
+ "mh253": [
+  "Injury and Illness Compensation Pension",
+  "Ito ang pera mula sa gobyerno na makukuha ng manggagawa na malubhang nasugatan o may karamdaman at hindi gumagaling makalipas ang isang taon at anim na buwan ng paggamot.",
+  "o"
+ ],
+ "mh254": [
+  "Discontinuation Compensation",
+  "Ito ang pera mula sa gobyerno na babayaran ng kumpanya sa manggagawa kung ang pinsala o sakit na natamo ay hindi gumaling makalipas ang 3 taon (Injury and Illness Compensation Pension).",
+  "o"
+ ],
+ "mh255": [
+  "Health and Safety",
+  "Makakapagtrabaho nang ligtas at malusog.",
+  "o"
+ ],
+ "mh256": [
+  "Work Related Injury",
+  "Trabaho na nagdudulot ng mga pinsala o karamdaman sa mga workers.",
+  "o"
+ ],
+ "mh257": [
+  "Mechanical Equipment",
+  "Makina na ginagamit para sa trabaho.",
+  "o"
+ ],
+ "mh258": [
+  "Pre-work Inspection",
+  "Bago simulan ang trabaho, suriin ang mga machine na ginagamit sa trabaho.",
+  "o"
+ ],
+ "mh259": [
+  "Safety Device",
+  "Isang mekanisimo na nakakabit sa mga makina upang maiwasan ang pinsala sa mga mangggagawa.",
+  "o"
+ ],
+ "mh260": [
+  "Protective Equipment",
+  "Mga bagay na isusuot upang maprotektahan ang iyong katawan.",
+  "o"
+ ],
+ "mh261": [
+  "Passive Smoking",
+  "Pagsinghot ng usok ng sigarilyo na pinausok ng iba.",
+  "o"
+ ],
+ "mh262": [
+  "Restricted Area",
+  "Lugar na hindi mo dapat pasukin.",
+  "o"
+ ],
+ "mh263": [
+  "Passage Prohibited Area",
+  "Lugar na hindi mo dapat daanan.",
+  "o"
+ ],
+ "mh264": [
+  "Ayusin at Linisin",
+  "Linisin ang iyong paligid.",
+  "o"
+ ],
+ "mh265": [
+  "Evacuation Exit",
+  "Labasan upang makatakas sakaling magkaroon ng sakuna o aksidente.",
+  "o"
+ ],
+ "mh266": [
+  "Fire Extinguishing Equipment",
+  "Gamit upang mapatay ang sunog.",
+  "o"
+ ],
+ "mh267": [
+  "Sunog",
+  "Sunog.",
+  "o"
+ ],
+ "mh268": [
+  "Emergency Disaster",
+  "Mga sakuna tulad ng lindol, tsunami, ipo-ipo, bagyo, atbp.",
+  "o"
+ ],
+ "mh269": [
+  "Contingency Measures",
+  "Mag-isip ng mga paraan na gusto mo na angkop sa sitwasyon.",
+  "o"
+ ],
+ "mh270": [
+  "Medikal na pagsusuri",
+  "Isang pagsusuri upang malaman kung malusog ka.",
+  "o"
+ ],
+ "mh271": [
+  "Mapanganib na trabaho",
+  "Trabaho na may masamang epekto para sa katawan.",
+  "o"
+ ],
+ "mh272": [
+  "Interview guidance",
+  "Kilalanin ang mga taong nag tratrabaho, alamin ang lagay ng pag iisip at pangangatawan, Turuan kung paano maging maayos ang kalagayan.",
+  "o"
+ ],
+ "mh273": [
+  "Suriin ang stress",
+  "Isang pagsusuri upang malaman ang antas ng stress na mayroon ang isang manggagawa.",
+  "o"
+ ],
+ "mh274": [
+  "Edukasyong pangkaligtasan at pangkalusugan",
+  "Edukasyon para sa mga manggagawa upang maging ligtas at malusog.",
+  "o"
+ ],
+ "mh275": [
+  "Disaster Compensation",
+  "Kapag ang isang manggagawa ay nasugatan, nagkasakit, o namatay habang nagtatrabaho, binabayaran ito ng kumpanya.",
+  "o"
+ ],
+ "mh277": [
+  "Medical Compensation Benefits",
+  "Pera na maaaring makuha mula sa Worker's Accident Compensation Insurance ng manggagawa upang magpagaling sa sakit o pumunta sa ospital kapang nasugatan o nagkasakit sanhi ng trabaho o pag-commute.",
+  "o"
+ ],
+ "mh278": [
+  "Leave Compensation Benefits",
+  "Pera na maaaring makuha mula sa Worker's Accident Compensation Insurance ng manggagawa sa pagliban sa trabaho dahil sa pinsala o karamdaman sanhi ng trabaho o pag-commute at hindi makakatanggap ng suweldo.",
+  "o"
+ ],
+ "mh279": [
+  "Disability Compensation Benefits",
+  "Pera na maaaring makuha mula sa Worker's Accident Compension Insurance ng manggagawa kapag ang isang mangagawa ay nasugatan o nagkasakit sanhi ng trabaho o pag-commute na nagdulot ng pisikal o mental na kapansanan.",
+  "o"
+ ],
+ "mh280": [
+  "Long-term Care Security Benefits",
+  "Pera na maaaring makuha mula sa Worker's Accident Compensation Insurance ng manggagawa kapag ang isang manggagawa ay nangangailangan ng pangangalaga dahil sa pinsala o sakit na sanhi ng trabaho o biyahe papunta o paalis sa trabaho.",
+  "o"
+ ],
+ "mh281": [
+  "Bereaved Family Compensation",
+  "Pera na maaaring matanggap ng isang miyembro ng pamilya ng manggagawa mula sa Worker(s Accident Compensation Insurance kapag namatay ang nasabing manggagawa dahil sa isang aksidente sa trabaho o biyahe papunta o paalis sa trabaho.",
+  "o"
+ ],
+ "mh282": [
+  "Funeral fee",
+  "Kapag ang isang manggagawa ay namatay dahil sa isang aksidente habang nagtatrabaho o nagbibiyahe, ang pamilya ng namatayan ay siyang magbabayad para sa libing (isang ritwal kapag namatay ang isang tao) na maaaring makakuha ng pera mula sa accident compensation insurance ng manggagawa.",
+  "o"
+ ],
+ "mh283": [
+  "Benefits para sa Secondary Health Check",
+  "Kapag ang isang manggagawa ay nakakuha ng isang hindi magandang resulta sa test (pagsusuri sa kalusugan o health check) upang suriin kung siya ay nasa mabuting kalusugan sa kumpanya, maaari siyang kumuha ng libreng test upang maaari niya ito suriin muli.",
+  "o"
+ ],
+ "mh284": [
+  "Power harassment",
+  "Ang isang tao na nasa mas mataas na posisyon na gumagamit ng posisyong iyon para mamwersa o maglabas ng masasakit na salita na nagdudulot ng hindi kanais nais sa kapaligiran para sa mga manggagawa.",
+  "o"
+ ],
+ "mh285": [
+  "\"Pawahara\"",
+  "Pinaikling Power Harassment. Ang isang tao na nasa mas mataas na posisyon na gumagamit ng posisyong iyon para mamwersa o maglabas ng masasakit na salita na nagdudulot ng hindi kanais nais sa kapaligiran para sa mga manggagawa.",
+  "o"
+ ],
+ "mh286": [
+  "Dominant relationship",
+  "Nasa itaas na posisyon.",
+  "o"
+ ],
+ "mh287": [
+  "Kapaligiran sa trabaho",
+  "Ang kapaligiran sa lugar ng trabaho.",
+  "o"
+ ],
+ "mh288": [
+  "Sexual harassment",
+  "Paggamit ng mga salita at pamamaraan na nauugnay sa sekswalidad upang iparamdam sa ibang mga manggagawa nanagdudulot ng hindi kanais-nais na kapaligiran sa trabaho para sa mga manggawa.",
+  "o"
+ ],
+ "mh289": [
+  "\"Sekuhara\"",
+  "Pinaikling Sexual Harassment. Paggamit ng mga salita at pamamaraan na nauugnay sa sekswalidad upang iparamdam sa ibang mga manggagawa na nagdudulot ng hindi kanais-nais na kapaligiran sa trabaho para sa mga manggagawa.",
+  "o"
+ ],
+ "mh290": [
+  "Sexual behavior",
+  "Mga salita at pamamaraan na nauugnay sa sekswalidad.",
+  "o"
+ ],
+ "mh291": [
+  "Matahara (Maternity harassment)",
+  "Pinaikling Maternity Harassment. Paggamit ng mga salita sa pamamagitan ng pagsabi na arte lang ang mga gawain na nauugnay sa pagbubuntis at pagkakaroon ng mga anak ng isang manggagawa sa paggamit nito ng mga mekanismo ng kumpanya na maaaring magamit sa pagbubuntis, pagkakaroon at pagpapalaki ng mga anak na nagdudulot ng hindi kanais-nais na kapaligiran sa trabaho para sa mga manggagawa.",
+  "o"
+ ],
+ "mh292": [
+  "Orientasyong sekswal",
+  "Bilang anong kasarian ang nais mo.",
+  "o"
+ ],
+ "mh293": [
+  "Self-sex identification",
+  "Anong kasarian ang gusto mong panindigan.",
+  "o"
+ ],
+ "mh295": [
+  "Period of stay",
+  "Ang panahon kung saan ang mga dayuhan ay maaaring manatili sa Japan. Ang huling araw ng panahon ng pamamalagi ay tinatawag na \"Period of stay\".",
+  "o"
+ ],
+ "mh296": [
+  "Engineer/Specialist in Humanities/International Services",
+  "Mga kwalipikasyon para sa mga dayuhan na magtrabaho gamit ang kaalaman at mga kakayahan sa wikang banyaga na pinag-aralan sa mga unibersidad at mga paaralang bokasyonal. Halimbawa, magtrabaho bilang isang engineer, interpreter, designer, atbp.",
+  "o"
+ ],
+ "mh297": [
+  "Techinical skills",
+  "Kwalipikasyon para sa mga dayuhan na magtrabaho sa Japan gamit ang mga espesyal na kasanayan. Halimbawa, magtrabaho bilang isang cook (Taong nagluluto ng pagkain), isang piloto ng eroplano, at iba pa.",
+  "o"
+ ],
+ "mh298": [
+  "Highly Skilled Professional",
+  "Kwalipikasyon para sa mga dayuhan na may mataas na kakayahang magtrabaho sa Japan. Mayroong No.1 at No.2 sa kwalipikasyong ito. Ang mga may kwalipikasyon ng No.1 (Yi) ay Research and Education, at ang mga may kwalipikasyon ng No.1 (Ro) ay Natural Science (halimbawa,Mathematics and Physics) at Humanities (halimbawa, Literature and History). Ang isang tao na may kwalipikasyon ng No.1 (Ha) ay maaaring mamahala ng isang kumpanya, atbp, Sa pamamagitan ng paggamit ng kaalaman at kasanayan ng (Academics). Napapadali ang pagkuha ng permanent residence kapay may ganitong kwalipikasyon. Sa pagtatapos ng No.1, maaari kang magpatuloy sa No.2, at maaari kang gumawa ng ibang aktibidad ng higit pa sa No.1. Maaring makakuha ng kwalipikasyon na No.2 ang may mga kwalipikasyon na No.1 na nagtrabaho na ng 3 taon.",
+  "o"
+ ],
+ "mh299": [
+  "Specified Skilled Worker",
+  "Mga kwalipikasyon para sa mga dayuhan na may kaalaman at kasanayan sa mga trabaho (Specific Industrial Fields) upang magtrabaho sa Japan para mapunan ang mga kakulangan ng manggagawa sa nasabing uri ng trabaho. Mayroong No.1 at No.2 sa kwalipikasyong ito. Ang No.1 ay itinaguyod ng bansa na 14 na larangan patukoy sa mga Specific Industrial Fields (Nursing care, Manufacturing, Construction, Accommodation, Agrikultura, Restaurant Business, atbp.), At naipasa ang pagsusuri sa larangan na iyon at matagumpay na nakumpleto ang kasanayan sa pagsasanay, Ang mga dayuhan na matagumpay na nakumpleto ang Technical Intern Training No.2 ay maaaring makapagtrabaho. Mayroong 2 fields sa No.2 (Construction, Shipbuilding / Marine Industry) mga specific industrial fields na napagpasyahan ng gobyerno, at ang mga dayuhan na may mataas na kaalaman sa teknolohiya ay maaaring makapagtrabaho.",
+  "o"
+ ],
+ "mh300": [
+  "Technical Intern Training",
+  "Kwalipikasyon para sa pag-aaral ng kaalaman at kasanayan habang nagtatrabaho sa Japan. Kasama sa kwalipikasyon na ito ang No.1, No.2, at No.3. Matapos mag-aral sa isang lugar na tumutulong sa mga Technical Intern Trainees at mga kumpanya na kumukuha ng mga trainees, madalas ay nagtatrabaho sila sa mga kumpanya sa Japan (o tinatawag na mgaTraining Implementation Organization).",
+  "o"
+ ],
+ "mh301": [
+  "Training Implementation Organization",
+  "Isang kumpanya na kumukuha ng mga dayuhan (Technical Intern Trainees) upang matuto ng mga kaalaman at kasanayan sa Japan. Tinatawag din itong Host company.",
+  "o"
+ ],
+ "mh302": [
+  "Supervising Organization",
+  "Isang organisasyon na tumatanggap ng mga dayuhan (Technical Intern Trainees) upang matuto ng mga kaalaman at kasanayan sa Japan at tumutulong sa mga kumpanya na kumuha ng mga Technical Intern Trainees.",
+  "o"
+ ],
+ "mh303": [
+  "Sending Institution",
+  "Isang dayuhang organinsasyon na kumukuha at nagpapadala ng mga dayuhan (Technical Intern Trainees) upang matuto ng mga kaalaman at kasanayan habang nagtatrabaho sa Japan.",
+  "o"
+ ],
+ "mh304": [
+  "Permanent Resident",
+  "Kwalipikasyon na manirahan sa Japan habangbuhay.",
+  "o"
+ ],
+ "mh305": [
+  "Spouse or Child of Japanese National",
+  "Kwalipikasyon ng taong may asawa, anak, atbp. na Hapon na manirahan sa Japan.",
+  "o"
+ ],
+ "mh306": [
+  "Spouse or Child of Permanent Resident",
+  "Kwalipikasyon ng mga dayuhang asawa, anak, atbp. na manirahan sa Japan na may asawa, anak na permanent resident sa Japan,",
+  "o"
+ ],
+ "mh307": [
+  "Long-term Resident",
+  "Kwalipikasyon para sa mga dayuhan na manirahan sa Japan ng mahabang panahon na may sapat na dahilan. Halimbawa, ang mga apo ng Hapon na dating nag pupunta ng abroad mula sa Japan at nakatira sa ibang bansa ay maaaring makakuha ng kwalipikasyong ito.",
+  "o"
+ ],
+ "mh308": [
+  "Designated Activities",
+  "Kwalipikasyon na itinalaga ng Ministry of Justice para sa mga aktibidad na maaaring isagawa ng mga dayuhan na walang hawak na ibang status of residence. Halimbawa, ang isang taong nagtatrabaho sa bahay ng isang Diplomat (isang taong nagtatrabaho sa Japan sa ngalan ng kanyang banyagang bansa) o isang tao sa isang working holiday ay maaaring makakuha ng kwalipikasyong ito.",
+  "o"
+ ],
+ "mh309": [
+  "Student (Study abroad)",
+  "Kwalipikasyon para sa mga dayuhang makapag-aral sa mga paaralan sa Japan (pag-aaral sa ibang bansa).",
+  "o"
+ ],
+ "mh310": [
+  "Dependent",
+  "Mga kwalipikasyon para sa taong miyembro ng pamilya na nasa Japan.",
+  "o"
+ ],
+ "mh311": [
+  "Working holiday",
+  "Maaari kang magtrabaho para sa kabuhayan habang nasa bakasyon sa isang bansa sa pamamagitan ng pangako na ginawa sa pagitan ng dalawang bansa. Ang tawag dito ay working holiday.",
+  "o"
+ ],
+ "mh312": [
+  "Certificate of Eligibility",
+  "Dokumento na nagpapatunay na ang isang dayuhan ay maaaring bigyan ng status of residence bago siya dumating sa Japan. Ang kumpanya na tumatanggap ng mga dayuhan o isang taong nauugnay sa nasabing dayuhan ay maaaring mag-applay sa ngalan nito.",
+  "o"
+ ],
+ "mh313": [
+  "Visa",
+  "Dokumento na pinagtibay ng banyagang bansa na walang problema sa pasaporte at sa pagpasok ng dayuhan sa bansa.",
+  "o"
+ ],
+ "mh314": [
+  "Specific Industrial Field",
+  "Mga propesyon sa mga larangan kung saan walang sapat na manggagawang Hapon upang magtrabaho. Anomang kumpanya na may trabaho sa larangang ito ay maaaring makapagpatrabaho sa ilalim ng Specified Skilled Worker.",
+  "o"
+ ],
+ "mh315": [
+  "Application for Permission of Change of Status of Residence",
+  "Aplikasyon kapag nais baguhin ng isang dayuhan ang kanyang status of residence.",
+  "o"
+ ],
+ "mh316": [
+  "Renewal (Application for Extension of Period of Stay)",
+  "Aplikasyon para sa pahintulot na i-renew ang period of stay. Pagpapahaba ng panahon upang ang isang dayuhan ay maaring manatili sa Japan bago pa man matapos ang kanyang panahon ng pananatili (period of stay).",
+  "o"
+ ],
+ "mh317": [
+  "Legal Representative",
+  "Isang tao na tumatayong kapalit ng isang tao na may pahintulot ng batas.",
+  "o"
+ ],
+ "mh318": [
+  "Aplikante",
+  "Isang tao na nag-apply para sa ilang mga pamamaraan.",
+  "o"
+ ],
+ "mh320": [
+  "Certificate of Qualification for Employment",
+  "Isang sertipiko na nagsasaad kung anong uri ng trabaho ang maaaring gawin ng isang dayuhan kapag nagtatrabaho sa Japan.",
+  "o"
+ ],
+ "mh321": [
+  "Immigration Bureau",
+  "Immigration Bureau of Japan. Isang tanggapan ng gobyerno na namamahala sa pagpasok at paglabas ng mga dayuhan sa Japan.",
+  "o"
+ ],
+ "mh322": [
+  "Part-time na Manggagawa",
+  "Ang mga nagtatrabaho ng mas maikling oras sa kinakailangang lingguhang oras ng pagtatarabaho kumpara sa mga nagtatrabaho ng pinakamahabang oras na itinakda sa panuntunan ng kumpanya.",
+  "o"
+ ],
+ "mh323": [
+  "Pagbabago",
+  "Pagbago ng isang bagay sa iba pang bagay.",
+  "o"
+ ],
+ "mh324": [
+  "Fixed-Term Employment Contract",
+  "Isang kontrata na may takdang petsa ng pagtatapos sa panahon ng pagtatrabaho.",
+  "o"
+ ],
+ "mh325": [
+  "Non-Fixed Employment Contract",
+  "Isang kontrata na walang takdang petsa ng pagtatapos sa panahon ng pagtatrabaho.",
+  "o"
+ ],
+ "mh326": [
+  "Terminate",
+  "Ang isang manggagawa na mayroong fixed working period ay tinanggihan ng kumpanya para ipagpatuloy ang trabaho pagkatapos ng period.",
+  "o"
+ ],
+ "mh327": [
+  "Kabuuang panahon ng kontrata",
+  "Ang kabuuang tagal ng kontrata sa trabaho.",
+  "o"
+ ],
+ "mh328": [
+  "Fixed-term employment special measures law",
+  "Kung ang isang manggagawa na mayroong isang fixed-term employment ay gumagawa ng trabaho na nangangailangan ng espesyal na kaalaman o kasanayan, o kung siya ay lumampas sa edad ng pagretiro sa kumpanya, may isang batas na kung saan maaaring mapahaba ang panahon ng pag-apply upang baguhin ang kontrata (Indefinite Employment) kung saan ang petsa ng pagtatapos ng kontrata ay walang katiyakan.",
+  "o"
+ ],
+ "mh329": [
+  "Karapatan mag-apply upang baguhin ang kontrata na walang nakatakdang petsa",
+  "Ang isang manggagawa na may nakatakdang petsa ng pagtatapos ng kontrata ay may karapatang mag-apply upang baguhin ang kontrata na walang nakatakdang petsa ng pagtatapos sa trabaho.",
+  "o"
+ ],
+ "mh330": [
+  "Specific fixed-term contract",
+  "Mga trabahong nangangailangan ng espesyal na kaalaman at kasanayan ng mga manggagawa, trabaho na tumatagal ng higit sa 5 taon hanggang sa matapos.",
+  "o"
+ ],
+ "mh331": [
+  "Mga kondisyon sa pag-renew ng kontrata",
+  "Mga kinakailangan gawin upang ma-ipagpatuloy ang kontrata, kapag natapos ang kontrata sa kumpanya.",
+  "o"
+ ],
+ "mh332": [
+  "Dispatch Agency",
+  "Kumpanya na kumokontrata ng isang temporary worker (kumontrata sa isang temporary staff na magtrabaho sa ibang kumpanya).",
+  "o"
+ ],
+ "mh333": [
+  "Dispatch area (workplace)",
+  "Kumpanya na kung saan pinapadala ang mga temporary worker ng kinontrata ng osang kumpanya (Dispatch agency) upang magtrabaho.",
+  "o"
+ ],
+ "mh334": [
+  "Direct employment",
+  "Ang isang tao na nagtatrabaho ay direktang nakakontrata sa isang kumpanya na hindi dumaan sa dispatching agency. Ang mga full-time, contractual, at mga part-time employee ay direktang kinukuha.",
+  "o"
+ ],
+ "mh336": [
+  "Permanent Employment",
+  "Ang pag-hire ng mga taong magtatrabaho para sa kumpanya nang walang nakafixed na araw sa pagtatapos ng working period.",
+  "o"
+ ],
+ "mh337": [
+  "Fixed-term Employment",
+  "Ang pag-hire ng mga taong magtatrabaho para sa kumpanya sa isang fixed period of time.",
+  "o"
+ ],
+ "mh339": [
+  "Trabaho",
+  "Trabaho.",
+  "o"
+ ],
+ "mh340": [
+  "Labor Standards Act",
+  "Labor Standards Act. Isang pambansang batas upang maprotektahan ang mga manggagawa.",
+  "o"
+ ],
+ "mh341": [
+  "Manggagawa",
+  "Taong nagtatrabaho.",
+  "o"
+ ],
+ "mh342": [
+  "Pagsunod",
+  "Pagsunod.",
+  "o"
+ ],
+ "mh343": [
+  "Kahusayan sa trabaho",
+  "Gawin ang trabaho sa lalong madaling panahon.",
+  "o"
+ ],
+ "mh344": [
+  "Workplace order",
+  "Mga rules sa trabaho.",
+  "o"
+ ],
+ "mh345": [
+  "Obligasyon na ituon ang pansin sa mga tungkulin",
+  "Obligasyon na ituon ang pansin sa mga tungkulin.",
+  "o"
+ ],
+ "mh346": [
+  "Labor-management agreement",
+  "Mga pangako na ginawa sa pagitan ng mga labor union ng manggagawa at mga tao at mga kumpanya na kumakatawan sa higit sa kalahati ng mga manggagawa.",
+  "o"
+ ],
+ "mh347": [
+  "Representative ng mga manggagawa",
+  "Tao na kumakatawan sa higit sa kalahati ng mga manggagawa.",
+  "o"
+ ],
+ "mh348": [
+  "Chief ng Labor Standards Inspection Office",
+  "Pinakamataas na tao na namumuno upang malaman kung ang isang manggagawa ay nagtatrabaho sa ilalim ng tamang mga kondisyon.",
+  "o"
+ ],
+ "mh349": [
+  "Maternal health care",
+  "Kailangang protektahan ang kalusugan ng mga nagtatrabahong kababaihan kapag sila ay buntis at pagkatapos ng panganganak.",
+  "o"
+ ],
+ "mh350": [
+  "Mga Pananagutan",
+  "Responsibilidad bilang isang manggagawa.",
+  "o"
+ ],
+ "mh351": [
+  "Individual Labor-Related Disputes",
+  "Salungatan sa pagitan ng isang manggagawa at kumpanya na may kaugnayan sa trabaho, tulad ng mga kondisyon sa trabaho.",
+  "o"
+ ],
+ "mh352": [
+  "Arbitration",
+  "Pamamagitan sa pagtatalo para maiwasan ang problema.",
+  "o"
+ ],
+ "mh353": [
+  "Union",
+  "Isang samahang nilikha ng mga manggagawa upang mapabuti ang kapaligiran sa pagtatrabaho at itaas ang posisyon ng mga manggagawa.",
+  "o"
+ ],
+ "mh354": [
+  "Whistle Blowing",
+  "Ang pag-report kapag ang isang kumpanya ay lumalabag sa batas o gumagawa ng mali.",
+  "o"
+ ],
+ "mh355": [
+  "Edukasyon at pagsasanay",
+  "Edukasyon at pagsasanay na ibinigay ng kumpanya upang paunlarin ang kakayahan ng mga manggagawa na magamit sa trabaho.",
+  "o"
+ ],
+ "mh356": [
+  "Sideline/Side job",
+  "Pagtatrabaho din sa ibang mga kumpanya.",
+  "o"
+ ],
+ "mh357": [
+  "Labor provision",
+  "Magtrabaho para sa kumpanyang pinagtatrabahuhan mo.",
+  "o"
+ ],
+ "mh358": [
+  "Kumpetisyon",
+  "Makipagkumpitensya sa ibang mga kumpanya na gumagawa ng parehong uri ng trabaho tulad ng sa iyo.",
+  "o"
+ ],
+ "mh359": [
+  "Opisina",
+  "Lugar ng pinagtratrabahuhan.",
+  "o"
+ ],
+ "mh360": [
+  "Consumer",
+  "Isang kumpanya o isang tao na nasa isang mahalagang posisyon sa loob ng kumpanya.",
+  "o"
+ ],
+ "mh361": [
+  "Employment period",
+  "Ang panahon kung saan ang kumpanya ay kumukuha ng mga manggagawa.",
+  "o"
+ ],
+ "mh362": [
+  "Employment status",
+  "Ito ang uri ng kontrata sa pagitan ng empleyado at kumpanya, may regular, contractual, dispatch, at mga part-time na empleyado.",
+  "o"
+ ],
+ "mh363": [
+  "Regular Employee",
+  "Ang isang tao na tinanggap ng kumpanya sa ilalim ng isang kontrata (Indefinite employment) isang walang takdang panahon.Dito ay makakapagtrabaho hanggang sa pinakamahabang oras ang manggagawa ng kumpanya base sa patakaran ng kumpanya (mga patakaran sa pagtatrabaho).",
+  "o"
+ ],
+ "mh364": [
+  "Sistema ng pasahod sa trabaho",
+  "Isang mekanismo upang mapagpasyahan ang pera na babayaran alinsunod sa nilalaman ng trabaho ng taong nagtatrabaho.",
+  "o"
+ ],
+ "mh365": [
+  "Job title system",
+  "Isang mekanismo na naghahati sa mga taong nagtatrabaho sa kumpanya sa pamamagitan ng kakayahan at pagtatrabaho at nagbibigay ng mahahalagang tungkulin sa ilang mga tao.",
+  "o"
+ ],
+ "mh366": [
+  "Wages on employment system",
+  "Isang mekanismo kung saan nagbabayad ang kumpanya base sa kakayahan ng manggagawa na gawin ang trabaho.",
+  "o"
+ ],
+ "mh367": [
+  "Performance-based",
+  "Tinaasan ng kumpanya ang suweldo ng manggagawa o binibigyan ang tao ng isang mahalagang papel sa kumpanya alinsunod sa resulta ng trabaho.",
+  "o"
+ ],
+ "mh368": [
+  "Welfare Benefits",
+  "Ito ay kung paano tinutulungan ng kumpanya ang mga manggagawa at kanilang pamilya sa ibang bagay bukod sa sweldo.",
+  "o"
+ ],
+ "mh369": [
+  "Cafeteria",
+  "Isang lugar sa isang kumpanya kung saan ang mga taong nagtatrabaho sa kumpanyang iyon ay kumakain.",
+  "o"
+ ],
+ "mh370": [
+  "Dormitoryo",
+  "Isang bahay kung saan ang mga taong nagtatrabaho sa isang kumpanya ay magkakasamang nakatira. Ang bawat manggagawa ay may pribadong lugar.",
+  "o"
+ ],
+ "mh371": [
+  "Company housing",
+  "Isang bahay na pahiram sa mga taong nagtatrabaho para sa kumpanya.",
+  "o"
+ ],
+ "mh372": [
+  "Dormitoryo",
+  "Bahay kung saan magkasamang natutulog at kumakain ang mga manggagawa.",
+  "o"
+ ],
+ "mh374": [
+  "Worklife balance",
+  "Mahusay mag balanse sa pagitan ng trabaho at pamumuhay.",
+  "o"
+ ],
+ "mh375": [
+  "Pagsunod",
+  "Sundin ang batas.",
+  "o"
+ ],
+ "mh376": [
+  "Obligasyon",
+  "Ang kinakailangan gawin.",
+  "o"
+ ],
+ "mh377": [
+  "Maliban sa trabaho",
+  "Bagay maliban sa trabaho.",
+  "o"
+ ],
+ "mh378": [
+  "Katapusan",
+  "Pagtatapos.",
+  "o"
+ ],
+ "mh379": [
+  "Panghihiram",
+  "Panghihiram ng pera o gamit.",
+  "o"
+ ],
+ "mh380": [
+  "Regalo",
+  "Pagbigay ng pera o mga bagay.",
+  "o"
+ ],
+ "mh381": [
+  "Pandaraya",
+  "Gawaing labag sa batas.",
+  "o"
+ ],
+ "mh382": [
+  "Kliyente",
+  "Kliyente ng kumpanya.",
+  "o"
+ ],
+ "mh383": [
+  "Confidentiality leak",
+  "Pagsasabi ng lihim sa iba.",
+  "o"
+ ],
+ "mh384": [
+  "Impluwensya ng alkohol",
+  "Naka-inom ng alak.",
+  "o"
+ ],
+ "mh385": [
+  "Privacy protection",
+  "Protektahan ang impormasyon tungkol sa mga manggagawa, sa kumpanya, at mga kliyente.",
+  "o"
+ ],
+ "mh386": [
+  "Pre-approval",
+  "Kumuha ng pahintulot bago ito gawin.",
+  "o"
+ ],
+ "mh387": [
+  "Post-approval",
+  "Kumuha ng pahintulot pagkatapos.",
+  "o"
+ ],
+ "mh388": [
+  "Bawas sa suweldo",
+  "Pagbawas.",
+  "o"
+ ],
+ "mh389": [
+  "Jurisdiction",
+  "Responsable para sa iyong lugar ng tirahan o ang lugar ng iyong kumpanya.",
+  "o"
+ ],
+ "mh390": [
+  "Health guidance",
+  "Patnubay para sa kalusugan.",
+  "o"
+ ],
+ "mh391": [
+  "Health check",
+  "Pagsusuri para malaman ang kondisyon ng iyong kalusugan.",
+  "o"
+ ],
+ "mh392": [
+  "In-time visit",
+  "Pagpunta sa ospital sa oras ng trabaho.",
+  "o"
+ ],
+ "mh393": [
+  "Spouse",
+  "Asawang lalake o babae.",
+  "o"
+ ],
+ "mh394": [
+  "Lay Judge",
+  "Tagapaglitis.",
+  "o"
+ ],
+ "mh395": [
+  "Food Sanitation Manager",
+  "Tao na namamahala ng isang lugar tulad ng sa isang pabrika na gumagawa ng pagkain upang panatilihing maayos at ligtas ang mga ginagawang pagkain.",
+  "o"
+ ],
+ "mh396": [
+  "Licenced Cook/Chef",
+  "Tao na may kaalaman at kasanayan sa pagluluto at may pahintulot na gumawa ng gawaing pagluluto.",
+  "o"
+ ],
+ "mh397": [
+  "Dietician/Nutritionist",
+  "Tao na nagtuturo at namamahala ng nutrisyon.",
+  "o"
+ ],
+ "mh398": [
+  "Mga dahilan na kailangan ikonsidera",
+  "Sa kagustuhan ng kumpanya.",
+  "o"
+ ],
+ "mh399": [
+  "Retail business",
+  "Ang trabaho ng pagbili ng isang produkto mula sa isang kumpanya na gumagawa nito at ibinebenta ito sa taong bibili ng produkto.",
+  "o"
+ ],
+ "mh400": [
+  "Industriya ng serbisyo",
+  "Trabaho na nagbibigay serbisyo sa iba't ibang mga tao.",
+  "o"
+ ],
+ "mh401": [
+  "Wholesale business",
+  "Bibile ng isang produkto sa mga kumpanyang gumagawa nito, at pagkabili ibebenta sa mga kumpanyang nag bebenta ng mga produkto.",
+  "o"
+ ],
+ "mh402": [
+  "Kagustuhan ng kumpanya",
+  "Dahilan ng kumpanya.",
+  "o"
+ ],
+ "mh403": [
+  "Measures against second-hand smoke indoors",
+  "Gumagawa ang kumpanya ng mga hakbang upang maiwasan ang paglanghap ng usok ng sigarilyo sa gusali.",
+  "o"
+ ],
+ "mh404": [
+  "Sariling kotse papunta ng trabaho",
+  "Gumamit ng iyong sariling kotse sa pagpasok sa trabaho.",
+  "o"
+ ],
+ "mh405": [
+  "Limitasyon sa edad",
+  "Sa paggawa ng isang bagay, may itinakdang edad kung maaari mo itong gawin.",
+  "o"
+ ],
+ "mh406": [
+  "Record ng dayuhang trabahador",
+  "Isang numero na nagpepresenta kung gaano karaming mga dayuhan ang nagpapatrabaho sa kumpanya.",
+  "o"
+ ],
+ "mh407": [
+  "Magagamit na pasilidad sa pangangalaga ng bata",
+  "Isang lugar kung saan maaaring iwanan ng mga trabahador ang mga batang wala pang 6 na taong gulang.",
+  "o"
+ ],
+ "mh408": [
+  "Average na taon ng pagseserbisyo",
+  "Ang average na bilang ng mga taon ng isang manggagawa na nagtatrabaho para sa parehong kumpanya.",
+  "o"
+ ],
+ "mh409": [
+  "Sistema ng mentor",
+  "Isang mekanismo kung saan ang isang manggagawa sa mas mataas na posisyon ay tumutulong sa gawain ng isang manggagawa sa mas mababang posisyon.",
+  "o"
+ ],
+ "mh410": [
+  "Sistema ng pagkonsulta sa career",
+  "Isang mekanismo na pinapayagan ang mga manggagawa na kumunsulta sa kumpanya upang pumili ng trabaho at mapaunlad ang kanilang mga kakayahan.",
+  "o"
+ ],
+ "mh411": [
+  "Company certificate",
+  "Mga pagsusulit na ibinibigay ng kumpanya sa mga manggagawa.",
+  "o"
+ ],
+ "mh412": [
+  "Bilang ng mga kapanganakan",
+  "Ang bilang ng mga tao na nanganak.",
+  "o"
+ ],
+ "mh413": [
+  "Porsyento ng mga kababaihan sa opisyal at tagapamahala",
+  "Porsyento ng mga kababaihan sa lahat ng posisyon.",
+  "o"
+ ],
+ "mh414": [
+  "Pag papaunlad sa sarili",
+  "Upang madagdagan ang kaalaman at kakayahan ng mga nagtatrabaho tungkol sa trabaho.",
+  "o"
+ ],
+ "mh415": [
+  "Utility bills",
+  "Perang kailangan para sa kabayarang ng tubig, kuryente at gas.",
+  "o"
+ ],
+ "mh416": [
+  "Death from overwork",
+  "Ang pagtatrabaho ng mahabang oras ng manggagawa ay hindi maganda sa kalusugan at puwedeng ikamatay.",
+  "o"
+ ],
+ "mh417": [
+  "Compliance",
+  "Sundin ang batas at ang mga patakaran ng lipunan.",
+  "o"
+ ],
+ "mh418": [
+  "Signature",
+  "Isulat ang pangalan ng tao sa isang dokumento, atbp upang ipahiwatig na kinilala ng tao ang nilalaman ng dokumento.",
+  "o"
+ ],
+ "pj1": [
+  "Childcare leave (Ikuji Kyugyo)",
+  "Bakasyon na puwedeng kunin para mag-alaga ng anak.",
+  "c"
+ ],
+ "pj2": [
+  "Childcare leave benefit",
+  "Perang puwedeng matanggap mula sa Employment Insurance habang naka-childcare leave.",
+  "c"
+ ],
+ "pj3": [
+  "Survivors' Basic Pension",
+  "Perang puwedeng matanggap ng pamilya mula sa National Pension kapag namatay ang taong miyembro nito.",
+  "c"
+ ],
+ "pj4": [
+  "Survivors' Employees' Pension",
+  "Perang puwedeng matanggap ng pamilya mula sa Employees' Pension Insurance kapag namatay ang taong miyembro nito.",
+  "c"
+ ],
+ "pj5": [
+  "Medical insurance",
+  "Sistemang nag-iipon ng pera mula sa lahat para tulungan ang mga nagpapagamot sa ospital dahil sa sakit o pinsala.",
+  "c"
+ ],
+ "pj6": [
+  "Seal registration certificate (Inkan Toroku Shomeisho)",
+  "Papel na nagpapakita kung alin ang iyong \"jitsuin\" (rehistradong tatak). Makukuha ito sa munisipyo kung saan ka nakatira.",
+  "c"
+ ],
+ "pj7": [
+  "Seal registration card (Inkan Toroku Sho)",
+  "Ginagamit para makakuha ng seal registration certificate sa munisipyo. Natatanggap ito kapag inaprubahan ng munisipyo ang iyong \"jitsuin\".",
+  "c"
+ ],
+ "pj8": [
+  "Overstay",
+  "Pananatili sa Japan kahit lampas na ang petsa ng pagtatapos ng pananatili.",
+  "c"
+ ],
+ "pj9": [
+  "May-ari ng bahay (landlord)",
+  "Taong nagpapaupa ng bahay.",
+  "c"
+ ],
+ "pj10": [
+  "Pag-aalaga (nursing care)",
+  "Pagtulong sa mga taong nahihirapan sa pang-araw-araw na buhay (pagkain, pagligo, atbp.) dahil sa katandaan o espesyal na sakit.",
+  "c"
+ ],
+ "pj11": [
+  "Family care leave (Kaigo Kyugyo)",
+  "Bakasyon na puwedeng kunin para mag-alaga ng kapamilya.",
+  "c"
+ ],
+ "pj12": [
+  "Family care leave benefit",
+  "Perang puwedeng matanggap mula sa Employment Insurance habang naka-family care leave.",
+  "c"
+ ],
+ "pj13": [
+  "Paaralan para sa mga dayuhan",
+  "Paaralan para sa mga batang dayuhan. May mga paaralang angkop sa kultura at wika ng bawat bansa.",
+  "c"
+ ],
+ "pj14": [
+  "Long-term care insurance (Kaigo Hoken)",
+  "Sistemang nag-iipon ng pera mula sa mga edad 40 pataas para tulungan ang mga nangangailangan ng pag-aalaga.",
+  "c"
+ ],
+ "pj15": [
+  "Circular notice board (Kairanban)",
+  "Ginagamit ng neighborhood association; may mga abiso mula sa munisipyo at iba pa. Ipasa sa susunod na tao pagkatapos basahin.",
+  "c"
+ ],
+ "pj16": [
+  "Final tax return (Kakutei Shinkoku)",
+  "Paraan ng pagbabayad ng income tax para sa mga hindi dumadaan sa withholding o year-end adjustment ng kompanya. Magsumite ng papeles sa tax office (opisina ng buwis) sa inyong lugar.",
+  "c"
+ ],
+ "pj17": [
+  "Widow's pension",
+  "Perang puwedeng matanggap ng asawang babae mula sa National Pension kapag namatay ang asawang lalaki.",
+  "c"
+ ],
+ "pj18": [
+  "Ophthalmology (klinika sa mata)",
+  "Ospital na gumagamot ng sakit sa mata.",
+  "c"
+ ],
+ "pj19": [
+  "Maintenance fee (common service fee)",
+  "Perang ibinabayad para sa mga bagay na ginagamit ng lahat sa apartment o condominium. Kinokolekta mula sa mga nakatira.",
+  "c"
+ ],
+ "pj20": [
+  "Compulsory education school",
+  "Paaralang pinagsama ang elementarya at junior high school.",
+  "c"
+ ],
+ "pj21": [
+  "Ambulansya",
+  "Sasakyang nagdadala sa ospital ng mga biglang nagkasakit o nasaktan.",
+  "c"
+ ],
+ "pj22": [
+  "Withholding tax slip (Gensen Choshu Hyo)",
+  "Papel kung saan isinulat ng kompanya ang iyong sahod sa isang taon at ang kinaltas na income tax at iba pa.",
+  "c"
+ ],
+ "pj23": [
+  "Payslip",
+  "Papel kung saan isinulat ng kompanya ang iyong buwanang sahod at ang kinaltas na income tax at iba pa.",
+  "c"
+ ],
+ "pj24": [
+  "Earthquake Early Warning",
+  "Abisong lumalabas sa TV o smartphone bago dumating ang malakas na lindol.",
+  "c"
+ ],
+ "pj25": [
+  "Care manager",
+  "Espesyalistang tumatanggap ng konsultasyon tungkol sa pag-aalaga at nagpaplano kung paano ito gagawin.",
+  "c"
+ ],
+ "pj26": [
+  "Contract employee",
+  "Manggagawang may takdang panahon ng trabaho. Natatapos ang kontrata (kasunduan ng kompanya at manggagawa) sa loob ng 3 taon.",
+  "c"
+ ],
+ "pj27": [
+  "Surgery (klinika ng operasyon)",
+  "Ospital na gumagamot ng pinsala at nag-oopera.",
+  "c"
+ ],
+ "pj28": [
+  "Health insurance (Kenko Hoken)",
+  "Medical insurance para sa mga nagtatrabaho sa kompanya.",
+  "c"
+ ],
+ "pj29": [
+  "Withholding tax (Gensen Choshu)",
+  "Pagbabayad ng kompanya ng income tax sa gobyerno para sa iyo. Kinakaltas ito ng kompanya mula sa iyong sahod.",
+  "c"
+ ],
+ "pj30": [
+  "Public housing",
+  "Bahay na pinauupahan ng prefecture, lungsod, at iba pa.",
+  "c"
+ ],
+ "pj31": [
+  "High-cost medical expense benefit",
+  "Perang ibinabalik kapag naging malaki ang binayaran mo sa ospital sa loob ng isang buwan.",
+  "c"
+ ],
+ "pj32": [
+  "Medical care system for the elderly aged 75 and over",
+  "Medical insurance para sa mga edad 75 pataas.",
+  "c"
+ ],
+ "pj33": [
+  "Scholarship benefit for high school students",
+  "Perang puwedeng matanggap ng mga high school student na mababa ang kita ng magulang, para bumili ng textbook at gamit sa pag-aaral.",
+  "c"
+ ],
+ "pj34": [
+  "Renewal fee (ng kontrata sa upa)",
+  "Perang ibinabayad bukod sa upa kapag patuloy kang titira sa parehong bahay pagkatapos ng kontrata.",
+  "c"
+ ],
+ "pj35": [
+  "Employees' Pension Insurance (Kosei Nenkin)",
+  "Pension para sa mga edad hanggang 69 na nagtatrabaho nang lampas sa takdang oras sa kompanya, pabrika, tindahan, at iba pa (NO.106).",
+  "c"
+ ],
+ "pj36": [
+  "High school equivalency exam",
+  "Pagsusulit para sa mga hindi nakatapos ng high school sa Japan. Kapag pumasa, puwedeng kumuha ng entrance exam sa unibersidad, vocational school, at iba pa.",
+  "c"
+ ],
+ "pj37": [
+  "High school tuition support",
+  "Matrikula sa high school na binabayaran ng gobyerno para sa iyo.",
+  "c"
+ ],
+ "pj38": [
+  "National Health Insurance (Kokumin Kenko Hoken)",
+  "Medical insurance na sinasalihan ng mga walang health insurance mula sa kompanya.",
+  "c"
+ ],
+ "pj39": [
+  "National Pension (Kokumin Nenkin)",
+  "Pension ng gobyerno na dapat salihan ng lahat ng edad 20 hanggang 59.",
+  "c"
+ ],
+ "pj40": [
+  "Fixed asset tax (buwis sa ari-arian)",
+  "Buwis na binabayaran ng may-ari ng lupa o bahay.",
+  "c"
+ ],
+ "pj41": [
+  "Employment insurance (Koyo Hoken)",
+  "Sistemang tumutulong sa mga walang mahanap na trabaho pagkaalis sa kompanya, at sa mga naka-childcare o family care leave.",
+  "c"
+ ],
+ "pj42": [
+  "Marriage registration",
+  "Papel na isinusumite sa munisipyo ng mga ikakasal.",
+  "c"
+ ],
+ "pj43": [
+  "Certificate of legal capacity to marry",
+  "Papel na kailangan ng dayuhan kapag nagsusumite ng marriage registration sa munisipyo.",
+  "c"
+ ],
+ "pj44": [
+  "Minimum wage",
+  "Pinakamababang sahod na itinakda ng batas.",
+  "c"
+ ],
+ "pj45": [
+  "Residence card (Zairyu Card)",
+  "Card na ibinibigay ng Immigration sa dayuhang titira sa Japan nang mahigit 3 buwan. Nakasulat dito ang pangalan, nasyonalidad, address, at iba pa.",
+  "c"
+ ],
+ "pj46": [
+  "Permission for extension of period of stay",
+  "Natatanggap kapag gusto mong pahabain ang pananatili. Hindi nagbabago ang status of residence.",
+  "c"
+ ],
+ "pj47": [
+  "Expiration date of period of stay",
+  "Huling araw na puwedeng manatili ang dayuhan sa Japan.",
+  "c"
+ ],
+ "pj48": [
+  "Status of residence (Zairyu Shikaku)",
+  "Mga puwedeng gawin ng dayuhan sa Japan, gaya ng magtrabaho, mag-aral, o tumira kasama ang pamilya.",
+  "c"
+ ],
+ "pj49": [
+  "Permission to acquire status of residence",
+  "Pagkuha ng residence card ng sanggol na dayuhang ipinanganak sa Japan.",
+  "c"
+ ],
+ "pj50": [
+  "Permission for change of status of residence",
+  "Natatanggap kapag magpapalit ng status of residence.",
+  "c"
+ ],
+ "pj51": [
+  "Overtime",
+  "Pagtatrabaho nang higit sa 8 oras sa isang araw, o higit sa 40 oras sa isang linggo.",
+  "c"
+ ],
+ "pj52": [
+  "Maternity leave (bago at pagkatapos manganak)",
+  "Bakasyong puwedeng kunin ng babaeng empleyado bago manganak, at bakasyong dapat kunin pagkatapos manganak.",
+  "c"
+ ],
+ "pj53": [
+  "Obstetrics and gynecology (OB-GYN)",
+  "Ospital na gumagamot ng sakit ng kababaihan at kung saan nanganganak.",
+  "c"
+ ],
+ "pj54": [
+  "Dentistry (dentista)",
+  "Ospital na gumagamot ng ngipin.",
+  "c"
+ ],
+ "pj55": [
+  "Permission to engage in activity other than that permitted",
+  "Natatanggap ng taong may status of residence na hindi pinapayagang magtrabaho kapag gusto niyang magtrabaho.",
+  "c"
+ ],
+ "pj56": [
+  "Security deposit (Shikikin)",
+  "Perang ibinabayad kapag umuupa ng bahay. Ginagamit ito ng may-ari para ayusin ang mga sira o dumi pagkaalis ng umupa.",
+  "c"
+ ],
+ "pj57": [
+  "Neighborhood association",
+  "Samahang binubuo ng mga magkakapitbahay. Sama-samang nag-iisip para gawing ligtas at maginhawa ang lugar.",
+  "c"
+ ],
+ "pj58": [
+  "Registered seal (Jitsuin)",
+  "Tatak (hanko) na inaprubahan ng munisipyo. Ginagamit kapag bumibili ng kotse o bahay, at iba pa.",
+  "c"
+ ],
+ "pj59": [
+  "Automobile weight tax",
+  "Buwis na binabayaran tuwing vehicle inspection (shaken) at iba pa.",
+  "c"
+ ],
+ "pj60": [
+  "Automobile tax / light vehicle tax (environmental performance)",
+  "Buwis na binabayaran kapag bumili ng sasakyan.",
+  "c"
+ ],
+ "pj61": [
+  "Automobile tax / light vehicle tax (by type)",
+  "Buwis na binabayaran ng may-ari ng sasakyan tuwing Abril 1 bawat taon.",
+  "c"
+ ],
+ "pj62": [
+  "Child allowance (Jido Teate)",
+  "Perang puwedeng matanggap ng nagpapalaki ng anak hanggang matapos ng bata ang junior high school.",
+  "c"
+ ],
+ "pj63": [
+  "Child rearing allowance (Jido Fuyo Teate)",
+  "Perang puwedeng matanggap ng mag-isang nagpapalaki ng anak hanggang 18 taong gulang dahil sa diborsyo at iba pa. Puwede rin sa mag-isang nagpapalaki ng anak na may kapansanan hanggang 19 taong gulang.",
+  "c"
+ ],
+ "pj64": [
+  "Compulsory automobile liability insurance (Jibaiseki)",
+  "Sistemang nag-iipon ng pera mula sa mga nagmamaneho ng kotse o motorsiklo para tulungan ang mga naaksidente.",
+  "c"
+ ],
+ "pj65": [
+  "Lump-sum death benefit",
+  "Perang natatanggap ng pamilya mula sa National Pension kapag namatay ang taong miyembro ng pension.",
+  "c"
+ ],
+ "pj66": [
+  "Death registration",
+  "Papel na isinusumite sa munisipyo kapag namatay ang kapamilya o kasama sa bahay.",
+  "c"
+ ],
+ "pj67": [
+  "Social insurance / labor insurance",
+  "Sistemang nag-iipon ang gobyerno ng pera mula sa mga manggagawa at kompanya para tulungan ang mga nangangailangan.",
+  "c"
+ ],
+ "pj68": [
+  "Vehicle inspection (Shaken)",
+  "Pagsusuri bawat 1 o 2 taon kung ligtas gamitin ang kotse o motorsiklo.",
+  "c"
+ ],
+ "pj69": [
+  "Vehicle inspection certificate",
+  "Papel na natatanggap pagkatapos ng vehicle inspection.",
+  "c"
+ ],
+ "pj70": [
+  "School attendance assistance",
+  "Tulong na pera para sa gamit sa paaralan, school lunch, at iba pa. Puwedeng matanggap ng mga magulang na mababa ang kita na may anak sa elementarya o junior high.",
+  "c"
+ ],
+ "pj71": [
+  "Work rules (Shugyo Kisoku)",
+  "Detalyadong patakaran sa trabaho na itinakda ng kompanya.",
+  "c"
+ ],
+ "pj72": [
+  "Resident tax (Juminzei)",
+  "Buwis na binabayaran sa prefecture, lungsod, o ward ng mga nagtatrabaho na may address sa Japan tuwing Enero 1.",
+  "c"
+ ],
+ "pj73": [
+  "Maternity allowance",
+  "Perang puwedeng matanggap mula sa health insurance kapag lumiban sa trabaho para manganak at walang sahod.",
+  "c"
+ ],
+ "pj74": [
+  "Birth registration",
+  "Papel na isinusumite sa munisipyo kapag may ipinanganak na sanggol.",
+  "c"
+ ],
+ "pj75": [
+  "Lump-sum childbirth allowance",
+  "Perang puwedeng matanggap mula sa health insurance at iba pa kapag nanganak.",
+  "c"
+ ],
+ "pj76": [
+  "Disability Basic Pension",
+  "Perang puwedeng matanggap mula sa National Pension ng taong may kapansanan.",
+  "c"
+ ],
+ "pj77": [
+  "Disability Employees' Pension",
+  "Perang puwedeng matanggap mula sa Employees' Pension Insurance ng taong may kapansanan.",
+  "c"
+ ],
+ "pj78": [
+  "Consumption tax",
+  "Buwis na binabayaran kapag bumibili ng gamit o gumagamit ng serbisyo.",
+  "c"
+ ],
+ "pj79": [
+  "Income tax",
+  "Buwis na binabayaran sa gobyerno mula sa kita (gaya ng sahod).",
+  "c"
+ ],
+ "pj80": [
+  "Physical disability certificate (Shintai Shogaisha Techo)",
+  "Handbook na natatanggap mula sa munisipyo ng taong may pisikal na kapansanan.",
+  "c"
+ ],
+ "pj81": [
+  "Sistema ng Suporta sa Pagsasarili ng mga Taong Nahihirapan sa Pamumuhay",
+  "Sistema kung saan ang munisipyo ng inyong lugar ay tumutulong at nakikipag-usap sa mga taong nahihirapan sa buhay (walang pera, walang trabaho, o walang matirhan).",
+  "c"
+ ],
+ "pj82": [
+  "Buwis",
+  "Perang ibinabayad sa bansa, prepektura, lungsod, ward, at iba pa.",
+  "c"
+ ],
+ "pj83": [
+  "Orthopedics",
+  "Ospital o klinikang gumagamot sa buto, kasukasuan, kalamnan, at iba pa.",
+  "c"
+ ],
+ "pj84": [
+  "Health and Welfare Handbook para sa may Kapansanan sa Pag-iisip (Mental Disability Certificate)",
+  "Handbook na ibinibigay ng munisipyo sa taong may kapansanan sa pag-iisip o kalusugang pangkaisipan na nahihirapan sa pang-araw-araw na buhay.",
+  "c"
+ ],
+ "pj85": [
+  "Tax Treaty (Kasunduan sa Buwis)",
+  "Kasunduan sa pagitan ng mga bansa tungkol sa buwis. Ang mga tao mula sa bansang may kasunduan sa Japan ay maaaring magbayad ng mas mababang buwis.",
+  "c"
+ ],
+ "pj86": [
+  "Category 1 Insured Person",
+  "Taong naka-enroll lamang sa National Pension. Halimbawa: may sariling tindahan at hindi empleyado ng kompanya, nagsasaka, nangingisda, o walang trabaho.",
+  "c"
+ ],
+ "pj87": [
+  "Category 3 Insured Person",
+  "Taong ang asawa ay naka-enroll sa Employees' Pension Insurance, ang asawa ay wala pang 65 taong gulang, at ang sariling kita sa isang taon ay mas mababa sa 1,300,000 yen. Naka-enroll lamang sa National Pension.",
+  "c"
+ ],
+ "pj88": [
+  "Resignation Letter (Liham ng Pagbibitiw)",
+  "Papel na isinusulat ang dahilan at iba pa, at ibinibigay sa kompanya kapag aalis sa trabaho.",
+  "c"
+ ],
+ "pj89": [
+  "Category 2 Insured Person",
+  "Taong naka-enroll sa National Pension at Employees' Pension Insurance. Mga nagtatrabaho sa kompanya, pabrika, tindahan, at iba pa.",
+  "c"
+ ],
+ "pj90": [
+  "Lump-sum Withdrawal Payment",
+  "Perang maaaring matanggap ng taong titigil sa pension ng Japan at uuwi sa sariling bansa.",
+  "c"
+ ],
+ "pj91": [
+  "Part-time Worker",
+  "Mga part-timer o arubaito na mas maikli ang oras ng trabaho kaysa sa regular na empleyado.",
+  "c"
+ ],
+ "pj92": [
+  "Brokerage Fee",
+  "Perang ibinabayad sa real estate agency na nagpakilala sa iyo ng bahay kapag uupa ka.",
+  "c"
+ ],
+ "pj93": [
+  "Exam para sa Katumbas ng Pagtatapos ng Junior High School",
+  "Exam para sa mga hindi nakatapos ng junior high school sa Japan. Kapag pumasa, maaari nang kumuha ng entrance exam sa high school sa Japan.",
+  "c"
+ ],
+ "pj94": [
+  "Kontrata sa Pag-upa",
+  "Kasunduan ng nagpapaupa ng bahay at ng umuupa.",
+  "c"
+ ],
+ "pj95": [
+  "Notice of Change of Address (sa loob ng parehong lungsod)",
+  "Papel na isinusumite sa munisipyo kapag lilipat ng bahay sa loob ng parehong lungsod o bayan.",
+  "c"
+ ],
+ "pj96": [
+  "Moving-out Notification",
+  "Papel na isinusumite sa munisipyo ng dating tirahan kapag lilipat sa ibang lungsod o bayan. Isinusumite rin kapag aalis ng Japan.",
+  "c"
+ ],
+ "pj97": [
+  "Moving-in Notification",
+  "Papel na isinusumite sa munisipyo ng bagong tirahan pagkatapos lumipat mula sa ibang lungsod o bayan. Isinusumite rin kapag nagsimulang tumira sa Japan.",
+  "c"
+ ],
+ "pj98": [
+  "Special Child Rearing Allowance",
+  "Perang maaaring matanggap ng taong nag-aalaga ng batang may kapansanan.",
+  "c"
+ ],
+ "pj99": [
+  "Special Collection (Pagbabawas ng Buwis sa Sahod)",
+  "Ang kompanya ang nagbabayad ng residence tax ng empleyado sa munisipyo. Ibinabawas ng kompanya ang buwis sa iyong sahod.",
+  "c"
+ ],
+ "pj100": [
+  "Mountain Climbing Plan (Tozan Todoke)",
+  "Papel na isinusulat ang pangalan, address, numero ng telepono, ruta, at iba pa bago umakyat ng bundok, at isinusumite sa opisina. Nakakatulong ito sa pagsagip ng naaksidente sa bundok.",
+  "c"
+ ],
+ "pj101": [
+  "Internal Medicine",
+  "Ospital o klinikang gumagamot sa mga sakit sa loob ng katawan (tulad ng sipon).",
+  "c"
+ ],
+ "pj102": [
+  "Examination for Japanese University Admission for International Students (EJU)",
+  "Exam para sa mga dayuhang estudyanteng gustong mag-aral sa unibersidad sa Japan.",
+  "c"
+ ],
+ "pj103": [
+  "Health Checkup para sa Sanggol at Batang Paslit",
+  "Pagsusuri ng munisipyo kung malusog ang sanggol o batang paslit.",
+  "c"
+ ],
+ "pj104": [
+  "Certified Center for Early Childhood Education and Care (Nintei Kodomo-en)",
+  "Lugar na pinapasukan ng mga batang hindi pa nag-aaral sa elementarya. May katangian ito ng kindergarten at day care.",
+  "c"
+ ],
+ "pj105": [
+  "Prenatal Checkup",
+  "Pagsusuri kung malusog ang buntis.",
+  "c"
+ ],
+ "pj106": [
+  "Pension",
+  "Sistemang nangongolekta ng pera mula sa lahat para tulungan ang matatanda at mga nagkaroon ng kapansanan dahil sa sakit o pinsala.",
+  "c"
+ ],
+ "pj107": [
+  "Pension Handbook",
+  "Handbook na natatanggap ng taong naka-enroll sa pension.",
+  "c"
+ ],
+ "pj108": [
+  "Annual Paid Leave",
+  "Bakasyon kung saan may sahod ka pa rin kahit hindi pumasok sa trabaho.",
+  "c"
+ ],
+ "pj109": [
+  "Year-end Tax Adjustment",
+  "Sistema kung saan sa Disyembre, kinukuwenta at inaayos ng kompanya ang income tax na ibinawas sa sahod. Kung sobra, ibabalik sa iyo ng kompanya ang pera. Kung kulang, ikaw ang magbabayad sa kompanya.",
+  "c"
+ ],
+ "pj110": [
+  "Dispatched Worker",
+  "Taong may kontrata sa dispatch agency at nagtatrabaho sa ibang kompanya.",
+  "c"
+ ],
+ "pj111": [
+  "Hazard Map",
+  "Mapang nagpapakita ng mapanganib na lugar at lugar na matatakbuhan kapag may sakuna.",
+  "c"
+ ],
+ "pj112": [
+  "Klase para sa mga Magiging Ina at Ama",
+  "Lugar kung saan itinuturo sa mga bagong magiging magulang ang mahahalagang bagay sa panganganak at pag-aalaga ng sanggol.",
+  "c"
+ ],
+ "pj113": [
+  "Hello Work",
+  "Opisina ng gobyerno na nagpapakilala ng trabaho.",
+  "c"
+ ],
+ "pj114": [
+  "Family Support Center",
+  "Lugar na nagpapakilala ng taong mag-aalaga sa anak mo kapag may lakad ka.",
+  "c"
+ ],
+ "pj115": [
+  "Real Estate Agency",
+  "Tindahang nagpapakilala ng iba't ibang bahay sa gustong umupa o bumili ng bahay.",
+  "c"
+ ],
+ "pj116": [
+  "Day Care (Hoikuen)",
+  "Lugar na nag-aalaga ng mga batang 0 taong gulang hanggang bago mag-elementarya habang nagtatrabaho ang magulang. Inaalagaan dito ang bata at natututo sila habang naglalaro.",
+  "c"
+ ],
+ "pj117": [
+  "After-school Child Club (Gakudo)",
+  "Lugar na nag-aalaga sa mga batang nasa elementarya habang nagtatrabaho ang magulang.",
+  "c"
+ ],
+ "pj118": [
+  "Disaster Drill / Evacuation Drill",
+  "Pagsasanay sa ligtas na paglikas at pagpatay ng apoy bilang paghahanda sa sakuna.",
+  "c"
+ ],
+ "pj119": [
+  "Pag-iwas sa Krimen",
+  "Pag-iingat para hindi maging biktima ng krimen.",
+  "c"
+ ],
+ "pj120": [
+  "Maternal and Child Health Handbook (Boshi Techo)",
+  "Handbook na natatanggap ng buntis mula sa munisipyo. Isinusulat dito ang tungkol sa kalusugan ng sanggol at ina.",
+  "c"
+ ],
+ "pj121": [
+  "Pribadong Paupahang Bahay",
+  "Bahay na inuupahan mula sa landlord (No.9).",
+  "c"
+ ],
+ "pj122": [
+  "Sariling Bahay",
+  "Bahay na binili mo.",
+  "c"
+ ],
+ "pj123": [
+  "Night Junior High School",
+  "Paaralan para sa mga hindi nakatapos ng junior high school o hindi nakapasok nang sapat. Ang makakatapos ay maaaring kumuha ng entrance exam sa high school.",
+  "c"
+ ],
+ "pj124": [
+  "Upa",
+  "Perang ibinabayad buwan-buwan kapag umuupa ng bahay.",
+  "c"
+ ],
+ "pj125": [
+  "Botika / Drugstore",
+  "Tindahang nagbebenta ng gamot.",
+  "c"
+ ],
+ "pj126": [
+  "Kindergarten",
+  "Lugar na pinapasukan ng mga batang 3 taong gulang hanggang bago mag-elementarya. Natututo ang mga bata habang naglalaro.",
+  "c"
+ ],
+ "pj127": [
+  "Bakuna",
+  "Iniksyon para hindi magkasakit.",
+  "c"
+ ],
+ "pj128": [
+  "Ryoiku Techo (Handbook para sa may Intellectual Disability)",
+  "Handbook na natatanggap mula sa munisipyo ng taong may intellectual disability.",
+  "c"
+ ],
+ "pj129": [
+  "Reimbursement ng Gastos sa Pagpapagamot",
+  "Perang maaaring matanggap mula sa health insurance pagkatapos mong bayaran nang buo ang gastos sa ospital.",
+  "c"
+ ],
+ "pj130": [
+  "Key Money (Reikin)",
+  "Perang pasasalamat na ibinabayad ng umuupa kapag napagpasyahan na ang uupahang bahay.",
+  "c"
+ ],
+ "pj131": [
+  "Joint Guarantor (sa Kontrata ng Pag-upa)",
+  "Taong magbabayad ng upa kapalit ng umuupa kapag hindi ito makabayad.",
+  "c"
+ ],
+ "pj132": [
+  "Workers' Accident Compensation Insurance",
+  "Sistemang nangongolekta ng pera mula sa mga kompanya para tulungan ang mga nasaktan o nagkasakit dahil sa trabaho.",
+  "c"
+ ],
+ "pj133": [
+  "Old-age Basic Pension",
+  "Perang maaaring matanggap mula sa National Pension ng mga 65 taong gulang pataas.",
+  "c"
+ ],
+ "pj134": [
+  "Old-age Employees' Pension",
+  "Perang maaaring matanggap mula sa Employees' Pension Insurance ng mga 65 taong gulang pataas.",
+  "c"
+ ],
+ "jl印鑑登録": [
+  "Pagpaparehistro ng Personal na Tatak (Inkan)",
+  "Pagpaparehistro ng personal na tatak (seal).",
+  "c"
+ ],
+ "jl火災保険": [
+  "Fire Insurance",
+  "Insurance laban sa sunog.",
+  "c"
+ ],
+ "jl義務教育": [
+  "Sapilitang Edukasyon",
+  "Edukasyong sapilitan (compulsory education).",
+  "c"
+ ],
+ "jl教育委員会": [
+  "Board of Education",
+  "Lupon ng edukasyon.",
+  "c"
+ ],
+ "jl警察署": [
+  "Istasyon ng Pulis",
+  "Himpilan ng pulisya.",
+  "c"
+ ],
+ "jl契約書": [
+  "Kontrata",
+  "Nakasulat na kasunduan.",
+  "c"
+ ],
+ "jl公共職業安定所": [
+  "Public Employment Security Office (Hello Work)",
+  "Pampublikong tanggapan para sa paghahanap ng trabaho.",
+  "c"
+ ],
+ "jl住民基本台帳": [
+  "Basic Resident Register",
+  "Pangunahing talaan ng mga residente.",
+  "c"
+ ],
+ "jl住民票": [
+  "Certificate of Residence (Juminhyo)",
+  "Talaan ng residente.",
+  "c"
+ ],
+ "jl出入国管理": [
+  "Immigration Control",
+  "Pamamahala sa pagpasok at paglabas ng bansa.",
+  "c"
+ ],
+ "jl職業訓練": [
+  "Vocational Training",
+  "Pagsasanay para sa trabaho.",
+  "c"
+ ],
+ "jl申請書": [
+  "Application Form",
+  "Nakasulat na aplikasyon; form ng aplikasyon.",
+  "c"
+ ],
+ "jl請求書": [
+  "Bill / Invoice",
+  "Nakasulat na paniningil o paghingi ng bayad.",
+  "c"
+ ],
+ "jl世帯主": [
+  "Head of Household",
+  "Puno ng sambahayan.",
+  "c"
+ ],
+ "jl損害賠償": [
+  "Bayad-pinsala (Damages)",
+  "Kabayaran para sa pinsala.",
+  "c"
+ ],
+ "jl損害保険": [
+  "Non-life Insurance",
+  "Insurance para sa pinsala o pagkawala (hindi life insurance).",
+  "c"
+ ],
+ "jl宅地建物取引業": [
+  "Real Estate Brokerage",
+  "Negosyo ng pagbebenta at pagpapaupa ng lupa at gusali.",
+  "c"
+ ],
+ "jl通知書": [
+  "Notice (Abiso)",
+  "Nakasulat na abiso.",
+  "c"
+ ],
+ "jl手数料": [
+  "Fee / Komisyon",
+  "Bayad sa serbisyo; komisyon.",
+  "c"
+ ],
+ "jl登録証": [
+  "Registration Certificate",
+  "Katibayan ng pagpaparehistro.",
+  "c"
+ ],
+ "jl登録証明書": [
+  "Certificate of Registration",
+  "Katibayan ng pagpaparehistro.",
+  "c"
+ ],
+ "jl難民認定": [
+  "Refugee Status Recognition",
+  "Pagkilala bilang refugee.",
+  "c"
+ ],
+ "jl不動産": [
+  "Real Estate (Ari-ariang Di-natitinag)",
+  "Lupa, gusali, at iba pang ari-ariang hindi naililipat.",
+  "c"
+ ],
+ "jl分割払い": [
+  "Hulugan (Installment)",
+  "Pagbabayad nang paunti-unti.",
+  "c"
+ ],
+ "jl保育所": [
+  "Day Care / Nursery",
+  "Lugar na nag-aalaga ng mga bata.",
+  "c"
+ ],
+ "jl保険料": [
+  "Insurance Premium",
+  "Bayad para sa insurance.",
+  "c"
+ ],
+ "jl保護者": [
+  "Magulang o tagapag-alaga",
+  "Magulang o legal na tagapag-alaga ng isang tao, lalo na ng bata.",
+  "c"
+ ],
+ "jl保証人": [
+  "Guarantor",
+  "Taong nangangakong mananagot o magbabayad kung hindi ito magawa ng ibang tao.",
+  "c"
+ ],
+ "jl本人確認": [
+  "Pag-verify ng pagkakakilanlan",
+  "Pagkumpirma na ikaw talaga ang taong sinasabi mo, gamit ang ID at iba pa.",
+  "c"
+ ],
+ "dr生年月日": [
+  "Petsa ng kapanganakan",
+  "Ang taon, buwan, at araw kung kailan ka ipinanganak.",
+  "c"
+ ],
+ "dr受付": [
+  "Reception",
+  "Lugar o taong unang kumakausap sa mga dumarating sa ospital o opisina ng gobyerno.",
+  "c"
+ ],
+ "dr診察券": [
+  "Patient card (card ng ospital)",
+  "Card na ibinibigay ng ospital. Ipakita ito sa reception kapag bumalik ka sa parehong ospital.",
+  "c"
+ ],
+ "dr間取り": [
+  "Floor plan (ayos ng mga kuwarto)",
+  "Kung ilan at anong mga kuwarto ang nasa loob ng bahay. Isinusulat ito na gaya ng \"1K\" o \"1LDK\".",
+  "c"
+ ],
+ "dr1K": [
+  "1K",
+  "Bahay na may isang kuwarto at isang kusina (K).",
+  "c"
+ ],
+ "dr管理費": [
+  "Maintenance fee / bayad sa pamamahala",
+  "Bayad para sa mga bagay na ginagamit ng lahat sa apartment o condominium. Kinokolekta ito sa mga nakatira.",
+  "c"
+ ],
+ "dr敷金": [
+  "Deposito (security deposit)",
+  "Perang iniiwan sa may-ari kapag umupa ng kuwarto. Maaaring ibalik ang natira kapag umalis ka.",
+  "c"
+ ],
+ "dr入居": [
+  "Paglipat (move-in)",
+  "Pagsisimulang tumira sa inupahang kuwarto o bahay.",
+  "c"
+ ],
+ "dr内見": [
+  "Pagtingin sa kuwarto (viewing)",
+  "Pagpunta para makita mismo ang kuwarto bago pumayag na upahan ito.",
+  "c"
+ ],
+ "dr保証会社": [
+  "Guarantor company",
+  "Kompanyang pumapalit sa guarantor kapag umuupa ng kuwarto. Sila ang magbabayad kung hindi mo mabayaran ang upa.",
+  "c"
+ ],
+ "dr在職証明書": [
+  "Certificate of employment",
+  "Papel na nagsasabing nagtatrabaho ka ngayon sa kompanya. Hinihingi ito sa pinagtatrabahuhan mo.",
+  "c"
+ ],
+ "dr緊急連絡先": [
+  "Emergency contact",
+  "Numero ng telepono at iba pa ng taong tatawagan kapag may biglaang problema ka.",
+  "c"
+ ],
+ "dr重要事項説明": [
+  "Paliwanag ng mahahalagang bagay",
+  "Pagpapaliwanag ng mahahalagang bagay bago pumirma ng kontrata sa pag-upa. Makinig nang mabuti at magtanong kung may hindi naiintindihan.",
+  "c"
+ ],
+ "dr転出証明書": [
+  "Certificate of moving out",
+  "Papel na kinukuha sa munisipyo ng dating tinitirhan kapag lumipat. Ibinibigay ito sa munisipyo ng bagong tinitirhan.",
+  "c"
+ ],
+ "dr市民課": [
+  "Citizens' Section",
+  "Bahagi ng city hall kung saan inaasikaso ang mga proseso tulad ng pag-uulat ng address.",
+  "c"
+ ],
+ "dr洗濯機": [
+  "Washing machine",
+  "Makinang panlaba ng damit. Hindi ito maitatapon bilang malaking basura (sodai gomi).",
+  "c"
+ ],
+ "dr持ち込み": [
+  "Pagdadala mismo",
+  "Ikaw mismo ang magdadala ng bagay sa itinakdang lugar.",
+  "c"
+ ],
+ "dr収集日": [
+  "Araw ng koleksyon ng basura",
+  "Araw ng pagkuha ng basura. Ilabas ang basura sa itinakdang lugar sa araw na iyon.",
+  "c"
+ ],
+ "dr開栓": [
+  "Pagbubukas ng gas",
+  "Paghahanda para magamit ang gas. Madalas may taong pupunta sa bahay.",
+  "c"
+ ],
+ "dr立ち会い": [
+  "Pagiging naroroon",
+  "Pagiging naroon habang nagtatrabaho ang tauhan. Ikaw o ang kapalit mo ang maghihintay sa bahay.",
+  "c"
+ ],
+ "dr都市ガス": [
+  "City gas",
+  "Isang uri ng gas na dumarating sa bahay sa pamamagitan ng tubo.",
+  "c"
+ ],
+ "drプロパンガス": [
+  "Propane gas (LPG)",
+  "Isang uri ng gas. Tinatawag din itong LP gas.",
+  "c"
+ ],
+ "drガスコンロ": [
+  "Gas stove",
+  "Gamit sa pagluluto gamit ang apoy ng gas. Kailangang tugma ito sa uri ng gas.",
+  "c"
+ ],
+ "dr口座振替": [
+  "Auto-debit",
+  "Paraan ng awtomatikong pagbabayad mula sa iyong bank account. Kailangang magpasa ng application form.",
+  "c"
+ ],
+ "drお客さまセンター": [
+  "Customer center",
+  "Bahagi ng kompanya na tumatanggap ng tawag at tanong ng mga customer.",
+  "c"
+ ],
+ "drお客さま番号": [
+  "Customer number",
+  "Numerong ibinigay sa iyo ng kompanya. Nakasulat ito sa bill o meter reading slip. Sabihin ito kapag tumawag.",
+  "c"
+ ],
+ "dr検針票": [
+  "Meter reading slip",
+  "Papel na nagsasabi kung gaano karaming gas, kuryente, o tubig ang nagamit.",
+  "c"
+ ],
+ "dr使用期間": [
+  "Panahon ng paggamit",
+  "Mula kailan hanggang kailan ito ginamit.",
+  "c"
+ ],
+ "dr使用量": [
+  "Dami ng nagamit",
+  "Kung gaano karami ang nagamit na gas at iba pa.",
+  "c"
+ ],
+ "dr再発行": [
+  "Muling pag-isyu",
+  "Paggawa at pagbibigay muli ng dokumento at iba pa.",
+  "c"
+ ],
+ "dr在庫": [
+  "Stock",
+  "Mga paninda ng tindahan. Maaaring nasa likod ng tindahan kahit wala sa display.",
+  "c"
+ ],
+ "dr試着": [
+  "Pagsukat ng damit",
+  "Pagsuot ng damit bago bilhin. Magsabi muna sa tindero bago isukat.",
+  "c"
+ ],
+ "drお取り寄せ": [
+  "Pag-order (mula sa ibang tindahan)",
+  "Pagpapadala ng produktong wala sa tindahan mula sa ibang tindahan at iba pa.",
+  "c"
+ ],
+ "dr切らしております": [
+  "Ubos na po",
+  "Magalang na paraan ng pagsasabing wala ngayon ang produkto sa tindahan.",
+  "c"
+ ],
+ "drサービスカウンター": [
+  "Service counter",
+  "Lugar sa tindahan para sa pagsasauli, pagpapalit, at pagtatanong.",
+  "c"
+ ],
+ "dr返品": [
+  "Pagsasauli ng produkto",
+  "Pagbalik ng binili sa tindahan at pagkuha muli ng pera.",
+  "c"
+ ],
+ "dr交換": [
+  "Pagpapalit",
+  "Pagpapalit ng binili sa isa pang kaparehong produkto.",
+  "c"
+ ],
+ "dr粗大ごみ": [
+  "Malaking basura (sodai gomi)",
+  "Malalaking basura tulad ng muwebles. Madalas kailangang mag-apply sa telepono o internet.",
+  "c"
+ ],
+ "dr処理券": [
+  "Disposal sticker",
+  "Sticker na binibili at idinidikit sa malaking basura bago itapon. Madalas nabibili sa convenience store.",
+  "c"
+ ],
+ "dr家電リサイクル": [
+  "Appliance recycling",
+  "Patakaran sa pagtatapon ng aircon, TV, refrigerator, washing machine, at iba pa. Hindi ito maitatapon bilang malaking basura. Ipakisuyo sa tindahang pinagbilhan at iba pa.",
+  "c"
+ ],
+ "dr冷蔵庫": [
+  "Refrigerator",
+  "De-kuryenteng kahon na nagpapalamig ng pagkain at inumin.",
+  "c"
+ ],
+ "dr収集": [
+  "Koleksyon",
+  "Pagkuha at pagdala ng basura.",
+  "c"
+ ],
+ "dr受付センター": [
+  "Reception center",
+  "Lugar na tumatanggap ng aplikasyon sa telepono o internet.",
+  "c"
+ ],
+ "dr予約": [
+  "Reserbasyon",
+  "Pagtakda at paghiling ng araw at oras nang maaga.",
+  "c"
+ ],
+ "dr満席": [
+  "Puno na",
+  "Okupado ang lahat ng upuan at walang bakante.",
+  "c"
+ ],
+ "drコース": [
+  "Course meal",
+  "Set ng pagkain sa restawran na inihahain nang sunud-sunod.",
+  "c"
+ ],
+ "drお席": [
+  "Upuan (magalang)",
+  "Magalang na salita para sa \"upuan\".",
+  "c"
+ ],
+ "dr名様": [
+  "(bilang ng) tao (magalang)",
+  "Magalang na paraan ng pagsabi ng \"~ katao\". Ang \"2名様\" ay \"2 tao\".",
+  "c"
+ ],
+ "drお迎え": [
+  "Sundo",
+  "Pagdating ng sasakyan sa lugar kung nasaan ka.",
+  "c"
+ ],
+ "dr目印": [
+  "Palatandaan (landmark)",
+  "Bagay na madaling makita para malaman ang lugar, tulad ng kalapit na tindahan o gusali.",
+  "c"
+ ],
+ "dr予約料": [
+  "Reservation fee",
+  "Bayad na maaaring singilin kapag nagpareserba ng taxi para sunduin ka.",
+  "c"
+ ],
+ "dr初診": [
+  "Unang konsulta",
+  "Unang pagpapatingin sa doktor sa ospital na iyon.",
+  "c"
+ ],
+ "dr保険証": [
+  "Health insurance card",
+  "Card na nagpapakitang may medical insurance ka. Ipakita ito sa reception ng ospital.",
+  "c"
+ ],
+ "drマイナンバーカード": [
+  "My Number Card",
+  "Card na may sariling numero ng bawat tao. Minsan magagamit ito sa ospital bilang kapalit ng insurance card.",
+  "c"
+ ],
+ "drせき": [
+  "Ubo",
+  "Malakas na paglabas ng hangin mula sa lalamunan. Madalas kapag may sipon.",
+  "c"
+ ],
+ "dr問診票": [
+  "Medical questionnaire",
+  "Papel kung saan isinusulat ang sintomas, kailan nagsimula, at mga gamot na iniinom. Sinusulatan ito bago magpatingin.",
+  "c"
+ ],
+ "dr返金": [
+  "Refund",
+  "Pagbabalik ng tindahan ng perang ibinayad. Kung card ang ginamit, madalas ibinabalik ito sa card.",
+  "c"
+ ],
+ "drレシート": [
+  "Resibo",
+  "Papel mula sa tindahan pagkatapos bumili. Nakasulat ang binili at presyo. Ipakita ito kapag magpapalit.",
+  "c"
+ ],
+ "dr初期不良": [
+  "Depekto mula sa simula",
+  "Sira o hindi gumagana nang maayos ang produkto kahit kabibili pa lang.",
+  "c"
+ ],
+ "drコードレス掃除機": [
+  "Cordless vacuum cleaner",
+  "Vacuum cleaner na walang kordon. Gumagamit ito ng naka-charge na kuryente.",
+  "c"
+ ],
+ "dr取り寄せ": [
+  "Pag-order (mula sa ibang tindahan)",
+  "Pagpapadala ng produktong wala sa tindahan mula sa ibang tindahan o kompanya. Maghihintay hanggang dumating.",
+  "c"
+ ],
+ "dr何名様": [
+  "Ilan po kayo?",
+  "Ibig sabihin ay \"Ilan kayo?\". Sabihin ang bilang ng tao, halimbawa \"3 tao\", o ipakita gamit ang daliri.",
+  "c"
+ ],
+ "dr禁煙席": [
+  "Non-smoking seat",
+  "Upuan kung saan bawal manigarilyo.",
+  "c"
+ ],
+ "dr喫煙席": [
+  "Smoking seat",
+  "Upuan kung saan puwedeng manigarilyo. Hindi puwedeng pumasok ang wala pa sa edad na puwedeng manigarilyo.",
+  "c"
+ ],
+ "dr全席禁煙": [
+  "Bawal manigarilyo sa lahat ng upuan",
+  "Bawal manigarilyo saanmang upuan sa tindahan.",
+  "c"
+ ],
+ "dr喫煙室": [
+  "Smoking room",
+  "Kuwarto para sa paninigarilyo. Minsan dito lang puwedeng manigarilyo sa loob ng tindahan.",
+  "c"
+ ],
+ "drテーブル席": [
+  "Table seat",
+  "Karaniwang upuan na may mesa at silya.",
+  "c"
+ ],
+ "drカウンター席": [
+  "Counter seat",
+  "Upuang magkakatabi sa mahabang counter sa harap ng pinagtatrabahuhan ng staff.",
+  "c"
+ ],
+ "drお子様用のいす": [
+  "Upuan pambata (high chair)",
+  "Espesyal na upuan para sa maliliit na bata.",
+  "c"
+ ],
+ "dr照り焼き": [
+  "Teriyaki",
+  "Pagkaing inihaw na may matamis na sarsa ng toyo, mirin, at iba pa.",
+  "c"
+ ],
+ "dr塩焼き": [
+  "Shioyaki (inihaw na may asin)",
+  "Pagkaing inihaw na may asin. Kadalasang isda.",
+  "c"
+ ],
+ "dr定食": [
+  "Set meal (teishoku)",
+  "Pagkaing naka-set na may kanin, miso soup, ulam, at iba pa.",
+  "c"
+ ],
+ "drみりん": [
+  "Mirin",
+  "Pampalasa na nagpapatamis sa pagkain. May alak ito.",
+  "c"
+ ],
+ "dr料理酒": [
+  "Cooking sake",
+  "Alak na ginagamit para pampalasa sa pagluluto.",
+  "c"
+ ],
+ "drラード": [
+  "Lard (mantika ng baboy)",
+  "Taba ng baboy. Ginagamit sa pagluluto.",
+  "c"
+ ],
+ "drゼラチン": [
+  "Gelatin",
+  "Pampatigas ng jelly at iba pa. Minsan gawa ito mula sa baboy o ibang hayop.",
+  "c"
+ ],
+ "drだし": [
+  "Dashi (sabaw)",
+  "Base ng sabaw na gawa sa pinakuluang isda, kombu, karne, at iba pa. Pampalasa ito sa pagkain.",
+  "c"
+ ],
+ "dr国際交流協会": [
+  "International Association (Samahan para sa Pandaigdigang Pakikipag-ugnayan)",
+  "Organisasyong nag-uugnay sa mga dayuhan at mga tao sa lokal na komunidad. Nagbubukas ito ng mga klase ng wikang Hapon at iba pa.",
+  "c"
+ ],
+ "dr日本語教室": [
+  "Klase ng wikang Hapon",
+  "Klase para mag-aral ng wikang Hapon. Sa mga klase sa komunidad, kadalasang mga boluntaryo ang nagtuturo.",
+  "c"
+ ],
+ "drボランティア": [
+  "Boluntaryo",
+  "Taong tumutulong sa iba nang hindi binabayaran.",
+  "c"
+ ],
+ "dr見学": [
+  "Pagmamasid (bago sumali)",
+  "Pagpunta para tingnan ang klase o lugar bago sumali.",
+  "c"
+ ],
+ "dr教材費": [
+  "Bayad sa materyales sa pag-aaral",
+  "Bayad para sa libro (textbook) at iba pang gamit sa pag-aaral.",
+  "c"
+ ],
+ "dr空き待ち": [
+  "Waiting list (paghihintay ng bakante)",
+  "Paghihintay hanggang may bakante kapag puno na ang klase o iba pa.",
+  "c"
+ ],
+ "dr試験対策": [
+  "Paghahanda para sa pagsusulit",
+  "Pag-aaral para makapasa sa pagsusulit.",
+  "c"
+ ],
+ "drチラシ": [
+  "Flyer",
+  "Isang pirasong papel na may anunsyo o patalastas.",
+  "c"
+ ],
+ "dr申し込み": [
+  "Pag-apply / Pagpaparehistro",
+  "Pagsasabi sa kabilang panig na gusto mong sumali o gumamit ng isang bagay.",
+  "c"
+ ],
+ "dr面談": [
+  "Interview / Pakikipag-usap nang harapan",
+  "Pakikipagkita at pakikipag-usap sa isang tao.",
+  "c"
+ ],
+ "dr集会室": [
+  "Meeting room",
+  "Silid kung saan nagtitipon ang mga tao para mag-usap o gumawa ng aktibidad.",
+  "c"
+ ],
+ "dr調理室": [
+  "Silid-lutuan (cooking room)",
+  "Silid para magluto.",
+  "c"
+ ],
+ "dr長机": [
+  "Mahabang mesa",
+  "Mesang mahaba nang pahalang. Ginagamit ito ng ilang tao nang magkakatabi.",
+  "c"
+ ],
+ "dr利用者登録": [
+  "Rehistrasyon ng gagamit",
+  "Pagbibigay muna ng pangalan at iba pang impormasyon ng taong gagamit ng pasilidad. Sa ilang lugar, kailangan ito bago magpareserba ng silid.",
+  "c"
+ ],
+ "dr団体登録": [
+  "Rehistrasyon ng grupo",
+  "Pagpaparehistro muna ng impormasyon ng grupo para magamit ng grupo ang pasilidad.",
+  "c"
+ ],
+ "dr飲食": [
+  "Pagkain at pag-inom",
+  "Pagkain at pag-inom.",
+  "c"
+ ],
+ "dr持ち寄り": [
+  "Potluck",
+  "Pagdadala ng bawat isa ng kaunting pagkain o iba pa para pagsama-samahin.",
+  "c"
+ ],
+ "dr利用者カード": [
+  "Library card",
+  "Kard na ginagamit sa paghiram ng libro at iba pa sa aklatan.",
+  "c"
+ ],
+ "dr貸出": [
+  "Pagpapahiram (ng libro)",
+  "Pagpapahiram ng libro at iba pa. Salitang ginagamit kapag humihiram ng libro sa aklatan.",
+  "c"
+ ],
+ "dr返却": [
+  "Pagsasauli",
+  "Pagbabalik ng hiniram na bagay.",
+  "c"
+ ],
+ "dr返却期限": [
+  "Due date (huling araw ng pagsasauli)",
+  "Ang huling araw kung kailan dapat isauli ang hiniram na bagay.",
+  "c"
+ ],
+ "dr返却ポスト": [
+  "Book drop (kahon ng pagsasauli)",
+  "Kahon para isauli ang hiniram na libro. Kadalasang magagamit ito kahit sarado ang aklatan.",
+  "c"
+ ],
+ "dr延長": [
+  "Extension / Pagpapahaba",
+  "Pagpapahaba ng itinakdang oras o araw. Sa aklatan, ito ang paglilipat ng araw ng pagsasauli sa mas huli.",
+  "c"
+ ],
+ "dr館内閲覧": [
+  "Pagbasa sa loob lamang ng aklatan",
+  "Hindi ito maiuuwi; mababasa lamang sa loob ng aklatan.",
+  "c"
+ ],
+ "dr最新号": [
+  "Pinakabagong isyu",
+  "Ang pinakabagong labas ng magasin at iba pa.",
+  "c"
+ ],
+ "dr速達": [
+  "Express mail (Sokutatsu)",
+  "Serbisyo ng koreo para mas mabilis na maihatid ang sulat. Mas mahal ito kaysa sa karaniwang koreo.",
+  "c"
+ ],
+ "dr書留": [
+  "Registered mail (Kakitome)",
+  "Serbisyo ng koreo na may tala ng pagpapadala. Mas mahal ito kaysa sa karaniwang koreo.",
+  "c"
+ ],
+ "dr小包": [
+  "Parsela",
+  "Pakete na ipinapadala sa koreo.",
+  "c"
+ ],
+ "dr国際郵便": [
+  "International mail",
+  "Koreong ipinapadala sa ibang bansa o dumarating mula sa ibang bansa.",
+  "c"
+ ],
+ "dr不在連絡票": [
+  "Notice of attempted delivery (abiso ng hindi naihatid)",
+  "Papel na iniiwan kapag wala ka sa bahay at hindi naibigay ang padala. Gamitin ito para humiling ng muling paghahatid.",
+  "c"
+ ],
+ "dr再配達": [
+  "Muling paghahatid (redelivery)",
+  "Pagpapahatid muli ng sulat o padalang hindi naibigay.",
+  "c"
+ ],
+ "dr席を外しております": [
+  "Wala po siya sa kanyang puwesto ngayon",
+  "Ibig sabihin, wala ngayon sa kanyang upuan ang taong iyon. Maghintay nang kaunti o tumawag ulit mamaya.",
+  "c"
+ ],
+ "drあいにく": [
+  "Sa kasamaang-palad",
+  "Ibig sabihin ay \"Nakalulungkot pero...\". Kasunod nito ang hindi puwede o hindi magagawa.",
+  "c"
+ ],
+ "dr申し訳ございません": [
+  "Paumanhin po / Patawad po",
+  "Magalang na paraan ng pagsasabi ng \"pasensya na\" o \"sorry\".",
+  "c"
+ ],
+ "drお手数ですが": [
+  "Pasensya na sa abala, pero...",
+  "Ibig sabihin ay \"Abala man, pakiusap po.\" Kasunod nito ang gusto nilang gawin mo.",
+  "c"
+ ],
+ "dr差し支えなければ": [
+  "Kung hindi po kayo tututol",
+  "Ibig sabihin ay \"Kung ayos lang sa iyo.\" Kung ayaw mo, hindi mo kailangang sabihin.",
+  "c"
+ ],
+ "drご用件": [
+  "Pakay / Layunin",
+  "Ang dahilan ng iyong pagtawag o pagpunta. Sabihin nang maikli ang iyong pakay.",
+  "c"
+ ],
+ "dr念のため": [
+  "Para makasiguro",
+  "Ibig sabihin ay \"isa pang beses para walang pagkakamali.\"",
+  "c"
+ ],
+ "drよろしいでしょうか": [
+  "Ayos lang po ba?",
+  "Magalang na paraan ng pagsasabi ng \"Puwede ba?\". Kung ayos lang, sumagot ng \"Opo\".",
+  "c"
+ ],
+ "drお伺いします": [
+  "Magtatanong po ako / Pupunta po ako",
+  "Magalang na paraan ng pagsasabi ng \"magtatanong\" o \"pupunta\".",
+  "c"
+ ],
+ "dr失礼いたします": [
+  "Paalam po / Makikiraan po",
+  "Magalang na pagbati. Sinasabi ito kapag ibababa ang telepono o papasok sa silid, at iba pa.",
+  "c"
+ ],
+ "drお越しください": [
+  "Pumunta po kayo",
+  "Magalang na paraan ng pagsasabi ng \"Pumunta ka.\"",
+  "c"
+ ],
+ "drお持ちください": [
+  "Pakidala po",
+  "Magalang na paraan ng pagsasabi ng \"Dalhin mo.\"",
+  "c"
+ ],
+ "drご記入ください": [
+  "Pakisulat po",
+  "Magalang na paraan ng pagsasabi ng \"Isulat mo sa papel.\"",
+  "c"
+ ],
+ "drご本人様": [
+  "Mismong tao (ang tao mismo)",
+  "Ang tao mismo. Ibig sabihin, siya mismo ang pupunta o makikipag-usap, hindi ang pamilya o iba.",
+  "c"
+ ],
+ "drフルネーム": [
+  "Buong pangalan",
+  "Ang buong apelyido at pangalan.",
+  "c"
+ ],
+ "dr日中つながる": [
+  "Makokontak sa araw",
+  "Ibig sabihin, nasasagot mo ang telepono sa araw. Ibigay ang numerong masasagot mo sa araw.",
+  "c"
+ ],
+ "drご連絡先": [
+  "Contact information",
+  "Numero ng telepono, email address, at iba pa para makontak ka.",
+  "c"
+ ],
+ "drお手元": [
+  "Hawak ninyo / Nasa malapit ninyo",
+  "Bagay na nasa malapit mo o hawak mo ngayon.",
+  "c"
+ ],
+ "dr控え": [
+  "Kopya (para sa iyo)",
+  "Papel na may kaparehong nilalaman ng isinumiteng dokumento. Itago mo ito.",
+  "c"
+ ],
+ "dr窓口": [
+  "Counter / Window",
+  "Lugar sa munisipyo, kompanya, at iba pa kung saan kumokonsulta o nag-aasikaso ng papeles.",
+  "c"
+ ],
+ "dr担当の者": [
+  "Taong namamahala (in-charge)",
+  "Ang taong gumagawa ng trabahong iyon. Siya ang makikipag-usap sa iyo.",
+  "c"
+ ],
+ "drお預かりします": [
+  "Tatanggapin ko po muna",
+  "Ibig sabihin ay \"Tatanggapin ko muna sandali.\" Ibigay mo ang dokumento, pera, o iba pa.",
+  "c"
+ ],
+ "dr写し": [
+  "Kopya (photocopy)",
+  "Kinopyang bersyon ng dokumento.",
+  "c"
+ ],
+ "dr原本": [
+  "Orihinal (na dokumento)",
+  "Ang tunay at orihinal na dokumento, hindi kopya.",
+  "c"
+ ],
+ "dr最短": [
+  "Pinakamabilis / Pinakamaikli",
+  "Ibig sabihin ay sa pinakamabilis o pinakamaikling kaso.",
+  "c"
+ ],
+ "dr空き": [
+  "Bakante",
+  "May lugar o puwesto pa sa reserbasyon o lugar.",
+  "c"
+ ],
+ "drお申し込み": [
+  "Aplikasyon",
+  "Paghiling at pag-aasikaso ng papeles para magamit ang isang serbisyo o iba pa.",
+  "c"
+ ],
+ "dr三者面談": [
+  "Three-way conference (guro, magulang, at anak)",
+  "Usapan ng adviser, magulang, at anak. Sa ika-3 taon ng junior high, pinag-uusapan ang susunod na paaralan o landas.",
+  "c"
+ ],
+ "dr担任": [
+  "Adviser ng klase",
+  "Ang gurong namamahala sa isang klase.",
+  "c"
+ ],
+ "dr通訳": [
+  "Interpretasyon / Interpreter",
+  "Pagsasalin ng sinasabi sa pagitan ng mga taong magkaiba ang wika. Tinatawag din ganito ang taong gumagawa nito.",
+  "c"
+ ],
+ "dr高校進学": [
+  "Pagpasok sa high school",
+  "Pagpasok sa high school pagkatapos ng junior high. Kadalasan, may entrance exam.",
+  "c"
+ ],
+ "dr放課後": [
+  "Pagkatapos ng klase",
+  "Ang oras pagkatapos ng lahat ng klase sa paaralan.",
+  "c"
+ ],
+ "dr折り返し": [
+  "Pagtawag pabalik (callback)",
+  "Tatawag ulit sa iyo ang kausap mamaya. Ibaba ang telepono at maghintay.",
+  "c"
+ ],
+ "dr特別支援学級": [
+  "Special needs class",
+  "Klase sa loob ng elementary o junior high para sa mga batang kailangan ng espesyal na tulong sa katawan, isip, o pag-aaral.",
+  "c"
+ ],
+ "dr特別支援学校": [
+  "Special needs school",
+  "Paaralan para sa mga batang kailangan ng espesyal na tulong sa katawan, isip, o pag-aaral.",
+  "c"
+ ],
+ "dr通級による指導": [
+  "Resource room instruction",
+  "Nag-aaral sa karaniwang klase, pero may ilang oras na hiwalay na espesyal na pagtuturo.",
+  "c"
+ ],
+ "dr特別支援教育コーディネーター": [
+  "Special needs education coordinator",
+  "Guro sa paaralan na tumatanggap ng konsultasyon tungkol sa batang kailangan ng espesyal na tulong at nag-uugnay sa mga guro at magulang.",
+  "c"
+ ],
+ "dr求職申込み": [
+  "Pagpaparehistro bilang naghahanap ng trabaho",
+  "Pagpaparehistro sa Hello Work (Public Employment Security Office) para maghanap ng trabaho. Kadalasan, ito ang unang gagawin.",
+  "c"
+ ],
+ "dr求人票": [
+  "Job posting / Job offer sheet",
+  "Papel ng kumpanya na nakasulat ang trabaho, oras, sahod, at iba pa kapag naghahanap sila ng manggagawa.",
+  "c"
+ ],
+ "dr紹介状": [
+  "Referral letter",
+  "Papel mula sa opisina na nagpapakilala sa iyo sa kumpanya. May mga trabahong kailangan muna ito bago mag-apply.",
+  "c"
+ ],
+ "dr就職説明会": [
+  "Job briefing / Job fair",
+  "Pagtitipon kung saan ipinapaliwanag ng kumpanya ang trabaho sa mga naghahanap ng trabaho.",
+  "c"
+ ],
+ "dr履歴書": [
+  "Resume (rirekisho)",
+  "Papel na sinusulatan ng pangalan, tirahan, pinag-aralan, at karanasan sa trabaho. Ibinibigay kapag nag-a-apply.",
+  "c"
+ ],
+ "dr職業相談": [
+  "Konsultasyon sa trabaho",
+  "Pagkonsulta sa staff tungkol sa paghahanap ng trabaho. Libre ito.",
+  "c"
+ ],
+ "drパート": [
+  "Part-time (paato)",
+  "Trabahong mas maikli ang oras kaysa regular na empleyado. Kadalasan, bayad kada oras.",
+  "c"
+ ],
+ "drアルバイト": [
+  "Part-time job (arubaito)",
+  "Trabaho sa maikling oras o maikling panahon. Kadalasan, bayad kada oras.",
+  "c"
+ ],
+ "dr派遣": [
+  "Dispatch work (haken)",
+  "May kontrata sa dispatch agency at pumupunta sa ibang kumpanya para magtrabaho.",
+  "c"
+ ],
+ "dr求人": [
+  "Job opening / Paghahanap ng tauhan",
+  "Paghahanap ng kumpanya ng mga magtatrabaho.",
+  "c"
+ ],
+ "dr時給": [
+  "Sahod kada oras",
+  "Perang natatanggap sa isang oras na trabaho.",
+  "c"
+ ],
+ "dr営業部": [
+  "Sales Department",
+  "Grupo sa kumpanya na nagbebenta ng produkto o serbisyo.",
+  "c"
+ ],
+ "dr人身事故": [
+  "Aksidenteng may nasaktang tao",
+  "Aksidente kung saan nabangga ng tren ang tao at nasaktan o namatay. Humihinto o naaantala ang tren.",
+  "c"
+ ],
+ "dr運転見合わせ": [
+  "Pansamantalang paghinto ng biyahe",
+  "Hindi muna tumatakbo ang tren o bus nang ilang panahon.",
+  "c"
+ ],
+ "dr遅延証明書": [
+  "Delay certificate",
+  "Papel na nagsasabing naantala ang tren. Kadalasan, makukuha sa istasyon o sa website ng kumpanya ng tren.",
+  "c"
+ ],
+ "dr出社": [
+  "Pagpasok sa opisina",
+  "Pagpunta sa kumpanya para magtrabaho.",
+  "c"
+ ],
+ "dr総務部": [
+  "General Affairs Department",
+  "Grupo sa kumpanya na humahawak ng pangkalahatang gawain tulad ng dokumento, gusali, at mga empleyado.",
+  "c"
+ ],
+ "dr内線": [
+  "Extension line (internal phone)",
+  "Teleponong ginagamit lang sa loob ng kumpanya o gusali.",
+  "c"
+ ],
+ "dr席を外しています": [
+  "Wala po siya sa kanyang mesa",
+  "Wala ngayon ang tao malapit sa kanyang mesa. Sandali lang siyang wala.",
+  "c"
+ ],
+ "dr会議中": [
+  "Nasa meeting",
+  "Nasa meeting ngayon kaya hindi makasagot ng telepono.",
+  "c"
+ ],
+ "dr戻る": [
+  "Bumalik",
+  "Pagbalik sa dating lugar.",
+  "c"
+ ],
+ "drかけ直す": [
+  "Tumawag ulit",
+  "Ibaba muna ang telepono at tumawag ulit mamaya.",
+  "c"
+ ],
+ "drお疲れさまです": [
+  "Otsukaresama desu (pagbati sa kapwa empleyado)",
+  "Pagbating ginagamit ng magkakatrabaho. Sa internal na tawag, kadalasan sinasabi ang pangalan pagkatapos nito.",
+  "c"
+ ],
+ "dr納品": [
+  "Delivery ng order",
+  "Paghahatid ng inorder na produkto sa kliyente.",
+  "c"
+ ],
+ "dr注文書": [
+  "Purchase order",
+  "Papel na nakasulat kung ano at ilan ang gustong bilhin.",
+  "c"
+ ],
+ "dr出荷": [
+  "Shipment / Pagpapadala",
+  "Paglabas ng produkto mula sa kumpanya o bodega para ipadala sa customer.",
+  "c"
+ ],
+ "dr数量": [
+  "Dami / Quantity",
+  "Bilang o dami ng isang bagay.",
+  "c"
+ ],
+ "dr先方": [
+  "Kabilang panig (kliyente)",
+  "Ang kausap na tao o ang kabilang kumpanya.",
+  "c"
+ ],
+ "dr経緯": [
+  "Mga pangyayari / Background",
+  "Paano nangyari ang isang bagay at ano ang kinahinatnan nito.",
+  "c"
+ ],
+ "dr光回線": [
+  "Fiber optic internet",
+  "Mabilis na linya para sa internet sa bahay. Kadalasan, kailangan ng installation.",
+  "c"
+ ],
+ "drプロバイダー": [
+  "Internet provider (ISP)",
+  "Kumpanyang nagbibigay ng serbisyo para makakonekta sa internet. Minsan, hiwalay ang kontrata sa kumpanya ng linya.",
+  "c"
+ ],
+ "dr開通工事": [
+  "Internet installation",
+  "Pagkakabit ng linya sa bahay para magamit ang internet. Kadalasan, kailangan nasa bahay ka.",
+  "c"
+ ],
+ "dr解約金": [
+  "Cancellation fee",
+  "Perang babayaran kapag itinigil ang kontrata bago matapos ang napagkasunduang panahon.",
+  "c"
+ ],
+ "drホームルーター": [
+  "Home router",
+  "Makinang isasaksak lang sa saksakan sa bahay para magamit ang internet.",
+  "c"
+ ],
+ "drプラン": [
+  "Plan",
+  "Kombinasyon ng bayad at mga serbisyong magagamit.",
+  "c"
+ ],
+ "drデータ容量": [
+  "Data allowance",
+  "Dami ng internet na magagamit sa smartphone sa isang buwan.",
+  "c"
+ ],
+ "drかけ放題": [
+  "Unlimited calls",
+  "Serbisyo kung saan pareho ang bayad kahit marami kang tawag, basta nagbabayad ng takdang halaga.",
+  "c"
+ ],
+ "drオプション": [
+  "Option / Add-on",
+  "Ibang serbisyong maidaragdag sa plan. Kadalasan, may bayad na pagkatapos ng libreng panahon.",
+  "c"
+ ],
+ "dr補償サービス": [
+  "Device protection service",
+  "Serbisyong tumutulong kapag nasira o nawala ang smartphone.",
+  "c"
+ ],
+ "dr本人確認書類": [
+  "ID / Dokumento ng pagkakakilanlan",
+  "Card o dokumentong nagpapakita kung sino ka. Kadalasan, Residence Card ang ipinapakita ng mga dayuhan.",
+  "c"
+ ],
+ "dr担当": [
+  "Taong namamahala (in charge)",
+  "Ang taong gumagawa ng partikular na trabaho.",
+  "c"
+ ],
+ "dr伝言": [
+  "Mensahe",
+  "Pagpapaabot ng sasabihin sa taong wala. Sabihin nang maikli ang pangalan, numero ng telepono, at pakay.",
+  "c"
+ ],
+ "dr承ります": [
+  "Tatanggapin ko po",
+  "Magalang na paraan ng \"makikinig\" o \"tatanggapin\". Sabihin ang gusto mong iparating.",
+  "c"
+ ],
+ "dr外出": [
+  "Nasa labas",
+  "Lumabas para sa trabaho o iba pa, kaya wala ngayon.",
+  "c"
+ ],
+ "dr席を外して": [
+  "Wala sa kanyang mesa",
+  "Sandaling wala ang tao sa malapit. Mag-iwan ng mensahe o tumawag ulit mamaya.",
+  "c"
+ ],
+ "dr復唱": [
+  "Pag-uulit para kumpirmahin",
+  "Pag-ulit ng narinig para tiyakin. Makinig nang mabuti kung may mali.",
+  "c"
+ ],
+ "dr少々お待ちください": [
+  "Sandali lang po",
+  "Ibig sabihin ay \"maghintay sandali\". Huwag ibaba ang telepono.",
+  "c"
+ ],
+ "drお待たせいたしました": [
+  "Pasensya na po sa paghihintay",
+  "Ibig sabihin ay \"sorry at pinaghintay kita\". Magpapatuloy ang usapan.",
+  "c"
+ ],
+ "dr恐れ入りますが": [
+  "Paumanhin po, pero...",
+  "Ibig sabihin ay \"pasensya na, pero\". Susunod ang pakiusap o tanong.",
+  "c"
+ ],
+ "drかしこまりました": [
+  "Opo, naiintindihan ko",
+  "Magalang na paraan ng \"naintindihan ko\".",
+  "c"
+ ],
+ "dr承知いたしました": [
+  "Opo, naiintindihan ko po",
+  "Magalang na paraan ng \"naintindihan ko\".",
+  "c"
+ ],
+ "drお掛け直しください": [
+  "Pakitawag po ulit",
+  "Ibig sabihin ay \"tumawag ulit\". Ibaba ang telepono at tumawag ulit mamaya.",
+  "c"
+ ],
+ "dr在学証明書": [
+  "Certificate of enrollment",
+  "Papel mula sa paaralan na nagpapatunay na estudyante ka roon.",
+  "c"
+ ],
+ "dr転入学通知書": [
+  "Notice of school transfer",
+  "Papel na nagsasabing papasok ka sa bagong paaralan. Kunin sa munisipyo (Board of Education) at ibigay sa bagong paaralan.",
+  "c"
+ ],
+ "dr総合案内": [
+  "Information desk",
+  "Reception malapit sa pasukan ng munisipyo. Sasabihin nila kung saang counter ka pupunta.",
+  "c"
+ ],
+ "dr転入": [
+  "Paglipat papasok (moving in)",
+  "Paglipat mula sa ibang lungsod o bayan. Magpasa ng abiso sa munisipyo sa loob ng takdang panahon.",
+  "c"
+ ],
+ "dr保険年金課": [
+  "Insurance and Pension Division",
+  "Seksyon sa munisipyo para sa National Health Insurance at National Pension. Iba-iba ang pangalan depende sa lugar.",
+  "c"
+ ],
+ "dr番号札": [
+  "Numbered ticket",
+  "Papel na may numero. Kunin sa counter at maghintay hanggang tawagin ang numero mo.",
+  "c"
+ ],
+ "dr納付書": [
+  "Payment slip",
+  "Papel para magbayad ng buwis o insurance. Puwedeng magbayad sa bangko, munisipyo, o convenience store.",
+  "c"
+ ],
+ "dr普通徴収": [
+  "Ordinary collection (direktang pagbabayad)",
+  "Paraan ng pagbabayad ng residence tax gamit ang payment slip, hindi kinakaltas sa sahod.",
+  "c"
+ ],
+ "dr届出印": [
+  "Registered seal",
+  "Ang hanko (selyo) na inirehistro mo noong nagbukas ng bank account.",
+  "c"
+ ],
+ "dr税務課": [
+  "Taxation Division",
+  "Seksyon sa munisipyo na humahawak ng buwis.",
+  "c"
+ ],
+ "dr柴犬": [
+  "Shiba Inu",
+  "Isang lahi ng asong Hapon.",
+  "c"
+ ],
+ "dr環境衛生課": [
+  "Environmental Sanitation Division",
+  "Isang seksyon sa munisipyo. Humahawak ng pagpaparehistro ng aso at iba pa.",
+  "c"
+ ],
+ "dr犬の登録": [
+  "Pagpaparehistro ng aso",
+  "Pag-abiso sa lungsod o bayan kapag nagsimulang mag-alaga ng aso. Itinakda ng batas, karaniwang isang beses lang sa buhay ng aso.",
+  "c"
+ ],
+ "dr狂犬病": [
+  "Rabies",
+  "Napakadelikadong sakit na nakukuha sa aso at iba pa. Binabakunahan ang aso taon-taon.",
+  "c"
+ ],
+ "dr予防注射": [
+  "Bakuna",
+  "Iniksyon para hindi magkasakit. Taon-taon binabakunahan ang aso laban sa rabies.",
+  "c"
+ ],
+ "dr注射済証": [
+  "Rabies vaccination tag",
+  "Patunay na nabakunahan ang aso laban sa rabies. Ikinakabit sa aso.",
+  "c"
+ ],
+ "dr鑑札": [
+  "Dog license tag",
+  "Tag na natatanggap kapag nairehistro ang aso. Ikinakabit sa aso.",
+  "c"
+ ],
+ "dr資格喪失証明書": [
+  "Certificate of loss of health insurance",
+  "Dokumentong nagpapakita ng petsa ng pagtigil sa health insurance ng dating kumpanya.",
+  "c"
+ ],
+ "drハラール": [
+  "Halal",
+  "Pagkaing pinapayagang kainin ayon sa mga patakaran ng Islam.",
+  "c"
+ ],
+ "dr揚げ油": [
+  "Mantika sa pagprito",
+  "Mantikang ginagamit sa pagluluto sa maraming mantika, gaya ng tempura. Maraming tindahan ang gumagamit ng parehong mantika para sa ibang pagkain.",
+  "c"
+ ],
+ "dr染み抜き": [
+  "Pagtanggal ng mantsa",
+  "Pagtanggal ng dumi (mantsa) sa damit. Kadalasan ay may dagdag na bayad bukod sa karaniwang singil.",
+  "c"
+ ],
+ "drデラックス": [
+  "Deluxe",
+  "Kursong mas maingat ang pagtatapos kaysa karaniwan. Kadalasan ay may dagdag na bayad bukod sa karaniwang singil.",
+  "c"
+ ],
+ "dr仕上がり": [
+  "Pagkatapos ng labada",
+  "Kapag tapos na ang dry cleaning at handa na ang damit. Ang \"araw ng pagkatapos\" ay ang araw na puwede mo nang kunin ang damit.",
+  "c"
+ ],
+ "drワイシャツ": [
+  "Polo / dress shirt",
+  "Shirt na may kuwelyo at butones na isinusuot sa trabaho at iba pa.",
+  "c"
+ ],
+ "drハンガー仕上げ": [
+  "Nakasabit sa hanger",
+  "Ibinabalik ang nalabhang damit na nakasabit sa hanger.",
+  "c"
+ ],
+ "drたたみ仕上げ": [
+  "Nakatiklop",
+  "Ibinabalik ang nalabhang damit na nakatiklop.",
+  "c"
+ ],
+ "dr引換券": [
+  "Claim ticket",
+  "Papel na ipinapakita kapag kukunin ang iniwang damit. Huwag itong iwala.",
+  "c"
+ ],
+ "dr会員カード": [
+  "Membership card",
+  "Card ng mga miyembro ng tindahan. Minsan ginagamit ito para sa points o diskwento.",
+  "c"
+ ],
+ "dr海外送金": [
+  "Pagpapadala ng pera sa ibang bansa",
+  "Pagpapadala ng pera sa tao o bangko sa ibang bansa.",
+  "c"
+ ],
+ "dr外国送金依頼書": [
+  "Form para sa padala sa ibang bansa",
+  "Papel na ibinibigay sa bangko kapag magpapadala ng pera sa ibang bansa. Isinusulat dito ang pangalan ng tatanggap, bangko, at iba pa.",
+  "c"
+ ],
+ "drSWIFTコード": [
+  "SWIFT code",
+  "Code ng bawat bangko na ginagamit sa pagpapadala ng pera sa ibang bansa. Mabuting itanong muna ito sa pamilya.",
+  "c"
+ ],
+ "drマイナンバー": [
+  "My Number (Individual Number)",
+  "Numerong ibinibigay sa bawat taong nakatira sa Japan. Ginagamit sa mga proseso gaya ng buwis.",
+  "c"
+ ],
+ "dr中継銀行": [
+  "Intermediary bank",
+  "Bangkong namamagitan kapag nagpapadala ng pera sa ibang bansa. Minsan may singil ito.",
+  "c"
+ ],
+ "dr受取人": [
+  "Tatanggap (recipient)",
+  "Ang taong tatanggap ng pera o bagay.",
+  "c"
+ ],
+ "dr特急": [
+  "Limited express",
+  "Napakabilis na tren. May mga istasyong hindi nito hinihintuan. Kadalasan ay kailangan ng limited express ticket bukod sa pamasahe.",
+  "c"
+ ],
+ "dr快速": [
+  "Rapid",
+  "Treng mas mabilis kaysa karaniwang tren. May mga istasyong hindi nito hinihintuan.",
+  "c"
+ ],
+ "dr乗車券": [
+  "Tiket sa pagsakay",
+  "Tiket para makasakay sa tren.",
+  "c"
+ ],
+ "dr特急券": [
+  "Limited express ticket",
+  "Tiket na binibili bukod sa tiket sa pagsakay kapag sasakay sa limited express.",
+  "c"
+ ],
+ "dr指定席": [
+  "Reserved seat",
+  "Upuang nakatakda na. Nakasulat sa tiket ang numero ng upuan.",
+  "c"
+ ],
+ "dr自由席": [
+  "Non-reserved seat",
+  "Walang nakatakdang upuan. Puwedeng umupo sa anumang bakanteng upuan.",
+  "c"
+ ],
+ "dr乗り換え": [
+  "Paglipat (transfer)",
+  "Paglipat sa ibang tren sa gitna ng biyahe. Sa cellphone, tumutukoy din ito sa paglipat sa ibang kompanya.",
+  "c"
+ ],
+ "dr振替輸送": [
+  "Alternatibong transportasyon",
+  "Kapag huminto ang tren, puwedeng sumakay sa ibang tren o bus para makarating.",
+  "c"
+ ],
+ "drフロント": [
+  "Front desk",
+  "Ang reception ng hotel.",
+  "c"
+ ],
+ "dr手配": [
+  "Pag-aayos / pag-arrange",
+  "Paghahanda ng kailangan. Ang pag-arrange ng taxi ay ang pagtawag ng taxi.",
+  "c"
+ ],
+ "dr正面玄関": [
+  "Main entrance",
+  "Ang pinakamalaking pasukan sa harap ng gusali.",
+  "c"
+ ],
+ "dr迎車": [
+  "Pagsundo ng taxi",
+  "Pagpunta ng taxi sa lugar ng pasahero para sunduin siya. Minsan may dagdag na bayad para dito.",
+  "c"
+ ],
+ "drワゴン": [
+  "Van / wagon",
+  "Malaking sasakyan na maraming taong o gamit ang kasya.",
+  "c"
+ ],
+ "drクレジットカード": [
+  "Credit card",
+  "Card na puwedeng gamitin para bayaran nang sabay-sabay mamaya. Depende sa lugar kung puwede itong gamitin.",
+  "c"
+ ],
+ "dr運転免許更新センター": [
+  "Driver's License Renewal Center",
+  "Lugar kung saan nire-renew ang driver's license.",
+  "c"
+ ],
+ "dr更新のお知らせ": [
+  "Abiso ng renewal",
+  "Postcard na nagsasabing malapit nang mag-expire ang lisensya. Pagdating nito, mag-renew sa nakatakdang panahon.",
+  "c"
+ ],
+ "dr有効期限": [
+  "Expiration date",
+  "Huling araw na puwedeng gamitin. Pagkalipas nito, hindi na ito magagamit.",
+  "c"
+ ],
+ "dr講習区分": [
+  "Uri ng lecture",
+  "Uri ng lecture na dadaluhan sa pag-renew ng lisensya. Iba-iba ang oras at bayad depende sa uri.",
+  "c"
+ ],
+ "dr優良運転者講習": [
+  "Lecture para sa mahusay na driver",
+  "Lecture para sa ligtas na driver na walang aksidente o paglabag sa batas-trapiko.",
+  "c"
+ ],
+ "dr一般講習": [
+  "General lecture",
+  "Karaniwang lecture sa pag-renew ng lisensya. Para sa mga hindi mahusay na driver at iba pa.",
+  "c"
+ ],
+ "dr適性検査": [
+  "Aptitude test",
+  "Pagsusuri kung puwede kang magmaneho, gaya ng paningin. Dalhin ang salamin kung gumagamit nito.",
+  "c"
+ ],
+ "dr住民票の写し": [
+  "Kopya ng Certificate of Residence",
+  "Papel na may nakasulat na address, pangalan, at iba pa. Makukuha sa munisipyo ng lugar na tinitirhan.",
+  "c"
+ ],
+ "drAT限定": [
+  "AT lamang (Automatic lamang)",
+  "Lisensya para sa automatic na sasakyan lamang. Hindi puwedeng magmaneho ng manual.",
+  "c"
+ ],
+ "drマニュアル": [
+  "Manual",
+  "Sasakyang ikaw mismo ang nagpapalit ng gear. Kung gusto mo itong imaneho, kumuha ng lisensyang hindi AT lamang.",
+  "c"
+ ],
+ "dr普通車": [
+  "Ordinaryong sasakyan",
+  "Sasakyang karaniwang laki. Puwedeng imaneho gamit ang ordinaryong lisensya.",
+  "c"
+ ],
+ "dr教習": [
+  "Driving lesson",
+  "Pag-aaral magmaneho sa driving school.",
+  "c"
+ ],
+ "dr短期プラン": [
+  "Short-term plan",
+  "Kursong tuloy-tuloy na pag-aaral para matapos sa maikling panahon.",
+  "c"
+ ],
+ "dr送迎バス": [
+  "Shuttle bus",
+  "Bus na naghahatid at nagsusundo ng tao mula sa istasyon at iba pa papunta sa driving school.",
+  "c"
+ ],
+ "dr技能検定": [
+  "Skills test",
+  "Pagsusulit sa driving school kung tama ang pagmamaneho mo.",
+  "c"
+ ],
+ "dr任意保険": [
+  "Voluntary car insurance",
+  "Car insurance na ikaw ang pumipili ng kompanya at nilalaman. Tumutulong ito sa hindi sakop ng compulsory insurance (jibaiseki).",
+  "c"
+ ],
+ "dr型式": [
+  "Model code",
+  "Code o numerong nagpapakita ng uri ng sasakyan. Nakasulat sa vehicle inspection certificate.",
+  "c"
+ ],
+ "dr登録番号": [
+  "Registration number",
+  "Numerong nakasulat sa plaka ng sasakyan.",
+  "c"
+ ],
+ "dr納車": [
+  "Delivery ng sasakyan",
+  "Pagtanggap ng biniling sasakyan mula sa tindahan.",
+  "c"
+ ],
+ "dr妊婦健診": [
+  "Prenatal checkup",
+  "Pagsusuri sa ospital para sa buntis. Sinusuri ang katawan ng ina at sanggol.",
+  "c"
+ ],
+ "dr受診票": [
+  "Checkup voucher",
+  "Papel na ibinibigay sa ospital sa checkup. Galing sa lungsod o bayan. Sila ang nagbabayad ng bahagi ng gastos.",
+  "c"
+ ],
+ "dr補助券": [
+  "Subsidy voucher",
+  "Papel kung saan ang lungsod o bayan ang nagbabayad ng bahagi ng gastos. Sa checkup, ito ang checkup voucher.",
+  "c"
+ ],
+ "dr妊娠週数": [
+  "Ilang linggo ng pagbubuntis",
+  "Ilang linggo na ang sanggol sa tiyan. Binibilang mula sa unang araw ng huling regla.",
+  "c"
+ ],
+ "dr在留資格取得": [
+  "Pagkuha ng status of residence",
+  "Pagkuha ng bagong status para manirahan sa Japan. Para sa batang dayuhan na ipinanganak sa Japan, mag-apply sa Immigration.",
+  "c"
+ ],
+ "dr出生届受理証明書": [
+  "Sertipiko ng pagtanggap ng birth registration",
+  "Papel na nagpapatunay na tinanggap ng munisipyo ang ulat ng kapanganakan. Makukuha sa munisipyo.",
+  "c"
+ ],
+ "dr大使館": [
+  "Embahada",
+  "Opisina ng iyong bansa sa Japan. Dito inaasikaso ang passport at iba pa.",
+  "c"
+ ],
+ "dr乳幼児健診": [
+  "Checkup ng sanggol at bata",
+  "Pagsusuri sa katawan at paglaki ng sanggol o maliit na bata.",
+  "c"
+ ],
+ "dr月齢": [
+  "Edad sa buwan",
+  "Ilang buwan na ang sanggol mula nang ipanganak.",
+  "c"
+ ],
+ "dr医療証": [
+  "Medical certificate para sa bata",
+  "Sertipiko kung saan tinutulungan ng lungsod o bayan ang gastos sa ospital ng bata. Ipakita sa reception ng ospital.",
+  "c"
+ ],
+ "dr自費": [
+  "Sariling gastos",
+  "Ikaw ang magbabayad ng lahat, nang walang insurance o tulong ng lungsod o bayan.",
+  "c"
+ ],
+ "dr保育課": [
+  "Childcare Division",
+  "Opisina sa munisipyo na nag-aasikaso ng aplikasyon sa daycare at iba pa.",
+  "c"
+ ],
+ "dr入園申請": [
+  "Aplikasyon sa daycare",
+  "Aplikasyon para makapasok sa daycare at iba pa. Kadalasang isinusumite sa munisipyo.",
+  "c"
+ ],
+ "dr申込書": [
+  "Application form",
+  "Papel na sinusulatan at isinusumite kapag nag-a-apply.",
+  "c"
+ ],
+ "dr就労証明書": [
+  "Certificate of Employment",
+  "Dokumentong nagpapatunay na nagtatrabaho ka. Ipagawa ito sa kompanyang pinagtatrabahuhan.",
+  "c"
+ ],
+ "dr締め切り": [
+  "Deadline",
+  "Huling araw ng pagsusumite ng dokumento. Isumite bago o sa araw na ito.",
+  "c"
+ ],
+ "dr一次募集": [
+  "Unang round ng aplikasyon",
+  "Unang pagtanggap ng aplikasyon. Minsan may ikalawang round pagkatapos nito.",
+  "c"
+ ],
+ "dr途中入園": [
+  "Pagpasok sa daycare sa kalagitnaan ng taon",
+  "Pagpasok sa daycare hindi sa Abril kundi sa kalagitnaan ng taon.",
+  "c"
+ ],
+ "dr学務課": [
+  "School Affairs Division",
+  "Bahagi ng Board of Education na nag-aasikaso ng pagpasok ng bata sa paaralan at iba pa.",
+  "c"
+ ],
+ "dr日本語学級": [
+  "Japanese language class",
+  "Silid sa paaralan para mag-aral ng Nihongo. Dito kinukuha ang ilang klase. Tinatawag ding international class.",
+  "c"
+ ],
+ "dr日本語支援": [
+  "Suporta sa Nihongo",
+  "Pagtulong sa paaralan sa batang hindi pa gaanong nakakaintindi ng Nihongo.",
+  "c"
+ ],
+ "dr支援員": [
+  "Support staff",
+  "Taong pumupunta sa paaralan para tumulong sa pag-aaral ng bata at iba pa.",
+  "c"
+ ],
+ "dr就学時健康診断": [
+  "Health checkup bago pumasok sa paaralan",
+  "Pagsusuri sa katawan ng batang papasok sa elementarya sa susunod na taon. Kadalasan sa elementaryang papasukan.",
+  "c"
+ ],
+ "dr上履き": [
+  "Panloob na sapatos",
+  "Sapatos na isinusuot sa loob ng gusali, gaya ng paaralan.",
+  "c"
+ ],
+ "dr養護教諭": [
+  "School nurse",
+  "Guro sa health room ng paaralan. Inaasikaso ang sugat, sakit, at kalusugan ng bata.",
+  "c"
+ ],
+ "dr就学相談": [
+  "Konsultasyon sa pag-aaral",
+  "Pakikipag-usap sa Board of Education kung saang paaralan o klase mabuting mag-aral ang bata. Pinapakinggan din ang opinyon ng magulang.",
+  "c"
+ ],
+ "dr聴力": [
+  "Pandinig",
+  "Kakayahang makarinig. Sa checkup, sinusuri kung malinaw kang nakakarinig.",
+  "c"
+ ],
+ "dr給食費": [
+  "Bayad sa school lunch",
+  "Perang binabayaran ng magulang para sa tanghalian ng bata sa paaralan.",
+  "c"
+ ],
+ "dr引き落とし": [
+  "Auto-debit",
+  "Awtomatikong pagbabayad mula sa bank account. Siguraduhing may pera ang account.",
+  "c"
+ ],
+ "dr届け出印": [
+  "Rehistradong selyo (hanko)",
+  "Hanko na inirehistro sa bangko nang buksan ang account. Tinatawag ding \"bank seal.\"",
+  "c"
+ ],
+ "dr進路相談": [
+  "Career counseling",
+  "Pakikipag-usap sa guro tungkol sa hinaharap, gaya ng kung saang high school papasok pagkatapos ng junior high.",
+  "c"
+ ]
+}

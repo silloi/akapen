@@ -1,0 +1,6756 @@
+{
+ "sources": [
+  {
+   "id": "plain-japanese-rewrites",
+   "name": "在留支援のためのやさしい日本語ガイドライン 別冊「やさしい日本語書き換え例」",
+   "url": "https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html",
+   "license": "PDL-1.0",
+   "attribution": "出典：出入国在留管理庁・文化庁「在留支援のためのやさしい日本語ガイドライン 別冊 やさしい日本語書き換え例」（https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html）を加工して作成"
+  },
+  {
+   "id": "mhlw-tagengo-yougo",
+   "name": "厚生労働省「雇用管理に役立つ多言語用語集」（Excel 版）",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html",
+   "license": "PDL-1.0",
+   "attribution": "出典：厚生労働省「雇用管理に役立つ多言語用語集」（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html）を加工して作成"
+  },
+  {
+   "id": "jlt-standard-dict",
+   "name": "法令用語日英標準対訳辞書",
+   "url": "https://www.japaneselawtranslation.go.jp/ja/dicts/download",
+   "license": "PDL-1.0",
+   "attribution": "出典：日本法令外国語訳データベースシステム（法務省）「法令用語日英標準対訳辞書」第19.0版（https://www.japaneselawtranslation.go.jp/ja/dicts/download）を加工して作成"
+  },
+  {
+   "id": "draft",
+   "name": "Claude の下書き（日本語教師がまだ確かめていない）",
+   "url": "",
+   "license": "",
+   "attribution": "場面の語と電話の言い回しの説明は、Claude が下書きしたもの"
+  }
+ ],
+ "entries": [
+  {
+   "id": "pj1",
+   "term": "育児休業",
+   "reading": "いくじきゅうぎょう",
+   "easy": "子どもを育てるために、とることができる休み。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj2",
+   "term": "育児休業給付金",
+   "reading": "いくじきゅうぎょうきゅうふきん",
+   "easy": "育児休業をしているあいだに、雇用保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj3",
+   "term": "遺族基礎年金",
+   "reading": "いぞくきそねんきん",
+   "easy": "国民年金に入っていた人が死んだとき、家族が国民年金からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj4",
+   "term": "遺族厚生年金",
+   "reading": "いぞくこうせいねんきん",
+   "easy": "厚生年金保険に入っていた人が死んだとき、家族が厚生年金保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj5",
+   "term": "医療保険",
+   "reading": "いりょうほけん",
+   "easy": "みんなからお金を集めて、けがや病気で病院に行く人を助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj6",
+   "term": "印鑑登録証明書",
+   "reading": "いんかんとうろくしょうめいしょ",
+   "easy": "あなたの「実印」がどれか書いてある紙。住んでいるまちの役所でもらうことができます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj7",
+   "term": "印鑑登録証",
+   "reading": "いんかんとうろくしょう",
+   "easy": "住んでいるまちの役所で印鑑登録証明書をもらうときに使うもの。「実印」を住んでいるまちの役所が認めたときにもらいます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj8",
+   "term": "オーバーステイ",
+   "reading": "オーバーステイ",
+   "easy": "在留期限を過ぎても日本にいること。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj9",
+   "term": "大家",
+   "reading": "おおや",
+   "easy": "家を貸す人。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj10",
+   "term": "介護",
+   "reading": "かいご",
+   "easy": "年をとったり、特別な病気になったりして、毎日の生活（食べること、お風呂に入ることなど）をすることがむずかしい人を手伝うこと。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj11",
+   "term": "介護休業",
+   "reading": "かいごきゅうぎょう",
+   "easy": "家族の介護をするために、とることができる休み。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj12",
+   "term": "介護休業給付金",
+   "reading": "かいごきゅうぎょうきゅうふきん",
+   "easy": "介護休業をしているあいだに、雇用保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj13",
+   "term": "外国人学校",
+   "reading": "がいこくじんがっこう",
+   "easy": "外国人の子どものための学校。それぞれの国の文化や言葉に合わせた学校があります。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj14",
+   "term": "介護保険",
+   "reading": "かいごほけん",
+   "easy": "40歳以上の人からお金を集めて、介護が必要になった人を助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj15",
+   "term": "回覧板",
+   "reading": "かいらんばん",
+   "easy": "自治会・町内会で使う、住んでいるまちの役所などからのお知らせが書いてあるもの。読み終わったら次の人に渡します。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj16",
+   "term": "確定申告",
+   "reading": "かくていしんこく",
+   "easy": "会社などの源泉徴収や年末調整をしない人などの所得税の払い方。住んでいるまちの税務署＜＝税金の仕事をする役所＞に書類を出します。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj17",
+   "term": "寡婦年金",
+   "reading": "かふねんきん",
+   "easy": "夫が死んだときに、妻が国民年金からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj18",
+   "term": "眼科",
+   "reading": "がんか",
+   "easy": "目の病気を治す病院。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj19",
+   "term": "管理費（共益費）",
+   "reading": "かんりひきょうえきひ",
+   "easy": "アパートやマンションでみんなが使うものに払うお金。住んでいる人からお金を集めます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj20",
+   "term": "義務教育学校",
+   "reading": "ぎむきょういくがっこう",
+   "easy": "小学校と中学校が一つになった学校。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj21",
+   "term": "救急車",
+   "reading": "きゅうきゅうしゃ",
+   "easy": "急な病気の人や、けがをした人を病院に運ぶ車。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj22",
+   "term": "給与所得の源泉徴収票",
+   "reading": "きゅうよしょとくげんせんちょうしゅうひょう",
+   "easy": "会社があなたの１年間の給料や、源泉徴収した所得税などを書いた紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj23",
+   "term": "給与明細",
+   "reading": "きゅうよめいさい",
+   "easy": "会社があなたの毎月の給料や、源泉徴収した所得税などを書いた紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj24",
+   "term": "緊急地震速報",
+   "reading": "きんきゅうじしんそくほう",
+   "easy": "強い地震が来る少し前に、テレビやスマートフォンに出るお知らせ。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj25",
+   "term": "ケアマネジャー",
+   "reading": "ケアマネジャー",
+   "easy": "介護の相談を受けたり、介護のしかたを考える専門の人。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj26",
+   "term": "契約社員",
+   "reading": "けいやくしゃいん",
+   "easy": "いつまで働くか決まっている人。３年以内に契約＜＝会社と働く人の約束＞が終わります。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj27",
+   "term": "外科",
+   "reading": "げか",
+   "easy": "けがを治したり、手術をしたりする病院。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj28",
+   "term": "健康保険",
+   "reading": "けんこうほけん",
+   "easy": "会社で働いている人が入る医療保険。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj29",
+   "term": "源泉徴収",
+   "reading": "げんせんちょうしゅう",
+   "easy": "会社があなたの代わりに所得税を国に払うこと。会社があなたの給料から所得税などを引いて払います。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj30",
+   "term": "公営住宅",
+   "reading": "こうえいじゅうたく",
+   "easy": "県や市などが貸す家。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj31",
+   "term": "高額療養費",
+   "reading": "こうがくりょうようひ",
+   "easy": "１か月に病院に払ったお金が多くなったときに戻ってくるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj32",
+   "term": "後期高齢者医療制度",
+   "reading": "こうきこうれいしゃいりょうせいど",
+   "easy": "75歳以上の人が入る医療保険。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj33",
+   "term": "高校生等奨学給付金",
+   "reading": "こうこうせいとうしょうがくきゅうふきん",
+   "easy": "親の収入が少ない高校生が、教科書や勉強に使う物を買うためにもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj34",
+   "term": "（賃貸契約の）更新料",
+   "reading": "ちんたいけいやくこうしんりょう",
+   "easy": "賃貸契約が終わっても、引っ越さないで同じ家に住むときに、家賃以外に払うお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj35",
+   "term": "厚生年金保険",
+   "reading": "こうせいねんきんほけん",
+   "easy": "会社や工場、店などで、決まった時間以上働いていて、69歳までの人が入る年金(NO.106)。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj36",
+   "term": "高等学校卒業程度認定試験",
+   "reading": "こうとうがっこうそつぎょうていどにんていしけん",
+   "easy": "日本の高校を卒業していない人が受ける試験。合格したら、大学や専門学校などに入るための試験を受けることができます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj37",
+   "term": "高等学校等就学支援金",
+   "reading": "こうとうがっこうとうしゅうがくしえんきん",
+   "easy": "あなたの代わりに、国が払う高校の授業料。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj38",
+   "term": "国民健康保険",
+   "reading": "こくみんけんこうほけん",
+   "easy": "会社の健康保険などに入っていない人が、自分で入る医療保険。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj39",
+   "term": "国民年金",
+   "reading": "こくみんねんきん",
+   "easy": "20歳から59歳の人が、みんな入る国の年金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj40",
+   "term": "固定資産税",
+   "reading": "こていしさんぜい",
+   "easy": "土地や家を持っている人が払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj41",
+   "term": "雇用保険",
+   "reading": "こようほけん",
+   "easy": "会社をやめたあと仕事が見つからない人や育児休業、介護休業をしている人を助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj42",
+   "term": "婚姻届",
+   "reading": "こんいんとどけ",
+   "easy": "結婚する人が住んでいるまちの役所に出す紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj43",
+   "term": "婚姻要件具備証明書",
+   "reading": "こんいんようけんぐびしょうめいしょ",
+   "easy": "外国人が婚姻届を住んでいるまちの役所に出すときに必要な紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj44",
+   "term": "最低賃金",
+   "reading": "さいていちんぎん",
+   "easy": "法律で決まっているいちばん安い給料。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj45",
+   "term": "在留カード",
+   "reading": "ざいりゅう",
+   "easy": "３か月より長く日本に住む外国人が入管からもらうカード。名前や国籍、住所などが書いてあります。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj46",
+   "term": "在留期間更新許可",
+   "reading": "ざいりゅうきかんこうしんきょか",
+   "easy": "在留期限を長くしたいときにもらうもの。在留資格は変わりません。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj47",
+   "term": "在留期限",
+   "reading": "ざいりゅうきげん",
+   "easy": "外国人が日本にいることができる最後の日。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj48",
+   "term": "在留資格",
+   "reading": "ざいりゅうしかく",
+   "easy": "外国人が日本でできること。仕事をすることができる、学校に行くことができる、家族と生活することができるなど。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj49",
+   "term": "在留資格取得許可",
+   "reading": "ざいりゅうしかくしゅとくきょか",
+   "easy": "日本で生まれた外国人の赤ちゃんが在留カードをもらうこと。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj50",
+   "term": "在留資格変更許可",
+   "reading": "ざいりゅうしかくへんこうきょか",
+   "easy": "在留資格を変えるときにもらうもの。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj51",
+   "term": "残業",
+   "reading": "ざんぎょう",
+   "easy": "１日に８時間より長く働くこと。または、１週間に40時間より長く働くこと。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj52",
+   "term": "産前産後休業",
+   "reading": "さんぜんさんごきゅうぎょう",
+   "easy": "会社で仕事をしている女の人が、赤ちゃんが生まれる前にとることができる休みと、赤ちゃんが生まれた後にとらなければいけない休み。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj53",
+   "term": "産婦人科",
+   "reading": "さんふじんか",
+   "easy": "女の人がなる病気を治したり、赤ちゃんを産んだりする病院",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj54",
+   "term": "歯科",
+   "reading": "しか",
+   "easy": "歯を治す病院。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj55",
+   "term": "資格外活動許可",
+   "reading": "しかくがいかつどうきょか",
+   "easy": "仕事ができない在留資格の人が、仕事をしたいときにもらうもの。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj56",
+   "term": "敷金（保証金）",
+   "reading": "しききんほしょうきん",
+   "easy": "家を借りるときに払うお金。家を借りた人が出て行ったあと大家が、家の壊れたところや汚くなったところを直すためなどに使います。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj57",
+   "term": "自治会・町内会",
+   "reading": "じちかいちょうないかい",
+   "easy": "近くに住んでいる人たちが作る会。安全で住みやすいまちにするために一緒に考えます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj58",
+   "term": "実印",
+   "reading": "じついん",
+   "easy": "住んでいるまちの役所に認めてもらったはんこ。車や家を買うときなどに使います。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj59",
+   "term": "自動車重量税",
+   "reading": "じどうしゃじゅうりょうぜい",
+   "easy": "車検などのときに払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj60",
+   "term": "自動車税／軽自動車税環境性能割",
+   "reading": "じどうしゃぜいけいじどうしゃぜいかんきょうせいのうわり",
+   "easy": "車を買ったときに払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj61",
+   "term": "自動車税／軽自動車税種別割",
+   "reading": "じどうしゃぜいけいじどうしゃぜいしゅべつわり",
+   "easy": "毎年４月１日に車を持っている人が払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj62",
+   "term": "児童手当",
+   "reading": "じどうてあて",
+   "easy": "子どもが中学校を卒業するまで、子どもを育てている人がもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj63",
+   "term": "児童扶養手当",
+   "reading": "じどうふようてあて",
+   "easy": "離婚などで、18歳までの子どもを１人で育てている人がもらうことができるお金。障害のある19歳までの子どもを１人で育てている人ももらうことができます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj64",
+   "term": "自賠責保険",
+   "reading": "じばいせきほけん",
+   "easy": "車やオートバイを運転する人からお金を集めて、事故にあった人を助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj65",
+   "term": "死亡一時金",
+   "reading": "しぼういちじきん",
+   "easy": "年金に入っていた人が死んだとき、家族が国民年金からもらうお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj66",
+   "term": "死亡届",
+   "reading": "しぼうとどけ",
+   "easy": "家族や一緒に生活していた人が死んだときに、まちの役所に出す紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj67",
+   "term": "社会保険・労働保険",
+   "reading": "しゃかいほけんろうどうほけん",
+   "easy": "国が、働いている人と会社からお金を集めて、困った人を助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj68",
+   "term": "車検",
+   "reading": "しゃけん",
+   "easy": "１年か２年に１度、車やオートバイが安全に走ることができるか（使うことができるか）などを調べること。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj69",
+   "term": "車検証",
+   "reading": "しゃけんしょう",
+   "easy": "車検が終わった後にもらう紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj70",
+   "term": "就学援助",
+   "reading": "しゅうがくえんじょ",
+   "easy": "学校で使う物や給食などにかかるお金をもらうこと。収入が少ない小学生や中学生の親がもらうことができます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj71",
+   "term": "就業規則",
+   "reading": "しゅうぎょうきそく",
+   "easy": "会社が決めた、働くときの細かいルール。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj72",
+   "term": "住民税",
+   "reading": "じゅうみんぜい",
+   "easy": "１月１日に日本に住所があって、働いている人が県や市、区などに払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj73",
+   "term": "出産手当金",
+   "reading": "しゅっさんてあてきん",
+   "easy": "赤ちゃんを産むために会社を休み、給料がもらえないとき、健康保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj74",
+   "term": "出生届",
+   "reading": "しゅっせいとどけ",
+   "easy": "赤ちゃんが生まれたときにまちの役所に出す紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj75",
+   "term": "出産育児一時金",
+   "reading": "しゅっさんいくじいちじきん",
+   "easy": "赤ちゃんを産むとき、健康保険などからもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj76",
+   "term": "障害基礎年金",
+   "reading": "しょうがいきそねんきん",
+   "easy": "体などに障害がある人が、国民年金からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj77",
+   "term": "障害厚生年金",
+   "reading": "しょうがいこうせいねんきん",
+   "easy": "体などに障害がある人が、厚生年金保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj78",
+   "term": "消費税",
+   "reading": "しょうひぜい",
+   "easy": "物を買ったときやサービスを受けたときに払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj79",
+   "term": "所得税",
+   "reading": "しょとくぜい",
+   "easy": "収入（働いてもらった給料など）から国に払う税金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj80",
+   "term": "身体障害者手帳",
+   "reading": "しんたいしょうがいしゃてちょう",
+   "easy": "体に障害がある人が住んでいるまちの役所からもらう手帳。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj81",
+   "term": "生活困窮者自立支援制度",
+   "reading": "せいかつこんきゅうしゃじりつしえんせいど",
+   "easy": "生活に困っている人（お金がない、仕事がない、住むところがない）を住んでいるまちの役所が一緒に考えて助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj82",
+   "term": "税金",
+   "reading": "ぜいきん",
+   "easy": "国や県、市、区などに払うお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj83",
+   "term": "整形外科",
+   "reading": "せいけいげか",
+   "easy": "骨、関節、筋肉などを治す病院。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj84",
+   "term": "精神障害者保健福祉手帳",
+   "reading": "せいしんしょうがいしゃほけんふくしてちょう",
+   "easy": "心に障害があって、毎日の生活が難しい人が、住んでいるまちの役所からもらう手帳。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj85",
+   "term": "租税条約",
+   "reading": "そぜいじょうやく",
+   "easy": "税金について国と国とのあいだで決めた約束。日本と約束をしている国の人は、税金が少なくなることがあります。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj86",
+   "term": "第１号被保険者",
+   "reading": "だいごうひほけんしゃ",
+   "easy": "国民年金だけに入っている人。会社に入らないで自分の店を持っている人、農業＜＝野菜などを作る仕事＞や漁業＜＝魚などをとる仕事＞をしている人、働いていない人などです。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj87",
+   "term": "第３号被保険者",
+   "reading": "だいごうひほけんしゃ",
+   "easy": "自分の夫や妻が厚生年金保険に入っている人、自分の夫や妻が65歳になる前の人、自分の１年の給料などが130万円より少ない人。国民年金だけに入っています。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj88",
+   "term": "退職届",
+   "reading": "たいしょくとどけ",
+   "easy": "会社をやめるとき、理由などを書いて、会社に出す紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj89",
+   "term": "第２号被保険者",
+   "reading": "だいごうひほけんしゃ",
+   "easy": "国民年金と厚生年金保険に入っている人。会社や工場、店などで働いている人です。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj90",
+   "term": "脱退一時金",
+   "reading": "だったいいちじきん",
+   "easy": "日本の年金をやめて自分の国に帰る人がもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj91",
+   "term": "短時間労働者",
+   "reading": "たんじかんろうどうしゃ",
+   "easy": "働く時間が正社員より短いパートタイマーやアルバイトなど。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj92",
+   "term": "仲介手数料",
+   "reading": "ちゅうかいてすうりょう",
+   "easy": "家を借りるとき、あなたに家を紹介した不動産屋に払うお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj93",
+   "term": "中学校卒業程度認定試験",
+   "reading": "ちゅうがっこうそつぎょうていどにんていしけん",
+   "easy": "日本の中学校を卒業していない人が受ける試験。合格すると日本の高校に入るための試験を受けることができます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj94",
+   "term": "賃貸契約",
+   "reading": "ちんたいけいやく",
+   "easy": "家を貸す人と借りる人の約束。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj95",
+   "term": "転居届",
+   "reading": "てんきょとどけ",
+   "easy": "同じまちの中で、引っ越しをするときに役所に出す紙。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj96",
+   "term": "転出届",
+   "reading": "てんしゅつとどけ",
+   "easy": "別のまちへ引っ越しをするときに、今まで住んでいた住所の役所に出す紙。引っ越しをして日本を出るときにも出します。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj97",
+   "term": "転入届",
+   "reading": "てんにゅうとどけ",
+   "easy": "別のまちから引っ越しをしたときに、新しい住所の役所に出す紙。引っ越しをして日本に住み始めたときにも出します。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj98",
+   "term": "特別児童扶養手当",
+   "reading": "とくべつじどうふようてあて",
+   "easy": "障害がある子どもを育てている人がもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj99",
+   "term": "特別徴収",
+   "reading": "とくべつちょうしゅう",
+   "easy": "会社が、住んでいるまちの役所に働いている人の住民税を払うこと。会社があなたの給料から税金を引いて払います。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj100",
+   "term": "登山届",
+   "reading": "とざんとどけ",
+   "easy": "山に登る前に名前、住所、電話番号、登山ルートなどを書いて、役所などに届けておくもの。山で事故にあった人を助けるために役に立ちます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj101",
+   "term": "内科",
+   "reading": "ないか",
+   "easy": "体の中の病気（かぜなど）を治す病院。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj102",
+   "term": "日本留学試験（EJU）",
+   "reading": "にほんりゅうがくしけん",
+   "easy": "外国から日本の大学に留学したい学生が受ける試験。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj103",
+   "term": "乳幼児健診（乳幼児健康診査）",
+   "reading": "にゅうようじけんしんにゅうようじけんこうしんさ",
+   "easy": "住んでいるまちの役所が、赤ちゃんが健康かどうかを調べること。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj104",
+   "term": "認定こども園",
+   "reading": "にんていえん",
+   "easy": "小学校に入る前の子どもが通うところ。ここは、幼稚園と保育園の両方の特徴があります。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj105",
+   "term": "妊婦健診（妊婦健康診査）",
+   "reading": "にんぷけんしんにんぷけんこうしんさ",
+   "easy": "お腹に赤ちゃんがいる人が健康かどうかを調べること。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj106",
+   "term": "年金",
+   "reading": "ねんきん",
+   "easy": "みんなからお金を集めて、年齢の高い人や、病気やけがで体などに障害が出た人を助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj107",
+   "term": "年金手帳",
+   "reading": "ねんきんてちょう",
+   "easy": "年金に入った人がもらう手帳。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj108",
+   "term": "年次有給休暇",
+   "reading": "ねんじゆうきゅうきゅうか",
+   "easy": "仕事を休んでも給料をもらうことができる休み。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj109",
+   "term": "年末調整",
+   "reading": "ねんまつちょうせい",
+   "easy": "12月に会社が源泉徴収した所得税を計算して、調整するしくみ。多いときは会社があなたにお金を返します。少ないときはあなたが会社にお金を払います。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj110",
+   "term": "派遣社員",
+   "reading": "はけんしゃいん",
+   "easy": "派遣会社と契約＜＝派遣会社との約束＞して、別の会社で働く人。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj111",
+   "term": "ハザードマップ",
+   "reading": "ハザードマップ",
+   "easy": "災害が起きたときに、危ない場所や逃げる場所が書いてある地図。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj112",
+   "term": "母親教室・父親教室",
+   "reading": "ははおやきょうしつちちおやきょうしつ",
+   "easy": "新しくお父さん・お母さんになる人に、赤ちゃんを産んで育てるときに大切なことを、教えるところ。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj113",
+   "term": "ハローワーク",
+   "reading": "ハローワーク",
+   "easy": "仕事を紹介する国の役所。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj114",
+   "term": "ファミリー・サポート・センター",
+   "reading": "ファミリー・サポート・センター",
+   "easy": "用事があるときに、子どもの世話をする人を紹介するところ。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj115",
+   "term": "不動産屋",
+   "reading": "ふどうさんや",
+   "easy": "家を借りたい人や家を買いたい人にいろいろな家を紹介する店。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj116",
+   "term": "保育園",
+   "reading": "ほいくえん",
+   "easy": "親（お父さん・お母さん）が働いているとき、0歳から小学校に入る前の子どもの世話をするところ。子どもが身の回りの世話を受けたり、遊びながらいろいろなことを身につけていきます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj117",
+   "term": "放課後児童クラブ（学童保育）",
+   "reading": "ほうかごじどうがくどうほいく",
+   "easy": "親（お父さん・お母さん）が働いているとき、小学生の子どもの世話をしてもらうことができるところ。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj118",
+   "term": "防災訓練・避難訓練",
+   "reading": "ぼうさいくんれんひなんくんれん",
+   "easy": "災害が起きたときのために、安全に逃げる練習や、火を消す練習をすること。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj119",
+   "term": "防犯",
+   "reading": "ぼうはん",
+   "easy": "犯罪の被害にあわないようにすること。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj120",
+   "term": "母子健康手帳",
+   "reading": "ぼしけんこうてちょう",
+   "easy": "お腹に赤ちゃんがいる人が、住んでいるまちの役所からもらう手帳。赤ちゃんやお母さんの健康などについて書くものです。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj121",
+   "term": "民間住宅",
+   "reading": "みんかんじゅうたく",
+   "easy": "大家（No.9）から借りる家。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj122",
+   "term": "持ち家",
+   "reading": "もいえ",
+   "easy": "自分が買った家。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj123",
+   "term": "夜間中学",
+   "reading": "やかんちゅうがく",
+   "easy": "中学校を卒業していない人や、十分に通うことができなかった人が行く学校。卒業した人は、高校に入るための試験を受けることができます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj124",
+   "term": "家賃",
+   "reading": "やちん",
+   "easy": "家を借りたときに毎月払うお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj125",
+   "term": "薬局・ドラッグストア",
+   "reading": "やっきょく",
+   "easy": "薬を売っている店。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj126",
+   "term": "幼稚園",
+   "reading": "ようちえん",
+   "easy": "３歳から小学校に入る前の子どもが通うところ。子どもが遊びながらいろいろなことを学びます。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj127",
+   "term": "予防接種",
+   "reading": "よぼうせっしゅ",
+   "easy": "病気にならないための注射。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj128",
+   "term": "療育手帳",
+   "reading": "りょういくてちょう",
+   "easy": "知能に障害がある人が住んでいるまちの役所からもらう手帳。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj129",
+   "term": "療養費",
+   "reading": "りょうようひ",
+   "easy": "病院でかかったお金を自分で全部払ったときに、あとから医療保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj130",
+   "term": "礼金",
+   "reading": "れいきん",
+   "easy": "借りる家が決まったときに、家を借りる人が払うお礼のお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj131",
+   "term": "（賃貸契約の）連帯保証人",
+   "reading": "ちんたいけいやくれんたいほしょうにん",
+   "easy": "家を借りた人が家賃を払うことができないときなどに、代わりに家賃を払う人。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj132",
+   "term": "労災保険",
+   "reading": "ろうさいほけん",
+   "easy": "会社からお金を集めて、仕事で、けが・病気をした人などを助ける制度。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj133",
+   "term": "老齢基礎年金",
+   "reading": "ろうれいきそねんきん",
+   "easy": "65歳以上の人が国民年金からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "pj134",
+   "term": "老齢厚生年金",
+   "reading": "ろうれいこうせいねんきん",
+   "easy": "65歳以上の人が厚生年金保険からもらうことができるお金。",
+   "source": "plain-japanese-rewrites"
+  },
+  {
+   "id": "mh1",
+   "term": "選考試験",
+   "reading": "せんこうしけん",
+   "easy": "その人が会社にふさわしいかどうか調べるために、問題を出して答えさせること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh2",
+   "term": "住民票記載事項証明書",
+   "reading": "じゅうみんひょうきさいじこうしょうめいしょ",
+   "easy": "住民票に書いてあることが正しいことを証明する、役所が発行する書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh3",
+   "term": "自動車運転免許証",
+   "reading": "じどうしゃうんてんめんきょしょう",
+   "easy": "自動車の運転が許されていることを証明する、警察署が発行する書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh4",
+   "term": "記載事項",
+   "reading": "きさいじこう",
+   "easy": "書類などに書かれていること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh5",
+   "term": "試用期間",
+   "reading": "しようきかん",
+   "easy": "試しに働いてもらう期間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh6",
+   "term": "不適格",
+   "reading": "ふてきかく",
+   "easy": "ふさわしくないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh7",
+   "term": "労働条件",
+   "reading": "ろうどうじょうけん",
+   "easy": "働くときの条件。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh8",
+   "term": "就業場所",
+   "reading": "しゅうぎょうばしょ",
+   "easy": "働く場所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh9",
+   "term": "従事する業務",
+   "reading": "じゅうじするぎょうむ",
+   "easy": "仕事の内容。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh10",
+   "term": "労働条件通知書",
+   "reading": "ろうどうじょうけんつうちしょ",
+   "easy": "働くときの条件を書いた書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh11",
+   "term": "労働契約の期間",
+   "reading": "ろうどうけいやくのきかん",
+   "easy": "働く時の契約の期間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh12",
+   "term": "交付",
+   "reading": "こうふ",
+   "easy": "あげること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh13",
+   "term": "雇入れ",
+   "reading": "やといいれ",
+   "easy": "人を雇うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh14",
+   "term": "中途採用",
+   "reading": "ちゅうとさいよう",
+   "easy": "他の会社で働いていた人を雇うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh15",
+   "term": "賃金",
+   "reading": "ちんぎん",
+   "easy": "雇うときの給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh16",
+   "term": "支払いの時期",
+   "reading": "しはらいのじき",
+   "easy": "お金を払う日のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh17",
+   "term": "昇給",
+   "reading": "しょうきゅう",
+   "easy": "給料が上がること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh18",
+   "term": "欠勤",
+   "reading": "けっきん",
+   "easy": "働かなければならない日に、会社から許可をもらわずに会社を休むこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh19",
+   "term": "賃金台帳",
+   "reading": "ちんぎんだいちょう",
+   "easy": "会社が作る、働く人に支払った給料を書き残すための帳簿＜ノート＞。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh20",
+   "term": "賃金計算締切日",
+   "reading": "ちんぎんけいさんしめきりび",
+   "easy": "1か月の給料を計算するときの期間を区切る、締め切りの日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh21",
+   "term": "給与明細書",
+   "reading": "きゅうよめいさいしょ",
+   "easy": "給料に関係のあるお金のことを書いた紙。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh22",
+   "term": "基本給",
+   "reading": "きほんきゅう",
+   "easy": "基本となる給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh23",
+   "term": "家族手当",
+   "reading": "かぞくてあて",
+   "easy": "家族がいる人が、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh24",
+   "term": "通勤手当",
+   "reading": "つうきんてあて",
+   "easy": "会社に通うためにお金がかかる人が、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh25",
+   "term": "役付手当",
+   "reading": "やくづきてあて",
+   "easy": "会社の中で大切な役割がある人が、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh26",
+   "term": "技能・資格手当",
+   "reading": "ぎのう・しかくてあて",
+   "easy": "特別の技術や資格を持っている人が、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh27",
+   "term": "精勤手当",
+   "reading": "せいきんてあて",
+   "easy": "頑張って働いた人が、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh28",
+   "term": "割増賃金",
+   "reading": "わりましちんぎん",
+   "easy": "特別の割合で増やしてもらうことができる給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh29",
+   "term": "時間外労働割増賃金",
+   "reading": "じかんがいろうどうわりましちんぎん",
+   "easy": "法律で決まった時間以外に働いたときに、特別の割合で増やしてもらえる給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh30",
+   "term": "休日労働割増賃金",
+   "reading": "きゅうじつろうどうわりましちんぎん",
+   "easy": "休みの日に働いたときに、特別の割合で増やしてもらうことができる給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh31",
+   "term": "深夜労働割増賃金",
+   "reading": "しんやろうどうわりましちんぎん",
+   "easy": "夜遅くに働いたときに、特別の割合で増やしてもらうことができる給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh32",
+   "term": "職務内容",
+   "reading": "しょくむないよう",
+   "easy": "働く人の仕事の内容。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh33",
+   "term": "技能",
+   "reading": "ぎのう",
+   "easy": "その人が持っている技術。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh34",
+   "term": "勤務成績",
+   "reading": "きんむせいせき",
+   "easy": "仕事の成績。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh35",
+   "term": "最低賃金額",
+   "reading": "さいていちんぎんがく",
+   "easy": "法律で決まっている、払わないといけない給料でいちばん低い金額。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh36",
+   "term": "扶養",
+   "reading": "ふよう",
+   "easy": "＜働く人の夫か妻、子どもなどが＞生活できるように世話をすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh37",
+   "term": "実費",
+   "reading": "じっぴ",
+   "easy": "実際に使ったお金の額。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh38",
+   "term": "昇格",
+   "reading": "しょうかく",
+   "easy": "会社の中での自分の立場が上がること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh39",
+   "term": "降格",
+   "reading": "こうかく",
+   "easy": "会社の中での自分の地位が下がること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh40",
+   "term": "無欠勤",
+   "reading": "むけっきん",
+   "easy": "有給休暇以外で、仕事を1回も休まないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh41",
+   "term": "月給制",
+   "reading": "げっきゅうせい",
+   "easy": "給料を1か月単位で計算するしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh42",
+   "term": "日給制",
+   "reading": "にっきゅうせい",
+   "easy": "給料を1日単位で計算するしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh43",
+   "term": "時間給制",
+   "reading": "じかんきゅうせい",
+   "easy": "給料を1時間単位で計算するしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh44",
+   "term": "過払い",
+   "reading": "かばらい",
+   "easy": "お金を払いすぎること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh45",
+   "term": "法定割増賃金率",
+   "reading": "ほうていわりましちんぎんりつ",
+   "easy": "法律で決められた、残業や夜遅くに働いた場合の給料の増やし方の特別の割合。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh46",
+   "term": "臨時休業",
+   "reading": "りんじきゅうぎょう",
+   "easy": "会社の都合で、働く予定だった日に休みになること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh47",
+   "term": "平均賃金",
+   "reading": "へいきんちんぎん",
+   "easy": "3か月間に会社が支払ったお金を、カレンダーの3か月の日数で割った額。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh48",
+   "term": "休業手当",
+   "reading": "きゅうぎょうてあて",
+   "easy": "働く人に休んでもらうときに、会社が払うお金のこと。労働基準法では、会社の都合で働く予定だった日に働く人に休んでもらったときに、働く人に対して平均の給料の60％以上のお金を払うと決められている。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh49",
+   "term": "日割計算",
+   "reading": "ひわりけいさん",
+   "easy": "給料などを、働いた日数で計算すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh50",
+   "term": "通貨",
+   "reading": "つうか",
+   "easy": "お金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh51",
+   "term": "金融機関",
+   "reading": "きんゆうきかん",
+   "easy": "銀行などのお金を扱うところ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh52",
+   "term": "預貯金口座",
+   "reading": "よちょきんこうざ",
+   "easy": "会社や人が銀行に持っている、お金を預けるところ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh53",
+   "term": "証券総合口座",
+   "reading": "しょうけんそうごうこうざ",
+   "easy": "会社や人が証券会社に持っている、お金や証券を預けるところ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh54",
+   "term": "源泉所得税",
+   "reading": "げんせんしょとくぜい",
+   "easy": "働く人が国に払う税金。会社がその人の代わりに払うしくみを使って払う。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh59",
+   "term": "被保険者負担",
+   "reading": "ひほけんしゃふたん",
+   "easy": "保険に入っている人が、その人が払わなければならない保険の金額を払うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh60",
+   "term": "社宅入居料",
+   "reading": "しゃたくにゅうきょりょう",
+   "easy": "会社が貸している家＜社宅＞の家賃。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh61",
+   "term": "財形貯蓄",
+   "reading": "ざいけいちょちく",
+   "easy": "働く人が会社で貯めるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh62",
+   "term": "積立金",
+   "reading": "つみたてきん",
+   "easy": "何かのために少しずつ貯めていくお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh63",
+   "term": "組合費",
+   "reading": "くみあいひ",
+   "easy": "働く人が、自分の働く環境をよくするためにつくった組織＜労働組合＞に入るためのお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh64",
+   "term": "非常時払い",
+   "reading": "ひじょうじばらい",
+   "easy": "給料を、会社で決まっている日以外に払うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh65",
+   "term": "既往の労働",
+   "reading": "きおうのろうどう",
+   "easy": "その人が働いた分。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh66",
+   "term": "業績",
+   "reading": "ぎょうせき",
+   "easy": "仕事などで出した成果。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh67",
+   "term": "賞与",
+   "reading": "しょうよ",
+   "easy": "基本の給料とは別に、一時的に会社が払うお金。ボーナス。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh68",
+   "term": "住宅手当",
+   "reading": "じゅうたくてあて",
+   "easy": "働く人が払っている家賃などのお金の全部または一部に使うために、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh69",
+   "term": "職務手当",
+   "reading": "しょくむてあて",
+   "easy": "働く人が持っている、ある仕事に必要な技術、能力、資格に対して、会社が払うお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh70",
+   "term": "単身赴任手当",
+   "reading": "たんしんふにんてあて",
+   "easy": "会社の命令で働く場所が変わって、そのことで家族と離れて一人で生活している働く人に会社が払うお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh71",
+   "term": "営業手当",
+   "reading": "えいぎょうてあて",
+   "easy": "会社の営業の仕事をしている働く人が、営業の仕事をするときに必要なお金。会社がその人の代わりに払う。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh72",
+   "term": "出来高給",
+   "reading": "できだかきゅう",
+   "easy": "働く人が出した結果＜たとえば、ものを売った金額＞に合わせて、会社がその人に払うお金を決めるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh73",
+   "term": "保障給",
+   "reading": "ほしょうきゅう",
+   "easy": "働く人が仕事で出した結果に関係なく、会社がその人に、ある金額のお金を払うことが決まっているしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh74",
+   "term": "就業形態",
+   "reading": "しゅうぎょうけいたい",
+   "easy": "働き方のタイプ。フルタイム、パートタイム、時短勤務など。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh75",
+   "term": "固定残業代",
+   "reading": "こていざんぎょうだい",
+   "easy": "働く人が決まった時間より長く働いた分＜残業時間＞を考えないで、会社が前もって決まった時間より長く働く時間を決めて、その時間の分だけ会社が働く人にお金を払うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh76",
+   "term": "賃金形態",
+   "reading": "ちんぎんけいたい",
+   "easy": "会社が働く人に払う給料の計算の仕方や払い方。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh79",
+   "term": "所得＜給与所得＞",
+   "reading": "しょとく＜きゅうよしょとく＞",
+   "easy": "働く人が1年間に働いてもらったお金＜収入＞から、働くために必要なお金を引いて＜これを「給与所得控除」と言う＞、残った金額。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh80",
+   "term": "課税所得",
+   "reading": "かぜいしょとく",
+   "easy": "働く人が国に払う税金＜所得税＞を計算するときの金額。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh81",
+   "term": "収入",
+   "reading": "しゅうにゅう",
+   "easy": "働く人が働いてもらうお金。たとえば、毎月の収入は「月収」といいます。あなたが実際に受け取るお金＜手取り＞は、収入から、税金や社会保険料を引いた金額になります。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh82",
+   "term": "給与所得控除",
+   "reading": "きゅうよしょとくこうじょ",
+   "easy": "会社などで働いている人が1年間に働いてもらったお金＜収入＞から、働くために必要なお金を引いて、払う税金が少なくなるようにすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh83",
+   "term": "所得控除",
+   "reading": "しょとくこうじょ",
+   "easy": "働く人が1年間に働いてもらったお金から、働くために必要なお金を引いて、さらに、働く人それぞれの事情を考えて計算した金額を引くこと。たとえば、扶養控除、医療費控除、生命保険料控除、配偶者控除、基礎控除などがあります。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh84",
+   "term": "基礎控除",
+   "reading": "きそこうじょ",
+   "easy": "所得控除をするときに、税金を払っている人全員について、1年間にその人が働いてもらったお金＜収入＞からある金額を引くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh85",
+   "term": "扶養控除",
+   "reading": "ふようこうじょ",
+   "easy": "税金を払っている人に、世話をしている＜扶養する＞家族がいるときに、世話をすることを助けるために、働くために必要なお金を引いて残った金額＜所得＞から、ある金額を引いて、払う税金が少なくなるようにすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh87",
+   "term": "源泉徴収票",
+   "reading": "げんせんちょうしゅうひょう",
+   "easy": "働く人が、1月1日から12月31日までの1年間で、いくらぐらい会社から給料をもらったかと、どのくらい国に税金を払ったかとが書いてある書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh91",
+   "term": "続柄",
+   "reading": "つづきがら",
+   "easy": "家族との関係。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh92",
+   "term": "課税証明書",
+   "reading": "かぜいしょうめいしょ",
+   "easy": "その人がいくらぐらい税金を払うことになっているのかを証明する書類で、役所が出す書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh93",
+   "term": "納税証明書",
+   "reading": "のうぜいしょうめいしょ",
+   "easy": "その人が税金を払っていることを証明する書類で、役所が出す書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh95",
+   "term": "社会保障",
+   "reading": "しゃかいほしょう",
+   "easy": "病気になったりけがをしたり、子どもを産んだり＜出産＞、仕事がなくなったり＜失業＞、心や体が調子が悪くなったり＜障害＞、年を取ったり＜老齢＞、亡くなる＜死亡＞などの理由で、困った人のために、国が税金や働いている人と会社から集めたお金を使ってみんなの生活を助けるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh96",
+   "term": "社会保険",
+   "reading": "しゃかいほけん",
+   "easy": "病気になったりけがをしたり、仕事がなくなったり＜失業＞、年を取ったり＜老齢＞、介護が必要になったりして、会社で働く人が困ったときに、会社と働く人がお金を出し合ってその人の生活を助けるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh97",
+   "term": "公的扶助",
+   "reading": "こうてきふじょ",
+   "easy": "自分の力だけでは健康で安全に生活ができない人を、税金を使って助けること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh98",
+   "term": "公衆衛生",
+   "reading": "こうしゅうえいせい",
+   "easy": "みんなが健康に生活できるように、まちなどの環境をきれいにしたり、人から人にうつる病気＜感染症＞が起こらないようにしたりすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh99",
+   "term": "社会福祉",
+   "reading": "しゃかいふくし",
+   "easy": "ハンディキャップを持つ人が、健康で安全に生活できるように、税金を使って助けること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh101",
+   "term": "国民年金保険",
+   "reading": "こくみんねんきんほけん",
+   "easy": "年をとって会社を辞めたときや病気になったときなど、働いてお金をもらうことができなくなったときのために、日本での20歳から59歳までの人全員が入る保険。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh102",
+   "term": "被保険者",
+   "reading": "ひほけんしゃ",
+   "easy": "保険に入っている人で、年をとって会社を辞めたあとや、病気になったときなどにお金をもらうことができる人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh106",
+   "term": "平均標準報酬額",
+   "reading": "へいきんひょうじゅんほうしゅうがく",
+   "easy": "給料とボーナスを合わせて、働く人が1か月にいくらぐらい働いてお金をもらっているかを計算した金額。この金額は、働く人が年をとって会社を辞めたあとにお金をもらうことができる保険＜厚生年金保険＞に、どのくらいお金がかかるのかの計算するために必要。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh107",
+   "term": "標準賞与額",
+   "reading": "ひょうじゅんしょうよがく",
+   "easy": "税金を引く前のボーナスの、千円より少ない金額を考えない金額。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh108",
+   "term": "自己負担",
+   "reading": "じこふたん",
+   "easy": "＜会社などではなく＞自分がお金を払うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh109",
+   "term": "年功序列賃金",
+   "reading": "ねんこうじょれつちんぎん",
+   "easy": "働く人の年齢や、働いている期間の長さに合わせて、会社が決める給料。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh110",
+   "term": "年俸制",
+   "reading": "ねんぽうせい",
+   "easy": "給料をいくらにするかを1年単位で決めるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh111",
+   "term": "資格手当",
+   "reading": "しかくてあて",
+   "easy": "特別な資格を持っている人が会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh116",
+   "term": "慶弔見舞金",
+   "reading": "けいちょうみまいきん",
+   "easy": "働く人が結婚や子どもを産んだり、働く人の家族が亡くなったときに、会社からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh117",
+   "term": "傷病手当金",
+   "reading": "しょうびょうてあてきん",
+   "easy": "働く人がけがや病気で仕事を休み、給料がもらえないとき、健康保険からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh118",
+   "term": "みなし残業",
+   "reading": "みなしざんぎょう",
+   "easy": "働く人が決まった時間より長く働いた分＜残業時間＞を考えないで、その代わりに、決まった働く時間＜就業時間＞より長く働く時間を先に決めて、その時間の分だけ会社が働く人にお金を払うこと。固定残業代とも言う。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh119",
+   "term": "労働時間",
+   "reading": "ろうどうじかん",
+   "easy": "働く時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh120",
+   "term": "始業",
+   "reading": "しぎょう",
+   "easy": "仕事を始める時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh121",
+   "term": "終業",
+   "reading": "しゅうぎょう",
+   "easy": "仕事を終わる時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh122",
+   "term": "所定労働時間",
+   "reading": "しょていろうどうじかん",
+   "easy": "会社が決めた始業時間から終業時間のまでうち、休憩時間を除いた、働く時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh123",
+   "term": "休憩時間",
+   "reading": "きゅうけいじかん",
+   "easy": "休み時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh124",
+   "term": "交替制",
+   "reading": "こうたいせい",
+   "easy": "他の人と交代で働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh125",
+   "term": "就業時転換",
+   "reading": "しゅうぎょうじてんかん",
+   "easy": "誰かと交代して働くときに、交代する時間や順番に関係すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh126",
+   "term": "タイムカード",
+   "reading": "タイムカード",
+   "easy": "働く人の働いている時間を記録するカードと機械。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh127",
+   "term": "打刻",
+   "reading": "だこく",
+   "easy": "タイムカードを押して、時間を打ち出すこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh128",
+   "term": "自己申告制",
+   "reading": "じこしんこくせい",
+   "easy": "自分で言うしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh129",
+   "term": "時間外労働時間",
+   "reading": "じかんがいろうどうじかん",
+   "easy": "決まっている働く時間以外に働いた時間のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh130",
+   "term": "時間外労働手当",
+   "reading": "じかんがいろうどうてあて",
+   "easy": "決まっている働く時間以外に働いたとき、もらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh131",
+   "term": "遅刻",
+   "reading": "ちこく",
+   "easy": "仕事を始める時間より遅れて会社に来ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh132",
+   "term": "早退",
+   "reading": "そうたい",
+   "easy": "仕事を終わる時間より早く帰ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh133",
+   "term": "不就労",
+   "reading": "ふしゅうろう",
+   "easy": "働かなければならない時間に働かないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh134",
+   "term": "完全週休2日制",
+   "reading": "かんぜんしゅうきゅうふつかせい",
+   "easy": "毎週1週間に2日休むやり方。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh135",
+   "term": "一般勤務",
+   "reading": "いっぱんきんむ",
+   "easy": "普通の働き方。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh136",
+   "term": "交替勤務",
+   "reading": "こうたいきんむ",
+   "easy": "他の人と交替で働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh137",
+   "term": "日勤",
+   "reading": "にっきん",
+   "easy": "昼間に働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh138",
+   "term": "準夜勤",
+   "reading": "じゅんやきん",
+   "easy": "夜に近い時間に働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh139",
+   "term": "夜勤",
+   "reading": "やきん",
+   "easy": "夜に働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh140",
+   "term": "シフト表",
+   "reading": "シフトひょう",
+   "easy": "交替で働く場合に、働く日と働く時間を書いた表。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh141",
+   "term": "非番明け",
+   "reading": "ひばんあけ",
+   "easy": "交代で働く働き方で、朝まで働いた後は仕事がない日＜非番の日＞の次の仕事をする日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh142",
+   "term": "変形労働時間制",
+   "reading": "へんけいろうどうじかんせい",
+   "easy": "忙しくないときの働く時間を減らし、忙しいときの働く時間を増やして、月や年で全部の働く時間を調整する働き方。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh143",
+   "term": "法定労働時間",
+   "reading": "ほうていろうどうじかん",
+   "easy": "法律で決まっている働く時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh144",
+   "term": "時間外労働",
+   "reading": "じかんがいろうどう",
+   "easy": "決まっている働く時間以外に働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh145",
+   "term": "週所定労働時間",
+   "reading": "しゅうしょていろうどうじかん",
+   "easy": "会社が決めた、1週間の働く時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh146",
+   "term": "通勤緩和措置",
+   "reading": "つうきんかんわそち",
+   "easy": "会社に通うために電車などに乗るときに混んでいる時間をさけるなどして、通勤を簡単にすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh147",
+   "term": "時差出勤",
+   "reading": "じさしゅっきん",
+   "easy": "会社が決めた働く時間の間で、仕事を始める時間と終わる時間を変えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh148",
+   "term": "平均所定労働時間数",
+   "reading": "へいきんしょていろうどうじかんすう",
+   "easy": "ある期間あたりの、会社が決めた働く時間数の平均。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh149",
+   "term": "私用外出",
+   "reading": "しようがいしゅつ",
+   "easy": "自分の用事で会社の外に出かけること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh150",
+   "term": "フレックスタイム制",
+   "reading": "フレックスタイムせい",
+   "easy": "働いている人が、仕事を始める時間と終わる時間を自分で決めることができるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh151",
+   "term": "フレキシブルタイム",
+   "reading": "フレキシブルタイム",
+   "easy": "フレックスタイム制のとき、いつ仕事を始めても、または仕事を終わっても良い時間のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh152",
+   "term": "事業場外みなし労働時間制",
+   "reading": "じぎょうじょうがいみなしろうどうじかんせい",
+   "easy": "働いている人が働く場所の外で働くとき、会社が働いている人がどれだけ働いたかを知ることが難しい場合に、時間を決めて働いたと考える制度。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh153",
+   "term": "裁量労働時間制",
+   "reading": "さいりょうろうどうじかんせい",
+   "easy": "働いている人が本当に働いた時間に関係なく、会社が決めた、働いたと考える時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh154",
+   "term": "コアタイム",
+   "reading": "コアタイム",
+   "easy": "働く人が必ず働かなければならない時間帯のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh155",
+   "term": "週所定労働日数",
+   "reading": "しゅうしょていろうどうにっすう",
+   "easy": "会社が決めた、1週間の中の働く日数。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh156",
+   "term": "月平均所定外労働時間",
+   "reading": "つきへんいきんしょていがいろうどうじかん",
+   "easy": "会社が決めた働く時間＜所定労働時間＞以外に働いた時間の1か月の平均。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh157",
+   "term": "時短勤務制度",
+   "reading": "じたんきんむせいど",
+   "easy": "子どもを育てるためや、介護のために、働く人が働く時間を短くすることができるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh158",
+   "term": "休暇",
+   "reading": "きゅうか",
+   "easy": "働かなければならない日に、働く人がもらうことができる休み。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh159",
+   "term": "起算日",
+   "reading": "きさんび",
+   "easy": "日数を計算するときの、1日目のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh160",
+   "term": "国民の祝日",
+   "reading": "こくみんのしゅくじつ",
+   "easy": "法律で決まっている祝日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh161",
+   "term": "年末年始",
+   "reading": "ねんまつねんし",
+   "easy": "1年の初めと終わり。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh162",
+   "term": "夏季休日",
+   "reading": "かききゅうじつ",
+   "easy": "夏休み。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh163",
+   "term": "振替休日",
+   "reading": "ふりかえきゅうじつ",
+   "easy": "休みの日の前に、休みの日と働く日を入れ替えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh164",
+   "term": "代休",
+   "reading": "だいきゅう",
+   "easy": "休日に<特別の割合で増やしてもらえる給料をもらって>働いたとき、代わりに他の日を休みとすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh165",
+   "term": "休日労働",
+   "reading": "きゅうじつろうどう",
+   "easy": "法律で決まっている休みの日に働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh166",
+   "term": "法定休日",
+   "reading": "ほうていきゅうじつ",
+   "easy": "法律で決まっている休みの日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh167",
+   "term": "妊産婦",
+   "reading": "にんさんぷ",
+   "easy": "妊娠しているか、子どもを産んでから1年たっていない女性。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh169",
+   "term": "所定労働日",
+   "reading": "しょていろうどうび",
+   "easy": "会社が決めた働く日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh170",
+   "term": "出勤率",
+   "reading": "しゅっきんりつ",
+   "easy": "会社が決めた働く日のうち、実際に働いた日の率。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh171",
+   "term": "産前産後",
+   "reading": "さんぜんさんご",
+   "easy": "子どもを産む前と産んだ後。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh172",
+   "term": "育児・介護休業法",
+   "reading": "いくじ・かいごきゅうぎょうほう",
+   "easy": "子どもを育てることや、家族の介護のための法律。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh173",
+   "term": "繰り越し",
+   "reading": "くりこし",
+   "easy": "決まった期間の間に終わらなかったことを次の期間に移すこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh174",
+   "term": "通算",
+   "reading": "つうさん",
+   "easy": "＜休みの日などを＞全部集めて計算すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh175",
+   "term": "時間単位年休",
+   "reading": "じかんたんいねんきゅう",
+   "easy": "給料をもらいながら取ることができる休み。1日ずつではなく、1時間ずつ取ることができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh176",
+   "term": "付与",
+   "reading": "ふよ",
+   "easy": "あげること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh177",
+   "term": "時季変更権",
+   "reading": "じきへんこうけん",
+   "easy": "会社が、働く人が給料をもらいながら取ることができる休みをもらいたい日とは別の日にその休みを取るよう、働く人に変えてもらうこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh178",
+   "term": "多胎妊娠",
+   "reading": "たたいにんしん",
+   "easy": "2人以上の子どもを同じときに妊娠すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh179",
+   "term": "育児時間",
+   "reading": "いくじじかん",
+   "easy": "子どもを育てるための時間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh180",
+   "term": "生理休暇",
+   "reading": "せいりきゅうか",
+   "easy": "生理のときの女性のための休み。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh183",
+   "term": "子の看護休暇",
+   "reading": "このかんごきゅうか",
+   "easy": "病気の子どもの世話をするための休み。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh184",
+   "term": "慶弔休暇",
+   "reading": "けいちょうきゅうか",
+   "easy": "お祝いや、人が亡くなったときのための休み。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh185",
+   "term": "病気休暇",
+   "reading": "びょうききゅうか",
+   "easy": "病気での休み。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh186",
+   "term": "疾病",
+   "reading": "しっぺい",
+   "easy": "病気。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh187",
+   "term": "代替休暇",
+   "reading": "だいたいきゅうか",
+   "easy": "法律で決まっている働く時間よりも長く働いてしまった月に、会社からもらえる休みの日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh188",
+   "term": "帰郷",
+   "reading": "ききょう",
+   "easy": "故郷に帰ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh189",
+   "term": "創立記念日",
+   "reading": "そうりつきねんび",
+   "easy": "会社ができた日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh190",
+   "term": "6か月経過後の年次有給休暇日数",
+   "reading": "6かげつけいかごのねんじゆうきゅうきゅうかにっすう",
+   "easy": "働く人が、働き始めた日から6か月後にもらうことができる、給料をもらいながらとることができる休み＜有給休暇＞の日数。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh191",
+   "term": "有給休暇の平均取得者数",
+   "reading": "ゆうきゅうきゅうかのへいきんしゅとくしゃすう",
+   "easy": "給料をもらうことができる休み＜有給休暇＞を取っている人の数の平均。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh192",
+   "term": "育児休業取得者数",
+   "reading": "いくじきゅうぎょうしゅとくしゃすう",
+   "easy": "子どもを育てるために会社を休む人の数。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh193",
+   "term": "休日",
+   "reading": "きゅうじつ",
+   "easy": "休みの日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh194",
+   "term": "休業",
+   "reading": "きゅうぎょう",
+   "easy": "働く人が、会社から「会社を休みなさい」という指示をもらって、長い間会社を休むこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh195",
+   "term": "勤続年数",
+   "reading": "きんぞくねんすう",
+   "easy": "同じ会社で働いている年数。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh196",
+   "term": "退職",
+   "reading": "たいしょく",
+   "easy": "会社を辞めること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh197",
+   "term": "事由",
+   "reading": "じゆう",
+   "easy": "理由。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh198",
+   "term": "人事異動",
+   "reading": "じんじいどう",
+   "easy": "働く場所や仕事の内容を変えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh199",
+   "term": "在籍",
+   "reading": "ざいせき",
+   "easy": "会社のメンバーになること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh200",
+   "term": "関係会社",
+   "reading": "かんけいがいしゃ",
+   "easy": "会社のグループの別の会社。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh201",
+   "term": "出向",
+   "reading": "しゅっこう",
+   "easy": "自分が働いている会社の命令で、別の会社で働いてもらうこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh202",
+   "term": "配置換え",
+   "reading": "はいちがえ",
+   "easy": "働く場所が変わること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh203",
+   "term": "休職",
+   "reading": "きゅうしょく",
+   "easy": "働く人が、自分の都合で長い間仕事を休むこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh204",
+   "term": "復職",
+   "reading": "ふくしょく",
+   "easy": "休んでいた仕事にもどること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh205",
+   "term": "休職事由",
+   "reading": "きゅうしょくじゆう",
+   "easy": "長い間仕事を休む理由。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh206",
+   "term": "医師の診断書",
+   "reading": "いしのしんだんしょ",
+   "easy": "お医者さんの診断書。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh207",
+   "term": "発令日",
+   "reading": "はつれいび",
+   "easy": "会社があなたに関係がある命令を出す日。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh208",
+   "term": "定年",
+   "reading": "ていねん",
+   "easy": "働く人が、年齢を理由に会社を辞めることになっているとき、会社を辞める年齢。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh209",
+   "term": "継続雇用",
+   "reading": "けいぞくこよう",
+   "easy": "一度会社を辞める年齢になった後、会社がそのままその人を雇うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh210",
+   "term": "退職願",
+   "reading": "たいしょくねがい",
+   "easy": "働く人が会社を辞めたいという書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh211",
+   "term": "その請求に基づき",
+   "reading": "そのせいきゅうにもとづき",
+   "easy": "働く人が会社に要求したら。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh212",
+   "term": "退職証明書",
+   "reading": "たいしょくしょうめいしょ",
+   "easy": "会社を辞める理由などを書いた証明書。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh213",
+   "term": "解雇",
+   "reading": "かいこ",
+   "easy": "会社を辞めさせること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh214",
+   "term": "勤務状況",
+   "reading": "きんむじょうきょう",
+   "easy": "働いているときのその人の状態。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh215",
+   "term": "不良",
+   "reading": "ふりょう",
+   "easy": "よくないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh216",
+   "term": "懲戒解雇",
+   "reading": "ちょうかいかいこ",
+   "easy": "罰として会社を辞めさせること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh217",
+   "term": "天災事変",
+   "reading": "てんさいじへん",
+   "easy": "自然が起こす、いろいろな災害。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh218",
+   "term": "解雇予告手当",
+   "reading": "かいこよこくてあて",
+   "easy": "会社が、働く人をやめさせることを、30日前までに教えなかったときに、会社が平均の給料の30日分以上を、やめさせることを教えるためのお金として支払うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh219",
+   "term": "解雇理由証明書",
+   "reading": "かいこりゆうしょうめいしょ",
+   "easy": "会社が人を辞めさせるときに、どんな理由でその人を辞めさせるのかを書いた証明書。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh220",
+   "term": "横領",
+   "reading": "おうりょう",
+   "easy": "自分が預かっている他の人のお金や品物を勝手に自分のものにすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh221",
+   "term": "傷害",
+   "reading": "しょうがい",
+   "easy": "人にけがをさせること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh222",
+   "term": "無断欠勤",
+   "reading": "むだんけっきん",
+   "easy": "働かなければならない日に、会社に連絡しないで休むこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh223",
+   "term": "退職金",
+   "reading": "たいしょくきん",
+   "easy": "会社を辞めるときにもらうお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh224",
+   "term": "自己都合",
+   "reading": "じこつごう",
+   "easy": "働く人の事情、希望。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh225",
+   "term": "再雇用",
+   "reading": "さいこよう",
+   "easy": "会社を辞める年齢を超えた人を続けて雇うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh226",
+   "term": "遺族",
+   "reading": "いぞく",
+   "easy": "亡くなった人の家族。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh227",
+   "term": "遺産相続人",
+   "reading": "いさんそうぞくにん",
+   "easy": "亡くなった人のお金や品物をもらう人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh228",
+   "term": "懲戒",
+   "reading": "ちょうかい",
+   "easy": "働いている人が悪いことをしたときに、会社がその人の給料を減らしたり、しばらくの間働かせないようにするなどの罰を与えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh229",
+   "term": "情状",
+   "reading": "じょうじょう",
+   "easy": "ある行動をしたときに、その行動をした本当の理由。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh230",
+   "term": "けん責",
+   "reading": "けんせき",
+   "easy": "正しくないことをした人を叱ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh231",
+   "term": "始末書",
+   "reading": "しまつしょ",
+   "easy": "仕事で失敗してしまったときに、反省を書く書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh232",
+   "term": "減給",
+   "reading": "げんきゅう",
+   "easy": "給料を減らすこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh233",
+   "term": "出勤停止",
+   "reading": "しゅっきんていし",
+   "easy": "しばらくの間会社に来させないようにし、その間給料も払わないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh234",
+   "term": "経歴詐称",
+   "reading": "けいれきさしょう",
+   "easy": "働く人が、自分の学校のことやそれまでにしていた仕事＜経歴＞について、大きな嘘をつくこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh235",
+   "term": "故意又は重大な過失",
+   "reading": "こいまたはじゅうだいなかしつ",
+   "easy": "わざと、または、大きな失敗。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh236",
+   "term": "犯罪事実",
+   "reading": "はんざいじじつ",
+   "easy": "刑法その他の刑罰を定めた法律に違反する行動。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh237",
+   "term": "素行不良",
+   "reading": "そこうふりょう",
+   "easy": "いつもの行いが悪いこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh238",
+   "term": "社内秩序",
+   "reading": "しゃないちつじょ",
+   "easy": "会社におけるルール。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh239",
+   "term": "風紀",
+   "reading": "ふうき",
+   "easy": "会社での生活を良いものにするために守らなければならないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh240",
+   "term": "非違行為",
+   "reading": "ひいこうい",
+   "easy": "よくない行動や法律を破る行動。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh241",
+   "term": "誹謗中傷",
+   "reading": "ひぼうちゅうしょう",
+   "easy": "人の悪口を言って、その人を傷つけること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh242",
+   "term": "名誉信用",
+   "reading": "めいよしんよう",
+   "easy": "その人が誇りにしていて、守りたいと思っていること、それから、他の人がその人のことを信じていること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh243",
+   "term": "転勤の可能性",
+   "reading": "てんきんのかのうせい",
+   "easy": "働く場所が変わるかもしれないということ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh244",
+   "term": "確定拠出年金",
+   "reading": "かくていきょしゅつねんきん",
+   "easy": "会社が働く人のために少しずつお金を出して、働く人がそれを使って、その人が年をとって仕事をやめてからもらうことができるお金を自分で作るしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh245",
+   "term": "確定給付年金",
+   "reading": "かくていきゅうふねんきん",
+   "easy": "働く人が年をとって仕事を辞めた後に会社からもらえるお金の額が決まっていて、会社がそのためのお金を少しずつ貯めて、働く人が年をとって仕事を辞めたあとにもらうことができるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh246",
+   "term": "勤務延長",
+   "reading": "きんむえんちょう",
+   "easy": "会社を辞める年齢＜定年＞になった働く人を、会社が続けて雇うしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh247",
+   "term": "離職票",
+   "reading": "りしょくひょう",
+   "easy": "会社を辞めた人が、仕事がなくなったときにもらうお金＜失業給付＞をもらうときに必要な書類。ハローワークが会社に渡し、会社があなたに渡します。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh248",
+   "term": "失業手当＜失業給付＞",
+   "reading": "しつぎょうてあて＜しつぎょうきゅうふ＞",
+   "easy": "仕事がなくなったときに、生活の心配をしないで、新しい仕事を探すことができるように、働く人がもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh249",
+   "term": "傷病",
+   "reading": "しょうびょう",
+   "easy": "けがや病気。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh250",
+   "term": "療養",
+   "reading": "りょうよう",
+   "easy": "けがや病気を治すために会社を休むこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh251",
+   "term": "治癒",
+   "reading": "ちゆ",
+   "easy": "病気やけがなどが治ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh252",
+   "term": "安全・衛生管理者",
+   "reading": "あんぜん・えいせいかんりしゃ",
+   "easy": "働く人が安全に健康に働くことができるように、働く場所を管理する人のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh253",
+   "term": "傷病補償年金",
+   "reading": "しょうびょうほしょうねんきん",
+   "easy": "けがや病気の程度が重く、治療から1年6か月経っても治らない人が、国からもらえるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh254",
+   "term": "打ち切り補償",
+   "reading": "うちきりほしょう",
+   "easy": "けがや病気になった人が治療から3年経っても治らなくて、けがや病気になった人が国からもらうことができるお金＜傷病補償年金＞に当たるお金を会社が働く人に払うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh255",
+   "term": "安全衛生",
+   "reading": "あんぜんえいせい",
+   "easy": "安全に健康に働くことができること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh256",
+   "term": "労働災害",
+   "reading": "ろうどうさいがい",
+   "easy": "仕事が原因で、働いている人がけがをしたり病気になったりすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh257",
+   "term": "機械設備",
+   "reading": "きかいせつび",
+   "easy": "仕事のために使う機械。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh258",
+   "term": "就業前点検",
+   "reading": "しゅうぎょうまえてんけん",
+   "easy": "仕事を始める前に、仕事で使う機械などを確認すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh259",
+   "term": "安全装置",
+   "reading": "あんぜんそうち",
+   "easy": "働く人がけがなどをしないように、機械などに付いているしくみのこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh260",
+   "term": "保護具",
+   "reading": "ほごぐ",
+   "easy": "体を守るために着たりかぶったり履いたりするもの。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh261",
+   "term": "受動喫煙",
+   "reading": "じゅどうきつえん",
+   "easy": "他の人が吸うたばこの煙を吸うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh262",
+   "term": "立入禁止区域",
+   "reading": "たちいりきんしくいき",
+   "easy": "入ってはいけない場所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh263",
+   "term": "通行禁止区域",
+   "reading": "つうこうきんしくいき",
+   "easy": "通ってはいけない場所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh264",
+   "term": "整理整頓",
+   "reading": "せいりせいとん",
+   "easy": "自分のまわりを片付けること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh265",
+   "term": "避難口",
+   "reading": "ひなんぐち",
+   "easy": "災害や事故などが起こったとき、みんなが逃げるために使う出口。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh266",
+   "term": "消火設備",
+   "reading": "しょうかせつび",
+   "easy": "火を消す道具。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh267",
+   "term": "火災",
+   "reading": "かさい",
+   "easy": "火事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh268",
+   "term": "非常災害",
+   "reading": "ひじょうさいがい",
+   "easy": "特別な災害。地震、とても高い波＜津波＞、とても強い風＜暴風＞、台風など。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh269",
+   "term": "臨機の措置",
+   "reading": "りんきのそち",
+   "easy": "そのときの状況によって、いいと思う方法を考えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh270",
+   "term": "健康診断",
+   "reading": "けんこうしんだん",
+   "easy": "健康かどうかを調べるための検査。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh271",
+   "term": "有害業務",
+   "reading": "ゆうがいぎょうむ",
+   "easy": "体に悪い影響のある仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh272",
+   "term": "面接指導",
+   "reading": "めんせつしどう",
+   "easy": "働く人に会って、その人の心や体の様子を知り、良い状態にするための方法を教えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh273",
+   "term": "ストレスチェック",
+   "reading": "ストレスチェック",
+   "easy": "働く人が持っているストレスの程度を調べるための検査。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh274",
+   "term": "安全衛生教育",
+   "reading": "あんぜんえいせいきょういく",
+   "easy": "働く人が安全で健康に働くための教育。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh275",
+   "term": "災害補償",
+   "reading": "さいがいほしょう",
+   "easy": "働く人が仕事中にけがをしたり、病気になったり、亡くなったりした時に会社がお金などで補うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh277",
+   "term": "療養補償給付",
+   "reading": "りょうようほしょうきゅうふ",
+   "easy": "働く人が仕事や通勤によるけがや病気をしたときに、病気を治したり病院に行ったりするために、労災保険からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh278",
+   "term": "休業補償給付",
+   "reading": "きゅうぎょうほしょうきゅうふ",
+   "easy": "働く人が仕事や通勤によるけがや病気で仕事を休み、給料がもらえないとき、労災保険からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh279",
+   "term": "障害補償給付",
+   "reading": "しょうがいほしょうきゅうふ",
+   "easy": "働く人が仕事や通勤によるけがや病気で、体や心などに障害が残ったときに、労災保険からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh280",
+   "term": "介護補償給付",
+   "reading": "かいごほしょうきゅうふ",
+   "easy": "働く人が仕事や通勤によるけがや病気で介護が必要になったときに、労災保険からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh281",
+   "term": "遺族補償給付",
+   "reading": "いぞくほしょうきゅうふ",
+   "easy": "仕事や通勤をしているときの事故などで働く人が亡くなったときに、亡くなった人の家族が労災保険からもらうことができるお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh282",
+   "term": "葬祭料",
+   "reading": "そうさいりょう",
+   "easy": "仕事や通勤をしているときの事故などで働く人が亡くなったときに、亡くなった人の家族が、労災保険からもらうことができる葬式＜人が亡くなったときにする儀式＞のために払ったお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh283",
+   "term": "二次健康診断等給付",
+   "reading": "にじけんこうしんだんとうきゅうふ",
+   "easy": "働く人が会社で受けた健康かどうかを調べるための検査＜健康診断＞で悪い結果が出たときに、もう一度よく調べるために、検査を無料で受けることができるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh284",
+   "term": "パワーハラスメント",
+   "reading": "パワーハラスメント",
+   "easy": "仕事をするときの地位や人間関係などで上の立場にある人がその立場を使って、必要以上に強いまたはひどい言い方ややり方をして、他の人の働く環境を悪くすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh285",
+   "term": "パワハラ",
+   "reading": "パワハラ",
+   "easy": "パワーハラスメントのこと。仕事をするときの地位や人間関係などで上の立場にある人がその立場を使って、必要以上に強いまたはひどい言い方ややり方をして、他の人の働く環境を悪くすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh286",
+   "term": "優越的な関係",
+   "reading": "ゆうえつてきなかんけい",
+   "easy": "上の立場にあること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh287",
+   "term": "就業環境",
+   "reading": "しゅうぎょうかんきょう",
+   "easy": "働く場所の環境。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh288",
+   "term": "セクシュアルハラスメント",
+   "reading": "セクシュアルハラスメント",
+   "easy": "性に関係があるような言い方ややり方をして、他の働く人に嫌な気持ちを与えたり、働く環境を悪くすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh289",
+   "term": "セクハラ",
+   "reading": "セクハラ",
+   "easy": "セクシャルハラスメントのこと。性に関係があるような言い方ややり方をして、他の働く人に嫌な気持ちを与えたり、働く環境を悪くすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh290",
+   "term": "性的言動",
+   "reading": "せいてきげんどう",
+   "easy": "性に関係があるような言い方ややり方。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh291",
+   "term": "マタハラ",
+   "reading": "マタハラ",
+   "easy": "マタニティハラスメントのこと。妊娠することや子どもを産むことについての言い方や行動をすること、それから、妊娠したり、子どもを産んだり、子どもを育てるために使うことができる会社のしくみなどを、働く人が使ったり、使おうとするときに、それについての言い方や行動をすることによって、その人が働く環境を悪くすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh292",
+   "term": "性的指向",
+   "reading": "せいてきしこう",
+   "easy": "どのような性の人を恋愛の対象とするか。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh293",
+   "term": "性自認",
+   "reading": "せいじにん",
+   "easy": "どのような性として生きたいと思っているか。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh295",
+   "term": "在留期間",
+   "reading": "ざいりゅうきかん",
+   "easy": "外国人が、日本にいられる期間。在留期間の最後の日を「在留期限」という。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh296",
+   "term": "技術・人文知識・国際業務＜技人国＞",
+   "reading": "ぎじゅつ・じんぶんちしき・こくさいぎょうむ＜ぎじんこく＞",
+   "easy": "外国人が、大学や専門学校で勉強した知識や外国語の能力を使って仕事をするための資格。たとえば、エンジニア、通訳、デザイナーなどの仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh297",
+   "term": "技能＜在留資格＞",
+   "reading": "ぎのう＜ざいりゅうしかく＞",
+   "easy": "外国人が、特別な技能を使って、日本で仕事をするための資格。たとえば、調理師＜料理を作る人＞、飛行機のパイロットなどの仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh298",
+   "term": "高度専門職",
+   "reading": "こうどせんもんしょく",
+   "easy": "高い能力を持っている外国人が、日本で働くための資格。この資格には1号と2号がある。1号（イ）の資格を持っている人は研究や教育を、1号（ロ）の資格を持っている人は自然科学＜たとえば、数学や物理学＞や人文科学＜たとえば、文学や歴史学＞の知識や技術を使った仕事を、1号（ハ）の資格を持っている人は会社の経営などをすることができる。この資格を持っていると、永住の許可が取りやすくなる。1号の期間が終わると2号に移ることができて、1号よりもできることが増える。2号の資格は、1号の資格を持っている人が3年より長く働いたら、とることができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh299",
+   "term": "特定技能",
+   "reading": "とくていぎのう",
+   "easy": "日本で働く人が足りない職業＜特定産業分野＞の知識や技術を持っている外国人が、日本で働くための資格。この資格には1号と2号がある。1号は、国できめた特定産業分野の14の分野＜介護、製造業、建設、宿泊、農業、外食業など＞で、その分野についての試験に合格したり、技能実習2号を良好に修了したりした外国人が働くことができる。2号は、国が決めた特定産業分野の2つの分野＜建設、造船・舶用工業＞で、高い技術や能力を持っている外国人が働くことができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh300",
+   "term": "技能実習",
+   "reading": "ぎのうじっしゅう",
+   "easy": "日本で働きながら知識や技術を勉強するための資格。この資格には1号、2号、3号がある。技能実習生や技能実習生を雇う会社を助けるところ＜監理団体といいます＞で勉強してから日本の会社＜実習実施機関といいます＞で働くことが多い。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh301",
+   "term": "実習実施機関",
+   "reading": "じっしゅうじっしきかん",
+   "easy": "日本で知識や技術を学ぶために働く外国人＜技能実習生＞を雇う会社のこと。受入企業とも言う。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh302",
+   "term": "監理団体",
+   "reading": "かんりだんたい",
+   "easy": "日本で知識や技術を学ぶために働く外国人＜技能実習生＞を受け入れて、技能実習生や技能実習生を雇う会社を助ける団体。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh303",
+   "term": "送り出し機関",
+   "reading": "おくりだしきかん",
+   "easy": "日本で知識や技術を学ぶために働く外国人＜技能実習生＞を集めて、日本へ送る外国の団体。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh304",
+   "term": "永住者",
+   "reading": "えいじゅうしゃ",
+   "easy": "日本にずっと住むための資格。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh305",
+   "term": "日本人の配偶者等",
+   "reading": "にほんじんのはいぐうしゃとう",
+   "easy": "日本人の夫、妻、子どもなどが日本にいるための資格。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh306",
+   "term": "永住者の配偶者等",
+   "reading": "えいじゅうしゃのはいぐうしゃとう",
+   "easy": "日本にずっと住むことができる外国人＜永住者＞の夫、妻、子どもなどが日本にいるための資格。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh307",
+   "term": "定住者",
+   "reading": "ていじゅうしゃ",
+   "easy": "外国人が、特別な理由で、ある期間日本に住むための資格。たとえば、昔日本から外国に行って外国で暮らすようになった日本人の孫などがこの資格をもらうことができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh308",
+   "term": "特定活動",
+   "reading": "とくていかつどう",
+   "easy": "ほかの在留資格のどれでもないことを行う外国人一人一人に対して、法務大臣が、行うことのできる活動を指定する資格。たとえば、外交官＜外国の代表として日本でその国のための仕事をしている人＞の家で働いている人や、ワーキングホリデーの人などがこの資格をもらうことができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh309",
+   "term": "留学",
+   "reading": "りゅうがく",
+   "easy": "外国人が、外国から日本の学校に勉強しに来る＜留学する＞ための資格。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh310",
+   "term": "家族滞在",
+   "reading": "かぞくたいざい",
+   "easy": "日本にいるための資格を持っている人の家族が日本にいるための資格。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh311",
+   "term": "ワーキング・ホリデー＜ワーホリ＞",
+   "reading": "ワーキング・ホリデー＜ワーホリ＞",
+   "easy": "2つの国が約束をしたら、相手の国で長い休みを取りながら、生活のために働くことができる。このしくみをワーキング・ホリデー＜ワーホリ＞と言う。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh312",
+   "term": "在留資格認定証明書",
+   "reading": "ざいりゅうしかくにんていしょうめいしょ",
+   "easy": "外国人が日本に来る前に、日本に来たら在留資格が認められることを証明する書類。外国人を受け入れる会社や外国人に関係する人が、外国人本人の代わりに入管に申請をして、もらうことができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh313",
+   "term": "査証＜ビザ＞",
+   "reading": "さしょう＜ビザ＞",
+   "easy": "外国人の持っているパスポートが問題ないこととその国に入っても問題ないことを、その外国人が入ろうとしている国が証明する書類。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh314",
+   "term": "特定産業分野",
+   "reading": "とくていさんぎょうぶんや",
+   "easy": "日本人だけでは働く人が足りない分野の職業のこと。この分野の仕事がある会社であれば、特定技能の在留資格で働くことができる。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh315",
+   "term": "在留資格変更許可申請",
+   "reading": "ざいりゅうしかくへんこうきょかしんせい",
+   "easy": "外国人が、日本にいるための資格＜在留資格＞を変えたいときに申し込むこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh316",
+   "term": "更新＜在留期間更新許可申請＞",
+   "reading": "こうしん＜ざいりゅうきかんこうしんきょかしんせい＞",
+   "easy": "在留期間更新許可申請のこと。外国人が、日本にいることができる期間＜在留期間＞が終わる前に、その期間を長くしてそのまま日本にいられるようにするもの。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh317",
+   "term": "法定代理人",
+   "reading": "ほうていだいりにん",
+   "easy": "法律が認めた、本人の代わりをする人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh318",
+   "term": "申請人",
+   "reading": "しんせいにん",
+   "easy": "何かの手続きの申し込みをする人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh320",
+   "term": "就労資格証明書",
+   "reading": "しゅうろうしかくしょうめいしょ",
+   "easy": "外国人が日本で働くときに、その人がどんな仕事をしてもいいのかを書いた証明書。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh321",
+   "term": "入管",
+   "reading": "にゅうかん",
+   "easy": "出入国在留管理局のこと。日本に入ったり日本から出たりする外国人を管理する役所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh322",
+   "term": "パートタイム労働者",
+   "reading": "パートタイムろうどうしゃ",
+   "easy": "法律で決まっている1週間の働く時間が、その会社の就業規則で決められた働く時間の最も長い時間まで働く人よりも短い人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh323",
+   "term": "転換",
+   "reading": "てんかん",
+   "easy": "別のものに変わること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh324",
+   "term": "有期労働契約",
+   "reading": "ゆうきろうどうけいやく",
+   "easy": "働く期間が決まっている契約。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh325",
+   "term": "無期労働契約",
+   "reading": "むきろうどうけいやく",
+   "easy": "働く期間の終わりの日が決まっていない契約。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh326",
+   "term": "雇止め",
+   "reading": "やといどめ",
+   "easy": "働く期間が決まっている人が、その期間が終わっても続けて働くことを会社から断られること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh327",
+   "term": "通算契約期間",
+   "reading": "つうさんけいやくきかん",
+   "easy": "働く契約の合計の期間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh328",
+   "term": "有期雇用特別措置法",
+   "reading": "ゆうきこようとくべつそちほう",
+   "easy": "契約の終わりの日が決まっている働く人が、特別な知識や技術が必要な仕事をしている場合や、会社で決まっている会社を辞める年齢＜定年＞を超えた場合は、自分の働くときの契約を、契約の終わりの日が決まっていない働くときの契約＜無期雇用＞に変えることを申し込むことができる期間が長くなる法律。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh329",
+   "term": "無期転換申込権",
+   "reading": "むきてんかんもうしこみけん",
+   "easy": "契約の終わりの日が決まっている働く人が、契約の終わりの日が決まっていない契約＜無期雇用＞に変えることを申し込む権利。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh330",
+   "term": "特定有期業務",
+   "reading": "とくていゆうきぎょうむ",
+   "easy": "働く人の特別な知識や技術が必要な仕事で、終わるまでに5年以上の時間がかかる仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh331",
+   "term": "契約更新の条件",
+   "reading": "けいやくこうしんのじょうけん",
+   "easy": "会社との契約が終わったとき、その契約を続けるために必要なこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh332",
+   "term": "派遣元",
+   "reading": "はけんもと",
+   "easy": "派遣社員＜派遣会社と契約して別の会社で働く人＞が、契約する会社。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh333",
+   "term": "派遣先",
+   "reading": "はけんさき",
+   "easy": "契約した会社＜派遣元＞が派遣社員を送って、その派遣社員が実際に働く会社。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh334",
+   "term": "直接雇用",
+   "reading": "ちょくせつこよう",
+   "easy": "会社と働く人が、派遣元を通さないで、直接、契約を結んで、その人を雇うこと。正社員、契約社員、パート、アルバイトの人は、直接雇用。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh336",
+   "term": "無期雇用",
+   "reading": "むきこよう",
+   "easy": "会社が働く人を、働く期間の終わりの日を決めないで雇うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh337",
+   "term": "有期雇用",
+   "reading": "ゆうきこよう",
+   "easy": "会社が働く人を、働く期間を決めて雇うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh339",
+   "term": "就業",
+   "reading": "しゅうぎょう",
+   "easy": "仕事。働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh340",
+   "term": "労基法",
+   "reading": "ろうきほう",
+   "easy": "労働基準法。働く人を守るために、国が決めた法律。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh341",
+   "term": "労働者",
+   "reading": "ろうどうしゃ",
+   "easy": "働く人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh342",
+   "term": "服務",
+   "reading": "ふくむ",
+   "easy": "働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh343",
+   "term": "職務能率",
+   "reading": "しょくむのうりつ",
+   "easy": "仕事をできる限り早く終わらせること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh344",
+   "term": "職場秩序",
+   "reading": "しょくばちつじょ",
+   "easy": "会社におけるルール。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh345",
+   "term": "職務専念義務",
+   "reading": "しょくむせんねんぎむ",
+   "easy": "仕事に集中しなければならないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh346",
+   "term": "労使協定",
+   "reading": "ろうしきょうてい",
+   "easy": "働く人の半分以上の人を代表する労働組合や人と会社との間で決めた約束。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh347",
+   "term": "労働者の過半数代表者",
+   "reading": "ろうどうしゃのかはんすうだいひょうしゃ",
+   "easy": "働く人の半分以上の人を代表する人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh348",
+   "term": "労働基準監督署長",
+   "reading": "ろうどうきじゅんかんとくしょちょう",
+   "easy": "働く人が正しい条件で働いているかを調べるところの一番偉い人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh349",
+   "term": "母性健康管理",
+   "reading": "ぼせいけんこうかんり",
+   "easy": "妊娠しているときや子どもを産んだあとの働く女性の健康を守るためにしなければならないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh350",
+   "term": "職責",
+   "reading": "しょくせき",
+   "easy": "働く人としての責任。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh351",
+   "term": "個別労働関係紛争",
+   "reading": "こべつろうどうかんけいふんそう",
+   "easy": "働く条件など働くことに関係することで、働く人と雇う人の間で対立すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh352",
+   "term": "調停",
+   "reading": "ちょうてい",
+   "easy": "対立する人の間に入り、問題をなくすこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh353",
+   "term": "労働組合",
+   "reading": "ろうどうくみあい",
+   "easy": "働く人が自分から働く環境をより良くし、働く人の立場を上げるためにつくる組織のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh354",
+   "term": "公益通報",
+   "reading": "こうえきつうほう",
+   "easy": "会社が法律を破る行為や悪いことをしているとき、そのことを外に知らせること。内部告発。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh355",
+   "term": "教育訓練",
+   "reading": "きょういくくんれん",
+   "easy": "働く人が仕事で使う能力を伸ばすために会社がする教育や訓練。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh356",
+   "term": "副業・兼業",
+   "reading": "ふくぎょう・けんぎょう",
+   "easy": "他の会社などでも仕事をすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh357",
+   "term": "労務提供",
+   "reading": "ろうむていきょう",
+   "easy": "自分が働いている会社で働くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh358",
+   "term": "競業",
+   "reading": "きょうぎょう",
+   "easy": "自分の会社と同じ種類の仕事をしている他の会社と競争すること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh359",
+   "term": "事業場",
+   "reading": "じぎょうじょう",
+   "easy": "仕事をする場所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh360",
+   "term": "使用者",
+   "reading": "しようしゃ",
+   "easy": "会社や、会社の中で大切な立場にいる人のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh361",
+   "term": "雇用期間",
+   "reading": "こようきかん",
+   "easy": "会社が働く人を雇う期間。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh362",
+   "term": "雇用形態",
+   "reading": "こようけいたい",
+   "easy": "会社と働く人が結ぶ契約のタイプで、正社員、契約社員、派遣社員、アルバイトなどがある。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh363",
+   "term": "正社員",
+   "reading": "せいしゃいん",
+   "easy": "会社が期間が決まっていない契約＜無期雇用＞で雇っている人のこと。その会社の働く人と会社のための規則＜就業規則＞で決まっている働く時間の最も長い時間まで働く。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh364",
+   "term": "職務給制度",
+   "reading": "しょくむきゅうせいど",
+   "easy": "働いている人の仕事の内容に合うように払うお金を決めるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh365",
+   "term": "役職制度",
+   "reading": "やくしょくせいど",
+   "easy": "会社が働く人を能力や仕事で分けて、一部の人に大切な役割を与えるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh366",
+   "term": "職能給制度",
+   "reading": "しょくのうきゅうせいど",
+   "easy": "働く人の仕事をする能力に合わせて、会社が給料を払うしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh367",
+   "term": "成果主義",
+   "reading": "せいかしゅぎ",
+   "easy": "働く人が仕事などで出した結果に合わせて、会社がその人の給料を上げたり、その人に会社の中で大切な役割を与えたりすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh368",
+   "term": "福利厚生",
+   "reading": "ふくりこうせい",
+   "easy": "会社が、働く人やその家族を、給料以外のもので助けるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh369",
+   "term": "社員食堂",
+   "reading": "しゃいんしょくどう",
+   "easy": "会社にある、その会社で働く人がご飯を食べる場所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh370",
+   "term": "寮",
+   "reading": "りょう",
+   "easy": "会社で働く人たちが一緒に住む家。働く人にそれぞれプライベートな場所がある。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh371",
+   "term": "社宅",
+   "reading": "しゃたく",
+   "easy": "会社が働く人に貸す家。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh372",
+   "term": "寄宿舎",
+   "reading": "きしゅくしゃ",
+   "easy": "働く人がいっしょに寝たり食べたりする家。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh374",
+   "term": "ワークライフバランス",
+   "reading": "ワークライフバランス",
+   "easy": "仕事と生活のバランスがいいこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh375",
+   "term": "遵守",
+   "reading": "じゅんしゅ",
+   "easy": "法律などを守ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh376",
+   "term": "義務",
+   "reading": "ぎむ",
+   "easy": "やらなければならないこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh377",
+   "term": "業務外",
+   "reading": "ぎょうむがい",
+   "easy": "仕事以外のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh378",
+   "term": "満了",
+   "reading": "まんりょう",
+   "easy": "終わること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh379",
+   "term": "金品の借用",
+   "reading": "きんぴんのしゃくよう",
+   "easy": "お金や物などを借りること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh380",
+   "term": "贈与",
+   "reading": "ぞうよ",
+   "easy": "お金や物などをあげること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh381",
+   "term": "不正行為",
+   "reading": "ふせいこうい",
+   "easy": "法律などに反する、悪い行い。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh382",
+   "term": "取引先",
+   "reading": "とりひきさき",
+   "easy": "その会社と仕事をしている会社。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh383",
+   "term": "機密漏洩",
+   "reading": "きみつろうえい",
+   "easy": "秘密を他の人に教えること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh384",
+   "term": "酒気",
+   "reading": "しゅき",
+   "easy": "お酒を飲んだ状態のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh385",
+   "term": "個人情報保護",
+   "reading": "こじんじょうほうほご",
+   "easy": "人や、自分の会社や、一緒に仕事をしている会社の情報を守ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh386",
+   "term": "事前承認",
+   "reading": "じぜんしょうにん",
+   "easy": "実際にやる前に、許可をもらうこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh387",
+   "term": "事後承認",
+   "reading": "じごしょうにん",
+   "easy": "後で許可をもらうこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh388",
+   "term": "控除",
+   "reading": "こうじょ",
+   "easy": "引くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh389",
+   "term": "所轄",
+   "reading": "しょかつ",
+   "easy": "あなたの住む場所や会社の地域の担当。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh390",
+   "term": "保健指導",
+   "reading": "ほけんしどう",
+   "easy": "健康のために必要な指導。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh391",
+   "term": "健康診査",
+   "reading": "けんこうしんさ",
+   "easy": "健康状態を調べるための検査。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh392",
+   "term": "時間内通院",
+   "reading": "じかんないつういん",
+   "easy": "働くことになっている時間に病院に行くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh393",
+   "term": "配偶者",
+   "reading": "はいぐうしゃ",
+   "easy": "夫か妻。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh394",
+   "term": "裁判員",
+   "reading": "さいばんいん",
+   "easy": "裁判をする人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh395",
+   "term": "食品衛生管理者",
+   "reading": "しょくひんえいせいかんりしゃ",
+   "easy": "食品に手を加える工場などで、安全で健康な食品を作ることができるように働く場所を管理する人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh396",
+   "term": "調理師",
+   "reading": "ちょうりし",
+   "easy": "料理の知識や技術があり、料理の仕事をして良いという許可をもらって料理を仕事にしている人。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh397",
+   "term": "栄養士",
+   "reading": "えいようし",
+   "easy": "栄養について教えたり管理したりする人のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh398",
+   "term": "責に帰すべき事由",
+   "reading": "せきにきすべきじゆう",
+   "easy": "会社の都合。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh399",
+   "term": "小売業",
+   "reading": "こうりぎょう",
+   "easy": "商品を作っている会社などから商品を買って、その商品を買う人に売る仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh400",
+   "term": "サービス業",
+   "reading": "サービスぎょう",
+   "easy": "いろいろな人にサービスを与える仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh401",
+   "term": "卸売業",
+   "reading": "おろしうりぎょう",
+   "easy": "商品を作っている会社から商品を買って、商品を売る会社に商品を売る仕事。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh402",
+   "term": "会社都合",
+   "reading": "かいしゃつごう",
+   "easy": "会社側の理由のこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh403",
+   "term": "屋内の受動喫煙対策",
+   "reading": "おくないのじゅどうきつえんたいさく",
+   "easy": "建物の中で、他の人が吸ったタバコの煙を吸わないですむように、会社が対策をすること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh404",
+   "term": "マイカー通勤",
+   "reading": "マイカーつうきん",
+   "easy": "会社に通うときに自分の車を使うこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh405",
+   "term": "年齢制限",
+   "reading": "ねんれいせいげん",
+   "easy": "何かをするときに、そのことをしてもよい年齢が決まっていること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh406",
+   "term": "外国人雇用実績",
+   "reading": "がいこくじんこようじっせき",
+   "easy": "会社がどのくらい外国人を雇っているかを表す数字。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh407",
+   "term": "利用可能託児施設",
+   "reading": "りようかのうたくじしせつ",
+   "easy": "働く人が使うことができる、6歳以下の子どもを預けることができる場所。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh408",
+   "term": "平均勤続勤務年数",
+   "reading": "へいきんきんぞくきんむねんすう",
+   "easy": "働いている人が、同じ会社で働き続けている年数の平均。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh409",
+   "term": "メンター制度",
+   "reading": "メンターせいど",
+   "easy": "上の立場の働く人が、下の立場の働く人の仕事などを助けるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh410",
+   "term": "キャリアコンサルティング制度",
+   "reading": "キャリアコンサルティングせいど",
+   "easy": "働く人が、仕事を選ぶことや能力を伸ばすために、会社に相談することができるしくみ。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh411",
+   "term": "社内検定",
+   "reading": "しゃないけんてい",
+   "easy": "会社が働く人に行っている試験。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh412",
+   "term": "出産者数",
+   "reading": "しゅっさんしゃすう",
+   "easy": "子どもを産んだ人の数。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh413",
+   "term": "役員及び管理的地位にある者に占める女性の割合",
+   "reading": "やくいんおよびかんりてきちいにあるものにしめるじょせいのわりあい",
+   "easy": "役職の立場の人全員の中での女性の割合。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh414",
+   "term": "自己啓発",
+   "reading": "じこけいはつ",
+   "easy": "働いている人が仕事についての知識を増やし、能力を伸ばすこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh415",
+   "term": "水道光熱費",
+   "reading": "すいどうこうねつひ",
+   "easy": "水道、電気、ガスを使うために必要なお金。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh416",
+   "term": "過労死",
+   "reading": "かろうし",
+   "easy": "長い時間働いたために、働く人が健康ではなくなって、死んでしまうこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh417",
+   "term": "コンプライアンス",
+   "reading": "コンプライアンス",
+   "easy": "法律や、社会のルールを守ること。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "mh418",
+   "term": "署名",
+   "reading": "しょめい",
+   "easy": "書類などに、その人がその書類の内容を認めたことなどを示すために、その人の名前を書くこと。",
+   "source": "mhlw-tagengo-yougo"
+  },
+  {
+   "id": "jl印鑑登録",
+   "term": "印鑑登録",
+   "reading": "いんかんとうろく",
+   "en": "seal registration",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl火災保険",
+   "term": "火災保険",
+   "reading": "かさいほけん",
+   "en": "fire insurance",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl義務教育",
+   "term": "義務教育",
+   "reading": "ぎむきょういく",
+   "en": "compulsory education",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl教育委員会",
+   "term": "教育委員会",
+   "reading": "きょういくいいんかい",
+   "en": "board of education",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl警察署",
+   "term": "警察署",
+   "reading": "けいさつしょ",
+   "en": "police station",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl契約書",
+   "term": "契約書",
+   "reading": "けいやくしょ",
+   "en": "contract",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl公共職業安定所",
+   "term": "公共職業安定所",
+   "reading": "こうきょうしょくぎょうあんていしょ",
+   "en": "public employment security office",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl住民基本台帳",
+   "term": "住民基本台帳",
+   "reading": "じゅうみんきほんだいちょう",
+   "en": "basic register of residents",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl住民票",
+   "term": "住民票",
+   "reading": "じゅうみんひょう",
+   "en": "resident record",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl出入国管理",
+   "term": "出入国管理",
+   "reading": "しゅつにゅうこくかんり",
+   "en": "immigration control",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl職業訓練",
+   "term": "職業訓練",
+   "reading": "しょくぎょうくんれん",
+   "en": "vocational training",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl申請書",
+   "term": "申請書",
+   "reading": "しんせいしょ",
+   "en": "written application; application form",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl請求書",
+   "term": "請求書",
+   "reading": "せいきゅうしょ",
+   "en": "written claim; written demand",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl世帯主",
+   "term": "世帯主",
+   "reading": "せたいぬし",
+   "en": "householder",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl損害賠償",
+   "term": "損害賠償",
+   "reading": "そんがいばいしょう",
+   "en": "damages; damages",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl損害保険",
+   "term": "損害保険",
+   "reading": "そんがいほけん",
+   "en": "non-life insurance",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl宅地建物取引業",
+   "term": "宅地建物取引業",
+   "reading": "たくちたてものとりひきぎょう",
+   "en": "real estate brokerage",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl通知書",
+   "term": "通知書",
+   "reading": "つうちしょ",
+   "en": "written notice",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl手数料",
+   "term": "手数料",
+   "reading": "てすうりょう",
+   "en": "fee; commission",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl登録証",
+   "term": "登録証",
+   "reading": "とうろくしょう",
+   "en": "registration certificate",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl登録証明書",
+   "term": "登録証明書",
+   "reading": "とうろくしょうめいしょ",
+   "en": "registration certificate",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl難民認定",
+   "term": "難民認定",
+   "reading": "なんみんにんてい",
+   "en": "refugee (status) recognition",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl不動産",
+   "term": "不動産",
+   "reading": "ふどうさん",
+   "en": "immovables; immovable property",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl分割払い",
+   "term": "分割払い",
+   "reading": "ぶんかつばらい",
+   "en": "installment payments",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl保育所",
+   "term": "保育所",
+   "reading": "ほいくしょ",
+   "en": "nursery school",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl保険料",
+   "term": "保険料",
+   "reading": "ほけんりょう",
+   "en": "insurance premium",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl保護者",
+   "term": "保護者",
+   "reading": "ほごしゃ",
+   "en": "parent or guardian",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl保証人",
+   "term": "保証人",
+   "reading": "ほしょうにん",
+   "en": "guarantor",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "jl本人確認",
+   "term": "本人確認",
+   "reading": "ほんにんかくにん",
+   "en": "identity verification",
+   "source": "jlt-standard-dict"
+  },
+  {
+   "id": "dr生年月日",
+   "term": "生年月日",
+   "reading": "せいねんがっぴ",
+   "easy": "生まれた年と月と日のことです。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr受付",
+   "term": "受付",
+   "reading": "うけつけ",
+   "easy": "病院や役所で、来た人の話を最初に聞く場所や人のことです。",
+   "source": "draft",
+   "alt": [
+    "受け付け"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr診察券",
+   "term": "診察券",
+   "reading": "しんさつけん",
+   "easy": "病院でもらうカードです。次に同じ病院に行くとき、受付に出します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr間取り",
+   "term": "間取り",
+   "reading": "まどり",
+   "easy": "家の中に、どんな部屋がいくつあるかということです。「1K」「1LDK」のように書きます。",
+   "source": "draft",
+   "alt": [
+    "間取"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr1K",
+   "term": "1K",
+   "reading": "ワンケー",
+   "easy": "部屋が1つと、台所（K）がある家のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr管理費",
+   "term": "管理費",
+   "reading": "かんりひ",
+   "easy": "アパートやマンションで、みんなが使うものに払うお金です。住んでいる人から集めます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr敷金",
+   "term": "敷金",
+   "reading": "しききん",
+   "easy": "部屋を借りるとき、最初に大家に預けるお金です。部屋を出るとき、残りが戻ることがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr入居",
+   "term": "入居",
+   "reading": "にゅうきょ",
+   "easy": "借りた部屋や家に住み始めることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr内見",
+   "term": "内見",
+   "reading": "ないけん",
+   "easy": "借りる約束をする前に、本当に部屋を見に行くことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr保証会社",
+   "term": "保証会社",
+   "reading": "ほしょうがいしゃ",
+   "easy": "部屋を借りるとき、保証人の代わりになる会社です。家賃が払えないとき、代わりに払います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr在職証明書",
+   "term": "在職証明書",
+   "reading": "ざいしょくしょうめいしょ",
+   "easy": "今その会社で働いていることを書いた紙です。働いている会社に出してもらいます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr緊急連絡先",
+   "term": "緊急連絡先",
+   "reading": "きんきゅうれんらくさき",
+   "easy": "急に困ったことがあったとき、あなたの代わりに連絡する人の電話番号などです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr重要事項説明",
+   "term": "重要事項説明",
+   "reading": "じゅうようじこうせつめい",
+   "easy": "部屋を借りる約束の前に、大切なことを説明してもらうことです。よく聞いて、わからないことは聞きます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr転出証明書",
+   "term": "転出証明書",
+   "reading": "てんしゅつしょうめいしょ",
+   "easy": "前に住んでいたまちの役所で、引っ越すときにもらう紙です。新しいまちの役所に出します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr市民課",
+   "term": "市民課",
+   "reading": "しみんか",
+   "easy": "市役所で、住所の届けなどの手続きをするところです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr洗濯機",
+   "term": "洗濯機",
+   "reading": "せんたくき",
+   "easy": "服を洗う機械です。粗大ごみ（大きいごみ）として出すことができません。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr持ち込み",
+   "term": "持ち込み",
+   "reading": "もちこみ",
+   "easy": "自分で物を、決められた場所まで持って行くことです。",
+   "source": "draft",
+   "alt": [
+    "持込み",
+    "持込"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr収集日",
+   "term": "収集日",
+   "reading": "しゅうしゅうび",
+   "easy": "ごみを集めに来る日のことです。その日に、決められた場所にごみを出します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr開栓",
+   "term": "開栓",
+   "reading": "かいせん",
+   "easy": "ガスを使うことができるようにすることです。係の人が家に来ることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr立ち会い",
+   "term": "立ち会い",
+   "reading": "たちあい",
+   "easy": "係の人が仕事をするとき、そこにいることです。自分か、代わりの人が家で待ちます。",
+   "source": "draft",
+   "alt": [
+    "立会い",
+    "立会",
+    "お立ち会い"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr都市ガス",
+   "term": "都市ガス",
+   "reading": "としガス",
+   "easy": "ガスの種類の一つです。管を通って家に来るガスです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drプロパンガス",
+   "term": "プロパンガス",
+   "reading": "プロパンガス",
+   "easy": "ガスの種類の一つです。LPガスともいいます。",
+   "source": "draft",
+   "alt": [
+    "LPガス"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drガスコンロ",
+   "term": "ガスコンロ",
+   "reading": "ガスコンロ",
+   "easy": "ガスの火で料理をする道具です。ガスの種類に合ったものでないと使えません。",
+   "source": "draft",
+   "alt": [
+    "コンロ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr口座振替",
+   "term": "口座振替",
+   "reading": "こうざふりかえ",
+   "easy": "あなたの銀行の口座から、お金を自動で払う方法です。申し込みの紙を出します。",
+   "source": "draft",
+   "alt": [
+    "口座振り替え"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお客さまセンター",
+   "term": "お客さまセンター",
+   "reading": "おきゃくさまセンター",
+   "easy": "会社で、お客さんからの電話や相談を受けるところです。",
+   "source": "draft",
+   "alt": [
+    "お客様センター"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお客さま番号",
+   "term": "お客さま番号",
+   "reading": "おきゃくさまばんごう",
+   "easy": "会社があなたにつけた番号です。請求書や検針票に書いてあります。電話のときに伝えます。",
+   "source": "draft",
+   "alt": [
+    "お客様番号"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr検針票",
+   "term": "検針票",
+   "reading": "けんしんひょう",
+   "easy": "ガス・電気・水道をどのくらい使ったか書いてある紙です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr使用期間",
+   "term": "使用期間",
+   "reading": "しようきかん",
+   "easy": "使った期間のことです。いつからいつまで使ったか、という意味です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr使用量",
+   "term": "使用量",
+   "reading": "しようりょう",
+   "easy": "使った量のことです。ガスなどをどのくらい使ったか、という意味です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr再発行",
+   "term": "再発行",
+   "reading": "さいはっこう",
+   "easy": "書類などを、もう一度作って出してもらうことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr在庫",
+   "term": "在庫",
+   "reading": "ざいこ",
+   "easy": "店にある、売るための品物のことです。売り場になくても、店の奥にあることがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr試着",
+   "term": "試着",
+   "reading": "しちゃく",
+   "easy": "買う前に、服を着てみることです。店員に声をかけてから着ます。",
+   "source": "draft",
+   "alt": [
+    "ご試着"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお取り寄せ",
+   "term": "お取り寄せ",
+   "reading": "おとりよせ",
+   "easy": "店にない品物を、ほかの店などから送ってもらうことです。",
+   "source": "draft",
+   "alt": [
+    "取り寄せ",
+    "お取寄せ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr切らしております",
+   "term": "切らしております",
+   "reading": "きらしております",
+   "easy": "今、その品物が店にない、という意味です。ていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "切らしています",
+    "切らしてる"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drサービスカウンター",
+   "term": "サービスカウンター",
+   "reading": "サービスカウンター",
+   "easy": "店で、返品や交換、相談などを受けるところです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr返品",
+   "term": "返品",
+   "reading": "へんぴん",
+   "easy": "買った品物を店に返して、お金を返してもらうことです。",
+   "source": "draft",
+   "alt": [
+    "ご返品"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr交換",
+   "term": "交換",
+   "reading": "こうかん",
+   "easy": "買った品物を、別の同じ品物にかえてもらうことです。",
+   "source": "draft",
+   "alt": [
+    "ご交換"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr粗大ごみ",
+   "term": "粗大ごみ",
+   "reading": "そだいごみ",
+   "easy": "家具など、大きいごみのことです。電話やインターネットで申し込んで出すことが多いです。",
+   "source": "draft",
+   "alt": [
+    "粗大ゴミ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr処理券",
+   "term": "処理券",
+   "reading": "しょりけん",
+   "easy": "粗大ごみを出すときに買って、品物にはるシールのことです。コンビニなどで買うことが多いです。",
+   "source": "draft",
+   "alt": [
+    "粗大ごみ処理券",
+    "ごみ処理券"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr家電リサイクル",
+   "term": "家電リサイクル",
+   "reading": "かでんリサイクル",
+   "easy": "エアコン・テレビ・冷蔵庫・洗濯機などを捨てるときの決まりです。粗大ごみには出せません。買った店などに頼みます。",
+   "source": "draft",
+   "alt": [
+    "家電リサイクル法"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr冷蔵庫",
+   "term": "冷蔵庫",
+   "reading": "れいぞうこ",
+   "easy": "食べ物や飲み物を冷たくしておく、電気の箱のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr収集",
+   "term": "収集",
+   "reading": "しゅうしゅう",
+   "easy": "ごみを集めて、持っていくことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr受付センター",
+   "term": "受付センター",
+   "reading": "うけつけセンター",
+   "easy": "電話やインターネットで、申し込みを受ける所のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr予約",
+   "term": "予約",
+   "reading": "よやく",
+   "easy": "使う日や時間を、前に決めて頼んでおくことです。",
+   "source": "draft",
+   "alt": [
+    "ご予約"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr満席",
+   "term": "満席",
+   "reading": "まんせき",
+   "easy": "席が全部うまっていて、空いている席がないことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drコース",
+   "term": "コース",
+   "reading": "コース",
+   "easy": "お店で、決まった順番に料理が出てくるセットのことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drお席",
+   "term": "お席",
+   "reading": "おせき",
+   "easy": "「席」のていねいな言い方です。すわる場所のことです。",
+   "source": "draft",
+   "alt": [
+    "席"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr名様",
+   "term": "名様",
+   "reading": "めいさま",
+   "easy": "「〜人」のていねいな言い方です。「2名様」は「2人」という意味です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "名"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお迎え",
+   "term": "お迎え",
+   "reading": "おむかえ",
+   "easy": "あなたがいる所まで、車が来ることです。",
+   "source": "draft",
+   "alt": [
+    "迎え"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr目印",
+   "term": "目印",
+   "reading": "めじるし",
+   "easy": "場所がわかるように、見てすぐわかる物のことです。近くの店や建物などを言います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr予約料",
+   "term": "予約料",
+   "reading": "よやくりょう",
+   "easy": "タクシーを予約して、迎えに来てもらうときにかかることがあるお金です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr初診",
+   "term": "初診",
+   "reading": "しょしん",
+   "easy": "その病院で、はじめて医者にみてもらうことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr保険証",
+   "term": "保険証",
+   "reading": "ほけんしょう",
+   "easy": "医療保険に入っていることを示すカードです。病院の受付で出します。",
+   "source": "draft",
+   "alt": [
+    "健康保険証"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drマイナンバーカード",
+   "term": "マイナンバーカード",
+   "reading": "マイナンバーカード",
+   "easy": "一人ひとりの番号が書いてあるカードです。病院で保険証の代わりに使えることがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drせき",
+   "term": "せき",
+   "reading": "せき",
+   "easy": "のどから「ゴホゴホ」と強く息が出ることです。かぜのときによく出ます。",
+   "source": "draft",
+   "alt": [
+    "咳"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr問診票",
+   "term": "問診票",
+   "reading": "もんしんひょう",
+   "easy": "病気のようす、いつからか、飲んでいる薬などを書く紙です。医者にみてもらう前に書きます。",
+   "source": "draft",
+   "alt": [
+    "問診表"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr返金",
+   "term": "返金",
+   "reading": "へんきん",
+   "easy": "買った物のお金を、店が返すことです。カードで払ったときは、お金がカードに戻ることが多いです。",
+   "source": "draft",
+   "alt": [
+    "ご返金"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drレシート",
+   "term": "レシート",
+   "reading": "レシート",
+   "easy": "買い物をしたときに、店からもらう紙です。買った物と値段が書いてあります。交換のときに見せます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr初期不良",
+   "term": "初期不良",
+   "reading": "しょきふりょう",
+   "easy": "買ってすぐなのに、商品がこわれていたり、うまく動かなかったりすることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drコードレス掃除機",
+   "term": "コードレス掃除機",
+   "reading": "コードレスそうじき",
+   "easy": "電気のコードがない掃除機です。電気をためて使います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr取り寄せ",
+   "term": "取り寄せ",
+   "reading": "とりよせ",
+   "easy": "店にない商品を、ほかの店や会社から送ってもらうことです。届くまで待ちます。",
+   "source": "draft",
+   "alt": [
+    "お取り寄せ",
+    "取寄せ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr何名様",
+   "term": "何名様",
+   "reading": "なんめいさま",
+   "easy": "「何人ですか」という意味です。店に来た人の数を答えます。「3人です」と言うか、指で見せます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "何名さま"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr禁煙席",
+   "term": "禁煙席",
+   "reading": "きんえんせき",
+   "easy": "たばこを吸ってはいけない席です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr喫煙席",
+   "term": "喫煙席",
+   "reading": "きつえんせき",
+   "easy": "たばこを吸ってもいい席です。たばこを吸える年齢でない人は、入れません。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr全席禁煙",
+   "term": "全席禁煙",
+   "reading": "ぜんせききんえん",
+   "easy": "店のどの席でも、たばこを吸ってはいけないという意味です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr喫煙室",
+   "term": "喫煙室",
+   "reading": "きつえんしつ",
+   "easy": "たばこを吸うための部屋です。店の中では、この部屋でだけ吸えることがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drテーブル席",
+   "term": "テーブル席",
+   "reading": "テーブルせき",
+   "easy": "テーブルといすがある、ふつうの席です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drカウンター席",
+   "term": "カウンター席",
+   "reading": "カウンターせき",
+   "easy": "店の人が働く場所の前にある、長い台に並んで座る席です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drお子様用のいす",
+   "term": "お子様用のいす",
+   "reading": "おこさまようのいす",
+   "easy": "小さい子どもが座るための、特別ないすです。",
+   "source": "draft",
+   "alt": [
+    "子ども用のいす",
+    "お子様いす"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr照り焼き",
+   "term": "照り焼き",
+   "reading": "てりやき",
+   "easy": "しょうゆやみりんなどの、あまいたれをつけて焼いた料理です。",
+   "source": "draft",
+   "alt": [
+    "照焼き"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr塩焼き",
+   "term": "塩焼き",
+   "reading": "しおやき",
+   "easy": "塩をつけて焼いた料理です。魚が多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr定食",
+   "term": "定食",
+   "reading": "ていしょく",
+   "easy": "ごはん、みそしる、おかずなどが、一つのセットになった料理です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drみりん",
+   "term": "みりん",
+   "reading": "みりん",
+   "easy": "料理をあまくする、味をつけるものです。お酒が入っています。",
+   "source": "draft",
+   "alt": [
+    "味醂"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr料理酒",
+   "term": "料理酒",
+   "reading": "りょうりしゅ",
+   "easy": "料理の味をつけるために使うお酒です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drラード",
+   "term": "ラード",
+   "reading": "ラード",
+   "easy": "豚のあぶらです。料理に使います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drゼラチン",
+   "term": "ゼラチン",
+   "reading": "ゼラチン",
+   "easy": "ゼリーなどをかためるものです。豚などの動物から作ることがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drだし",
+   "term": "だし",
+   "reading": "だし",
+   "easy": "魚やこんぶ、肉などを煮て作る、スープのもとです。料理の味をつけます。",
+   "source": "draft",
+   "alt": [
+    "出汁"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drハラール",
+   "term": "ハラール",
+   "reading": "ハラール",
+   "easy": "イスラム教のきまりで、食べてもいいもののことです。",
+   "source": "draft",
+   "alt": [
+    "ハラル"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr揚げ油",
+   "term": "揚げ油",
+   "reading": "あげあぶら",
+   "easy": "天ぷらなどを、たくさんの油で料理するときに使う油です。ほかの料理と同じ油を使う店が多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr染み抜き",
+   "term": "染み抜き",
+   "reading": "しみぬき",
+   "easy": "服についた汚れ（しみ）をとることです。ふつうの料金とは別にお金がかかることが多いです。",
+   "source": "draft",
+   "alt": [
+    "しみ抜き",
+    "シミ抜き"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drデラックス",
+   "term": "デラックス",
+   "reading": "デラックス",
+   "easy": "ふつうより、ていねいに仕上げるコースです。ふつうの料金とは別にお金がかかることが多いです。",
+   "source": "draft",
+   "alt": [
+    "デラックス仕上げ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr仕上がり",
+   "term": "仕上がり",
+   "reading": "しあがり",
+   "easy": "クリーニングが終わって、服ができることです。「仕上がり日」は、服を取りに行ける日です。",
+   "source": "draft",
+   "alt": [
+    "お仕上がり",
+    "仕上り"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drワイシャツ",
+   "term": "ワイシャツ",
+   "reading": "ワイシャツ",
+   "easy": "仕事などで着る、えりとボタンがあるシャツです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drハンガー仕上げ",
+   "term": "ハンガー仕上げ",
+   "reading": "ハンガーしあげ",
+   "easy": "洗った服を、ハンガーにかけた形で返すことです。",
+   "source": "draft",
+   "alt": [
+    "ハンガーしあげ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drたたみ仕上げ",
+   "term": "たたみ仕上げ",
+   "reading": "たたみしあげ",
+   "easy": "洗った服を、たたんだ形で返すことです。",
+   "source": "draft",
+   "alt": [
+    "たたみしあげ",
+    "畳み仕上げ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr引換券",
+   "term": "引換券",
+   "reading": "ひきかえけん",
+   "easy": "出した服を受け取るときに見せる紙です。なくさないようにします。",
+   "source": "draft",
+   "alt": [
+    "引き換え券",
+    "引換え券",
+    "預かり証"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr会員カード",
+   "term": "会員カード",
+   "reading": "かいいんカード",
+   "easy": "店の会員が持つカードです。ポイントや割引に使うことがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr海外送金",
+   "term": "海外送金",
+   "reading": "かいがいそうきん",
+   "easy": "外国にいる人や銀行に、お金を送ることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr外国送金依頼書",
+   "term": "外国送金依頼書",
+   "reading": "がいこくそうきんいらいしょ",
+   "easy": "外国にお金を送るときに、銀行に出す紙です。受取人の名前や銀行などを書きます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drSWIFTコード",
+   "term": "SWIFTコード",
+   "reading": "スウィフトコード",
+   "easy": "外国にお金を送るときに使う、銀行ごとの記号です。前もって家族に聞いておくとよいです。",
+   "source": "draft",
+   "alt": [
+    "スウィフトコード"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drマイナンバー",
+   "term": "マイナンバー",
+   "reading": "マイナンバー",
+   "easy": "日本に住んでいる人ひとりひとりにある番号です。税金などの手続きで使います。",
+   "source": "draft",
+   "alt": [
+    "個人番号"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr中継銀行",
+   "term": "中継銀行",
+   "reading": "ちゅうけいぎんこう",
+   "easy": "外国にお金を送るとき、あいだに入る銀行です。手数料がかかることがあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr受取人",
+   "term": "受取人",
+   "reading": "うけとりにん",
+   "easy": "お金や物を受け取る人のことです。",
+   "source": "draft",
+   "alt": [
+    "受け取り人"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr特急",
+   "term": "特急",
+   "reading": "とっきゅう",
+   "easy": "とても速い電車です。止まらない駅があります。乗車券のほかに特急券が必要なことが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr快速",
+   "term": "快速",
+   "reading": "かいそく",
+   "easy": "ふつうの電車より速い電車です。止まらない駅があります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr乗車券",
+   "term": "乗車券",
+   "reading": "じょうしゃけん",
+   "easy": "電車に乗るためのきっぷです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr特急券",
+   "term": "特急券",
+   "reading": "とっきゅうけん",
+   "easy": "特急に乗るときに、乗車券のほかに買うきっぷです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr指定席",
+   "term": "指定席",
+   "reading": "していせき",
+   "easy": "座る席が決まっている席です。きっぷに席の番号が書いてあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr自由席",
+   "term": "自由席",
+   "reading": "じゆうせき",
+   "easy": "決まった席がない席です。あいている席に座ることができます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr乗り換え",
+   "term": "乗り換え",
+   "reading": "のりかえ",
+   "easy": "途中で、ほかの電車に乗ることです。携帯電話では、ほかの会社に変えることも言います。",
+   "source": "draft",
+   "alt": [
+    "乗換",
+    "乗換え",
+    "乗りかえ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr振替輸送",
+   "term": "振替輸送",
+   "reading": "ふりかえゆそう",
+   "easy": "電車が止まったときに、ほかの電車やバスなどに乗って行くことができることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drフロント",
+   "term": "フロント",
+   "reading": "フロント",
+   "easy": "ホテルの受付のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr手配",
+   "term": "手配",
+   "reading": "てはい",
+   "easy": "必要なものを用意することです。タクシーの手配は、タクシーを呼ぶことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr正面玄関",
+   "term": "正面玄関",
+   "reading": "しょうめんげんかん",
+   "easy": "建物の前にある、いちばん大きな入り口のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr迎車",
+   "term": "迎車",
+   "reading": "げいしゃ",
+   "easy": "タクシーが、客のいる場所まで迎えに来ることです。迎車料金というお金がかかることがあります。",
+   "source": "draft",
+   "alt": [
+    "迎車料金"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drワゴン",
+   "term": "ワゴン",
+   "reading": "ワゴン",
+   "easy": "人や荷物がたくさん乗る、大きい車のことです。",
+   "source": "draft",
+   "alt": [
+    "ワゴン車"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drクレジットカード",
+   "term": "クレジットカード",
+   "reading": "クレジットカード",
+   "easy": "お金を、あとでまとめて払うことができるカードです。使えるかどうかは、場所によってちがいます。",
+   "source": "draft",
+   "alt": [
+    "カード"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr運転免許更新センター",
+   "term": "運転免許更新センター",
+   "reading": "うんてんめんきょこうしんセンター",
+   "easy": "運転免許証を新しくする手続きをするところです。",
+   "source": "draft",
+   "alt": [
+    "免許センター",
+    "運転免許センター"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr更新のお知らせ",
+   "term": "更新のお知らせ",
+   "reading": "こうしんのおしらせ",
+   "easy": "免許の期限が近いことを知らせるはがきです。届いたら、決まった期間に更新に行きます。",
+   "source": "draft",
+   "alt": [
+    "更新のおしらせ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr有効期限",
+   "term": "有効期限",
+   "reading": "ゆうこうきげん",
+   "easy": "使うことができる最後の日です。この日を過ぎると、使うことができません。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr講習区分",
+   "term": "講習区分",
+   "reading": "こうしゅうくぶん",
+   "easy": "免許を更新するときに受ける講習の種類です。種類によって、時間やお金がちがいます。",
+   "source": "draft",
+   "alt": [
+    "講習の区分"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr優良運転者講習",
+   "term": "優良運転者講習",
+   "reading": "ゆうりょううんてんしゃこうしゅう",
+   "easy": "事故や交通のルール違反がない、安全な運転者が受ける講習です。",
+   "source": "draft",
+   "alt": [
+    "優良講習"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr一般講習",
+   "term": "一般講習",
+   "reading": "いっぱんこうしゅう",
+   "easy": "免許を更新するときに受ける、ふつうの講習です。優良運転者ではない人などが受けます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr適性検査",
+   "term": "適性検査",
+   "reading": "てきせいけんさ",
+   "easy": "運転してもよいか調べる検査です。目がよく見えるかなどを調べます。眼鏡を使う人は持って行きます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr住民票の写し",
+   "term": "住民票の写し",
+   "reading": "じゅうみんひょうのうつし",
+   "easy": "住所や名前などが書いてある紙です。住んでいるまちの役所でもらうことができます。",
+   "source": "draft",
+   "alt": [
+    "住民票"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drAT限定",
+   "term": "AT限定",
+   "reading": "エーティーげんてい",
+   "easy": "オートマチック車だけ運転できる免許です。マニュアル車は運転できません。",
+   "source": "draft",
+   "alt": [
+    "オートマ限定"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drマニュアル",
+   "term": "マニュアル",
+   "reading": "マニュアル",
+   "easy": "自分でギアを変えて運転する車のことです。運転したいなら、AT限定ではない免許をとります。",
+   "source": "draft",
+   "alt": [
+    "マニュアル車",
+    "MT"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr普通車",
+   "term": "普通車",
+   "reading": "ふつうしゃ",
+   "easy": "ふつうの大きさの車のことです。ふつうの運転免許で運転できます。",
+   "source": "draft",
+   "alt": [
+    "普通自動車"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr教習",
+   "term": "教習",
+   "reading": "きょうしゅう",
+   "easy": "教習所で、車の運転を習うことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr短期プラン",
+   "term": "短期プラン",
+   "reading": "たんきプラン",
+   "easy": "短い期間で、続けて習って卒業するコースです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr送迎バス",
+   "term": "送迎バス",
+   "reading": "そうげいバス",
+   "easy": "駅などから教習所まで、人を乗せて行ったり帰したりするバスです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr技能検定",
+   "term": "技能検定",
+   "reading": "ぎのうけんてい",
+   "easy": "教習所で、車を正しく運転できるか見る試験です。",
+   "source": "draft",
+   "alt": [
+    "検定"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr任意保険",
+   "term": "任意保険",
+   "reading": "にんいほけん",
+   "easy": "自分で会社と内容を選んで入る、車の保険です。自賠責保険で足りない分を助けます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr型式",
+   "term": "型式",
+   "reading": "かたしき",
+   "easy": "車の種類を表す記号や番号です。車検証に書いてあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr登録番号",
+   "term": "登録番号",
+   "reading": "とうろくばんごう",
+   "easy": "車のナンバープレートに書いてある番号のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr納車",
+   "term": "納車",
+   "reading": "のうしゃ",
+   "easy": "買った車を、店から受け取ることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr妊婦健診",
+   "term": "妊婦健診",
+   "reading": "にんぷけんしん",
+   "easy": "おなかに赤ちゃんがいる人が、病院で受ける検査のことです。お母さんと赤ちゃんの体を調べます。",
+   "source": "draft",
+   "alt": [
+    "妊婦健康診査",
+    "妊婦検診"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr受診票",
+   "term": "受診票",
+   "reading": "じゅしんひょう",
+   "easy": "健診を受けるとき、病院に出す紙です。市や町からもらいます。お金の一部を市や町が払ってくれます。",
+   "source": "draft",
+   "alt": [
+    "受診券"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr補助券",
+   "term": "補助券",
+   "reading": "ほじょけん",
+   "easy": "お金の一部を、市や町が払ってくれる紙のことです。健診では受診票のことをいいます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr妊娠週数",
+   "term": "妊娠週数",
+   "reading": "にんしんしゅうすう",
+   "easy": "赤ちゃんがおなかにできてから、何週目かということです。最後の生理が始まった日から数えます。",
+   "source": "draft",
+   "alt": [
+    "週数"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr在留資格取得",
+   "term": "在留資格取得",
+   "reading": "ざいりゅうしかくしゅとく",
+   "easy": "日本に住むための資格（在留資格）を、新しくもらうことです。日本で生まれた外国籍の子どもは、入管に申請します。",
+   "source": "draft",
+   "alt": [
+    "在留資格の取得"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr出生届受理証明書",
+   "term": "出生届受理証明書",
+   "reading": "しゅっしょうとどけじゅりしょうめいしょ",
+   "easy": "赤ちゃんが生まれた届け（出生届）を、役所が受け取ったことを示す紙です。役所でもらいます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr大使館",
+   "term": "大使館",
+   "reading": "たいしかん",
+   "easy": "日本にある、あなたの国の役所のことです。パスポートなどの手続きをします。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr乳幼児健診",
+   "term": "乳幼児健診",
+   "reading": "にゅうようじけんしん",
+   "easy": "赤ちゃんや小さい子どもの体や、大きくなっているかを調べる検査のことです。",
+   "source": "draft",
+   "alt": [
+    "乳幼児健康診査"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr月齢",
+   "term": "月齢",
+   "reading": "げつれい",
+   "easy": "赤ちゃんが生まれてから、何か月かということです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr医療証",
+   "term": "医療証",
+   "reading": "いりょうしょう",
+   "easy": "子どもが病院に行くときのお金を、市や町が助けるための証明書です。病院の受付で見せます。",
+   "source": "draft",
+   "alt": [
+    "子ども医療証"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr自費",
+   "term": "自費",
+   "reading": "じひ",
+   "easy": "保険や市・町の助けを使わないで、お金を全部自分で払うことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr保育課",
+   "term": "保育課",
+   "reading": "ほいくか",
+   "easy": "市役所などで、保育園の申し込みなどの仕事をするところです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr入園申請",
+   "term": "入園申請",
+   "reading": "にゅうえんしんせい",
+   "easy": "保育園などに入るための申し込みのことです。市や町の窓口に出すことが多いです。",
+   "source": "draft",
+   "alt": [
+    "入園の申請",
+    "入園申し込み"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr申込書",
+   "term": "申込書",
+   "reading": "もうしこみしょ",
+   "easy": "何かを申し込むときに、書いて出す紙のことです。",
+   "source": "draft",
+   "alt": [
+    "申し込み書",
+    "申込み書"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr就労証明書",
+   "term": "就労証明書",
+   "reading": "しゅうろうしょうめいしょ",
+   "easy": "あなたが働いていることを示す書類です。働いている会社に書いてもらいます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr締め切り",
+   "term": "締め切り",
+   "reading": "しめきり",
+   "easy": "書類などを出すことができる最後の日のことです。この日までに出します。",
+   "source": "draft",
+   "alt": [
+    "締切",
+    "締切り",
+    "〆切"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr一次募集",
+   "term": "一次募集",
+   "reading": "いちじぼしゅう",
+   "easy": "いちばん初めの申し込みの受付のことです。このあと、もう一度受付（二次募集）をすることもあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr途中入園",
+   "term": "途中入園",
+   "reading": "とちゅうにゅうえん",
+   "easy": "4月ではなく、年の途中から保育園に入ることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr学務課",
+   "term": "学務課",
+   "reading": "がくむか",
+   "easy": "教育委員会の中で、子どもが学校に入る手続きなどの仕事をするところです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr日本語学級",
+   "term": "日本語学級",
+   "reading": "にほんごがっきゅう",
+   "easy": "学校の中にある、日本語を勉強するための教室です。一部の授業をここで受けます。国際教室ということもあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr日本語支援",
+   "term": "日本語支援",
+   "reading": "にほんごしえん",
+   "easy": "日本語がまだよくわからない子どもを、学校で助けることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr支援員",
+   "term": "支援員",
+   "reading": "しえんいん",
+   "easy": "学校に来て、子どもの勉強などを手伝う人のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr就学時健康診断",
+   "term": "就学時健康診断",
+   "reading": "しゅうがくじけんこうしんだん",
+   "easy": "次の年に小学校に入る子どもが受ける、体の検査です。入る予定の小学校で受けることが多いです。",
+   "source": "draft",
+   "alt": [
+    "就学時健診",
+    "就学前健診"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr上履き",
+   "term": "上履き",
+   "reading": "うわばき",
+   "easy": "学校などの建物の中ではく、くつのことです。",
+   "source": "draft",
+   "alt": [
+    "上ばき",
+    "うわばき",
+    "上靴"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr養護教諭",
+   "term": "養護教諭",
+   "reading": "ようごきょうゆ",
+   "easy": "学校の保健室の先生のことです。子どものけがや病気、体の健康のことをします。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr就学相談",
+   "term": "就学相談",
+   "reading": "しゅうがくそうだん",
+   "easy": "子どもがどの学校やクラスで勉強するとよいか、市や町の教育委員会と相談することです。親の意見も聞いて決めます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr聴力",
+   "term": "聴力",
+   "reading": "ちょうりょく",
+   "easy": "耳で音を聞く力のことです。健診では、音がよく聞こえるか調べます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr給食費",
+   "term": "給食費",
+   "reading": "きゅうしょくひ",
+   "easy": "学校で子どもが食べる昼ごはん（給食）のために、親が払うお金です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr引き落とし",
+   "term": "引き落とし",
+   "reading": "ひきおとし",
+   "easy": "銀行の口座から、お金が自動で払われることです。口座にお金を入れておきます。",
+   "source": "draft",
+   "alt": [
+    "引落し",
+    "引落とし",
+    "引き落し"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr届け出印",
+   "term": "届け出印",
+   "reading": "とどけでいん",
+   "easy": "銀行の口座をつくるときに、銀行に届けたはんこのことです。「銀行印」ともいいます。",
+   "source": "draft",
+   "alt": [
+    "届出印"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr進路相談",
+   "term": "進路相談",
+   "reading": "しんろそうだん",
+   "easy": "中学校を出たあと、どの高校に行くかなど、これからのことを先生と話すことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr三者面談",
+   "term": "三者面談",
+   "reading": "さんしゃめんだん",
+   "easy": "担任の先生と、親と、子どもの3人で話すことです。中学3年生では、進路を相談します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr担任",
+   "term": "担任",
+   "reading": "たんにん",
+   "easy": "クラスのことを担当する先生のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr通訳",
+   "term": "通訳",
+   "reading": "つうやく",
+   "easy": "ちがう言葉を話す人のあいだで、言葉を訳して伝えることです。その仕事をする人のことも言います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr高校進学",
+   "term": "高校進学",
+   "reading": "こうこうしんがく",
+   "easy": "中学校を出て、高校に入ることです。高校に入るには、試験があることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr放課後",
+   "term": "放課後",
+   "reading": "ほうかご",
+   "easy": "学校の授業が全部終わったあとの時間のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr折り返し",
+   "term": "折り返し",
+   "reading": "おりかえし",
+   "easy": "あとで、相手からもう一度電話をかけることです。電話を切って、待ちます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "折返し",
+    "折り返しお電話",
+    "折り返します"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr特別支援学級",
+   "term": "特別支援学級",
+   "reading": "とくべつしえんがっきゅう",
+   "easy": "体や心、勉強などで特別な手伝いがいる子どものための、小学校や中学校の中にあるクラスです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr特別支援学校",
+   "term": "特別支援学校",
+   "reading": "とくべつしえんがっこう",
+   "easy": "体や心、勉強などで特別な手伝いがいる子どものための学校です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr通級による指導",
+   "term": "通級による指導",
+   "reading": "つうきゅうによるしどう",
+   "easy": "ふだんのクラスで勉強しながら、一部の時間だけ別に特別な指導を受けることです。",
+   "source": "draft",
+   "alt": [
+    "通級"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr特別支援教育コーディネーター",
+   "term": "特別支援教育コーディネーター",
+   "reading": "とくべつしえんきょういくコーディネーター",
+   "easy": "特別な手伝いがいる子どもについて、相談を受けたり、先生や親をつないだりする学校の先生です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr求職申込み",
+   "term": "求職申込み",
+   "reading": "きゅうしょくもうしこみ",
+   "easy": "仕事をさがすために、職安（公共職業安定所）に登録することです。最初にすることが多いです。",
+   "source": "draft",
+   "alt": [
+    "求職申し込み",
+    "求職申込"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr求人票",
+   "term": "求人票",
+   "reading": "きゅうじんひょう",
+   "easy": "会社が働く人をさがすときに、仕事の内容や時間、給料などを書いた紙です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr紹介状",
+   "term": "紹介状",
+   "reading": "しょうかいじょう",
+   "easy": "窓口が出す、会社にあなたを紹介する紙です。これをもらってから応募する仕事があります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr就職説明会",
+   "term": "就職説明会",
+   "reading": "しゅうしょくせつめいかい",
+   "easy": "会社が、仕事をさがしている人に、仕事の内容などを説明する集まりです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr履歴書",
+   "term": "履歴書",
+   "reading": "りれきしょ",
+   "easy": "名前や住所、学校や仕事の経験などを書く紙です。仕事に応募するときに出します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr職業相談",
+   "term": "職業相談",
+   "reading": "しょくぎょうそうだん",
+   "easy": "仕事さがしや就職について、窓口の人に相談することです。無料で相談できます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drパート",
+   "term": "パート",
+   "reading": "パート",
+   "easy": "正社員より短い時間で働く働き方です。時給でお金をもらうことが多いです。",
+   "source": "draft",
+   "alt": [
+    "パートタイム"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drアルバイト",
+   "term": "アルバイト",
+   "reading": "アルバイト",
+   "easy": "短い時間や短い期間で働く働き方です。時給でお金をもらうことが多いです。",
+   "source": "draft",
+   "alt": [
+    "バイト"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr派遣",
+   "term": "派遣",
+   "reading": "はけん",
+   "easy": "派遣会社と契約して、ほかの会社に行って働く働き方です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr求人",
+   "term": "求人",
+   "reading": "きゅうじん",
+   "easy": "会社などが、働く人をさがすことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr時給",
+   "term": "時給",
+   "reading": "じきゅう",
+   "easy": "1時間働くと、もらえるお金のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr営業部",
+   "term": "営業部",
+   "reading": "えいぎょうぶ",
+   "easy": "会社の中で、商品やサービスを売る仕事をするグループのことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr人身事故",
+   "term": "人身事故",
+   "reading": "じんしんじこ",
+   "easy": "電車などに人がぶつかって、人がけがをしたり死んだりする事故のことです。電車が止まったり、遅れたりします。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr運転見合わせ",
+   "term": "運転見合わせ",
+   "reading": "うんてんみあわせ",
+   "easy": "電車やバスが、しばらく動かないで止まっていることです。",
+   "source": "draft",
+   "alt": [
+    "運転を見合わせ",
+    "見合わせ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr遅延証明書",
+   "term": "遅延証明書",
+   "reading": "ちえんしょうめいしょ",
+   "easy": "電車が遅れたことを書いた紙です。駅や鉄道会社のウェブサイトでもらえることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr出社",
+   "term": "出社",
+   "reading": "しゅっしゃ",
+   "easy": "仕事をするために、会社に行くことです。",
+   "source": "draft",
+   "alt": [
+    "出社します"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr総務部",
+   "term": "総務部",
+   "reading": "そうむぶ",
+   "easy": "会社の中で、書類や建物、働く人のことなど、会社全体の仕事をするグループのことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr内線",
+   "term": "内線",
+   "reading": "ないせん",
+   "easy": "同じ会社や建物の中だけで使う電話のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr席を外しています",
+   "term": "席を外しています",
+   "reading": "せきをはずしています",
+   "easy": "今、自分の机の近くにいないという意味です。少しのあいだ、その人はいません。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "席を外しております",
+    "席を外して"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr会議中",
+   "term": "会議中",
+   "reading": "かいぎちゅう",
+   "easy": "今、会議をしていて、電話に出られないという意味です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "会議中です"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr戻る",
+   "term": "戻る",
+   "reading": "もどる",
+   "easy": "もとの場所に帰ってくることです。",
+   "source": "draft",
+   "alt": [
+    "戻ります",
+    "戻り"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drかけ直す",
+   "term": "かけ直す",
+   "reading": "かけなおす",
+   "easy": "電話をいったん切って、あとでもう一度電話をかけることです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "かけ直します",
+    "掛け直す",
+    "おかけ直し"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお疲れさまです",
+   "term": "お疲れさまです",
+   "reading": "おつかれさまです",
+   "easy": "会社の人どうしで使うあいさつです。内線電話では、このあいさつのあとで名前を言うことが多いです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お疲れ様です",
+    "おつかれさまです",
+    "お疲れさまでした"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr納品",
+   "term": "納品",
+   "reading": "のうひん",
+   "easy": "注文された品物を、相手に届けることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr注文書",
+   "term": "注文書",
+   "reading": "ちゅうもんしょ",
+   "easy": "何を、いくつ買いたいかを書いた紙のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr出荷",
+   "term": "出荷",
+   "reading": "しゅっか",
+   "easy": "品物をお客さんに送るために、会社や倉庫から出すことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr数量",
+   "term": "数量",
+   "reading": "すうりょう",
+   "easy": "物の数や量のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr先方",
+   "term": "先方",
+   "reading": "せんぽう",
+   "easy": "相手の人や、相手の会社のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr経緯",
+   "term": "経緯",
+   "reading": "けいい",
+   "easy": "あることが、どのように起きて、どうなったかという流れのことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr光回線",
+   "term": "光回線",
+   "reading": "ひかりかいせん",
+   "easy": "家でインターネットを使うための、速い線のことです。使うには、工事がいることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drプロバイダー",
+   "term": "プロバイダー",
+   "reading": "プロバイダー",
+   "easy": "インターネットにつなぐサービスをする会社のことです。回線の会社とは別に契約することがあります。",
+   "source": "draft",
+   "alt": [
+    "プロバイダ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr開通工事",
+   "term": "開通工事",
+   "reading": "かいつうこうじ",
+   "easy": "インターネットを使えるようにするために、家で線をつなぐ工事のことです。家にいる必要があることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr解約金",
+   "term": "解約金",
+   "reading": "かいやくきん",
+   "easy": "約束した期間の途中で契約をやめるときに、払うお金のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drホームルーター",
+   "term": "ホームルーター",
+   "reading": "ホームルーター",
+   "easy": "家のコンセントにさすだけで、インターネットが使える機械のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drプラン",
+   "term": "プラン",
+   "reading": "プラン",
+   "easy": "料金や、使えるサービスの組み合わせのことです。",
+   "source": "draft",
+   "alt": [
+    "料金プラン"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drデータ容量",
+   "term": "データ容量",
+   "reading": "データようりょう",
+   "easy": "1か月にスマートフォンでインターネットを使える量のことです。",
+   "source": "draft",
+   "alt": [
+    "ギガ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drかけ放題",
+   "term": "かけ放題",
+   "reading": "かけほうだい",
+   "easy": "決まったお金を払うと、電話をたくさんかけても料金が変わらないサービスのことです。",
+   "source": "draft",
+   "alt": [
+    "かけほうだい"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drオプション",
+   "term": "オプション",
+   "reading": "オプション",
+   "easy": "プランに足すことができる、別のサービスのことです。無料の期間が終わると、お金がかかることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr補償サービス",
+   "term": "補償サービス",
+   "reading": "ほしょうサービス",
+   "easy": "スマートフォンがこわれたり、なくなったりしたときに助けてくれるサービスのことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr本人確認書類",
+   "term": "本人確認書類",
+   "reading": "ほんにんかくにんしょるい",
+   "easy": "あなたがだれかを見せるためのカードなどのことです。外国の人は在留カードを見せることが多いです。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr担当",
+   "term": "担当",
+   "reading": "たんとう",
+   "easy": "その仕事をする人のことです。",
+   "source": "draft",
+   "alt": [
+    "担当者"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr伝言",
+   "term": "伝言",
+   "reading": "でんごん",
+   "easy": "いない人に、話したいことを伝えてもらうことです。名前、電話番号、用事を短く言います。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "ご伝言"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr承ります",
+   "term": "承ります",
+   "reading": "うけたまわります",
+   "easy": "「聞きます」「受けます」のていねいな言い方です。伝えたいことを話してください。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "承りました",
+    "お承りします"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr外出",
+   "term": "外出",
+   "reading": "がいしゅつ",
+   "easy": "仕事などで外に出ていて、今いないという意味です。",
+   "source": "draft",
+   "alt": [
+    "外出しております"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr席を外して",
+   "term": "席を外して",
+   "reading": "せきをはずして",
+   "easy": "今、少しのあいだ、その人が近くにいないという意味です。伝言をたのむか、あとでかけます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "席を外しております",
+    "席を外しています"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr復唱",
+   "term": "復唱",
+   "reading": "ふくしょう",
+   "easy": "聞いたことを、もう一度言って確かめることです。まちがいがないか、よく聞きます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "復唱いたします",
+    "復唱します"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr少々お待ちください",
+   "term": "少々お待ちください",
+   "reading": "しょうしょうおまちください",
+   "easy": "「少し待ってください」という意味です。電話を切らないで待ちます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "少々お待ちくださいませ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお待たせいたしました",
+   "term": "お待たせいたしました",
+   "reading": "おまたせいたしました",
+   "easy": "「待たせて、すみません」という意味です。これから話が続きます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お待たせしました"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr恐れ入りますが",
+   "term": "恐れ入りますが",
+   "reading": "おそれいりますが",
+   "easy": "「すみませんが」という意味です。このあと、お願いや質問が来ます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "恐れ入ります"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drかしこまりました",
+   "term": "かしこまりました",
+   "reading": "かしこまりました",
+   "easy": "「わかりました」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr承知いたしました",
+   "term": "承知いたしました",
+   "reading": "しょうちいたしました",
+   "easy": "「わかりました」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "承知しました"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお掛け直しください",
+   "term": "お掛け直しください",
+   "reading": "おかけなおしください",
+   "easy": "「もう一度、電話をかけてください」という意味です。電話を切って、あとでまたかけます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "おかけ直しください",
+    "お掛け直しくださいませ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr在学証明書",
+   "term": "在学証明書",
+   "reading": "ざいがくしょうめいしょ",
+   "easy": "その学校の生徒であることを、学校が書いた紙です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr転入学通知書",
+   "term": "転入学通知書",
+   "reading": "てんにゅうがくつうちしょ",
+   "easy": "新しい学校に入ることを知らせる紙です。役所（教育委員会）でもらって、新しい学校に出します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr総合案内",
+   "term": "総合案内",
+   "reading": "そうごうあんない",
+   "easy": "役所の入口の近くにある受付です。どの窓口に行けばよいか教えてくれます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr転入",
+   "term": "転入",
+   "reading": "てんにゅう",
+   "easy": "ほかの市や町から引っ越して来ることです。決められた期間の中で、役所に届けを出します。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr保険年金課",
+   "term": "保険年金課",
+   "reading": "ほけんねんきんか",
+   "easy": "役所で、国民健康保険や国民年金の手続きをする課です。課の名前は町によってちがいます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr番号札",
+   "term": "番号札",
+   "reading": "ばんごうふだ",
+   "easy": "番号が書いてある紙です。窓口で取って、自分の番号が呼ばれるまで待ちます。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr納付書",
+   "term": "納付書",
+   "reading": "のうふしょ",
+   "easy": "税金や保険料を払うときに使う紙です。銀行や役所の窓口、コンビニなどで払います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr普通徴収",
+   "term": "普通徴収",
+   "reading": "ふつうちょうしゅう",
+   "easy": "住民税を給料から引かないで、自分で納付書を使って払う方法です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr届出印",
+   "term": "届出印",
+   "reading": "とどけでいん",
+   "easy": "銀行に口座を作ったときに届けた印鑑（はんこ）のことです。",
+   "source": "draft",
+   "alt": [
+    "届け出印"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr税務課",
+   "term": "税務課",
+   "reading": "ぜいむか",
+   "easy": "役所で、税金の仕事をする課です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr柴犬",
+   "term": "柴犬",
+   "reading": "しばいぬ",
+   "easy": "日本の犬の種類の一つです。",
+   "source": "draft",
+   "alt": [
+    "しば犬"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr環境衛生課",
+   "term": "環境衛生課",
+   "reading": "かんきょうえいせいか",
+   "easy": "役所の課の一つです。犬の登録などの仕事をします。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr犬の登録",
+   "term": "犬の登録",
+   "reading": "いぬのとうろく",
+   "easy": "犬を飼い始めたときに、市や町に届けを出すことです。法律で決まっていて、ふつう犬の一生に一回です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr狂犬病",
+   "term": "狂犬病",
+   "reading": "きょうけんびょう",
+   "easy": "犬などからうつる、とても危ない病気です。犬は毎年、予防注射を受けます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr予防注射",
+   "term": "予防注射",
+   "reading": "よぼうちゅうしゃ",
+   "easy": "病気にならないようにするための注射です。犬は毎年、狂犬病の予防注射を受けます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr注射済証",
+   "term": "注射済証",
+   "reading": "ちゅうしゃずみしょう",
+   "easy": "狂犬病の予防注射を受けたことを示すものです。犬に付けておきます。",
+   "source": "draft",
+   "alt": [
+    "注射済票"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr鑑札",
+   "term": "鑑札",
+   "reading": "かんさつ",
+   "easy": "犬を登録したときにもらう札です。犬に付けておきます。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr資格喪失証明書",
+   "term": "資格喪失証明書",
+   "reading": "しかくそうしつしょうめいしょ",
+   "easy": "前の会社の健康保険をやめた日がわかる書類です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr国際交流協会",
+   "term": "国際交流協会",
+   "reading": "こくさいこうりゅうきょうかい",
+   "easy": "外国人と地域の人をつなぐ活動をする団体です。日本語教室などを開いています。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr日本語教室",
+   "term": "日本語教室",
+   "reading": "にほんごきょうしつ",
+   "easy": "日本語を勉強する教室です。地域の教室では、ボランティアが教えていることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drボランティア",
+   "term": "ボランティア",
+   "reading": "ボランティア",
+   "easy": "お金をもらわないで、人のために活動する人のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr見学",
+   "term": "見学",
+   "reading": "けんがく",
+   "easy": "参加する前に、教室などを見に行くことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr教材費",
+   "term": "教材費",
+   "reading": "きょうざいひ",
+   "easy": "勉強に使う本（テキスト）などのお金です。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr空き待ち",
+   "term": "空き待ち",
+   "reading": "あきまち",
+   "easy": "教室などがいっぱいのとき、入れるようになるまで待つことです。",
+   "source": "draft",
+   "alt": [
+    "空きまち",
+    "あき待ち"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr試験対策",
+   "term": "試験対策",
+   "reading": "しけんたいさく",
+   "easy": "試験に合格するための勉強のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "drチラシ",
+   "term": "チラシ",
+   "reading": "チラシ",
+   "easy": "お知らせや宣伝が書いてある、1枚の紙のことです。",
+   "source": "draft",
+   "alt": [
+    "ちらし"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr申し込み",
+   "term": "申し込み",
+   "reading": "もうしこみ",
+   "easy": "「参加したいです」「使いたいです」と、相手に伝えることです。",
+   "source": "draft",
+   "alt": [
+    "申込み",
+    "申込",
+    "お申し込み",
+    "お申込み"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr面談",
+   "term": "面談",
+   "reading": "めんだん",
+   "easy": "人と会って、話をすることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr集会室",
+   "term": "集会室",
+   "reading": "しゅうかいしつ",
+   "easy": "人が集まって、話し合いや活動をする部屋のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr調理室",
+   "term": "調理室",
+   "reading": "ちょうりしつ",
+   "easy": "料理を作るための部屋のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr長机",
+   "term": "長机",
+   "reading": "ながづくえ",
+   "easy": "横に長い机のことです。何人かで並んで使います。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr利用者登録",
+   "term": "利用者登録",
+   "reading": "りようしゃとうろく",
+   "easy": "施設を使う人の名前などを、先に届けておくことです。部屋の予約の前に必要なところもあります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr団体登録",
+   "term": "団体登録",
+   "reading": "だんたいとうろく",
+   "easy": "グループで施設を使うために、グループのことを先に届けておくことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr飲食",
+   "term": "飲食",
+   "reading": "いんしょく",
+   "easy": "食べたり飲んだりすることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr持ち寄り",
+   "term": "持ち寄り",
+   "reading": "もちより",
+   "easy": "みんなが食べ物などを少しずつ持ってきて、集めることです。",
+   "source": "draft",
+   "alt": [
+    "持寄り",
+    "持ちより"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr利用者カード",
+   "term": "利用者カード",
+   "reading": "りようしゃカード",
+   "easy": "図書館で本などを借りるときに使うカードのことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr貸出",
+   "term": "貸出",
+   "reading": "かしだし",
+   "easy": "本などを貸すことです。図書館で本を借りるときに使う言葉です。",
+   "source": "draft",
+   "alt": [
+    "貸し出し"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr返却",
+   "term": "返却",
+   "reading": "へんきゃく",
+   "easy": "借りたものを返すことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr返却期限",
+   "term": "返却期限",
+   "reading": "へんきゃくきげん",
+   "easy": "借りたものを返さなければならない、最後の日のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr返却ポスト",
+   "term": "返却ポスト",
+   "reading": "へんきゃくポスト",
+   "easy": "借りた本を返すための箱です。図書館が閉まっているときに使えることが多いです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr延長",
+   "term": "延長",
+   "reading": "えんちょう",
+   "easy": "決まった時間や日を長くすることです。図書館では、返す日をあとにすることです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr館内閲覧",
+   "term": "館内閲覧",
+   "reading": "かんないえつらん",
+   "easy": "借りて帰ることはできないで、図書館の中だけで読むことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr最新号",
+   "term": "最新号",
+   "reading": "さいしんごう",
+   "easy": "雑誌などで、いちばん新しく出たもののことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr速達",
+   "term": "速達",
+   "reading": "そくたつ",
+   "easy": "郵便を早く届けるサービスです。ふつうの郵便より料金が高くなります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr書留",
+   "term": "書留",
+   "reading": "かきとめ",
+   "easy": "送った記録が残る郵便のサービスです。ふつうの郵便より料金が高くなります。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr小包",
+   "term": "小包",
+   "reading": "こづつみ",
+   "easy": "郵便で送る荷物のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr国際郵便",
+   "term": "国際郵便",
+   "reading": "こくさいゆうびん",
+   "easy": "外国へ送る郵便や、外国から届く郵便のことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr不在連絡票",
+   "term": "不在連絡票",
+   "reading": "ふざいれんらくひょう",
+   "easy": "家にいなくて郵便を渡せなかったときに入る紙です。これを見て、再配達を頼みます。",
+   "source": "draft",
+   "alt": [
+    "不在票"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr再配達",
+   "term": "再配達",
+   "reading": "さいはいたつ",
+   "easy": "渡せなかった郵便や荷物を、もう一度届けてもらうことです。",
+   "source": "draft",
+   "status": "draft"
+  },
+  {
+   "id": "dr席を外しております",
+   "term": "席を外しております",
+   "reading": "せきをはずしております",
+   "easy": "その人は今、席にいない、という意味です。少し待つか、あとでもう一度電話します。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "席を外しています",
+    "席を外している"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drあいにく",
+   "term": "あいにく",
+   "reading": "あいにく",
+   "easy": "「残念ですが」という意味です。このあとに、できないことや、だめなことを言います。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "生憎"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr申し訳ございません",
+   "term": "申し訳ございません",
+   "reading": "もうしわけございません",
+   "easy": "「すみません」「ごめんなさい」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "申し訳ありません",
+    "申し訳ない"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお手数ですが",
+   "term": "お手数ですが",
+   "reading": "おてすうですが",
+   "easy": "「面倒ですが、お願いします」という意味です。このあとに、あなたにしてほしいことを言います。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お手数をおかけしますが",
+    "お手数おかけしますが"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr差し支えなければ",
+   "term": "差し支えなければ",
+   "reading": "さしつかえなければ",
+   "easy": "「もし大丈夫なら」という意味です。いやなときは、言わなくてもいいです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "さしつかえなければ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drご用件",
+   "term": "ご用件",
+   "reading": "ごようけん",
+   "easy": "何のために電話をしたか、来たか、ということです。用事を短く言います。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "用件",
+    "ご用件は"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr念のため",
+   "term": "念のため",
+   "reading": "ねんのため",
+   "easy": "「まちがいがないように、もう一度」という意味です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "念の為"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drよろしいでしょうか",
+   "term": "よろしいでしょうか",
+   "reading": "よろしいでしょうか",
+   "easy": "「いいですか」のていねいな言い方です。いいときは「はい」と答えます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "よろしいですか"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお伺いします",
+   "term": "お伺いします",
+   "reading": "おうかがいします",
+   "easy": "「聞きます」または「行きます」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "伺います",
+    "お伺いいたします",
+    "おうかがいします"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr失礼いたします",
+   "term": "失礼いたします",
+   "reading": "しつれいいたします",
+   "easy": "ていねいなあいさつです。電話を切るときや、部屋に入るときなどに言います。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "失礼します"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお越しください",
+   "term": "お越しください",
+   "reading": "おこしください",
+   "easy": "「来てください」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お越しくださいませ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお持ちください",
+   "term": "お持ちください",
+   "reading": "おもちください",
+   "easy": "「持ってきてください」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お持ちくださいませ"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drご記入ください",
+   "term": "ご記入ください",
+   "reading": "ごきにゅうください",
+   "easy": "「紙に書いてください」のていねいな言い方です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "記入してください"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drご本人様",
+   "term": "ご本人様",
+   "reading": "ごほんにんさま",
+   "easy": "その人自身のことです。家族などではなく、その人が来るか、話すという意味です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "ご本人",
+    "本人"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drフルネーム",
+   "term": "フルネーム",
+   "reading": "フルネーム",
+   "easy": "名字と名前の全部のことです。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr日中つながる",
+   "term": "日中つながる",
+   "reading": "にっちゅうつながる",
+   "easy": "昼の時間に電話に出られる、という意味です。昼に出られる電話番号を言います。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "日中つながる番号",
+    "日中つながる電話番号"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drご連絡先",
+   "term": "ご連絡先",
+   "reading": "ごれんらくさき",
+   "easy": "あなたに連絡するための電話番号やメールアドレスなどのことです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "連絡先"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお手元",
+   "term": "お手元",
+   "reading": "おてもと",
+   "easy": "今、あなたの近くにあること、持っていることです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "手元",
+    "お手元に"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr控え",
+   "term": "控え",
+   "reading": "ひかえ",
+   "easy": "出した書類と同じことが書いてある紙です。自分で持っておきます。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お控え"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr窓口",
+   "term": "窓口",
+   "reading": "まどぐち",
+   "easy": "役所や会社などで、相談や手続きをする場所のことです。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr担当の者",
+   "term": "担当の者",
+   "reading": "たんとうのもの",
+   "easy": "その仕事をする人、という意味です。その人がかわりに話します。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "担当者",
+    "担当のもの"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお預かりします",
+   "term": "お預かりします",
+   "reading": "おあずかりします",
+   "easy": "「少しの間、受け取ります」という意味です。書類やお金などを渡します。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "お預かりいたします",
+    "預かります"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr写し",
+   "term": "写し",
+   "reading": "うつし",
+   "easy": "書類をコピーしたもののことです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "コピー"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr原本",
+   "term": "原本",
+   "reading": "げんぽん",
+   "easy": "コピーではない、もとの本当の書類のことです。",
+   "source": "draft",
+   "phrase": true,
+   "status": "draft"
+  },
+  {
+   "id": "dr最短",
+   "term": "最短",
+   "reading": "さいたん",
+   "easy": "いちばん早い場合、いちばん短い場合という意味です。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "最短で"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "dr空き",
+   "term": "空き",
+   "reading": "あき",
+   "easy": "予約や場所などに、まだ入れるところがあることです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "空いている",
+    "あき"
+   ],
+   "status": "draft"
+  },
+  {
+   "id": "drお申し込み",
+   "term": "お申し込み",
+   "reading": "おもうしこみ",
+   "easy": "サービスなどを使いたいと、お願いして手続きをすることです。",
+   "source": "draft",
+   "phrase": true,
+   "alt": [
+    "申し込み",
+    "申込み",
+    "申込",
+    "お申込み"
+   ],
+   "status": "draft"
+  }
+ ]
+}

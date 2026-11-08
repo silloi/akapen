@@ -2,6 +2,8 @@
 import { computed, ref, watchEffect } from "vue";
 import type { Kanpe, Mark } from "../../shared/types.ts";
 import { loadFont, t } from "../lib/i18n.ts";
+import { loadGlossary, termsOf } from "../lib/glossary.ts";
+import TermInfo from "./TermInfo.vue";
 
 const props = defineProps<{
   title: string;
@@ -18,6 +20,17 @@ const props = defineProps<{
 const trLang = computed(() => (props.kanpe.lang === "easy" ? "ja" : props.kanpe.lang));
 watchEffect(() => loadFont(props.kanpe.lang));
 
+/** カンペに出てくる用語集の語（意味はカンペの言語で）。用語集は後から読む */
+void loadGlossary();
+const words = computed(() =>
+  termsOf([
+    ...props.kanpe.asked.map((l) => l.ja),
+    ...props.kanpe.say.map((l) => l.ja),
+    ...props.kanpe.help.map((l) => l.ja),
+    ...(props.kanpe.memo ?? []).map((m) => m.label),
+  ]),
+);
+
 /** 本番用でたたむ（開いているものだけ true） */
 const open = ref<Record<string, boolean>>({
   asked: false,
@@ -25,6 +38,7 @@ const open = ref<Record<string, boolean>>({
   help: false,
   memo: true,
   know: false,
+  words: false,
 });
 function toggle(key: string) {
   open.value[key] = !open.value[key];
@@ -113,6 +127,31 @@ const SECTIONS = [
       <ul v-show="!live || open.know">
         <li v-for="(k, i) in kanpe.know" :key="i">
           {{ k.text }} <span class="src">（{{ k.source }}）</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 用語集の語（公的な用語集と、Claude の下書き。どちらかを必ず書く） -->
+    <section v-if="words.length" id="k-words" class="sec words">
+      <h3>
+        <button
+          v-if="live"
+          type="button"
+          class="fold"
+          :aria-expanded="open.words"
+          @click="toggle('words')"
+        >
+          {{ t("kanpe.words") }} <span class="count">{{ words.length }}</span>
+        </button>
+        <template v-else
+          >{{ t("kanpe.words") }}
+          <span class="small muted">{{ t("kanpe.wordsHint") }}</span></template
+        >
+      </h3>
+      <ul v-show="!live || open.words">
+        <li class="legend small muted">{{ t("glossary.legend") }}</li>
+        <li v-for="w in words" :key="w.id">
+          <TermInfo :entry="w" :lang="kanpe.lang" compact />
         </li>
       </ul>
     </section>

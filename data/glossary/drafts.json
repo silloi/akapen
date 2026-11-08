@@ -1,0 +1,4275 @@
+{
+ "生年月日": {
+  "skip": false,
+  "reading": "せいねんがっぴ",
+  "easy": "生まれた年と月と日のことです。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [
+   "clinic"
+  ],
+  "status": "draft"
+ },
+ "さくら町内科クリニック": {
+  "skip": true,
+  "scenes": [
+   "cando-8"
+  ],
+  "status": "draft"
+ },
+ "かもめコーポ": {
+  "skip": true,
+  "scenes": [
+   "cando-8",
+   "cando-101",
+   "cando-105",
+   "cando-266",
+   "cando-348",
+   "cando-356",
+   "cando-566",
+   "cando-569",
+   "cando-577",
+   "cando-601",
+   "cando-639"
+  ],
+  "status": "draft"
+ },
+ "受付": {
+  "skip": false,
+  "reading": "うけつけ",
+  "easy": "病院や役所で、来た人の話を最初に聞く場所や人のことです。",
+  "phrase": false,
+  "alt": [
+   "受け付け"
+  ],
+  "scenes": [
+   "cando-8"
+  ],
+  "status": "draft"
+ },
+ "診察券": {
+  "skip": false,
+  "reading": "しんさつけん",
+  "easy": "病院でもらうカードです。次に同じ病院に行くとき、受付に出します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-8",
+   "cando-203",
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "かもめ不動産": {
+  "skip": true,
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "さくら駅": {
+  "skip": true,
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "間取り": {
+  "skip": false,
+  "reading": "まどり",
+  "easy": "家の中に、どんな部屋がいくつあるかということです。「1K」「1LDK」のように書きます。",
+  "phrase": false,
+  "alt": [
+   "間取"
+  ],
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "1K": {
+  "skip": false,
+  "reading": "ワンケー",
+  "easy": "部屋が1つと、台所（K）がある家のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "管理費": {
+  "skip": false,
+  "reading": "かんりひ",
+  "easy": "アパートやマンションで、みんなが使うものに払うお金です。住んでいる人から集めます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "敷金": {
+  "skip": false,
+  "reading": "しききん",
+  "easy": "部屋を借りるとき、最初に大家に預けるお金です。部屋を出るとき、残りが戻ることがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "入居": {
+  "skip": false,
+  "reading": "にゅうきょ",
+  "easy": "借りた部屋や家に住み始めることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "内見": {
+  "skip": false,
+  "reading": "ないけん",
+  "easy": "借りる約束をする前に、本当に部屋を見に行くことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-77"
+  ],
+  "status": "draft"
+ },
+ "保証会社": {
+  "skip": false,
+  "reading": "ほしょうがいしゃ",
+  "easy": "部屋を借りるとき、保証人の代わりになる会社です。家賃が払えないとき、代わりに払います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-77",
+   "cando-87"
+  ],
+  "status": "draft"
+ },
+ "ひまわり不動産": {
+  "skip": true,
+  "scenes": [
+   "cando-87"
+  ],
+  "status": "draft"
+ },
+ "かもめ食品": {
+  "skip": true,
+  "scenes": [
+   "cando-87",
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "在職証明書": {
+  "skip": false,
+  "reading": "ざいしょくしょうめいしょ",
+  "easy": "今その会社で働いていることを書いた紙です。働いている会社に出してもらいます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-87"
+  ],
+  "status": "draft"
+ },
+ "緊急連絡先": {
+  "skip": false,
+  "reading": "きんきゅうれんらくさき",
+  "easy": "急に困ったことがあったとき、あなたの代わりに連絡する人の電話番号などです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-87"
+  ],
+  "status": "draft"
+ },
+ "重要事項説明": {
+  "skip": false,
+  "reading": "じゅうようじこうせつめい",
+  "easy": "部屋を借りる約束の前に、大切なことを説明してもらうことです。よく聞いて、わからないことは聞きます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-87"
+  ],
+  "status": "draft"
+ },
+ "かえで市": {
+  "skip": true,
+  "scenes": [
+   "cando-95"
+  ],
+  "status": "draft"
+ },
+ "あおば町": {
+  "skip": true,
+  "scenes": [
+   "cando-95"
+  ],
+  "status": "draft"
+ },
+ "転出証明書": {
+  "skip": false,
+  "reading": "てんしゅつしょうめいしょ",
+  "easy": "前に住んでいたまちの役所で、引っ越すときにもらう紙です。新しいまちの役所に出します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-95",
+   "cando-563",
+   "cando-566"
+  ],
+  "status": "draft"
+ },
+ "市民課": {
+  "skip": false,
+  "reading": "しみんか",
+  "easy": "市役所で、住所の届けなどの手続きをするところです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-95",
+   "cando-566",
+   "cando-569"
+  ],
+  "status": "draft"
+ },
+ "かえで町": {
+  "skip": true,
+  "scenes": [
+   "cando-96",
+   "cando-187",
+   "cando-191",
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "かえでコーポ": {
+  "skip": true,
+  "scenes": [
+   "cando-96",
+   "cando-191",
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "みなと市クリーンセンター": {
+  "skip": true,
+  "scenes": [
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "洗濯機": {
+  "skip": false,
+  "reading": "せんたくき",
+  "easy": "服を洗う機械です。粗大ごみ（大きいごみ）として出すことができません。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "パソコン": {
+  "skip": true,
+  "scenes": [
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "持ち込み": {
+  "skip": false,
+  "reading": "もちこみ",
+  "easy": "自分で物を、決められた場所まで持って行くことです。",
+  "phrase": false,
+  "alt": [
+   "持込み",
+   "持込"
+  ],
+  "scenes": [
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "収集日": {
+  "skip": false,
+  "reading": "しゅうしゅうび",
+  "easy": "ごみを集めに来る日のことです。その日に、決められた場所にごみを出します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "みなとガス": {
+  "skip": true,
+  "scenes": [
+   "cando-101",
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "かもめ町": {
+  "skip": true,
+  "scenes": [
+   "cando-101",
+   "cando-105",
+   "cando-266",
+   "cando-356",
+   "cando-569",
+   "cando-577",
+   "cando-601",
+   "cando-639",
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "開栓": {
+  "skip": false,
+  "reading": "かいせん",
+  "easy": "ガスを使うことができるようにすることです。係の人が家に来ることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-101",
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "立ち会い": {
+  "skip": false,
+  "reading": "たちあい",
+  "easy": "係の人が仕事をするとき、そこにいることです。自分か、代わりの人が家で待ちます。",
+  "phrase": false,
+  "alt": [
+   "立会い",
+   "立会",
+   "お立ち会い"
+  ],
+  "scenes": [
+   "cando-101"
+  ],
+  "status": "draft"
+ },
+ "都市ガス": {
+  "skip": false,
+  "reading": "としガス",
+  "easy": "ガスの種類の一つです。管を通って家に来るガスです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-101"
+  ],
+  "status": "draft"
+ },
+ "プロパンガス": {
+  "skip": false,
+  "reading": "プロパンガス",
+  "easy": "ガスの種類の一つです。LPガスともいいます。",
+  "phrase": false,
+  "alt": [
+   "LPガス"
+  ],
+  "scenes": [
+   "cando-101"
+  ],
+  "status": "draft"
+ },
+ "ガスコンロ": {
+  "skip": false,
+  "reading": "ガスコンロ",
+  "easy": "ガスの火で料理をする道具です。ガスの種類に合ったものでないと使えません。",
+  "phrase": false,
+  "alt": [
+   "コンロ"
+  ],
+  "scenes": [
+   "cando-101"
+  ],
+  "status": "draft"
+ },
+ "口座振替": {
+  "skip": false,
+  "reading": "こうざふりかえ",
+  "easy": "あなたの銀行の口座から、お金を自動で払う方法です。申し込みの紙を出します。",
+  "phrase": false,
+  "alt": [
+   "口座振り替え"
+  ],
+  "scenes": [
+   "cando-101",
+   "cando-316",
+   "cando-577",
+   "cando-639",
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "お客さまセンター": {
+  "skip": false,
+  "reading": "おきゃくさまセンター",
+  "easy": "会社で、お客さんからの電話や相談を受けるところです。",
+  "phrase": false,
+  "alt": [
+   "お客様センター"
+  ],
+  "scenes": [
+   "cando-101",
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "お客さま番号": {
+  "skip": false,
+  "reading": "おきゃくさまばんごう",
+  "easy": "会社があなたにつけた番号です。請求書や検針票に書いてあります。電話のときに伝えます。",
+  "phrase": false,
+  "alt": [
+   "お客様番号"
+  ],
+  "scenes": [
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "検針票": {
+  "skip": false,
+  "reading": "けんしんひょう",
+  "easy": "ガス・電気・水道をどのくらい使ったか書いてある紙です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "使用期間": {
+  "skip": false,
+  "reading": "しようきかん",
+  "easy": "使った期間のことです。いつからいつまで使ったか、という意味です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "使用量": {
+  "skip": false,
+  "reading": "しようりょう",
+  "easy": "使った量のことです。ガスなどをどのくらい使ったか、という意味です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "再発行": {
+  "skip": false,
+  "reading": "さいはっこう",
+  "easy": "書類などを、もう一度作って出してもらうことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-105"
+  ],
+  "status": "draft"
+ },
+ "ひばり百貨店": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "みなと店": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "セーター": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "紺": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "グレー": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "ベージュ": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "Mサイズ": {
+  "skip": true,
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "在庫": {
+  "skip": false,
+  "reading": "ざいこ",
+  "easy": "店にある、売るための品物のことです。売り場になくても、店の奥にあることがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-110",
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "試着": {
+  "skip": false,
+  "reading": "しちゃく",
+  "easy": "買う前に、服を着てみることです。店員に声をかけてから着ます。",
+  "phrase": false,
+  "alt": [
+   "ご試着"
+  ],
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "お取り寄せ": {
+  "skip": false,
+  "reading": "おとりよせ",
+  "easy": "店にない品物を、ほかの店などから送ってもらうことです。",
+  "phrase": false,
+  "alt": [
+   "取り寄せ",
+   "お取寄せ"
+  ],
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "切らしております": {
+  "skip": false,
+  "reading": "きらしております",
+  "easy": "今、その品物が店にない、という意味です。ていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "切らしています",
+   "切らしてる"
+  ],
+  "scenes": [
+   "cando-110"
+  ],
+  "status": "draft"
+ },
+ "ホームセンターかもめ": {
+  "skip": true,
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "さくら店": {
+  "skip": true,
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "サービスカウンター": {
+  "skip": false,
+  "reading": "サービスカウンター",
+  "easy": "店で、返品や交換、相談などを受けるところです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "返品": {
+  "skip": false,
+  "reading": "へんぴん",
+  "easy": "買った品物を店に返して、お金を返してもらうことです。",
+  "phrase": false,
+  "alt": [
+   "ご返品"
+  ],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "交換": {
+  "skip": false,
+  "reading": "こうかん",
+  "easy": "買った品物を、別の同じ品物にかえてもらうことです。",
+  "phrase": false,
+  "alt": [
+   "ご交換"
+  ],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "みなと市": {
+  "skip": true,
+  "scenes": [
+   "sodai-gomi",
+   "taxi",
+   "cando-8",
+   "cando-95",
+   "cando-96",
+   "cando-101",
+   "cando-188",
+   "cando-191",
+   "cando-219",
+   "cando-222",
+   "cando-266",
+   "cando-295",
+   "cando-299",
+   "cando-316",
+   "cando-348",
+   "cando-563",
+   "cando-566",
+   "cando-569",
+   "cando-577",
+   "cando-601",
+   "cando-639",
+   "cando-651",
+   "cando-654",
+   "cando-731",
+   "cando-732",
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "さくら町": {
+  "skip": true,
+  "scenes": [
+   "sodai-gomi",
+   "taxi",
+   "cando-8",
+   "cando-87",
+   "cando-95",
+   "cando-128",
+   "cando-143",
+   "cando-203",
+   "cando-219",
+   "cando-295",
+   "cando-316",
+   "cando-348",
+   "cando-563",
+   "cando-566",
+   "cando-654",
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "さくらハイツ": {
+  "skip": true,
+  "scenes": [
+   "sodai-gomi",
+   "cando-87",
+   "cando-95"
+  ],
+  "status": "draft"
+ },
+ "粗大ごみ": {
+  "skip": false,
+  "reading": "そだいごみ",
+  "easy": "家具など、大きいごみのことです。電話やインターネットで申し込んで出すことが多いです。",
+  "phrase": false,
+  "alt": [
+   "粗大ゴミ"
+  ],
+  "scenes": [
+   "sodai-gomi",
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "処理券": {
+  "skip": false,
+  "reading": "しょりけん",
+  "easy": "粗大ごみを出すときに買って、品物にはるシールのことです。コンビニなどで買うことが多いです。",
+  "phrase": false,
+  "alt": [
+   "粗大ごみ処理券",
+   "ごみ処理券"
+  ],
+  "scenes": [
+   "sodai-gomi",
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "家電リサイクル": {
+  "skip": false,
+  "reading": "かでんリサイクル",
+  "easy": "エアコン・テレビ・冷蔵庫・洗濯機などを捨てるときの決まりです。粗大ごみには出せません。買った店などに頼みます。",
+  "phrase": false,
+  "alt": [
+   "家電リサイクル法"
+  ],
+  "scenes": [
+   "sodai-gomi",
+   "cando-96"
+  ],
+  "status": "draft"
+ },
+ "冷蔵庫": {
+  "skip": false,
+  "reading": "れいぞうこ",
+  "easy": "食べ物や飲み物を冷たくしておく、電気の箱のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "sodai-gomi"
+  ],
+  "status": "draft"
+ },
+ "いす": {
+  "skip": true,
+  "scenes": [
+   "sodai-gomi",
+   "restaurant"
+  ],
+  "status": "draft"
+ },
+ "収集": {
+  "skip": false,
+  "reading": "しゅうしゅう",
+  "easy": "ごみを集めて、持っていくことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "sodai-gomi"
+  ],
+  "status": "draft"
+ },
+ "受付センター": {
+  "skip": false,
+  "reading": "うけつけセンター",
+  "easy": "電話やインターネットで、申し込みを受ける所のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "sodai-gomi"
+  ],
+  "status": "draft"
+ },
+ "なぎさ亭": {
+  "skip": true,
+  "scenes": [
+   "restaurant"
+  ],
+  "status": "draft"
+ },
+ "予約": {
+  "skip": false,
+  "reading": "よやく",
+  "easy": "使う日や時間を、前に決めて頼んでおくことです。",
+  "phrase": false,
+  "alt": [
+   "ご予約"
+  ],
+  "scenes": [
+   "restaurant",
+   "clinic",
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "満席": {
+  "skip": false,
+  "reading": "まんせき",
+  "easy": "席が全部うまっていて、空いている席がないことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "restaurant",
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "コース": {
+  "skip": false,
+  "reading": "コース",
+  "easy": "お店で、決まった順番に料理が出てくるセットのことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "restaurant"
+  ],
+  "status": "draft"
+ },
+ "お席": {
+  "skip": false,
+  "reading": "おせき",
+  "easy": "「席」のていねいな言い方です。すわる場所のことです。",
+  "phrase": false,
+  "alt": [
+   "席"
+  ],
+  "scenes": [
+   "restaurant"
+  ],
+  "status": "draft"
+ },
+ "名様": {
+  "skip": false,
+  "reading": "めいさま",
+  "easy": "「〜人」のていねいな言い方です。「2名様」は「2人」という意味です。",
+  "phrase": true,
+  "alt": [
+   "名"
+  ],
+  "scenes": [
+   "restaurant"
+  ],
+  "status": "draft"
+ },
+ "子ども": {
+  "skip": true,
+  "scenes": [
+   "restaurant"
+  ],
+  "status": "draft"
+ },
+ "かもめタクシー": {
+  "skip": true,
+  "scenes": [
+   "taxi",
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "みなと駅": {
+  "skip": true,
+  "scenes": [
+   "taxi",
+   "cando-77",
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "お迎え": {
+  "skip": false,
+  "reading": "おむかえ",
+  "easy": "あなたがいる所まで、車が来ることです。",
+  "phrase": false,
+  "alt": [
+   "迎え"
+  ],
+  "scenes": [
+   "taxi"
+  ],
+  "status": "draft"
+ },
+ "目印": {
+  "skip": false,
+  "reading": "めじるし",
+  "easy": "場所がわかるように、見てすぐわかる物のことです。近くの店や建物などを言います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "taxi"
+  ],
+  "status": "draft"
+ },
+ "コンビニ": {
+  "skip": true,
+  "scenes": [
+   "taxi"
+  ],
+  "status": "draft"
+ },
+ "スーツケース": {
+  "skip": true,
+  "scenes": [
+   "taxi",
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "予約料": {
+  "skip": false,
+  "reading": "よやくりょう",
+  "easy": "タクシーを予約して、迎えに来てもらうときにかかることがあるお金です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "taxi"
+  ],
+  "status": "draft"
+ },
+ "うみべ内科クリニック": {
+  "skip": true,
+  "scenes": [
+   "clinic"
+  ],
+  "status": "draft"
+ },
+ "初診": {
+  "skip": false,
+  "reading": "しょしん",
+  "easy": "その病院で、はじめて医者にみてもらうことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "clinic",
+   "cando-8",
+   "cando-203"
+  ],
+  "status": "draft"
+ },
+ "保険証": {
+  "skip": false,
+  "reading": "ほけんしょう",
+  "easy": "医療保険に入っていることを示すカードです。病院の受付で出します。",
+  "phrase": false,
+  "alt": [
+   "健康保険証"
+  ],
+  "scenes": [
+   "clinic",
+   "cando-8",
+   "cando-203",
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "マイナンバーカード": {
+  "skip": false,
+  "reading": "マイナンバーカード",
+  "easy": "一人ひとりの番号が書いてあるカードです。病院で保険証の代わりに使えることがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "clinic"
+  ],
+  "status": "draft"
+ },
+ "せき": {
+  "skip": false,
+  "reading": "せき",
+  "easy": "のどから「ゴホゴホ」と強く息が出ることです。かぜのときによく出ます。",
+  "phrase": false,
+  "alt": [
+   "咳"
+  ],
+  "scenes": [
+   "clinic",
+   "cando-8"
+  ],
+  "status": "draft"
+ },
+ "問診票": {
+  "skip": false,
+  "reading": "もんしんひょう",
+  "easy": "病気のようす、いつからか、飲んでいる薬などを書く紙です。医者にみてもらう前に書きます。",
+  "phrase": false,
+  "alt": [
+   "問診表"
+  ],
+  "scenes": [
+   "clinic",
+   "cando-8",
+   "cando-203",
+   "cando-299"
+  ],
+  "status": "draft"
+ },
+ "返金": {
+  "skip": false,
+  "reading": "へんきん",
+  "easy": "買った物のお金を、店が返すことです。カードで払ったときは、お金がカードに戻ることが多いです。",
+  "phrase": false,
+  "alt": [
+   "ご返金"
+  ],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "レシート": {
+  "skip": false,
+  "reading": "レシート",
+  "easy": "買い物をしたときに、店からもらう紙です。買った物と値段が書いてあります。交換のときに見せます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "初期不良": {
+  "skip": false,
+  "reading": "しょきふりょう",
+  "easy": "買ってすぐなのに、商品がこわれていたり、うまく動かなかったりすることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "コードレス掃除機": {
+  "skip": false,
+  "reading": "コードレスそうじき",
+  "easy": "電気のコードがない掃除機です。電気をためて使います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "取り寄せ": {
+  "skip": false,
+  "reading": "とりよせ",
+  "easy": "店にない商品を、ほかの店や会社から送ってもらうことです。届くまで待ちます。",
+  "phrase": false,
+  "alt": [
+   "お取り寄せ",
+   "取寄せ"
+  ],
+  "scenes": [
+   "cando-121"
+  ],
+  "status": "draft"
+ },
+ "かもめ亭": {
+  "skip": true,
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "何名様": {
+  "skip": false,
+  "reading": "なんめいさま",
+  "easy": "「何人ですか」という意味です。店に来た人の数を答えます。「3人です」と言うか、指で見せます。",
+  "phrase": true,
+  "alt": [
+   "何名さま"
+  ],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "禁煙席": {
+  "skip": false,
+  "reading": "きんえんせき",
+  "easy": "たばこを吸ってはいけない席です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "喫煙席": {
+  "skip": false,
+  "reading": "きつえんせき",
+  "easy": "たばこを吸ってもいい席です。たばこを吸える年齢でない人は、入れません。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "全席禁煙": {
+  "skip": false,
+  "reading": "ぜんせききんえん",
+  "easy": "店のどの席でも、たばこを吸ってはいけないという意味です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "喫煙室": {
+  "skip": false,
+  "reading": "きつえんしつ",
+  "easy": "たばこを吸うための部屋です。店の中では、この部屋でだけ吸えることがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "テーブル席": {
+  "skip": false,
+  "reading": "テーブルせき",
+  "easy": "テーブルといすがある、ふつうの席です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "カウンター席": {
+  "skip": false,
+  "reading": "カウンターせき",
+  "easy": "店の人が働く場所の前にある、長い台に並んで座る席です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "お子様用のいす": {
+  "skip": false,
+  "reading": "おこさまようのいす",
+  "easy": "小さい子どもが座るための、特別ないすです。",
+  "phrase": false,
+  "alt": [
+   "子ども用のいす",
+   "お子様いす"
+  ],
+  "scenes": [
+   "cando-128"
+  ],
+  "status": "draft"
+ },
+ "さくら亭": {
+  "skip": true,
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "照り焼き": {
+  "skip": false,
+  "reading": "てりやき",
+  "easy": "しょうゆやみりんなどの、あまいたれをつけて焼いた料理です。",
+  "phrase": false,
+  "alt": [
+   "照焼き"
+  ],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "塩焼き": {
+  "skip": false,
+  "reading": "しおやき",
+  "easy": "塩をつけて焼いた料理です。魚が多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "定食": {
+  "skip": false,
+  "reading": "ていしょく",
+  "easy": "ごはん、みそしる、おかずなどが、一つのセットになった料理です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "みりん": {
+  "skip": false,
+  "reading": "みりん",
+  "easy": "料理をあまくする、味をつけるものです。お酒が入っています。",
+  "phrase": false,
+  "alt": [
+   "味醂"
+  ],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "料理酒": {
+  "skip": false,
+  "reading": "りょうりしゅ",
+  "easy": "料理の味をつけるために使うお酒です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "ラード": {
+  "skip": false,
+  "reading": "ラード",
+  "easy": "豚のあぶらです。料理に使います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "ゼラチン": {
+  "skip": false,
+  "reading": "ゼラチン",
+  "easy": "ゼリーなどをかためるものです。豚などの動物から作ることがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "だし": {
+  "skip": false,
+  "reading": "だし",
+  "easy": "魚やこんぶ、肉などを煮て作る、スープのもとです。料理の味をつけます。",
+  "phrase": false,
+  "alt": [
+   "出汁"
+  ],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "ハラール": {
+  "skip": false,
+  "reading": "ハラール",
+  "easy": "イスラム教のきまりで、食べてもいいもののことです。",
+  "phrase": false,
+  "alt": [
+   "ハラル"
+  ],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "揚げ油": {
+  "skip": false,
+  "reading": "あげあぶら",
+  "easy": "天ぷらなどを、たくさんの油で料理するときに使う油です。ほかの料理と同じ油を使う店が多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-134"
+  ],
+  "status": "draft"
+ },
+ "ひまわりクリーニング": {
+  "skip": true,
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "染み抜き": {
+  "skip": false,
+  "reading": "しみぬき",
+  "easy": "服についた汚れ（しみ）をとることです。ふつうの料金とは別にお金がかかることが多いです。",
+  "phrase": false,
+  "alt": [
+   "しみ抜き",
+   "シミ抜き"
+  ],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "デラックス": {
+  "skip": false,
+  "reading": "デラックス",
+  "easy": "ふつうより、ていねいに仕上げるコースです。ふつうの料金とは別にお金がかかることが多いです。",
+  "phrase": false,
+  "alt": [
+   "デラックス仕上げ"
+  ],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "仕上がり": {
+  "skip": false,
+  "reading": "しあがり",
+  "easy": "クリーニングが終わって、服ができることです。「仕上がり日」は、服を取りに行ける日です。",
+  "phrase": false,
+  "alt": [
+   "お仕上がり",
+   "仕上り"
+  ],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "ワイシャツ": {
+  "skip": false,
+  "reading": "ワイシャツ",
+  "easy": "仕事などで着る、えりとボタンがあるシャツです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "コート": {
+  "skip": true,
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "ハンガー仕上げ": {
+  "skip": false,
+  "reading": "ハンガーしあげ",
+  "easy": "洗った服を、ハンガーにかけた形で返すことです。",
+  "phrase": false,
+  "alt": [
+   "ハンガーしあげ"
+  ],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "たたみ仕上げ": {
+  "skip": false,
+  "reading": "たたみしあげ",
+  "easy": "洗った服を、たたんだ形で返すことです。",
+  "phrase": false,
+  "alt": [
+   "たたみしあげ",
+   "畳み仕上げ"
+  ],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "引換券": {
+  "skip": false,
+  "reading": "ひきかえけん",
+  "easy": "出した服を受け取るときに見せる紙です。なくさないようにします。",
+  "phrase": false,
+  "alt": [
+   "引き換え券",
+   "引換え券",
+   "預かり証"
+  ],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "会員カード": {
+  "skip": false,
+  "reading": "かいいんカード",
+  "easy": "店の会員が持つカードです。ポイントや割引に使うことがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-143"
+  ],
+  "status": "draft"
+ },
+ "ことり銀行": {
+  "skip": true,
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "さくら支店": {
+  "skip": true,
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "ロータス銀行": {
+  "skip": true,
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "海外送金": {
+  "skip": false,
+  "reading": "かいがいそうきん",
+  "easy": "外国にいる人や銀行に、お金を送ることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "外国送金依頼書": {
+  "skip": false,
+  "reading": "がいこくそうきんいらいしょ",
+  "easy": "外国にお金を送るときに、銀行に出す紙です。受取人の名前や銀行などを書きます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "SWIFTコード": {
+  "skip": false,
+  "reading": "スウィフトコード",
+  "easy": "外国にお金を送るときに使う、銀行ごとの記号です。前もって家族に聞いておくとよいです。",
+  "phrase": false,
+  "alt": [
+   "スウィフトコード"
+  ],
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "マイナンバー": {
+  "skip": false,
+  "reading": "マイナンバー",
+  "easy": "日本に住んでいる人ひとりひとりにある番号です。税金などの手続きで使います。",
+  "phrase": false,
+  "alt": [
+   "個人番号"
+  ],
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "中継銀行": {
+  "skip": false,
+  "reading": "ちゅうけいぎんこう",
+  "easy": "外国にお金を送るとき、あいだに入る銀行です。手数料がかかることがあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "受取人": {
+  "skip": false,
+  "reading": "うけとりにん",
+  "easy": "お金や物を受け取る人のことです。",
+  "phrase": false,
+  "alt": [
+   "受け取り人"
+  ],
+  "scenes": [
+   "cando-151"
+  ],
+  "status": "draft"
+ },
+ "かもめ鉄道": {
+  "skip": true,
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "みなと中央駅": {
+  "skip": true,
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "あおば中央駅": {
+  "skip": true,
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "ひばり台駅": {
+  "skip": true,
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "特急": {
+  "skip": false,
+  "reading": "とっきゅう",
+  "easy": "とても速い電車です。止まらない駅があります。乗車券のほかに特急券が必要なことが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "快速": {
+  "skip": false,
+  "reading": "かいそく",
+  "easy": "ふつうの電車より速い電車です。止まらない駅があります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "乗車券": {
+  "skip": false,
+  "reading": "じょうしゃけん",
+  "easy": "電車に乗るためのきっぷです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "特急券": {
+  "skip": false,
+  "reading": "とっきゅうけん",
+  "easy": "特急に乗るときに、乗車券のほかに買うきっぷです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "指定席": {
+  "skip": false,
+  "reading": "していせき",
+  "easy": "座る席が決まっている席です。きっぷに席の番号が書いてあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "自由席": {
+  "skip": false,
+  "reading": "じゆうせき",
+  "easy": "決まった席がない席です。あいている席に座ることができます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "乗り換え": {
+  "skip": false,
+  "reading": "のりかえ",
+  "easy": "途中で、ほかの電車に乗ることです。携帯電話では、ほかの会社に変えることも言います。",
+  "phrase": false,
+  "alt": [
+   "乗換",
+   "乗換え",
+   "乗りかえ"
+  ],
+  "scenes": [
+   "cando-158",
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "振替輸送": {
+  "skip": false,
+  "reading": "ふりかえゆそう",
+  "easy": "電車が止まったときに、ほかの電車やバスなどに乗って行くことができることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-158"
+  ],
+  "status": "draft"
+ },
+ "ホテルみなとベイ": {
+  "skip": true,
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "フロント": {
+  "skip": false,
+  "reading": "フロント",
+  "easy": "ホテルの受付のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "タクシー": {
+  "skip": true,
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "手配": {
+  "skip": false,
+  "reading": "てはい",
+  "easy": "必要なものを用意することです。タクシーの手配は、タクシーを呼ぶことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "正面玄関": {
+  "skip": false,
+  "reading": "しょうめんげんかん",
+  "easy": "建物の前にある、いちばん大きな入り口のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "迎車": {
+  "skip": false,
+  "reading": "げいしゃ",
+  "easy": "タクシーが、客のいる場所まで迎えに来ることです。迎車料金というお金がかかることがあります。",
+  "phrase": false,
+  "alt": [
+   "迎車料金"
+  ],
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "ワゴン": {
+  "skip": false,
+  "reading": "ワゴン",
+  "easy": "人や荷物がたくさん乗る、大きい車のことです。",
+  "phrase": false,
+  "alt": [
+   "ワゴン車"
+  ],
+  "scenes": [
+   "cando-161"
+  ],
+  "status": "draft"
+ },
+ "クレジットカード": {
+  "skip": false,
+  "reading": "クレジットカード",
+  "easy": "お金を、あとでまとめて払うことができるカードです。使えるかどうかは、場所によってちがいます。",
+  "phrase": false,
+  "alt": [
+   "カード"
+  ],
+  "scenes": [
+   "cando-161",
+   "cando-577"
+  ],
+  "status": "draft"
+ },
+ "みなと県": {
+  "skip": true,
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "運転免許更新センター": {
+  "skip": false,
+  "reading": "うんてんめんきょこうしんセンター",
+  "easy": "運転免許証を新しくする手続きをするところです。",
+  "phrase": false,
+  "alt": [
+   "免許センター",
+   "運転免許センター"
+  ],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "更新のお知らせ": {
+  "skip": false,
+  "reading": "こうしんのおしらせ",
+  "easy": "免許の期限が近いことを知らせるはがきです。届いたら、決まった期間に更新に行きます。",
+  "phrase": false,
+  "alt": [
+   "更新のおしらせ"
+  ],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "有効期限": {
+  "skip": false,
+  "reading": "ゆうこうきげん",
+  "easy": "使うことができる最後の日です。この日を過ぎると、使うことができません。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "講習区分": {
+  "skip": false,
+  "reading": "こうしゅうくぶん",
+  "easy": "免許を更新するときに受ける講習の種類です。種類によって、時間やお金がちがいます。",
+  "phrase": false,
+  "alt": [
+   "講習の区分"
+  ],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "優良運転者講習": {
+  "skip": false,
+  "reading": "ゆうりょううんてんしゃこうしゅう",
+  "easy": "事故や交通のルール違反がない、安全な運転者が受ける講習です。",
+  "phrase": false,
+  "alt": [
+   "優良講習"
+  ],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "一般講習": {
+  "skip": false,
+  "reading": "いっぱんこうしゅう",
+  "easy": "免許を更新するときに受ける、ふつうの講習です。優良運転者ではない人などが受けます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "適性検査": {
+  "skip": false,
+  "reading": "てきせいけんさ",
+  "easy": "運転してもよいか調べる検査です。目がよく見えるかなどを調べます。眼鏡を使う人は持って行きます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "住民票の写し": {
+  "skip": false,
+  "reading": "じゅうみんひょうのうつし",
+  "easy": "住所や名前などが書いてある紙です。住んでいるまちの役所でもらうことができます。",
+  "phrase": false,
+  "alt": [
+   "住民票"
+  ],
+  "scenes": [
+   "cando-187"
+  ],
+  "status": "draft"
+ },
+ "かもめ自動車学校": {
+  "skip": true,
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "さくら町駅": {
+  "skip": true,
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "山下": {
+  "skip": true,
+  "scenes": [
+   "cando-188",
+   "cando-424",
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "AT限定": {
+  "skip": false,
+  "reading": "エーティーげんてい",
+  "easy": "オートマチック車だけ運転できる免許です。マニュアル車は運転できません。",
+  "phrase": false,
+  "alt": [
+   "オートマ限定"
+  ],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "マニュアル": {
+  "skip": false,
+  "reading": "マニュアル",
+  "easy": "自分でギアを変えて運転する車のことです。運転したいなら、AT限定ではない免許をとります。",
+  "phrase": false,
+  "alt": [
+   "マニュアル車",
+   "MT"
+  ],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "普通車": {
+  "skip": false,
+  "reading": "ふつうしゃ",
+  "easy": "ふつうの大きさの車のことです。ふつうの運転免許で運転できます。",
+  "phrase": false,
+  "alt": [
+   "普通自動車"
+  ],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "教習": {
+  "skip": false,
+  "reading": "きょうしゅう",
+  "easy": "教習所で、車の運転を習うことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "短期プラン": {
+  "skip": false,
+  "reading": "たんきプラン",
+  "easy": "短い期間で、続けて習って卒業するコースです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "送迎バス": {
+  "skip": false,
+  "reading": "そうげいバス",
+  "easy": "駅などから教習所まで、人を乗せて行ったり帰したりするバスです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "技能検定": {
+  "skip": false,
+  "reading": "ぎのうけんてい",
+  "easy": "教習所で、車を正しく運転できるか見る試験です。",
+  "phrase": false,
+  "alt": [
+   "検定"
+  ],
+  "scenes": [
+   "cando-188"
+  ],
+  "status": "draft"
+ },
+ "ひかり損害保険": {
+  "skip": true,
+  "scenes": [
+   "cando-191"
+  ],
+  "status": "draft"
+ },
+ "ミナトライト": {
+  "skip": true,
+  "scenes": [
+   "cando-191"
+  ],
+  "status": "draft"
+ },
+ "任意保険": {
+  "skip": false,
+  "reading": "にんいほけん",
+  "easy": "自分で会社と内容を選んで入る、車の保険です。自賠責保険で足りない分を助けます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-191"
+  ],
+  "status": "draft"
+ },
+ "型式": {
+  "skip": false,
+  "reading": "かたしき",
+  "easy": "車の種類を表す記号や番号です。車検証に書いてあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-191"
+  ],
+  "status": "draft"
+ },
+ "登録番号": {
+  "skip": false,
+  "reading": "とうろくばんごう",
+  "easy": "車のナンバープレートに書いてある番号のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-191"
+  ],
+  "status": "draft"
+ },
+ "納車": {
+  "skip": false,
+  "reading": "のうしゃ",
+  "easy": "買った車を、店から受け取ることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-191"
+  ],
+  "status": "draft"
+ },
+ "さくら町レディースクリニック": {
+  "skip": true,
+  "scenes": [
+   "cando-203"
+  ],
+  "status": "draft"
+ },
+ "妊婦健診": {
+  "skip": false,
+  "reading": "にんぷけんしん",
+  "easy": "おなかに赤ちゃんがいる人が、病院で受ける検査のことです。お母さんと赤ちゃんの体を調べます。",
+  "phrase": false,
+  "alt": [
+   "妊婦健康診査",
+   "妊婦検診"
+  ],
+  "scenes": [
+   "cando-203"
+  ],
+  "status": "draft"
+ },
+ "受診票": {
+  "skip": false,
+  "reading": "じゅしんひょう",
+  "easy": "健診を受けるとき、病院に出す紙です。市や町からもらいます。お金の一部を市や町が払ってくれます。",
+  "phrase": false,
+  "alt": [
+   "受診券"
+  ],
+  "scenes": [
+   "cando-203",
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "補助券": {
+  "skip": false,
+  "reading": "ほじょけん",
+  "easy": "お金の一部を、市や町が払ってくれる紙のことです。健診では受診票のことをいいます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-203"
+  ],
+  "status": "draft"
+ },
+ "妊娠週数": {
+  "skip": false,
+  "reading": "にんしんしゅうすう",
+  "easy": "赤ちゃんがおなかにできてから、何週目かということです。最後の生理が始まった日から数えます。",
+  "phrase": false,
+  "alt": [
+   "週数"
+  ],
+  "scenes": [
+   "cando-203"
+  ],
+  "status": "draft"
+ },
+ "かもめマンション": {
+  "skip": true,
+  "scenes": [
+   "cando-219"
+  ],
+  "status": "draft"
+ },
+ "在留資格取得": {
+  "skip": false,
+  "reading": "ざいりゅうしかくしゅとく",
+  "easy": "日本に住むための資格（在留資格）を、新しくもらうことです。日本で生まれた外国籍の子どもは、入管に申請します。",
+  "phrase": false,
+  "alt": [
+   "在留資格の取得"
+  ],
+  "scenes": [
+   "cando-219"
+  ],
+  "status": "draft"
+ },
+ "出生届受理証明書": {
+  "skip": false,
+  "reading": "しゅっしょうとどけじゅりしょうめいしょ",
+  "easy": "赤ちゃんが生まれた届け（出生届）を、役所が受け取ったことを示す紙です。役所でもらいます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-219"
+  ],
+  "status": "draft"
+ },
+ "大使館": {
+  "skip": false,
+  "reading": "たいしかん",
+  "easy": "日本にある、あなたの国の役所のことです。パスポートなどの手続きをします。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-219"
+  ],
+  "status": "draft"
+ },
+ "さくら町こどもクリニック": {
+  "skip": true,
+  "scenes": [
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "乳幼児健診": {
+  "skip": false,
+  "reading": "にゅうようじけんしん",
+  "easy": "赤ちゃんや小さい子どもの体や、大きくなっているかを調べる検査のことです。",
+  "phrase": false,
+  "alt": [
+   "乳幼児健康診査"
+  ],
+  "scenes": [
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "月齢": {
+  "skip": false,
+  "reading": "げつれい",
+  "easy": "赤ちゃんが生まれてから、何か月かということです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "医療証": {
+  "skip": false,
+  "reading": "いりょうしょう",
+  "easy": "子どもが病院に行くときのお金を、市や町が助けるための証明書です。病院の受付で見せます。",
+  "phrase": false,
+  "alt": [
+   "子ども医療証"
+  ],
+  "scenes": [
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "自費": {
+  "skip": false,
+  "reading": "じひ",
+  "easy": "保険や市・町の助けを使わないで、お金を全部自分で払うことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-222"
+  ],
+  "status": "draft"
+ },
+ "保育課": {
+  "skip": false,
+  "reading": "ほいくか",
+  "easy": "市役所などで、保育園の申し込みなどの仕事をするところです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-266"
+  ],
+  "status": "draft"
+ },
+ "入園申請": {
+  "skip": false,
+  "reading": "にゅうえんしんせい",
+  "easy": "保育園などに入るための申し込みのことです。市や町の窓口に出すことが多いです。",
+  "phrase": false,
+  "alt": [
+   "入園の申請",
+   "入園申し込み"
+  ],
+  "scenes": [
+   "cando-266"
+  ],
+  "status": "draft"
+ },
+ "申込書": {
+  "skip": false,
+  "reading": "もうしこみしょ",
+  "easy": "何かを申し込むときに、書いて出す紙のことです。",
+  "phrase": false,
+  "alt": [
+   "申し込み書",
+   "申込み書"
+  ],
+  "scenes": [
+   "cando-266",
+   "cando-316",
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "就労証明書": {
+  "skip": false,
+  "reading": "しゅうろうしょうめいしょ",
+  "easy": "あなたが働いていることを示す書類です。働いている会社に書いてもらいます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-266"
+  ],
+  "status": "draft"
+ },
+ "締め切り": {
+  "skip": false,
+  "reading": "しめきり",
+  "easy": "書類などを出すことができる最後の日のことです。この日までに出します。",
+  "phrase": false,
+  "alt": [
+   "締切",
+   "締切り",
+   "〆切"
+  ],
+  "scenes": [
+   "cando-266"
+  ],
+  "status": "draft"
+ },
+ "一次募集": {
+  "skip": false,
+  "reading": "いちじぼしゅう",
+  "easy": "いちばん初めの申し込みの受付のことです。このあと、もう一度受付（二次募集）をすることもあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-266"
+  ],
+  "status": "draft"
+ },
+ "途中入園": {
+  "skip": false,
+  "reading": "とちゅうにゅうえん",
+  "easy": "4月ではなく、年の途中から保育園に入ることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-266"
+  ],
+  "status": "draft"
+ },
+ "ひまわりコーポ": {
+  "skip": true,
+  "scenes": [
+   "cando-295"
+  ],
+  "status": "draft"
+ },
+ "さくら小学校": {
+  "skip": true,
+  "scenes": [
+   "cando-295",
+   "cando-299",
+   "cando-316",
+   "cando-348"
+  ],
+  "status": "draft"
+ },
+ "かもめ小学校": {
+  "skip": true,
+  "scenes": [
+   "cando-295"
+  ],
+  "status": "draft"
+ },
+ "学務課": {
+  "skip": false,
+  "reading": "がくむか",
+  "easy": "教育委員会の中で、子どもが学校に入る手続きなどの仕事をするところです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-295"
+  ],
+  "status": "draft"
+ },
+ "日本語学級": {
+  "skip": false,
+  "reading": "にほんごがっきゅう",
+  "easy": "学校の中にある、日本語を勉強するための教室です。一部の授業をここで受けます。国際教室ということもあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-295"
+  ],
+  "status": "draft"
+ },
+ "日本語支援": {
+  "skip": false,
+  "reading": "にほんごしえん",
+  "easy": "日本語がまだよくわからない子どもを、学校で助けることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-295"
+  ],
+  "status": "draft"
+ },
+ "支援員": {
+  "skip": false,
+  "reading": "しえんいん",
+  "easy": "学校に来て、子どもの勉強などを手伝う人のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-295"
+  ],
+  "status": "draft"
+ },
+ "就学時健康診断": {
+  "skip": false,
+  "reading": "しゅうがくじけんこうしんだん",
+  "easy": "次の年に小学校に入る子どもが受ける、体の検査です。入る予定の小学校で受けることが多いです。",
+  "phrase": false,
+  "alt": [
+   "就学時健診",
+   "就学前健診"
+  ],
+  "scenes": [
+   "cando-299"
+  ],
+  "status": "draft"
+ },
+ "上履き": {
+  "skip": false,
+  "reading": "うわばき",
+  "easy": "学校などの建物の中ではく、くつのことです。",
+  "phrase": false,
+  "alt": [
+   "上ばき",
+   "うわばき",
+   "上靴"
+  ],
+  "scenes": [
+   "cando-299"
+  ],
+  "status": "draft"
+ },
+ "養護教諭": {
+  "skip": false,
+  "reading": "ようごきょうゆ",
+  "easy": "学校の保健室の先生のことです。子どものけがや病気、体の健康のことをします。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-299"
+  ],
+  "status": "draft"
+ },
+ "就学相談": {
+  "skip": false,
+  "reading": "しゅうがくそうだん",
+  "easy": "子どもがどの学校やクラスで勉強するとよいか、市や町の教育委員会と相談することです。親の意見も聞いて決めます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-299",
+   "cando-348"
+  ],
+  "status": "draft"
+ },
+ "聴力": {
+  "skip": false,
+  "reading": "ちょうりょく",
+  "easy": "耳で音を聞く力のことです。健診では、音がよく聞こえるか調べます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-299"
+  ],
+  "status": "draft"
+ },
+ "かもめ銀行": {
+  "skip": true,
+  "scenes": [
+   "cando-316"
+  ],
+  "status": "draft"
+ },
+ "給食費": {
+  "skip": false,
+  "reading": "きゅうしょくひ",
+  "easy": "学校で子どもが食べる昼ごはん（給食）のために、親が払うお金です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-316"
+  ],
+  "status": "draft"
+ },
+ "引き落とし": {
+  "skip": false,
+  "reading": "ひきおとし",
+  "easy": "銀行の口座から、お金が自動で払われることです。口座にお金を入れておきます。",
+  "phrase": false,
+  "alt": [
+   "引落し",
+   "引落とし",
+   "引き落し"
+  ],
+  "scenes": [
+   "cando-316"
+  ],
+  "status": "draft"
+ },
+ "届け出印": {
+  "skip": false,
+  "reading": "とどけでいん",
+  "easy": "銀行の口座をつくるときに、銀行に届けたはんこのことです。「銀行印」ともいいます。",
+  "phrase": false,
+  "alt": [
+   "届出印"
+  ],
+  "scenes": [
+   "cando-316"
+  ],
+  "status": "draft"
+ },
+ "みなと市立さくら中学校": {
+  "skip": true,
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "山田先生": {
+  "skip": true,
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "進路相談": {
+  "skip": false,
+  "reading": "しんろそうだん",
+  "easy": "中学校を出たあと、どの高校に行くかなど、これからのことを先生と話すことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "三者面談": {
+  "skip": false,
+  "reading": "さんしゃめんだん",
+  "easy": "担任の先生と、親と、子どもの3人で話すことです。中学3年生では、進路を相談します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "担任": {
+  "skip": false,
+  "reading": "たんにん",
+  "easy": "クラスのことを担当する先生のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "通訳": {
+  "skip": false,
+  "reading": "つうやく",
+  "easy": "ちがう言葉を話す人のあいだで、言葉を訳して伝えることです。その仕事をする人のことも言います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "高校進学": {
+  "skip": false,
+  "reading": "こうこうしんがく",
+  "easy": "中学校を出て、高校に入ることです。高校に入るには、試験があることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "放課後": {
+  "skip": false,
+  "reading": "ほうかご",
+  "easy": "学校の授業が全部終わったあとの時間のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-331"
+  ],
+  "status": "draft"
+ },
+ "折り返し": {
+  "skip": false,
+  "reading": "おりかえし",
+  "easy": "あとで、相手からもう一度電話をかけることです。電話を切って、待ちます。",
+  "phrase": true,
+  "alt": [
+   "折返し",
+   "折り返しお電話",
+   "折り返します"
+  ],
+  "scenes": [
+   "cando-331",
+   "cando-443",
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "特別支援学級": {
+  "skip": false,
+  "reading": "とくべつしえんがっきゅう",
+  "easy": "体や心、勉強などで特別な手伝いがいる子どものための、小学校や中学校の中にあるクラスです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-348"
+  ],
+  "status": "draft"
+ },
+ "特別支援学校": {
+  "skip": false,
+  "reading": "とくべつしえんがっこう",
+  "easy": "体や心、勉強などで特別な手伝いがいる子どものための学校です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-348"
+  ],
+  "status": "draft"
+ },
+ "通級による指導": {
+  "skip": false,
+  "reading": "つうきゅうによるしどう",
+  "easy": "ふだんのクラスで勉強しながら、一部の時間だけ別に特別な指導を受けることです。",
+  "phrase": false,
+  "alt": [
+   "通級"
+  ],
+  "scenes": [
+   "cando-348"
+  ],
+  "status": "draft"
+ },
+ "特別支援教育コーディネーター": {
+  "skip": false,
+  "reading": "とくべつしえんきょういくコーディネーター",
+  "easy": "特別な手伝いがいる子どもについて、相談を受けたり、先生や親をつないだりする学校の先生です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-348"
+  ],
+  "status": "draft"
+ },
+ "みなと公共職業安定所": {
+  "skip": true,
+  "scenes": [
+   "cando-356",
+   "cando-380"
+  ],
+  "status": "draft"
+ },
+ "求職申込み": {
+  "skip": false,
+  "reading": "きゅうしょくもうしこみ",
+  "easy": "仕事をさがすために、職安（公共職業安定所）に登録することです。最初にすることが多いです。",
+  "phrase": false,
+  "alt": [
+   "求職申し込み",
+   "求職申込"
+  ],
+  "scenes": [
+   "cando-356"
+  ],
+  "status": "draft"
+ },
+ "求人票": {
+  "skip": false,
+  "reading": "きゅうじんひょう",
+  "easy": "会社が働く人をさがすときに、仕事の内容や時間、給料などを書いた紙です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-356"
+  ],
+  "status": "draft"
+ },
+ "紹介状": {
+  "skip": false,
+  "reading": "しょうかいじょう",
+  "easy": "窓口が出す、会社にあなたを紹介する紙です。これをもらってから応募する仕事があります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-356"
+  ],
+  "status": "draft"
+ },
+ "就職説明会": {
+  "skip": false,
+  "reading": "しゅうしょくせつめいかい",
+  "easy": "会社が、仕事をさがしている人に、仕事の内容などを説明する集まりです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-356"
+  ],
+  "status": "draft"
+ },
+ "履歴書": {
+  "skip": false,
+  "reading": "りれきしょ",
+  "easy": "名前や住所、学校や仕事の経験などを書く紙です。仕事に応募するときに出します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-356"
+  ],
+  "status": "draft"
+ },
+ "職業相談": {
+  "skip": false,
+  "reading": "しょくぎょうそうだん",
+  "easy": "仕事さがしや就職について、窓口の人に相談することです。無料で相談できます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-356"
+  ],
+  "status": "draft"
+ },
+ "パート": {
+  "skip": false,
+  "reading": "パート",
+  "easy": "正社員より短い時間で働く働き方です。時給でお金をもらうことが多いです。",
+  "phrase": false,
+  "alt": [
+   "パートタイム"
+  ],
+  "scenes": [
+   "cando-380"
+  ],
+  "status": "draft"
+ },
+ "アルバイト": {
+  "skip": false,
+  "reading": "アルバイト",
+  "easy": "短い時間や短い期間で働く働き方です。時給でお金をもらうことが多いです。",
+  "phrase": false,
+  "alt": [
+   "バイト"
+  ],
+  "scenes": [
+   "cando-380"
+  ],
+  "status": "draft"
+ },
+ "派遣": {
+  "skip": false,
+  "reading": "はけん",
+  "easy": "派遣会社と契約して、ほかの会社に行って働く働き方です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-380"
+  ],
+  "status": "draft"
+ },
+ "求人": {
+  "skip": false,
+  "reading": "きゅうじん",
+  "easy": "会社などが、働く人をさがすことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-380"
+  ],
+  "status": "draft"
+ },
+ "時給": {
+  "skip": false,
+  "reading": "じきゅう",
+  "easy": "1時間働くと、もらえるお金のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-380"
+  ],
+  "status": "draft"
+ },
+ "ひまわり商事": {
+  "skip": true,
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "営業部": {
+  "skip": false,
+  "reading": "えいぎょうぶ",
+  "easy": "会社の中で、商品やサービスを売る仕事をするグループのことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-424",
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "田中課長": {
+  "skip": true,
+  "scenes": [
+   "cando-424",
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "かもめ線": {
+  "skip": true,
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "わかば駅": {
+  "skip": true,
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "みどり物産": {
+  "skip": true,
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "人身事故": {
+  "skip": false,
+  "reading": "じんしんじこ",
+  "easy": "電車などに人がぶつかって、人がけがをしたり死んだりする事故のことです。電車が止まったり、遅れたりします。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "運転見合わせ": {
+  "skip": false,
+  "reading": "うんてんみあわせ",
+  "easy": "電車やバスが、しばらく動かないで止まっていることです。",
+  "phrase": false,
+  "alt": [
+   "運転を見合わせ",
+   "見合わせ"
+  ],
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "遅延証明書": {
+  "skip": false,
+  "reading": "ちえんしょうめいしょ",
+  "easy": "電車が遅れたことを書いた紙です。駅や鉄道会社のウェブサイトでもらえることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "出社": {
+  "skip": false,
+  "reading": "しゅっしゃ",
+  "easy": "仕事をするために、会社に行くことです。",
+  "phrase": false,
+  "alt": [
+   "出社します"
+  ],
+  "scenes": [
+   "cando-424"
+  ],
+  "status": "draft"
+ },
+ "かもめ商事": {
+  "skip": true,
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "総務部": {
+  "skip": false,
+  "reading": "そうむぶ",
+  "easy": "会社の中で、書類や建物、働く人のことなど、会社全体の仕事をするグループのことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "佐藤": {
+  "skip": true,
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "田中": {
+  "skip": true,
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "内線": {
+  "skip": false,
+  "reading": "ないせん",
+  "easy": "同じ会社や建物の中だけで使う電話のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "席を外しています": {
+  "skip": false,
+  "reading": "せきをはずしています",
+  "easy": "今、自分の机の近くにいないという意味です。少しのあいだ、その人はいません。",
+  "phrase": true,
+  "alt": [
+   "席を外しております",
+   "席を外して"
+  ],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "会議中": {
+  "skip": false,
+  "reading": "かいぎちゅう",
+  "easy": "今、会議をしていて、電話に出られないという意味です。",
+  "phrase": true,
+  "alt": [
+   "会議中です"
+  ],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "戻る": {
+  "skip": false,
+  "reading": "もどる",
+  "easy": "もとの場所に帰ってくることです。",
+  "phrase": false,
+  "alt": [
+   "戻ります",
+   "戻り"
+  ],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "かけ直す": {
+  "skip": false,
+  "reading": "かけなおす",
+  "easy": "電話をいったん切って、あとでもう一度電話をかけることです。",
+  "phrase": true,
+  "alt": [
+   "かけ直します",
+   "掛け直す",
+   "おかけ直し"
+  ],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "お疲れさまです": {
+  "skip": false,
+  "reading": "おつかれさまです",
+  "easy": "会社の人どうしで使うあいさつです。内線電話では、このあいさつのあとで名前を言うことが多いです。",
+  "phrase": true,
+  "alt": [
+   "お疲れ様です",
+   "おつかれさまです",
+   "お疲れさまでした"
+  ],
+  "scenes": [
+   "cando-433"
+  ],
+  "status": "draft"
+ },
+ "みなと商事": {
+  "skip": true,
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "佐藤様": {
+  "skip": true,
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "納品": {
+  "skip": false,
+  "reading": "のうひん",
+  "easy": "注文された品物を、相手に届けることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "注文書": {
+  "skip": false,
+  "reading": "ちゅうもんしょ",
+  "easy": "何を、いくつ買いたいかを書いた紙のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "出荷": {
+  "skip": false,
+  "reading": "しゅっか",
+  "easy": "品物をお客さんに送るために、会社や倉庫から出すことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "数量": {
+  "skip": false,
+  "reading": "すうりょう",
+  "easy": "物の数や量のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "先方": {
+  "skip": false,
+  "reading": "せんぽう",
+  "easy": "相手の人や、相手の会社のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "経緯": {
+  "skip": false,
+  "reading": "けいい",
+  "easy": "あることが、どのように起きて、どうなったかという流れのことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-443"
+  ],
+  "status": "draft"
+ },
+ "かもめ市": {
+  "skip": true,
+  "scenes": [
+   "cando-563"
+  ],
+  "status": "draft"
+ },
+ "かもめデンキ": {
+  "skip": true,
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "みなと駅前店": {
+  "skip": true,
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "ひばり町": {
+  "skip": true,
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "そらモバイル": {
+  "skip": true,
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "光回線": {
+  "skip": false,
+  "reading": "ひかりかいせん",
+  "easy": "家でインターネットを使うための、速い線のことです。使うには、工事がいることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "プロバイダー": {
+  "skip": false,
+  "reading": "プロバイダー",
+  "easy": "インターネットにつなぐサービスをする会社のことです。回線の会社とは別に契約することがあります。",
+  "phrase": false,
+  "alt": [
+   "プロバイダ"
+  ],
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "開通工事": {
+  "skip": false,
+  "reading": "かいつうこうじ",
+  "easy": "インターネットを使えるようにするために、家で線をつなぐ工事のことです。家にいる必要があることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "解約金": {
+  "skip": false,
+  "reading": "かいやくきん",
+  "easy": "約束した期間の途中で契約をやめるときに、払うお金のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "ホームルーター": {
+  "skip": false,
+  "reading": "ホームルーター",
+  "easy": "家のコンセントにさすだけで、インターネットが使える機械のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "かもめモバイル": {
+  "skip": true,
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "さくら町店": {
+  "skip": true,
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "プラン": {
+  "skip": false,
+  "reading": "プラン",
+  "easy": "料金や、使えるサービスの組み合わせのことです。",
+  "phrase": false,
+  "alt": [
+   "料金プラン"
+  ],
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "データ容量": {
+  "skip": false,
+  "reading": "データようりょう",
+  "easy": "1か月にスマートフォンでインターネットを使える量のことです。",
+  "phrase": false,
+  "alt": [
+   "ギガ"
+  ],
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "かけ放題": {
+  "skip": false,
+  "reading": "かけほうだい",
+  "easy": "決まったお金を払うと、電話をたくさんかけても料金が変わらないサービスのことです。",
+  "phrase": false,
+  "alt": [
+   "かけほうだい"
+  ],
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "オプション": {
+  "skip": false,
+  "reading": "オプション",
+  "easy": "プランに足すことができる、別のサービスのことです。無料の期間が終わると、お金がかかることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "補償サービス": {
+  "skip": false,
+  "reading": "ほしょうサービス",
+  "easy": "スマートフォンがこわれたり、なくなったりしたときに助けてくれるサービスのことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "本人確認書類": {
+  "skip": false,
+  "reading": "ほんにんかくにんしょるい",
+  "easy": "あなたがだれかを見せるためのカードなどのことです。外国の人は在留カードを見せることが多いです。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [
+   "cando-763"
+  ],
+  "status": "draft"
+ },
+ "みなと市国際交流センター": {
+  "skip": true,
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "担当": {
+  "skip": false,
+  "reading": "たんとう",
+  "easy": "その仕事をする人のことです。",
+  "phrase": false,
+  "alt": [
+   "担当者"
+  ],
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "伝言": {
+  "skip": false,
+  "reading": "でんごん",
+  "easy": "いない人に、話したいことを伝えてもらうことです。名前、電話番号、用事を短く言います。",
+  "phrase": true,
+  "alt": [
+   "ご伝言"
+  ],
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "承ります": {
+  "skip": false,
+  "reading": "うけたまわります",
+  "easy": "「聞きます」「受けます」のていねいな言い方です。伝えたいことを話してください。",
+  "phrase": true,
+  "alt": [
+   "承りました",
+   "お承りします"
+  ],
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "外出": {
+  "skip": false,
+  "reading": "がいしゅつ",
+  "easy": "仕事などで外に出ていて、今いないという意味です。",
+  "phrase": false,
+  "alt": [
+   "外出しております"
+  ],
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "席を外して": {
+  "skip": false,
+  "reading": "せきをはずして",
+  "easy": "今、少しのあいだ、その人が近くにいないという意味です。伝言をたのむか、あとでかけます。",
+  "phrase": true,
+  "alt": [
+   "席を外しております",
+   "席を外しています"
+  ],
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "復唱": {
+  "skip": false,
+  "reading": "ふくしょう",
+  "easy": "聞いたことを、もう一度言って確かめることです。まちがいがないか、よく聞きます。",
+  "phrase": true,
+  "alt": [
+   "復唱いたします",
+   "復唱します"
+  ],
+  "scenes": [
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "少々お待ちください": {
+  "skip": false,
+  "reading": "しょうしょうおまちください",
+  "easy": "「少し待ってください」という意味です。電話を切らないで待ちます。",
+  "phrase": true,
+  "alt": [
+   "少々お待ちくださいませ"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お待たせいたしました": {
+  "skip": false,
+  "reading": "おまたせいたしました",
+  "easy": "「待たせて、すみません」という意味です。これから話が続きます。",
+  "phrase": true,
+  "alt": [
+   "お待たせしました"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "恐れ入りますが": {
+  "skip": false,
+  "reading": "おそれいりますが",
+  "easy": "「すみませんが」という意味です。このあと、お願いや質問が来ます。",
+  "phrase": true,
+  "alt": [
+   "恐れ入ります"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "かしこまりました": {
+  "skip": false,
+  "reading": "かしこまりました",
+  "easy": "「わかりました」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [],
+  "status": "draft"
+ },
+ "承知いたしました": {
+  "skip": false,
+  "reading": "しょうちいたしました",
+  "easy": "「わかりました」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "承知しました"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お掛け直しください": {
+  "skip": false,
+  "reading": "おかけなおしください",
+  "easy": "「もう一度、電話をかけてください」という意味です。電話を切って、あとでまたかけます。",
+  "phrase": true,
+  "alt": [
+   "おかけ直しください",
+   "お掛け直しくださいませ"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "ひばりマンション": {
+  "skip": true,
+  "scenes": [
+   "cando-563",
+   "cando-746"
+  ],
+  "status": "draft"
+ },
+ "在学証明書": {
+  "skip": false,
+  "reading": "ざいがくしょうめいしょ",
+  "easy": "その学校の生徒であることを、学校が書いた紙です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-563"
+  ],
+  "status": "draft"
+ },
+ "転入学通知書": {
+  "skip": false,
+  "reading": "てんにゅうがくつうちしょ",
+  "easy": "新しい学校に入ることを知らせる紙です。役所（教育委員会）でもらって、新しい学校に出します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-563"
+  ],
+  "status": "draft"
+ },
+ "やまびこ市": {
+  "skip": true,
+  "scenes": [
+   "cando-566"
+  ],
+  "status": "draft"
+ },
+ "総合案内": {
+  "skip": false,
+  "reading": "そうごうあんない",
+  "easy": "役所の入口の近くにある受付です。どの窓口に行けばよいか教えてくれます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-566"
+  ],
+  "status": "draft"
+ },
+ "転入": {
+  "skip": false,
+  "reading": "てんにゅう",
+  "easy": "ほかの市や町から引っ越して来ることです。決められた期間の中で、役所に届けを出します。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-566"
+  ],
+  "status": "draft"
+ },
+ "保険年金課": {
+  "skip": false,
+  "reading": "ほけんねんきんか",
+  "easy": "役所で、国民健康保険や国民年金の手続きをする課です。課の名前は町によってちがいます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-566",
+   "cando-639"
+  ],
+  "status": "draft"
+ },
+ "番号札": {
+  "skip": false,
+  "reading": "ばんごうふだ",
+  "easy": "番号が書いてある紙です。窓口で取って、自分の番号が呼ばれるまで待ちます。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [
+   "cando-566",
+   "cando-569"
+  ],
+  "status": "draft"
+ },
+ "かもめ信用金庫": {
+  "skip": true,
+  "scenes": [
+   "cando-577"
+  ],
+  "status": "draft"
+ },
+ "納付書": {
+  "skip": false,
+  "reading": "のうふしょ",
+  "easy": "税金や保険料を払うときに使う紙です。銀行や役所の窓口、コンビニなどで払います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-577",
+   "cando-639"
+  ],
+  "status": "draft"
+ },
+ "普通徴収": {
+  "skip": false,
+  "reading": "ふつうちょうしゅう",
+  "easy": "住民税を給料から引かないで、自分で納付書を使って払う方法です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-577"
+  ],
+  "status": "draft"
+ },
+ "届出印": {
+  "skip": false,
+  "reading": "とどけでいん",
+  "easy": "銀行に口座を作ったときに届けた印鑑（はんこ）のことです。",
+  "phrase": false,
+  "alt": [
+   "届け出印"
+  ],
+  "scenes": [
+   "cando-577"
+  ],
+  "status": "draft"
+ },
+ "税務課": {
+  "skip": false,
+  "reading": "ぜいむか",
+  "easy": "役所で、税金の仕事をする課です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-577"
+  ],
+  "status": "draft"
+ },
+ "ハル": {
+  "skip": true,
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "柴犬": {
+  "skip": false,
+  "reading": "しばいぬ",
+  "easy": "日本の犬の種類の一つです。",
+  "phrase": false,
+  "alt": [
+   "しば犬"
+  ],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "環境衛生課": {
+  "skip": false,
+  "reading": "かんきょうえいせいか",
+  "easy": "役所の課の一つです。犬の登録などの仕事をします。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "犬の登録": {
+  "skip": false,
+  "reading": "いぬのとうろく",
+  "easy": "犬を飼い始めたときに、市や町に届けを出すことです。法律で決まっていて、ふつう犬の一生に一回です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "狂犬病": {
+  "skip": false,
+  "reading": "きょうけんびょう",
+  "easy": "犬などからうつる、とても危ない病気です。犬は毎年、予防注射を受けます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "予防注射": {
+  "skip": false,
+  "reading": "よぼうちゅうしゃ",
+  "easy": "病気にならないようにするための注射です。犬は毎年、狂犬病の予防注射を受けます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "注射済証": {
+  "skip": false,
+  "reading": "ちゅうしゃずみしょう",
+  "easy": "狂犬病の予防注射を受けたことを示すものです。犬に付けておきます。",
+  "phrase": false,
+  "alt": [
+   "注射済票"
+  ],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "鑑札": {
+  "skip": false,
+  "reading": "かんさつ",
+  "easy": "犬を登録したときにもらう札です。犬に付けておきます。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-601"
+  ],
+  "status": "draft"
+ },
+ "さくら精工": {
+  "skip": true,
+  "scenes": [
+   "cando-639"
+  ],
+  "status": "draft"
+ },
+ "資格喪失証明書": {
+  "skip": false,
+  "reading": "しかくそうしつしょうめいしょ",
+  "easy": "前の会社の健康保険をやめた日がわかる書類です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-639"
+  ],
+  "status": "draft"
+ },
+ "国際交流協会": {
+  "skip": false,
+  "reading": "こくさいこうりゅうきょうかい",
+  "easy": "外国人と地域の人をつなぐ活動をする団体です。日本語教室などを開いています。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-651",
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "日本語教室": {
+  "skip": false,
+  "reading": "にほんごきょうしつ",
+  "easy": "日本語を勉強する教室です。地域の教室では、ボランティアが教えていることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-651",
+   "cando-654",
+   "cando-767"
+  ],
+  "status": "draft"
+ },
+ "ボランティア": {
+  "skip": false,
+  "reading": "ボランティア",
+  "easy": "お金をもらわないで、人のために活動する人のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-651",
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "見学": {
+  "skip": false,
+  "reading": "けんがく",
+  "easy": "参加する前に、教室などを見に行くことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "教材費": {
+  "skip": false,
+  "reading": "きょうざいひ",
+  "easy": "勉強に使う本（テキスト）などのお金です。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "空き待ち": {
+  "skip": false,
+  "reading": "あきまち",
+  "easy": "教室などがいっぱいのとき、入れるようになるまで待つことです。",
+  "phrase": false,
+  "alt": [
+   "空きまち",
+   "あき待ち"
+  ],
+  "scenes": [
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "試験対策": {
+  "skip": false,
+  "reading": "しけんたいさく",
+  "easy": "試験に合格するための勉強のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-651"
+  ],
+  "status": "draft"
+ },
+ "ひかりマンション": {
+  "skip": true,
+  "scenes": [
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "かもめ公民館": {
+  "skip": true,
+  "scenes": [
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "チラシ": {
+  "skip": false,
+  "reading": "チラシ",
+  "easy": "お知らせや宣伝が書いてある、1枚の紙のことです。",
+  "phrase": false,
+  "alt": [
+   "ちらし"
+  ],
+  "scenes": [
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "申し込み": {
+  "skip": false,
+  "reading": "もうしこみ",
+  "easy": "「参加したいです」「使いたいです」と、相手に伝えることです。",
+  "phrase": false,
+  "alt": [
+   "申込み",
+   "申込",
+   "お申し込み",
+   "お申込み"
+  ],
+  "scenes": [
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "面談": {
+  "skip": false,
+  "reading": "めんだん",
+  "easy": "人と会って、話をすることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-654"
+  ],
+  "status": "draft"
+ },
+ "さくら町公民館": {
+  "skip": true,
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "さくら町国際交流サークル": {
+  "skip": true,
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "集会室": {
+  "skip": false,
+  "reading": "しゅうかいしつ",
+  "easy": "人が集まって、話し合いや活動をする部屋のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "調理室": {
+  "skip": false,
+  "reading": "ちょうりしつ",
+  "easy": "料理を作るための部屋のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "長机": {
+  "skip": false,
+  "reading": "ながづくえ",
+  "easy": "横に長い机のことです。何人かで並んで使います。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "利用者登録": {
+  "skip": false,
+  "reading": "りようしゃとうろく",
+  "easy": "施設を使う人の名前などを、先に届けておくことです。部屋の予約の前に必要なところもあります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "団体登録": {
+  "skip": false,
+  "reading": "だんたいとうろく",
+  "easy": "グループで施設を使うために、グループのことを先に届けておくことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "飲食": {
+  "skip": false,
+  "reading": "いんしょく",
+  "easy": "食べたり飲んだりすることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "持ち寄り": {
+  "skip": false,
+  "reading": "もちより",
+  "easy": "みんなが食べ物などを少しずつ持ってきて、集めることです。",
+  "phrase": false,
+  "alt": [
+   "持寄り",
+   "持ちより"
+  ],
+  "scenes": [
+   "cando-731"
+  ],
+  "status": "draft"
+ },
+ "さくら図書館": {
+  "skip": true,
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "利用者カード": {
+  "skip": false,
+  "reading": "りようしゃカード",
+  "easy": "図書館で本などを借りるときに使うカードのことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "貸出": {
+  "skip": false,
+  "reading": "かしだし",
+  "easy": "本などを貸すことです。図書館で本を借りるときに使う言葉です。",
+  "phrase": false,
+  "alt": [
+   "貸し出し"
+  ],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "返却": {
+  "skip": false,
+  "reading": "へんきゃく",
+  "easy": "借りたものを返すことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "返却期限": {
+  "skip": false,
+  "reading": "へんきゃくきげん",
+  "easy": "借りたものを返さなければならない、最後の日のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "返却ポスト": {
+  "skip": false,
+  "reading": "へんきゃくポスト",
+  "easy": "借りた本を返すための箱です。図書館が閉まっているときに使えることが多いです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "延長": {
+  "skip": false,
+  "reading": "えんちょう",
+  "easy": "決まった時間や日を長くすることです。図書館では、返す日をあとにすることです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "館内閲覧": {
+  "skip": false,
+  "reading": "かんないえつらん",
+  "easy": "借りて帰ることはできないで、図書館の中だけで読むことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "最新号": {
+  "skip": false,
+  "reading": "さいしんごう",
+  "easy": "雑誌などで、いちばん新しく出たもののことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-732"
+  ],
+  "status": "draft"
+ },
+ "みなと中央郵便局": {
+  "skip": true,
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "速達": {
+  "skip": false,
+  "reading": "そくたつ",
+  "easy": "郵便を早く届けるサービスです。ふつうの郵便より料金が高くなります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "書留": {
+  "skip": false,
+  "reading": "かきとめ",
+  "easy": "送った記録が残る郵便のサービスです。ふつうの郵便より料金が高くなります。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "小包": {
+  "skip": false,
+  "reading": "こづつみ",
+  "easy": "郵便で送る荷物のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "国際郵便": {
+  "skip": false,
+  "reading": "こくさいゆうびん",
+  "easy": "外国へ送る郵便や、外国から届く郵便のことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "不在連絡票": {
+  "skip": false,
+  "reading": "ふざいれんらくひょう",
+  "easy": "家にいなくて郵便を渡せなかったときに入る紙です。これを見て、再配達を頼みます。",
+  "phrase": false,
+  "alt": [
+   "不在票"
+  ],
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "再配達": {
+  "skip": false,
+  "reading": "さいはいたつ",
+  "easy": "渡せなかった郵便や荷物を、もう一度届けてもらうことです。",
+  "phrase": false,
+  "alt": [],
+  "scenes": [
+   "cando-735"
+  ],
+  "status": "draft"
+ },
+ "席を外しております": {
+  "skip": false,
+  "reading": "せきをはずしております",
+  "easy": "その人は今、席にいない、という意味です。少し待つか、あとでもう一度電話します。",
+  "phrase": true,
+  "alt": [
+   "席を外しています",
+   "席を外している"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "あいにく": {
+  "skip": false,
+  "reading": "あいにく",
+  "easy": "「残念ですが」という意味です。このあとに、できないことや、だめなことを言います。",
+  "phrase": true,
+  "alt": [
+   "生憎"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "申し訳ございません": {
+  "skip": false,
+  "reading": "もうしわけございません",
+  "easy": "「すみません」「ごめんなさい」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "申し訳ありません",
+   "申し訳ない"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お手数ですが": {
+  "skip": false,
+  "reading": "おてすうですが",
+  "easy": "「面倒ですが、お願いします」という意味です。このあとに、あなたにしてほしいことを言います。",
+  "phrase": true,
+  "alt": [
+   "お手数をおかけしますが",
+   "お手数おかけしますが"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "差し支えなければ": {
+  "skip": false,
+  "reading": "さしつかえなければ",
+  "easy": "「もし大丈夫なら」という意味です。いやなときは、言わなくてもいいです。",
+  "phrase": true,
+  "alt": [
+   "さしつかえなければ"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "ご用件": {
+  "skip": false,
+  "reading": "ごようけん",
+  "easy": "何のために電話をしたか、来たか、ということです。用事を短く言います。",
+  "phrase": true,
+  "alt": [
+   "用件",
+   "ご用件は"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "念のため": {
+  "skip": false,
+  "reading": "ねんのため",
+  "easy": "「まちがいがないように、もう一度」という意味です。",
+  "phrase": true,
+  "alt": [
+   "念の為"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "よろしいでしょうか": {
+  "skip": false,
+  "reading": "よろしいでしょうか",
+  "easy": "「いいですか」のていねいな言い方です。いいときは「はい」と答えます。",
+  "phrase": true,
+  "alt": [
+   "よろしいですか"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お伺いします": {
+  "skip": false,
+  "reading": "おうかがいします",
+  "easy": "「聞きます」または「行きます」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "伺います",
+   "お伺いいたします",
+   "おうかがいします"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "失礼いたします": {
+  "skip": false,
+  "reading": "しつれいいたします",
+  "easy": "ていねいなあいさつです。電話を切るときや、部屋に入るときなどに言います。",
+  "phrase": true,
+  "alt": [
+   "失礼します"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お越しください": {
+  "skip": false,
+  "reading": "おこしください",
+  "easy": "「来てください」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "お越しくださいませ"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お持ちください": {
+  "skip": false,
+  "reading": "おもちください",
+  "easy": "「持ってきてください」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "お持ちくださいませ"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "ご記入ください": {
+  "skip": false,
+  "reading": "ごきにゅうください",
+  "easy": "「紙に書いてください」のていねいな言い方です。",
+  "phrase": true,
+  "alt": [
+   "記入してください"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "ご本人様": {
+  "skip": false,
+  "reading": "ごほんにんさま",
+  "easy": "その人自身のことです。家族などではなく、その人が来るか、話すという意味です。",
+  "phrase": true,
+  "alt": [
+   "ご本人",
+   "本人"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "フルネーム": {
+  "skip": false,
+  "reading": "フルネーム",
+  "easy": "名字と名前の全部のことです。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [],
+  "status": "draft"
+ },
+ "日中つながる": {
+  "skip": false,
+  "reading": "にっちゅうつながる",
+  "easy": "昼の時間に電話に出られる、という意味です。昼に出られる電話番号を言います。",
+  "phrase": true,
+  "alt": [
+   "日中つながる番号",
+   "日中つながる電話番号"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "ご連絡先": {
+  "skip": false,
+  "reading": "ごれんらくさき",
+  "easy": "あなたに連絡するための電話番号やメールアドレスなどのことです。",
+  "phrase": true,
+  "alt": [
+   "連絡先"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お手元": {
+  "skip": false,
+  "reading": "おてもと",
+  "easy": "今、あなたの近くにあること、持っていることです。",
+  "phrase": true,
+  "alt": [
+   "手元",
+   "お手元に"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "控え": {
+  "skip": false,
+  "reading": "ひかえ",
+  "easy": "出した書類と同じことが書いてある紙です。自分で持っておきます。",
+  "phrase": true,
+  "alt": [
+   "お控え"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "窓口": {
+  "skip": false,
+  "reading": "まどぐち",
+  "easy": "役所や会社などで、相談や手続きをする場所のことです。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [],
+  "status": "draft"
+ },
+ "担当の者": {
+  "skip": false,
+  "reading": "たんとうのもの",
+  "easy": "その仕事をする人、という意味です。その人がかわりに話します。",
+  "phrase": true,
+  "alt": [
+   "担当者",
+   "担当のもの"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お預かりします": {
+  "skip": false,
+  "reading": "おあずかりします",
+  "easy": "「少しの間、受け取ります」という意味です。書類やお金などを渡します。",
+  "phrase": true,
+  "alt": [
+   "お預かりいたします",
+   "預かります"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "写し": {
+  "skip": false,
+  "reading": "うつし",
+  "easy": "書類をコピーしたもののことです。",
+  "phrase": true,
+  "alt": [
+   "コピー"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "原本": {
+  "skip": false,
+  "reading": "げんぽん",
+  "easy": "コピーではない、もとの本当の書類のことです。",
+  "phrase": true,
+  "alt": [],
+  "scenes": [],
+  "status": "draft"
+ },
+ "最短": {
+  "skip": false,
+  "reading": "さいたん",
+  "easy": "いちばん早い場合、いちばん短い場合という意味です。",
+  "phrase": true,
+  "alt": [
+   "最短で"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "空き": {
+  "skip": false,
+  "reading": "あき",
+  "easy": "予約や場所などに、まだ入れるところがあることです。",
+  "phrase": true,
+  "alt": [
+   "空いている",
+   "あき"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お申し込み": {
+  "skip": false,
+  "reading": "おもうしこみ",
+  "easy": "サービスなどを使いたいと、お願いして手続きをすることです。",
+  "phrase": true,
+  "alt": [
+   "申し込み",
+   "申込み",
+   "申込",
+   "お申込み"
+  ],
+  "scenes": [],
+  "status": "draft"
+ },
+ "お名前": {
+  "skip": true,
+  "scenes": [],
+  "status": "draft"
+ },
+ "お電話番号": {
+  "skip": true,
+  "scenes": [],
+  "status": "draft"
+ }
+}

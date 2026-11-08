@@ -1,0 +1,1914 @@
+{
+ "note": "リンク先は yasashii-refs（https://github.com/silloi/yasashii-refs）の目録にある公的なページ。場面との対応と説明は Claude Code が作った（scripts/build-public-info.ts）。名前と説明の訳は Claude。",
+ "resources": [
+  {
+   "id": "life-work-guidebook",
+   "name": "生活・就労ガイドブック",
+   "publisher": "出入国在留管理庁（関係府省庁の協力）",
+   "url": "https://www.moj.go.jp/isa/support/portal/guidebook_all.html",
+   "languages": [
+    "ja",
+    "ja-easy",
+    "en",
+    "zh-Hans",
+    "ko",
+    "es",
+    "pt",
+    "vi",
+    "ne",
+    "th",
+    "id",
+    "my",
+    "km",
+    "tl",
+    "mn",
+    "tr",
+    "uk",
+    "ru",
+    "fr",
+    "hi"
+   ],
+   "checked": "2026-11-03",
+   "desc": "日本で生活するときと働くときの、基本の情報のガイドブックです。章ごとに分かれています。"
+  },
+  {
+   "id": "soumu-foreign-resident-register",
+   "name": "外国人住民に係る住民基本台帳制度（総務省のページ）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/zairyu/index.html",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "pt",
+    "es",
+    "th",
+    "tl",
+    "ne",
+    "vi",
+    "id"
+   ],
+   "checked": "2026-11-03",
+   "desc": "引っこしたときの住所の届け出や、住民票のことが、いろいろなことばで書いてあります。"
+  },
+  {
+   "id": "digital-mynumber",
+   "name": "マイナンバー（個人番号）制度・マイナンバーカード（デジタル庁のページ）",
+   "publisher": "デジタル庁",
+   "url": "https://www.digital.go.jp/policies/mynumber",
+   "languages": [
+    "ja",
+    "en"
+   ],
+   "checked": "2026-11-03",
+   "desc": "マイナンバー（個人番号）とマイナンバーカードの説明です。"
+  },
+  {
+   "id": "jlis-mynumber-card",
+   "name": "マイナンバーカード総合サイト（地方公共団体情報システム機構）",
+   "publisher": "地方公共団体情報システム機構（J-LIS。都道府県と市区町村が共同で運営）",
+   "url": "https://www.kojinbango-card.go.jp/",
+   "languages": [
+    "ja",
+    "en",
+    "es",
+    "zh-Hans",
+    "pt",
+    "zh-Hant",
+    "ko"
+   ],
+   "checked": "2026-11-05",
+   "desc": "マイナンバーカードの作り方や使い方のサイトです。"
+  },
+  {
+   "id": "jps-foreign-residents",
+   "name": "日本年金機構 外国人向けの情報（やさしいにほんご・英語・脱退一時金の請求書）",
+   "publisher": "日本年金機構",
+   "url": "https://www.nenkin.go.jp/international/index.html",
+   "languages": [
+    "ja-easy",
+    "en",
+    "zh-Hans",
+    "ko",
+    "pt",
+    "es",
+    "id",
+    "tl",
+    "th",
+    "vi",
+    "my",
+    "km",
+    "ru",
+    "ne",
+    "mn"
+   ],
+   "checked": "2026-11-03",
+   "desc": "年金の説明が、やさしい日本語と、いろいろなことばであります。"
+  },
+  {
+   "id": "soumu-inhabitant-tax-foreigners",
+   "name": "外国人の方の個人住民税について（総務省のページ）",
+   "publisher": "総務省",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/individual-inhabitant-tax.html",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "vi",
+    "pt"
+   ],
+   "checked": "2026-11-03",
+   "desc": "住民税（住んでいるまちに払う税金）の説明です。"
+  },
+  {
+   "id": "nta-english",
+   "name": "Information for Taxpayers（国税庁の英語のページ）",
+   "publisher": "国税庁",
+   "url": "https://www.nta.go.jp/english/taxes/index.htm",
+   "languages": [
+    "en"
+   ],
+   "checked": "2026-11-03",
+   "desc": "国の税金（所得税など）の、英語の説明です。"
+  },
+  {
+   "id": "mlit-heya-sagashi",
+   "name": "部屋探しのガイドブック（14言語）・外国人のための賃貸住宅入居の手引き・原状回復のポイント（国土交通省）",
+   "publisher": "国土交通省（住宅局）",
+   "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html",
+   "languages": [
+    "ja",
+    "ja-easy",
+    "en",
+    "zh-Hans",
+    "ko",
+    "es",
+    "pt",
+    "vi",
+    "ne",
+    "th",
+    "id",
+    "my",
+    "km",
+    "tl",
+    "mn"
+   ],
+   "checked": "2026-11-04",
+   "desc": "部屋をさがすときと、部屋を借りるときのガイドブックです。いろいろなことばであります。"
+  },
+  {
+   "id": "mlit-chintai-guideline",
+   "name": "外国人の民間賃貸住宅入居円滑化ガイドライン（各国語の契約書等の見本、14言語）",
+   "publisher": "国土交通省（住宅局）",
+   "url": "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "ko",
+    "es",
+    "pt",
+    "vi",
+    "ne",
+    "th",
+    "id",
+    "my",
+    "km",
+    "tl",
+    "mn"
+   ],
+   "checked": "2026-11-04",
+   "desc": "部屋を借りるときの契約書などの見本が、いろいろなことばであります。"
+  },
+  {
+   "id": "fsa-bank-account-guide",
+   "name": "日本でくらすための銀行口座や送金のつかい方（金融庁、やさしい日本語＋16言語）",
+   "publisher": "金融庁",
+   "url": "https://www.fsa.go.jp/user/livinginjapan.html",
+   "languages": [
+    "ja",
+    "ja-easy",
+    "en",
+    "zh-Hans",
+    "ko",
+    "pt",
+    "vi",
+    "tl",
+    "id",
+    "th",
+    "es",
+    "my",
+    "km",
+    "mn",
+    "ne",
+    "tr",
+    "uk"
+   ],
+   "checked": "2026-11-04",
+   "desc": "銀行の口座の作り方・使い方と、海外へお金を送るときの注意です。"
+  },
+  {
+   "id": "npa-traffic-foreign",
+   "name": "警察庁 外国人向けの交通ルールと運転免許の案内（20言語のチラシなど）",
+   "publisher": "警察庁（交通局）",
+   "url": "https://www.npa.go.jp/english/bureau/traffic/index.html",
+   "languages": [
+    "en",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "pt",
+    "vi",
+    "tl",
+    "si",
+    "ne",
+    "hi",
+    "uk",
+    "ar",
+    "id",
+    "ur",
+    "km",
+    "es",
+    "th",
+    "fa",
+    "my",
+    "mn",
+    "ru"
+   ],
+   "checked": "2026-11-04",
+   "desc": "日本の交通のルールと、運転免許の案内です。"
+  },
+  {
+   "id": "mlit-jibaiseki-portal",
+   "name": "自賠責保険・共済ポータルサイト（国土交通省、6言語）",
+   "publisher": "国土交通省（自動車局）",
+   "url": "https://www.mlit.go.jp/jidosha/jibaiseki/about/overview/index.html",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hant",
+    "zh-Hans",
+    "ko",
+    "pt",
+    "vi"
+   ],
+   "checked": "2026-11-04",
+   "desc": "車やバイクに必ず入る保険（自賠責保険）の説明です。"
+  },
+  {
+   "id": "cfa-boshi-techou-multilingual",
+   "name": "母子健康手帳 多言語版（10か国語）と外国人向けのリーフレット（母子健康手帳情報支援サイト）",
+   "publisher": "こども家庭庁",
+   "url": "https://mchbook.cfa.go.jp/category03/index.php",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "ko",
+    "vi",
+    "pt",
+    "ne",
+    "tl",
+    "id",
+    "es",
+    "th"
+   ],
+   "checked": "2026-11-04",
+   "desc": "母子健康手帳（子どもが生まれる前からもらう手帳）の、いろいろなことばの版です。"
+  },
+  {
+   "id": "mext-shugaku-guidebook",
+   "name": "外国人児童生徒のための就学ガイドブック（8言語、日本語併記）",
+   "publisher": "文部科学省",
+   "url": "https://www.mext.go.jp/a_menu/shotou/clarinet/003/1320860.htm",
+   "languages": [
+    "ja",
+    "en",
+    "ko",
+    "vi",
+    "tl",
+    "zh-Hans",
+    "pt",
+    "es",
+    "uk"
+   ],
+   "checked": "2026-11-04",
+   "desc": "子どもが日本の学校に入るときの手続きと、学校の生活のガイドブックです。"
+  },
+  {
+   "id": "casta-net",
+   "name": "かすたねっと（帰国・外国人児童生徒教育のための情報検索サイト）",
+   "publisher": "文部科学省（総合教育政策局国際教育課）",
+   "url": "https://casta-net.mext.go.jp/",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "ko",
+    "pt",
+    "es",
+    "vi",
+    "tl"
+   ],
+   "checked": "2026-11-04",
+   "desc": "学校からのお知らせの文書などを、いろいろなことばでさがせます。"
+  },
+  {
+   "id": "hellowork-foreign-language",
+   "name": "ハローワークの外国語の案内（通訳がいるハローワーク・外国語での電話・利用チェックリスト）",
+   "publisher": "厚生労働省・都道府県労働局・ハローワーク",
+   "url": "https://www.mhlw.go.jp/content/000592865.pdf",
+   "languages": [
+    "ja",
+    "ja-easy",
+    "en",
+    "zh",
+    "ko",
+    "pt",
+    "es",
+    "tl",
+    "vi",
+    "ne",
+    "uk",
+    "th",
+    "id",
+    "my"
+   ],
+   "checked": "2026-11-04",
+   "desc": "通訳がいるハローワークと、外国語で相談できる電話の案内です。"
+  },
+  {
+   "id": "mhlw-model-labor-conditions-notice",
+   "name": "外国人労働者向けモデル労働条件通知書（13言語）",
+   "publisher": "厚生労働省（労働基準局）",
+   "url": "https://www.mhlw.go.jp/new-info/kobetu/roudou/gyousei/kantoku/040325-4.html",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "ko",
+    "pt",
+    "es",
+    "tl",
+    "id",
+    "vi",
+    "km",
+    "mn",
+    "my",
+    "ne",
+    "th"
+   ],
+   "checked": "2026-11-04",
+   "desc": "働く条件（給料・時間など）を書く紙の見本が、いろいろなことばであります。"
+  },
+  {
+   "id": "mhlw-foreign-worker-consultation",
+   "name": "外国人労働者向けの相談機関（相談ダイヤル・労働条件相談ほっとライン・外国人労働者相談コーナーの一覧）",
+   "publisher": "厚生労働省（「確かめよう労働条件」のサイト）",
+   "url": "https://www.check-roudou.mhlw.go.jp/soudan/foreigner.html",
+   "languages": [
+    "ja",
+    "ja-easy",
+    "en",
+    "zh-Hans",
+    "pt",
+    "es",
+    "tl",
+    "vi",
+    "my",
+    "ne",
+    "ko",
+    "th",
+    "id",
+    "km",
+    "mn"
+   ],
+   "checked": "2026-11-04",
+   "desc": "仕事で困ったときに、自分のことばで相談できる電話の案内です。"
+  },
+  {
+   "id": "tsunahiro",
+   "name": "つながるひろがる　にほんごでのくらし（つなひろ）—「生活者としての外国人」のための日本語学習サイト",
+   "publisher": "文部科学省",
+   "url": "https://tsunagarujp.mext.go.jp/",
+   "languages": [
+    "ja",
+    "en",
+    "zh-Hans",
+    "zh-Hant",
+    "ko",
+    "es",
+    "pt",
+    "vi",
+    "ne",
+    "th",
+    "id",
+    "my",
+    "km",
+    "tl",
+    "mn",
+    "uk",
+    "ru",
+    "fr",
+    "si",
+    "bn"
+   ],
+   "checked": "2026-11-04",
+   "desc": "生活の場面の日本語を、動画で勉強できるサイトです。"
+  },
+  {
+   "id": "isa-ichigen-soudan",
+   "name": "地方公共団体の一元的相談窓口の現況と一覧（外国人受入環境整備交付金、令和7年度）",
+   "publisher": "出入国在留管理庁",
+   "url": "https://www.moj.go.jp/isa/support/coexistence/nyuukokukanri02_00039.html",
+   "languages": [
+    "ja"
+   ],
+   "checked": "2026-11-03",
+   "desc": "住んでいるまちの、外国人のための相談窓口の一覧です。困ったときに、いろいろなことばで相談できます。",
+   "label": "外国人のための相談窓口の一覧（都道府県・市区町村）"
+  }
+ ],
+ "chapters": {
+  "1": "入国・在留手続",
+  "2": "市区町村での手続",
+  "3": "雇用・労働",
+  "4": "出産・子育て",
+  "5": "教育",
+  "6": "医療",
+  "7": "年金・福祉",
+  "8": "税金",
+  "9": "交通",
+  "10": "緊急・災害",
+  "11": "住居",
+  "12": "日常生活のルール・習慣"
+ },
+ "scenes": {
+  "sodai-gomi": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    12
+   ]
+  },
+  "restaurant": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "taxi": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    9
+   ]
+  },
+  "clinic": {
+   "ids": [
+    "life-work-guidebook",
+    "digital-mynumber",
+    "jlis-mynumber-card",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    6
+   ]
+  },
+  "cando-8": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    6
+   ]
+  },
+  "cando-77": {
+   "ids": [
+    "life-work-guidebook",
+    "mlit-heya-sagashi",
+    "mlit-chintai-guideline",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    11
+   ]
+  },
+  "cando-87": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "digital-mynumber",
+    "jlis-mynumber-card",
+    "mlit-heya-sagashi",
+    "mlit-chintai-guideline",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    11
+   ]
+  },
+  "cando-95": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "jps-foreign-residents",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    7
+   ]
+  },
+  "cando-96": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    12
+   ]
+  },
+  "cando-101": {
+   "ids": [
+    "life-work-guidebook",
+    "mlit-heya-sagashi",
+    "mlit-chintai-guideline",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    11
+   ]
+  },
+  "cando-105": {
+   "ids": [
+    "life-work-guidebook",
+    "mlit-heya-sagashi",
+    "mlit-chintai-guideline",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    11
+   ]
+  },
+  "cando-110": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-121": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-128": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-134": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-143": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-151": {
+   "ids": [
+    "life-work-guidebook",
+    "digital-mynumber",
+    "jlis-mynumber-card",
+    "fsa-bank-account-guide",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    12
+   ]
+  },
+  "cando-158": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    9
+   ]
+  },
+  "cando-161": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    9
+   ]
+  },
+  "cando-187": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "npa-traffic-foreign",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    9
+   ]
+  },
+  "cando-188": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "npa-traffic-foreign",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    9
+   ]
+  },
+  "cando-191": {
+   "ids": [
+    "life-work-guidebook",
+    "npa-traffic-foreign",
+    "mlit-jibaiseki-portal",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    9
+   ]
+  },
+  "cando-203": {
+   "ids": [
+    "life-work-guidebook",
+    "cfa-boshi-techou-multilingual",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    4,
+    6
+   ]
+  },
+  "cando-219": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    1,
+    2,
+    4
+   ]
+  },
+  "cando-222": {
+   "ids": [
+    "life-work-guidebook",
+    "cfa-boshi-techou-multilingual",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    4,
+    6
+   ]
+  },
+  "cando-266": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    4
+   ]
+  },
+  "cando-295": {
+   "ids": [
+    "life-work-guidebook",
+    "mext-shugaku-guidebook",
+    "casta-net",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    5
+   ]
+  },
+  "cando-299": {
+   "ids": [
+    "life-work-guidebook",
+    "mext-shugaku-guidebook",
+    "casta-net",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    5,
+    6
+   ]
+  },
+  "cando-316": {
+   "ids": [
+    "life-work-guidebook",
+    "fsa-bank-account-guide",
+    "mext-shugaku-guidebook",
+    "casta-net",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    5,
+    12
+   ]
+  },
+  "cando-331": {
+   "ids": [
+    "life-work-guidebook",
+    "mext-shugaku-guidebook",
+    "casta-net",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    5
+   ]
+  },
+  "cando-348": {
+   "ids": [
+    "life-work-guidebook",
+    "mext-shugaku-guidebook",
+    "casta-net",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    5
+   ]
+  },
+  "cando-356": {
+   "ids": [
+    "life-work-guidebook",
+    "hellowork-foreign-language",
+    "mhlw-model-labor-conditions-notice",
+    "mhlw-foreign-worker-consultation",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    1,
+    3
+   ]
+  },
+  "cando-380": {
+   "ids": [
+    "life-work-guidebook",
+    "hellowork-foreign-language",
+    "mhlw-model-labor-conditions-notice",
+    "mhlw-foreign-worker-consultation",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    1,
+    3
+   ]
+  },
+  "cando-424": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    9
+   ]
+  },
+  "cando-433": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-443": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-563": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "mext-shugaku-guidebook",
+    "casta-net",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    5
+   ]
+  },
+  "cando-566": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-foreign-resident-register",
+    "jps-foreign-residents",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2,
+    6,
+    7
+   ]
+  },
+  "cando-569": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    2
+   ]
+  },
+  "cando-577": {
+   "ids": [
+    "life-work-guidebook",
+    "soumu-inhabitant-tax-foreigners",
+    "nta-english",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    8
+   ]
+  },
+  "cando-601": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    12
+   ]
+  },
+  "cando-639": {
+   "ids": [
+    "life-work-guidebook",
+    "jps-foreign-residents",
+    "soumu-inhabitant-tax-foreigners",
+    "nta-english",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    6,
+    7,
+    8
+   ]
+  },
+  "cando-651": {
+   "ids": [
+    "life-work-guidebook",
+    "tsunahiro",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-654": {
+   "ids": [
+    "life-work-guidebook",
+    "tsunahiro",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-731": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-732": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-735": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  },
+  "cando-746": {
+   "ids": [
+    "life-work-guidebook",
+    "mlit-heya-sagashi",
+    "mlit-chintai-guideline",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    11
+   ]
+  },
+  "cando-763": {
+   "ids": [
+    "life-work-guidebook",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": [
+    1
+   ]
+  },
+  "cando-767": {
+   "ids": [
+    "life-work-guidebook",
+    "tsunahiro",
+    "isa-ichigen-soudan"
+   ],
+   "chapters": []
+  }
+ },
+ "tr": {
+  "easy": {
+   "life-work-guidebook": {
+    "name": "生活・就労ガイドブック",
+    "desc": "日本で生活するときと働くときの、基本の情報のガイドブックです。章ごとに分かれています。"
+   },
+   "soumu-foreign-resident-register": {
+    "name": "住民票と住所の届け出（総務省）",
+    "desc": "引っこしたときの住所の届け出や、住民票のことが、いろいろなことばで書いてあります。"
+   },
+   "digital-mynumber": {
+    "name": "マイナンバーとマイナンバーカード（デジタル庁）",
+    "desc": "マイナンバー（個人番号）とマイナンバーカードの説明です。"
+   },
+   "jlis-mynumber-card": {
+    "name": "マイナンバーカード総合サイト",
+    "desc": "マイナンバーカードの作り方や使い方のサイトです。"
+   },
+   "jps-foreign-residents": {
+    "name": "年金の説明（日本年金機構）",
+    "desc": "年金の説明が、やさしい日本語と、いろいろなことばであります。"
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "住民税の説明（総務省）",
+    "desc": "住民税（住んでいるまちに払う税金）の説明です。"
+   },
+   "nta-english": {
+    "name": "国の税金の説明（国税庁・英語）",
+    "desc": "国の税金（所得税など）の、英語の説明です。"
+   },
+   "mlit-heya-sagashi": {
+    "name": "部屋をさがす・借りるときのガイドブック（国土交通省）",
+    "desc": "部屋をさがすときと、部屋を借りるときのガイドブックです。いろいろなことばであります。"
+   },
+   "mlit-chintai-guideline": {
+    "name": "部屋を借りるときの契約書の見本（国土交通省）",
+    "desc": "部屋を借りるときの契約書などの見本が、いろいろなことばであります。"
+   },
+   "fsa-bank-account-guide": {
+    "name": "銀行の口座と送金のつかい方（金融庁）",
+    "desc": "銀行の口座の作り方・使い方と、海外へお金を送るときの注意です。"
+   },
+   "npa-traffic-foreign": {
+    "name": "交通のルールと運転免許（警察庁）",
+    "desc": "日本の交通のルールと、運転免許の案内です。"
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "自賠責保険（車やバイクの保険）のサイト（国土交通省）",
+    "desc": "車やバイクに必ず入る保険（自賠責保険）の説明です。"
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "母子健康手帳（いろいろなことばの版）",
+    "desc": "母子健康手帳（子どもが生まれる前からもらう手帳）の、いろいろなことばの版です。"
+   },
+   "mext-shugaku-guidebook": {
+    "name": "子どもが学校に入るためのガイドブック（文部科学省）",
+    "desc": "子どもが日本の学校に入るときの手続きと、学校の生活のガイドブックです。"
+   },
+   "casta-net": {
+    "name": "かすたねっと（学校の文書をさがすサイト）",
+    "desc": "学校からのお知らせの文書などを、いろいろなことばでさがせます。"
+   },
+   "hellowork-foreign-language": {
+    "name": "ハローワークの外国語の案内",
+    "desc": "通訳がいるハローワークと、外国語で相談できる電話の案内です。"
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "働く条件を書く紙の見本（厚生労働省）",
+    "desc": "働く条件（給料・時間など）を書く紙の見本が、いろいろなことばであります。"
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "仕事の相談の電話（厚生労働省）",
+    "desc": "仕事で困ったときに、自分のことばで相談できる電話の案内です。"
+   },
+   "tsunahiro": {
+    "name": "つなひろ（日本語を勉強するサイト）",
+    "desc": "生活の場面の日本語を、動画で勉強できるサイトです。"
+   },
+   "isa-ichigen-soudan": {
+    "name": "外国人のための相談窓口の一覧",
+    "desc": "住んでいるまちの、外国人のための相談窓口の一覧です。困ったときに、いろいろなことばで相談できます。"
+   }
+  },
+  "zh": {
+   "life-work-guidebook": {
+    "name": "生活・就业指南",
+    "desc": "在日本生活和工作的基本信息指南，按章节分类。"
+   },
+   "soumu-foreign-resident-register": {
+    "name": "外国居民的居民基本台账制度（总务省）",
+    "desc": "用多种语言介绍搬家时的住址申报和居民票。"
+   },
+   "digital-mynumber": {
+    "name": "个人编号（My Number）制度・个人编号卡（数字厅）",
+    "desc": "介绍个人编号（My Number）和个人编号卡。"
+   },
+   "jlis-mynumber-card": {
+    "name": "个人编号卡综合网站（地方公共团体信息系统机构）",
+    "desc": "介绍个人编号卡的办理和使用方法。"
+   },
+   "jps-foreign-residents": {
+    "name": "日本年金机构 面向外国人的信息（简明日语・英语・退保一次性补助金申请书）",
+    "desc": "用简明日语和多种语言介绍年金制度。"
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "关于外国人的个人住民税（总务省）",
+    "desc": "介绍住民税（向居住地缴纳的税）。"
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers（国税厅英文页面）",
+    "desc": "用英语介绍国税（所得税等）。"
+   },
+   "mlit-heya-sagashi": {
+    "name": "租房指南（14种语言）・外国人租赁住房入住指南・原状恢复要点（国土交通省）",
+    "desc": "找房和租房时的指南，有多种语言版本。"
+   },
+   "mlit-chintai-guideline": {
+    "name": "外国人顺利入住民间租赁住房指南（多语言合同范本等，14种语言）",
+    "desc": "提供多种语言的租房合同等范本。"
+   },
+   "fsa-bank-account-guide": {
+    "name": "在日本生活的银行账户与汇款使用指南（金融厅，简明日语＋16种语言）",
+    "desc": "介绍银行账户的开设和使用方法，以及向海外汇款时的注意事项。"
+   },
+   "npa-traffic-foreign": {
+    "name": "警察厅 面向外国人的交通规则和驾照指南（20种语言传单等）",
+    "desc": "介绍日本的交通规则和驾驶执照。"
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "机动车交通事故强制责任保险・共济门户网站（国土交通省，6种语言）",
+    "desc": "介绍汽车和摩托车必须加入的强制保险（自赔责保险）。"
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "母子健康手册 多语言版（10种语言）及面向外国人的宣传页（母子健康手册信息支援网站）",
+    "desc": "母子健康手册（孩子出生前领取的手册）的多语言版本。"
+   },
+   "mext-shugaku-guidebook": {
+    "name": "外国儿童学生就学指南（8种语言，附日语）",
+    "desc": "介绍孩子进入日本学校的手续和学校生活。"
+   },
+   "casta-net": {
+    "name": "CASTA-NET（归国・外国儿童学生教育信息检索网站）",
+    "desc": "可用多种语言查找学校通知等文件。"
+   },
+   "hellowork-foreign-language": {
+    "name": "Hello Work（公共职业安定所）外语服务指南（有翻译的窗口・外语电话・使用清单）",
+    "desc": "介绍有翻译的Hello Work和可用外语咨询的电话。"
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "面向外国劳动者的劳动条件通知书范本（13种语言）",
+    "desc": "提供多种语言的劳动条件（工资、工作时间等）通知书范本。"
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "面向外国劳动者的咨询机构（咨询热线・劳动条件咨询热线・外国劳动者咨询窗口一览）",
+    "desc": "工作中遇到困难时，可用母语咨询的电话指南。"
+   },
+   "tsunahiro": {
+    "name": "つなひろ（Tsunahiro）——面向“作为生活者的外国人”的日语学习网站",
+    "desc": "通过视频学习生活场景中的日语。"
+   },
+   "isa-ichigen-soudan": {
+    "name": "外国人咨询窗口一览（都道府县・市区町村）",
+    "desc": "居住地面向外国人的咨询窗口一览，遇到困难时可用多种语言咨询。"
+   }
+  },
+  "en": {
+   "life-work-guidebook": {
+    "name": "Guidebook on Living and Working",
+    "desc": "A guidebook with basic information for living and working in Japan, divided into chapters."
+   },
+   "soumu-foreign-resident-register": {
+    "name": "Basic Resident Registration for Foreign Residents (Ministry of Internal Affairs and Communications)",
+    "desc": "Information on reporting your address when you move and on your residence record, in many languages."
+   },
+   "digital-mynumber": {
+    "name": "My Number System and My Number Card (Digital Agency)",
+    "desc": "An explanation of My Number (your personal number) and the My Number Card."
+   },
+   "jlis-mynumber-card": {
+    "name": "My Number Card Portal (J-LIS)",
+    "desc": "A site on how to get and use a My Number Card."
+   },
+   "jps-foreign-residents": {
+    "name": "Japan Pension Service: Information for Foreign Residents (Easy Japanese, English, Lump-sum Withdrawal Payment Claim Form)",
+    "desc": "Pension information in easy Japanese and many other languages."
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "Individual Inhabitant Tax for Foreign Residents (Ministry of Internal Affairs and Communications)",
+    "desc": "An explanation of inhabitant tax (tax paid to the city or town where you live)."
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (National Tax Agency, English)",
+    "desc": "An English explanation of national taxes, such as income tax."
+   },
+   "mlit-heya-sagashi": {
+    "name": "Apartment Search Guidebook (14 languages), Rental Housing Guide for Foreign Residents, and Key Points on Restoring Your Home When Moving Out (Ministry of Land, Infrastructure, Transport and Tourism)",
+    "desc": "Guidebooks for finding and renting a home, in many languages."
+   },
+   "mlit-chintai-guideline": {
+    "name": "Guidelines for Foreign Residents Renting Private Housing (Sample Contracts and Other Forms, 14 Languages)",
+    "desc": "Sample rental contracts and other documents in many languages."
+   },
+   "fsa-bank-account-guide": {
+    "name": "Using Bank Accounts and Money Transfers in Japan (Financial Services Agency, Easy Japanese + 16 Languages)",
+    "desc": "How to open and use a bank account, and things to watch out for when sending money abroad."
+   },
+   "npa-traffic-foreign": {
+    "name": "National Police Agency: Traffic Rules and Driver's License Information for Foreign Residents (Flyers in 20 Languages and More)",
+    "desc": "Information on Japan's traffic rules and driver's licenses."
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "Compulsory Automobile Liability Insurance Portal (Ministry of Land, Infrastructure, Transport and Tourism, 6 Languages)",
+    "desc": "An explanation of the insurance required for all cars and motorcycles (compulsory automobile liability insurance)."
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "Maternal and Child Health Handbook: Multilingual Editions (10 Languages) and Leaflets for Foreign Residents",
+    "desc": "Versions in many languages of the Maternal and Child Health Handbook, which you receive before your baby is born."
+   },
+   "mext-shugaku-guidebook": {
+    "name": "School Enrollment Guidebook for Foreign Children (8 Languages with Japanese)",
+    "desc": "A guidebook on the procedures for entering a Japanese school and on school life."
+   },
+   "casta-net": {
+    "name": "CASTA-NET (Information Search Site for the Education of Foreign and Returnee Students)",
+    "desc": "Search for school notices and other documents in many languages."
+   },
+   "hellowork-foreign-language": {
+    "name": "Hello Work Foreign Language Services (Offices with Interpreters, Phone Support in Foreign Languages, Checklist)",
+    "desc": "Information on Hello Work offices with interpreters and phone lines where you can get advice in foreign languages."
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "Model Notice of Employment Conditions for Foreign Workers (13 Languages)",
+    "desc": "Sample forms showing working conditions (such as pay and hours), in many languages."
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "Consultation Services for Foreign Workers (Hotlines, Labor Conditions Hotline, and List of Consultation Corners)",
+    "desc": "Phone lines where you can get advice in your own language when you have problems at work."
+   },
+   "tsunahiro": {
+    "name": "Tsunagaru Hirogaru Nihongo de no Kurashi (Tsunahiro): Japanese Learning Site for Foreign Residents",
+    "desc": "A site for learning everyday Japanese through videos."
+   },
+   "isa-ichigen-soudan": {
+    "name": "List of Consultation Centers for Foreign Residents (Prefectures and Municipalities)",
+    "desc": "A list of consultation centers for foreign residents in your area. You can get help in many languages."
+   }
+  },
+  "ko": {
+   "life-work-guidebook": {
+    "name": "생활·취업 가이드북",
+    "desc": "일본에서 생활하고 일할 때 필요한 기본 정보를 담은 가이드북입니다. 장별로 나뉘어 있습니다."
+   },
+   "soumu-foreign-resident-register": {
+    "name": "외국인 주민의 주민기본대장 제도 (총무성)",
+    "desc": "이사했을 때의 주소 신고와 주민표에 대해 여러 언어로 설명되어 있습니다."
+   },
+   "digital-mynumber": {
+    "name": "마이넘버(개인번호) 제도·마이넘버 카드 (디지털청)",
+    "desc": "마이넘버(개인번호)와 마이넘버 카드에 대한 설명입니다."
+   },
+   "jlis-mynumber-card": {
+    "name": "마이넘버 카드 종합 사이트 (지방공공단체정보시스템기구)",
+    "desc": "마이넘버 카드 만드는 방법과 사용 방법을 안내하는 사이트입니다."
+   },
+   "jps-foreign-residents": {
+    "name": "일본연금기구 외국인 안내 (쉬운 일본어·영어·탈퇴일시금 청구서)",
+    "desc": "연금에 대한 설명이 쉬운 일본어와 여러 언어로 있습니다."
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "외국인의 개인 주민세 안내 (총무성)",
+    "desc": "주민세(살고 있는 지역에 내는 세금)에 대한 설명입니다."
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (국세청 영어 페이지)",
+    "desc": "국세(소득세 등)에 대한 영어 설명입니다."
+   },
+   "mlit-heya-sagashi": {
+    "name": "방 구하기 가이드북(14개 언어)·외국인을 위한 임대주택 입주 안내·원상회복 포인트 (국토교통성)",
+    "desc": "방을 구할 때와 빌릴 때의 가이드북입니다. 여러 언어로 있습니다."
+   },
+   "mlit-chintai-guideline": {
+    "name": "외국인의 민간 임대주택 입주 원활화 가이드라인 (각국어 계약서 견본 등, 14개 언어)",
+    "desc": "방을 빌릴 때 쓰는 계약서 등의 견본이 여러 언어로 있습니다."
+   },
+   "fsa-bank-account-guide": {
+    "name": "일본 생활을 위한 은행 계좌·송금 이용 안내 (금융청, 쉬운 일본어+16개 언어)",
+    "desc": "은행 계좌를 만드는 방법과 사용 방법, 해외 송금 시 주의사항입니다."
+   },
+   "npa-traffic-foreign": {
+    "name": "경찰청 외국인 대상 교통 규칙·운전면허 안내 (20개 언어 전단 등)",
+    "desc": "일본의 교통 규칙과 운전면허 안내입니다."
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "자배책보험·공제 포털 사이트 (국토교통성, 6개 언어)",
+    "desc": "자동차나 오토바이가 반드시 가입해야 하는 보험(자배책보험)에 대한 설명입니다."
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "모자건강수첩 다국어판(10개 언어)과 외국인 대상 리플릿 (모자건강수첩 정보지원 사이트)",
+    "desc": "모자건강수첩(아이가 태어나기 전부터 받는 수첩)의 다국어판입니다."
+   },
+   "mext-shugaku-guidebook": {
+    "name": "외국인 아동·학생을 위한 취학 가이드북 (8개 언어, 일본어 병기)",
+    "desc": "아이가 일본 학교에 들어갈 때의 절차와 학교생활에 대한 가이드북입니다."
+   },
+   "casta-net": {
+    "name": "카스타넷 (귀국·외국인 아동·학생 교육을 위한 정보 검색 사이트)",
+    "desc": "학교 안내문 등의 문서를 여러 언어로 찾을 수 있습니다."
+   },
+   "hellowork-foreign-language": {
+    "name": "헬로워크 외국어 안내 (통역이 있는 헬로워크·외국어 전화·이용 체크리스트)",
+    "desc": "통역이 있는 헬로워크와 외국어로 상담할 수 있는 전화 안내입니다."
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "외국인 근로자용 모델 근로조건 통지서 (13개 언어)",
+    "desc": "근로 조건(급여·근무 시간 등)을 적는 서류의 견본이 여러 언어로 있습니다."
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "외국인 근로자 상담 기관 (상담 다이얼·근로조건 상담 핫라인·외국인 근로자 상담 코너 목록)",
+    "desc": "일하다 곤란할 때 자신의 언어로 상담할 수 있는 전화 안내입니다."
+   },
+   "tsunahiro": {
+    "name": "쓰나히로 (つながるひろがる にほんごでのくらし) — '생활자로서의 외국인'을 위한 일본어 학습 사이트",
+    "desc": "생활 속 장면의 일본어를 동영상으로 공부할 수 있는 사이트입니다."
+   },
+   "isa-ichigen-soudan": {
+    "name": "외국인 상담 창구 목록 (도도부현·시구정촌)",
+    "desc": "살고 있는 지역의 외국인 상담 창구 목록입니다. 곤란할 때 여러 언어로 상담할 수 있습니다."
+   }
+  },
+  "pt": {
+   "life-work-guidebook": {
+    "name": "Guia de Vida e Trabalho",
+    "desc": "Guia com informações básicas para viver e trabalhar no Japão. Dividido em capítulos."
+   },
+   "soumu-foreign-resident-register": {
+    "name": "Registro Básico de Residentes para estrangeiros (Ministério de Assuntos Internos)",
+    "desc": "Informações em vários idiomas sobre a notificação de endereço ao se mudar e o atestado de residência (juminhyo)."
+   },
+   "digital-mynumber": {
+    "name": "Sistema My Number e Cartão My Number (Agência Digital)",
+    "desc": "Explicação sobre o My Number (número de identificação pessoal) e o Cartão My Number."
+   },
+   "jlis-mynumber-card": {
+    "name": "Site oficial do Cartão My Number (J-LIS)",
+    "desc": "Site sobre como solicitar e usar o Cartão My Number."
+   },
+   "jps-foreign-residents": {
+    "name": "Serviço de Previdência do Japão: informações para estrangeiros (japonês simples, inglês e pedido do reembolso de saída)",
+    "desc": "Explicações sobre a previdência (pensão) em japonês simples e em vários idiomas."
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "Imposto de residente para estrangeiros (Ministério de Assuntos Internos)",
+    "desc": "Explicação sobre o imposto de residente (pago à cidade onde você mora)."
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (Agência Nacional de Impostos, em inglês)",
+    "desc": "Explicação em inglês sobre os impostos nacionais (como o imposto de renda)."
+   },
+   "mlit-heya-sagashi": {
+    "name": "Guia para procurar moradia (14 idiomas), guia de aluguel para estrangeiros e pontos sobre restauração do imóvel (Ministério da Terra)",
+    "desc": "Guias para procurar e alugar moradia, em vários idiomas."
+   },
+   "mlit-chintai-guideline": {
+    "name": "Diretrizes para facilitar o aluguel de moradias por estrangeiros (modelos de contrato em 14 idiomas)",
+    "desc": "Modelos de contratos e outros documentos de aluguel em vários idiomas."
+   },
+   "fsa-bank-account-guide": {
+    "name": "Como usar contas bancárias e remessas no Japão (Agência de Serviços Financeiros, japonês simples + 16 idiomas)",
+    "desc": "Como abrir e usar uma conta bancária e cuidados ao enviar dinheiro ao exterior."
+   },
+   "npa-traffic-foreign": {
+    "name": "Regras de trânsito e carteira de motorista para estrangeiros (Agência Nacional de Polícia, folhetos em 20 idiomas)",
+    "desc": "Informações sobre as regras de trânsito no Japão e a carteira de motorista."
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "Portal do Seguro Obrigatório de Automóveis (Jibaiseki) (Ministério da Terra, 6 idiomas)",
+    "desc": "Explicação sobre o seguro obrigatório para carros e motos (jibaiseki)."
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "Caderneta de Saúde Materno-Infantil multilíngue (10 idiomas) e folhetos para estrangeiros",
+    "desc": "Versões em vários idiomas da Caderneta de Saúde Materno-Infantil (recebida já durante a gravidez)."
+   },
+   "mext-shugaku-guidebook": {
+    "name": "Guia de matrícula escolar para crianças estrangeiras (8 idiomas, com japonês)",
+    "desc": "Guia sobre os procedimentos para entrar na escola japonesa e a vida escolar."
+   },
+   "casta-net": {
+    "name": "CASTA-NET (site de busca para educação de crianças estrangeiras e retornadas)",
+    "desc": "Permite buscar comunicados escolares e outros documentos em vários idiomas."
+   },
+   "hellowork-foreign-language": {
+    "name": "Hello Work em idiomas estrangeiros (unidades com intérprete, atendimento telefônico e checklist)",
+    "desc": "Informações sobre unidades do Hello Work com intérprete e atendimento telefônico em idiomas estrangeiros."
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "Modelo de notificação de condições de trabalho para trabalhadores estrangeiros (13 idiomas)",
+    "desc": "Modelos do documento com as condições de trabalho (salário, horário etc.) em vários idiomas."
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "Serviços de consulta para trabalhadores estrangeiros (linhas de consulta e postos de atendimento)",
+    "desc": "Telefones para consultar no seu idioma quando tiver problemas no trabalho."
+   },
+   "tsunahiro": {
+    "name": "Tsunahiro – site de estudo de japonês para a vida cotidiana",
+    "desc": "Site para estudar com vídeos o japonês usado no dia a dia."
+   },
+   "isa-ichigen-soudan": {
+    "name": "Lista de centros de consulta para estrangeiros (províncias e municípios)",
+    "desc": "Lista de centros de consulta para estrangeiros na sua cidade. Você pode consultar em vários idiomas quando tiver problemas."
+   }
+  },
+  "id": {
+   "life-work-guidebook": {
+    "name": "Buku Panduan Hidup dan Bekerja",
+    "desc": "Buku panduan berisi informasi dasar untuk tinggal dan bekerja di Jepang. Dibagi per bab."
+   },
+   "soumu-foreign-resident-register": {
+    "name": "Sistem Pendaftaran Penduduk untuk Warga Asing (Kementerian Dalam Negeri dan Komunikasi)",
+    "desc": "Informasi tentang lapor alamat saat pindah rumah dan surat keterangan penduduk (juminhyo), dalam berbagai bahasa."
+   },
+   "digital-mynumber": {
+    "name": "Sistem My Number dan Kartu My Number (Badan Digital)",
+    "desc": "Penjelasan tentang My Number (nomor identitas pribadi) dan Kartu My Number."
+   },
+   "jlis-mynumber-card": {
+    "name": "Situs Resmi Kartu My Number (J-LIS)",
+    "desc": "Situs tentang cara membuat dan menggunakan Kartu My Number."
+   },
+   "jps-foreign-residents": {
+    "name": "Informasi untuk Warga Asing dari Japan Pension Service (Bahasa Jepang Sederhana, Bahasa Inggris, Formulir Pembayaran Sekaligus saat Keluar)",
+    "desc": "Penjelasan tentang pensiun dalam bahasa Jepang sederhana dan berbagai bahasa."
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "Pajak Penduduk untuk Warga Asing (Kementerian Dalam Negeri dan Komunikasi)",
+    "desc": "Penjelasan tentang pajak penduduk (pajak yang dibayar ke daerah tempat tinggal)."
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (halaman bahasa Inggris Badan Pajak Nasional)",
+    "desc": "Penjelasan dalam bahasa Inggris tentang pajak nasional, seperti pajak penghasilan."
+   },
+   "mlit-heya-sagashi": {
+    "name": "Buku Panduan Mencari Tempat Tinggal (14 bahasa), Panduan Menyewa Rumah untuk Warga Asing, dan Poin Pemulihan Kondisi Awal (Kementerian Pertanahan, Infrastruktur, Transportasi, dan Pariwisata)",
+    "desc": "Buku panduan untuk mencari dan menyewa tempat tinggal, dalam berbagai bahasa."
+   },
+   "mlit-chintai-guideline": {
+    "name": "Pedoman Memudahkan Warga Asing Menyewa Rumah (contoh kontrak dalam 14 bahasa)",
+    "desc": "Contoh kontrak dan dokumen lain untuk menyewa tempat tinggal, dalam berbagai bahasa."
+   },
+   "fsa-bank-account-guide": {
+    "name": "Cara Menggunakan Rekening Bank dan Pengiriman Uang untuk Tinggal di Jepang (Badan Jasa Keuangan, bahasa Jepang sederhana + 16 bahasa)",
+    "desc": "Cara membuat dan menggunakan rekening bank, serta hal yang perlu diperhatikan saat mengirim uang ke luar negeri."
+   },
+   "npa-traffic-foreign": {
+    "name": "Panduan Aturan Lalu Lintas dan SIM untuk Warga Asing dari Badan Kepolisian Nasional (selebaran dalam 20 bahasa, dll.)",
+    "desc": "Panduan aturan lalu lintas di Jepang dan SIM."
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "Portal Asuransi Wajib Kendaraan (Jibaiseki) (Kementerian Pertanahan, Infrastruktur, Transportasi, dan Pariwisata, 6 bahasa)",
+    "desc": "Penjelasan tentang asuransi wajib untuk mobil dan sepeda motor (Jibaiseki)."
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "Buku Kesehatan Ibu dan Anak Versi Multibahasa (10 bahasa) dan Brosur untuk Warga Asing",
+    "desc": "Buku Kesehatan Ibu dan Anak (buku yang diterima sejak sebelum anak lahir) dalam berbagai bahasa."
+   },
+   "mext-shugaku-guidebook": {
+    "name": "Buku Panduan Masuk Sekolah untuk Anak Warga Asing (8 bahasa, disertai bahasa Jepang)",
+    "desc": "Buku panduan tentang prosedur masuk sekolah di Jepang dan kehidupan di sekolah."
+   },
+   "casta-net": {
+    "name": "CASTA-NET (situs pencarian informasi pendidikan untuk anak warga asing dan anak yang kembali ke Jepang)",
+    "desc": "Dapat mencari surat pemberitahuan sekolah dan dokumen lain dalam berbagai bahasa."
+   },
+   "hellowork-foreign-language": {
+    "name": "Panduan Hello Work dalam Bahasa Asing (Hello Work dengan penerjemah, layanan telepon bahasa asing, daftar periksa)",
+    "desc": "Informasi Hello Work yang memiliki penerjemah dan layanan telepon konsultasi dalam bahasa asing."
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "Contoh Surat Pemberitahuan Syarat Kerja untuk Pekerja Asing (13 bahasa)",
+    "desc": "Contoh dokumen syarat kerja (gaji, jam kerja, dll.) dalam berbagai bahasa."
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "Layanan Konsultasi untuk Pekerja Asing (daftar layanan telepon, Hotline Syarat Kerja, dan Pojok Konsultasi Pekerja Asing)",
+    "desc": "Informasi layanan telepon untuk berkonsultasi dalam bahasa sendiri saat ada masalah di tempat kerja."
+   },
+   "tsunahiro": {
+    "name": "Tsunahiro — Situs Belajar Bahasa Jepang untuk Kehidupan Sehari-hari Warga Asing",
+    "desc": "Situs untuk belajar bahasa Jepang dalam situasi sehari-hari melalui video."
+   },
+   "isa-ichigen-soudan": {
+    "name": "Daftar Layanan Konsultasi untuk Warga Asing (prefektur dan kota)",
+    "desc": "Daftar layanan konsultasi untuk warga asing di daerah tempat tinggal. Bisa berkonsultasi dalam berbagai bahasa saat ada masalah."
+   }
+  },
+  "vi": {
+   "life-work-guidebook": {
+    "name": "Sổ tay hướng dẫn sinh sống và làm việc",
+    "desc": "Sổ tay thông tin cơ bản khi sinh sống và làm việc tại Nhật Bản, được chia theo từng chương."
+   },
+   "soumu-foreign-resident-register": {
+    "name": "Chế độ sổ đăng ký cư trú cơ bản dành cho cư dân nước ngoài (Bộ Nội vụ và Truyền thông)",
+    "desc": "Hướng dẫn bằng nhiều ngôn ngữ về việc khai báo địa chỉ khi chuyển nhà và phiếu cư trú (juminhyo)."
+   },
+   "digital-mynumber": {
+    "name": "Chế độ My Number (mã số cá nhân) và thẻ My Number (Cơ quan Kỹ thuật số)",
+    "desc": "Giải thích về My Number (mã số cá nhân) và thẻ My Number."
+   },
+   "jlis-mynumber-card": {
+    "name": "Trang tổng hợp về thẻ My Number (J-LIS)",
+    "desc": "Trang hướng dẫn cách làm và cách sử dụng thẻ My Number."
+   },
+   "jps-foreign-residents": {
+    "name": "Cơ quan Hưu trí Nhật Bản – Thông tin cho người nước ngoài (tiếng Nhật dễ hiểu, tiếng Anh, đơn yêu cầu trợ cấp rút khỏi chế độ một lần)",
+    "desc": "Giải thích về lương hưu bằng tiếng Nhật dễ hiểu và nhiều ngôn ngữ khác."
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "Thuế cư trú cá nhân dành cho người nước ngoài (Bộ Nội vụ và Truyền thông)",
+    "desc": "Giải thích về thuế cư trú (thuế nộp cho địa phương nơi bạn sống)."
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (trang tiếng Anh của Cục Thuế Quốc gia)",
+    "desc": "Giải thích bằng tiếng Anh về thuế quốc gia (như thuế thu nhập)."
+   },
+   "mlit-heya-sagashi": {
+    "name": "Sổ tay tìm nhà (14 ngôn ngữ), Hướng dẫn thuê nhà cho người nước ngoài và Những điểm cần biết về khôi phục nguyên trạng (Bộ Đất đai, Hạ tầng, Giao thông và Du lịch)",
+    "desc": "Sổ tay hướng dẫn khi tìm nhà và thuê nhà, có bằng nhiều ngôn ngữ."
+   },
+   "mlit-chintai-guideline": {
+    "name": "Hướng dẫn hỗ trợ người nước ngoài thuê nhà tư nhân (mẫu hợp đồng bằng các ngôn ngữ, 14 ngôn ngữ)",
+    "desc": "Mẫu hợp đồng và các giấy tờ khi thuê nhà, có bằng nhiều ngôn ngữ."
+   },
+   "fsa-bank-account-guide": {
+    "name": "Cách sử dụng tài khoản ngân hàng và chuyển tiền khi sống tại Nhật (Cơ quan Dịch vụ Tài chính, tiếng Nhật dễ hiểu và 16 ngôn ngữ)",
+    "desc": "Cách mở và sử dụng tài khoản ngân hàng, và những lưu ý khi chuyển tiền ra nước ngoài."
+   },
+   "npa-traffic-foreign": {
+    "name": "Cục Cảnh sát Quốc gia – Hướng dẫn luật giao thông và bằng lái xe cho người nước ngoài (tờ rơi 20 ngôn ngữ, v.v.)",
+    "desc": "Hướng dẫn về luật giao thông Nhật Bản và bằng lái xe."
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "Cổng thông tin bảo hiểm bắt buộc trách nhiệm dân sự xe cơ giới (Bộ Đất đai, Hạ tầng, Giao thông và Du lịch, 6 ngôn ngữ)",
+    "desc": "Giải thích về bảo hiểm bắt buộc cho ô tô và xe máy (jibaiseki)."
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "Sổ tay sức khỏe mẹ và bé bản đa ngôn ngữ (10 ngôn ngữ) và tờ rơi cho người nước ngoài",
+    "desc": "Sổ tay sức khỏe mẹ và bé (sổ được nhận từ trước khi sinh con) bằng nhiều ngôn ngữ."
+   },
+   "mext-shugaku-guidebook": {
+    "name": "Sổ tay hướng dẫn nhập học cho học sinh nước ngoài (8 ngôn ngữ, kèm tiếng Nhật)",
+    "desc": "Sổ tay về thủ tục khi con vào trường ở Nhật và cuộc sống ở trường."
+   },
+   "casta-net": {
+    "name": "CASTA-NET (trang tìm kiếm thông tin giáo dục cho học sinh nước ngoài và học sinh về nước)",
+    "desc": "Có thể tìm các văn bản thông báo của trường bằng nhiều ngôn ngữ."
+   },
+   "hellowork-foreign-language": {
+    "name": "Hướng dẫn bằng ngoại ngữ của Hello Work (Hello Work có phiên dịch, điện thoại bằng ngoại ngữ, danh sách kiểm tra khi sử dụng)",
+    "desc": "Hướng dẫn về Hello Work có phiên dịch và điện thoại tư vấn bằng ngoại ngữ."
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "Mẫu thông báo điều kiện lao động cho lao động nước ngoài (13 ngôn ngữ)",
+    "desc": "Mẫu giấy ghi điều kiện làm việc (lương, thời gian, v.v.) bằng nhiều ngôn ngữ."
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "Các cơ quan tư vấn cho lao động nước ngoài (đường dây tư vấn, Hotline tư vấn điều kiện lao động, danh sách Góc tư vấn lao động nước ngoài)",
+    "desc": "Hướng dẫn các số điện thoại để tư vấn bằng tiếng mẹ đẻ khi gặp khó khăn trong công việc."
+   },
+   "tsunahiro": {
+    "name": "Tsunahiro – Trang học tiếng Nhật cho người nước ngoài trong cuộc sống hằng ngày",
+    "desc": "Trang học tiếng Nhật dùng trong cuộc sống hằng ngày qua video."
+   },
+   "isa-ichigen-soudan": {
+    "name": "Danh sách quầy tư vấn cho người nước ngoài (tỉnh, thành phố, quận, thị trấn, làng)",
+    "desc": "Danh sách quầy tư vấn cho người nước ngoài tại nơi bạn sống. Khi gặp khó khăn, bạn có thể được tư vấn bằng nhiều ngôn ngữ."
+   }
+  },
+  "tl": {
+   "life-work-guidebook": {
+    "name": "Gabay sa Pamumuhay at Pagtatrabaho",
+    "desc": "Gabay na may pangunahing impormasyon para sa pamumuhay at pagtatrabaho sa Japan. Nakahati ito ayon sa kabanata."
+   },
+   "soumu-foreign-resident-register": {
+    "name": "Sistema ng Basic Resident Register para sa mga Dayuhang Residente (Ministry of Internal Affairs and Communications)",
+    "desc": "Paliwanag sa iba't ibang wika tungkol sa pag-uulat ng bagong address kapag lumipat ka at tungkol sa juminhyo (resident record)."
+   },
+   "digital-mynumber": {
+    "name": "My Number (Individual Number) at My Number Card (Digital Agency)",
+    "desc": "Paliwanag tungkol sa My Number (Individual Number) at My Number Card."
+   },
+   "jlis-mynumber-card": {
+    "name": "My Number Card Portal Site (J-LIS)",
+    "desc": "Site tungkol sa paggawa at paggamit ng My Number Card."
+   },
+   "jps-foreign-residents": {
+    "name": "Japan Pension Service: Impormasyon para sa mga Dayuhan (Madaling Japanese, Ingles, Form para sa Lump-sum Withdrawal Payment)",
+    "desc": "Paliwanag tungkol sa pension sa madaling Japanese at iba't ibang wika."
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "Individual Inhabitant Tax para sa mga Dayuhan (Ministry of Internal Affairs and Communications)",
+    "desc": "Paliwanag tungkol sa resident tax (buwis na binabayaran sa lungsod o bayang tinitirhan mo)."
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (National Tax Agency, Ingles)",
+    "desc": "Paliwanag sa Ingles tungkol sa pambansang buwis (gaya ng income tax)."
+   },
+   "mlit-heya-sagashi": {
+    "name": "Gabay sa Paghahanap ng Matitirhan (14 na wika), Gabay sa Pag-upa ng Bahay para sa mga Dayuhan, at Mga Punto sa Pagbabalik sa Orihinal na Kondisyon (MLIT)",
+    "desc": "Gabay sa paghahanap at pag-upa ng matitirhan. Mayroon sa iba't ibang wika."
+   },
+   "mlit-chintai-guideline": {
+    "name": "Gabay para sa Maayos na Pag-upa ng Pribadong Paupahan ng mga Dayuhan (mga halimbawang kontrata, 14 na wika)",
+    "desc": "Mga halimbawa ng kontrata at iba pang dokumento sa pag-upa ng bahay, sa iba't ibang wika."
+   },
+   "fsa-bank-account-guide": {
+    "name": "Paggamit ng Bank Account at Pagpapadala ng Pera sa Japan (Financial Services Agency, madaling Japanese + 16 na wika)",
+    "desc": "Paano gumawa at gumamit ng bank account, at mga paalala sa pagpapadala ng pera sa ibang bansa."
+   },
+   "npa-traffic-foreign": {
+    "name": "National Police Agency: Mga Patakaran sa Trapiko at Lisensya sa Pagmamaneho para sa mga Dayuhan (mga flyer sa 20 wika)",
+    "desc": "Gabay sa mga patakaran sa trapiko sa Japan at sa lisensya sa pagmamaneho."
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "Portal Site ng Compulsory Automobile Liability Insurance (MLIT, 6 na wika)",
+    "desc": "Paliwanag tungkol sa sapilitang insurance para sa kotse at motorsiklo (jibaiseki hoken)."
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "Maternal and Child Health Handbook sa Iba't Ibang Wika (10 wika) at Mga Leaflet para sa mga Dayuhan",
+    "desc": "Mga bersyon sa iba't ibang wika ng Boshi Kenko Techo (handbook na natatanggap bago pa ipanganak ang bata)."
+   },
+   "mext-shugaku-guidebook": {
+    "name": "Gabay sa Pag-aaral para sa mga Batang Dayuhan (8 wika, may kasamang Japanese)",
+    "desc": "Gabay sa proseso ng pagpasok ng bata sa paaralan sa Japan at sa buhay sa paaralan."
+   },
+   "casta-net": {
+    "name": "CASTA-NET (Site ng Impormasyon para sa Edukasyon ng mga Batang Dayuhan at Bumalik sa Japan)",
+    "desc": "Makakahanap ka rito ng mga abiso ng paaralan at iba pang dokumento sa iba't ibang wika."
+   },
+   "hellowork-foreign-language": {
+    "name": "Hello Work sa Ibang Wika (Hello Work na may interpreter, telepono sa ibang wika, checklist)",
+    "desc": "Gabay sa mga Hello Work na may interpreter at sa teleponong makakausap sa ibang wika."
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "Halimbawang Abiso ng Kondisyon sa Trabaho para sa mga Dayuhang Manggagawa (13 wika)",
+    "desc": "Halimbawa ng papel na nagsasaad ng kondisyon sa trabaho (sahod, oras, atbp.), sa iba't ibang wika."
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "Mga Konsultasyon para sa mga Dayuhang Manggagawa (hotline, Labor Conditions Hotline, listahan ng Foreign Worker Consultation Corners)",
+    "desc": "Gabay sa mga teleponong makakausap sa sarili mong wika kapag may problema sa trabaho."
+   },
+   "tsunahiro": {
+    "name": "Tsunagaru Hirogaru Nihongo de no Kurashi (Tsunahiro) – Site sa Pag-aaral ng Japanese para sa mga Dayuhang Naninirahan",
+    "desc": "Site kung saan maaaring pag-aralan sa video ang Japanese na ginagamit sa pang-araw-araw na buhay."
+   },
+   "isa-ichigen-soudan": {
+    "name": "Listahan ng Konsultasyon para sa mga Dayuhan (prefecture at munisipyo)",
+    "desc": "Listahan ng mga konsultasyon para sa mga dayuhan sa lugar na tinitirhan mo. Maaari kang humingi ng tulong sa iba't ibang wika."
+   }
+  },
+  "ne": {
+   "life-work-guidebook": {
+    "name": "जीवनयापन तथा रोजगार गाइडबुक",
+    "desc": "जापानमा बस्दा र काम गर्दा चाहिने आधारभूत जानकारीको गाइडबुक हो। यो अध्याय अनुसार छुट्याइएको छ।"
+   },
+   "soumu-foreign-resident-register": {
+    "name": "विदेशी बासिन्दाका लागि बासिन्दा आधारभूत दर्ता प्रणाली (आन्तरिक मामिला तथा सञ्चार मन्त्रालय)",
+    "desc": "बसाइँ सर्दा ठेगाना दर्ता गर्ने र बासिन्दा प्रमाणपत्र (जुमिनह्यो) बारे विभिन्न भाषामा लेखिएको छ।"
+   },
+   "digital-mynumber": {
+    "name": "माइनम्बर (व्यक्तिगत नम्बर) प्रणाली र माइनम्बर कार्ड (डिजिटल एजेन्सी)",
+    "desc": "माइनम्बर (व्यक्तिगत नम्बर) र माइनम्बर कार्डको व्याख्या हो।"
+   },
+   "jlis-mynumber-card": {
+    "name": "माइनम्बर कार्ड सम्पूर्ण जानकारी साइट (J-LIS)",
+    "desc": "माइनम्बर कार्ड बनाउने तरिका र प्रयोग गर्ने तरिकाको साइट हो।"
+   },
+   "jps-foreign-residents": {
+    "name": "जापान पेन्सन सेवा: विदेशीका लागि जानकारी (सजिलो जापानी, अंग्रेजी, एकमुष्ट फिर्ता भुक्तानी आवेदन फारम)",
+    "desc": "पेन्सनको व्याख्या सजिलो जापानी र विभिन्न भाषामा छ।"
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "विदेशीहरूको व्यक्तिगत बासिन्दा कर (आन्तरिक मामिला तथा सञ्चार मन्त्रालय)",
+    "desc": "बासिन्दा कर (आफू बस्ने नगरपालिकालाई तिर्ने कर) को व्याख्या हो।"
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (राष्ट्रिय कर एजेन्सीको अंग्रेजी पेज)",
+    "desc": "राष्ट्रिय कर (आयकर आदि) को अंग्रेजीमा व्याख्या हो।"
+   },
+   "mlit-heya-sagashi": {
+    "name": "कोठा खोज्ने गाइडबुक (१४ भाषा), विदेशीका लागि भाडाको घरमा बस्ने निर्देशिका, कोठा पूर्वावस्थामा फर्काउने मुख्य कुरा (भूमि, पूर्वाधार, यातायात तथा पर्यटन मन्त्रालय)",
+    "desc": "कोठा खोज्दा र भाडामा लिँदाको गाइडबुक हो। विभिन्न भाषामा छ।"
+   },
+   "mlit-chintai-guideline": {
+    "name": "विदेशीको निजी भाडाको घरमा सहज प्रवेशका लागि मार्गनिर्देशन (विभिन्न भाषामा सम्झौतापत्रका नमुना, १४ भाषा)",
+    "desc": "कोठा भाडामा लिँदाको सम्झौतापत्र आदिका नमुना विभिन्न भाषामा छन्।"
+   },
+   "fsa-bank-account-guide": {
+    "name": "जापानमा बस्नका लागि बैंक खाता र रेमिट्यान्स प्रयोग गर्ने तरिका (वित्तीय सेवा एजेन्सी, सजिलो जापानी + १६ भाषा)",
+    "desc": "बैंक खाता खोल्ने र प्रयोग गर्ने तरिका, र विदेशमा पैसा पठाउँदा ध्यान दिनुपर्ने कुरा हो।"
+   },
+   "npa-traffic-foreign": {
+    "name": "राष्ट्रिय प्रहरी एजेन्सी: विदेशीका लागि ट्राफिक नियम र ड्राइभिङ लाइसेन्सको जानकारी (२० भाषाका पर्चा आदि)",
+    "desc": "जापानका ट्राफिक नियम र ड्राइभिङ लाइसेन्सको जानकारी हो।"
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "अनिवार्य सवारी बीमा (जिबाइसेकी) पोर्टल साइट (भूमि, पूर्वाधार, यातायात तथा पर्यटन मन्त्रालय, ६ भाषा)",
+    "desc": "कार र मोटरसाइकलका लागि अनिवार्य रूपमा गर्नुपर्ने बीमा (जिबाइसेकी बीमा) को व्याख्या हो।"
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "आमा र बच्चाको स्वास्थ्य पुस्तिका बहुभाषिक संस्करण (१० भाषा) र विदेशीका लागि पर्चा",
+    "desc": "आमा र बच्चाको स्वास्थ्य पुस्तिका (बच्चा जन्मनुअघि नै पाइने पुस्तिका) को विभिन्न भाषाको संस्करण हो।"
+   },
+   "mext-shugaku-guidebook": {
+    "name": "विदेशी विद्यार्थीका लागि विद्यालय भर्ना गाइडबुक (८ भाषा, जापानी सहित)",
+    "desc": "बच्चा जापानको विद्यालयमा भर्ना हुँदाको प्रक्रिया र विद्यालय जीवनको गाइडबुक हो।"
+   },
+   "casta-net": {
+    "name": "CASTA-NET (फर्केका र विदेशी विद्यार्थीको शिक्षाका लागि जानकारी खोज साइट)",
+    "desc": "विद्यालयबाट आउने सूचना आदि विभिन्न भाषामा खोज्न सकिन्छ।"
+   },
+   "hellowork-foreign-language": {
+    "name": "हेलोवर्कको विदेशी भाषामा जानकारी (दोभाषे भएका हेलोवर्क, विदेशी भाषामा फोन, प्रयोग चेकलिस्ट)",
+    "desc": "दोभाषे भएका हेलोवर्क र विदेशी भाषामा परामर्श गर्न सकिने फोनको जानकारी हो।"
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "विदेशी कामदारका लागि नमुना श्रम सर्त सूचना पत्र (१३ भाषा)",
+    "desc": "कामका सर्त (तलब, समय आदि) लेख्ने कागजको नमुना विभिन्न भाषामा छ।"
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "विदेशी कामदारका लागि परामर्श निकाय (परामर्श डायल, श्रम सर्त परामर्श हटलाइन, विदेशी कामदार परामर्श कक्षको सूची)",
+    "desc": "काममा समस्या पर्दा आफ्नै भाषामा परामर्श गर्न सकिने फोनको जानकारी हो।"
+   },
+   "tsunahiro": {
+    "name": "Tsunahiro: जापानीमा जोडिने, फैलिने जीवन — बासिन्दा विदेशीका लागि जापानी भाषा सिकाइ साइट",
+    "desc": "दैनिक जीवनका अवस्थामा प्रयोग हुने जापानी भिडियोबाट सिक्न सकिने साइट हो।"
+   },
+   "isa-ichigen-soudan": {
+    "name": "विदेशीका लागि परामर्श केन्द्रहरूको सूची (प्रिफेक्चर र नगरपालिका)",
+    "desc": "आफू बस्ने ठाउँका विदेशीका लागि परामर्श केन्द्रहरूको सूची हो। समस्या पर्दा विभिन्न भाषामा परामर्श गर्न सकिन्छ।"
+   }
+  },
+  "my": {
+   "life-work-guidebook": {
+    "name": "နေထိုင်မှုနှင့် အလုပ်လုပ်ကိုင်မှု လမ်းညွှန်စာအုပ်",
+    "desc": "ဂျပန်တွင် နေထိုင်ခြင်းနှင့် အလုပ်လုပ်ခြင်းဆိုင်ရာ အခြေခံအချက်အလက်များ ပါဝင်သော လမ်းညွှန်စာအုပ်ဖြစ်သည်။ အခန်းအလိုက် ခွဲထားသည်။"
+   },
+   "soumu-foreign-resident-register": {
+    "name": "နိုင်ငံခြားသားနေထိုင်သူများအတွက် နေထိုင်သူမှတ်ပုံတင်စနစ် (ပြည်ထဲရေးနှင့် ဆက်သွယ်ရေးဝန်ကြီးဌာန)",
+    "desc": "အိမ်ပြောင်းသည့်အခါ လိပ်စာတင်ပြခြင်းနှင့် နေထိုင်သူမှတ်တမ်း (ဂျူမင်ဟျို) အကြောင်းကို ဘာသာစကားအမျိုးမျိုးဖြင့် ရေးထားသည်။"
+   },
+   "digital-mynumber": {
+    "name": "မိုင်နံဘာ (ကိုယ်ပိုင်နံပါတ်) စနစ်နှင့် မိုင်နံဘာကတ် (ဒစ်ဂျစ်တယ်အေဂျင်စီ)",
+    "desc": "မိုင်နံဘာ (ကိုယ်ပိုင်နံပါတ်) နှင့် မိုင်နံဘာကတ်အကြောင်း ရှင်းလင်းချက်ဖြစ်သည်။"
+   },
+   "jlis-mynumber-card": {
+    "name": "မိုင်နံဘာကတ် ပင်မဝက်ဘ်ဆိုက် (J-LIS)",
+    "desc": "မိုင်နံဘာကတ် လျှောက်ထားပုံနှင့် အသုံးပြုပုံအကြောင်း ဝက်ဘ်ဆိုက်ဖြစ်သည်။"
+   },
+   "jps-foreign-residents": {
+    "name": "ဂျပန်ပင်စင်အဖွဲ့ - နိုင်ငံခြားသားများအတွက် အချက်အလက် (လွယ်ကူသောဂျပန်စာ၊ အင်္ဂလိပ်စာ၊ တစ်လုံးတစ်ခဲထုတ်ယူငွေ လျှောက်လွှာ)",
+    "desc": "ပင်စင်အကြောင်းကို လွယ်ကူသောဂျပန်စာနှင့် ဘာသာစကားအမျိုးမျိုးဖြင့် ရှင်းပြထားသည်။"
+   },
+   "soumu-inhabitant-tax-foreigners": {
+    "name": "နိုင်ငံခြားသားများ၏ နေထိုင်သူခွန် (ပြည်ထဲရေးနှင့် ဆက်သွယ်ရေးဝန်ကြီးဌာန)",
+    "desc": "နေထိုင်သူခွန် (နေထိုင်ရာ မြို့နယ်သို့ ပေးဆောင်ရသော အခွန်) အကြောင်း ရှင်းလင်းချက်ဖြစ်သည်။"
+   },
+   "nta-english": {
+    "name": "Information for Taxpayers (အမျိုးသားအခွန်အေဂျင်စီ၏ အင်္ဂလိပ်စာမျက်နှာ)",
+    "desc": "နိုင်ငံတော်အခွန် (ဝင်ငွေခွန် စသည်) အကြောင်း အင်္ဂလိပ်ဘာသာဖြင့် ရှင်းလင်းချက်ဖြစ်သည်။"
+   },
+   "mlit-heya-sagashi": {
+    "name": "အခန်းရှာဖွေခြင်း လမ်းညွှန် (ဘာသာစကား ၁၄ မျိုး)၊ နိုင်ငံခြားသားများအတွက် အိမ်ငှားလမ်းညွှန်၊ မူလအခြေအနေပြန်ထားခြင်း အချက်များ (မြေ၊ အခြေခံအဆောက်အအုံ၊ သယ်ယူပို့ဆောင်ရေးနှင့် ခရီးသွားလုပ်ငန်းဝန်ကြီးဌာန)",
+    "desc": "အခန်းရှာဖွေခြင်းနှင့် အခန်းငှားခြင်းဆိုင်ရာ လမ်းညွှန်စာအုပ်ဖြစ်သည်။ ဘာသာစကားအမျိုးမျိုးဖြင့် ရှိသည်။"
+   },
+   "mlit-chintai-guideline": {
+    "name": "နိုင်ငံခြားသားများ ပုဂ္ဂလိကအိမ်ငှားရာတွင် ချောမွေ့စေရန် လမ်းညွှန်ချက် (စာချုပ်နမူနာများ၊ ဘာသာစကား ၁၄ မျိုး)",
+    "desc": "အခန်းငှားသည့်အခါ အသုံးပြုသော စာချုပ်စသည်တို့၏ နမူနာများကို ဘာသာစကားအမျိုးမျိုးဖြင့် ရရှိနိုင်သည်။"
+   },
+   "fsa-bank-account-guide": {
+    "name": "ဂျပန်တွင်နေထိုင်ရန် ဘဏ်အကောင့်နှင့် ငွေလွှဲအသုံးပြုပုံ (ဘဏ္ဍာရေးဝန်ဆောင်မှုအေဂျင်စီ၊ လွယ်ကူသောဂျပန်စာ + ဘာသာစကား ၁၆ မျိုး)",
+    "desc": "ဘဏ်အကောင့်ဖွင့်ပုံ၊ အသုံးပြုပုံနှင့် နိုင်ငံခြားသို့ ငွေလွှဲရာတွင် သတိပြုရန်အချက်များဖြစ်သည်။"
+   },
+   "npa-traffic-foreign": {
+    "name": "ရဲအေဂျင်စီ - နိုင်ငံခြားသားများအတွက် ယာဉ်စည်းကမ်းနှင့် ယာဉ်မောင်းလိုင်စင် လမ်းညွှန် (ဘာသာစကား ၂၀ မျိုး လက်ကမ်းစာစောင် စသည်)",
+    "desc": "ဂျပန်နိုင်ငံ၏ ယာဉ်စည်းကမ်းများနှင့် ယာဉ်မောင်းလိုင်စင် လမ်းညွှန်ဖြစ်သည်။"
+   },
+   "mlit-jibaiseki-portal": {
+    "name": "မဖြစ်မနေ ယာဉ်အာမခံ (ဂျိဘိုင်းဆဲကိ) ပေါ်တယ်ဆိုက် (မြေ၊ အခြေခံအဆောက်အအုံ၊ သယ်ယူပို့ဆောင်ရေးနှင့် ခရီးသွားလုပ်ငန်းဝန်ကြီးဌာန၊ ဘာသာစကား ၆ မျိုး)",
+    "desc": "ကားနှင့် ဆိုင်ကယ်အတွက် မဖြစ်မနေ ဝင်ရမည့် အာမခံ (ဂျိဘိုင်းဆဲကိ) အကြောင်း ရှင်းလင်းချက်ဖြစ်သည်။"
+   },
+   "cfa-boshi-techou-multilingual": {
+    "name": "မိခင်နှင့်ကလေး ကျန်းမာရေးစာအုပ် ဘာသာစကားစုံ (၁၀ မျိုး) နှင့် နိုင်ငံခြားသားများအတွက် လက်ကမ်းစာစောင်",
+    "desc": "မိခင်နှင့်ကလေး ကျန်းမာရေးစာအုပ် (ကလေးမမွေးမီကတည်းက ရရှိသော စာအုပ်) ၏ ဘာသာစကားအမျိုးမျိုးဗားရှင်းဖြစ်သည်။"
+   },
+   "mext-shugaku-guidebook": {
+    "name": "နိုင်ငံခြားသားကလေးများအတွက် ကျောင်းအပ်လမ်းညွှန် (ဘာသာစကား ၈ မျိုး၊ ဂျပန်စာတွဲ)",
+    "desc": "ကလေးများ ဂျပန်ကျောင်းသို့ ဝင်ရောက်ရာတွင် လုပ်ထုံးလုပ်နည်းနှင့် ကျောင်းဘဝအကြောင်း လမ်းညွှန်စာအုပ်ဖြစ်သည်။"
+   },
+   "casta-net": {
+    "name": "CASTA-NET (နိုင်ငံခြားသားကလေးများ ပညာရေးဆိုင်ရာ သတင်းအချက်အလက်ရှာဖွေရေးဆိုက်)",
+    "desc": "ကျောင်းမှ အသိပေးစာများ စသည်တို့ကို ဘာသာစကားအမျိုးမျိုးဖြင့် ရှာဖွေနိုင်သည်။"
+   },
+   "hellowork-foreign-language": {
+    "name": "ဟယ်လိုဝေါ့ခ် နိုင်ငံခြားဘာသာ လမ်းညွှန် (စကားပြန်ရှိသော ရုံးများ၊ နိုင်ငံခြားဘာသာ ဖုန်းဝန်ဆောင်မှု၊ အသုံးပြုရန် စစ်ဆေးစာရင်း)",
+    "desc": "စကားပြန်ရှိသော ဟယ်လိုဝေါ့ခ်ရုံးများနှင့် နိုင်ငံခြားဘာသာဖြင့် တိုင်ပင်နိုင်သော ဖုန်းလိုင်း လမ်းညွှန်ဖြစ်သည်။"
+   },
+   "mhlw-model-labor-conditions-notice": {
+    "name": "နိုင်ငံခြားအလုပ်သမားများအတွက် အလုပ်အခြေအနေ အကြောင်းကြားစာ နမူနာ (ဘာသာစကား ၁၃ မျိုး)",
+    "desc": "အလုပ်အခြေအနေ (လစာ၊ အလုပ်ချိန် စသည်) ရေးသားရသော စာရွက်နမူနာကို ဘာသာစကားအမျိုးမျိုးဖြင့် ရရှိနိုင်သည်။"
+   },
+   "mhlw-foreign-worker-consultation": {
+    "name": "နိုင်ငံခြားအလုပ်သမားများအတွက် တိုင်ပင်ဆွေးနွေးရာဌာနများ (ဖုန်းလိုင်းများ၊ အလုပ်အခြေအနေ တိုင်ပင်ရန် Hotline၊ တိုင်ပင်ရာနေရာ စာရင်း)",
+    "desc": "အလုပ်တွင် အခက်အခဲရှိသည့်အခါ မိမိဘာသာစကားဖြင့် တိုင်ပင်နိုင်သော ဖုန်းလိုင်း လမ်းညွှန်ဖြစ်သည်။"
+   },
+   "tsunahiro": {
+    "name": "Tsunahiro - နေထိုင်သူ နိုင်ငံခြားသားများအတွက် ဂျပန်ဘာသာ လေ့လာရေးဆိုက်",
+    "desc": "နေ့စဉ်ဘဝအခြေအနေများတွင် သုံးသော ဂျပန်စကားကို ဗီဒီယိုဖြင့် လေ့လာနိုင်သော ဝက်ဘ်ဆိုက်ဖြစ်သည်။"
+   },
+   "isa-ichigen-soudan": {
+    "name": "နိုင်ငံခြားသားများအတွက် တိုင်ပင်ဆွေးနွေးရာ ကောင်တာစာရင်း (ခရိုင်နှင့် မြို့နယ်များ)",
+    "desc": "နေထိုင်ရာမြို့ရှိ နိုင်ငံခြားသားများအတွက် တိုင်ပင်ဆွေးနွေးရာ ကောင်တာစာရင်းဖြစ်သည်။ အခက်အခဲရှိလျှင် ဘာသာစကားအမျိုးမျိုးဖြင့် တိုင်ပင်နိုင်သည်။"
+   }
+  }
+ },
+ "chapterTr": {
+  "easy": {
+   "1": "日本に入る・日本にいるための手続き",
+   "2": "市役所・区役所・町村役場での手続き",
+   "3": "仕事",
+   "4": "子どもを産む・育てる",
+   "5": "学校・教育",
+   "6": "病院・医療",
+   "7": "年金・福祉",
+   "8": "税金",
+   "9": "交通",
+   "10": "緊急のとき・災害",
+   "11": "住む家",
+   "12": "毎日の生活のルール・習慣"
+  },
+  "zh": {
+   "1": "入境・在留手续",
+   "2": "市区町村的手续",
+   "3": "雇佣・劳动",
+   "4": "生育・育儿",
+   "5": "教育",
+   "6": "医疗",
+   "7": "年金・福利",
+   "8": "税金",
+   "9": "交通",
+   "10": "紧急情况・灾害",
+   "11": "住房",
+   "12": "日常生活规则・习惯"
+  },
+  "en": {
+   "1": "Entry and Residence Procedures",
+   "2": "Procedures at Your City Office",
+   "3": "Employment and Labor",
+   "4": "Childbirth and Childcare",
+   "5": "Education",
+   "6": "Medical Care",
+   "7": "Pensions and Welfare",
+   "8": "Taxes",
+   "9": "Transportation",
+   "10": "Emergencies and Disasters",
+   "11": "Housing",
+   "12": "Rules and Customs of Daily Life"
+  },
+  "ko": {
+   "1": "입국·체류 절차",
+   "2": "시구정촌(관공서) 절차",
+   "3": "고용·노동",
+   "4": "출산·육아",
+   "5": "교육",
+   "6": "의료",
+   "7": "연금·복지",
+   "8": "세금",
+   "9": "교통",
+   "10": "긴급·재해",
+   "11": "주거",
+   "12": "일상생활 규칙·습관"
+  },
+  "pt": {
+   "1": "Entrada e permanência no Japão",
+   "2": "Procedimentos na prefeitura",
+   "3": "Emprego e trabalho",
+   "4": "Parto e criação dos filhos",
+   "5": "Educação",
+   "6": "Saúde",
+   "7": "Previdência e bem-estar social",
+   "8": "Impostos",
+   "9": "Trânsito",
+   "10": "Emergências e desastres",
+   "11": "Moradia",
+   "12": "Regras e costumes do dia a dia"
+  },
+  "id": {
+   "1": "Prosedur Masuk Negara dan Izin Tinggal",
+   "2": "Prosedur di Kantor Kota",
+   "3": "Pekerjaan dan Ketenagakerjaan",
+   "4": "Melahirkan dan Mengasuh Anak",
+   "5": "Pendidikan",
+   "6": "Layanan Kesehatan",
+   "7": "Pensiun dan Kesejahteraan",
+   "8": "Pajak",
+   "9": "Lalu Lintas",
+   "10": "Keadaan Darurat dan Bencana",
+   "11": "Tempat Tinggal",
+   "12": "Aturan dan Kebiasaan Sehari-hari"
+  },
+  "vi": {
+   "1": "Thủ tục nhập cảnh và lưu trú",
+   "2": "Thủ tục tại cơ quan hành chính địa phương",
+   "3": "Việc làm và lao động",
+   "4": "Sinh con và nuôi con",
+   "5": "Giáo dục",
+   "6": "Y tế",
+   "7": "Lương hưu và phúc lợi",
+   "8": "Thuế",
+   "9": "Giao thông",
+   "10": "Khẩn cấp và thiên tai",
+   "11": "Nhà ở",
+   "12": "Quy tắc và phong tục trong cuộc sống hằng ngày"
+  },
+  "tl": {
+   "1": "Pagpasok sa Bansa at Paninirahan",
+   "2": "Mga Proseso sa Munisipyo",
+   "3": "Trabaho",
+   "4": "Panganganak at Pag-aalaga ng Bata",
+   "5": "Edukasyon",
+   "6": "Medikal na Pangangalaga",
+   "7": "Pension at Kapakanan",
+   "8": "Buwis",
+   "9": "Trapiko at Transportasyon",
+   "10": "Emergency at Sakuna",
+   "11": "Pabahay",
+   "12": "Mga Patakaran at Kaugalian sa Araw-araw na Buhay"
+  },
+  "ne": {
+   "1": "प्रवेश र बसाइ (भिसा) सम्बन्धी प्रक्रिया",
+   "2": "नगरपालिकामा गरिने प्रक्रिया",
+   "3": "रोजगार र श्रम",
+   "4": "सुत्केरी र बालबालिका हेरचाह",
+   "5": "शिक्षा",
+   "6": "स्वास्थ्य उपचार",
+   "7": "पेन्सन र कल्याण",
+   "8": "कर",
+   "9": "यातायात",
+   "10": "आपतकाल र विपद्",
+   "11": "आवास",
+   "12": "दैनिक जीवनका नियम र चलन"
+  },
+  "my": {
+   "1": "နိုင်ငံဝင်ရောက်ခြင်းနှင့် နေထိုင်ခွင့် လုပ်ထုံးလုပ်နည်း",
+   "2": "မြို့နယ်ရုံးရှိ လုပ်ထုံးလုပ်နည်း",
+   "3": "အလုပ်အကိုင်နှင့် လုပ်သား",
+   "4": "ကလေးမွေးဖွားခြင်းနှင့် ကလေးပြုစုခြင်း",
+   "5": "ပညာရေး",
+   "6": "ဆေးဘက်ဆိုင်ရာ",
+   "7": "ပင်စင်နှင့် လူမှုဖူလုံရေး",
+   "8": "အခွန်",
+   "9": "သယ်ယူပို့ဆောင်ရေး",
+   "10": "အရေးပေါ်နှင့် သဘာဝဘေးအန္တရာယ်",
+   "11": "နေအိမ်",
+   "12": "နေ့စဉ်ဘဝ စည်းကမ်းနှင့် ဓလေ့များ"
+  }
+ }
+}

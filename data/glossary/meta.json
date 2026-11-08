@@ -1,0 +1,40 @@
+{
+ "note": "yasashii-refs（https://github.com/silloi/yasashii-refs）の公的な用語集を加工し、場面の語と電話の言い回しの説明（Claude の下書き）を足したもの。訳は、厚生労働省の用語集の語は公式の訳、ほかは Claude の訳。scripts/build-glossary.ts",
+ "sources": [
+  {
+   "id": "plain-japanese-rewrites",
+   "name": "在留支援のためのやさしい日本語ガイドライン 別冊「やさしい日本語書き換え例」",
+   "url": "https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html",
+   "license": "PDL-1.0",
+   "attribution": "出典：出入国在留管理庁・文化庁「在留支援のためのやさしい日本語ガイドライン 別冊 やさしい日本語書き換え例」（https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html）を加工して作成"
+  },
+  {
+   "id": "mhlw-tagengo-yougo",
+   "name": "厚生労働省「雇用管理に役立つ多言語用語集」（Excel 版）",
+   "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html",
+   "license": "PDL-1.0",
+   "attribution": "出典：厚生労働省「雇用管理に役立つ多言語用語集」（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html）を加工して作成"
+  },
+  {
+   "id": "jlt-standard-dict",
+   "name": "法令用語日英標準対訳辞書",
+   "url": "https://www.japaneselawtranslation.go.jp/ja/dicts/download",
+   "license": "PDL-1.0",
+   "attribution": "出典：日本法令外国語訳データベースシステム（法務省）「法令用語日英標準対訳辞書」第19.0版（https://www.japaneselawtranslation.go.jp/ja/dicts/download）を加工して作成"
+  },
+  {
+   "id": "draft",
+   "name": "Claude の下書き（日本語教師がまだ確かめていない）",
+   "url": "",
+   "license": "",
+   "attribution": "場面の語と電話の言い回しの説明は、Claude が下書きしたもの"
+  }
+ ],
+ "counts": {
+  "plain-japanese-rewrites": 134,
+  "mhlw-tagengo-yougo": 390,
+  "jlt-standard-dict": 29,
+  "draft": 295
+ },
+ "generated": "2026-11-08"
+}

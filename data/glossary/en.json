@@ -1,0 +1,4242 @@
+{
+ "mh1": [
+  "Selection test",
+  "Ask questions and have a person answer them to find out if the person is suitable for the company.",
+  "o"
+ ],
+ "mh2": [
+  "Certificate of Items Stated in Resident Register",
+  "Document issued by the government office that proves that what is written on the certificate of residence is correct.",
+  "o"
+ ],
+ "mh3": [
+  "Driver's license",
+  "Document issued by the police station that proves that you are allowed to drive a car.",
+  "o"
+ ],
+ "mh4": [
+  "Items mentioned",
+  "What is written on documents.",
+  "o"
+ ],
+ "mh5": [
+  "Trial period",
+  "Period to have a trial work.",
+  "o"
+ ],
+ "mh6": [
+  "Disqualified",
+  "Not suitable.",
+  "o"
+ ],
+ "mh7": [
+  "Working conditions",
+  "Conditions for working.",
+  "o"
+ ],
+ "mh8": [
+  "Work place",
+  "Where to work.",
+  "o"
+ ],
+ "mh9": [
+  "Work to be engaged in",
+  "The content of the work.",
+  "o"
+ ],
+ "mh10": [
+  "Notice of employment",
+  "A document that describes the conditions for working.",
+  "o"
+ ],
+ "mh11": [
+  "Labor contract period",
+  "The term of the contract when working.",
+  "o"
+ ],
+ "mh12": [
+  "Issue",
+  "To give.",
+  "o"
+ ],
+ "mh13": [
+  "Hire",
+  "To hire people.",
+  "o"
+ ],
+ "mh14": [
+  "Mid-career Recruitment",
+  "To recruit a person who has worked in another company before.",
+  "o"
+ ],
+ "mh15": [
+  "Wage",
+  "The salary when hiring.",
+  "o"
+ ],
+ "mh16": [
+  "Timing of payment",
+  "The day company pays.",
+  "o"
+ ],
+ "mh17": [
+  "Salary increase",
+  "The salary goes up.",
+  "o"
+ ],
+ "mh18": [
+  "Absent",
+  "To Absent from work on days when you have to work without permission from the company.",
+  "o"
+ ],
+ "mh19": [
+  "Wage ledger",
+  "A book (notebook) created by the company to record the salaries paid to workers.",
+  "o"
+ ],
+ "mh20": [
+  "Wage calculation deadline",
+  "The deadline separating the period when calculating a monthly salary.",
+  "o"
+ ],
+ "mh21": [
+  "Pay slip",
+  "A paper on which amount of money related to salary is written.",
+  "o"
+ ],
+ "mh22": [
+  "Basic salary",
+  "Base salary.",
+  "o"
+ ],
+ "mh23": [
+  "Family allowance",
+  "Money that a worker with a family can get from the company.",
+  "o"
+ ],
+ "mh24": [
+  "Commuting allowance",
+  "Money that a worker can get from the company to pay his/her transportation fee.",
+  "o"
+ ],
+ "mh25": [
+  "Position allowance",
+  "Money that a worker with special position in the company can get from the company.",
+  "o"
+ ],
+ "mh26": [
+  "Skills and qualifications allowance",
+  "Money that a worker with skills and qualifications can get from the company,",
+  "o"
+ ],
+ "mh27": [
+  "Attendance allowance",
+  "Money that a person who works hard can get from the company.",
+  "o"
+ ],
+ "mh28": [
+  "Premium wage",
+  "Salary which can be increased at a special rate.",
+  "o"
+ ],
+ "mh29": [
+  "Overtime extra work wage",
+  "Salary that can be increased at a special rate when you work outside the legally required hours.",
+  "o"
+ ],
+ "mh30": [
+  "Holiday extra work wage",
+  "Salary that can be increased at a special rate when working on a day off.",
+  "o"
+ ],
+ "mh31": [
+  "Late night extra work wage",
+  "A salary that can be increased at a special rate when working late at night.",
+  "o"
+ ],
+ "mh32": [
+  "Job description",
+  "What a worker will do as work.",
+  "o"
+ ],
+ "mh33": [
+  "Technical skills",
+  "Skills a person has.",
+  "o"
+ ],
+ "mh34": [
+  "Work performance",
+  "Job performance record.",
+  "o"
+ ],
+ "mh35": [
+  "Minimum wage",
+  "Lowest amount of salary to pay a worker decided by law.",
+  "o"
+ ],
+ "mh36": [
+  "Dependent",
+  "To take care and support husband or wife, or children etc.",
+  "o"
+ ],
+ "mh37": [
+  "Actual expense",
+  "The amount of money you actually used.",
+  "o"
+ ],
+ "mh38": [
+  "Promotion",
+  "When a worker gets raised to a higher status in a company.",
+  "o"
+ ],
+ "mh39": [
+  "Demotion",
+  "When a worker falls down on his/her career in a company.",
+  "o"
+ ],
+ "mh40": [
+  "Without absence",
+  "When you never be absent from work even once, apart from the paid leaves.",
+  "o"
+ ],
+ "mh41": [
+  "Monthly wage system",
+  "A system where salary is calculated monthly.",
+  "o"
+ ],
+ "mh42": [
+  "Day-rate system",
+  "A system where salary is calculated daily.",
+  "o"
+ ],
+ "mh43": [
+  "Hourly wage system",
+  "A system where salary is calculated hourly.",
+  "o"
+ ],
+ "mh44": [
+  "Overpayment",
+  "To pay too much money.",
+  "o"
+ ],
+ "mh45": [
+  "Legal extra wage pay rate",
+  "Special percentage of increase on salary mandated by the law for people working overtime or late at night, as mandated by the law.",
+  "o"
+ ],
+ "mh46": [
+  "Temporary closure",
+  "To make a working day to a day off because of the company's circumstances.",
+  "o"
+ ],
+ "mh47": [
+  "Average Wage",
+  "Amount of 3-month salary paid by the company after divided by 3 month number of days (90 days).",
+  "o"
+ ],
+ "mh48": [
+  "Leave allowance",
+  "Money the company pays when a worker takes a rest. The Labor Standard Law stipulates that when a worker takes a day off due to the company's circumstances, the company has to pay the worker 60% of the worker's average salary.",
+  "o"
+ ],
+ "mh49": [
+  "Daily calculation",
+  "To calculate salary or others by dividing it with the number of working days.",
+  "o"
+ ],
+ "mh50": [
+  "Currency",
+  "Money.",
+  "o"
+ ],
+ "mh51": [
+  "Financial institution",
+  "Places where they handle money such as banks.",
+  "o"
+ ],
+ "mh52": [
+  "Savings account",
+  "Place to deposit money that a company or person has in a bank.",
+  "o"
+ ],
+ "mh53": [
+  "Comprehensive securities account",
+  "A place to put money or securities which belongs to a company or a person in a securities company.",
+  "o"
+ ],
+ "mh54": [
+  "Withholding income tax",
+  "Tax a worker pays to the government. His/her company will pay the tax on behalf of the worker.",
+  "o"
+ ],
+ "mh59": [
+  "Burden of an insured person",
+  "The amount of insurance an insured person has to pay.",
+  "o"
+ ],
+ "mh60": [
+  "Company housing rent",
+  "The fee to rent a company-owned dormitory (company housing).",
+  "o"
+ ],
+ "mh61": [
+  "Asset accumulation",
+  "Money a worker saves up in a company.",
+  "o"
+ ],
+ "mh62": [
+  "Reserve fund",
+  "Money deposit saved for some necessity.",
+  "o"
+ ],
+ "mh63": [
+  "Union dues",
+  "Money a worker needs to pay in order to join an organization made to improve the work environment (union).",
+  "o"
+ ],
+ "mh64": [
+  "Emergency payments",
+  "Salary paid on a different date with the date decided by the company.",
+  "o"
+ ],
+ "mh65": [
+  "Accrued payroll",
+  "Amount of work a person did in the past.",
+  "o"
+ ],
+ "mh66": [
+  "Work performance",
+  "Work achievements.",
+  "o"
+ ],
+ "mh67": [
+  "Bonus",
+  "Money paid by the company temporarily in addition to basic pay.",
+  "o"
+ ],
+ "mh68": [
+  "Housing allowance",
+  "Money that an employee receives from the employer used to pay for part/all of rent.",
+  "o"
+ ],
+ "mh69": [
+  "Service allowance",
+  "An allowance provided by company for employee's skill, competence, and qualifications.",
+  "o"
+ ],
+ "mh70": [
+  "Unaccompanied duty allowance",
+  "Money that an employer pays when employees are to work away from their families by the employer's decision.",
+  "o"
+ ],
+ "mh71": [
+  "Sales allowance",
+  "Money that is provided to employees in the sales department for sales expenses. The employer covers the expenses.",
+  "o"
+ ],
+ "mh72": [
+  "Commission system",
+  "A salary system decided by the employer based on the worker's performance. (For example, the total amount of money that the worker made by selling products.)",
+  "o"
+ ],
+ "mh73": [
+  "Guaranteed payment",
+  "A system in which a salary is guaranteed by the employer regardless of the worker's performance.",
+  "o"
+ ],
+ "mh74": [
+  "Work pattern",
+  "The form of work, such as full-time, part-time, and short-time work.",
+  "o"
+ ],
+ "mh75": [
+  "Fixed overtime salary",
+  "A system that already includes overtime wages in a salary on the premise that the worker will do overtime for a certain amount of hours.",
+  "o"
+ ],
+ "mh76": [
+  "Wage patterns",
+  "The way the company calculates employee's wage and pays.",
+  "o"
+ ],
+ "mh79": [
+  "Income (Employment Income)",
+  "The remaining amount from money a worker gets after working for a year (salary) subtracted with the necessary expenses for employment (this is called employment income deduction).",
+  "o"
+ ],
+ "mh80": [
+  "Taxable Income",
+  "The amount of money when calculating the tax (income tax) workers have to pay to the government.",
+  "o"
+ ],
+ "mh81": [
+  "Income",
+  "Money that workers receive for their work. For example, monthly income is the income you receive per month. The actual amount of money you receive is your income subtracted with taxes and social insurance premiums.",
+  "o"
+ ],
+ "mh82": [
+  "Employment Income Deduction",
+  "To reduce the tax paid by subtracting the necessary expenses for employment from the money (income) workers get after working in a company etc. for one year.",
+  "o"
+ ],
+ "mh83": [
+  "Income Deduction",
+  "Deducting the necessary expenses for employment from the money workers get after working for a year, and deduct further the amount calculated based on each worker's circumstances. For example, tax deduction for dependents, medical expense deduction, life insurance premiums deduction, spousal deduction, basic deductions etc.",
+  "o"
+ ],
+ "mh84": [
+  "Basic Deduction",
+  "When doing income deduction, for all taxpayers, subtract a certain amount from the money (income) they have earned for in a year.",
+  "o"
+ ],
+ "mh85": [
+  "Tax Deduction for Dependents",
+  "To reduce the amount of tax to pay by subtracting a certain amount of money from the amount of money (income) remained after subtracting with the necessary expenses for employment in order to fund taxpayers to look after their family members.",
+  "o"
+ ],
+ "mh87": [
+  "Withholding Slip",
+  "A document describing how much money an employee got from the company and how much tax he/she has paid to the government, in a year span from January 1st to December 31st.",
+  "o"
+ ],
+ "mh91": [
+  "Relationship",
+  "The relationship one has with a family member.",
+  "o"
+ ],
+ "mh92": [
+  "Taxation certificate",
+  "A document issued by the ward/city office to prove how much tax the person is supposed to pay.",
+  "o"
+ ],
+ "mh93": [
+  "Tax payment certificate",
+  "Document issued from city/ward office to prove that the person is paying taxes.",
+  "o"
+ ],
+ "mh95": [
+  "Social security",
+  "The system in which the country supports people in need for reasons such as illness, injury, childbirth, loss of work (unemployment), mental and physical illness (disability), aging (old age), and death using taxes and money collected from working people and companies.",
+  "o"
+ ],
+ "mh96": [
+  "Social insurance",
+  "A system in which a company and workers support the livelihood of company workers having trouble such as getting sick or injured, losing their jobs (unemployment), getting old (old age), or needing long-term care.",
+  "o"
+ ],
+ "mh97": [
+  "Public assistance",
+  "To provide help with tax money to people who cannot afford a healthy and safe life on their own.",
+  "o"
+ ],
+ "mh98": [
+  "Public health",
+  "To clean the environment in towns and such so that everyone can live a healthy life, and to prevent illness (infectious diseases) that are transmitted from person to person.",
+  "o"
+ ],
+ "mh99": [
+  "Social welfare",
+  "To help people with disabilities to live a healthy and safe life with using tax.",
+  "o"
+ ],
+ "mh101": [
+  "National pension insurance",
+  "Insurance that covers all people between the ages of 20 and 59 in Japan in case they cannot get money by working, such as when you get old and quit the company or get sick.",
+  "o"
+ ],
+ "mh102": [
+  "Insured person",
+  "People who are insured and can get money after quitting their job due to age or when they get sick.",
+  "o"
+ ],
+ "mh106": [
+  "Average earnings",
+  "The amount of money combining salary and bonus to calculate how much a worker works and receives in a month. This amount is required to calculate how much money it will cost for insurance (welfare pension insurance) that allows workers to get money after they leave their company due to age.",
+  "o"
+ ],
+ "mh107": [
+  "Standard bonus amount",
+  "The amount of a bonus before tax, not considering amounts smaller than 1,000 yen.",
+  "o"
+ ],
+ "mh108": [
+  "Self-pay",
+  "To pay by one's self (not by the company).",
+  "o"
+ ],
+ "mh109": [
+  "Seniority based wage system",
+  "A salary determined by the company based on the age of the employee or how long they have been working in the company.",
+  "o"
+ ],
+ "mh110": [
+  "Annual salary system",
+  "A system to determine how much salary to be given on yearly basis.",
+  "o"
+ ],
+ "mh111": [
+  "Qualification allowance",
+  "Money that those who has special qualifications can receive from a company.",
+  "o"
+ ],
+ "mh116": [
+  "Congratulatory and/or condolence money",
+  "Money you can get from the company when a worker gets married, gives birth to a child, or loses a family member.",
+  "o"
+ ],
+ "mh117": [
+  "Injury and illness allowance",
+  "Money that is paid from health insurance when a worker is absent from work due to injury or illness and cannot receive a salary.",
+  "o"
+ ],
+ "mh118": [
+  "Deemed overtime",
+  "Not considering the amount of work that a person has worked longer than the fixed time (overtime hours) instead, determining the amount of time to work longer than the fixed working time (working hours) in advance, and the company pay the amount of money to worker. Also called fixed overtime.",
+  "o"
+ ],
+ "mh119": [
+  "Working hours",
+  "Hours to work.",
+  "o"
+ ],
+ "mh120": [
+  "Starting time of work",
+  "Time to start work.",
+  "o"
+ ],
+ "mh121": [
+  "Finishing time of work",
+  "Time to finish work.",
+  "o"
+ ],
+ "mh122": [
+  "Scheduled working hours",
+  "Working hours from the start time to the end time decided by the company, excluding breaks.",
+  "o"
+ ],
+ "mh123": [
+  "Break time",
+  "Break time.",
+  "o"
+ ],
+ "mh124": [
+  "Shift system",
+  "Working in turn with other people.",
+  "o"
+ ],
+ "mh125": [
+  "Change in shifts",
+  "Things related to the time and order of shifts when working in shifts with someone.",
+  "o"
+ ],
+ "mh126": [
+  "Time card",
+  "Cards and machines that record the working hours of workers.",
+  "o"
+ ],
+ "mh127": [
+  "To punch",
+  "To punch in the time to keep a record of it.",
+  "o"
+ ],
+ "mh128": [
+  "Self-report system",
+  "To report by yourself.",
+  "o"
+ ],
+ "mh129": [
+  "Overtime work hours",
+  "The time you worked in addition to the fixed working time.",
+  "o"
+ ],
+ "mh130": [
+  "Overtime allowance",
+  "Money that you will be paid when you work outside the fixed working time.",
+  "o"
+ ],
+ "mh131": [
+  "Late",
+  "To come to work later than the time you are supposed to start.",
+  "o"
+ ],
+ "mh132": [
+  "Early leave",
+  "To leave work earlier than the time you are supposed to finish.",
+  "o"
+ ],
+ "mh133": [
+  "Non-working time",
+  "To not work when you are supposed to work.",
+  "o"
+ ],
+ "mh134": [
+  "Five-day week system",
+  "A system that has two days off in a week.",
+  "o"
+ ],
+ "mh135": [
+  "General work",
+  "Regular way of working.",
+  "o"
+ ],
+ "mh136": [
+  "Shift work",
+  "Working in shifts with other people.",
+  "o"
+ ],
+ "mh137": [
+  "Day shift",
+  "Working during daytime.",
+  "o"
+ ],
+ "mh138": [
+  "Evening shift",
+  "Working during the early evening.",
+  "o"
+ ],
+ "mh139": [
+  "Night shift",
+  "Working at night.",
+  "o"
+ ],
+ "mh140": [
+  "Work shift table",
+  "A table that describes working days and working hours when working in shifts.",
+  "o"
+ ],
+ "mh141": [
+  "After off-duty",
+  "The day following an off-duty day with no work after working until that morning, in a work system with shifts.",
+  "o"
+ ],
+ "mh142": [
+  "Variable working hours system",
+  "A work style that adjusts the total working hours by month or year by reducing working hours when not busy and increasing the working hours when busy.",
+  "o"
+ ],
+ "mh143": [
+  "Statutory working hours",
+  "Working hours designated by law.",
+  "o"
+ ],
+ "mh144": [
+  "Overtime work",
+  "To work outside the fixed working hours.",
+  "o"
+ ],
+ "mh145": [
+  "Regular Weekly Hours",
+  "Working hours in a week decided by the company.",
+  "o"
+ ],
+ "mh146": [
+  "Measures for easing congestion",
+  "To make commuting easier by avoiding rush hours when taking a train to go to work.",
+  "o"
+ ],
+ "mh147": [
+  "Off-peak commuting (staggered commuting hours)",
+  "To change the time to start and finish work between the working hours as decided by the company.",
+  "o"
+ ],
+ "mh148": [
+  "Average regular working hours",
+  "The average of number of working hours decided by the company for a period of time.",
+  "o"
+ ],
+ "mh149": [
+  "Private Outing",
+  "Going out of office for your own matters.",
+  "o"
+ ],
+ "mh150": [
+  "Flex-time system",
+  "A system of working hours with the starting and finishing times chosen by a worker.",
+  "o"
+ ],
+ "mh151": [
+  "Flexible time",
+  "Flexible time, is a certain period of time where a worker can start/finish anytime within.",
+  "o"
+ ],
+ "mh152": [
+  "Deemed working hours system for works outside of the workplace",
+  "A system for workers to perform their work outside of the workplace in which it would be difficult to calculate working hours, where the number of hours worked will be deemed to be the prescribed working hours.",
+  "o"
+ ],
+ "mh153": [
+  "Discretionary labor system",
+  "A predetermined number of working hours set by a company regardless of the actual working hours.",
+  "o"
+ ],
+ "mh154": [
+  "Core time",
+  "A certain period of time where workers are to be at work.",
+  "o"
+ ],
+ "mh155": [
+  "Prescribed weekly working days",
+  "The number of working days of a week decided by the company.",
+  "o"
+ ],
+ "mh156": [
+  "Average monthly overtime working hours",
+  "The average monthly working hours excluding the working hours decided by the company (prescribed working hours).",
+  "o"
+ ],
+ "mh157": [
+  "Short-time work system",
+  "A system to shorten working hours for workers who need to raise their children and take care of other family members.",
+  "o"
+ ],
+ "mh158": [
+  "Vacation",
+  "Holidays that workers can get on days when they have to work.",
+  "o"
+ ],
+ "mh159": [
+  "Initial calculation date",
+  "The first day when calculating the number of days.",
+  "o"
+ ],
+ "mh160": [
+  "National holidays",
+  "Holidays stipulated by law.",
+  "o"
+ ],
+ "mh161": [
+  "Year-end and New Year holidays",
+  "The beginning and the end of the year.",
+  "o"
+ ],
+ "mh162": [
+  "Summer holidays",
+  "Summer vacation.",
+  "o"
+ ],
+ "mh163": [
+  "Makeup holidays",
+  "To swap a day off and another day you work before the day off.",
+  "o"
+ ],
+ "mh164": [
+  "Compensatory day off",
+  "To take another day off when working on your day off (with a salary that can be increased at a special rate).",
+  "o"
+ ],
+ "mh165": [
+  "Holiday work",
+  "Work on a public holiday stipulated by law.",
+  "o"
+ ],
+ "mh166": [
+  "Legal holiday",
+  "Holiday stipulated by law.",
+  "o"
+ ],
+ "mh167": [
+  "Expectant and nursing mothers",
+  "Pregnant women or nursing mothers with babies less than one year old.",
+  "o"
+ ],
+ "mh169": [
+  "Regular working days",
+  "Working days decided by the company.",
+  "o"
+ ],
+ "mh170": [
+  "Attendance Rate",
+  "Percentage of actual working days out of the days decided by the company.",
+  "o"
+ ],
+ "mh171": [
+  "Before and after childbirth",
+  "Before and after you bear a child.",
+  "o"
+ ],
+ "mh172": [
+  "Child Care and Family Care Leave Act",
+  "Laws for raising children and taking care of families.",
+  "o"
+ ],
+ "mh173": [
+  "Carry-over",
+  "To transfer a leave you haven't used during a time period to the next one.",
+  "o"
+ ],
+ "mh174": [
+  "Total",
+  "To count all (e.g. your holidays etc.)",
+  "o"
+ ],
+ "mh175": [
+  "Hourly annual leave",
+  "Holiday you can take while still receiving salary. You can take an hour break instead of a day.",
+  "o"
+ ],
+ "mh176": [
+  "Grant",
+  "To give.",
+  "o"
+ ],
+ "mh177": [
+  "Right to change period",
+  "To ask a worker to change his/her day off when the company wants him/her to take another day while still receiving a salary.",
+  "o"
+ ],
+ "mh178": [
+  "Multiple pregnancy",
+  "To be pregnant with two or more babies at the same time.",
+  "o"
+ ],
+ "mh179": [
+  "Nursing time",
+  "Period of time to raise a child.",
+  "o"
+ ],
+ "mh180": [
+  "Menstrual leave",
+  "A leave for women during menstruation.",
+  "o"
+ ],
+ "mh183": [
+  "Sick/injured child care leave",
+  "A leave to take care your sick child.",
+  "o"
+ ],
+ "mh184": [
+  "Special Leave for Weddings and Funerals",
+  "A leave for certain celebration or condolence.",
+  "o"
+ ],
+ "mh185": [
+  "Sick leave",
+  "A leave when you are sick.",
+  "o"
+ ],
+ "mh186": [
+  "Illness",
+  "Disease.",
+  "o"
+ ],
+ "mh187": [
+  "Compensatory leave",
+  "A day off from the company in the month when you work longer than the legally required hours.",
+  "o"
+ ],
+ "mh188": [
+  "Go back home for vacation",
+  "Returning to one's hometown.",
+  "o"
+ ],
+ "mh189": [
+  "Anniversary of foundation",
+  "The day when the company was founded.",
+  "o"
+ ],
+ "mh190": [
+  "The number of annual paid leave days available after 6 months of employment",
+  "The number of annual paid leaves that guarantees a day off while getting a salary after 6 months of employment.",
+  "o"
+ ],
+ "mh191": [
+  "Average number of workers taking paid leave.",
+  "The average number of workers taking days off with normal pay (paid leave).",
+  "o"
+ ],
+ "mh192": [
+  "Number of workers taking child care leave",
+  "The number of workers being absent to raise their children.",
+  "o"
+ ],
+ "mh193": [
+  "Day off",
+  "Day off",
+  "o"
+ ],
+ "mh194": [
+  "Leave",
+  "A worker who takes a long break from the company when he/she is instructed by the company to take a break.",
+  "o"
+ ],
+ "mh195": [
+  "Length of service",
+  "Number of years working at the same company.",
+  "o"
+ ],
+ "mh196": [
+  "Resign",
+  "Leaving the company.",
+  "o"
+ ],
+ "mh197": [
+  "Reason",
+  "Reason.",
+  "o"
+ ],
+ "mh198": [
+  "Personnel change",
+  "To change the place of work or the content of work.",
+  "o"
+ ],
+ "mh199": [
+  "Enrolled",
+  "To be a member of the company.",
+  "o"
+ ],
+ "mh200": [
+  "Affiliated company",
+  "Another company in a group of companies.",
+  "o"
+ ],
+ "mh201": [
+  "Seconded",
+  "To work at another company by an order of the company you work for.",
+  "o"
+ ],
+ "mh202": [
+  "Reassignment",
+  "The place of work changes.",
+  "o"
+ ],
+ "mh203": [
+  "Leave",
+  "A worker takes a long break from work for his own convenience.",
+  "o"
+ ],
+ "mh204": [
+  "Return to work",
+  "Return to work after an absence.",
+  "o"
+ ],
+ "mh205": [
+  "Reason for the leave",
+  "Reasons to be absent from work for a long time.",
+  "o"
+ ],
+ "mh206": [
+  "Medical certificate from a doctor",
+  "Medical certificate issued by a doctor.",
+  "o"
+ ],
+ "mh207": [
+  "Announcement date",
+  "The day your company announced an order concerning you.",
+  "o"
+ ],
+ "mh208": [
+  "Retirement age",
+  "The age when a worker leaves a company due to his age.",
+  "o"
+ ],
+ "mh209": [
+  "Continued employment",
+  "When a company keeps employing a worker even after he/she reaches the retirement age.",
+  "o"
+ ],
+ "mh210": [
+  "Resignation letter",
+  "A document written by a worker when leaving the company.",
+  "o"
+ ],
+ "mh211": [
+  "Based on request",
+  "If a worker makes a request to the company.",
+  "o"
+ ],
+ "mh212": [
+  "Certificate of resignation",
+  "A certificate stating the reason why you leave a company.",
+  "o"
+ ],
+ "mh213": [
+  "Dismissal",
+  "When a company fires a worker.",
+  "o"
+ ],
+ "mh214": [
+  "Working condition",
+  "Condition of a person when he/she is working.",
+  "o"
+ ],
+ "mh215": [
+  "Bad",
+  "Not good.",
+  "o"
+ ],
+ "mh216": [
+  "Disciplinary dismissal",
+  "To terminate someone from the company as a punishment.",
+  "o"
+ ],
+ "mh217": [
+  "Natural disaster",
+  "Various disasters caused by nature.",
+  "o"
+ ],
+ "mh218": [
+  "Allowance for advance termination notice",
+  "To pay more than 30 days of the worker's salary as notification for termination when the company does not notify the termination 30 days in advance.",
+  "o"
+ ],
+ "mh219": [
+  "Certificate of reason for dismissal",
+  "A certificate that describes why the person got fired when the company makes them quit.",
+  "o"
+ ],
+ "mh220": [
+  "Embezzlement",
+  "To misappropriate money or goods entrusted to you.",
+  "o"
+ ],
+ "mh221": [
+  "Injury",
+  "To injure a person.",
+  "o"
+ ],
+ "mh222": [
+  "Absence without leave",
+  "To be absent on the day when the person has to work without notifying so.",
+  "o"
+ ],
+ "mh223": [
+  "Severance pay",
+  "The money you receive when you leave the company.",
+  "o"
+ ],
+ "mh224": [
+  "Personal circumstance",
+  "The circumstances and preference of employees.",
+  "o"
+ ],
+ "mh225": [
+  "Reemployment",
+  "To continue to hire a person over the age of leaving the company.",
+  "o"
+ ],
+ "mh226": [
+  "Bereaved family",
+  "The family of the deceased person.",
+  "o"
+ ],
+ "mh227": [
+  "Inheritor",
+  "A person who receives the money or items of a deceased person.",
+  "o"
+ ],
+ "mh228": [
+  "Discipline",
+  "To give a punishment from the company such as reducing their salary or keeping them from working for a while when an employee does something wrong.",
+  "o"
+ ],
+ "mh229": [
+  "Circumstance",
+  "The reason behind an action.",
+  "o"
+ ],
+ "mh230": [
+  "Reprimand",
+  "To reprimand someone who did a bad thing.",
+  "o"
+ ],
+ "mh231": [
+  "Letter of apology",
+  "A document written when a mistake is made.",
+  "o"
+ ],
+ "mh232": [
+  "Pay cut",
+  "To decrease a salary.",
+  "o"
+ ],
+ "mh233": [
+  "Suspension from work",
+  "To suspend someone from work with no salary.",
+  "o"
+ ],
+ "mh234": [
+  "Misrepresentation of records",
+  "When someone deliberately provides false background information on school or work.",
+  "o"
+ ],
+ "mh235": [
+  "Intent or gross negligence",
+  "Intent or gross negligence.",
+  "o"
+ ],
+ "mh236": [
+  "Criminal actions",
+  "The action that violates law established on the penal code and that carries a penalty.",
+  "o"
+ ],
+ "mh237": [
+  "Bad behavior",
+  "When your normal behavior is bad.",
+  "o"
+ ],
+ "mh238": [
+  "Social order",
+  "The rules of a company.",
+  "o"
+ ],
+ "mh239": [
+  "Public morals",
+  "What you need to follow to make your life at work adequate.",
+  "o"
+ ],
+ "mh240": [
+  "Illegal act",
+  "Bad acts, or acts that's against the law.",
+  "o"
+ ],
+ "mh241": [
+  "Defamation",
+  "To hurt someone by saying bad things about them.",
+  "o"
+ ],
+ "mh242": [
+  "Credibility",
+  "What someone takes pride in, wants to protect and the trust others place in them.",
+  "o"
+ ],
+ "mh243": [
+  "Possibility of job transfer",
+  "The possibility of one's workplace to be moved.",
+  "o"
+ ],
+ "mh244": [
+  "Defined contribution pension",
+  "A pension scheme that has a company gradually pay money for a worker to use after they reach old age and stop working.",
+  "o"
+ ],
+ "mh245": [
+  "Defined benefit pension",
+  "A pension scheme in which the amount is predetermined and paid by the employer starting when a worker retires after reaching retirement age.",
+  "o"
+ ],
+ "mh246": [
+  "Employment extension",
+  "A system of reemploying workers who retired when reaching retirement age.",
+  "o"
+ ],
+ "mh247": [
+  "Letter of resignation",
+  "Document required for a person who has left a company to receive money (unemployment benefits) when he/she loses his/her job. Hello Work will give it to the company, and you will receive it from the company.",
+  "o"
+ ],
+ "mh248": [
+  "Unemployment allowance",
+  "Money that a person can receive while looking for a new job after quitting the previous one in order for them to not worry about their livelihood meanwhile.",
+  "o"
+ ],
+ "mh249": [
+  "Injury and illness",
+  "Injury and illness.",
+  "o"
+ ],
+ "mh250": [
+  "Recuperate",
+  "Taking a break from work to cure an injury or illness.",
+  "o"
+ ],
+ "mh251": [
+  "Cure",
+  "Cure illness or injury.",
+  "o"
+ ],
+ "mh252": [
+  "Safety and Health Supervisor",
+  "A person who manages a workplace so that all the workers can work safely and healthily.",
+  "o"
+ ],
+ "mh253": [
+  "Injury and disease compensation pension",
+  "Money given by the government to people who get serious injury or illness and do not recover even one year and six months after treatment.",
+  "o"
+ ],
+ "mh254": [
+  "Compensation for discontinuance",
+  "When a company pays an employee the money corresponding to what they would receive from the country (injury and illness compensation pension) when the worker does not recover even 3 years after treatment.",
+  "o"
+ ],
+ "mh255": [
+  "Safety and health education",
+  "To be able to work safely and healthily.",
+  "o"
+ ],
+ "mh256": [
+  "Occupational accident",
+  "To cause injuries or illnesses to employees by work.",
+  "o"
+ ],
+ "mh257": [
+  "Machinery",
+  "Machines used at work.",
+  "o"
+ ],
+ "mh258": [
+  "Pre-work inspection",
+  "To check machines etc. used at work before starting.",
+  "o"
+ ],
+ "mh259": [
+  "Safety equipment",
+  "A system attached to machines etc. to prevent workers from being injured.",
+  "o"
+ ],
+ "mh260": [
+  "Protective equipment",
+  "Things to wear for protecting your body.",
+  "o"
+ ],
+ "mh261": [
+  "Passive smoking",
+  "To breathe in the smoke of cigarettes that others smoke.",
+  "o"
+ ],
+ "mh262": [
+  "No-entry area",
+  "A place you must not enter.",
+  "o"
+ ],
+ "mh263": [
+  "Passage prohibited area",
+  "A place you must not go through.",
+  "o"
+ ],
+ "mh264": [
+  "Keep things tidy",
+  "To clean up your surroundings.",
+  "o"
+ ],
+ "mh265": [
+  "Evacuation exit",
+  "An exit to escape when a disaster or accident occur.",
+  "o"
+ ],
+ "mh266": [
+  "Fire extinguisher",
+  "A tool to extinguish a fire.",
+  "o"
+ ],
+ "mh267": [
+  "Fire",
+  "A fire.",
+  "o"
+ ],
+ "mh268": [
+  "Emergency disaster",
+  "An extraordinary disaster such as earthquakes, high waves (tsunami), strong winds (storms), typhoons, etc.",
+  "o"
+ ],
+ "mh269": [
+  "Measures according to the situation",
+  "To think a good way of proceeding depending on the situation at that time.",
+  "o"
+ ],
+ "mh270": [
+  "Medical Examination",
+  "An examination to check whether if your health condition is fine.",
+  "o"
+ ],
+ "mh271": [
+  "Harmful work",
+  "Work that can negatively affect the body.",
+  "o"
+ ],
+ "mh272": [
+  "Face-to-face guidance",
+  "Meeting workers to know their physical and mental condition and tell them how to make it better",
+  "o"
+ ],
+ "mh273": [
+  "Stress check",
+  "A test to check the stress level of workers.",
+  "o"
+ ],
+ "mh274": [
+  "Safety and health education",
+  "Education for workers to work safely and healthily.",
+  "o"
+ ],
+ "mh275": [
+  "Accident compensation",
+  "To get compensated with money by the company when a worker is injured, becomes ill, or dies while working.",
+  "o"
+ ],
+ "mh277": [
+  "Medical compensation benefit",
+  "Money that is paid from the workers' accident insurance to cure an illness or go to the hospital when a worker gets injured or sick due when working or commuting.",
+  "o"
+ ],
+ "mh278": [
+  "Absence from work compensation",
+  "Money that is paid from the workers' accident insurance when a worker is injured or sick during work or commuting and is absent from work and cannot receive salary.",
+  "o"
+ ],
+ "mh279": [
+  "Disability compensation benefit",
+  "Money that is paid from the workers' accident insurance when a worker is injured or sick due to work or commuting and has a physical or mental disability",
+  "o"
+ ],
+ "mh280": [
+  "Nursing care compensation benefits",
+  "Money that is paid from the workers' accident insurance when a worker needs nursing care due to injury or illness caused by work or commuting.",
+  "o"
+ ],
+ "mh281": [
+  "Compensation benefit for surviving family",
+  "Money that the family of a deceased worker can receive from the workers' accident insurance when they die due to an accident while working or commuting",
+  "o"
+ ],
+ "mh282": [
+  "Funeral service fee",
+  "Money paid for a funeral (a ritual when a person dies) to the family of a deceased person when they have died due to an accident while working or commuting.",
+  "o"
+ ],
+ "mh283": [
+  "Follow-up medical examination benefits",
+  "System when a worker gets an unfavorable result in a health checkup (medical examination) offered by the company, he/she can take a checkup again to check more detail for free.",
+  "o"
+ ],
+ "mh284": [
+  "Abuse of authority (Power harassment)",
+  "When a person who is in a higher position in terms of work rank or relationships uses that position to act in an unnecessarily strong or aggressive manner, and worsen the work environment of others.",
+  "o"
+ ],
+ "mh285": [
+  "Abuse of authority (\"pawahara\")",
+  "Abuse of authority (power harassment) When a person who is in a higher position in terms of work rank or relationships uses that position to act in an unnecessarily strong or aggressive manner, and worsen the work environment of others.",
+  "o"
+ ],
+ "mh286": [
+  "Dominance relation",
+  "To be in a higher position.",
+  "o"
+ ],
+ "mh287": [
+  "Work environment",
+  "The environment of the place of work.",
+  "o"
+ ],
+ "mh288": [
+  "Sexual harassment",
+  "To make other workers feel uncomfortable or to make the work environment worse by using sexual words or manners.",
+  "o"
+ ],
+ "mh289": [
+  "Sexual harassment (\"sekuhara\")",
+  "Meaning of sexual harassment To make other workers feel uncomfortable or to make the work environment worse by using sexual words or manners.",
+  "o"
+ ],
+ "mh290": [
+  "Sexual language and behavior",
+  "Words or manners that are related to sex.",
+  "o"
+ ],
+ "mh291": [
+  "Pregnancy discrimination (Maternity harassment, \"matahara\")",
+  "Pregnancy discrimination To talk or act about pregnancy or having children. To make the work environment worse by talking or acting about pregnancy or having children when a worker uses or tries to use employee benefits available for pregnancy, giving birth, or raising a child.",
+  "o"
+ ],
+ "mh292": [
+  "Sexual orientation",
+  "The particular orientation of your romantic interest.",
+  "o"
+ ],
+ "mh293": [
+  "Gender identity",
+  "What gender you identify as.",
+  "o"
+ ],
+ "mh295": [
+  "Period of stay",
+  "Period of time foreign nationals can stay in Japan. The last day of the period of stay is called expiry date of period of stay.",
+  "o"
+ ],
+ "mh296": [
+  "Engineer / Specialist in humanities / International services",
+  "The qualifications of foreign nationals to work using their knowledge from university or college or foreign language skills. For example, jobs such as engineer, interpreter, designer etc.",
+  "o"
+ ],
+ "mh297": [
+  "Technical skill",
+  "The qualifications of foreign nationals to work in Japan using special technical skills. For example, works such as cook (chef), airplane pilot etc.",
+  "o"
+ ],
+ "mh298": [
+  "Highly skilled professional",
+  "Qualification for highly qualified foreign nationals to work in Japan. There are No.1 and No.2 in this qualification. Those with qualification No.1 (a) are allowed to work in research and education field, No.1 (b) for work with knowledge and skills in natural science (for example, mathematics and physics) and humanities (for example, literature and history), No.1 (c) for fields such as company management. It will be easier to obtain a permanent residence with those qualifications. When the period of No.1 ends, you can change to No.2 and will be allowed to do more things. Qualification No.2 can be obtained by those with qualification No.1 who have worked for more than 3 years.",
+  "o"
+ ],
+ "mh299": [
+  "Specified skilled worker",
+  "Qualification for foreign nationals with knowledge and skills to work in fields with labor shortages (specific industrial fields) in Japan. There are No.1 and No.2 in this qualification. No.1 is for 14 specific industrial fields (nursing, manufacturing, construction, accommodation, agriculture, restaurants etc.) decided by the government, and foreign nationals who have passed the test in that particular field and completed their intern training No.2 are allowed to work. No.2 is for 2 specific industrial fields (construction, shipbuilding and ship industries) decided by the government for foreign nationals to work with high skills and knowledge.",
+  "o"
+ ],
+ "mh300": [
+  "Technical intern training",
+  "Qualification to learn skills and knowledge while working in Japan. There are 3 types of qualifications No.1, No.2, and No.3. After studying in a place (called a supervising organization) assisting technical intern trainees and companies hiring them, they usually will work at a Japanese company (called a training implementing organization).",
+  "o"
+ ],
+ "mh301": [
+  "Training implementing organization",
+  "Companies hiring foreign nationals who work to learn knowledge and skills (technical intern trainees) in Japan. Also called accepting companies.",
+  "o"
+ ],
+ "mh302": [
+  "Supervising organization",
+  "Organizations accepting foreign nationals who would work to learn knowledge and skills in Japan (technical intern trainees) and assisting technical intern trainees and companies hiring them.",
+  "o"
+ ],
+ "mh303": [
+  "Sending agencies",
+  "Overseas organizations gathering and sending foreign nationals (technical intern trainees) to work in Japan in order to learn knowledge and skills.",
+  "o"
+ ],
+ "mh304": [
+  "Permanent resident",
+  "Qualification to stay in Japan forever.",
+  "o"
+ ],
+ "mh305": [
+  "Spouse or child of Japanese national",
+  "Qualification for a husband, wife, or child of a Japanese national to stay in Japan.",
+  "o"
+ ],
+ "mh306": [
+  "Spouse or child of a permanent resident",
+  "Qualification for a husband, wife, or child of a permanent resident to stay in Japan.",
+  "o"
+ ],
+ "mh307": [
+  "Long-term resident",
+  "Qualification for foreign nationals with a special reason to stay in Japan for a time period. For example, a grandchild of a Japanese national who migrated overseas in the past are able to get to qualification.",
+  "o"
+ ],
+ "mh308": [
+  "Designated activities",
+  "Qualification granted by the minister of justice to designate activities for foreign nationals who are engaged in activities unspecified in other status of residence. For example, people working at a house of a diplomat (a person working for a country in Japan on behalf of a particular foreign country) or a person on a working holiday can apply for this qualification.",
+  "o"
+ ],
+ "mh309": [
+  "Student",
+  "Qualification for foreign nationals to come from overseas to Japan to pursue education.",
+  "o"
+ ],
+ "mh310": [
+  "Dependent",
+  "Qualification for a person to stay in Japan with a family member who also has qualification to stay.",
+  "o"
+ ],
+ "mh311": [
+  "Working holiday",
+  "Once two countries have made a pact, a citizen is allowed to take a long vacation in the other country and work for a living. This system is called working holiday (\"wa-hori\").",
+  "o"
+ ],
+ "mh312": [
+  "Certificate of eligibility",
+  "Documents obtained before a foreign national entering Japan, certifying that he/she will be granted a status of residence after entry into Japan. Companies employing foreign nationals or people related to foreign nationals can apply to the immigration office on behalf of the foreign national.",
+  "o"
+ ],
+ "mh313": [
+  "Visa",
+  "Documents from the country of a foreign national to prove that his/her passport has no issue and he/she is allowed to enter other countries.",
+  "o"
+ ],
+ "mh314": [
+  "Specific Industrial Field",
+  "Work fields in which there are not enough Japanese labors. Those with residence status of specific technical skills can work in any company that offers job in this field.",
+  "o"
+ ],
+ "mh315": [
+  "Application to Change the Status of Residence",
+  "Foreign nationals applying to change their status of residence in Japan.",
+  "o"
+ ],
+ "mh316": [
+  "Renewal (Application of Extension of Period of Stay)",
+  "Application to extend the period of stay. This is to allow foreign nationals to stay in Japan for a longer period of time before their period of stay ends.",
+  "o"
+ ],
+ "mh317": [
+  "Legal Representative",
+  "A person taking the place of a particular person, as permitted by law.",
+  "o"
+ ],
+ "mh318": [
+  "Applicant",
+  "A person applying for some procedure.",
+  "o"
+ ],
+ "mh320": [
+  "Certificate of Qualification for Employment",
+  "A certificate that describes what kind of work the foreigner can do when he / she works in Japan.",
+  "o"
+ ],
+ "mh321": [
+  "Immigration Bureau",
+  "Immigration Bureau of Japan. A public office who manages foreign nationals entering and leaving Japan.",
+  "o"
+ ],
+ "mh322": [
+  "Part-time worker",
+  "A person whose working hours per week according to the law are fewer than those who work the longest working hours specified by the company's work regulations.",
+  "o"
+ ],
+ "mh323": [
+  "Conversion",
+  "To change into other things.",
+  "o"
+ ],
+ "mh324": [
+  "Fixed-term employment contract",
+  "A contract with a fixed working period.",
+  "o"
+ ],
+ "mh325": [
+  "Indefinite term employment contract",
+  "A contract without a fixed end date for the working period.",
+  "o"
+ ],
+ "mh326": [
+  "Suspension of employment",
+  "A case that a person who has a fixed working period is refused by the company to continue working after that period.",
+  "o"
+ ],
+ "mh327": [
+  "Total contract period",
+  "The total duration of the working contract.",
+  "o"
+ ],
+ "mh328": [
+  "Act on Special Measures for Fixed-term Employment",
+  "An act that allows employees with expertise, sophisticated skills, or have passed the age of retirement set by the employer to change their definite-term contracts to indefinite-tern contracts.",
+  "o"
+ ],
+ "mh329": [
+  "Conversion to indefinite-term status",
+  "A right that allows employees with fixed-term contracts to change their contracts to indefinite-term.",
+  "o"
+ ],
+ "mh330": [
+  "Specified Fixed-term Operations",
+  "A operation that requires expert knowledge and skills and needs more than 5 years to be completed.",
+  "o"
+ ],
+ "mh331": [
+  "Conditions of contract renewal",
+  "A requirement to renew your contract when it expires.",
+  "o"
+ ],
+ "mh332": [
+  "Dispatch company",
+  "A company where temporary workers (those who make a contract with a dispatch company and work in another company) are in contract with.",
+  "o"
+ ],
+ "mh333": [
+  "Client company",
+  "A company to be supplied with temporary workers that are sent by the contract company (dispatching company) and actually work.",
+  "o"
+ ],
+ "mh334": [
+  "Direct employment",
+  "To hire a worker by making a contract with the worker directly not through a dispatch company. Full-time employees, contract employee, part-time employees are directly hired.",
+  "o"
+ ],
+ "mh336": [
+  "Indefinite period contract",
+  "Hiring workers without a definite ending day of their working period",
+  "o"
+ ],
+ "mh337": [
+  "Fixed term contract",
+  "Hiring workers with a fixed day at the end of the working period",
+  "o"
+ ],
+ "mh339": [
+  "Working",
+  "A job. To work.",
+  "o"
+ ],
+ "mh340": [
+  "Labor Standards Act",
+  "Labor Standards Act. The law set by the government to protect workers.",
+  "o"
+ ],
+ "mh341": [
+  "Worker",
+  "Working person.",
+  "o"
+ ],
+ "mh342": [
+  "Service",
+  "To work.",
+  "o"
+ ],
+ "mh343": [
+  "Job efficiency",
+  "To get the job done as soon as possible.",
+  "o"
+ ],
+ "mh344": [
+  "Company order",
+  "Rules in a company.",
+  "o"
+ ],
+ "mh345": [
+  "Duty of devotion to service",
+  "Obligation to concentrate on your work.",
+  "o"
+ ],
+ "mh346": [
+  "Labor-management agreement",
+  "A promise made between a company and a labor union or a person that represents more than half of the workers.",
+  "o"
+ ],
+ "mh347": [
+  "Representative of the majority",
+  "A person representing more than half of the workers.",
+  "o"
+ ],
+ "mh348": [
+  "Chief of the Labor Standards Inspection Office",
+  "The person who understands the most in the organization on whether or not a worker is working under the right conditions.",
+  "o"
+ ],
+ "mh349": [
+  "Maternal healthcare",
+  "Things to do to protect the health of working women when they are pregnant or after giving birth.",
+  "o"
+ ],
+ "mh350": [
+  "Duty",
+  "The responsibility as an employee.",
+  "o"
+ ],
+ "mh351": [
+  "Individual labor related disputes",
+  "Conflict between an employee and an employer in things related to work, such as working conditions.",
+  "o"
+ ],
+ "mh352": [
+  "Meditation",
+  "To intercede between opponents and remove a problem.",
+  "o"
+ ],
+ "mh353": [
+  "Labor union",
+  "An organization created by workers to improve the working environment and raise the position of workers.",
+  "o"
+ ],
+ "mh354": [
+  "Whistleblowing",
+  "To let people know officially when a company is breaking the law or doing something wrong. Whistleblowing.",
+  "o"
+ ],
+ "mh355": [
+  "Education and training",
+  "Education and training provided by the company to develop the ability of workers to perform their work.",
+  "o"
+ ],
+ "mh356": [
+  "Side business",
+  "To work for another company besides your main company.",
+  "o"
+ ],
+ "mh357": [
+  "Labor service",
+  "To work for a company where you belong to.",
+  "o"
+ ],
+ "mh358": [
+  "Competition",
+  "To compete with companies that are in the same industry.",
+  "o"
+ ],
+ "mh359": [
+  "Workplace",
+  "A place where people work.",
+  "o"
+ ],
+ "mh360": [
+  "Employer",
+  "A company, or people in an important position of the company.",
+  "o"
+ ],
+ "mh361": [
+  "Period of employment",
+  "The period of time that an employer employs a worker.",
+  "o"
+ ],
+ "mh362": [
+  "Employment pattern",
+  "The type of contract between employer and worker, such as full-time, contract worker, temporary, and part-time.",
+  "o"
+ ],
+ "mh363": [
+  "Full-time employee",
+  "An employee with a contract that has undecided period of employment (permanent employment). Employee works for the longest hours defined by company's rule.",
+  "o"
+ ],
+ "mh364": [
+  "Competency-based pay system",
+  "A pay structure that provides based on the nature of what the worker does.",
+  "o"
+ ],
+ "mh365": [
+  "Position system",
+  "A system to provide important roles to certain workers based on their skills and type of work.",
+  "o"
+ ],
+ "mh366": [
+  "Job evaluation based wage system",
+  "A system in which a company pays a salary according to the performance of each worker.",
+  "o"
+ ],
+ "mh367": [
+  "Performance based system",
+  "A system in which a company raises a worker's salary or gives an important position in the company based on his/her performance.",
+  "o"
+ ],
+ "mh368": [
+  "Company benefits",
+  "A system from a company to support workers and their families with something in addition to the salary.",
+  "o"
+ ],
+ "mh369": [
+  "Company cafeteria",
+  "A place in a company where workers can have a meal.",
+  "o"
+ ],
+ "mh370": [
+  "Dormitory",
+  "A house where workers of a company live together. Each worker has his/her own private space.",
+  "o"
+ ],
+ "mh371": [
+  "Company house",
+  "A house a company lends to workers.",
+  "o"
+ ],
+ "mh372": [
+  "Dormitory / Boarding house",
+  "A house where workers sleep and eat together.",
+  "o"
+ ],
+ "mh374": [
+  "Work-life balance",
+  "To have good balance between work and life.",
+  "o"
+ ],
+ "mh375": [
+  "Comply",
+  "To obey the law.",
+  "o"
+ ],
+ "mh376": [
+  "Obligation",
+  "What you have to do.",
+  "o"
+ ],
+ "mh377": [
+  "Off-the-job",
+  "Things other than work.",
+  "o"
+ ],
+ "mh378": [
+  "Expire",
+  "To finish.",
+  "o"
+ ],
+ "mh379": [
+  "Borrowing of money or goods",
+  "To borrow money or goods.",
+  "o"
+ ],
+ "mh380": [
+  "Gift",
+  "Give out money or goods.",
+  "o"
+ ],
+ "mh381": [
+  "An unlawful action",
+  "Bad deeds that go against the law.",
+  "o"
+ ],
+ "mh382": [
+  "Client",
+  "Companies that work with the company.",
+  "o"
+ ],
+ "mh383": [
+  "Confidential information leakage",
+  "Telling others secret information.",
+  "o"
+ ],
+ "mh384": [
+  "Influence of alcohol",
+  "The state after drinking alcohol.",
+  "o"
+ ],
+ "mh385": [
+  "Protection of personal information",
+  "To protect information about people, your company, and companies you work with.",
+  "o"
+ ],
+ "mh386": [
+  "Pre-approval",
+  "To get permission before you actually proceed.",
+  "o"
+ ],
+ "mh387": [
+  "Post-approval",
+  "To get permission later.",
+  "o"
+ ],
+ "mh388": [
+  "Deduction",
+  "To deduct.",
+  "o"
+ ],
+ "mh389": [
+  "Jurisdiction",
+  "Authorities in charge of the place of your residence or your office.",
+  "o"
+ ],
+ "mh390": [
+  "Health guidance",
+  "A guidance necessary for health.",
+  "o"
+ ],
+ "mh391": [
+  "Medical check-up",
+  "A test to check your health status.",
+  "o"
+ ],
+ "mh392": [
+  "In-time hospital visit",
+  "To go to the hospital when you are supposed to work.",
+  "o"
+ ],
+ "mh393": [
+  "Spouse",
+  "Husband or wife.",
+  "o"
+ ],
+ "mh394": [
+  "Lay judge / Juror",
+  "A person who judges.",
+  "o"
+ ],
+ "mh395": [
+  "Food Sanitation Supervisor",
+  "A person who manages a food-related workplace, such as food factories etc.",
+  "o"
+ ],
+ "mh396": [
+  "Cook",
+  "A person who has cooking knowledge and skills and has got a permission to do cooking work.",
+  "o"
+ ],
+ "mh397": [
+  "Dietitian",
+  "A person who teaches and manages nutrition.",
+  "o"
+ ],
+ "mh398": [
+  "Cause attributed to the company",
+  "At the convenience of the company.",
+  "o"
+ ],
+ "mh399": [
+  "Retail business",
+  "Work that consists of selling products bought from manufacturers to customers.",
+  "o"
+ ],
+ "mh400": [
+  "Service industry",
+  "Work that provides people with a service.",
+  "o"
+ ],
+ "mh401": [
+  "Wholesale",
+  "The business of buying products from manufacturers, and selling them to retailers.",
+  "o"
+ ],
+ "mh402": [
+  "Company's convenience",
+  "The convenience of the company.",
+  "o"
+ ],
+ "mh403": [
+  "Passive smoking prevention policy",
+  "A company's policy that prevents people from being affected by second hand smoke inside a building.",
+  "o"
+ ],
+ "mh404": [
+  "Commute by one's own car",
+  "To use one's own car for commuting.",
+  "o"
+ ],
+ "mh405": [
+  "Age limit",
+  "The range of age that allows worker to do something within a particular regulation.",
+  "o"
+ ],
+ "mh406": [
+  "Record of foreigner employment",
+  "The number of foreign workers that a company hires.",
+  "o"
+ ],
+ "mh407": [
+  "Available childcare facility",
+  "A childcare facility available for employees that offers care for children under the age of 6.",
+  "o"
+ ],
+ "mh408": [
+  "The average number of years of continuous service",
+  "The average number of years of continuous service that workers provide for the same company.",
+  "o"
+ ],
+ "mh409": [
+  "Mentorship program",
+  "A system allows a more experienced worker help a less experienced one.",
+  "o"
+ ],
+ "mh410": [
+  "Employment consulting system",
+  "A system that allows workers to consult with their employer about choosing their job or improving their skills.",
+  "o"
+ ],
+ "mh411": [
+  "In-house qualification",
+  "An examination provided by company for workers.",
+  "o"
+ ],
+ "mh412": [
+  "Number of workers that gave birth.",
+  "The number of people who gave birth.",
+  "o"
+ ],
+ "mh413": [
+  "Percentage of women in administrative positions including executive officer.",
+  "The percentage of women in administrative positions.",
+  "o"
+ ],
+ "mh414": [
+  "Self-development",
+  "To expand the workers' knowledge about their work and improve their skills.",
+  "o"
+ ],
+ "mh415": [
+  "Utility expenses (heat, light and water expenses)",
+  "Money necessary for use of water, electricity, and gas.",
+  "o"
+ ],
+ "mh416": [
+  "Death and Injury from overwork",
+  "A case workers become unhealthy and die because of long working hours.",
+  "o"
+ ],
+ "mh417": [
+  "Compliance",
+  "To follow the law and the rules of society.",
+  "o"
+ ],
+ "mh418": [
+  "Signature",
+  "Write the person's name on a document, etc. to indicate that the person acknowledged the contents of the document.",
+  "o"
+ ],
+ "jl保護者": [
+  "Parent or guardian",
+  "A parent or guardian.",
+  "c"
+ ],
+ "jl保証人": [
+  "Guarantor",
+  "A guarantor.",
+  "c"
+ ],
+ "jl本人確認": [
+  "Identity verification",
+  "Identity verification.",
+  "c"
+ ],
+ "dr生年月日": [
+  "Date of birth",
+  "The year, month, and day you were born.",
+  "c"
+ ],
+ "dr受付": [
+  "Reception",
+  "The place or person at a hospital or government office that first deals with visitors.",
+  "c"
+ ],
+ "dr診察券": [
+  "Patient card",
+  "A card you get at a hospital. Show it at reception the next time you visit the same hospital.",
+  "c"
+ ],
+ "dr間取り": [
+  "Floor plan / layout",
+  "What rooms a home has and how many. Written like \"1K\" or \"1LDK\".",
+  "c"
+ ],
+ "dr1K": [
+  "1K (one room + kitchen)",
+  "A home with one room and a kitchen (K).",
+  "c"
+ ],
+ "dr管理費": [
+  "Management fee",
+  "Money for shared parts of an apartment building, collected from the residents.",
+  "c"
+ ],
+ "dr敷金": [
+  "Security deposit",
+  "Money you leave with the landlord when you rent a room. When you move out, what is left may be returned.",
+  "c"
+ ],
+ "dr入居": [
+  "Move-in",
+  "Starting to live in a rented room or house.",
+  "c"
+ ],
+ "dr内見": [
+  "Viewing",
+  "Going to see a room in person before agreeing to rent it.",
+  "c"
+ ],
+ "dr保証会社": [
+  "Rent guarantee company",
+  "A company that acts instead of a guarantor when you rent. It pays the rent if you cannot.",
+  "c"
+ ],
+ "dr在職証明書": [
+  "Certificate of employment",
+  "A document stating that you currently work at a company. Your employer issues it.",
+  "c"
+ ],
+ "dr緊急連絡先": [
+  "Emergency contact",
+  "The phone number, etc. of a person to contact for you if something urgent happens.",
+  "c"
+ ],
+ "dr重要事項説明": [
+  "Explanation of important matters",
+  "An explanation of important points before you sign a rental contract. Listen carefully and ask about anything unclear.",
+  "c"
+ ],
+ "dr転出証明書": [
+  "Moving-out certificate",
+  "A document you get from your old city office when you move. Submit it to the office in your new city.",
+  "c"
+ ],
+ "dr市民課": [
+  "Citizens' Affairs Division",
+  "The section of city hall that handles procedures such as address registration.",
+  "c"
+ ],
+ "dr洗濯機": [
+  "Washing machine",
+  "A machine for washing clothes. It cannot be put out as oversized garbage.",
+  "c"
+ ],
+ "dr持ち込み": [
+  "Self drop-off",
+  "Taking things yourself to a designated place.",
+  "c"
+ ],
+ "dr収集日": [
+  "Collection day",
+  "The day garbage is collected. Put your garbage out at the designated place on that day.",
+  "c"
+ ],
+ "dr開栓": [
+  "Gas connection",
+  "Turning on the gas so you can use it. A staff member often visits your home.",
+  "c"
+ ],
+ "dr立ち会い": [
+  "Being present",
+  "Being there while a staff member does work. You or someone for you waits at home.",
+  "c"
+ ],
+ "dr都市ガス": [
+  "City gas",
+  "A type of gas that comes to homes through pipes.",
+  "c"
+ ],
+ "drプロパンガス": [
+  "Propane gas",
+  "A type of gas. Also called LP gas.",
+  "c"
+ ],
+ "drガスコンロ": [
+  "Gas stove",
+  "A cooking appliance that uses a gas flame. It must match your type of gas.",
+  "c"
+ ],
+ "dr口座振替": [
+  "Direct debit",
+  "Automatic payment from your bank account. You submit an application form.",
+  "c"
+ ],
+ "drお客さまセンター": [
+  "Customer service center",
+  "The part of a company that handles customer calls and questions.",
+  "c"
+ ],
+ "drお客さま番号": [
+  "Customer number",
+  "Your number from the company. It is on bills and meter reading slips. Give it when you call.",
+  "c"
+ ],
+ "dr検針票": [
+  "Meter reading slip",
+  "A paper showing how much gas, electricity, or water you used.",
+  "c"
+ ],
+ "dr使用期間": [
+  "Usage period",
+  "The period of use: from when to when you used it.",
+  "c"
+ ],
+ "dr使用量": [
+  "Usage amount",
+  "How much gas, etc. you used.",
+  "c"
+ ],
+ "dr再発行": [
+  "Reissue",
+  "Having a document made and issued again.",
+  "c"
+ ],
+ "dr在庫": [
+  "Stock",
+  "Goods a store has for sale. They may be in the back even if not on the shelf.",
+  "c"
+ ],
+ "dr試着": [
+  "Trying on",
+  "Putting on clothes before buying. Ask a staff member first.",
+  "c"
+ ],
+ "drお取り寄せ": [
+  "Ordering in",
+  "Having an item the store doesn't have sent from another store, etc.",
+  "c"
+ ],
+ "dr切らしております": [
+  "We're out of stock",
+  "A polite way of saying the store doesn't have that item now.",
+  "c"
+ ],
+ "drサービスカウンター": [
+  "Service counter",
+  "The place in a store for returns, exchanges, and questions.",
+  "c"
+ ],
+ "dr返品": [
+  "Return",
+  "Giving an item back to the store and getting your money back.",
+  "c"
+ ],
+ "dr交換": [
+  "Exchange",
+  "Swapping an item you bought for another one of the same item.",
+  "c"
+ ],
+ "dr粗大ごみ": [
+  "Oversized garbage",
+  "Large garbage such as furniture. You usually apply by phone or online to put it out.",
+  "c"
+ ],
+ "dr処理券": [
+  "Disposal sticker",
+  "A sticker you buy and attach to oversized garbage. Often sold at convenience stores.",
+  "c"
+ ],
+ "dr家電リサイクル": [
+  "Home appliance recycling",
+  "Rules for disposing of air conditioners, TVs, refrigerators, washing machines, etc. They cannot go out as oversized garbage. Ask the store where you bought them.",
+  "c"
+ ],
+ "dr冷蔵庫": [
+  "Refrigerator",
+  "An electric box that keeps food and drinks cold.",
+  "c"
+ ],
+ "dr収集": [
+  "Collection",
+  "Gathering and taking away garbage.",
+  "c"
+ ],
+ "dr受付センター": [
+  "Reception center",
+  "A place that takes applications by phone or online.",
+  "c"
+ ],
+ "dr予約": [
+  "Reservation",
+  "Arranging a day and time in advance.",
+  "c"
+ ],
+ "dr満席": [
+  "Fully booked",
+  "All seats are taken; no seats are free.",
+  "c"
+ ],
+ "drコース": [
+  "Course meal",
+  "A set of dishes served in a fixed order at a restaurant.",
+  "c"
+ ],
+ "drお席": [
+  "Seat (polite)",
+  "A polite word for \"seat\"; a place to sit.",
+  "c"
+ ],
+ "dr名様": [
+  "... people (polite)",
+  "A polite way to say \"people\". \"2名様\" means \"2 people\".",
+  "c"
+ ],
+ "drお迎え": [
+  "Pick-up",
+  "A car coming to where you are.",
+  "c"
+ ],
+ "dr目印": [
+  "Landmark",
+  "Something easy to see that shows where a place is, such as a nearby shop or building.",
+  "c"
+ ],
+ "dr予約料": [
+  "Booking fee",
+  "A fee that may be charged when you book a taxi to pick you up.",
+  "c"
+ ],
+ "dr初診": [
+  "First visit",
+  "Seeing a doctor at a hospital for the first time.",
+  "c"
+ ],
+ "dr保険証": [
+  "Health insurance card",
+  "A card showing you have medical insurance. Show it at hospital reception.",
+  "c"
+ ],
+ "drマイナンバーカード": [
+  "My Number Card",
+  "A card with your personal number. It can sometimes be used instead of a health insurance card at hospitals.",
+  "c"
+ ],
+ "drせき": [
+  "Cough",
+  "Air forced out hard from the throat. Common with colds.",
+  "c"
+ ],
+ "dr問診票": [
+  "Medical questionnaire",
+  "A form about your symptoms, when they started, medicines you take, etc. Fill it in before seeing the doctor.",
+  "c"
+ ],
+ "dr返金": [
+  "Refund",
+  "A store giving back the money for something you bought. If you paid by card, it usually goes back to the card.",
+  "c"
+ ],
+ "drレシート": [
+  "Receipt",
+  "A paper from the store listing what you bought and the prices. Show it for exchanges.",
+  "c"
+ ],
+ "dr初期不良": [
+  "Defect on arrival",
+  "A product that is broken or doesn't work right just after you buy it.",
+  "c"
+ ],
+ "drコードレス掃除機": [
+  "Cordless vacuum cleaner",
+  "A vacuum cleaner without a power cord. It runs on a charged battery.",
+  "c"
+ ],
+ "dr取り寄せ": [
+  "Ordering in",
+  "Having an item the store doesn't have sent from another store or company. You wait until it arrives.",
+  "c"
+ ],
+ "dr何名様": [
+  "How many people?",
+  "Means \"How many in your party?\" Answer with the number, e.g. \"3 people\", or show with your fingers.",
+  "c"
+ ],
+ "dr禁煙席": [
+  "Non-smoking seat",
+  "A seat where smoking is not allowed.",
+  "c"
+ ],
+ "dr喫煙席": [
+  "Smoking seat",
+  "A seat where smoking is allowed. People under the legal smoking age cannot enter.",
+  "c"
+ ],
+ "dr全席禁煙": [
+  "No smoking at all seats",
+  "Smoking is not allowed at any seat in the restaurant.",
+  "c"
+ ],
+ "dr喫煙室": [
+  "Smoking room",
+  "A room for smoking. In some restaurants, this is the only place you can smoke.",
+  "c"
+ ],
+ "drテーブル席": [
+  "Table seat",
+  "A regular seat at a table with chairs.",
+  "c"
+ ],
+ "drカウンター席": [
+  "Counter seat",
+  "Seats in a row at a long counter in front of where the staff work.",
+  "c"
+ ],
+ "drお子様用のいす": [
+  "Child's chair / high chair",
+  "A special chair for small children.",
+  "c"
+ ],
+ "dr照り焼き": [
+  "Teriyaki",
+  "Food grilled with a sweet sauce made from soy sauce, mirin, etc.",
+  "c"
+ ],
+ "dr塩焼き": [
+  "Salt-grilled",
+  "Food grilled with salt. Often fish.",
+  "c"
+ ],
+ "dr定食": [
+  "Set meal",
+  "A set of rice, miso soup, side dishes, etc.",
+  "c"
+ ],
+ "drみりん": [
+  "Mirin",
+  "A sweet seasoning for cooking. It contains alcohol.",
+  "c"
+ ],
+ "dr料理酒": [
+  "Cooking sake",
+  "Sake used to flavor food.",
+  "c"
+ ],
+ "drラード": [
+  "Lard",
+  "Pork fat used in cooking.",
+  "c"
+ ],
+ "drゼラチン": [
+  "Gelatin",
+  "Something that sets jelly, etc. It may be made from pigs or other animals.",
+  "c"
+ ],
+ "drだし": [
+  "Dashi (soup stock)",
+  "A soup base made by simmering fish, kelp, meat, etc. Used to flavor food.",
+  "c"
+ ],
+ "pj81": [
+  "Support System for Self-Reliance of Needy Persons",
+  "A system where your local city office works with you to help if you are struggling to live (no money, no job, or no place to live).",
+  "c"
+ ],
+ "pj82": [
+  "Tax",
+  "Money paid to the national government, prefecture, city, ward, etc.",
+  "c"
+ ],
+ "pj83": [
+  "Orthopedics",
+  "A hospital department that treats bones, joints, muscles, etc.",
+  "c"
+ ],
+ "pj84": [
+  "Mental Disability Certificate",
+  "A certificate booklet issued by your local city office to people with a mental disability that makes daily life difficult.",
+  "c"
+ ],
+ "pj85": [
+  "Tax treaty",
+  "An agreement between countries about taxes. People from countries with a treaty with Japan may pay less tax.",
+  "c"
+ ],
+ "pj86": [
+  "Category I insured person",
+  "A person enrolled only in the National Pension, such as self-employed people with their own shop, farmers, fishers, and people who are not working.",
+  "c"
+ ],
+ "pj87": [
+  "Category III insured person",
+  "A person whose spouse is enrolled in Employees' Pension Insurance and is under 65, and whose own yearly income is less than 1.3 million yen. Enrolled only in the National Pension.",
+  "c"
+ ],
+ "pj88": [
+  "Resignation letter",
+  "A document you give to your company when you quit, stating your reason, etc.",
+  "c"
+ ],
+ "pj89": [
+  "Category II insured person",
+  "A person enrolled in both the National Pension and Employees' Pension Insurance, such as people working at companies, factories, or shops.",
+  "c"
+ ],
+ "pj90": [
+  "Lump-sum withdrawal payment",
+  "Money that people who leave the Japanese pension system and return to their home country can receive.",
+  "c"
+ ],
+ "pj91": [
+  "Short-time worker",
+  "Part-time workers and others who work fewer hours than full-time employees.",
+  "c"
+ ],
+ "pj92": [
+  "Brokerage fee",
+  "Money paid to the real estate agency that introduced the home when you rent it.",
+  "c"
+ ],
+ "pj93": [
+  "Junior High School Graduation Equivalency Examination",
+  "An exam for people who have not graduated from a Japanese junior high school. If you pass, you can take entrance exams for Japanese high schools.",
+  "c"
+ ],
+ "pj94": [
+  "Rental contract",
+  "An agreement between the person renting out a home and the person renting it.",
+  "c"
+ ],
+ "pj95": [
+  "Notification of change of address",
+  "A form submitted to the city office when moving within the same city.",
+  "c"
+ ],
+ "pj96": [
+  "Moving-out notification",
+  "A form submitted to the office of your current city when moving to another city. Also submitted when leaving Japan.",
+  "c"
+ ],
+ "pj97": [
+  "Moving-in notification",
+  "A form submitted to the office of your new city after moving from another city. Also submitted when you start living in Japan.",
+  "c"
+ ],
+ "pj98": [
+  "Special Child Rearing Allowance",
+  "Money that people raising a child with a disability can receive.",
+  "c"
+ ],
+ "pj99": [
+  "Special collection (payroll deduction of resident tax)",
+  "When a company pays employees' resident tax to their local city office. The company deducts the tax from your salary.",
+  "c"
+ ],
+ "pj100": [
+  "Climbing plan",
+  "A form submitted to the authorities before climbing, with your name, address, phone number, route, etc. It helps rescue people in mountain accidents.",
+  "c"
+ ],
+ "pj101": [
+  "Internal medicine",
+  "A hospital department that treats internal illnesses (such as colds).",
+  "c"
+ ],
+ "pj102": [
+  "Examination for Japanese University Admission for International Students (EJU)",
+  "An exam taken by students from abroad who want to study at a Japanese university.",
+  "c"
+ ],
+ "pj103": [
+  "Infant health checkup",
+  "A checkup by your local city office to see if your baby is healthy.",
+  "c"
+ ],
+ "pj104": [
+  "Certified Center for Early Childhood Education and Care (Nintei Kodomo-en)",
+  "A facility for children before elementary school that combines features of both kindergartens and nursery schools.",
+  "c"
+ ],
+ "pj105": [
+  "Prenatal checkup",
+  "A checkup to see if a pregnant woman is healthy.",
+  "c"
+ ],
+ "pj106": [
+  "Pension",
+  "A system that collects money from everyone to support elderly people and people disabled by illness or injury.",
+  "c"
+ ],
+ "pj107": [
+  "Pension handbook",
+  "A booklet given to people who join the pension system.",
+  "c"
+ ],
+ "pj108": [
+  "Annual paid leave",
+  "Days off work for which you still receive your salary.",
+  "c"
+ ],
+ "pj109": [
+  "Year-end tax adjustment",
+  "In December, your company recalculates the income tax withheld. If too much was withheld, you get money back; if too little, you pay the company.",
+  "c"
+ ],
+ "pj110": [
+  "Dispatched worker (temp worker)",
+  "A person who has a contract with a staffing agency and works at another company.",
+  "c"
+ ],
+ "pj111": [
+  "Hazard map",
+  "A map showing dangerous areas and evacuation sites in case of a disaster.",
+  "c"
+ ],
+ "pj112": [
+  "Parenting classes for expectant mothers and fathers",
+  "Classes that teach new parents important things about giving birth and raising a baby.",
+  "c"
+ ],
+ "pj113": [
+  "Hello Work",
+  "A government office that helps people find jobs.",
+  "c"
+ ],
+ "pj114": [
+  "Family Support Center",
+  "A place that introduces people who can look after your children when you have things to do.",
+  "c"
+ ],
+ "pj115": [
+  "Real estate agency",
+  "A shop that introduces homes to people who want to rent or buy.",
+  "c"
+ ],
+ "pj116": [
+  "Nursery school (daycare)",
+  "A place that cares for children from age 0 until elementary school while parents work. Children receive care and learn many things through play.",
+  "c"
+ ],
+ "pj117": [
+  "After-school childcare club",
+  "A place that looks after elementary school children while their parents work.",
+  "c"
+ ],
+ "pj118": [
+  "Disaster drill / evacuation drill",
+  "Practice evacuating safely and putting out fires in case of a disaster.",
+  "c"
+ ],
+ "pj119": [
+  "Crime prevention",
+  "Taking steps to avoid becoming a victim of crime.",
+  "c"
+ ],
+ "pj120": [
+  "Maternal and Child Health Handbook",
+  "A booklet pregnant women receive from their local city office, used to record the health of the mother and baby.",
+  "c"
+ ],
+ "pj121": [
+  "Private rental housing",
+  "A home rented from a landlord (No.9).",
+  "c"
+ ],
+ "pj122": [
+  "Owned home",
+  "A home you have bought.",
+  "c"
+ ],
+ "pj123": [
+  "Night junior high school",
+  "A school for people who did not graduate from junior high school or could not attend enough. Graduates can take high school entrance exams.",
+  "c"
+ ],
+ "pj124": [
+  "Rent",
+  "Money paid every month for a rented home.",
+  "c"
+ ],
+ "pj125": [
+  "Pharmacy / drugstore",
+  "A shop that sells medicine.",
+  "c"
+ ],
+ "pj126": [
+  "Kindergarten",
+  "A place for children from age 3 until elementary school. Children learn many things through play.",
+  "c"
+ ],
+ "pj127": [
+  "Vaccination",
+  "A shot to prevent illness.",
+  "c"
+ ],
+ "pj128": [
+  "Intellectual Disability Certificate (Ryoiku Techo)",
+  "A booklet issued by your local city office to people with an intellectual disability.",
+  "c"
+ ],
+ "pj129": [
+  "Medical expense reimbursement",
+  "Money you can get back later from your health insurance after paying the full cost of medical care yourself.",
+  "c"
+ ],
+ "pj130": [
+  "Key money",
+  "A thank-you payment the tenant makes to the landlord when the rental is decided.",
+  "c"
+ ],
+ "pj131": [
+  "Joint guarantor (for a rental contract)",
+  "A person who pays the rent instead if the tenant cannot pay.",
+  "c"
+ ],
+ "pj132": [
+  "Workers' accident compensation insurance",
+  "A system funded by companies that helps people injured or sick because of work.",
+  "c"
+ ],
+ "pj133": [
+  "Old-age Basic Pension",
+  "Money people aged 65 or older can receive from the National Pension.",
+  "c"
+ ],
+ "pj134": [
+  "Old-age Employees' Pension",
+  "Money people aged 65 or older can receive from Employees' Pension Insurance.",
+  "c"
+ ],
+ "jl印鑑登録": [
+  "Seal registration",
+  "Registering your personal seal (inkan) with the city office.",
+  "c"
+ ],
+ "jl火災保険": [
+  "Fire insurance",
+  "Insurance that covers damage from fire.",
+  "c"
+ ],
+ "jl義務教育": [
+  "Compulsory education",
+  "Education that children are required to receive.",
+  "c"
+ ],
+ "jl教育委員会": [
+  "Board of education",
+  "A local government body in charge of schools and education.",
+  "c"
+ ],
+ "jl警察署": [
+  "Police station",
+  "A police office.",
+  "c"
+ ],
+ "jl契約書": [
+  "Contract",
+  "A document recording an agreement.",
+  "c"
+ ],
+ "jl公共職業安定所": [
+  "Public Employment Security Office",
+  "The official name of Hello Work, a government job placement office.",
+  "c"
+ ],
+ "jl住民基本台帳": [
+  "Basic Resident Register",
+  "The official register of residents kept by the city office.",
+  "c"
+ ],
+ "jl住民票": [
+  "Certificate of residence (resident record)",
+  "A record of your address and other details kept by the city office.",
+  "c"
+ ],
+ "jl出入国管理": [
+  "Immigration control",
+  "Government control of people entering and leaving the country.",
+  "c"
+ ],
+ "jl職業訓練": [
+  "Vocational training",
+  "Training to learn job skills.",
+  "c"
+ ],
+ "jl申請書": [
+  "Application form",
+  "A document used to apply for something.",
+  "c"
+ ],
+ "jl請求書": [
+  "Invoice; bill",
+  "A document requesting payment.",
+  "c"
+ ],
+ "jl世帯主": [
+  "Head of household",
+  "The person who represents a household.",
+  "c"
+ ],
+ "jl損害賠償": [
+  "Compensation for damages",
+  "Paying for harm or loss caused to someone.",
+  "c"
+ ],
+ "jl損害保険": [
+  "Non-life insurance",
+  "Insurance covering damage to property, accidents, etc.",
+  "c"
+ ],
+ "jl宅地建物取引業": [
+  "Real estate brokerage",
+  "The business of buying, selling, and renting land and buildings.",
+  "c"
+ ],
+ "jl通知書": [
+  "Notice",
+  "A document informing you of something.",
+  "c"
+ ],
+ "jl手数料": [
+  "Fee; commission",
+  "Money paid for a service or procedure.",
+  "c"
+ ],
+ "jl登録証": [
+  "Registration certificate",
+  "A card or document proving registration.",
+  "c"
+ ],
+ "jl登録証明書": [
+  "Certificate of registration",
+  "A document certifying registration.",
+  "c"
+ ],
+ "jl難民認定": [
+  "Refugee status recognition",
+  "Official recognition as a refugee by the government.",
+  "c"
+ ],
+ "jl不動産": [
+  "Real estate",
+  "Land and buildings.",
+  "c"
+ ],
+ "jl分割払い": [
+  "Installment payments",
+  "Paying in several parts over time.",
+  "c"
+ ],
+ "jl保育所": [
+  "Nursery school (daycare center)",
+  "The official term for a nursery school.",
+  "c"
+ ],
+ "jl保険料": [
+  "Insurance premium",
+  "Money paid for insurance.",
+  "c"
+ ],
+ "pj1": [
+  "Childcare leave",
+  "Time off you can take from work to raise your child.",
+  "c"
+ ],
+ "pj2": [
+  "Childcare leave benefit",
+  "Money you can receive from Employment Insurance while you are on childcare leave.",
+  "c"
+ ],
+ "pj3": [
+  "Basic survivors' pension",
+  "Money the family can receive from the National Pension when a person enrolled in it dies.",
+  "c"
+ ],
+ "pj4": [
+  "Survivors' employees' pension",
+  "Money the family can receive from Employees' Pension Insurance when a person enrolled in it dies.",
+  "c"
+ ],
+ "pj5": [
+  "Medical insurance",
+  "A system that collects money from everyone to help people who go to a hospital or clinic for an injury or illness.",
+  "c"
+ ],
+ "pj6": [
+  "Certificate of seal registration",
+  "A document that shows which seal is your registered seal (jitsuin). You can get it at your city office.",
+  "c"
+ ],
+ "pj7": [
+  "Seal registration card",
+  "A card you use to get a certificate of seal registration at your city office. You receive it when the city office registers your seal (jitsuin).",
+  "c"
+ ],
+ "pj8": [
+  "Overstay",
+  "Staying in Japan after your period of stay has expired.",
+  "c"
+ ],
+ "pj9": [
+  "Landlord",
+  "A person who rents out a home.",
+  "c"
+ ],
+ "pj10": [
+  "Nursing care",
+  "Helping people who have difficulty with daily life (eating, bathing, etc.) because of old age or a serious illness.",
+  "c"
+ ],
+ "pj11": [
+  "Family care leave",
+  "Time off you can take from work to care for a family member.",
+  "c"
+ ],
+ "pj12": [
+  "Family care leave benefit",
+  "Money you can receive from Employment Insurance while you are on family care leave.",
+  "c"
+ ],
+ "pj13": [
+  "International / foreign school",
+  "A school for foreign children. There are schools suited to the culture and language of each country.",
+  "c"
+ ],
+ "pj14": [
+  "Long-term care insurance",
+  "A system that collects money from people aged 40 and over to help people who need nursing care.",
+  "c"
+ ],
+ "pj15": [
+  "Circular notice board (kairanban)",
+  "A board used by the neighborhood association with notices from the city office and others. After reading it, pass it to the next household.",
+  "c"
+ ],
+ "pj16": [
+  "Final tax return",
+  "A way of paying income tax for people whose tax is not withheld or adjusted at year-end by an employer. You submit documents to your local tax office.",
+  "c"
+ ],
+ "pj17": [
+  "Widow's pension",
+  "Money a wife can receive from the National Pension when her husband dies.",
+  "c"
+ ],
+ "pj18": [
+  "Ophthalmology",
+  "A clinic or department that treats eye diseases.",
+  "c"
+ ],
+ "pj19": [
+  "Management fee (common service fee)",
+  "Money paid for things shared by everyone in an apartment building. It is collected from the residents.",
+  "c"
+ ],
+ "pj20": [
+  "Compulsory education school (combined elementary and junior high school)",
+  "A school that combines elementary school and junior high school.",
+  "c"
+ ],
+ "pj21": [
+  "Ambulance",
+  "A vehicle that takes people who are suddenly ill or injured to the hospital.",
+  "c"
+ ],
+ "pj22": [
+  "Withholding tax statement (gensen choshu-hyo)",
+  "A document from your employer showing your salary for the year and the income tax withheld.",
+  "c"
+ ],
+ "pj23": [
+  "Pay slip",
+  "A document from your employer showing your monthly salary and the income tax withheld.",
+  "c"
+ ],
+ "pj24": [
+  "Earthquake early warning",
+  "An alert that appears on TV or smartphones shortly before strong shaking from an earthquake arrives.",
+  "c"
+ ],
+ "pj25": [
+  "Care manager",
+  "A specialist who gives advice on nursing care and plans how care will be provided.",
+  "c"
+ ],
+ "pj26": [
+  "Contract employee",
+  "A worker whose period of employment is fixed. The contract (an agreement between the company and the worker) ends within 3 years.",
+  "c"
+ ],
+ "pj27": [
+  "Surgery",
+  "A clinic or department that treats injuries and performs operations.",
+  "c"
+ ],
+ "pj28": [
+  "Health insurance (employee)",
+  "Medical insurance for people who work at a company.",
+  "c"
+ ],
+ "pj29": [
+  "Tax withholding",
+  "Your employer pays income tax to the government for you by deducting it from your salary.",
+  "c"
+ ],
+ "pj30": [
+  "Public housing",
+  "Housing rented out by a prefecture, city, etc.",
+  "c"
+ ],
+ "pj31": [
+  "High-cost medical expense benefit",
+  "Money returned to you when your medical bills in one month are high.",
+  "c"
+ ],
+ "pj32": [
+  "Medical care system for people aged 75 and over",
+  "Medical insurance for people aged 75 and over.",
+  "c"
+ ],
+ "pj33": [
+  "Scholarship benefit for high school students",
+  "Money that high school students from low-income families can receive to buy textbooks and study materials.",
+  "c"
+ ],
+ "pj34": [
+  "Lease renewal fee",
+  "Money paid in addition to rent when you renew your lease and stay in the same home.",
+  "c"
+ ],
+ "pj35": [
+  "Employees' Pension Insurance",
+  "A pension for people up to age 69 who work at least a set number of hours at a company, factory, shop, etc.",
+  "c"
+ ],
+ "pj36": [
+  "High school equivalency exam",
+  "An exam for people who did not graduate from a Japanese high school. If you pass, you can take entrance exams for universities, vocational schools, etc.",
+  "c"
+ ],
+ "pj37": [
+  "High school tuition support fund",
+  "High school tuition that the government pays for you.",
+  "c"
+ ],
+ "pj38": [
+  "National Health Insurance",
+  "Medical insurance that people not covered by an employer's health insurance join themselves.",
+  "c"
+ ],
+ "pj39": [
+  "National Pension",
+  "The national pension that everyone aged 20 to 59 must join.",
+  "c"
+ ],
+ "pj40": [
+  "Fixed asset tax (property tax)",
+  "A tax paid by people who own land or buildings.",
+  "c"
+ ],
+ "pj41": [
+  "Employment Insurance",
+  "A system that helps people who cannot find work after leaving a job, and people on childcare or family care leave.",
+  "c"
+ ],
+ "pj42": [
+  "Marriage registration",
+  "A form that people getting married submit to their city office.",
+  "c"
+ ],
+ "pj43": [
+  "Certificate of legal capacity to marry",
+  "A document foreign nationals need when submitting a marriage registration to the city office.",
+  "c"
+ ],
+ "pj44": [
+  "Minimum wage",
+  "The lowest wage set by law.",
+  "c"
+ ],
+ "pj45": [
+  "Residence card",
+  "A card issued by immigration to foreign nationals living in Japan for more than 3 months. It shows your name, nationality, address, etc.",
+  "c"
+ ],
+ "pj46": [
+  "Permission to extend period of stay",
+  "Permission you get when you want to extend your period of stay. Your status of residence does not change.",
+  "c"
+ ],
+ "pj47": [
+  "Period of stay expiration date",
+  "The last day a foreign national can stay in Japan.",
+  "c"
+ ],
+ "pj48": [
+  "Status of residence (visa status)",
+  "What a foreign national is allowed to do in Japan, such as work, attend school, or live with family.",
+  "c"
+ ],
+ "pj49": [
+  "Permission to acquire status of residence",
+  "Getting a residence card for a foreign baby born in Japan.",
+  "c"
+ ],
+ "pj50": [
+  "Permission to change status of residence",
+  "Permission you get when you change your status of residence.",
+  "c"
+ ],
+ "pj51": [
+  "Overtime work",
+  "Working more than 8 hours a day, or more than 40 hours a week.",
+  "c"
+ ],
+ "pj52": [
+  "Maternity leave (before and after childbirth)",
+  "Leave a working woman can take before giving birth, and leave she must take after giving birth.",
+  "c"
+ ],
+ "pj53": [
+  "Obstetrics and gynecology",
+  "A clinic or department that treats women's illnesses and helps with childbirth.",
+  "c"
+ ],
+ "pj54": [
+  "Dentistry",
+  "A clinic that treats teeth.",
+  "c"
+ ],
+ "pj55": [
+  "Permission to engage in activity other than that permitted",
+  "Permission needed when a person whose status of residence does not allow work wants to work.",
+  "c"
+ ],
+ "pj56": [
+  "Security deposit",
+  "Money paid when renting a home. After the tenant moves out, the landlord uses it to repair damage or clean the home, etc.",
+  "c"
+ ],
+ "pj57": [
+  "Neighborhood association",
+  "A group formed by people living nearby. Members work together to make the area safe and pleasant to live in.",
+  "c"
+ ],
+ "pj58": [
+  "Registered seal (jitsuin)",
+  "A personal seal registered with your city office. It is used when buying a car or a house, etc.",
+  "c"
+ ],
+ "pj59": [
+  "Automobile weight tax",
+  "A tax paid at the time of vehicle inspection, etc.",
+  "c"
+ ],
+ "pj60": [
+  "Automobile tax / light vehicle tax (environmental performance-based)",
+  "A tax paid when you buy a car.",
+  "c"
+ ],
+ "pj61": [
+  "Automobile tax / light vehicle tax (annual, by vehicle type)",
+  "A tax paid by people who own a car on April 1 each year.",
+  "c"
+ ],
+ "pj62": [
+  "Child allowance",
+  "Money people raising children can receive until the child finishes junior high school.",
+  "c"
+ ],
+ "pj63": [
+  "Child support allowance (for single parents)",
+  "Money single parents (due to divorce, etc.) raising a child up to age 18 can receive. Single parents raising a child with a disability up to age 19 can also receive it.",
+  "c"
+ ],
+ "pj64": [
+  "Compulsory automobile liability insurance",
+  "A system that collects money from people who drive cars or motorcycles to help people injured in accidents.",
+  "c"
+ ],
+ "pj65": [
+  "Lump-sum death benefit",
+  "Money the family receives from the National Pension when a person enrolled in the pension dies.",
+  "c"
+ ],
+ "pj66": [
+  "Death registration",
+  "A form submitted to the city office when a family member or someone you lived with dies.",
+  "c"
+ ],
+ "pj67": [
+  "Social insurance and labor insurance",
+  "Government systems that collect money from workers and employers to help people in need.",
+  "c"
+ ],
+ "pj68": [
+  "Vehicle inspection (shaken)",
+  "An inspection every 1 or 2 years to check that a car or motorcycle is safe to drive.",
+  "c"
+ ],
+ "pj69": [
+  "Vehicle inspection certificate",
+  "A document you receive after the vehicle inspection is completed.",
+  "c"
+ ],
+ "pj70": [
+  "School attendance assistance",
+  "Financial help for school supplies, school lunches, etc. Parents of elementary and junior high school students with low income can receive it.",
+  "c"
+ ],
+ "pj71": [
+  "Work rules",
+  "Detailed rules for working, set by the company.",
+  "c"
+ ],
+ "pj72": [
+  "Resident tax",
+  "A tax paid to the prefecture and city/ward by working people who had an address in Japan on January 1.",
+  "c"
+ ],
+ "pj73": [
+  "Maternity allowance",
+  "Money you can receive from health insurance when you take time off work to give birth and do not receive a salary.",
+  "c"
+ ],
+ "pj74": [
+  "Birth registration",
+  "A form submitted to the city office when a baby is born.",
+  "c"
+ ],
+ "pj75": [
+  "Lump-sum childbirth allowance",
+  "Money you can receive from health insurance, etc. when you give birth.",
+  "c"
+ ],
+ "pj76": [
+  "Basic disability pension",
+  "Money people with a disability can receive from the National Pension.",
+  "c"
+ ],
+ "pj77": [
+  "Disability employees' pension",
+  "Money people with a disability can receive from Employees' Pension Insurance.",
+  "c"
+ ],
+ "pj78": [
+  "Consumption tax",
+  "A tax paid when you buy goods or services.",
+  "c"
+ ],
+ "pj79": [
+  "Income tax",
+  "A tax paid to the government on your income (such as wages from work).",
+  "c"
+ ],
+ "pj80": [
+  "Physical disability certificate",
+  "A booklet issued by your city office to people with a physical disability.",
+  "c"
+ ],
+ "dr国際交流協会": [
+  "International Association (international exchange association)",
+  "An organization that connects foreign residents with local people. It runs Japanese classes and other activities.",
+  "c"
+ ],
+ "dr日本語教室": [
+  "Japanese class",
+  "A class for studying Japanese. Local classes are often taught by volunteers.",
+  "c"
+ ],
+ "drボランティア": [
+  "Volunteer",
+  "A person who helps others without being paid.",
+  "c"
+ ],
+ "dr見学": [
+  "Observation visit",
+  "Going to see a class or place before joining.",
+  "c"
+ ],
+ "dr教材費": [
+  "Materials fee",
+  "Money for textbooks and other study materials.",
+  "c"
+ ],
+ "dr空き待ち": [
+  "Waiting list",
+  "Waiting for a spot to open when a class or place is full.",
+  "c"
+ ],
+ "dr試験対策": [
+  "Exam preparation",
+  "Studying to pass an exam.",
+  "c"
+ ],
+ "drチラシ": [
+  "Flyer",
+  "A single sheet of paper with a notice or advertisement.",
+  "c"
+ ],
+ "dr申し込み": [
+  "Application / Sign-up",
+  "Telling someone that you want to join or use something.",
+  "c"
+ ],
+ "dr面談": [
+  "Interview / Meeting",
+  "Meeting someone in person to talk.",
+  "c"
+ ],
+ "dr集会室": [
+  "Meeting room",
+  "A room where people gather for discussions or activities.",
+  "c"
+ ],
+ "dr調理室": [
+  "Cooking room / Kitchen",
+  "A room for cooking.",
+  "c"
+ ],
+ "dr長机": [
+  "Long table",
+  "A long, wide table that several people use side by side.",
+  "c"
+ ],
+ "dr利用者登録": [
+  "User registration",
+  "Registering your name and details before using a facility. Some places require it before booking a room.",
+  "c"
+ ],
+ "dr団体登録": [
+  "Group registration",
+  "Registering your group in advance so the group can use a facility.",
+  "c"
+ ],
+ "dr飲食": [
+  "Eating and drinking",
+  "Eating or drinking.",
+  "c"
+ ],
+ "dr持ち寄り": [
+  "Potluck",
+  "Everyone brings a little food or other items to share.",
+  "c"
+ ],
+ "dr利用者カード": [
+  "Library card",
+  "A card used to borrow books and other items at the library.",
+  "c"
+ ],
+ "dr貸出": [
+  "Lending / Checkout",
+  "Lending books and other items. Used when you borrow books at a library.",
+  "c"
+ ],
+ "dr返却": [
+  "Return",
+  "Giving back something you borrowed.",
+  "c"
+ ],
+ "dr返却期限": [
+  "Due date",
+  "The last day by which you must return something you borrowed.",
+  "c"
+ ],
+ "dr返却ポスト": [
+  "Book drop",
+  "A box for returning borrowed books. It can often be used when the library is closed.",
+  "c"
+ ],
+ "dr延長": [
+  "Extension / Renewal",
+  "Making a set time or date longer. At a library, it means moving the due date later.",
+  "c"
+ ],
+ "dr館内閲覧": [
+  "In-library use only",
+  "Reading only inside the library; you cannot take it home.",
+  "c"
+ ],
+ "dr最新号": [
+  "Latest issue",
+  "The newest issue of a magazine or similar publication.",
+  "c"
+ ],
+ "dr速達": [
+  "Express mail",
+  "A postal service that delivers mail faster. It costs more than regular mail.",
+  "c"
+ ],
+ "dr書留": [
+  "Registered mail",
+  "A postal service that keeps a record of sending. It costs more than regular mail.",
+  "c"
+ ],
+ "dr小包": [
+  "Parcel",
+  "A package sent by post.",
+  "c"
+ ],
+ "dr国際郵便": [
+  "International mail",
+  "Mail sent to or received from another country.",
+  "c"
+ ],
+ "dr不在連絡票": [
+  "Missed delivery notice",
+  "A slip left when mail could not be delivered because you were out. Use it to request redelivery.",
+  "c"
+ ],
+ "dr再配達": [
+  "Redelivery",
+  "Having undelivered mail or a package delivered again.",
+  "c"
+ ],
+ "dr席を外しております": [
+  "\"He/She is away from the desk\"",
+  "The person is not at their desk right now. Wait a moment or call again later.",
+  "c"
+ ],
+ "drあいにく": [
+  "\"Unfortunately\"",
+  "Means \"I'm sorry, but.\" It is followed by something that cannot be done or is not allowed.",
+  "c"
+ ],
+ "dr申し訳ございません": [
+  "\"We sincerely apologize\"",
+  "A polite way to say \"sorry\" or \"excuse me.\"",
+  "c"
+ ],
+ "drお手数ですが": [
+  "\"Sorry to trouble you, but\"",
+  "Means \"I know it's a bother, but please.\" It is followed by something they want you to do.",
+  "c"
+ ],
+ "dr差し支えなければ": [
+  "\"If you don't mind\"",
+  "Means \"if it's okay.\" You don't have to answer if you don't want to.",
+  "c"
+ ],
+ "drご用件": [
+  "Purpose of your call/visit",
+  "Why you called or came. Say your business briefly.",
+  "c"
+ ],
+ "dr念のため": [
+  "\"Just to be sure\"",
+  "Means \"once more, to avoid mistakes.\"",
+  "c"
+ ],
+ "drよろしいでしょうか": [
+  "\"Would that be all right?\"",
+  "A polite way to say \"Is that OK?\" Answer \"hai\" (yes) if it is.",
+  "c"
+ ],
+ "drお伺いします": [
+  "\"May I ask\" / \"I will visit\"",
+  "A polite way to say \"ask\" or \"go/visit.\"",
+  "c"
+ ],
+ "dr失礼いたします": [
+  "\"Excuse me\" / \"Goodbye\"",
+  "A polite greeting used when hanging up the phone, entering a room, and so on.",
+  "c"
+ ],
+ "drお越しください": [
+  "\"Please come\"",
+  "A polite way to say \"please come.\"",
+  "c"
+ ],
+ "drお持ちください": [
+  "\"Please bring\"",
+  "A polite way to say \"please bring.\"",
+  "c"
+ ],
+ "drご記入ください": [
+  "\"Please fill in\"",
+  "A polite way to say \"please write it on the form.\"",
+  "c"
+ ],
+ "drご本人様": [
+  "The person themselves",
+  "The person in question, not a family member or someone else. That person must come or speak.",
+  "c"
+ ],
+ "drフルネーム": [
+  "Full name",
+  "Your complete name, both family name and given name.",
+  "c"
+ ],
+ "dr日中つながる": [
+  "Reachable during the day",
+  "Able to answer the phone during the daytime. Give a number you can answer then.",
+  "c"
+ ],
+ "drご連絡先": [
+  "Contact information",
+  "Your phone number, email address, etc., so they can contact you.",
+  "c"
+ ],
+ "drお手元": [
+  "At hand",
+  "Something near you or that you have with you now.",
+  "c"
+ ],
+ "dr控え": [
+  "Your copy",
+  "A paper with the same content as the document you submitted. Keep it yourself.",
+  "c"
+ ],
+ "dr窓口": [
+  "Service counter",
+  "The place at a government office or company for consultations and procedures.",
+  "c"
+ ],
+ "dr担当の者": [
+  "The person in charge",
+  "The person who handles that matter. They will speak with you instead.",
+  "c"
+ ],
+ "drお預かりします": [
+  "\"I'll take this for now\"",
+  "Means \"I'll hold this for a while.\" Hand over your documents or money.",
+  "c"
+ ],
+ "dr写し": [
+  "Copy",
+  "A photocopy of a document.",
+  "c"
+ ],
+ "dr原本": [
+  "Original",
+  "The original, real document, not a copy.",
+  "c"
+ ],
+ "dr最短": [
+  "At the earliest / Shortest",
+  "In the fastest or shortest case.",
+  "c"
+ ],
+ "dr空き": [
+  "Availability / Opening",
+  "There is still room in a booking, place, etc.",
+  "c"
+ ],
+ "drお申し込み": [
+  "Application",
+  "Requesting a service and completing the procedure to use it.",
+  "c"
+ ],
+ "drハラール": [
+  "Halal",
+  "Food and drink permitted under Islamic law.",
+  "c"
+ ],
+ "dr揚げ油": [
+  "Frying oil",
+  "Oil used for deep-frying foods like tempura. Many restaurants use the same oil for other dishes.",
+  "c"
+ ],
+ "dr染み抜き": [
+  "Stain removal",
+  "Removing stains from clothes. There is often an extra charge on top of the regular price.",
+  "c"
+ ],
+ "drデラックス": [
+  "Deluxe service",
+  "A course with more careful finishing than usual. There is often an extra charge on top of the regular price.",
+  "c"
+ ],
+ "dr仕上がり": [
+  "Ready (pickup)",
+  "When dry cleaning is finished and your clothes are ready. The \"ready date\" is the day you can pick them up.",
+  "c"
+ ],
+ "drワイシャツ": [
+  "Dress shirt",
+  "A shirt with a collar and buttons, worn for work and similar occasions.",
+  "c"
+ ],
+ "drハンガー仕上げ": [
+  "On hanger",
+  "Cleaned clothes are returned on a hanger.",
+  "c"
+ ],
+ "drたたみ仕上げ": [
+  "Folded",
+  "Cleaned clothes are returned folded.",
+  "c"
+ ],
+ "dr引換券": [
+  "Claim ticket",
+  "A slip you show when picking up your clothes. Do not lose it.",
+  "c"
+ ],
+ "dr会員カード": [
+  "Membership card",
+  "A card for store members. It may be used for points or discounts.",
+  "c"
+ ],
+ "dr海外送金": [
+  "International money transfer",
+  "Sending money to a person or bank in another country.",
+  "c"
+ ],
+ "dr外国送金依頼書": [
+  "International remittance application form",
+  "A form you submit to the bank when sending money abroad. You write the recipient's name, bank, and other details.",
+  "c"
+ ],
+ "drSWIFTコード": [
+  "SWIFT code",
+  "A code for each bank, used when sending money abroad. It is good to ask your family for it in advance.",
+  "c"
+ ],
+ "drマイナンバー": [
+  "My Number (Individual Number)",
+  "A number given to each person living in Japan. It is used for tax and other procedures.",
+  "c"
+ ],
+ "dr中継銀行": [
+  "Intermediary bank",
+  "A bank in between when sending money abroad. It may charge a fee.",
+  "c"
+ ],
+ "dr受取人": [
+  "Recipient",
+  "The person who receives money or items.",
+  "c"
+ ],
+ "dr特急": [
+  "Limited express",
+  "A very fast train that skips some stations. You often need a limited express ticket in addition to a basic fare ticket.",
+  "c"
+ ],
+ "dr快速": [
+  "Rapid",
+  "A train faster than a local train. It skips some stations.",
+  "c"
+ ],
+ "dr乗車券": [
+  "Basic fare ticket",
+  "A ticket for riding a train.",
+  "c"
+ ],
+ "dr特急券": [
+  "Limited express ticket",
+  "A ticket you buy in addition to the basic fare ticket to ride a limited express.",
+  "c"
+ ],
+ "dr指定席": [
+  "Reserved seat",
+  "A seat assigned to you. The seat number is printed on the ticket.",
+  "c"
+ ],
+ "dr自由席": [
+  "Non-reserved seat",
+  "Seats with no assignment. You can sit in any empty seat.",
+  "c"
+ ],
+ "dr乗り換え": [
+  "Transfer",
+  "Changing to another train partway. For mobile phones, it also means switching to another carrier.",
+  "c"
+ ],
+ "dr振替輸送": [
+  "Alternative transportation",
+  "When trains stop running, you can use other trains or buses instead.",
+  "c"
+ ],
+ "drフロント": [
+  "Front desk",
+  "The reception desk of a hotel.",
+  "c"
+ ],
+ "dr手配": [
+  "Arrangement",
+  "Preparing what is needed. Arranging a taxi means calling a taxi.",
+  "c"
+ ],
+ "dr正面玄関": [
+  "Main entrance",
+  "The largest entrance at the front of a building.",
+  "c"
+ ],
+ "dr迎車": [
+  "Taxi pickup",
+  "A taxi coming to where the customer is. There may be a pickup fee.",
+  "c"
+ ],
+ "drワゴン": [
+  "Van / Wagon",
+  "A large vehicle that holds many people or a lot of luggage.",
+  "c"
+ ],
+ "drクレジットカード": [
+  "Credit card",
+  "A card that lets you pay later all at once. Whether it can be used depends on the place.",
+  "c"
+ ],
+ "dr運転免許更新センター": [
+  "Driver's License Renewal Center",
+  "A place where you renew your driver's license.",
+  "c"
+ ],
+ "dr更新のお知らせ": [
+  "License renewal notice",
+  "A postcard telling you your license will expire soon. When you get it, go to renew within the set period.",
+  "c"
+ ],
+ "dr有効期限": [
+  "Expiration date",
+  "The last day something can be used. After this date, it cannot be used.",
+  "c"
+ ],
+ "dr講習区分": [
+  "Lecture category",
+  "The type of lecture you take when renewing your license. Time and fees differ by type.",
+  "c"
+ ],
+ "dr優良運転者講習": [
+  "Excellent driver lecture",
+  "A lecture for safe drivers with no accidents or traffic violations.",
+  "c"
+ ],
+ "dr一般講習": [
+  "General driver lecture",
+  "The standard lecture for license renewal, taken by those who are not excellent drivers, among others.",
+  "c"
+ ],
+ "dr適性検査": [
+  "Aptitude test",
+  "A test to check if you can drive, such as an eyesight test. Bring your glasses if you use them.",
+  "c"
+ ],
+ "dr住民票の写し": [
+  "Certificate of residence (copy)",
+  "A document showing your address, name, and more. You can get it at your local city office.",
+  "c"
+ ],
+ "drAT限定": [
+  "Automatic transmission only",
+  "A license for automatic cars only. You cannot drive manual cars.",
+  "c"
+ ],
+ "drマニュアル": [
+  "Manual transmission",
+  "A car where you change gears yourself. To drive one, get a license without the AT-only restriction.",
+  "c"
+ ],
+ "dr普通車": [
+  "Standard-size car",
+  "A normal-sized car. You can drive it with a regular driver's license.",
+  "c"
+ ],
+ "dr教習": [
+  "Driving lessons",
+  "Learning to drive at a driving school.",
+  "c"
+ ],
+ "dr短期プラン": [
+  "Intensive course",
+  "A course where you take lessons continuously and graduate in a short time.",
+  "c"
+ ],
+ "dr送迎バス": [
+  "Shuttle bus",
+  "A bus that takes people between places like the station and the driving school.",
+  "c"
+ ],
+ "dr技能検定": [
+  "Driving skills test",
+  "A test at the driving school to check if you can drive properly.",
+  "c"
+ ],
+ "dr任意保険": [
+  "Voluntary car insurance",
+  "Car insurance where you choose the company and coverage. It covers what compulsory insurance (jibaiseki) does not.",
+  "c"
+ ],
+ "dr型式": [
+  "Model code",
+  "Letters or numbers showing the car model. It is on the vehicle inspection certificate.",
+  "c"
+ ],
+ "dr登録番号": [
+  "Registration number",
+  "The number on the car's license plate.",
+  "c"
+ ],
+ "dr納車": [
+  "Car delivery",
+  "Receiving the car you bought from the dealer.",
+  "c"
+ ],
+ "dr妊婦健診": [
+  "Prenatal checkup",
+  "Checkups at a hospital for pregnant women, checking the health of mother and baby.",
+  "c"
+ ],
+ "dr受診票": [
+  "Checkup voucher",
+  "A form you give to the hospital for a checkup. You get it from your city or town, which pays part of the cost.",
+  "c"
+ ],
+ "dr補助券": [
+  "Subsidy voucher",
+  "A slip for which your city or town pays part of the cost. For checkups, it means the checkup voucher.",
+  "c"
+ ],
+ "dr妊娠週数": [
+  "Weeks of pregnancy",
+  "How many weeks pregnant you are, counted from the first day of your last period.",
+  "c"
+ ],
+ "dr在留資格取得": [
+  "Acquisition of residence status",
+  "Getting a new status to live in Japan. For a foreign child born in Japan, apply at immigration.",
+  "c"
+ ],
+ "dr出生届受理証明書": [
+  "Certificate of acceptance of birth registration",
+  "A document showing the city office accepted the baby's birth registration. You get it at the city office.",
+  "c"
+ ],
+ "dr大使館": [
+  "Embassy",
+  "Your country's government office in Japan. It handles passports and other procedures.",
+  "c"
+ ],
+ "dr乳幼児健診": [
+  "Infant health checkup",
+  "Checkups for babies and young children on their health and growth.",
+  "c"
+ ],
+ "dr月齢": [
+  "Age in months",
+  "How many months old a baby is.",
+  "c"
+ ],
+ "dr医療証": [
+  "Child medical subsidy certificate",
+  "A certificate for city or town support with children's medical costs. Show it at the hospital reception.",
+  "c"
+ ],
+ "dr自費": [
+  "Out-of-pocket (self-pay)",
+  "Paying the full cost yourself without insurance or local support.",
+  "c"
+ ],
+ "dr保育課": [
+  "Childcare Division",
+  "A section at the city office that handles daycare applications and more.",
+  "c"
+ ],
+ "dr入園申請": [
+  "Daycare application",
+  "Applying to enter daycare and similar facilities. Usually submitted at the city or town office.",
+  "c"
+ ],
+ "dr申込書": [
+  "Application form",
+  "A form you fill out and submit when applying for something.",
+  "c"
+ ],
+ "dr就労証明書": [
+  "Certificate of employment",
+  "A document showing that you work. Your employer fills it out.",
+  "c"
+ ],
+ "dr締め切り": [
+  "Deadline",
+  "The last day you can submit documents. Submit by this day.",
+  "c"
+ ],
+ "dr一次募集": [
+  "First application round",
+  "The first application period. There may be a second round afterward.",
+  "c"
+ ],
+ "dr途中入園": [
+  "Mid-year daycare enrollment",
+  "Entering daycare partway through the year, not in April.",
+  "c"
+ ],
+ "dr学務課": [
+  "School Affairs Division",
+  "A section of the board of education that handles school enrollment and more.",
+  "c"
+ ],
+ "dr日本語学級": [
+  "Japanese language class",
+  "A classroom at school for studying Japanese, where some lessons are taken. Also called an international classroom.",
+  "c"
+ ],
+ "dr日本語支援": [
+  "Japanese language support",
+  "Help at school for children who don't yet understand Japanese well.",
+  "c"
+ ],
+ "dr支援員": [
+  "Support staff",
+  "A person who comes to school to help children with studies and more.",
+  "c"
+ ],
+ "dr就学時健康診断": [
+  "Pre-school entry health checkup",
+  "A health check for children entering elementary school next year, usually at the school they will attend.",
+  "c"
+ ],
+ "dr上履き": [
+  "Indoor shoes",
+  "Shoes worn inside school and other buildings.",
+  "c"
+ ],
+ "dr養護教諭": [
+  "School nurse",
+  "The teacher in the school health room who handles children's injuries, illness, and health.",
+  "c"
+ ],
+ "dr就学相談": [
+  "School placement consultation",
+  "Discussing with the board of education which school or class suits your child. Parents' opinions are considered.",
+  "c"
+ ],
+ "dr聴力": [
+  "Hearing",
+  "The ability to hear sounds. Checkups test whether you hear well.",
+  "c"
+ ],
+ "dr給食費": [
+  "School lunch fee",
+  "Money parents pay for school lunches.",
+  "c"
+ ],
+ "dr引き落とし": [
+  "Automatic debit",
+  "Money paid automatically from your bank account. Keep enough money in the account.",
+  "c"
+ ],
+ "dr届け出印": [
+  "Registered seal",
+  "The personal seal (hanko) registered with the bank when opening an account. Also called a bank seal.",
+  "c"
+ ],
+ "dr進路相談": [
+  "Career guidance",
+  "Talking with teachers about your future, such as which high school to attend after junior high.",
+  "c"
+ ],
+ "dr三者面談": [
+  "Parent-teacher-student conference",
+  "A meeting between the homeroom teacher, a parent, and the student. In the 3rd year of junior high, it is used to discuss the student's future path.",
+  "c"
+ ],
+ "dr担任": [
+  "Homeroom teacher",
+  "The teacher in charge of a class.",
+  "c"
+ ],
+ "dr通訳": [
+  "Interpreting / Interpreter",
+  "Translating spoken words between people who speak different languages. Also refers to the person who does this job.",
+  "c"
+ ],
+ "dr高校進学": [
+  "Going on to high school",
+  "Finishing junior high school and entering high school. There is often an entrance exam.",
+  "c"
+ ],
+ "dr放課後": [
+  "After school",
+  "The time after all classes for the day have finished.",
+  "c"
+ ],
+ "dr折り返し": [
+  "Call back",
+  "When the other person calls you again later. You hang up and wait.",
+  "c"
+ ],
+ "dr特別支援学級": [
+  "Special needs class",
+  "A class inside an elementary or junior high school for children who need extra support due to physical, mental, or learning needs.",
+  "c"
+ ],
+ "dr特別支援学校": [
+  "Special needs school",
+  "A school for children who need extra support due to physical, mental, or learning needs.",
+  "c"
+ ],
+ "dr通級による指導": [
+  "Resource room instruction (part-time special support)",
+  "Studying in a regular class while receiving special instruction separately for part of the time.",
+  "c"
+ ],
+ "dr特別支援教育コーディネーター": [
+  "Special needs education coordinator",
+  "A school teacher who gives advice about children needing extra support and connects teachers and parents.",
+  "c"
+ ],
+ "dr求職申込み": [
+  "Job seeker registration",
+  "Registering at Hello Work (the Public Employment Security Office) to look for a job. This is often the first step.",
+  "c"
+ ],
+ "dr求人票": [
+  "Job posting sheet",
+  "A sheet from a company looking for workers, showing the job duties, hours, pay, and so on.",
+  "c"
+ ],
+ "dr紹介状": [
+  "Letter of referral",
+  "A document from the office that introduces you to a company. Some jobs require it before you can apply.",
+  "c"
+ ],
+ "dr就職説明会": [
+  "Job information session",
+  "An event where companies explain their jobs to people who are looking for work.",
+  "c"
+ ],
+ "dr履歴書": [
+  "Résumé (rirekisho)",
+  "A form where you write your name, address, education, and work experience. You submit it when applying for a job.",
+  "c"
+ ],
+ "dr職業相談": [
+  "Employment counseling",
+  "Talking with office staff about job hunting or finding work. It is free.",
+  "c"
+ ],
+ "drパート": [
+  "Part-time work (paato)",
+  "Working shorter hours than full-time employees. Usually paid by the hour.",
+  "c"
+ ],
+ "drアルバイト": [
+  "Part-time job (arubaito)",
+  "Working for short hours or a short period. Usually paid by the hour.",
+  "c"
+ ],
+ "dr派遣": [
+  "Temporary staffing (dispatch work)",
+  "Signing a contract with a staffing agency and working at another company.",
+  "c"
+ ],
+ "dr求人": [
+  "Job opening",
+  "When a company or organization is looking for workers.",
+  "c"
+ ],
+ "dr時給": [
+  "Hourly wage",
+  "The money you get for one hour of work.",
+  "c"
+ ],
+ "dr営業部": [
+  "Sales department",
+  "The group in a company that sells products or services.",
+  "c"
+ ],
+ "dr人身事故": [
+  "Accident involving a person",
+  "An accident where a train or similar hits a person, causing injury or death. Trains may stop or be delayed.",
+  "c"
+ ],
+ "dr運転見合わせ": [
+  "Service suspended",
+  "When trains or buses are stopped and not running for a while.",
+  "c"
+ ],
+ "dr遅延証明書": [
+  "Delay certificate",
+  "A paper showing that a train was late. Often available at the station or on the railway company's website.",
+  "c"
+ ],
+ "dr出社": [
+  "Going to the office",
+  "Going to the company to work.",
+  "c"
+ ],
+ "dr総務部": [
+  "General affairs department",
+  "The group in a company that handles company-wide work such as documents, buildings, and staff matters.",
+  "c"
+ ],
+ "dr内線": [
+  "Extension (internal line)",
+  "A phone line used only within the same company or building.",
+  "c"
+ ],
+ "dr席を外しています": [
+  "He/She is away from the desk",
+  "The person is not near their desk right now. They are away for a short time.",
+  "c"
+ ],
+ "dr会議中": [
+  "In a meeting",
+  "The person is in a meeting now and cannot take the call.",
+  "c"
+ ],
+ "dr戻る": [
+  "To return / come back",
+  "To come back to the original place.",
+  "c"
+ ],
+ "drかけ直す": [
+  "To call back",
+  "To hang up and call again later.",
+  "c"
+ ],
+ "drお疲れさまです": [
+  "Otsukaresama desu (workplace greeting)",
+  "A greeting used between coworkers. On internal calls, people often say it before giving their name.",
+  "c"
+ ],
+ "dr納品": [
+  "Delivery (of goods)",
+  "Delivering ordered goods to the customer.",
+  "c"
+ ],
+ "dr注文書": [
+  "Purchase order",
+  "A document stating what you want to buy and how many.",
+  "c"
+ ],
+ "dr出荷": [
+  "Shipment",
+  "Sending goods out from a company or warehouse to customers.",
+  "c"
+ ],
+ "dr数量": [
+  "Quantity",
+  "The number or amount of something.",
+  "c"
+ ],
+ "dr先方": [
+  "The other party",
+  "The other person or the other company.",
+  "c"
+ ],
+ "dr経緯": [
+  "Background / How it happened",
+  "The sequence of how something happened and how it turned out.",
+  "c"
+ ],
+ "dr光回線": [
+  "Fiber-optic internet",
+  "A fast line for using the internet at home. Installation work is often needed.",
+  "c"
+ ],
+ "drプロバイダー": [
+  "Internet service provider (ISP)",
+  "A company that provides internet connection. Sometimes you sign a separate contract from the line company.",
+  "c"
+ ],
+ "dr開通工事": [
+  "Line installation work",
+  "Work at your home to connect the line so you can use the internet. You often need to be home.",
+  "c"
+ ],
+ "dr解約金": [
+  "Cancellation fee",
+  "Money you pay if you cancel a contract before the agreed period ends.",
+  "c"
+ ],
+ "drホームルーター": [
+  "Home router (plug-in Wi-Fi)",
+  "A device that gives you internet just by plugging it into a wall outlet.",
+  "c"
+ ],
+ "drプラン": [
+  "Plan",
+  "A combination of fees and available services.",
+  "c"
+ ],
+ "drデータ容量": [
+  "Data allowance",
+  "The amount of internet you can use on your smartphone per month.",
+  "c"
+ ],
+ "drかけ放題": [
+  "Unlimited calling",
+  "A service where you pay a set fee and the price doesn't change no matter how many calls you make.",
+  "c"
+ ],
+ "drオプション": [
+  "Add-on option",
+  "An extra service you can add to a plan. It often costs money after the free period ends.",
+  "c"
+ ],
+ "dr補償サービス": [
+  "Device protection service",
+  "A service that helps when your smartphone is broken or lost.",
+  "c"
+ ],
+ "dr本人確認書類": [
+  "Identification document",
+  "A card or similar that shows who you are. Foreign residents often show their residence card.",
+  "c"
+ ],
+ "dr担当": [
+  "Person in charge",
+  "The person who handles that work.",
+  "c"
+ ],
+ "dr伝言": [
+  "Message",
+  "Asking someone to pass on what you want to say to a person who is not there. Briefly give your name, phone number, and reason.",
+  "c"
+ ],
+ "dr承ります": [
+  "I will take it (polite)",
+  "A polite way of saying \"I'll listen\" or \"I'll accept.\" Please say what you want to pass on.",
+  "c"
+ ],
+ "dr外出": [
+  "Out of the office",
+  "The person is out for work or other reasons and is not here now.",
+  "c"
+ ],
+ "dr席を外して": [
+  "Away from the desk",
+  "The person is not nearby for a short time. You can leave a message or call back later.",
+  "c"
+ ],
+ "dr復唱": [
+  "Repeating back",
+  "Saying what you heard again to confirm it. Listen carefully to check for mistakes.",
+  "c"
+ ],
+ "dr少々お待ちください": [
+  "One moment, please",
+  "Means \"Please wait a little.\" Stay on the line without hanging up.",
+  "c"
+ ],
+ "drお待たせいたしました": [
+  "Sorry to keep you waiting",
+  "Means \"Sorry for making you wait.\" The conversation will continue.",
+  "c"
+ ],
+ "dr恐れ入りますが": [
+  "Excuse me, but…",
+  "Means \"Sorry, but…\" A request or question follows.",
+  "c"
+ ],
+ "drかしこまりました": [
+  "Certainly / Understood",
+  "A polite way of saying \"I understand.\"",
+  "c"
+ ],
+ "dr承知いたしました": [
+  "Understood",
+  "A polite way of saying \"I understand.\"",
+  "c"
+ ],
+ "drお掛け直しください": [
+  "Please call again",
+  "Means \"Please call again.\" Hang up and call back later.",
+  "c"
+ ],
+ "dr在学証明書": [
+  "Certificate of enrollment",
+  "A document from a school stating that the person is a student there.",
+  "c"
+ ],
+ "dr転入学通知書": [
+  "School transfer notice",
+  "A document notifying entry into a new school. Get it from the city office (Board of Education) and submit it to the new school.",
+  "c"
+ ],
+ "dr総合案内": [
+  "General information desk",
+  "A reception desk near the entrance of the city office. They tell you which counter to go to.",
+  "c"
+ ],
+ "dr転入": [
+  "Moving in (from another municipality)",
+  "Moving from another city or town. You must notify the city office within the set period.",
+  "c"
+ ],
+ "dr保険年金課": [
+  "Health Insurance and Pension Division",
+  "The division at the city office that handles National Health Insurance and National Pension. The name varies by municipality.",
+  "c"
+ ],
+ "dr番号札": [
+  "Number ticket",
+  "A paper with a number on it. Take one at the counter and wait until your number is called.",
+  "c"
+ ],
+ "dr納付書": [
+  "Payment slip",
+  "A slip used to pay taxes or insurance premiums. Pay at a bank, city office counter, or convenience store.",
+  "c"
+ ],
+ "dr普通徴収": [
+  "Direct payment (ordinary collection)",
+  "A way of paying resident tax yourself with payment slips instead of having it deducted from your salary.",
+  "c"
+ ],
+ "dr届出印": [
+  "Registered seal",
+  "The seal (hanko) you registered when opening a bank account.",
+  "c"
+ ],
+ "dr税務課": [
+  "Taxation Division",
+  "The division at the city office that handles taxes.",
+  "c"
+ ],
+ "dr柴犬": [
+  "Shiba Inu",
+  "A Japanese dog breed.",
+  "c"
+ ],
+ "dr環境衛生課": [
+  "Environmental Health Division",
+  "A division of the city office. It handles things like dog registration.",
+  "c"
+ ],
+ "dr犬の登録": [
+  "Dog registration",
+  "Notifying your city or town when you start keeping a dog. Required by law, usually once in the dog's life.",
+  "c"
+ ],
+ "dr狂犬病": [
+  "Rabies",
+  "A very dangerous disease transmitted by dogs and other animals. Dogs get a vaccination every year.",
+  "c"
+ ],
+ "dr予防注射": [
+  "Vaccination",
+  "A shot to prevent disease. Dogs get a rabies vaccination every year.",
+  "c"
+ ],
+ "dr注射済証": [
+  "Rabies vaccination tag",
+  "Proof that the dog received a rabies vaccination. It is attached to the dog.",
+  "c"
+ ],
+ "dr鑑札": [
+  "Dog license tag",
+  "A tag you receive when you register your dog. It is attached to the dog.",
+  "c"
+ ],
+ "dr資格喪失証明書": [
+  "Certificate of loss of insurance coverage",
+  "A document showing the date your health insurance from your previous employer ended.",
+  "c"
+ ]
+}

@@ -25,6 +25,9 @@
   --line: #d9dee3;
   --red: #c8241b;
   --red-soft: #fbe7e5;
+  /* 用語集の語（下線と訳の語）。赤ペンの赤・できた緑と分ける */
+  --term: #1d5fa8;
+  --term-soft: #e8f0fb;
   --ok: #2f6f4f;
   --ok-soft: #e5f2ea;
   --other: #eef1f4;
@@ -89,6 +92,8 @@
     --line: #36404a;
     --red: #ff7b70;
     --red-soft: #3a2221;
+    --term: #8ab8f0;
+    --term-soft: #1d2a3a;
     --ok: #7fcfa1;
     --ok-soft: #1d3127;
     --other: #2a3138;

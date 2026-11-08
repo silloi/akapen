@@ -4,6 +4,8 @@ import type { Akapen, Mark, MarkKind, Turn } from "../../shared/types.ts";
 import { api, type SceneWithCando } from "../lib/api.ts";
 import { isJa, lang, t } from "../lib/i18n.ts";
 import { segment, type Highlight } from "../lib/segments.ts";
+import { loadGlossary, termsOf } from "../lib/glossary.ts";
+import TermInfo from "./TermInfo.vue";
 
 const props = defineProps<{
   scene: SceneWithCando;
@@ -22,6 +24,12 @@ const emit = defineEmits<{
   retry: [];
   "update:akapen": [Akapen];
 }>();
+
+/** この会話に出てきた用語集の語（相手の言葉から。意味は画面の言語で） */
+onMounted(() => void loadGlossary());
+const words = computed(() =>
+  termsOf(props.turns.filter((x) => x.speaker === "partner").map((x) => x.text)),
+);
 
 const akapen = ref<Akapen | null>(props.initial);
 const error = ref("");
@@ -251,6 +259,17 @@ function toKanpe() {
     </ul>
   </details>
 
+  <!-- 会話に出てきた用語集の語（公的な用語集と、Claude の下書き。どちらかを必ず書く） -->
+  <details v-if="words.length" class="words">
+    <summary class="tx">
+      {{ t("review.words") }}{{ isJa ? "（" : " (" }}{{ words.length }}{{ isJa ? "）" : ")" }}
+    </summary>
+    <p class="small muted tx">{{ t("review.wordsHint") }} {{ t("glossary.legend") }}</p>
+    <ul>
+      <li v-for="w in words" :key="w.id"><TermInfo :entry="w" :lang="lang" compact /></li>
+    </ul>
+  </details>
+
   <div class="foot no-print">
     <button class="btn ghost" type="button" @click="emit('retry')">{{ t("review.retry") }}</button>
     <button class="btn red" type="button" :disabled="!akapen" @click="toKanpe">
@@ -260,6 +279,25 @@ function toKanpe() {
 </template>
 
 <style scoped>
+.words {
+  margin: 16px 0 8px;
+}
+.words summary {
+  cursor: pointer;
+  color: var(--term);
+  font-weight: 700;
+}
+.words ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+.words li {
+  border-left: 3px solid var(--term);
+  padding-left: 10px;
+}
 .lbl {
   display: inline-block;
   white-space: nowrap;

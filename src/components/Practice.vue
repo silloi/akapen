@@ -5,6 +5,8 @@ import type { Mark, Turn } from "../../shared/types.ts";
 import { api, type Health, type SceneWithCando } from "../lib/api.ts";
 import { fillPersona } from "../../shared/persona.ts";
 import { furiganaReady, furiganaSegments, loadFurigana } from "../lib/furigana.ts";
+import { glossary, loadGlossary, termById, termParts } from "../lib/glossary.ts";
+import TermInfo from "./TermInfo.vue";
 import { askTr, infoTr, isJa, lang, sceneTr, t } from "../lib/i18n.ts";
 import {
   MIN_RECORDING_BYTES,
@@ -114,6 +116,33 @@ watch(lang, () => {
   shown.value = {};
   glosses.value = {};
 });
+
+/**
+ * 用語集の語（相手の言葉の中の、手続き・書類の語や電話の言い回し）。下線を引き、タップで意味を出す。
+ * 文全体の意味（上）とは別に出す。
+ */
+onMounted(() => void loadGlossary());
+const termOpen = ref<Record<number, string>>({});
+function toggleTerm(i: number, id: string) {
+  termOpen.value = { ...termOpen.value, [i]: termOpen.value[i] === id ? "" : id };
+  // 会話の欄の下の方でも、出した意味が見えるようにする
+  void nextTick(() =>
+    document
+      .querySelector(`[data-termbox="${i}"]`)
+      ?.scrollIntoView({ block: "nearest", behavior: "smooth" }),
+  );
+}
+/** 文を、用語集の語とそれ以外に分け、ふりがなを出すときはさらに読みの単位に分ける */
+function lineParts(text: string, speaker: Turn["speaker"]) {
+  void glossary.value;
+  const parts = speaker === "partner" ? termParts(text) : [{ text }];
+  return parts.map((p) => ({ ...p, segs: furigana.value ? segs(p.text) : null }));
+}
+const hasTerms = computed(
+  () =>
+    !!glossary.value &&
+    turns.value.some((x) => x.speaker === "partner" && termParts(x.text).some((p) => p.id)),
+);
 
 /** URL に #debug を付けて開くと、声の入出力の記録を出す（実機の不具合を調べるため） */
 const debug = (() => {
@@ -447,6 +476,9 @@ const stateLabel = computed<Record<string, string>>(() => ({
       <p v-if="turns.length" class="small muted tap-hint tx">
         {{ t(isJa ? "practice.tapToEasy" : "practice.tapToTranslate") }}
       </p>
+      <p v-if="hasTerms" class="small tap-hint terms-hint tx">
+        <span class="term-sample">{{ t("glossary.word") }}</span> {{ t("glossary.tapHint") }}
+      </p>
       <div ref="logEl" class="log" aria-live="polite">
         <p v-if="!health.claude" class="muted">
           {{ t("practice.noClaude") }}
@@ -464,19 +496,42 @@ const stateLabel = computed<Record<string, string>>(() => ({
             @click="toggleGloss(i)"
             @keydown.enter.prevent="toggleGloss(i)"
           >
-            <template v-if="furigana">
+            <template v-for="(pt, k) in lineParts(tn.text, tn.speaker)" :key="k">
+              <!-- 用語集の語: 下線を引き、タップで意味（文全体の意味とは別） -->
               <span
-                v-for="(sg, k) in segs(tn.text)"
-                :key="k"
-                :style="sg.salt ? { fontFeatureSettings: `'salt' ${sg.salt}` } : undefined"
-                >{{ sg.text }}</span
+                v-if="pt.id"
+                class="term"
+                role="button"
+                tabindex="0"
+                :aria-expanded="termOpen[i] === pt.id ? 'true' : 'false'"
+                @click.stop="toggleTerm(i, pt.id)"
+                @keydown.enter.stop.prevent="toggleTerm(i, pt.id)"
+                ><template v-if="pt.segs"
+                  ><span
+                    v-for="(sg, j) in pt.segs"
+                    :key="j"
+                    :style="sg.salt ? { fontFeatureSettings: `'salt' ${sg.salt}` } : undefined"
+                    >{{ sg.text }}</span
+                  ></template
+                ><template v-else>{{ pt.text }}</template></span
               >
+              <template v-else-if="pt.segs"
+                ><span
+                  v-for="(sg, j) in pt.segs"
+                  :key="j"
+                  :style="sg.salt ? { fontFeatureSettings: `'salt' ${sg.salt}` } : undefined"
+                  >{{ sg.text }}</span
+                ></template
+              >
+              <template v-else>{{ pt.text }}</template>
             </template>
-            <template v-else>{{ tn.text }}</template>
           </p>
           <p v-if="shown[i]" :class="['gloss', glossLang === 'easy' ? { furi: furigana } : 'tx']">
             {{ glosses[i] ?? "…" }}
           </p>
+          <div v-if="termOpen[i] && termById(termOpen[i]!)" class="termbox" :data-termbox="i">
+            <TermInfo :entry="termById(termOpen[i]!)!" :lang="lang" />
+          </div>
         </div>
         <p v-if="ended" class="ended hand tx">
           {{ t(scene.channel === "counter" ? "practice.endedCounter" : "practice.ended") }}
@@ -704,6 +759,31 @@ select {
 }
 .turn.me .gloss {
   text-align: right;
+}
+/* 用語集の語: 点線の下線（赤ペンの赤・波線とは別の色と形） */
+.term {
+  text-decoration: underline dotted var(--term) 2px;
+  text-underline-offset: 5px;
+  cursor: help;
+}
+.term[aria-expanded="true"] {
+  background: var(--term-soft);
+  border-radius: 4px;
+}
+.termbox {
+  margin: 4px 0 2px;
+  padding: 8px 10px;
+  border-left: 3px solid var(--term);
+  background: var(--term-soft);
+  border-radius: 0 8px 8px 0;
+}
+.terms-hint {
+  margin: 0;
+  color: var(--muted);
+}
+.term-sample {
+  text-decoration: underline dotted var(--term) 2px;
+  text-underline-offset: 4px;
 }
 .tap-hint {
   margin: 0;

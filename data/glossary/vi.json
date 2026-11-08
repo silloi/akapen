@@ -1,0 +1,4242 @@
+{
+ "mh1": [
+  "Thi tuyển chọn",
+  "Việc ra đề bài và yêu cầu trả lời để kiểm tra xem người đó có phù hợp với công ty hay không.",
+  "o"
+ ],
+ "mh2": [
+  "Giấy chứng nhận các hạng mục ghi trong phiếu cư dân",
+  "Giấy tờ do trụ sở hành chính phát hành để chứng minh các nội dung ghi trong phiếu cư dân là đúng.",
+  "o"
+ ],
+ "mh3": [
+  "Bằng lái xe ô tô",
+  "Giấy tờ do Sở cảnh sát phát hành để chứng nhận việc được phép lái xe ô tô.",
+  "o"
+ ],
+ "mh4": [
+  "Các hạng mục được ghi",
+  "Các nội dung được ghi trong giấy tờ, v.v.",
+  "o"
+ ],
+ "mh5": [
+  "Thời gian thử việc",
+  "Thời gian yêu cầu làm việc thử.",
+  "o"
+ ],
+ "mh6": [
+  "Không đạt",
+  "Là không phù hợp.",
+  "o"
+ ],
+ "mh7": [
+  "Điều kiện lao động",
+  "Các điều kiện khi làm việc.",
+  "o"
+ ],
+ "mh8": [
+  "Nơi làm việc",
+  "Nơi làm việc.",
+  "o"
+ ],
+ "mh9": [
+  "Công việc đảm nhiệm",
+  "Nội dung công việc.",
+  "o"
+ ],
+ "mh10": [
+  "Thông báo về điều kiện lao động",
+  "Tài liệu có ghi các điều kiện khi làm việc.",
+  "o"
+ ],
+ "mh11": [
+  "Thời hạn hợp đồng lao động",
+  "Thời hạn của hợp đồng khi làm việc.",
+  "o"
+ ],
+ "mh12": [
+  "Cấp",
+  "Việc đưa cho.",
+  "o"
+ ],
+ "mh13": [
+  "Tuyển vào",
+  "Việc tuyển dụng người.",
+  "o"
+ ],
+ "mh14": [
+  "Tuyển dụng giữa chừng",
+  "Việc tuyển dụng người đã làm việc cho công ty khác.",
+  "o"
+ ],
+ "mh15": [
+  "Tiền lương",
+  "Tiền lương khi tuyển dụng.",
+  "o"
+ ],
+ "mh16": [
+  "Thời điểm thanh toán",
+  "Là ngày thanh toán tiền.",
+  "o"
+ ],
+ "mh17": [
+  "Tăng lương",
+  "Việc tiền lương được tăng lên.",
+  "o"
+ ],
+ "mh18": [
+  "Nghỉ làm không phép",
+  "Việc nghỉ làm vào ngày phải đi làm mà không được công ty cho phép.",
+  "o"
+ ],
+ "mh19": [
+  "Sổ tiền lương",
+  "Cuốn sổ (vở) do công ty lập ra để ghi chép lại về tiền lương đã thanh toán cho người lao động.",
+  "o"
+ ],
+ "mh20": [
+  "Ngày đóng sổ tính tiền lương",
+  "Ngày ranh giới, đóng lại khoảng thời gian để tính tiền lương cho 1 tháng.",
+  "o"
+ ],
+ "mh21": [
+  "Bảng lương chi tiết",
+  "Tờ giấy có ghi các loại tiền liên quan đến tiền lương.",
+  "o"
+ ],
+ "mh22": [
+  "Lương cơ bản",
+  "Tiền lương phần cơ bản.",
+  "o"
+ ],
+ "mh23": [
+  "Trợ cấp gia đình",
+  "Khoản tiền mà những người có gia đình được nhận từ công ty.",
+  "o"
+ ],
+ "mh24": [
+  "Trợ cấp đi lại",
+  "Khoản tiền mà những người chi trả cho việc đi đến công ty được nhận từ công ty.",
+  "o"
+ ],
+ "mh25": [
+  "Trợ cấp chức vụ",
+  "Khoản tiền mà những người có vai trò quan trọng trong công ty được nhận từ công ty.",
+  "o"
+ ],
+ "mh26": [
+  "Trợ cấp kỹ năng / bằng cấp",
+  "Khoản tiền mà những người có kỹ thuật hoặc bằng cấp đặc biệt được nhận từ công ty.",
+  "o"
+ ],
+ "mh27": [
+  "Trợ cấp chuyên cần",
+  "Khoản tiền mà những người đã cố gắng làm việc được nhận từ công ty.",
+  "o"
+ ],
+ "mh28": [
+  "Lương phụ trợ",
+  "Khoản tiền lương được nhận sau khi tính tăng thêm theo tỷ lệ đặc biệt.",
+  "o"
+ ],
+ "mh29": [
+  "Lương phụ trợ lao động ngoài giờ",
+  "Khoản tiền lương được nhận sau khi tính tăng thêm theo tỷ lệ đặc biệt khi đã làm việc ngoài thời gian theo quy định của pháp luật.",
+  "o"
+ ],
+ "mh30": [
+  "Lương phụ trợ lao động vào ngày nghỉ",
+  "Khoản tiền lương được nhận sau khi tính tăng thêm theo tỷ lệ đặc biệt khi đã làm việc vào ngày nghỉ.",
+  "o"
+ ],
+ "mh31": [
+  "Lương phụ trợ lao động ban đêm",
+  "Khoản tiền lương được nhận sau khi tính tăng thêm theo tỷ lệ đặc biệt khi đã làm việc vào đêm khuya.",
+  "o"
+ ],
+ "mh32": [
+  "Nội dung công việc",
+  "Nội dung công việc của người lao động.",
+  "o"
+ ],
+ "mh33": [
+  "Kỹ năng",
+  "Kỹ thuật mà người đó có.",
+  "o"
+ ],
+ "mh34": [
+  "Thành tích làm việc",
+  "Thành tích trong công việc.",
+  "o"
+ ],
+ "mh35": [
+  "Mức lương tối thiểu",
+  "Số tiền lương thấp nhất mà công ty phải thanh toán theo quy định của pháp luật.",
+  "o"
+ ],
+ "mh36": [
+  "Phụ dưỡng",
+  "Chăm sóc để (vợ hoặc chồng, con cái, v.v. của người lao động) có thể sinh sống.",
+  "o"
+ ],
+ "mh37": [
+  "Thực phí",
+  "Số tiền thực tế đã sử dụng.",
+  "o"
+ ],
+ "mh38": [
+  "Thăng chức",
+  "Vị trí của bản thân trong công ty được tăng lên.",
+  "o"
+ ],
+ "mh39": [
+  "Giáng chức",
+  "Vị trí của bản thân trong công ty bị hạ xuống.",
+  "o"
+ ],
+ "mh40": [
+  "Không nghỉ làm",
+  "Không nghỉ làm một lần nào trừ nghỉ phép có lương.",
+  "o"
+ ],
+ "mh41": [
+  "Chế độ lương tháng",
+  "Cơ chế tính tiền lương theo đơn vị 1 tháng.",
+  "o"
+ ],
+ "mh42": [
+  "Chế độ lương ngày",
+  "Cơ chế tính tiền lương theo đơn vị 1 ngày.",
+  "o"
+ ],
+ "mh43": [
+  "Chế độ lương giờ",
+  "Cơ chế tính tiền lương theo đơn vị 1 giờ.",
+  "o"
+ ],
+ "mh44": [
+  "Thanh toán quá mức",
+  "Việc thanh toán quá nhiều tiền.",
+  "o"
+ ],
+ "mh45": [
+  "Tỷ lệ tiền lương phụ trợ theo luật định",
+  "Tỷ lệ đặc biệt tính tăng tiền lương cho các trường hợp làm thêm giờ hoặc làm việc vào đêm khuya theo quy định của pháp luật.",
+  "o"
+ ],
+ "mh46": [
+  "Đóng cửa đột xuất",
+  "Phải nghỉ vào ngày có dự định sẽ làm việc do tình hình của công ty.",
+  "o"
+ ],
+ "mh47": [
+  "Lương trung bình",
+  "Tổng số tiền công ty đã thanh toán cho 3 tháng chia cho tổng số ngày của 3 tháng theo lịch.",
+  "o"
+ ],
+ "mh48": [
+  "Trợ cấp nghỉ việc",
+  "Khoản tiền mà công ty phải thanh toán khi yêu cầu người lao động nghỉ việc. Luật Tiêu chuẩn lao động quy định công ty phải thanh toán số tiền bằng hoặc hơn 60% tiền lương trung bình cho người lao động trong trường hợp đã yêu cầu người lao động nghỉ việc vào ngày có dự định làm việc do tình hình của công ty.",
+  "o"
+ ],
+ "mh49": [
+  "Tính chia theo ngày",
+  "Việc tính tiền lương, v.v. theo số ngày đã làm việc.",
+  "o"
+ ],
+ "mh50": [
+  "Tiền tệ",
+  "Tiền.",
+  "o"
+ ],
+ "mh51": [
+  "Tổ chức tài chính",
+  "Nơi xử lý tiền ví dụ như ngân hàng, v.v.",
+  "o"
+ ],
+ "mh52": [
+  "Tài khoản tiền gửi tiết kiệm",
+  "Nơi để công ty hoặc cá nhân gửi tiền đang có vào ngân hàng.",
+  "o"
+ ],
+ "mh53": [
+  "Tài khoản tổng hợp chứng khoán",
+  "Nơi để công ty hoặc cá nhân gửi tiền hoặc chứng khoán đang có vào công ty chứng khoán.",
+  "o"
+ ],
+ "mh54": [
+  "Khấu trừ thuế thu nhập",
+  "Tiền thuế mà người lao động phải nộp cho nhà nước. Công ty sẽ thanh toán thay người đó bằng cách sử dụng cơ chế thanh toán.",
+  "o"
+ ],
+ "mh59": [
+  "Phần thanh toán của người được bảo hiểm",
+  "Việc người đang tham gia bảo hiểm thanh toán số tiền bảo hiểm mà người đó phải thanh toán.",
+  "o"
+ ],
+ "mh60": [
+  "Tiền vào ở ký túc xá công ty",
+  "Tiền thuê nhà (ký túc xá công ty) do công ty cho thuê.",
+  "o"
+ ],
+ "mh61": [
+  "Tiết kiệm tích lũy tài sản",
+  "Tiền mà người lao động tiết kiệm tại công ty.",
+  "o"
+ ],
+ "mh62": [
+  "Tiền tích lũy",
+  "Tiền để dành từng chút để làm việc gì đó.",
+  "o"
+ ],
+ "mh63": [
+  "Phí công đoàn",
+  "Tiền để người lao động tham gia vào tổ chức được lập ra để cải thiện môi trường làm việc cho bản thân (công đoàn lao động).",
+  "o"
+ ],
+ "mh64": [
+  "Thanh toán bất thường",
+  "Thanh toán tiền lương vào ngày khác với ngày do công ty quy định.",
+  "o"
+ ],
+ "mh65": [
+  "Phần lao động đã làm",
+  "Phần mà người đó đã làm việc.",
+  "o"
+ ],
+ "mh66": [
+  "Thành tích kinh doanh",
+  "Thành quả đạt được trong công việc, v.v.",
+  "o"
+ ],
+ "mh67": [
+  "Tiền thưởng",
+  "Tiền công ty thanh toán không thường xuyên ngoài số tiền lương cơ bản. Tiền thưởng thêm.",
+  "o"
+ ],
+ "mh68": [
+  "Trợ cấp nhà ở",
+  "Khoản tiền được nhận từ công ty để sử dụng vào toàn bộ hoặc một phần các khoản tiền như tiền thuê nhà, v.v. mà người lao động đang phải thanh toán.",
+  "o"
+ ],
+ "mh69": [
+  "Trợ cấp công việc",
+  "Khoản tiền mà công ty thanh toán cho các kỹ năng, năng lực và bằng cấp cần thiết cho công việc nào đó mà người lao động đang có.",
+  "o"
+ ],
+ "mh70": [
+  "Trợ cấp công tác đơn thân",
+  "Khoản tiền công ty thanh toán cho người lao động phải sống một mình xa gia đình do thuyên chuyển nơi làm việc theo chỉ thị của công ty.",
+  "o"
+ ],
+ "mh71": [
+  "Trợ cấp bán hàng",
+  "Khoản tiền cần thiết để người làm công việc bán hàng cho công ty thực hiện công việc bán hàng. Công ty sẽ thanh toán thay cho người đó.",
+  "o"
+ ],
+ "mh72": [
+  "Lương theo sản phẩm",
+  "Cơ chế lương theo đó công ty quyết định số tiền sẽ thanh toán cho người lao động tùy theo kết quả công việc của người đó (ví dụ số tiền đã bán hàng được).",
+  "o"
+ ],
+ "mh73": [
+  "Lương đảm bảo",
+  "Cơ chế quy định việc công ty sẽ thanh toán một số tiền nào đó cho người lao động, không phụ thuộc vào kết quả công việc của người đó.",
+  "o"
+ ],
+ "mh74": [
+  "Hình thức làm việc",
+  "Kiểu làm việc. Toàn thời gian, bán thời gian, làm việc rút ngắn giờ, v.v.",
+  "o"
+ ],
+ "mh75": [
+  "Tiền làm thêm giờ cố định",
+  "Là việc thay vì xem xét số giờ mà người lao động đã làm việc dài hơn thời gian quy định (giờ làm thêm), công ty quyết định từ trước về số giờ làm việc dài hơn thời gian đã quy định và công ty thanh toán tiền cho người lao động ứng với số giờ đó.",
+  "o"
+ ],
+ "mh76": [
+  "Hình thức lương",
+  "Cách tính và thanh toán tiền lương mà công ty sẽ thanh toán cho người lao động.",
+  "o"
+ ],
+ "mh79": [
+  "Thu nhập thuần (thu nhập tiền lương)",
+  "Số tiền còn lại sau khi trừ đi các khoản tiền cần thiết để làm việc (các khoản này được gọi là 「Khấu trừ thu nhập tiền lương」) từ số tiền mà người lao động đã làm việc và được nhận (thu nhập) trong một năm.",
+  "o"
+ ],
+ "mh80": [
+  "Thu nhập chịu thuế",
+  "Số tiền để tính tiền thuế (thuế thu nhập) mà người lao động phải nộp cho nhà nước.",
+  "o"
+ ],
+ "mh81": [
+  "Thu nhập",
+  "Số tiền người lao động làm việc và được nhận. Ví dụ như thu nhập hàng tháng được gọi là 「Thu nhập tháng」. Số tiền bạn thực tế được nhận (tedori) là thu nhập đã trừ đi tiền thuế và phí bảo hiểm xã hội.",
+  "o"
+ ],
+ "mh82": [
+  "Khấu trừ thu nhập tiền lương",
+  "Việc giảm tiền thuế phải nộp cho người làm việc tại một công ty,v.v., bằng cách trừ số tiền cần thiết để làm việc từ số tiền (thu nhập) đã làm việc trong một năm.",
+  "o"
+ ],
+ "mh83": [
+  "Khấu trừ thu nhập",
+  "Việc lấy số tiền mà người lao động đã làm việc và được nhận trong một năm trừ đi số tiền cần thiết để làm việc, sau đó trừ tiếp số tiền được tính theo hoàn cảnh của mỗi người lao động. Ví dụ như các khoản khấu trừ phụ dưỡng, khấu trừ chi phí y tế, khấu trừ phí bảo hiểm nhân thọ, khấu trừ vợ (chồng), khấu trừ cơ bản, v.v.",
+  "o"
+ ],
+ "mh84": [
+  "Khấu trừ cơ bản",
+  "Việc trừ đi một khoản tiền nhất định vào số tiền (thu nhập) mà người lao động đã làm việc và được nhận trong một năm, đối với tất cả những người nộp thuế khi khấu trừ thu nhập.",
+  "o"
+ ],
+ "mh85": [
+  "Khấu trừ phụ dưỡng",
+  "Việc giảm tiền thuế phải nộp bằng cách trừ đi một khoản tiền nhất định vào số tiền còn lại, sau khi đã trừ đi số tiền cần thiết để làm việc (thu nhập thuần) cho người nộp thuế có gia đình đang phải chăm sóc (phụ dưỡng) để trợ giúp việc chăm sóc đó.",
+  "o"
+ ],
+ "mh87": [
+  "Phiếu trưng thu tại nguồn",
+  "Giấy tờ có ghi về việc người lao động đã nhận bao nhiều tiền lương từ công ty và đã nộp bao nhiêu tiền thuế cho nhà nước trong một năm kể từ ngày 1 tháng 1 đến ngày 31 tháng 12.",
+  "o"
+ ],
+ "mh91": [
+  "Mối quan hệ",
+  "Mối quan hệ với các thành viên gia đình.",
+  "o"
+ ],
+ "mh92": [
+  "Giấy chứng nhận đánh thuế",
+  "Giấy tờ do trụ sở hành chính phát hành để chứng nhận việc người đó phải nộp bao nhiêu tiền thuế.",
+  "o"
+ ],
+ "mh93": [
+  "Giấy chứng nhận nộp thuế",
+  "Giấy tờ do trụ sở hành chính phát hành để chứng nhận việc người đó đã nộp thuế.",
+  "o"
+ ],
+ "mh95": [
+  "An sinh xã hội",
+  "Cơ chế trợ giúp cuộc sống của mọi người bằng cách nhà nước sử dụng tiền thuế và tiền thu từ những người lao động và các công ty để giúp đỡ người gặp khó khăn do bị bệnh tật hoặc chấn thương, đẻ con (sinh con), mất việc (thất nghiệp), không khỏe về tinh thần hoặc thể chất (rối loạn), nhiều tuổi (tuổi già), chết (tử vong), v.v.",
+  "o"
+ ],
+ "mh96": [
+  "Bảo hiểm xã hội",
+  "Cơ chế theo đó công ty và người lao động góp tiền để trợ giúp cuộc sống của người lao động tại công ty khi người đó gặp khó khăn như khi bị bệnh tật, chấn thương, mất việc (thất nghiệp), nhiều tuổi (tuổi già), cần được chăm sóc điều dưỡng.",
+  "o"
+ ],
+ "mh97": [
+  "Hỗ trợ công",
+  "Việc sử dụng tiền thuế để trợ giúp những người không thể tự sinh sống khỏe mạnh và an toàn nếu chỉ bằng sức lực của riêng bản thân mình.",
+  "o"
+ ],
+ "mh98": [
+  "Vệ sinh công cộng",
+  "Việc làm sạch môi trường thành phố, v.v. để mọi người có thể sinh sống khỏe mạnh và cố gắng không gây ra bệnh lây truyền từ người sang người (bệnh truyền nhiễm).",
+  "o"
+ ],
+ "mh99": [
+  "Phúc lợi xã hội",
+  "Việc sử dụng thuế để trợ giúp những người có khuyết tật, để họ có thể sinh sống khỏe mạnh và an toàn.",
+  "o"
+ ],
+ "mh101": [
+  "Bảo hiểm hưu trí quốc dân",
+  "Bảo hiểm dành cho tất cả những người từ 20 tuổi đến 59 tuổi ở Nhật Bản để đề phòng cho trường hợp không thể làm việc vàkiếm tiền do đã nhiều tuổi và thôi việc hoặc do bị bệnh tật, v.v.",
+  "o"
+ ],
+ "mh102": [
+  "Người được bảo hiểm",
+  "Người tham gia bảo hiểm và được nhận tiền sau khi nhiều tuổi và thôi việc hoặc khi bị bệnh tật, v.v.",
+  "o"
+ ],
+ "mh106": [
+  "Thù lao tiêu chuẩn trung bình",
+  "Số tiền tính toán xem người lao động làm việc và được nhận bao nhiêu tiền trong một tháng bao gồm cả tiền lương và tiền thưởng. Số tiền này là cần thiết để tính xem sẽ phải nộp bao nhiêu tiền cho bảo hiểm mà người lao động được nhận tiền sau khi nhiều tuổi và thôi việc (Bảo hiểm hưu trí phúc lợi).",
+  "o"
+ ],
+ "mh107": [
+  "Số tiền thưởng tiêu chuẩn",
+  "Số tiền thưởng trước khi trừ thuế và không tính đến khoản ít hơn 1.000 yên.",
+  "o"
+ ],
+ "mh108": [
+  "Tự trả",
+  "Việc bản thân (không phải công ty) phải thanh toán tiền.",
+  "o"
+ ],
+ "mh109": [
+  "Tiền lương theo thâm niên",
+  "Tiền lương do công ty quyết định theo tuổi hoặc độ dài thời gian làm việc của người lao động.",
+  "o"
+ ],
+ "mh110": [
+  "Chế độ lương năm",
+  "Cơ chế quyết định mức lương sẽ là bao nhiêu theo đơn vị một năm.",
+  "o"
+ ],
+ "mh111": [
+  "Phụ cấp bằng cấp",
+  "Khoản tiền mà người có bằng cấp đặc biệt được nhận từ công ty.",
+  "o"
+ ],
+ "mh116": [
+  "Tiền hiếu hỷ",
+  "Khoản tiền được nhận từ công ty khi người lao động kết hôn, sinh con hoặc khi gia đình của người lao động qua đời.",
+  "o"
+ ],
+ "mh117": [
+  "Tiền phụ cấp thương tật bệnh tật",
+  "Khoản tiền được nhận từ Bảo hiểm y tế khi người lao động nghỉ việc do chấn thương hoặc bệnh tật và không được nhận lương.",
+  "o"
+ ],
+ "mh118": [
+  "Làm thêm giờ quy định trước",
+  "Việc không xem xét đến phần người lao động đã làm việc dài hơn thời gian quy định (giờ làm thêm) mà thay vào đó quyết định từ trước về thời gian làm việc dài hơn thời gian làm việc quy định (thời gian làm việc) và công ty sẽ thanh toán tiền cho người lao động ứng với khoảng thời gian đó. Khoản tiền này còn được gọi là Tiền làm thêm giờ cố định.",
+  "o"
+ ],
+ "mh119": [
+  "Thời gian lao động",
+  "Thời gian làm việc.",
+  "o"
+ ],
+ "mh120": [
+  "Bắt đầu công việc",
+  "Giờ bắt đầu công việc.",
+  "o"
+ ],
+ "mh121": [
+  "Kết thúc công việc",
+  "Giờ kết thúc công việc.",
+  "o"
+ ],
+ "mh122": [
+  "Thời gian lao động quy định",
+  "Thời gian làm việc tính từ giờ bắt đầu công việc đến giờ kết thúc công việc trừ thời gian nghỉ giải lao do công ty quy định.",
+  "o"
+ ],
+ "mh123": [
+  "Thời gian nghỉ giải lao",
+  "Thời gian nghỉ.",
+  "o"
+ ],
+ "mh124": [
+  "Làm theo ca",
+  "Làm việc luân phiên với những người khác.",
+  "o"
+ ],
+ "mh125": [
+  "Thay ca làm việc",
+  "Những quy định liên quan đến thời gian và thứ tự thay thế khi làm việc luân phiên với người khác.",
+  "o"
+ ],
+ "mh126": [
+  "Thẻ chấm công",
+  "Thẻ và máy ghi thời gian làm việc của người lao động.",
+  "o"
+ ],
+ "mh127": [
+  "Đánh dấu thời gian",
+  "Việc dập thẻ chấm công để đánh dấu thời gian.",
+  "o"
+ ],
+ "mh128": [
+  "Chế độ tự báo cáo",
+  "Cơ chế tự nói.",
+  "o"
+ ],
+ "mh129": [
+  "Thời gian lao động ngoài giờ",
+  "Là thời gian làm việc ngoài thời gian làm việc quy định.",
+  "o"
+ ],
+ "mh130": [
+  "Trợ cấp lao động ngoài giờ",
+  "Số tiền được nhận khi đã làm việc ngoài thời gian làm việc quy định.",
+  "o"
+ ],
+ "mh131": [
+  "Đi muộn",
+  "Việc đến công ty muộn hơn so với giờ bắt đầu công việc.",
+  "o"
+ ],
+ "mh132": [
+  "Về sớm",
+  "Việc về sớm hơn so với giờ kết thúc công việc.",
+  "o"
+ ],
+ "mh133": [
+  "Không làm việc",
+  "Là việc không làm việc vào thời gian phải làm việc.",
+  "o"
+ ],
+ "mh134": [
+  "Chế độ tuyệt đối nghỉ 2 ngày hàng tuần",
+  "Cơ chế 1 tuần nghỉ 2 ngày cho hàng tuần",
+  "o"
+ ],
+ "mh135": [
+  "Làm việc thông thường",
+  "Cách làm việc thông thường.",
+  "o"
+ ],
+ "mh136": [
+  "Làm việc theo ca",
+  "Làm việc luân phiên với người khác.",
+  "o"
+ ],
+ "mh137": [
+  "Ca ngày",
+  "Làm việc vào ban ngày.",
+  "o"
+ ],
+ "mh138": [
+  "Ca trước đêm",
+  "Làm việc vào thời gian gần đêm.",
+  "o"
+ ],
+ "mh139": [
+  "Ca đêm",
+  "Làm việc vào ban đêm.",
+  "o"
+ ],
+ "mh140": [
+  "Bảng phân ca",
+  "Bảng ghi ngày làm việc và thời gian làm việc cho trường hợp làm việc luân phiên.",
+  "o"
+ ],
+ "mh141": [
+  "Ngày sau ngày không có ca trực",
+  "Ngày làm việc tiếp theo ngày không làm việc (ngày hết ca trực) do đã làm việc đến sáng theo cách làm việc phân ca.",
+  "o"
+ ],
+ "mh142": [
+  "Chế độ thời gian lao động thay đổi",
+  "Cách làm việc điều chỉnh tổng số thời gian làm việc theo tháng hoặc năm bằng cách giảm thời gian làm việc khi không bận và tăng thời gian làm việc khi bận.",
+  "o"
+ ],
+ "mh143": [
+  "Thời gian lao động luật định",
+  "Thời gian làm việc được quy định theo pháp luật.",
+  "o"
+ ],
+ "mh144": [
+  "Lao động ngoài giờ",
+  "Là việc làm việc ngoài thời gian làm việc quy định.",
+  "o"
+ ],
+ "mh145": [
+  "Thời gian lao động quy định hàng tuần",
+  "Thời gian làm việc trong 1 tuần do công ty quy định.",
+  "o"
+ ],
+ "mh146": [
+  "Biện pháp giảm gánh nặng đi làm",
+  "Các biện pháp giúp việc đi làm được dễ dàng hơn bằng cách tránh thời gian đông người khi lên tàu, v.v. để đến công ty, v.v.",
+  "o"
+ ],
+ "mh147": [
+  "Đi làm lệch giờ",
+  "Việc thay đổi giờ bắt đầu và giờ kết thúc công việc trong khoảng thời gian làm việc do công ty quy định.",
+  "o"
+ ],
+ "mh148": [
+  "Số giờ lao động trung bình quy định",
+  "Số giờ làm việc trung bình do công ty quy định cho một khoảng thời gian nhất định.",
+  "o"
+ ],
+ "mh149": [
+  "Ra ngoài làm việc riêng",
+  "Việc đi ra ngoài công ty để làm việc riêng của bản thân.",
+  "o"
+ ],
+ "mh150": [
+  "Chế độ thời gian linh hoạt",
+  "Là cơ chế theo đó người lao động có thể tự quyết định giờ bắt đầu công việc và giờ kết thúc công việc.",
+  "o"
+ ],
+ "mh151": [
+  "Phạm vi thời gian linh hoạt",
+  "Là khoảng thời gian có thể tự quyết định khi nào bắt đầu công việc và khi nào kết thúc công việc khi áp dụng chế độ thời gian linh hoạt.",
+  "o"
+ ],
+ "mh152": [
+  "Chế độ quy định về thời gian lao động bên ngoài địa điểm làm việc",
+  "Là chế độ được cho là thời gian đã làm việc trong trường hợp công ty khó có thể biết được người lao động đã làm việc bao nhiêu thời gian do người lao động đó đã tiến hành công việc ở bên ngoài nơi làm việc.",
+  "o"
+ ],
+ "mh153": [
+  "Chế độ thời gian lao động tùy ý",
+  "Thời gian được cho là đã làm việc theo quy định của công ty không phụ thuộc vào thời gian làm việc thực tế của người lao động.",
+  "o"
+ ],
+ "mh154": [
+  "Thời gian cơ bản",
+  "Là khoảng thời gian người lao động nhất thiết phải làm việc.",
+  "o"
+ ],
+ "mh155": [
+  "Số ngày làm việc quy định hàng tuần",
+  "Số ngày làm việc trong 1 tuần do công ty quy định.",
+  "o"
+ ],
+ "mh156": [
+  "Thời gian lao động ngoài giờ quy định trung bình hàng tháng",
+  "Số giờ đã làm việc ngoài thời gian làm việc do công ty quy định (thời gian lao động quy định) bình quân trong 1 tháng.",
+  "o"
+ ],
+ "mh157": [
+  "Chế độ giờ làm việc rút ngắn",
+  "Cơ chế cho phép rút ngắn thời gian làm việc của người lao động để chăm con hoặc chăm sóc điều dưỡng.",
+  "o"
+ ],
+ "mh158": [
+  "Nghỉ phép",
+  "Những ngày nghỉ mà người lao động có thể nhận được vào những ngày đáng ra họ phải làm việc.",
+  "o"
+ ],
+ "mh159": [
+  "Ngày bắt đầu tính",
+  "Là ngày đầu tiên khi tính số ngày.",
+  "o"
+ ],
+ "mh160": [
+  "Ngày lễ quốc gia",
+  "Các ngày lễ được quy định theo pháp luật.",
+  "o"
+ ],
+ "mh161": [
+  "Cuối năm và đầu năm mới",
+  "Đầu và cuối 1 năm.",
+  "o"
+ ],
+ "mh162": [
+  "Kỳ nghỉ hè",
+  "Nghỉ hè.",
+  "o"
+ ],
+ "mh163": [
+  "Ngày nghỉ thay",
+  "Việc hoán đổi ngày nghỉ và ngày làm việc trước ngày nghỉ.",
+  "o"
+ ],
+ "mh164": [
+  "Nghỉ bù",
+  "Việc lấy ngày khác làm ngày nghỉ bù khi đã làm việc vào ngày nghỉ (được nhận lương tính thêm phụ trội đặc biệt).",
+  "o"
+ ],
+ "mh165": [
+  "Lao động vào ngày nghỉ",
+  "Là việc làm việc vào ngày nghỉ theo quy định của pháp luật.",
+  "o"
+ ],
+ "mh166": [
+  "Ngày nghỉ theo luật định",
+  "Ngày nghỉ được quy định theo pháp luật.",
+  "o"
+ ],
+ "mh167": [
+  "Thai sản phụ",
+  "Phụ nữ đang có thai hoặc đã sinh con chưa đầy một năm.",
+  "o"
+ ],
+ "mh169": [
+  "Ngày lao động quy định",
+  "Ngày làm việc do công ty quy định.",
+  "o"
+ ],
+ "mh170": [
+  "Tỷ lệ đi làm",
+  "Tỷ lệ số ngày đã làm việc thực tế trên số ngày làm việc do công ty quy định.",
+  "o"
+ ],
+ "mh171": [
+  "Trước và sau khi sinh con",
+  "Trước khi sinh con và sau khi sinh con.",
+  "o"
+ ],
+ "mh172": [
+  "Luật Nghỉ làm chăm con hoặc chăm sóc người nhà",
+  "Bộ luật dành cho việc chăm con hoặc chăm sóc gia đình.",
+  "o"
+ ],
+ "mh173": [
+  "Chuyển tiếp",
+  "Việc chuyển những việc chưa kết thúc trong thời hạn đã quy định sang khoảng thời hạn tiếp theo.",
+  "o"
+ ],
+ "mh174": [
+  "Cộng dồn",
+  "Việc tính tổng hợp toàn bộ (ví dụ số ngày nghỉ, v.v.).",
+  "o"
+ ],
+ "mh175": [
+  "Nghỉ phép năm theo đơn vị giờ",
+  "Nghỉ được nhận lương. Có thể xin nghỉ theo từng 1 giờ chứ không phải từng 1 ngày.",
+  "o"
+ ],
+ "mh176": [
+  "Cấp",
+  "Việc cấp cho.",
+  "o"
+ ],
+ "mh177": [
+  "Quyền thay đổi thời kỳ",
+  "Việc công ty yêu cầu người lao động thay đổi ngày nghỉ được nhận lương mà người lao động đó muốn xin nghỉ sang nghỉ vào ngày khác.",
+  "o"
+ ],
+ "mh178": [
+  "Đa thai",
+  "Việc mang thai từ 2 con trở lên cùng lúc.",
+  "o"
+ ],
+ "mh179": [
+  "Thời gian chăm con",
+  "Thời gian dành để chăm con.",
+  "o"
+ ],
+ "mh180": [
+  "Nghỉ kinh nguyệt",
+  "Ngày nghỉ dành cho phụ nữ trong thời kỳ kinh nguyệt.",
+  "o"
+ ],
+ "mh183": [
+  "Nghỉ làm chăm con bệnh",
+  "Nghỉ để chăm sóc con đang bị bệnh.",
+  "o"
+ ],
+ "mh184": [
+  "Nghỉ hiếu hỉ",
+  "Nghỉ khi có lễ chúc mừng hoặc khi có người qua đời.",
+  "o"
+ ],
+ "mh185": [
+  "Nghỉ ốm",
+  "Nghỉ do ốm.",
+  "o"
+ ],
+ "mh186": [
+  "Bệnh tật",
+  "Ốm đau.",
+  "o"
+ ],
+ "mh187": [
+  "Nghỉ thay thế",
+  "Ngày nghỉ được nhận từ công ty vào tháng đã làm việc dài hơn số thời gian làm việc theo quy định của pháp luật.",
+  "o"
+ ],
+ "mh188": [
+  "Về quê",
+  "Việc trở về quê hương.",
+  "o"
+ ],
+ "mh189": [
+  "Ngày kỷ niệm thành lập",
+  "Ngày thành lập công ty.",
+  "o"
+ ],
+ "mh190": [
+  "Số ngày nghỉ phép có lương hàng năm sau 6 tháng vào làm việc",
+  "Số ngày nghỉ được nhận lương (nghỉ phép có lương) mà người lao động được hưởng sau 6 tháng kể từ ngày bắt đầu làm việc.",
+  "o"
+ ],
+ "mh191": [
+  "Số người nghỉ phép có lương trung bình",
+  "Số người trung bình đã nghỉ có được nhận lương (nghỉ phép có lương).",
+  "o"
+ ],
+ "mh192": [
+  "Số người nghỉ việc dài hạn chăm con",
+  "Số người nghỉ việc để chăm con.",
+  "o"
+ ],
+ "mh193": [
+  "Ngày nghỉ",
+  "Ngày nghỉ.",
+  "o"
+ ],
+ "mh194": [
+  "Nghỉ việc dài hạn",
+  "Việc người lao động nghỉ việc dài ngày khi có chỉ thị của công ty là 「hãy nghỉ việc」.",
+  "o"
+ ],
+ "mh195": [
+  "Số năm làm việc liên tục",
+  "Số năm làm việc tại cùng một công ty.",
+  "o"
+ ],
+ "mh196": [
+  "Thôi việc",
+  "Rời khỏi công ty.",
+  "o"
+ ],
+ "mh197": [
+  "Lý do",
+  "Lý do.",
+  "o"
+ ],
+ "mh198": [
+  "Thay đổi nhân sự",
+  "Việc thay đổi nơi làm việc hoặc nội dung công việc.",
+  "o"
+ ],
+ "mh199": [
+  "Trực thuộc",
+  "Việc trở thành thành viên của công ty.",
+  "o"
+ ],
+ "mh200": [
+  "Công ty liên kết",
+  "Công ty khác nằm trong tập đoàn của công ty.",
+  "o"
+ ],
+ "mh201": [
+  "Biệt phái",
+  "Được yêu cầu làm việc tại công ty khác theo mệnh lệnh của công ty nơi bản thân đang làm việc.",
+  "o"
+ ],
+ "mh202": [
+  "Thay đổi bố trí nhân sự",
+  "Việc thay đổi nơi làm việc.",
+  "o"
+ ],
+ "mh203": [
+  "Nghỉ việc dài hạn",
+  "Việc người lao động nghỉ việc trong thời gian dài do hoàn cảnh của bản thân.",
+  "o"
+ ],
+ "mh204": [
+  "Trở lại làm việc",
+  "Việc trở lại với công việc đã nghỉ.",
+  "o"
+ ],
+ "mh205": [
+  "Lý do nghỉ việc dài hạn",
+  "Lý do nghỉ việc trong thời gian dài.",
+  "o"
+ ],
+ "mh206": [
+  "Phiếu chẩn đoán của bác sĩ",
+  "Phiếu chẩn đoán của bác sĩ.",
+  "o"
+ ],
+ "mh207": [
+  "Ngày phát lệnh",
+  "Ngày công ty đưa ra các mệnh lệnh có liên quan đến bạn.",
+  "o"
+ ],
+ "mh208": [
+  "Nghỉ hưu",
+  "Độ tuổi mà người lao động thôi việc khi phải thôi việc vì lý do tuổi tác.",
+  "o"
+ ],
+ "mh209": [
+  "Tuyển dụng tiếp",
+  "Việc công ty tiếp tục tuyển dụng người sau khi đã đến tuổi phải thôi việc.",
+  "o"
+ ],
+ "mh210": [
+  "Đơn xin thôi việc",
+  "Giấy tờ để người lao động nêu nguyện vọng muốn thôi việc.",
+  "o"
+ ],
+ "mh211": [
+  "Căn cứ theo yêu cầu đó",
+  "Khi người lao động yêu cầu công ty.",
+  "o"
+ ],
+ "mh212": [
+  "Giấy chứng nhận thôi việc",
+  "Giấy chứng nhận có ghi lý do thôi việc, v.v.",
+  "o"
+ ],
+ "mh213": [
+  "Sa thải",
+  "Việc yêu cầu thôi việc.",
+  "o"
+ ],
+ "mh214": [
+  "Tình hình làm việc",
+  "Tình trạng của người đó khi làm việc.",
+  "o"
+ ],
+ "mh215": [
+  "Xấu",
+  "Việc không tốt.",
+  "o"
+ ],
+ "mh216": [
+  "Sa thải kỷ luật",
+  "Việc xử phạt buộc thôi việc.",
+  "o"
+ ],
+ "mh217": [
+  "Sự cố thiên tai",
+  "Các thảm họa khác nhau do thiên nhiên gây ra.",
+  "o"
+ ],
+ "mh218": [
+  "Trợ cấp thông báo sa thải",
+  "Là việc nếu công ty không thông báo chậm nhất là trước 30 ngày về việc buộc người lao động phải thôi việc thì công ty phải thanh toán khoản tiền ít nhất là bằng 30 ngày tiền lương trung bình thay cho việc thông báo buộc thôi việc.",
+  "o"
+ ],
+ "mh219": [
+  "Giấy chứng nhận lý do sa thải",
+  "Giấy chứng nhận có ghi về việc khi công ty buộc người lao động thôi việc, công ty đã buộc người đó phải thôi việc vì lý do gì.",
+  "o"
+ ],
+ "mh220": [
+  "Tham ô",
+  "Việc tự tiện lấy tiền hoặc đồ vật của người khác mà bản thân đang giữ hộ thành sở hữu của bản thân.",
+  "o"
+ ],
+ "mh221": [
+  "Gây thương tích",
+  "Việc làm người khác bị chấn thương.",
+  "o"
+ ],
+ "mh222": [
+  "Nghỉ làm không phép",
+  "Việc nghỉ mà không liên lạc với công ty vào ngày lẽ ra phải đi làm.",
+  "o"
+ ],
+ "mh223": [
+  "Tiền thôi việc",
+  "Khoản tiền được nhận khi thôi việc.",
+  "o"
+ ],
+ "mh224": [
+  "Lý do riêng",
+  "Tình hình, nguyện vọng của người lao động.",
+  "o"
+ ],
+ "mh225": [
+  "Tái tuyển dụng",
+  "Tiếp tục tuyển dụng người đã quá tuổi thôi việc.",
+  "o"
+ ],
+ "mh226": [
+  "Gia quyến",
+  "Gia đình của người đã qua đời.",
+  "o"
+ ],
+ "mh227": [
+  "Người thừa kế tài sản",
+  "Người nhận tiền hoặc đồ vật của người đã qua đời.",
+  "o"
+ ],
+ "mh228": [
+  "Kỷ luật",
+  "Việc xử phạt của công ty đối với người lao động đã làm điều sai trái bằng cách giảm tiền lương của người đó hoặc không cho người đó làm việc trong một khoảng thời gian.",
+  "o"
+ ],
+ "mh229": [
+  "Hoàn cảnh",
+  "Lý do thực sự khi thực hiện một hành động nào đó.",
+  "o"
+ ],
+ "mh230": [
+  "Khiển trách",
+  "Việc trách mắng người đã làm điều sai trái.",
+  "o"
+ ],
+ "mh231": [
+  "Bản kiểm điểm",
+  "Bản viết về việc hối lỗi khi mắc sai lầm trong công việc.",
+  "o"
+ ],
+ "mh232": [
+  "Giảm lương",
+  "Việc giảm tiền lương.",
+  "o"
+ ],
+ "mh233": [
+  "Đình chỉ đi làm",
+  "Việc không cho đi làm trong một khoảng thời gian và cũng không thanh toán tiền lương cho khoảng thời gian đó.",
+  "o"
+ ],
+ "mh234": [
+  "Giả mạo lý lịch",
+  "Việc người lao động có dối trá lớn về trường học của bản thân hoặc công việc đã từng làm trước đó (lý lịch).",
+  "o"
+ ],
+ "mh235": [
+  "Cố ý hoặc sơ suất nghiêm trọng",
+  "Cố ý hoặc mắc sai lầm lớn.",
+  "o"
+ ],
+ "mh236": [
+  "Vụ việc phạm tội",
+  "Hành động vi phạm luật hình sự hoặc các luật khác có quy định các hình phạt.",
+  "o"
+ ],
+ "mh237": [
+  "Tư cách đạo đức xấu",
+  "Việc luôn có hành vi xấu.",
+  "o"
+ ],
+ "mh238": [
+  "Trật tự trong công ty",
+  "Quy tắc tại công ty.",
+  "o"
+ ],
+ "mh239": [
+  "Kỷ cương",
+  "Những việc phải tuân thủ để cải thiện sinh hoạt tại công ty.",
+  "o"
+ ],
+ "mh240": [
+  "Hành vi sai trái",
+  "Hành vi không tốt hoặc hành vi vi phạm pháp luật.",
+  "o"
+ ],
+ "mh241": [
+  "Phỉ báng lăng mạ",
+  "Việc nói xấu người khác làm tổn thương người đó.",
+  "o"
+ ],
+ "mh242": [
+  "Uy tín danh dự",
+  "Những việc mà người đó tự hào, muốn bảo vệ và những việc mà người khác tin tưởng ở người đó.",
+  "o"
+ ],
+ "mh243": [
+  "Khả năng phải chuyển chỗ làm",
+  "Là việc nơi làm việc có thể sẽ thay đổi.",
+  "o"
+ ],
+ "mh244": [
+  "Lương hưu đóng góp xác định",
+  "Cơ chế lương hưu theo đó công ty sẽ bỏ ra từng chút tiền cho người lao động và người lao động sử dụng cơ chế này để tự bản thân quyết định số tiền được nhận sau khi người đó đã có tuổi và thôi việc.",
+  "o"
+ ],
+ "mh245": [
+  "Lương hưu trợ cấp xác định",
+  "Cơ chế lương hưu theo đó số tiền mà người lao động được nhận từ công ty sau khi đã có tuổi và thôi việc đã được quy định sẵn và công ty sẽ tích lũy từng chút tiền cho việc đó để người lao động có thể nhận sau khi đã có tuổi và thôi việc.",
+  "o"
+ ],
+ "mh246": [
+  "Gia hạn làm việc",
+  "Cơ chế theo đó công ty tiếp tục tuyển dụng người lao động đã đến tuổi thôi việc (nghỉ hưu).",
+  "o"
+ ],
+ "mh247": [
+  "Phiếu thôi việc",
+  "Giấy tờ cần thiết để người đã thôi việc nhận tiền khi mất việc (trợ cấp thất nghiệp). Hello Work sẽ trao cho công ty và công ty sẽ trao cho bạn.",
+  "o"
+ ],
+ "mh248": [
+  "Phụ cấp thất nghiệp (trợ cấp thất nghiệp)",
+  "Khoản tiền mà người lao động được nhận khi mất việc, để có thể tìm kiếm công việc mới mà không phải lo lắng về cuộc sống.",
+  "o"
+ ],
+ "mh249": [
+  "Thương tật hoặc bệnh tật",
+  "Chấn thương hoặc bệnh tật.",
+  "o"
+ ],
+ "mh250": [
+  "Điều dưỡng",
+  "Nghỉ việc để điều trị chấn thương hoặc bệnh tật.",
+  "o"
+ ],
+ "mh251": [
+  "Phục hồi",
+  "Việc điều trị khỏi bệnh tật hoặc chấn thương.",
+  "o"
+ ],
+ "mh252": [
+  "Người quản lý an toàn và vệ sinh",
+  "Người quản lý nơi làm việc sao cho người lao động có thể làm việc một cách an toàn và khỏe mạnh.",
+  "o"
+ ],
+ "mh253": [
+  "Trợ cấp bồi thường thương tật hoặc bệnh tật",
+  "Khoản tiền được nhận từ nhà nước dành cho những người bị chấn thương hoặc bệnh tật ở mức nặng và đã quá 1 năm 6 tháng kể từ ngày điều trị mà vẫn không khỏi.",
+  "o"
+ ],
+ "mh254": [
+  "Bồi thường ngừng việc",
+  "Việc công ty thanh toán cho người lao động khoản tiền tương đương với khoản tiền mà người bị chấn thương hoặc bệnh tật có thể được nhận từ nhà nước khi người bị chấn thương hoặc bệnh tật đó đã quá 3 năm kể từ ngày điều trị mà vẫn không khỏi (trợ cấp bồi thường thương tật hoặc bệnh tật).",
+  "o"
+ ],
+ "mh255": [
+  "Vệ sinh an toàn",
+  "Là việc được làm việc an toàn và khỏe mạnh.",
+  "o"
+ ],
+ "mh256": [
+  "Tai nạn lao động",
+  "Việc người đang làm việc bị chấn thương hoặc bệnh tật do công việc.",
+  "o"
+ ],
+ "mh257": [
+  "Máy móc thiết bị",
+  "Máy móc sử dụng trong công việc.",
+  "o"
+ ],
+ "mh258": [
+  "Kiểm tra trước khi làm việc",
+  "Việc kiểm tra máy móc, v.v. sử dụng trong công việc trước khi làm việc.",
+  "o"
+ ],
+ "mh259": [
+  "Thiết bị an toàn",
+  "Là các cơ cấu được gắn vào máy móc, v.v. để tránh cho người lao động không bị chấn thương, v.v.",
+  "o"
+ ],
+ "mh260": [
+  "Dụng cụ bảo hộ",
+  "Những dụng cụ để mặc, đội, đi vào chân để bảo vệ cơ thể.",
+  "o"
+ ],
+ "mh261": [
+  "Hít khói thuốc thụ động",
+  "Việc hít khói thuốc lá do người khác hút thuốc.",
+  "o"
+ ],
+ "mh262": [
+  "Khu vực cấm vào",
+  "Nơi không được vào.",
+  "o"
+ ],
+ "mh263": [
+  "Khu vực cấm đi lại",
+  "Nơi không được đi qua.",
+  "o"
+ ],
+ "mh264": [
+  "Sắp xếp dọn dẹp",
+  "Việc dọn dẹp khu vực xung quanh bản thân.",
+  "o"
+ ],
+ "mh265": [
+  "Cửa thoát hiểm",
+  "Cửa ra mà mọi người sử dụng để thoát ra khi xảy ra thiên tai hoặc sự cố.",
+  "o"
+ ],
+ "mh266": [
+  "Thiết bị chữa cháy",
+  "Dụng cụ để dập lửa.",
+  "o"
+ ],
+ "mh267": [
+  "Hỏa hoạn",
+  "Cháy nhà.",
+  "o"
+ ],
+ "mh268": [
+  "Thảm họa bất thường",
+  "Thảm họa đặc biệt. Ví dụ như động đất, sóng rất cao (sóng thần), gió rất mạnh (gió giật), bão, v.v.",
+  "o"
+ ],
+ "mh269": [
+  "Biện pháp ứng biến",
+  "Việc nghĩ ra phương pháp phù hợp với tình hình lúc đó.",
+  "o"
+ ],
+ "mh270": [
+  "Khám sức khỏe",
+  "Khám để kiểm tra xem có khỏe mạnh hay không.",
+  "o"
+ ],
+ "mh271": [
+  "Công việc có hại",
+  "Công việc có ảnh hưởng xấu đến cơ thể.",
+  "o"
+ ],
+ "mh272": [
+  "Hướng dẫn trực diện",
+  "Việc gặp người lao động, tìm hiểu tình hình tâm trí và cơ thể của người đó và hướng dẫn phương pháp để đưa về tình trạng tốt.",
+  "o"
+ ],
+ "mh273": [
+  "Kiểm tra mức độ căng thẳng",
+  "Bài kiểm tra để khảo sát mức độ căng thẳng của người lao động.",
+  "o"
+ ],
+ "mh274": [
+  "Giáo dục an toàn và vệ sinh",
+  "Giáo dục để người lao động làm việc một cách an toàn và khỏe mạnh.",
+  "o"
+ ],
+ "mh275": [
+  "Bồi thường thảm họa",
+  "Việc công ty bồi thường bằng tiền, v.v. khi người lao động bị chấn thương, bệnh tật hoặc tử vong trong công việc.",
+  "o"
+ ],
+ "mh277": [
+  "Trợ cấp bồi thường điều trị y tế",
+  "Khoản tiền được nhận từ Bảo hiểm tai nạn lao động để chữa trị bệnh tật hoặc đi bệnh viện khi người lao động bị chấn thương hoặc bệnh tật trong công việc hoặc trên đường đi làm.",
+  "o"
+ ],
+ "mh278": [
+  "Trợ cấp bồi thường nghỉ việc",
+  "Khoản tiền được nhận từ Bảo hiểm tai nạn lao động khi người lao động bị chấn thương hoặc bệnh tật trong công việc, hoặc trên đường đi làm, phải nghỉ việc và không được nhận lương.",
+  "o"
+ ],
+ "mh279": [
+  "Trợ cấp bồi thường khuyết tật",
+  "Khoản tiền được nhận từ Bảo hiểm tai nạn lao động khi người lao động bị chấn thương hoặc bệnh tật trong công việc hoặc trên đường đi làm và để lại khuyết tật về thể chất hoặc tinh thần, v.v.",
+  "o"
+ ],
+ "mh280": [
+  "Trợ cấp bồi thường chăm sóc điều dưỡng",
+  "Khoản tiền được nhận từ Bảo hiểm tai nạn lao động khi người lao động bị chấn thương hoặc bệnh tật trong công việc hoặc trên đường đi làm và cần được chăm sóc điều dưỡng.",
+  "o"
+ ],
+ "mh281": [
+  "Trợ cấp bồi thường gia quyến",
+  "Khoản tiền gia đình của người lao động bị tử vong do tai nạn, v.v. trong công việc hoặc trên đường đi làm được nhận từ Bảo hiểm tai nạn lao động khi người lao động tử vong.",
+  "o"
+ ],
+ "mh282": [
+  "Phí tang lễ",
+  "Khoản tiền mà gia đình của người lao động bị tử vong do tai nạn, v.v. trong công việc hoặc trên đường đi làm đã thanh toán cho tang lễ (buổi lễ tổ chức khi có người qua đời) và được nhận từ Bảo hiểm tai nạn lao động khi người lao động tử vong.",
+  "o"
+ ],
+ "mh283": [
+  "Trợ cấp khám sức khỏe lần hai, v.v.",
+  "Cơ chế dành cho người lao động bị kết quả xấu khi khám tại công ty, để kiểm tra (khám sức khỏe) xem có khỏe mạnh hay không có thể kiểm tra miễn phí lại một lần nữa.",
+  "o"
+ ],
+ "mh284": [
+  "Quấy rối quyền lực",
+  "Việc người có vị trí cao hơn trong công việc hoặc trong mối quan hệ, v.v. sử dụng vị trí đó để có những cách nói hoặc cách làm mạnh mẽ quá mức cần thiết hoặc mang tính xúc phạm khiến cho môi trường làm việc của người khác trở nên tồi tệ.",
+  "o"
+ ],
+ "mh285": [
+  "Lạm quyền(chèn ép)",
+  "Nghĩa là quấy rối quyền lực. Việc người có vị trí cao hơn trong công việc hoặc trong mối quan hệ, v.v. sử dụng vị trí đó để có những cách nói hoặc cách làm mạnh mẽ quá mức cần thiết hoặc mang tính xúc phạm khiến cho môi trường làm việc của người khác trở nên tồi tệ.",
+  "o"
+ ],
+ "mh286": [
+  "Mối quan hệ ưu thế",
+  "Ở vị trí cao hơn.",
+  "o"
+ ],
+ "mh287": [
+  "Môi trường làm việc",
+  "Môi trường của nơi làm việc.",
+  "o"
+ ],
+ "mh288": [
+  "Quấy rối tình dục",
+  "Việc có cách nói hoặc cách làm có vẻ liên quan đến tình dục, khiến cho những người lao động khác cảm thấy khó chịu hoặc khiến cho môi trường làm việc trở nên tồi tệ.",
+  "o"
+ ],
+ "mh289": [
+  "Quấy rối tình dục(Sekuhara)",
+  "Nghĩa là quấy rối tình dục. Việc có cách nói hoặc cách làm có vẻ liên quan đến tình dục khiến cho những người lao động khác cảm thấy khó chịu hoặc khiến cho môi trường làm việc trở nên tồi tệ.",
+  "o"
+ ],
+ "mh290": [
+  "Ngôn từ và hành vi tình dục",
+  "Cách nói hoặc cách làm có vẻ liên quan đến tình dục.",
+  "o"
+ ],
+ "mh291": [
+  "Quấy rối thai sản(Matahara)",
+  "Nghĩa là gây khó dễ cho người mới sinh nở quay lại làm việc. Việc có cách nói hoặc hành vi đối với việc mang thai hoặc sinh con, hoặc khi người lao động sử dụng hoặc định sử dụng các chế độ của công ty dành cho khi mang thai, sinh con hoặc nuôi con, có cách nói hoặc hành vi đối với việc đó khiến cho môi trường làm việc của người đó trở nên tồi tệ.",
+  "o"
+ ],
+ "mh292": [
+  "Xu hướng tình dục",
+  "Chọn đối tượng yêu đương là người thuộc giới tính nào.",
+  "o"
+ ],
+ "mh293": [
+  "Giới tính tự giác",
+  "Muốn sống theo giới tính nào.",
+  "o"
+ ],
+ "mh295": [
+  "Thời gian lưu trú",
+  "Khoảng thời gian người nước ngoài được phép ở Nhật Bản. Ngày cuối cùng của thời gian lưu trú được gọi là 「Thời hạn lưu trú」.",
+  "o"
+ ],
+ "mh296": [
+  "Kỹ thuật ・Tri thức nhân văn ・ Nghiệp vụ quốc tế (Gijinkoku)",
+  "Tư cách lưu trú cho phép người nước ngoài làm việc bằng cách sử dụng các kiến ​​thức và khả năng ngoại ngữ đã học tại trường đại học hoặc trường chuyên môn. Ví dụ công việc của kỹ sư, phiên dịch, nhà thiết kế, v.v.",
+  "o"
+ ],
+ "mh297": [
+  "Kỹ năng",
+  "Tư cách lưu trú cho phép người nước ngoài làm việc tại Nhật Bản bằng cách sử dụng kỹ năng đặc biệt. Ví dụ như đầu bếp (người chế biến đồ ăn), phi công lái máy bay, v.v.",
+  "o"
+ ],
+ "mh298": [
+  "Kiến thức chuyên môn cao",
+  "Tư cách lưu trú cho phép người nước ngoài có năng lực cao làm việc tại Nhật Bản. Tư cách lưu trú này có loại số 1 và loại số 2. Những người có tư cách lưu trú số 1 (i) có thể làm nghiên cứu hoặc giáo dục, những người có tư cách lưu trú số 1 (ro) có thể làm những công việc sử dụng kiến thức và kỹ thuật về khoa học tự nhiên (ví dụ như toán học hoặc vật lý) hoặc khoa học nhân văn (ví dụ như văn học hoặc lịch sử), và những người có tư cách lưu trú số 1 (ha) có thể điều hành công ty, v.v. Người có tư cách lưu trú loại này có thể dễ dàng được cấp quyền vĩnh trú. Sau khi kết thúc thời gian của tư cách lưu trú số 1 sẽ được chuyển sang số 2 và sẽ có nhiều việc được phép làm hơn loại số 1. Người đã có tư cách lưu trú số 1 và đã làm việc dài hơn 3 năm có thể lấy tư cách lưu trú số 2.",
+  "o"
+ ],
+ "mh299": [
+  "Kỹ năng đặc định",
+  "Tư cách lưu trú cho phép người nước ngoài có kiến ​​thức và kỹ thuật về các ngành nghề mà Nhật Bản đang thiếu người lao động (lĩnh vực ngành nghề đặc định) được làm việc tại Nhật Bản. Tư cách lưu trú này có loại số 1 và loại số 2. Loại số 1 cho phép người nước ngoài đã thi đỗ kỳ thi của 14 lĩnh vực ngành nghề đặc định do nhà nước quy định (chăm sóc điều dưỡng, ngành sản xuất, xây dựng, dịch vụ lưu trú, nông nghiệp, ngành phục vụ ăn uống, v.v.) hoặc đã hoàn thành tốt khóa Thực tập kỹ năng số 2, được phép làm việc trong các lĩnh vực này. Loại số 2 cho phép người nước ngoài có kỹ thuật và năng lực cao trong 2 lĩnh vực ngành nghề đặc định do nhà nước quy định (xây dựng và đóng tàu, công nghiệp hàng hải) được làm việc trong các lĩnh vực này.",
+  "o"
+ ],
+ "mh300": [
+  "Thực tập kỹ năng",
+  "Tư cách lưu trú cho phép vừa làm việc vừa học hỏi kiến thức và kỹ thuật tại Nhật Bản. Tư cách lưu trú này có loại số 1, loại số 2 và loại số 3. Những người này thường học tập tại nơi hỗ trợ Thực tập sinh kỹ năng và các công ty tuyển dụng Thực tập sinh kỹ năng (được gọi là Nghiệp đoàn) sau đó vào làm việc tại công ty của Nhật Bản (được gọi là Tổ chức thực hiện đào tạo ).",
+  "o"
+ ],
+ "mh301": [
+  "Tổ chức thực hiện đào tạo",
+  "Các công ty tuyển dụng người nước ngoài (Thực tập sinh kỹ năng) vào làm việc để học hỏi kiến thức và kỹ thuật tại Nhật Bản. Các công ty này còn được gọi là Doanh nghiệp tiếp nhận.",
+  "o"
+ ],
+ "mh302": [
+  "Nghiệp đoàn",
+  "Đơn vị tiếp nhận người nước ngoài (Thực tập sinh kỹ năng) đến làm việc để học hỏi kiến thức và kỹ thuật tại Nhật Bản, hỗ trợ Thực tập sinh kỹ năng và các công ty tuyển dụng Thực tập sinh kỹ năng.",
+  "o"
+ ],
+ "mh303": [
+  "Cơ quan phái cử",
+  "Đơn vị nước ngoài thu nhận người nước ngoài (Thực tập sinh kỹ năng) làm việc để học hỏi kiến ​​thức và kỹ thuật tại Nhật Bản và gửi họ đến Nhật Bản.",
+  "o"
+ ],
+ "mh304": [
+  "Người vĩnh trú",
+  "Tư cách lưu trú cho phép sống mãi mãi ở Nhật Bản.",
+  "o"
+ ],
+ "mh305": [
+  "Vợ (chồng), v.v. của người Nhật",
+  "Tư cách lưu trú cho phép chồng, vợ, con, v.v. của người Nhật được ở Nhật Bản.",
+  "o"
+ ],
+ "mh306": [
+  "Vợ (chồng), v.v. của Người vĩnh trú",
+  "Tư cách lưu trú cho phép chồng, vợ, con, v.v. của người nước ngoài (Người vĩnh trú) có thể sống mãi mãi ở Nhật Bản.",
+  "o"
+ ],
+ "mh307": [
+  "Người định cư",
+  "Tư cách lưu trú cho phép người nước ngoài sống tại Nhật Bản trong một thời gian nhất định vì một lý do đặc biệt. Ví dụ những người cháu, v.v. của người Nhật từ xưa đã rời Nhật Bản đi nước ngoài và sinh sống tại nước ngoài có thể nhận tư cách lưu trú này.",
+  "o"
+ ],
+ "mh308": [
+  "Hoạt động đặc định",
+  "Tư cách lưu trú do Bộ trưởng Bộ Tư pháp chỉ định các hoạt động được phép thực hiện đối với từng người nước ngoài không có bất kỳ tư cách lưu trú nào khác. Ví dụ như người làm việc tại nhà của Cán bộ ngoại giao (người đại diện cho quốc gia nước ngoài và làm việc cho đất nước đó tại Nhật Bản) hoặc người làm việc trong kỳ nghỉ, v.v. có thể nhận tư cách lưu trú này.",
+  "o"
+ ],
+ "mh309": [
+  "Du học",
+  "Tư cách lưu trú cho phép người nước ngoài đến học tập (du học) tại trường của Nhật Bản từ nước ngoài.",
+  "o"
+ ],
+ "mh310": [
+  "Cư trú theo gia đình",
+  "Tư cách lưu trú cho phép các thành viên trong gia đình của người có tư cách lưu trú ở Nhật Bản được ở Nhật Bản.",
+  "o"
+ ],
+ "mh311": [
+  "Working Holiday (Woholi) (Kỳ nghỉ làm việc)",
+  "Nếu giữa hai nước đã có cam kết thì người dân của họ có thể vừa nghỉ ngơi dài hạn vừa được phép làm việc để kiếm sống tại nước kia. Cơ chế này được gọi là Working Holiday (Woholi).",
+  "o"
+ ],
+ "mh312": [
+  "Giấy chứng nhận tư cách lưu trú",
+  "Giấy tờ chứng nhận cho người nước ngoài trước khi đến Nhật Bản về việc người đó sẽ được chấp nhận tư cách lưu trú ngay sau khi đến Nhật Bản. Công ty tiếp nhận người nước ngoài hoặc người có liên quan đến người nước ngoài có thể thay mặt bản thân người nước ngoài làm thủ tục xin cấp tại Nyukan và nhận tư cách lưu trú này.",
+  "o"
+ ],
+ "mh313": [
+  "Thị thực (Visa)",
+  "Giấy tờ để quốc gia mà người nước ngoài định nhập cảnh xác nhận việc hộ chiếu mà người nước ngoài đó đang mang không có vấn đề gì và người nước ngoài đó có thể vào quốc gia đó mà không có vấn đề gì.",
+  "o"
+ ],
+ "mh314": [
+  "Lĩnh vực ngành nghề đặc định",
+  "Các ngành nghề trong lĩnh vực thiếu người lao động nếu chỉ sử dụng người Nhật. Có thể làm việc bằng tư cách lưu trú Kỹ năng đặc định tại các công ty có công việc trong lĩnh vực này.",
+  "o"
+ ],
+ "mh315": [
+  "Xin cấp phép thay đổi tư cách lưu trú",
+  "Việc người nước ngoài đăng ký khi muốn thay đổi tư cách (tư cách lưu trú) ở Nhật Bản .",
+  "o"
+ ],
+ "mh316": [
+  "Gia hạn (xin cấp phép gia hạn thời gian lưu trú)",
+  "Việc xin cấp phép gia hạn thời gian lưu trú. Việc gia hạn này sẽ cho phép người nước ngoài tiếp tục ở lại Nhật Bản lâu hơn, trước khi kết thúc thời gian (thời gian lưu trú) được phép ở Nhật Bản.",
+  "o"
+ ],
+ "mh317": [
+  "Người đại diện hợp pháp",
+  "Người thay thế cho đương sự được pháp luật chấp nhận.",
+  "o"
+ ],
+ "mh318": [
+  "Người xin cấp phép",
+  "Người đăng ký làm thủ tục nào đó.",
+  "o"
+ ],
+ "mh320": [
+  "Giấy chứng nhận tư cách lao động",
+  "Giấy chứng nhận có ghi về việc người nước ngoài khi làm việc tại Nhật Bản sẽ được phép làm công việc nào.",
+  "o"
+ ],
+ "mh321": [
+  "Nyukan",
+  "Là Cục quản lý cư trú xuất nhập cảnh. Cơ quan hành chính quản lý người nước ngoài ra vào Nhật Bản.",
+  "o"
+ ],
+ "mh322": [
+  "Người lao động bán thời gian",
+  "Những người có thời gian làm việc trong 1 tuần theo quy định của pháp luật ngắn hơn cả người làm việc đến giờ làm việc dài nhất trong số giờ làm việc đã được quy định theo Nội quy lao động của công ty đó.",
+  "o"
+ ],
+ "mh323": [
+  "Chuyển đổi",
+  "Việc thay đổi sang loại khác.",
+  "o"
+ ],
+ "mh324": [
+  "Hợp đồng lao động có thời hạn",
+  "Hợp đồng có quy định thời hạn làm việc.",
+  "o"
+ ],
+ "mh325": [
+  "Hợp đồng lao động vô thời hạn",
+  "Hợp đồng không quy định ngày kết thúc thời hạn làm việc.",
+  "o"
+ ],
+ "mh326": [
+  "Ngừng tuyển dụng",
+  "Việc công ty từ chối không cho phép người có quy định về thời hạn làm việc được tiếp tục làm việc sau khi kết thúc thời hạn đó.",
+  "o"
+ ],
+ "mh327": [
+  "Tổng thời gian hợp đồng",
+  "Tổng thời gian của hợp đồng làm việc.",
+  "o"
+ ],
+ "mh328": [
+  "Luật Biện pháp đặc biệt trong tuyển dụng có thời hạn",
+  "Đối với trường hợp người lao động có quy định về ngày kết thúc hợp đồng mà đang làm công việc đòi hỏi kiến ​​thức hoặc kỹ năng đặc biệt hoặc người lao động đã quá tuổi thôi việc (nghỉ hưu) theo quy định của công ty, Bộ luật này quy định kéo dài thời hạn có thể đăng ký thay đổi hợp đồng làm việc của các trường hợp này sang hợp đồng làm việc không quy định ngày kết thúc hợp đồng (tuyển dụng vô thời hạn).",
+  "o"
+ ],
+ "mh329": [
+  "Quyền đăng ký chuyển đổi sang hợp đồng vô thời hạn",
+  "Quyền người lao động có quy định về ngày kết thúc hợp đồng được đăng ký xin chuyển sang hợp đồng không có quy định về ngày kết thúc hợp đồng (tuyển dụng vô thời hạn).",
+  "o"
+ ],
+ "mh330": [
+  "Công việc có thời hạn đặc định",
+  "Công việc đòi hỏi kiến ​​thức và kỹ năng đặc biệt của người lao động và là công việc phải tốn khoảng thời gian ít nhất là 5 năm để hoàn thành.",
+  "o"
+ ],
+ "mh331": [
+  "Điều kiện gia hạn hợp đồng",
+  "Những nội dung cần thiết để tiếp tục hợp đồng sau khi hợp đồng với công ty kết thúc.",
+  "o"
+ ],
+ "mh332": [
+  "Nơi phái cử đi",
+  "Công ty mà nhân viên phái cử (người ký hợp đồng với công ty phái cử và làm việc tại công ty khác) ký hợp đồng.",
+  "o"
+ ],
+ "mh333": [
+  "Nơi phái cử đến",
+  "Công ty mà nhân viên phái cử thực tế làm việc sau khi được công ty đã ký hợp đồng (nơi phái cử đi) phái cử nhân viên đó.",
+  "o"
+ ],
+ "mh334": [
+  "Tuyển dụng trực tiếp",
+  "Việc công ty và người lao động trực tiếp ký kết hợp đồng và tuyển dụng người đó mà không thông qua nơi phái cử đi. Nhân viên chính thức, nhân viên hợp đồng, nhân viên bán thời gian và nhân viên làm thêm đều là tuyển dụng trực tiếp.",
+  "o"
+ ],
+ "mh336": [
+  "Tuyển dụng vô thời hạn",
+  "Việc công ty tuyển dụng người lao động mà không quy định ngày kết thúc thời gian làm việc.",
+  "o"
+ ],
+ "mh337": [
+  "Tuyển dụng có thời hạn",
+  "Việc công ty tuyển dụng người lao động có quy định về thời gian làm việc.",
+  "o"
+ ],
+ "mh339": [
+  "Làm việc",
+  "Công việc. Làm việc.",
+  "o"
+ ],
+ "mh340": [
+  "Luật Tiêu chuẩn lao động",
+  "Luật Tiêu chuẩn lao động. Luật pháp do nhà nước quy định để bảo vệ người lao động.",
+  "o"
+ ],
+ "mh341": [
+  "Người lao động",
+  "Người làm việc.",
+  "o"
+ ],
+ "mh342": [
+  "Phục vụ",
+  "Làm việc.",
+  "o"
+ ],
+ "mh343": [
+  "Năng suất công việc",
+  "Việc hoàn thành công việc sớm nhất có thể.",
+  "o"
+ ],
+ "mh344": [
+  "Trật tự nơi làm việc",
+  "Quy tắc trong công ty.",
+  "o"
+ ],
+ "mh345": [
+  "Nghĩa vụ tập trung vào công việc",
+  "Việc phải tập trung vào công việc.",
+  "o"
+ ],
+ "mh346": [
+  "Thỏa thuận quản lý lao động",
+  "Những cam kết đã được quy định giữa công đoàn lao động đại diện cho hơn nửa số người lao động hoặc giữa người lao động với công ty.",
+  "o"
+ ],
+ "mh347": [
+  "Người đại diện cho đa số người lao động",
+  "Người đại diện cho hơn nửa số người lao động.",
+  "o"
+ ],
+ "mh348": [
+  "Giám đốc Văn phòng giám sát tiêu chuẩn lao động",
+  "Người có cấp bậc cao nhất của cơ quan chịu trách nhiệm kiểm tra xem người lao động có đang được làm việc trong các điều kiện thích hợp hay không.",
+  "o"
+ ],
+ "mh349": [
+  "Chăm sóc sức khỏe bà mẹ",
+  "Những việc cần làm để bảo vệ sức khỏe cho phụ nữ làm việc khi đang mang thai và sau khi sinh con.",
+  "o"
+ ],
+ "mh350": [
+  "Trách nhiệm công việc",
+  "Trách nhiệm của người lao động.",
+  "o"
+ ],
+ "mh351": [
+  "Tranh chấp quan hệ lao động cá nhân",
+  "Xung đột giữa người lao động và người tuyển dụng liên quan đến vấn đề lao động, ví dụ như điều kiện làm việc, v.v.",
+  "o"
+ ],
+ "mh352": [
+  "Hòa giải",
+  "Việc đứng giữa các bên đối lập và giải quyết vấn đề.",
+  "o"
+ ],
+ "mh353": [
+  "Công đoàn lao động",
+  "Là tổ chức do những người lao động lập ra nhằm tự cải thiện môi trường làm việc và nâng cao vị thế của người lao động.",
+  "o"
+ ],
+ "mh354": [
+  "Tố cáo công ích",
+  "Việc thông báo cho bên ngoài biết việc công ty có hành vi vi phạm pháp luật hoặc làm điều sai trái. Tố cáo nội bộ.",
+  "o"
+ ],
+ "mh355": [
+  "Giáo dục đào tạo",
+  "Giáo dục và đào tạo do công ty tiến hành để phát triển năng lực mà người lao động sẽ sử dụng trong công việc.",
+  "o"
+ ],
+ "mh356": [
+  "Nghề phụ / nghề kèm theo",
+  "Làm việc tại cả các công ty khác, v.v.",
+  "o"
+ ],
+ "mh357": [
+  "Cung cấp sức lao động",
+  "Làm việc cho công ty mà bản thân đang làm việc.",
+  "o"
+ ],
+ "mh358": [
+  "Cạnh tranh",
+  "Việc cạnh tranh với các công ty khác đang làm công việc cùng loại với công ty của bản thân.",
+  "o"
+ ],
+ "mh359": [
+  "Địa điểm làm việc",
+  "Nơi làm việc.",
+  "o"
+ ],
+ "mh360": [
+  "Người sử dụng lao động",
+  "Công ty hoặc người có vị trí quan trọng trong công ty.",
+  "o"
+ ],
+ "mh361": [
+  "Thời hạn tuyển dụng",
+  "Khoảng thời gian công ty tuyển dụng người lao động.",
+  "o"
+ ],
+ "mh362": [
+  "Hình thức tuyển dụng",
+  "Loại hợp đồng ký kết giữa công ty và người lao động bao gồm nhân viên chính thức, nhân viên hợp đồng, nhân viên phái cử, nhân viên bán thời gian, v.v.",
+  "o"
+ ],
+ "mh363": [
+  "Nhân viên chính thức",
+  "Là người được công ty tuyển dụng theo hợp đồng không có quy định về thời hạn (hợp đồng vô thời hạn). Nhân viên này phải làm việc đến thời gian dài nhất trong thời gian được quy định tại quy tắc của công ty đó dành cho người lao động và công ty (Nội quy lao động).",
+  "o"
+ ],
+ "mh364": [
+  "Chế độ lương nghiệp vụ",
+  "Cơ chế quy định số tiền thanh toán phù hợp với nội dung công việc của người lao động.",
+  "o"
+ ],
+ "mh365": [
+  "Chế độ chức vụ",
+  "Cơ chế công ty giao vai trò quan trọng cho một số người bằng cách phân chia người lao động theo năng lực và công việc.",
+  "o"
+ ],
+ "mh366": [
+  "Chế độ lương theo năng lực",
+  "Cơ chế công ty thanh toán tiền lương theo năng lực làm việc của người lao động.",
+  "o"
+ ],
+ "mh367": [
+  "Chủ nghĩa thành quả",
+  "Việc công ty tăng lương hoặc giao vai trò quan trọng trong công ty cho người lao động theo thành quả trong công việc, v.v. của người đó.",
+  "o"
+ ],
+ "mh368": [
+  "Phúc lợi doanh nghiệp",
+  "Cơ chế theo đó công ty trợ giúp người lao động và gia đình họ bằng các khoản ngoài tiền lương.",
+  "o"
+ ],
+ "mh369": [
+  "Nhà ăn nhân viên",
+  "Nơi người lao động làm việc tại công ty đó ăn trong công ty.",
+  "o"
+ ],
+ "mh370": [
+  "Ký túc xá",
+  "Ngôi nhà nơi những người lao động của công ty cùng sống. Mỗi người lao động đều có khoảng không gian riêng.",
+  "o"
+ ],
+ "mh371": [
+  "Nhà ở của công ty",
+  "Ngôi nhà mà công ty cho người lao động thuê.",
+  "o"
+ ],
+ "mh372": [
+  "Ký túc xá sống chung",
+  "Ngôi nhà nơi người lao động ăn, ngủ cùng nhau.",
+  "o"
+ ],
+ "mh374": [
+  "Cân bằng công việc cuộc sống",
+  "Cân bằng tốt giữa công việc và cuộc sống.",
+  "o"
+ ],
+ "mh375": [
+  "Tuân thủ",
+  "Việc tuân thủ luật pháp, v.v.",
+  "o"
+ ],
+ "mh376": [
+  "Nghĩa vụ",
+  "Những việc phải làm.",
+  "o"
+ ],
+ "mh377": [
+  "Ngoài công việc",
+  "Những việc ngoài công việc.",
+  "o"
+ ],
+ "mh378": [
+  "Hết hạn",
+  "Kết thúc.",
+  "o"
+ ],
+ "mh379": [
+  "Vay mượn tiền hoặc đồ vật",
+  "Việc vay mượn tiền hoặc đồ vật, v.v.",
+  "o"
+ ],
+ "mh380": [
+  "Biếu tặng",
+  "Việc tặng tiền hoặc đồ vật, v.v.",
+  "o"
+ ],
+ "mh381": [
+  "Hành vi bất chính",
+  "Những việc làm xấu, vi phạm pháp luật, v.v.",
+  "o"
+ ],
+ "mh382": [
+  "Đối tác kinh doanh",
+  "Các công ty đang làm việc với công ty đó.",
+  "o"
+ ],
+ "mh383": [
+  "Rò rỉ thông tin bí mật",
+  "Việc cho người khác biết bí mật.",
+  "o"
+ ],
+ "mh384": [
+  "Có hơi rượu",
+  "Tình trạng đã uống rượu.",
+  "o"
+ ],
+ "mh385": [
+  "Bảo vệ thông tin cá nhân",
+  "Việc bảo vệ thông tin của người khác, của công ty mình và của các công ty đang cùng làm việc.",
+  "o"
+ ],
+ "mh386": [
+  "Phê duyệt trước",
+  "Việc xin phép trước khi làm thực tế.",
+  "o"
+ ],
+ "mh387": [
+  "Phê duyệt sau",
+  "Việc xin phép sau đó.",
+  "o"
+ ],
+ "mh388": [
+  "Khấu trừ",
+  "Việc trừ đi.",
+  "o"
+ ],
+ "mh389": [
+  "Trực quản",
+  "Phụ trách nơi bạn đang ở hoặc khu vực nơi có công ty.",
+  "o"
+ ],
+ "mh390": [
+  "Hướng dẫn bảo vệ sức khỏe",
+  "Những hướng dẫn cần thiết cho sức khỏe.",
+  "o"
+ ],
+ "mh391": [
+  "Kiểm tra sức khỏe",
+  "Khám để kiểm tra tình trạng sức khỏe.",
+  "o"
+ ],
+ "mh392": [
+  "Khám ngoại trú trong thời gian làm việc",
+  "Việc đi đến bệnh viện trong thời gian làm việc.",
+  "o"
+ ],
+ "mh393": [
+  "Vợ (chồng)",
+  "Chồng hoặc vợ.",
+  "o"
+ ],
+ "mh394": [
+  "Bồi thẩm viên",
+  "Người tiến hành phiên tòa.",
+  "o"
+ ],
+ "mh395": [
+  "Người quản lý vệ sinh thực phẩm",
+  "Người quản lý những nơi làm việc là các công xưởng có gia công thực phẩm, v.v. sao cho có thể sản xuất thực phẩm an toàn và đảm bảo sức khỏe.",
+  "o"
+ ],
+ "mh396": [
+  "Đầu bếp",
+  "Người có kiến ​​thức và kỹ năng về nấu ăn và đang làm việc về nấu ăn sau khi đã có giấy phép cho phép làm việc về nấu ăn.",
+  "o"
+ ],
+ "mh397": [
+  "Chuyên gia dinh dưỡng",
+  "Người hướng dẫn và quản lý về dinh dưỡng.",
+  "o"
+ ],
+ "mh398": [
+  "Lý do quy trách nhiệm",
+  "Tình hình của công ty.",
+  "o"
+ ],
+ "mh399": [
+  "Ngành bán lẻ",
+  "Công việc mua sản phẩm từ công ty sản xuất ra sản phẩm đó, v.v. và bán lại cho người mua sản phẩm đó.",
+  "o"
+ ],
+ "mh400": [
+  "Ngành dịch vụ",
+  "Công việc cung cấp dịch vụ cho nhiều người.",
+  "o"
+ ],
+ "mh401": [
+  "Ngành bán buôn",
+  "Công việc mua sản phẩm từ công ty sản xuất ra sản phẩm đó và bán lại sản phẩm cho công ty bán sản phẩm đó.",
+  "o"
+ ],
+ "mh402": [
+  "Tình hình của công ty",
+  "Là lý do về phía công ty.",
+  "o"
+ ],
+ "mh403": [
+  "Giải pháp tránh hít khói thuốc thụ động trong phòng",
+  "Việc công ty thực hiện các giải pháp để tránh tình trạng bị hít phải khói thuốc lá do người khác hút trong tòa nhà.",
+  "o"
+ ],
+ "mh404": [
+  "Đi làm bằng ô tô riêng",
+  "Việc sử dụng ô tô của bản thân để đi làm.",
+  "o"
+ ],
+ "mh405": [
+  "Giới hạn độ tuổi",
+  "Việc quy định độ tuổi được phép để làm một việc nào đó.",
+  "o"
+ ],
+ "mh406": [
+  "Thành tích tuyển dụng người nước ngoài",
+  "Số liệu thể hiện công ty đã và đang tuyển dụng bao nhiêu người nước ngoài.",
+  "o"
+ ],
+ "mh407": [
+  "Cơ sở giữ trẻ có thể sử dụng",
+  "Nơi người lao động có thể sử dụng để gửi con dưới 6 tuổi.",
+  "o"
+ ],
+ "mh408": [
+  "Số năm làm việc liên tục trung bình",
+  "Số năm trung bình mà người lao động làm việc liên tục trong cùng một công ty.",
+  "o"
+ ],
+ "mh409": [
+  "Chế độ giúp đỡ",
+  "Cơ chế theo đó người làm việc ở vị trí trên giúp đỡ công việc của người làm việc ở vị trí dưới, v.v.",
+  "o"
+ ],
+ "mh410": [
+  "Chế độ tư vấn nghề nghiệp",
+  "Cơ chế cho phép người lao động được công ty tư vấn để lựa chọn công việc và phát triển khả năng của mình.",
+  "o"
+ ],
+ "mh411": [
+  "Kiểm định nội bộ",
+  "Các kỳ thi do công ty tổ chức dành cho người lao động.",
+  "o"
+ ],
+ "mh412": [
+  "Số người sinh con",
+  "Số người đã sinh con.",
+  "o"
+ ],
+ "mh413": [
+  "Tỷ lệ phụ nữ trong số các cán bộ điều hành và vị trí quản lý",
+  "Tỷ lệ phụ nữ trong tổng số người ở các vị trí có chức vụ.",
+  "o"
+ ],
+ "mh414": [
+  "Tự rèn luyện",
+  "Việc người lao động tự nâng cao kiến thức công việc và phát triển năng lực.",
+  "o"
+ ],
+ "mh415": [
+  "Phí tiện ích",
+  "Khoản tiền cần thiết để sử dụng nước, điện và gas.",
+  "o"
+ ],
+ "mh416": [
+  "Chết vì làm việc quá sức",
+  "Việc làm việc trong thời gian dài khiến người lao động mất sức và chết.",
+  "o"
+ ],
+ "mh417": [
+  "Tuân thủ",
+  "Việc tuân thủ pháp luật và các quy tắc xã hội.",
+  "o"
+ ],
+ "mh418": [
+  "Ký tên",
+  "Việc ghi tên của người đó trên tài liệu, v.v. để thể hiện việc người đó đã thừa nhận nội dung ghi trên tài liệu đó, v.v.",
+  "o"
+ ],
+ "jl保護者": [
+  "Người giám hộ (phụ huynh)",
+  "Cha mẹ hoặc người giám hộ.",
+  "c"
+ ],
+ "jl保証人": [
+  "Người bảo lãnh",
+  "Người đứng ra bảo lãnh.",
+  "c"
+ ],
+ "jl本人確認": [
+  "Xác minh danh tính",
+  "Việc xác nhận đúng là bản thân người đó.",
+  "c"
+ ],
+ "dr生年月日": [
+  "Ngày tháng năm sinh",
+  "Năm, tháng và ngày bạn sinh ra.",
+  "c"
+ ],
+ "dr受付": [
+  "Quầy tiếp nhận (lễ tân)",
+  "Nơi hoặc người tiếp đón đầu tiên khi bạn đến bệnh viện hay cơ quan hành chính.",
+  "c"
+ ],
+ "dr診察券": [
+  "Thẻ khám bệnh",
+  "Thẻ do bệnh viện cấp. Lần sau đến cùng bệnh viện, hãy đưa thẻ này ở quầy tiếp nhận.",
+  "c"
+ ],
+ "dr間取り": [
+  "Bố cục căn hộ",
+  "Trong nhà có những phòng gì và bao nhiêu phòng. Được viết như \"1K\", \"1LDK\".",
+  "c"
+ ],
+ "dr1K": [
+  "1K (1 phòng + bếp)",
+  "Nhà có 1 phòng và 1 bếp (K).",
+  "c"
+ ],
+ "dr管理費": [
+  "Phí quản lý",
+  "Tiền trả cho những thứ dùng chung trong chung cư, thu từ người ở.",
+  "c"
+ ],
+ "dr敷金": [
+  "Tiền đặt cọc (shikikin)",
+  "Tiền gửi chủ nhà khi bắt đầu thuê phòng. Khi chuyển đi, có thể được trả lại phần còn lại.",
+  "c"
+ ],
+ "dr入居": [
+  "Dọn vào ở",
+  "Bắt đầu sống ở phòng hoặc nhà đã thuê.",
+  "c"
+ ],
+ "dr内見": [
+  "Xem phòng trực tiếp",
+  "Đến xem phòng thực tế trước khi quyết định thuê.",
+  "c"
+ ],
+ "dr保証会社": [
+  "Công ty bảo lãnh",
+  "Công ty thay cho người bảo lãnh khi thuê phòng. Nếu bạn không trả được tiền nhà, công ty sẽ trả thay.",
+  "c"
+ ],
+ "dr在職証明書": [
+  "Giấy xác nhận đang làm việc",
+  "Giấy ghi rằng bạn hiện đang làm việc tại công ty. Do công ty bạn cấp.",
+  "c"
+ ],
+ "dr緊急連絡先": [
+  "Liên hệ khẩn cấp",
+  "Số điện thoại… của người được liên lạc thay bạn khi có chuyện gấp.",
+  "c"
+ ],
+ "dr重要事項説明": [
+  "Giải thích các điều khoản quan trọng",
+  "Được giải thích những điều quan trọng trước khi ký hợp đồng thuê. Hãy nghe kỹ và hỏi điều chưa hiểu.",
+  "c"
+ ],
+ "dr転出証明書": [
+  "Giấy chứng nhận chuyển đi",
+  "Giấy nhận ở cơ quan hành chính nơi ở cũ khi chuyển nhà. Nộp cho cơ quan hành chính nơi ở mới.",
+  "c"
+ ],
+ "dr市民課": [
+  "Phòng Công dân (Shimin-ka)",
+  "Bộ phận ở tòa thị chính làm thủ tục như khai báo địa chỉ.",
+  "c"
+ ],
+ "dr洗濯機": [
+  "Máy giặt",
+  "Máy giặt quần áo. Không được vứt như rác cỡ lớn.",
+  "c"
+ ],
+ "dr持ち込み": [
+  "Tự mang đến",
+  "Tự mình mang đồ đến nơi đã được quy định.",
+  "c"
+ ],
+ "dr収集日": [
+  "Ngày thu gom rác",
+  "Ngày xe đến thu gom rác. Vào ngày đó, hãy bỏ rác ở nơi quy định.",
+  "c"
+ ],
+ "dr開栓": [
+  "Mở gas",
+  "Làm cho gas có thể sử dụng được. Thường có nhân viên đến nhà.",
+  "c"
+ ],
+ "dr立ち会い": [
+  "Có mặt chứng kiến",
+  "Có mặt khi nhân viên làm việc. Bạn hoặc người thay bạn ở nhà chờ.",
+  "c"
+ ],
+ "dr都市ガス": [
+  "Gas thành phố (gas đường ống)",
+  "Một loại gas, được dẫn đến nhà qua đường ống.",
+  "c"
+ ],
+ "drプロパンガス": [
+  "Gas propan (gas LP)",
+  "Một loại gas, còn gọi là gas LP.",
+  "c"
+ ],
+ "drガスコンロ": [
+  "Bếp gas",
+  "Dụng cụ nấu ăn bằng lửa gas. Chỉ dùng được loại phù hợp với loại gas.",
+  "c"
+ ],
+ "dr口座振替": [
+  "Trích tiền tự động từ tài khoản",
+  "Cách thanh toán tự động từ tài khoản ngân hàng của bạn. Cần nộp giấy đăng ký.",
+  "c"
+ ],
+ "drお客さまセンター": [
+  "Trung tâm chăm sóc khách hàng",
+  "Bộ phận của công ty nhận điện thoại và tư vấn cho khách hàng.",
+  "c"
+ ],
+ "drお客さま番号": [
+  "Mã số khách hàng",
+  "Số công ty cấp cho bạn. Có ghi trên hóa đơn hoặc phiếu chỉ số. Hãy báo số này khi gọi điện.",
+  "c"
+ ],
+ "dr検針票": [
+  "Phiếu ghi chỉ số",
+  "Giấy ghi lượng gas, điện, nước bạn đã dùng.",
+  "c"
+ ],
+ "dr使用期間": [
+  "Thời gian sử dụng",
+  "Khoảng thời gian đã dùng, từ khi nào đến khi nào.",
+  "c"
+ ],
+ "dr使用量": [
+  "Lượng sử dụng",
+  "Lượng gas… bạn đã dùng.",
+  "c"
+ ],
+ "dr再発行": [
+  "Cấp lại",
+  "Được làm và cấp lại giấy tờ… một lần nữa.",
+  "c"
+ ],
+ "dr在庫": [
+  "Hàng tồn kho",
+  "Hàng để bán của cửa hàng. Dù không có trên quầy, có thể vẫn còn trong kho.",
+  "c"
+ ],
+ "dr試着": [
+  "Mặc thử",
+  "Mặc thử quần áo trước khi mua. Hãy báo nhân viên trước khi thử.",
+  "c"
+ ],
+ "drお取り寄せ": [
+  "Đặt hàng (từ nơi khác)",
+  "Nhờ gửi món hàng cửa hàng không có từ cửa hàng khác.",
+  "c"
+ ],
+ "dr切らしております": [
+  "Hiện đã hết hàng",
+  "Cách nói lịch sự, nghĩa là cửa hàng hiện không có món hàng đó.",
+  "c"
+ ],
+ "drサービスカウンター": [
+  "Quầy dịch vụ",
+  "Nơi trong cửa hàng nhận trả hàng, đổi hàng và tư vấn.",
+  "c"
+ ],
+ "dr返品": [
+  "Trả hàng",
+  "Trả lại món đã mua cho cửa hàng và nhận lại tiền.",
+  "c"
+ ],
+ "dr交換": [
+  "Đổi hàng",
+  "Đổi món đã mua lấy một món khác cùng loại.",
+  "c"
+ ],
+ "dr粗大ごみ": [
+  "Rác cỡ lớn",
+  "Rác lớn như đồ nội thất. Thường phải đăng ký qua điện thoại hoặc internet trước khi bỏ.",
+  "c"
+ ],
+ "dr処理券": [
+  "Tem xử lý rác",
+  "Tem mua để dán lên rác cỡ lớn khi bỏ. Thường mua ở cửa hàng tiện lợi.",
+  "c"
+ ],
+ "dr家電リサイクル": [
+  "Tái chế đồ điện gia dụng",
+  "Quy định khi vứt điều hòa, TV, tủ lạnh, máy giặt. Không bỏ như rác cỡ lớn được, hãy nhờ cửa hàng đã mua…",
+  "c"
+ ],
+ "dr冷蔵庫": [
+  "Tủ lạnh",
+  "Thiết bị điện giữ lạnh đồ ăn, đồ uống.",
+  "c"
+ ],
+ "dr収集": [
+  "Thu gom",
+  "Thu gom rác và mang đi.",
+  "c"
+ ],
+ "dr受付センター": [
+  "Trung tâm tiếp nhận",
+  "Nơi tiếp nhận đăng ký qua điện thoại hoặc internet.",
+  "c"
+ ],
+ "dr予約": [
+  "Đặt trước",
+  "Quyết định trước ngày giờ sử dụng và đặt trước.",
+  "c"
+ ],
+ "dr満席": [
+  "Hết chỗ",
+  "Tất cả chỗ ngồi đã có người, không còn chỗ trống.",
+  "c"
+ ],
+ "drコース": [
+  "Thực đơn set (course)",
+  "Bộ món ăn được phục vụ lần lượt theo thứ tự cố định.",
+  "c"
+ ],
+ "drお席": [
+  "Chỗ ngồi",
+  "Cách nói lịch sự của \"chỗ ngồi\".",
+  "c"
+ ],
+ "dr名様": [
+  "… vị (khách)",
+  "Cách nói lịch sự của \"… người\". \"2名様\" nghĩa là 2 người.",
+  "c"
+ ],
+ "drお迎え": [
+  "Đón",
+  "Xe đến tận nơi bạn đang ở.",
+  "c"
+ ],
+ "dr目印": [
+  "Điểm mốc",
+  "Thứ dễ nhận ra để biết vị trí, như cửa hàng hay tòa nhà gần đó.",
+  "c"
+ ],
+ "dr予約料": [
+  "Phí đặt trước",
+  "Tiền có thể phải trả khi đặt taxi đến đón.",
+  "c"
+ ],
+ "dr初診": [
+  "Khám lần đầu",
+  "Lần đầu được bác sĩ khám tại bệnh viện đó.",
+  "c"
+ ],
+ "dr保険証": [
+  "Thẻ bảo hiểm y tế",
+  "Thẻ chứng minh bạn có bảo hiểm y tế. Đưa ở quầy tiếp nhận bệnh viện.",
+  "c"
+ ],
+ "drマイナンバーカード": [
+  "Thẻ My Number",
+  "Thẻ ghi mã số cá nhân. Ở bệnh viện, có thể dùng thay thẻ bảo hiểm.",
+  "c"
+ ],
+ "drせき": [
+  "Ho",
+  "Hơi thở bật mạnh ra từ cổ họng. Hay bị khi cảm.",
+  "c"
+ ],
+ "dr問診票": [
+  "Phiếu khai bệnh",
+  "Giấy ghi tình trạng bệnh, từ khi nào, thuốc đang uống… Điền trước khi khám.",
+  "c"
+ ],
+ "dr返金": [
+  "Hoàn tiền",
+  "Cửa hàng trả lại tiền món đã mua. Nếu trả bằng thẻ, tiền thường được hoàn vào thẻ.",
+  "c"
+ ],
+ "drレシート": [
+  "Hóa đơn (biên lai)",
+  "Giấy cửa hàng đưa khi mua hàng, ghi món hàng và giá. Cần xuất trình khi đổi hàng.",
+  "c"
+ ],
+ "dr初期不良": [
+  "Lỗi ban đầu (lỗi nhà sản xuất)",
+  "Vừa mua xong mà sản phẩm đã hỏng hoặc không hoạt động tốt.",
+  "c"
+ ],
+ "drコードレス掃除機": [
+  "Máy hút bụi không dây",
+  "Máy hút bụi không có dây điện, dùng pin sạc.",
+  "c"
+ ],
+ "dr取り寄せ": [
+  "Đặt hàng (từ nơi khác)",
+  "Nhờ gửi sản phẩm cửa hàng không có từ cửa hàng hoặc công ty khác. Cần chờ đến khi hàng về.",
+  "c"
+ ],
+ "dr何名様": [
+  "Mấy vị ạ?",
+  "Nghĩa là \"Mấy người?\". Trả lời số người, ví dụ nói \"3 người\" hoặc giơ ngón tay.",
+  "c"
+ ],
+ "dr禁煙席": [
+  "Chỗ cấm hút thuốc",
+  "Chỗ ngồi không được hút thuốc.",
+  "c"
+ ],
+ "dr喫煙席": [
+  "Chỗ hút thuốc",
+  "Chỗ ngồi được hút thuốc. Người chưa đủ tuổi hút thuốc không được vào.",
+  "c"
+ ],
+ "dr全席禁煙": [
+  "Cấm hút thuốc toàn bộ",
+  "Không được hút thuốc ở bất kỳ chỗ nào trong quán.",
+  "c"
+ ],
+ "dr喫煙室": [
+  "Phòng hút thuốc",
+  "Phòng dành để hút thuốc. Có quán chỉ cho hút trong phòng này.",
+  "c"
+ ],
+ "drテーブル席": [
+  "Bàn thường",
+  "Chỗ ngồi bình thường có bàn và ghế.",
+  "c"
+ ],
+ "drカウンター席": [
+  "Ghế quầy",
+  "Chỗ ngồi xếp hàng dọc bàn dài, trước nơi nhân viên làm việc.",
+  "c"
+ ],
+ "drお子様用のいす": [
+  "Ghế trẻ em",
+  "Ghế đặc biệt cho trẻ nhỏ ngồi.",
+  "c"
+ ],
+ "dr照り焼き": [
+  "Teriyaki (nướng sốt ngọt)",
+  "Món nướng phết sốt ngọt làm từ xì dầu, mirin…",
+  "c"
+ ],
+ "dr塩焼き": [
+  "Nướng muối",
+  "Món nướng tẩm muối, thường là cá.",
+  "c"
+ ],
+ "dr定食": [
+  "Suất cơm (teishoku)",
+  "Bộ món gồm cơm, canh miso, thức ăn kèm…",
+  "c"
+ ],
+ "drみりん": [
+  "Mirin",
+  "Gia vị tạo vị ngọt cho món ăn, có chứa cồn.",
+  "c"
+ ],
+ "dr料理酒": [
+  "Rượu nấu ăn",
+  "Rượu dùng để nêm nếm món ăn.",
+  "c"
+ ],
+ "drラード": [
+  "Mỡ lợn",
+  "Mỡ heo dùng để nấu ăn.",
+  "c"
+ ],
+ "drゼラチン": [
+  "Gelatin",
+  "Chất làm đông thạch… Có thể làm từ động vật như heo.",
+  "c"
+ ],
+ "drだし": [
+  "Nước dùng (dashi)",
+  "Nước cốt nấu từ cá, tảo kombu, thịt…, dùng làm gốc vị cho món ăn.",
+  "c"
+ ],
+ "pj81": [
+  "Chế độ hỗ trợ tự lập cho người gặp khó khăn trong cuộc sống",
+  "Chế độ mà cơ quan hành chính nơi bạn sống cùng suy nghĩ và giúp đỡ những người gặp khó khăn trong cuộc sống (không có tiền, không có việc làm, không có chỗ ở).",
+  "c"
+ ],
+ "pj82": [
+  "Thuế",
+  "Tiền trả cho nhà nước, tỉnh, thành phố, quận, v.v.",
+  "c"
+ ],
+ "pj83": [
+  "Khoa chỉnh hình",
+  "Nơi khám chữa bệnh về xương, khớp, cơ, v.v.",
+  "c"
+ ],
+ "pj84": [
+  "Sổ bảo hiểm phúc lợi cho người khuyết tật tâm thần",
+  "Sổ mà người khuyết tật về tâm thần, gặp khó khăn trong sinh hoạt hằng ngày, được cơ quan hành chính nơi mình sống cấp.",
+  "c"
+ ],
+ "pj85": [
+  "Hiệp định thuế",
+  "Thỏa thuận về thuế giữa các quốc gia. Người đến từ nước có hiệp định với Nhật Bản có thể được giảm thuế.",
+  "c"
+ ],
+ "pj86": [
+  "Người được bảo hiểm loại 1",
+  "Người chỉ tham gia Lương hưu quốc dân. Ví dụ: người tự kinh doanh cửa hàng, người làm nông nghiệp (trồng rau, v.v.) hoặc ngư nghiệp (đánh bắt cá, v.v.), người không đi làm.",
+  "c"
+ ],
+ "pj87": [
+  "Người được bảo hiểm loại 3",
+  "Người có vợ hoặc chồng tham gia Bảo hiểm lương hưu phúc lợi, vợ hoặc chồng chưa đến 65 tuổi, và thu nhập một năm của bản thân dưới 1,3 triệu yên. Người này chỉ tham gia Lương hưu quốc dân.",
+  "c"
+ ],
+ "pj88": [
+  "Đơn xin nghỉ việc",
+  "Giấy ghi lý do, v.v. và nộp cho công ty khi nghỉ việc.",
+  "c"
+ ],
+ "pj89": [
+  "Người được bảo hiểm loại 2",
+  "Người tham gia cả Lương hưu quốc dân và Bảo hiểm lương hưu phúc lợi. Là người làm việc tại công ty, nhà máy, cửa hàng, v.v.",
+  "c"
+ ],
+ "pj90": [
+  "Tiền trợ cấp rút khỏi chế độ lương hưu một lần",
+  "Tiền mà người ngừng tham gia lương hưu Nhật Bản và về nước có thể nhận.",
+  "c"
+ ],
+ "pj91": [
+  "Người lao động làm việc thời gian ngắn",
+  "Người làm bán thời gian, làm thêm, v.v. có thời gian làm việc ngắn hơn nhân viên chính thức.",
+  "c"
+ ],
+ "pj92": [
+  "Phí môi giới",
+  "Tiền trả cho công ty bất động sản đã giới thiệu nhà cho bạn khi thuê nhà.",
+  "c"
+ ],
+ "pj93": [
+  "Kỳ thi công nhận trình độ tốt nghiệp trung học cơ sở",
+  "Kỳ thi dành cho người chưa tốt nghiệp trung học cơ sở ở Nhật. Nếu đỗ, có thể dự thi vào trường trung học phổ thông Nhật Bản.",
+  "c"
+ ],
+ "pj94": [
+  "Hợp đồng thuê nhà",
+  "Thỏa thuận giữa người cho thuê nhà và người thuê nhà.",
+  "c"
+ ],
+ "pj95": [
+  "Thông báo chuyển chỗ ở (trong cùng địa phương)",
+  "Giấy nộp cho cơ quan hành chính khi chuyển nhà trong cùng một thành phố/thị trấn.",
+  "c"
+ ],
+ "pj96": [
+  "Thông báo chuyển đi",
+  "Giấy nộp cho cơ quan hành chính nơi đang sống khi chuyển đến thành phố/thị trấn khác. Cũng nộp khi chuyển nhà để rời khỏi Nhật Bản.",
+  "c"
+ ],
+ "pj97": [
+  "Thông báo chuyển đến",
+  "Giấy nộp cho cơ quan hành chính nơi ở mới khi chuyển đến từ thành phố/thị trấn khác. Cũng nộp khi bắt đầu sống ở Nhật Bản.",
+  "c"
+ ],
+ "pj98": [
+  "Trợ cấp nuôi dưỡng trẻ em đặc biệt",
+  "Tiền mà người đang nuôi con bị khuyết tật có thể nhận.",
+  "c"
+ ],
+ "pj99": [
+  "Thu thuế đặc biệt (khấu trừ qua lương)",
+  "Công ty trừ thuế cư trú từ lương của người lao động và nộp thay cho cơ quan hành chính nơi người đó sống.",
+  "c"
+ ],
+ "pj100": [
+  "Đơn đăng ký leo núi",
+  "Giấy ghi tên, địa chỉ, số điện thoại, lộ trình leo núi, v.v. nộp cho cơ quan hành chính trước khi leo núi. Giúp ích cho việc cứu người gặp tai nạn trên núi.",
+  "c"
+ ],
+ "pj101": [
+  "Khoa nội",
+  "Nơi khám chữa các bệnh bên trong cơ thể (như cảm cúm, v.v.).",
+  "c"
+ ],
+ "pj102": [
+  "Kỳ thi du học Nhật Bản (EJU)",
+  "Kỳ thi dành cho học sinh nước ngoài muốn du học tại các trường đại học Nhật Bản.",
+  "c"
+ ],
+ "pj103": [
+  "Khám sức khỏe trẻ sơ sinh và trẻ nhỏ",
+  "Cơ quan hành chính nơi bạn sống kiểm tra xem em bé có khỏe mạnh hay không.",
+  "c"
+ ],
+ "pj104": [
+  "Trường mầm non được công nhận (Nintei Kodomo-en)",
+  "Nơi trẻ em trước tuổi vào tiểu học đến học. Nơi này có đặc điểm của cả trường mẫu giáo và nhà trẻ.",
+  "c"
+ ],
+ "pj105": [
+  "Khám thai",
+  "Kiểm tra sức khỏe của người đang mang thai.",
+  "c"
+ ],
+ "pj106": [
+  "Lương hưu",
+  "Chế độ thu tiền từ mọi người để giúp đỡ người cao tuổi hoặc người bị khuyết tật do bệnh tật, chấn thương.",
+  "c"
+ ],
+ "pj107": [
+  "Sổ lương hưu",
+  "Sổ được cấp cho người tham gia lương hưu.",
+  "c"
+ ],
+ "pj108": [
+  "Nghỉ phép năm có hưởng lương",
+  "Ngày nghỉ làm mà vẫn được nhận lương.",
+  "c"
+ ],
+ "pj109": [
+  "Điều chỉnh thuế cuối năm",
+  "Vào tháng 12, công ty tính lại thuế thu nhập đã khấu trừ tại nguồn để điều chỉnh. Nếu nộp thừa, công ty trả lại tiền cho bạn; nếu nộp thiếu, bạn trả thêm cho công ty.",
+  "c"
+ ],
+ "pj110": [
+  "Nhân viên phái cử",
+  "Người ký hợp đồng với công ty phái cử và làm việc tại một công ty khác.",
+  "c"
+ ],
+ "pj111": [
+  "Bản đồ nguy cơ thiên tai (Hazard map)",
+  "Bản đồ ghi những nơi nguy hiểm và nơi sơ tán khi xảy ra thiên tai.",
+  "c"
+ ],
+ "pj112": [
+  "Lớp học dành cho bố mẹ",
+  "Nơi dạy những điều quan trọng về sinh và nuôi con cho những người sắp làm bố, làm mẹ.",
+  "c"
+ ],
+ "pj113": [
+  "Hello Work (Trung tâm giới thiệu việc làm)",
+  "Cơ quan nhà nước giới thiệu việc làm.",
+  "c"
+ ],
+ "pj114": [
+  "Trung tâm hỗ trợ gia đình (Family Support Center)",
+  "Nơi giới thiệu người trông trẻ giúp khi bạn có việc bận.",
+  "c"
+ ],
+ "pj115": [
+  "Công ty bất động sản",
+  "Cửa hàng giới thiệu nhiều loại nhà cho người muốn thuê hoặc mua nhà.",
+  "c"
+ ],
+ "pj116": [
+  "Nhà trẻ",
+  "Nơi chăm sóc trẻ từ 0 tuổi đến trước khi vào tiểu học khi bố mẹ đi làm. Trẻ được chăm sóc sinh hoạt và học được nhiều điều qua vui chơi.",
+  "c"
+ ],
+ "pj117": [
+  "Câu lạc bộ trẻ em sau giờ học (Gakudo Hoiku)",
+  "Nơi trông giữ học sinh tiểu học khi bố mẹ đi làm.",
+  "c"
+ ],
+ "pj118": [
+  "Diễn tập phòng chống thiên tai, diễn tập sơ tán",
+  "Luyện tập sơ tán an toàn và dập lửa để chuẩn bị cho khi xảy ra thiên tai.",
+  "c"
+ ],
+ "pj119": [
+  "Phòng chống tội phạm",
+  "Việc phòng tránh để không trở thành nạn nhân của tội phạm.",
+  "c"
+ ],
+ "pj120": [
+  "Sổ tay sức khỏe mẹ và bé",
+  "Sổ mà người mang thai được cơ quan hành chính nơi mình sống cấp. Dùng để ghi về sức khỏe của em bé và người mẹ.",
+  "c"
+ ],
+ "pj121": [
+  "Nhà ở tư nhân",
+  "Nhà thuê từ chủ nhà (No.9).",
+  "c"
+ ],
+ "pj122": [
+  "Nhà sở hữu riêng",
+  "Nhà do bản thân mua.",
+  "c"
+ ],
+ "pj123": [
+  "Trường trung học cơ sở ban đêm",
+  "Trường dành cho người chưa tốt nghiệp trung học cơ sở hoặc chưa được đi học đầy đủ. Người tốt nghiệp có thể dự thi vào trường trung học phổ thông.",
+  "c"
+ ],
+ "pj124": [
+  "Tiền thuê nhà",
+  "Tiền trả hằng tháng khi thuê nhà.",
+  "c"
+ ],
+ "pj125": [
+  "Nhà thuốc, hiệu thuốc",
+  "Cửa hàng bán thuốc.",
+  "c"
+ ],
+ "pj126": [
+  "Trường mẫu giáo",
+  "Nơi trẻ từ 3 tuổi đến trước khi vào tiểu học đến học. Trẻ học nhiều điều qua vui chơi.",
+  "c"
+ ],
+ "pj127": [
+  "Tiêm chủng",
+  "Tiêm phòng để không bị mắc bệnh.",
+  "c"
+ ],
+ "pj128": [
+  "Sổ người khuyết tật trí tuệ (Ryoiku Techo)",
+  "Sổ mà người khuyết tật trí tuệ được cơ quan hành chính nơi mình sống cấp.",
+  "c"
+ ],
+ "pj129": [
+  "Chi phí điều trị được hoàn trả",
+  "Tiền có thể nhận lại từ bảo hiểm y tế sau khi đã tự trả toàn bộ chi phí khám chữa bệnh.",
+  "c"
+ ],
+ "pj130": [
+  "Tiền lễ (Reikin)",
+  "Tiền cảm ơn mà người thuê trả cho chủ nhà khi quyết định thuê nhà.",
+  "c"
+ ],
+ "pj131": [
+  "Người bảo lãnh liên đới (hợp đồng thuê nhà)",
+  "Người trả tiền thuê nhà thay khi người thuê không thể trả.",
+  "c"
+ ],
+ "pj132": [
+  "Bảo hiểm tai nạn lao động",
+  "Chế độ thu tiền từ các công ty để giúp người bị thương hoặc bị bệnh do công việc.",
+  "c"
+ ],
+ "pj133": [
+  "Lương hưu cơ bản tuổi già",
+  "Tiền mà người từ 65 tuổi trở lên có thể nhận từ Lương hưu quốc dân.",
+  "c"
+ ],
+ "pj134": [
+  "Lương hưu phúc lợi tuổi già",
+  "Tiền mà người từ 65 tuổi trở lên có thể nhận từ Bảo hiểm lương hưu phúc lợi.",
+  "c"
+ ],
+ "jl印鑑登録": [
+  "Đăng ký con dấu",
+  "Đăng ký con dấu cá nhân với cơ quan hành chính.",
+  "c"
+ ],
+ "jl火災保険": [
+  "Bảo hiểm hỏa hoạn",
+  "Bảo hiểm chi trả thiệt hại khi xảy ra hỏa hoạn.",
+  "c"
+ ],
+ "jl義務教育": [
+  "Giáo dục bắt buộc",
+  "Giáo dục mà trẻ em bắt buộc phải được học.",
+  "c"
+ ],
+ "jl教育委員会": [
+  "Ủy ban giáo dục",
+  "Cơ quan phụ trách giáo dục của địa phương.",
+  "c"
+ ],
+ "jl警察署": [
+  "Đồn cảnh sát",
+  "Cơ quan cảnh sát.",
+  "c"
+ ],
+ "jl契約書": [
+  "Hợp đồng",
+  "Văn bản ghi nội dung thỏa thuận.",
+  "c"
+ ],
+ "jl公共職業安定所": [
+  "Văn phòng ổn định việc làm công",
+  "Cơ quan nhà nước giới thiệu việc làm (Hello Work).",
+  "c"
+ ],
+ "jl住民基本台帳": [
+  "Sổ đăng ký cư dân cơ bản",
+  "Sổ ghi thông tin cơ bản của cư dân.",
+  "c"
+ ],
+ "jl住民票": [
+  "Phiếu cư trú",
+  "Giấy chứng nhận thông tin cư trú của cư dân.",
+  "c"
+ ],
+ "jl出入国管理": [
+  "Quản lý xuất nhập cảnh",
+  "Việc quản lý người ra vào đất nước.",
+  "c"
+ ],
+ "jl職業訓練": [
+  "Đào tạo nghề",
+  "Đào tạo kỹ năng để làm việc.",
+  "c"
+ ],
+ "jl申請書": [
+  "Đơn đăng ký, đơn xin",
+  "Giấy dùng để đăng ký hoặc xin thủ tục.",
+  "c"
+ ],
+ "jl請求書": [
+  "Hóa đơn, giấy yêu cầu thanh toán",
+  "Giấy yêu cầu trả tiền.",
+  "c"
+ ],
+ "jl世帯主": [
+  "Chủ hộ",
+  "Người đứng đầu hộ gia đình.",
+  "c"
+ ],
+ "jl損害賠償": [
+  "Bồi thường thiệt hại",
+  "Trả tiền để bù cho thiệt hại đã gây ra.",
+  "c"
+ ],
+ "jl損害保険": [
+  "Bảo hiểm phi nhân thọ",
+  "Bảo hiểm chi trả thiệt hại về tài sản, tai nạn, v.v.",
+  "c"
+ ],
+ "jl宅地建物取引業": [
+  "Kinh doanh môi giới bất động sản",
+  "Ngành nghề mua bán, cho thuê, môi giới đất và nhà.",
+  "c"
+ ],
+ "jl通知書": [
+  "Giấy thông báo",
+  "Văn bản dùng để thông báo.",
+  "c"
+ ],
+ "jl手数料": [
+  "Phí, lệ phí, hoa hồng",
+  "Tiền trả cho thủ tục hoặc dịch vụ.",
+  "c"
+ ],
+ "jl登録証": [
+  "Giấy chứng nhận đăng ký",
+  "Giấy chứng minh đã đăng ký.",
+  "c"
+ ],
+ "jl登録証明書": [
+  "Giấy chứng nhận đăng ký",
+  "Giấy chứng minh đã đăng ký.",
+  "c"
+ ],
+ "jl難民認定": [
+  "Công nhận tư cách tị nạn",
+  "Việc công nhận một người là người tị nạn.",
+  "c"
+ ],
+ "jl不動産": [
+  "Bất động sản",
+  "Tài sản không di dời được như đất, nhà.",
+  "c"
+ ],
+ "jl分割払い": [
+  "Trả góp",
+  "Chia số tiền ra trả nhiều lần.",
+  "c"
+ ],
+ "jl保育所": [
+  "Nhà trẻ",
+  "Nơi chăm sóc trẻ nhỏ.",
+  "c"
+ ],
+ "jl保険料": [
+  "Phí bảo hiểm",
+  "Tiền trả để tham gia bảo hiểm.",
+  "c"
+ ],
+ "pj1": [
+  "Nghỉ chăm con (nghỉ nuôi con nhỏ)",
+  "Kỳ nghỉ có thể xin để nuôi con.",
+  "c"
+ ],
+ "pj2": [
+  "Trợ cấp nghỉ chăm con",
+  "Tiền nhận từ bảo hiểm việc làm trong thời gian nghỉ chăm con.",
+  "c"
+ ],
+ "pj3": [
+  "Lương hưu cơ bản cho thân nhân (gia đình người đã mất)",
+  "Tiền gia đình nhận từ Lương hưu quốc dân khi người tham gia Lương hưu quốc dân qua đời.",
+  "c"
+ ],
+ "pj4": [
+  "Lương hưu phúc lợi cho thân nhân (gia đình người đã mất)",
+  "Tiền gia đình nhận từ Bảo hiểm lương hưu phúc lợi khi người tham gia bảo hiểm này qua đời.",
+  "c"
+ ],
+ "pj5": [
+  "Bảo hiểm y tế",
+  "Chế độ thu tiền từ mọi người để hỗ trợ người phải đi bệnh viện vì bị thương hoặc bị bệnh.",
+  "c"
+ ],
+ "pj6": [
+  "Giấy chứng nhận đăng ký con dấu",
+  "Giấy ghi rõ con dấu nào là \"con dấu đăng ký (jitsuin)\" của bạn. Có thể nhận tại cơ quan hành chính nơi bạn sống.",
+  "c"
+ ],
+ "pj7": [
+  "Thẻ đăng ký con dấu",
+  "Thẻ dùng khi xin Giấy chứng nhận đăng ký con dấu tại cơ quan hành chính nơi bạn sống. Bạn nhận thẻ này khi \"con dấu đăng ký (jitsuin)\" được cơ quan hành chính công nhận.",
+  "c"
+ ],
+ "pj8": [
+  "Cư trú quá hạn (overstay)",
+  "Việc vẫn ở lại Nhật Bản sau khi đã quá thời hạn lưu trú.",
+  "c"
+ ],
+ "pj9": [
+  "Chủ nhà",
+  "Người cho thuê nhà.",
+  "c"
+ ],
+ "pj10": [
+  "Chăm sóc điều dưỡng",
+  "Việc giúp đỡ người gặp khó khăn trong sinh hoạt hằng ngày (ăn uống, tắm rửa...) do tuổi cao hoặc mắc bệnh đặc biệt.",
+  "c"
+ ],
+ "pj11": [
+  "Nghỉ chăm sóc người thân",
+  "Kỳ nghỉ có thể xin để chăm sóc điều dưỡng người trong gia đình.",
+  "c"
+ ],
+ "pj12": [
+  "Trợ cấp nghỉ chăm sóc người thân",
+  "Tiền nhận từ bảo hiểm việc làm trong thời gian nghỉ chăm sóc người thân.",
+  "c"
+ ],
+ "pj13": [
+  "Trường dành cho người nước ngoài",
+  "Trường học dành cho con em người nước ngoài. Có các trường phù hợp với văn hóa và ngôn ngữ của từng nước.",
+  "c"
+ ],
+ "pj14": [
+  "Bảo hiểm chăm sóc điều dưỡng",
+  "Chế độ thu tiền từ người từ 40 tuổi trở lên để hỗ trợ người cần được chăm sóc điều dưỡng.",
+  "c"
+ ],
+ "pj15": [
+  "Bảng thông báo luân chuyển (kairanban)",
+  "Tập thông báo của hội tự quản/hội khu phố, gồm thông tin từ cơ quan hành chính địa phương... Đọc xong thì chuyển cho nhà tiếp theo.",
+  "c"
+ ],
+ "pj16": [
+  "Khai báo thuế cuối năm (kakutei shinkoku)",
+  "Cách nộp thuế thu nhập dành cho người không được công ty khấu trừ tại nguồn hoặc quyết toán cuối năm. Nộp hồ sơ tại cục thuế (cơ quan phụ trách thuế) nơi bạn sống.",
+  "c"
+ ],
+ "pj17": [
+  "Lương hưu cho quả phụ",
+  "Tiền người vợ nhận từ Lương hưu quốc dân khi chồng qua đời.",
+  "c"
+ ],
+ "pj18": [
+  "Khoa mắt",
+  "Nơi khám chữa các bệnh về mắt.",
+  "c"
+ ],
+ "pj19": [
+  "Phí quản lý (phí dùng chung)",
+  "Tiền thu từ cư dân để chi trả cho những thứ mọi người dùng chung trong khu nhà, chung cư.",
+  "c"
+ ],
+ "pj20": [
+  "Trường giáo dục bắt buộc liên cấp",
+  "Trường gộp tiểu học và trung học cơ sở làm một.",
+  "c"
+ ],
+ "pj21": [
+  "Xe cấp cứu",
+  "Xe chở người bị bệnh đột ngột hoặc bị thương đến bệnh viện.",
+  "c"
+ ],
+ "pj22": [
+  "Phiếu khấu trừ thuế thu nhập từ tiền lương (gensen choshu-hyo)",
+  "Giấy công ty ghi tiền lương cả năm của bạn và số thuế thu nhập đã khấu trừ.",
+  "c"
+ ],
+ "pj23": [
+  "Bảng lương (phiếu lương)",
+  "Giấy công ty ghi tiền lương hằng tháng của bạn và số thuế thu nhập đã khấu trừ.",
+  "c"
+ ],
+ "pj24": [
+  "Cảnh báo động đất khẩn cấp",
+  "Thông báo hiện trên tivi hoặc điện thoại thông minh ngay trước khi có động đất mạnh.",
+  "c"
+ ],
+ "pj25": [
+  "Chuyên viên quản lý chăm sóc (care manager)",
+  "Chuyên gia tư vấn về chăm sóc điều dưỡng và lên kế hoạch chăm sóc.",
+  "c"
+ ],
+ "pj26": [
+  "Nhân viên hợp đồng",
+  "Người làm việc có thời hạn xác định. Hợp đồng (thỏa thuận giữa công ty và người lao động) kết thúc trong vòng 3 năm.",
+  "c"
+ ],
+ "pj27": [
+  "Khoa ngoại",
+  "Nơi chữa vết thương và phẫu thuật.",
+  "c"
+ ],
+ "pj28": [
+  "Bảo hiểm sức khỏe (kenko hoken)",
+  "Bảo hiểm y tế dành cho người làm việc tại công ty.",
+  "c"
+ ],
+ "pj29": [
+  "Khấu trừ thuế tại nguồn",
+  "Việc công ty nộp thuế thu nhập cho nhà nước thay bạn. Công ty trừ thuế thu nhập... từ lương của bạn để nộp.",
+  "c"
+ ],
+ "pj30": [
+  "Nhà ở công",
+  "Nhà do tỉnh, thành phố... cho thuê.",
+  "c"
+ ],
+ "pj31": [
+  "Chi phí y tế cao (hoàn trả)",
+  "Tiền được hoàn lại khi số tiền trả cho bệnh viện trong 1 tháng quá nhiều.",
+  "c"
+ ],
+ "pj32": [
+  "Chế độ y tế cho người cao tuổi giai đoạn sau",
+  "Bảo hiểm y tế dành cho người từ 75 tuổi trở lên.",
+  "c"
+ ],
+ "pj33": [
+  "Trợ cấp học bổng cho học sinh THPT",
+  "Tiền học sinh THPT có cha mẹ thu nhập thấp được nhận để mua sách giáo khoa và đồ dùng học tập.",
+  "c"
+ ],
+ "pj34": [
+  "Phí gia hạn (hợp đồng thuê nhà)",
+  "Tiền trả ngoài tiền nhà khi hết hợp đồng thuê mà vẫn tiếp tục ở lại nhà đó.",
+  "c"
+ ],
+ "pj35": [
+  "Bảo hiểm lương hưu phúc lợi (kosei nenkin)",
+  "Chế độ lương hưu (NO.106) dành cho người đến 69 tuổi làm việc từ số giờ nhất định trở lên tại công ty, nhà máy, cửa hàng...",
+  "c"
+ ],
+ "pj36": [
+  "Kỳ thi công nhận trình độ tốt nghiệp THPT",
+  "Kỳ thi dành cho người chưa tốt nghiệp THPT ở Nhật. Nếu đỗ, có thể dự thi vào đại học, trường chuyên môn...",
+  "c"
+ ],
+ "pj37": [
+  "Hỗ trợ học phí THPT",
+  "Học phí THPT được nhà nước chi trả thay bạn.",
+  "c"
+ ],
+ "pj38": [
+  "Bảo hiểm sức khỏe quốc dân (kokumin kenko hoken)",
+  "Bảo hiểm y tế tự tham gia dành cho người không có bảo hiểm sức khỏe của công ty...",
+  "c"
+ ],
+ "pj39": [
+  "Lương hưu quốc dân (kokumin nenkin)",
+  "Chế độ lương hưu của nhà nước mà mọi người từ 20 đến 59 tuổi đều tham gia.",
+  "c"
+ ],
+ "pj40": [
+  "Thuế tài sản cố định",
+  "Thuế do người sở hữu đất hoặc nhà nộp.",
+  "c"
+ ],
+ "pj41": [
+  "Bảo hiểm việc làm",
+  "Chế độ hỗ trợ người chưa tìm được việc sau khi nghỉ việc, hoặc người đang nghỉ chăm con, nghỉ chăm sóc người thân.",
+  "c"
+ ],
+ "pj42": [
+  "Đăng ký kết hôn",
+  "Giấy người kết hôn nộp cho cơ quan hành chính nơi mình sống.",
+  "c"
+ ],
+ "pj43": [
+  "Giấy chứng nhận đủ điều kiện kết hôn",
+  "Giấy người nước ngoài cần khi nộp đăng ký kết hôn tại cơ quan hành chính nơi mình sống.",
+  "c"
+ ],
+ "pj44": [
+  "Lương tối thiểu",
+  "Mức lương thấp nhất do pháp luật quy định.",
+  "c"
+ ],
+ "pj45": [
+  "Thẻ lưu trú (zairyu card)",
+  "Thẻ do Cục Quản lý Xuất nhập cảnh cấp cho người nước ngoài sống ở Nhật trên 3 tháng. Có ghi họ tên, quốc tịch, địa chỉ...",
+  "c"
+ ],
+ "pj46": [
+  "Giấy phép gia hạn thời gian lưu trú",
+  "Giấy phép nhận khi muốn kéo dài thời hạn lưu trú. Tư cách lưu trú không thay đổi.",
+  "c"
+ ],
+ "pj47": [
+  "Thời hạn lưu trú",
+  "Ngày cuối cùng người nước ngoài được phép ở Nhật Bản.",
+  "c"
+ ],
+ "pj48": [
+  "Tư cách lưu trú",
+  "Những việc người nước ngoài được phép làm ở Nhật, như làm việc, đi học, sống cùng gia đình...",
+  "c"
+ ],
+ "pj49": [
+  "Giấy phép lấy tư cách lưu trú",
+  "Việc em bé người nước ngoài sinh ra ở Nhật được cấp thẻ lưu trú.",
+  "c"
+ ],
+ "pj50": [
+  "Giấy phép thay đổi tư cách lưu trú",
+  "Giấy phép nhận khi thay đổi tư cách lưu trú.",
+  "c"
+ ],
+ "pj51": [
+  "Làm thêm giờ",
+  "Làm việc quá 8 tiếng một ngày hoặc quá 40 tiếng một tuần.",
+  "c"
+ ],
+ "pj52": [
+  "Nghỉ thai sản (trước và sau sinh)",
+  "Kỳ nghỉ của phụ nữ làm việc ở công ty: có thể nghỉ trước khi sinh và bắt buộc phải nghỉ sau khi sinh.",
+  "c"
+ ],
+ "pj53": [
+  "Khoa sản phụ",
+  "Nơi chữa bệnh phụ nữ và đỡ đẻ.",
+  "c"
+ ],
+ "pj54": [
+  "Nha khoa",
+  "Nơi chữa răng.",
+  "c"
+ ],
+ "pj55": [
+  "Giấy phép hoạt động ngoài tư cách lưu trú",
+  "Giấy phép nhận khi người có tư cách lưu trú không được làm việc muốn đi làm.",
+  "c"
+ ],
+ "pj56": [
+  "Tiền đặt cọc (shikikin)",
+  "Tiền trả khi thuê nhà. Sau khi người thuê dọn đi, chủ nhà dùng để sửa chỗ hỏng, chỗ bẩn...",
+  "c"
+ ],
+ "pj57": [
+  "Hội tự quản / Hội khu phố",
+  "Hội do người dân sống gần nhau lập ra, cùng nhau bàn để khu phố an toàn và dễ sống.",
+  "c"
+ ],
+ "pj58": [
+  "Con dấu đăng ký (jitsuin)",
+  "Con dấu được cơ quan hành chính nơi bạn sống công nhận. Dùng khi mua xe, mua nhà...",
+  "c"
+ ],
+ "pj59": [
+  "Thuế trọng lượng ô tô",
+  "Thuế nộp khi đăng kiểm xe...",
+  "c"
+ ],
+ "pj60": [
+  "Thuế ô tô / ô tô hạng nhẹ (theo hiệu suất môi trường)",
+  "Thuế nộp khi mua xe.",
+  "c"
+ ],
+ "pj61": [
+  "Thuế ô tô / ô tô hạng nhẹ (theo loại xe)",
+  "Thuế do người sở hữu xe vào ngày 1 tháng 4 nộp hằng năm.",
+  "c"
+ ],
+ "pj62": [
+  "Trợ cấp nhi đồng",
+  "Tiền người nuôi con được nhận cho đến khi con tốt nghiệp trung học cơ sở.",
+  "c"
+ ],
+ "pj63": [
+  "Trợ cấp nuôi con cho gia đình đơn thân",
+  "Tiền người một mình nuôi con đến 18 tuổi (do ly hôn...) được nhận. Người một mình nuôi con khuyết tật đến 19 tuổi cũng được nhận.",
+  "c"
+ ],
+ "pj64": [
+  "Bảo hiểm trách nhiệm bắt buộc (jibaiseki)",
+  "Chế độ thu tiền từ người lái ô tô, xe máy để hỗ trợ người bị tai nạn.",
+  "c"
+ ],
+ "pj65": [
+  "Tiền trợ cấp tử tuất một lần",
+  "Tiền gia đình nhận từ Lương hưu quốc dân khi người tham gia lương hưu qua đời.",
+  "c"
+ ],
+ "pj66": [
+  "Khai tử",
+  "Giấy nộp cho cơ quan hành chính khi người trong gia đình hoặc người sống cùng qua đời.",
+  "c"
+ ],
+ "pj67": [
+  "Bảo hiểm xã hội / Bảo hiểm lao động",
+  "Chế độ nhà nước thu tiền từ người lao động và công ty để hỗ trợ người gặp khó khăn.",
+  "c"
+ ],
+ "pj68": [
+  "Đăng kiểm xe (shaken)",
+  "Việc kiểm tra 1 hoặc 2 năm một lần xem ô tô, xe máy có chạy an toàn được không.",
+  "c"
+ ],
+ "pj69": [
+  "Giấy chứng nhận đăng kiểm",
+  "Giấy nhận được sau khi đăng kiểm xong.",
+  "c"
+ ],
+ "pj70": [
+  "Hỗ trợ đi học",
+  "Hỗ trợ tiền đồ dùng học tập, tiền ăn trưa ở trường... Phụ huynh có thu nhập thấp của học sinh tiểu học, THCS được nhận.",
+  "c"
+ ],
+ "pj71": [
+  "Nội quy lao động",
+  "Quy định chi tiết về việc làm do công ty đặt ra.",
+  "c"
+ ],
+ "pj72": [
+  "Thuế cư trú",
+  "Thuế nộp cho tỉnh, thành phố, quận... của người có địa chỉ ở Nhật vào ngày 1 tháng 1 và đang đi làm.",
+  "c"
+ ],
+ "pj73": [
+  "Trợ cấp thai sản (khi nghỉ sinh)",
+  "Tiền nhận từ bảo hiểm sức khỏe khi nghỉ làm để sinh con và không được trả lương.",
+  "c"
+ ],
+ "pj74": [
+  "Khai sinh",
+  "Giấy nộp cho cơ quan hành chính khi em bé chào đời.",
+  "c"
+ ],
+ "pj75": [
+  "Trợ cấp sinh con một lần",
+  "Tiền nhận từ bảo hiểm sức khỏe... khi sinh con.",
+  "c"
+ ],
+ "pj76": [
+  "Lương hưu cơ bản cho người khuyết tật",
+  "Tiền người khuyết tật nhận từ Lương hưu quốc dân.",
+  "c"
+ ],
+ "pj77": [
+  "Lương hưu phúc lợi cho người khuyết tật",
+  "Tiền người khuyết tật nhận từ Bảo hiểm lương hưu phúc lợi.",
+  "c"
+ ],
+ "pj78": [
+  "Thuế tiêu dùng",
+  "Thuế trả khi mua hàng hoặc sử dụng dịch vụ.",
+  "c"
+ ],
+ "pj79": [
+  "Thuế thu nhập",
+  "Thuế nộp cho nhà nước từ thu nhập (tiền lương...).",
+  "c"
+ ],
+ "pj80": [
+  "Sổ tay người khuyết tật thể chất",
+  "Sổ do cơ quan hành chính nơi bạn sống cấp cho người khuyết tật về thể chất.",
+  "c"
+ ],
+ "dr国際交流協会": [
+  "Hiệp hội Giao lưu Quốc tế",
+  "Tổ chức kết nối người nước ngoài với người dân địa phương. Có mở các lớp tiếng Nhật.",
+  "c"
+ ],
+ "dr日本語教室": [
+  "Lớp học tiếng Nhật",
+  "Lớp học để học tiếng Nhật. Ở các lớp địa phương, thường do tình nguyện viên dạy.",
+  "c"
+ ],
+ "drボランティア": [
+  "Tình nguyện viên",
+  "Người hoạt động giúp đỡ người khác mà không nhận tiền.",
+  "c"
+ ],
+ "dr見学": [
+  "Tham quan, dự thử",
+  "Đến xem lớp học, v.v. trước khi tham gia.",
+  "c"
+ ],
+ "dr教材費": [
+  "Phí tài liệu học tập",
+  "Tiền mua sách (giáo trình) v.v. dùng để học.",
+  "c"
+ ],
+ "dr空き待ち": [
+  "Chờ chỗ trống",
+  "Khi lớp học v.v. đã đầy, chờ đến khi có thể vào được.",
+  "c"
+ ],
+ "dr試験対策": [
+  "Luyện thi",
+  "Việc học để thi đỗ.",
+  "c"
+ ],
+ "drチラシ": [
+  "Tờ rơi",
+  "Một tờ giấy có ghi thông báo hoặc quảng cáo.",
+  "c"
+ ],
+ "dr申し込み": [
+  "Đăng ký",
+  "Báo cho bên kia biết là \"tôi muốn tham gia\" hoặc \"tôi muốn sử dụng\".",
+  "c"
+ ],
+ "dr面談": [
+  "Buổi gặp mặt, phỏng vấn",
+  "Gặp và nói chuyện trực tiếp với ai đó.",
+  "c"
+ ],
+ "dr集会室": [
+  "Phòng họp, phòng sinh hoạt chung",
+  "Phòng để mọi người tụ tập, thảo luận hoặc hoạt động.",
+  "c"
+ ],
+ "dr調理室": [
+  "Phòng nấu ăn",
+  "Phòng dùng để nấu ăn.",
+  "c"
+ ],
+ "dr長机": [
+  "Bàn dài",
+  "Bàn dài theo chiều ngang. Vài người ngồi cạnh nhau cùng dùng.",
+  "c"
+ ],
+ "dr利用者登録": [
+  "Đăng ký người sử dụng",
+  "Khai báo trước tên v.v. của người sử dụng cơ sở. Một số nơi yêu cầu việc này trước khi đặt phòng.",
+  "c"
+ ],
+ "dr団体登録": [
+  "Đăng ký nhóm",
+  "Khai báo trước thông tin về nhóm để cả nhóm sử dụng cơ sở.",
+  "c"
+ ],
+ "dr飲食": [
+  "Ăn uống",
+  "Việc ăn và uống.",
+  "c"
+ ],
+ "dr持ち寄り": [
+  "Mỗi người mang một món",
+  "Mỗi người mang một ít đồ ăn v.v. đến để góp chung.",
+  "c"
+ ],
+ "dr利用者カード": [
+  "Thẻ thư viện",
+  "Thẻ dùng khi mượn sách v.v. ở thư viện.",
+  "c"
+ ],
+ "dr貸出": [
+  "Cho mượn",
+  "Việc cho mượn sách v.v. Từ dùng khi mượn sách ở thư viện.",
+  "c"
+ ],
+ "dr返却": [
+  "Trả lại",
+  "Trả lại đồ đã mượn.",
+  "c"
+ ],
+ "dr返却期限": [
+  "Hạn trả",
+  "Ngày cuối cùng phải trả lại đồ đã mượn.",
+  "c"
+ ],
+ "dr返却ポスト": [
+  "Hộp trả sách",
+  "Hộp để trả sách đã mượn. Thường dùng được cả khi thư viện đóng cửa.",
+  "c"
+ ],
+ "dr延長": [
+  "Gia hạn",
+  "Kéo dài thời gian hoặc ngày đã định. Ở thư viện là lùi ngày trả sách.",
+  "c"
+ ],
+ "dr館内閲覧": [
+  "Chỉ đọc tại chỗ",
+  "Không được mang về, chỉ được đọc trong thư viện.",
+  "c"
+ ],
+ "dr最新号": [
+  "Số mới nhất",
+  "Số tạp chí v.v. vừa phát hành gần đây nhất.",
+  "c"
+ ],
+ "dr速達": [
+  "Chuyển phát nhanh",
+  "Dịch vụ gửi thư nhanh. Giá cao hơn thư thường.",
+  "c"
+ ],
+ "dr書留": [
+  "Thư bảo đảm",
+  "Dịch vụ bưu điện có lưu lại hồ sơ gửi. Giá cao hơn thư thường.",
+  "c"
+ ],
+ "dr小包": [
+  "Bưu kiện",
+  "Hàng hóa gửi qua bưu điện.",
+  "c"
+ ],
+ "dr国際郵便": [
+  "Bưu phẩm quốc tế",
+  "Thư, bưu phẩm gửi ra nước ngoài hoặc từ nước ngoài gửi đến.",
+  "c"
+ ],
+ "dr不在連絡票": [
+  "Phiếu báo vắng nhà",
+  "Giấy được bỏ vào khi bạn vắng nhà và không nhận được bưu phẩm. Dùng giấy này để yêu cầu giao lại.",
+  "c"
+ ],
+ "dr再配達": [
+  "Giao lại",
+  "Nhờ giao lại lần nữa thư hoặc hàng chưa giao được.",
+  "c"
+ ],
+ "dr席を外しております": [
+  "Hiện không có ở chỗ ngồi",
+  "Nghĩa là người đó hiện không có ở chỗ. Hãy chờ một chút hoặc gọi lại sau.",
+  "c"
+ ],
+ "drあいにく": [
+  "Rất tiếc",
+  "Nghĩa là \"tiếc là\". Sau đó sẽ nói điều không thể làm hoặc không được.",
+  "c"
+ ],
+ "dr申し訳ございません": [
+  "Thành thật xin lỗi",
+  "Cách nói lịch sự của \"xin lỗi\".",
+  "c"
+ ],
+ "drお手数ですが": [
+  "Phiền bạn",
+  "Nghĩa là \"tuy phiền nhưng xin nhờ\". Sau đó sẽ nói điều muốn bạn làm.",
+  "c"
+ ],
+ "dr差し支えなければ": [
+  "Nếu không phiền",
+  "Nghĩa là \"nếu được\". Nếu không muốn thì không cần nói.",
+  "c"
+ ],
+ "drご用件": [
+  "Việc cần",
+  "Lý do bạn gọi điện hoặc đến. Hãy nói ngắn gọn.",
+  "c"
+ ],
+ "dr念のため": [
+  "Để chắc chắn",
+  "Nghĩa là \"làm lại lần nữa để không bị nhầm\".",
+  "c"
+ ],
+ "drよろしいでしょうか": [
+  "Có được không ạ?",
+  "Cách nói lịch sự của \"được không?\". Nếu được thì trả lời \"Vâng\".",
+  "c"
+ ],
+ "drお伺いします": [
+  "Xin hỏi / Xin đến",
+  "Cách nói lịch sự của \"hỏi\" hoặc \"đi đến\".",
+  "c"
+ ],
+ "dr失礼いたします": [
+  "Xin phép",
+  "Lời chào lịch sự. Dùng khi cúp máy điện thoại hoặc khi vào phòng.",
+  "c"
+ ],
+ "drお越しください": [
+  "Xin mời đến",
+  "Cách nói lịch sự của \"hãy đến\".",
+  "c"
+ ],
+ "drお持ちください": [
+  "Xin mang theo",
+  "Cách nói lịch sự của \"hãy mang đến\".",
+  "c"
+ ],
+ "drご記入ください": [
+  "Xin điền vào",
+  "Cách nói lịch sự của \"hãy viết vào giấy\".",
+  "c"
+ ],
+ "drご本人様": [
+  "Chính chủ",
+  "Chính người đó. Nghĩa là chính người đó đến hoặc nói, không phải gia đình v.v.",
+  "c"
+ ],
+ "drフルネーム": [
+  "Họ và tên đầy đủ",
+  "Toàn bộ họ và tên.",
+  "c"
+ ],
+ "dr日中つながる": [
+  "Liên lạc được ban ngày",
+  "Nghĩa là có thể nghe máy vào ban ngày. Hãy cho số điện thoại nghe được ban ngày.",
+  "c"
+ ],
+ "drご連絡先": [
+  "Thông tin liên lạc",
+  "Số điện thoại, email v.v. để liên lạc với bạn.",
+  "c"
+ ],
+ "drお手元": [
+  "Trong tay",
+  "Thứ đang ở gần bạn hoặc bạn đang cầm.",
+  "c"
+ ],
+ "dr控え": [
+  "Bản lưu",
+  "Giấy có nội dung giống giấy tờ đã nộp. Bạn tự giữ lại.",
+  "c"
+ ],
+ "dr窓口": [
+  "Quầy tiếp nhận",
+  "Nơi tư vấn hoặc làm thủ tục ở cơ quan, công ty v.v.",
+  "c"
+ ],
+ "dr担当の者": [
+  "Người phụ trách",
+  "Người làm công việc đó. Người đó sẽ nói chuyện thay.",
+  "c"
+ ],
+ "drお預かりします": [
+  "Xin nhận giữ",
+  "Nghĩa là \"nhận giữ trong một lúc\". Bạn đưa giấy tờ, tiền v.v.",
+  "c"
+ ],
+ "dr写し": [
+  "Bản sao",
+  "Bản photo của giấy tờ.",
+  "c"
+ ],
+ "dr原本": [
+  "Bản gốc",
+  "Giấy tờ thật ban đầu, không phải bản photo.",
+  "c"
+ ],
+ "dr最短": [
+  "Nhanh nhất",
+  "Nghĩa là trường hợp sớm nhất hoặc ngắn nhất.",
+  "c"
+ ],
+ "dr空き": [
+  "Chỗ trống",
+  "Vẫn còn chỗ để đặt hoặc vào.",
+  "c"
+ ],
+ "drお申し込み": [
+  "Đăng ký",
+  "Yêu cầu và làm thủ tục để sử dụng dịch vụ v.v.",
+  "c"
+ ],
+ "drハラール": [
+  "Halal",
+  "Thực phẩm được phép ăn theo quy định của đạo Hồi.",
+  "c"
+ ],
+ "dr揚げ油": [
+  "Dầu chiên",
+  "Dầu dùng để chiên ngập dầu như tempura. Nhiều quán dùng chung dầu với các món khác.",
+  "c"
+ ],
+ "dr染み抜き": [
+  "Tẩy vết bẩn",
+  "Việc tẩy vết bẩn (vết ố) trên quần áo. Thường tính thêm phí ngoài giá thông thường.",
+  "c"
+ ],
+ "drデラックス": [
+  "Gói cao cấp (Deluxe)",
+  "Gói hoàn thiện kỹ hơn bình thường. Thường tính thêm phí ngoài giá thông thường.",
+  "c"
+ ],
+ "dr仕上がり": [
+  "Hoàn thành (giặt xong)",
+  "Việc giặt là xong và quần áo đã sẵn sàng. \"Ngày hoàn thành\" là ngày có thể đến lấy quần áo.",
+  "c"
+ ],
+ "drワイシャツ": [
+  "Áo sơ mi",
+  "Áo có cổ và cúc, mặc khi đi làm v.v.",
+  "c"
+ ],
+ "drハンガー仕上げ": [
+  "Trả đồ treo móc",
+  "Trả quần áo đã giặt dưới dạng treo trên móc.",
+  "c"
+ ],
+ "drたたみ仕上げ": [
+  "Trả đồ gấp",
+  "Trả quần áo đã giặt dưới dạng gấp gọn.",
+  "c"
+ ],
+ "dr引換券": [
+  "Phiếu nhận đồ",
+  "Giấy cần xuất trình khi nhận lại quần áo đã gửi. Hãy giữ cẩn thận, đừng làm mất.",
+  "c"
+ ],
+ "dr会員カード": [
+  "Thẻ thành viên",
+  "Thẻ dành cho thành viên của cửa hàng. Có thể dùng để tích điểm hoặc được giảm giá.",
+  "c"
+ ],
+ "dr海外送金": [
+  "Chuyển tiền ra nước ngoài",
+  "Gửi tiền cho người hoặc ngân hàng ở nước ngoài.",
+  "c"
+ ],
+ "dr外国送金依頼書": [
+  "Đơn yêu cầu chuyển tiền ra nước ngoài",
+  "Giấy nộp cho ngân hàng khi chuyển tiền ra nước ngoài. Ghi tên người nhận, ngân hàng nhận v.v.",
+  "c"
+ ],
+ "drSWIFTコード": [
+  "Mã SWIFT",
+  "Mã riêng của từng ngân hàng, dùng khi chuyển tiền quốc tế. Nên hỏi trước gia đình.",
+  "c"
+ ],
+ "drマイナンバー": [
+  "Mã số cá nhân (My Number)",
+  "Mã số riêng của mỗi người sống tại Nhật. Dùng trong thủ tục thuế v.v.",
+  "c"
+ ],
+ "dr中継銀行": [
+  "Ngân hàng trung gian",
+  "Ngân hàng đứng giữa khi chuyển tiền ra nước ngoài. Có thể mất phí.",
+  "c"
+ ],
+ "dr受取人": [
+  "Người nhận",
+  "Người nhận tiền hoặc đồ vật.",
+  "c"
+ ],
+ "dr特急": [
+  "Tàu tốc hành đặc biệt (Limited Express)",
+  "Tàu chạy rất nhanh, không dừng ở một số ga. Thường cần mua vé tốc hành ngoài vé lên tàu.",
+  "c"
+ ],
+ "dr快速": [
+  "Tàu nhanh (Rapid)",
+  "Tàu nhanh hơn tàu thường, không dừng ở một số ga.",
+  "c"
+ ],
+ "dr乗車券": [
+  "Vé lên tàu",
+  "Vé để đi tàu.",
+  "c"
+ ],
+ "dr特急券": [
+  "Vé tốc hành",
+  "Vé mua thêm ngoài vé lên tàu khi đi tàu tốc hành đặc biệt.",
+  "c"
+ ],
+ "dr指定席": [
+  "Ghế chỉ định",
+  "Ghế đã được định sẵn. Số ghế được ghi trên vé.",
+  "c"
+ ],
+ "dr自由席": [
+  "Ghế tự do",
+  "Ghế không định trước. Có thể ngồi vào ghế còn trống.",
+  "c"
+ ],
+ "dr乗り換え": [
+  "Chuyển tàu / Chuyển mạng",
+  "Đổi sang tàu khác giữa chừng. Với điện thoại di động, còn có nghĩa là đổi sang nhà mạng khác.",
+  "c"
+ ],
+ "dr振替輸送": [
+  "Vận chuyển thay thế",
+  "Khi tàu ngừng chạy, có thể đi bằng tàu hoặc xe buýt khác.",
+  "c"
+ ],
+ "drフロント": [
+  "Quầy lễ tân",
+  "Quầy tiếp tân của khách sạn.",
+  "c"
+ ],
+ "dr手配": [
+  "Sắp xếp, đặt",
+  "Chuẩn bị những thứ cần thiết. Đặt taxi nghĩa là gọi taxi.",
+  "c"
+ ],
+ "dr正面玄関": [
+  "Cửa chính",
+  "Lối vào lớn nhất ở phía trước tòa nhà.",
+  "c"
+ ],
+ "dr迎車": [
+  "Xe đến đón",
+  "Taxi đến tận nơi khách đang ở để đón. Có thể mất phí đón xe.",
+  "c"
+ ],
+ "drワゴン": [
+  "Xe van / xe nhiều chỗ",
+  "Xe lớn chở được nhiều người hoặc hành lý.",
+  "c"
+ ],
+ "drクレジットカード": [
+  "Thẻ tín dụng",
+  "Thẻ cho phép trả tiền gộp sau. Có dùng được hay không tùy từng nơi.",
+  "c"
+ ],
+ "dr運転免許更新センター": [
+  "Trung tâm gia hạn bằng lái xe",
+  "Nơi làm thủ tục gia hạn bằng lái xe.",
+  "c"
+ ],
+ "dr更新のお知らせ": [
+  "Thông báo gia hạn",
+  "Bưu thiếp báo bằng lái sắp hết hạn. Khi nhận được, hãy đi gia hạn trong thời gian quy định.",
+  "c"
+ ],
+ "dr有効期限": [
+  "Ngày hết hạn",
+  "Ngày cuối cùng có thể sử dụng. Qua ngày này sẽ không dùng được.",
+  "c"
+ ],
+ "dr講習区分": [
+  "Loại khóa học",
+  "Loại khóa học phải tham gia khi gia hạn bằng lái. Thời gian và chi phí khác nhau tùy loại.",
+  "c"
+ ],
+ "dr優良運転者講習": [
+  "Khóa học cho người lái xe gương mẫu",
+  "Khóa học cho người lái xe an toàn, không gây tai nạn hay vi phạm luật giao thông.",
+  "c"
+ ],
+ "dr一般講習": [
+  "Khóa học thông thường",
+  "Khóa học thông thường khi gia hạn bằng lái, dành cho người không phải lái xe gương mẫu v.v.",
+  "c"
+ ],
+ "dr適性検査": [
+  "Kiểm tra năng lực lái xe",
+  "Kiểm tra xem có đủ điều kiện lái xe không, như thị lực. Người đeo kính hãy mang theo.",
+  "c"
+ ],
+ "dr住民票の写し": [
+  "Bản sao phiếu cư trú",
+  "Giấy ghi địa chỉ, họ tên v.v. Có thể lấy tại cơ quan hành chính nơi bạn sống.",
+  "c"
+ ],
+ "drAT限定": [
+  "Bằng lái chỉ xe số tự động (AT)",
+  "Bằng lái chỉ được lái xe số tự động, không được lái xe số sàn.",
+  "c"
+ ],
+ "drマニュアル": [
+  "Xe số sàn",
+  "Xe phải tự sang số khi lái. Muốn lái loại này cần bằng lái không giới hạn AT.",
+  "c"
+ ],
+ "dr普通車": [
+  "Xe ô tô thông thường",
+  "Xe cỡ thông thường, lái được bằng bằng lái thông thường.",
+  "c"
+ ],
+ "dr教習": [
+  "Học lái xe",
+  "Học lái xe ô tô tại trường dạy lái xe.",
+  "c"
+ ],
+ "dr短期プラン": [
+  "Gói học cấp tốc",
+  "Khóa học liên tục để tốt nghiệp trong thời gian ngắn.",
+  "c"
+ ],
+ "dr送迎バス": [
+  "Xe buýt đưa đón",
+  "Xe buýt đưa đón người học giữa ga tàu v.v. và trường dạy lái xe.",
+  "c"
+ ],
+ "dr技能検定": [
+  "Sát hạch kỹ năng",
+  "Bài thi ở trường dạy lái để xem có lái xe đúng cách không.",
+  "c"
+ ],
+ "dr任意保険": [
+  "Bảo hiểm ô tô tự nguyện",
+  "Bảo hiểm xe tự chọn công ty và nội dung. Bù phần mà bảo hiểm bắt buộc không đủ.",
+  "c"
+ ],
+ "dr型式": [
+  "Mã kiểu xe",
+  "Ký hiệu, số thể hiện loại xe. Được ghi trên giấy kiểm định xe.",
+  "c"
+ ],
+ "dr登録番号": [
+  "Biển số đăng ký",
+  "Số ghi trên biển số xe.",
+  "c"
+ ],
+ "dr納車": [
+  "Giao xe",
+  "Nhận chiếc xe đã mua từ cửa hàng.",
+  "c"
+ ],
+ "dr妊婦健診": [
+  "Khám thai định kỳ",
+  "Khám tại bệnh viện cho người đang mang thai, kiểm tra sức khỏe mẹ và bé.",
+  "c"
+ ],
+ "dr受診票": [
+  "Phiếu khám",
+  "Giấy nộp cho bệnh viện khi khám, do thành phố/thị trấn cấp. Chính quyền sẽ trả một phần chi phí.",
+  "c"
+ ],
+ "dr補助券": [
+  "Phiếu hỗ trợ",
+  "Giấy để thành phố/thị trấn trả một phần chi phí. Trong khám thai, là phiếu khám.",
+  "c"
+ ],
+ "dr妊娠週数": [
+  "Tuần thai",
+  "Số tuần mang thai, tính từ ngày bắt đầu kỳ kinh nguyệt cuối cùng.",
+  "c"
+ ],
+ "dr在留資格取得": [
+  "Xin cấp tư cách lưu trú",
+  "Được cấp mới tư cách lưu trú để sống tại Nhật. Trẻ quốc tịch nước ngoài sinh tại Nhật cần nộp đơn ở Cục Xuất nhập cảnh.",
+  "c"
+ ],
+ "dr出生届受理証明書": [
+  "Giấy chứng nhận tiếp nhận khai sinh",
+  "Giấy chứng nhận cơ quan hành chính đã tiếp nhận tờ khai sinh. Lấy tại cơ quan hành chính.",
+  "c"
+ ],
+ "dr大使館": [
+  "Đại sứ quán",
+  "Cơ quan của nước bạn tại Nhật. Làm thủ tục hộ chiếu v.v.",
+  "c"
+ ],
+ "dr乳幼児健診": [
+  "Khám sức khỏe trẻ sơ sinh và trẻ nhỏ",
+  "Kiểm tra sức khỏe và sự phát triển của em bé, trẻ nhỏ.",
+  "c"
+ ],
+ "dr月齢": [
+  "Tháng tuổi",
+  "Số tháng kể từ khi em bé sinh ra.",
+  "c"
+ ],
+ "dr医療証": [
+  "Thẻ trợ cấp y tế trẻ em",
+  "Giấy chứng nhận để thành phố/thị trấn hỗ trợ chi phí khám bệnh cho trẻ. Xuất trình tại quầy tiếp nhận.",
+  "c"
+ ],
+ "dr自費": [
+  "Tự chi trả",
+  "Tự trả toàn bộ chi phí, không dùng bảo hiểm hay hỗ trợ của chính quyền.",
+  "c"
+ ],
+ "dr保育課": [
+  "Phòng Nhà trẻ",
+  "Bộ phận ở tòa thị chính phụ trách việc đăng ký nhà trẻ v.v.",
+  "c"
+ ],
+ "dr入園申請": [
+  "Đơn xin vào nhà trẻ",
+  "Đăng ký vào nhà trẻ v.v. Thường nộp tại quầy của thành phố/thị trấn.",
+  "c"
+ ],
+ "dr申込書": [
+  "Đơn đăng ký",
+  "Giấy điền và nộp khi đăng ký việc gì đó.",
+  "c"
+ ],
+ "dr就労証明書": [
+  "Giấy chứng nhận việc làm",
+  "Giấy tờ chứng minh bạn đang đi làm. Nhờ công ty nơi bạn làm viết.",
+  "c"
+ ],
+ "dr締め切り": [
+  "Hạn chót",
+  "Ngày cuối cùng có thể nộp giấy tờ. Phải nộp trước ngày này.",
+  "c"
+ ],
+ "dr一次募集": [
+  "Đợt tuyển đầu tiên",
+  "Đợt nhận đăng ký đầu tiên. Sau đó có thể có đợt tuyển thứ hai.",
+  "c"
+ ],
+ "dr途中入園": [
+  "Vào nhà trẻ giữa năm",
+  "Vào nhà trẻ giữa năm, không phải vào tháng 4.",
+  "c"
+ ],
+ "dr学務課": [
+  "Phòng Học vụ",
+  "Bộ phận thuộc Ủy ban Giáo dục, phụ trách thủ tục nhập học cho trẻ v.v.",
+  "c"
+ ],
+ "dr日本語学級": [
+  "Lớp tiếng Nhật",
+  "Phòng học trong trường để học tiếng Nhật, học một số tiết tại đây. Còn gọi là lớp quốc tế.",
+  "c"
+ ],
+ "dr日本語支援": [
+  "Hỗ trợ tiếng Nhật",
+  "Hỗ trợ tại trường cho trẻ chưa hiểu rõ tiếng Nhật.",
+  "c"
+ ],
+ "dr支援員": [
+  "Nhân viên hỗ trợ",
+  "Người đến trường giúp trẻ học tập v.v.",
+  "c"
+ ],
+ "dr就学時健康診断": [
+  "Khám sức khỏe trước khi vào tiểu học",
+  "Khám sức khỏe cho trẻ sẽ vào tiểu học năm sau. Thường khám tại trường dự định vào.",
+  "c"
+ ],
+ "dr上履き": [
+  "Giày đi trong nhà",
+  "Giày mang bên trong trường học hoặc tòa nhà.",
+  "c"
+ ],
+ "dr養護教諭": [
+  "Giáo viên y tế",
+  "Giáo viên phòng y tế của trường, lo về chấn thương, bệnh tật và sức khỏe của trẻ.",
+  "c"
+ ],
+ "dr就学相談": [
+  "Tư vấn nhập học",
+  "Trao đổi với Ủy ban Giáo dục về trường hoặc lớp phù hợp cho trẻ. Có tham khảo ý kiến phụ huynh.",
+  "c"
+ ],
+ "dr聴力": [
+  "Thính lực",
+  "Khả năng nghe âm thanh. Khi khám sẽ kiểm tra xem có nghe rõ không.",
+  "c"
+ ],
+ "dr給食費": [
+  "Tiền ăn trưa ở trường",
+  "Tiền phụ huynh trả cho bữa trưa của trẻ ở trường.",
+  "c"
+ ],
+ "dr引き落とし": [
+  "Trừ tiền tự động",
+  "Tiền được tự động trừ từ tài khoản ngân hàng. Cần để sẵn tiền trong tài khoản.",
+  "c"
+ ],
+ "dr届け出印": [
+  "Con dấu đăng ký với ngân hàng",
+  "Con dấu đã đăng ký khi mở tài khoản ngân hàng. Còn gọi là \"con dấu ngân hàng\".",
+  "c"
+ ],
+ "dr進路相談": [
+  "Tư vấn hướng đi",
+  "Trao đổi với giáo viên về tương lai sau khi tốt nghiệp THCS, như học trường THPT nào.",
+  "c"
+ ],
+ "dr三者面談": [
+  "Họp ba bên (giáo viên – phụ huynh – học sinh)",
+  "Buổi nói chuyện giữa giáo viên chủ nhiệm, phụ huynh và học sinh. Ở lớp 9 (năm 3 trung học cơ sở), sẽ trao đổi về hướng đi sau khi tốt nghiệp.",
+  "c"
+ ],
+ "dr担任": [
+  "Giáo viên chủ nhiệm",
+  "Giáo viên phụ trách một lớp học.",
+  "c"
+ ],
+ "dr通訳": [
+  "Phiên dịch",
+  "Việc dịch lời nói giữa những người nói ngôn ngữ khác nhau. Cũng chỉ người làm công việc này.",
+  "c"
+ ],
+ "dr高校進学": [
+  "Vào trung học phổ thông",
+  "Tốt nghiệp trung học cơ sở và vào trường trung học phổ thông. Thường phải thi để vào.",
+  "c"
+ ],
+ "dr放課後": [
+  "Sau giờ học",
+  "Thời gian sau khi tất cả các tiết học ở trường đã kết thúc.",
+  "c"
+ ],
+ "dr折り返し": [
+  "Gọi lại",
+  "Phía bên kia sẽ gọi lại cho bạn sau. Bạn cúp máy và chờ.",
+  "c"
+ ],
+ "dr特別支援学級": [
+  "Lớp hỗ trợ đặc biệt",
+  "Lớp học trong trường tiểu học hoặc trung học cơ sở dành cho trẻ cần hỗ trợ đặc biệt về thể chất, tâm lý hay học tập.",
+  "c"
+ ],
+ "dr特別支援学校": [
+  "Trường hỗ trợ đặc biệt",
+  "Trường dành cho trẻ cần hỗ trợ đặc biệt về thể chất, tâm lý hay học tập.",
+  "c"
+ ],
+ "dr通級による指導": [
+  "Lớp hỗ trợ theo giờ (Tsūkyū)",
+  "Học ở lớp bình thường, chỉ một số giờ được học riêng để nhận hướng dẫn đặc biệt.",
+  "c"
+ ],
+ "dr特別支援教育コーディネーター": [
+  "Điều phối viên giáo dục hỗ trợ đặc biệt",
+  "Giáo viên trong trường tư vấn về trẻ cần hỗ trợ đặc biệt và làm cầu nối giữa giáo viên với phụ huynh.",
+  "c"
+ ],
+ "dr求職申込み": [
+  "Đăng ký tìm việc",
+  "Đăng ký tại Hello Work (Văn phòng giới thiệu việc làm công) để tìm việc. Thường là bước đầu tiên.",
+  "c"
+ ],
+ "dr求人票": [
+  "Phiếu tuyển dụng",
+  "Tờ giấy công ty ghi nội dung công việc, giờ làm, lương… khi tìm người làm.",
+  "c"
+ ],
+ "dr紹介状": [
+  "Giấy giới thiệu",
+  "Giấy do quầy tư vấn cấp để giới thiệu bạn với công ty. Có việc phải có giấy này mới được ứng tuyển.",
+  "c"
+ ],
+ "dr就職説明会": [
+  "Buổi giới thiệu việc làm",
+  "Buổi công ty giải thích nội dung công việc cho người đang tìm việc.",
+  "c"
+ ],
+ "dr履歴書": [
+  "Sơ yếu lý lịch",
+  "Giấy ghi tên, địa chỉ, quá trình học tập và làm việc. Nộp khi ứng tuyển.",
+  "c"
+ ],
+ "dr職業相談": [
+  "Tư vấn việc làm",
+  "Trao đổi với nhân viên tại quầy về tìm việc, xin việc. Được tư vấn miễn phí.",
+  "c"
+ ],
+ "drパート": [
+  "Làm bán thời gian (part-time)",
+  "Cách làm việc với thời gian ngắn hơn nhân viên chính thức. Thường được trả lương theo giờ.",
+  "c"
+ ],
+ "drアルバイト": [
+  "Làm thêm (arubaito)",
+  "Cách làm việc trong thời gian ngắn hoặc thời hạn ngắn. Thường được trả lương theo giờ.",
+  "c"
+ ],
+ "dr派遣": [
+  "Lao động phái cử",
+  "Ký hợp đồng với công ty phái cử và đến làm việc tại công ty khác.",
+  "c"
+ ],
+ "dr求人": [
+  "Tuyển dụng",
+  "Việc công ty hay tổ chức tìm người làm việc.",
+  "c"
+ ],
+ "dr時給": [
+  "Lương theo giờ",
+  "Số tiền nhận được cho 1 giờ làm việc.",
+  "c"
+ ],
+ "dr営業部": [
+  "Phòng kinh doanh",
+  "Bộ phận trong công ty làm công việc bán sản phẩm, dịch vụ.",
+  "c"
+ ],
+ "dr人身事故": [
+  "Tai nạn có người bị nạn",
+  "Tai nạn tàu điện… va vào người, làm người bị thương hoặc tử vong. Tàu sẽ dừng hoặc bị trễ.",
+  "c"
+ ],
+ "dr運転見合わせ": [
+  "Tạm ngừng chạy",
+  "Tàu điện hoặc xe buýt tạm thời dừng, không chạy.",
+  "c"
+ ],
+ "dr遅延証明書": [
+  "Giấy chứng nhận tàu trễ",
+  "Giấy ghi việc tàu bị trễ. Thường nhận được ở nhà ga hoặc trên trang web của công ty đường sắt.",
+  "c"
+ ],
+ "dr出社": [
+  "Đến công ty / đi làm",
+  "Đến công ty để làm việc.",
+  "c"
+ ],
+ "dr総務部": [
+  "Phòng hành chính tổng hợp",
+  "Bộ phận trong công ty phụ trách công việc chung như giấy tờ, tòa nhà, nhân viên.",
+  "c"
+ ],
+ "dr内線": [
+  "Điện thoại nội bộ",
+  "Điện thoại chỉ dùng trong cùng công ty hoặc tòa nhà.",
+  "c"
+ ],
+ "dr席を外しています": [
+  "Đang không có ở chỗ ngồi",
+  "Nghĩa là người đó hiện không ở gần bàn làm việc. Vắng mặt trong chốc lát.",
+  "c"
+ ],
+ "dr会議中": [
+  "Đang họp",
+  "Nghĩa là hiện đang họp nên không thể nghe điện thoại.",
+  "c"
+ ],
+ "dr戻る": [
+  "Quay lại",
+  "Trở về chỗ cũ.",
+  "c"
+ ],
+ "drかけ直す": [
+  "Gọi lại",
+  "Cúp máy rồi sau đó gọi điện lại lần nữa.",
+  "c"
+ ],
+ "drお疲れさまです": [
+  "Otsukaresama desu (lời chào nơi làm việc)",
+  "Lời chào giữa đồng nghiệp trong công ty. Khi gọi nội bộ, thường nói câu này rồi xưng tên.",
+  "c"
+ ],
+ "dr納品": [
+  "Giao hàng",
+  "Giao hàng đã được đặt cho bên kia.",
+  "c"
+ ],
+ "dr注文書": [
+  "Đơn đặt hàng",
+  "Giấy ghi muốn mua gì và bao nhiêu.",
+  "c"
+ ],
+ "dr出荷": [
+  "Xuất hàng",
+  "Đưa hàng ra khỏi công ty hoặc kho để gửi cho khách.",
+  "c"
+ ],
+ "dr数量": [
+  "Số lượng",
+  "Số hoặc lượng của đồ vật.",
+  "c"
+ ],
+ "dr先方": [
+  "Phía đối tác",
+  "Người hoặc công ty bên kia.",
+  "c"
+ ],
+ "dr経緯": [
+  "Diễn biến / đầu đuôi sự việc",
+  "Quá trình một việc đã xảy ra như thế nào và ra sao.",
+  "c"
+ ],
+ "dr光回線": [
+  "Internet cáp quang",
+  "Đường truyền tốc độ cao để dùng Internet ở nhà. Thường cần thi công lắp đặt.",
+  "c"
+ ],
+ "drプロバイダー": [
+  "Nhà cung cấp dịch vụ Internet (ISP)",
+  "Công ty cung cấp dịch vụ kết nối Internet. Có khi phải ký hợp đồng riêng với công ty đường truyền.",
+  "c"
+ ],
+ "dr開通工事": [
+  "Thi công lắp đặt đường truyền",
+  "Việc nối đường dây tại nhà để có thể dùng Internet. Thường bạn phải có mặt ở nhà.",
+  "c"
+ ],
+ "dr解約金": [
+  "Phí hủy hợp đồng",
+  "Tiền phải trả khi hủy hợp đồng giữa chừng thời hạn đã cam kết.",
+  "c"
+ ],
+ "drホームルーター": [
+  "Router Wi-Fi gia đình",
+  "Thiết bị chỉ cần cắm vào ổ điện là dùng được Internet.",
+  "c"
+ ],
+ "drプラン": [
+  "Gói cước",
+  "Sự kết hợp giữa mức phí và các dịch vụ được sử dụng.",
+  "c"
+ ],
+ "drデータ容量": [
+  "Dung lượng data",
+  "Lượng Internet có thể dùng trên điện thoại trong 1 tháng.",
+  "c"
+ ],
+ "drかけ放題": [
+  "Gọi không giới hạn",
+  "Dịch vụ trả một khoản cố định, gọi nhiều bao nhiêu phí cũng không đổi.",
+  "c"
+ ],
+ "drオプション": [
+  "Dịch vụ tùy chọn",
+  "Dịch vụ riêng có thể thêm vào gói cước. Thường mất phí khi hết thời gian miễn phí.",
+  "c"
+ ],
+ "dr補償サービス": [
+  "Dịch vụ bảo hành / bảo hiểm điện thoại",
+  "Dịch vụ hỗ trợ khi điện thoại bị hỏng hoặc bị mất.",
+  "c"
+ ],
+ "dr本人確認書類": [
+  "Giấy tờ tùy thân",
+  "Thẻ… dùng để chứng minh bạn là ai. Người nước ngoài thường xuất trình thẻ lưu trú.",
+  "c"
+ ],
+ "dr担当": [
+  "Người phụ trách",
+  "Người làm công việc đó.",
+  "c"
+ ],
+ "dr伝言": [
+  "Lời nhắn",
+  "Nhờ chuyển lời đến người vắng mặt. Nói ngắn gọn tên, số điện thoại và việc cần.",
+  "c"
+ ],
+ "dr承ります": [
+  "Xin được tiếp nhận",
+  "Cách nói lịch sự của “nghe” hoặc “nhận”. Hãy nói điều bạn muốn truyền đạt.",
+  "c"
+ ],
+ "dr外出": [
+  "Đi ra ngoài",
+  "Nghĩa là người đó đang ra ngoài vì công việc…, hiện không có mặt.",
+  "c"
+ ],
+ "dr席を外して": [
+  "Không có ở chỗ ngồi",
+  "Nghĩa là người đó tạm thời không ở gần. Bạn có thể để lại lời nhắn hoặc gọi lại sau.",
+  "c"
+ ],
+ "dr復唱": [
+  "Nhắc lại để xác nhận",
+  "Nói lại điều đã nghe để kiểm tra. Hãy nghe kỹ xem có sai không.",
+  "c"
+ ],
+ "dr少々お待ちください": [
+  "Xin vui lòng chờ một chút",
+  "Nghĩa là “Hãy chờ một chút”. Đừng cúp máy, hãy chờ.",
+  "c"
+ ],
+ "drお待たせいたしました": [
+  "Xin lỗi đã để quý khách chờ",
+  "Nghĩa là “Xin lỗi đã để bạn chờ”. Sau đó cuộc nói chuyện sẽ tiếp tục.",
+  "c"
+ ],
+ "dr恐れ入りますが": [
+  "Xin lỗi, nhưng…",
+  "Nghĩa là “Xin lỗi, nhưng…”. Sau đó là lời nhờ hoặc câu hỏi.",
+  "c"
+ ],
+ "drかしこまりました": [
+  "Vâng, tôi hiểu rồi (lịch sự)",
+  "Cách nói lịch sự của “Tôi hiểu rồi”.",
+  "c"
+ ],
+ "dr承知いたしました": [
+  "Vâng, tôi đã rõ (lịch sự)",
+  "Cách nói lịch sự của “Tôi hiểu rồi”.",
+  "c"
+ ],
+ "drお掛け直しください": [
+  "Xin vui lòng gọi lại",
+  "Nghĩa là “Hãy gọi điện lại lần nữa”. Cúp máy và gọi lại sau.",
+  "c"
+ ],
+ "dr在学証明書": [
+  "Giấy chứng nhận đang học",
+  "Giấy do trường cấp xác nhận bạn là học sinh của trường.",
+  "c"
+ ],
+ "dr転入学通知書": [
+  "Giấy thông báo chuyển trường",
+  "Giấy thông báo việc vào trường mới. Nhận ở cơ quan hành chính (Hội đồng giáo dục) và nộp cho trường mới.",
+  "c"
+ ],
+ "dr総合案内": [
+  "Quầy hướng dẫn chung",
+  "Quầy tiếp đón gần lối vào cơ quan hành chính. Sẽ chỉ cho bạn nên đến quầy nào.",
+  "c"
+ ],
+ "dr転入": [
+  "Chuyển đến",
+  "Chuyển nhà từ thành phố, thị trấn khác đến. Phải nộp đăng ký tại cơ quan hành chính trong thời hạn quy định.",
+  "c"
+ ],
+ "dr保険年金課": [
+  "Phòng Bảo hiểm và Hưu trí",
+  "Phòng làm thủ tục Bảo hiểm y tế quốc dân và Lương hưu quốc dân. Tên phòng khác nhau tùy địa phương.",
+  "c"
+ ],
+ "dr番号札": [
+  "Phiếu số thứ tự",
+  "Giấy có ghi số. Lấy ở quầy và chờ đến khi số của mình được gọi.",
+  "c"
+ ],
+ "dr納付書": [
+  "Giấy nộp tiền",
+  "Giấy dùng khi nộp thuế hoặc phí bảo hiểm. Có thể nộp ở ngân hàng, quầy cơ quan hành chính, cửa hàng tiện lợi…",
+  "c"
+ ],
+ "dr普通徴収": [
+  "Tự nộp thuế cư trú",
+  "Cách tự nộp thuế cư trú bằng giấy nộp tiền, không trừ vào lương.",
+  "c"
+ ],
+ "dr届出印": [
+  "Con dấu đã đăng ký",
+  "Con dấu (hanko) đã đăng ký khi mở tài khoản ngân hàng.",
+  "c"
+ ],
+ "dr税務課": [
+  "Phòng Thuế",
+  "Phòng trong cơ quan hành chính phụ trách công việc về thuế.",
+  "c"
+ ],
+ "dr柴犬": [
+  "Chó Shiba",
+  "Một giống chó của Nhật Bản.",
+  "c"
+ ],
+ "dr環境衛生課": [
+  "Phòng Vệ sinh môi trường",
+  "Một phòng trong cơ quan hành chính, làm các việc như đăng ký chó.",
+  "c"
+ ],
+ "dr犬の登録": [
+  "Đăng ký chó",
+  "Nộp đăng ký cho thành phố, thị trấn khi bắt đầu nuôi chó. Theo luật, thường chỉ đăng ký một lần trong đời chó.",
+  "c"
+ ],
+ "dr狂犬病": [
+  "Bệnh dại",
+  "Bệnh rất nguy hiểm lây từ chó… Chó phải tiêm phòng mỗi năm.",
+  "c"
+ ],
+ "dr予防注射": [
+  "Tiêm phòng",
+  "Mũi tiêm để phòng bệnh. Chó phải tiêm phòng dại mỗi năm.",
+  "c"
+ ],
+ "dr注射済証": [
+  "Thẻ chứng nhận đã tiêm phòng",
+  "Vật chứng nhận chó đã tiêm phòng dại. Đeo cho chó.",
+  "c"
+ ],
+ "dr鑑札": [
+  "Thẻ đăng ký chó",
+  "Thẻ nhận được khi đăng ký chó. Đeo cho chó.",
+  "c"
+ ],
+ "dr資格喪失証明書": [
+  "Giấy chứng nhận mất tư cách bảo hiểm",
+  "Giấy tờ cho biết ngày bạn ngừng tham gia bảo hiểm y tế của công ty cũ.",
+  "c"
+ ]
+}

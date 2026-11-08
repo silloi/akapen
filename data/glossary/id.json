@@ -1,0 +1,4242 @@
+{
+ "mh1": [
+  "tes perekrutan",
+  "tes untuk memeriksa apakah seseorang sesuai dengan suatu perusahaan,memberi pertanyaan dan meminta jawaban",
+  "o"
+ ],
+ "mh2": [
+  "surat keterangan sertifikat tempat tinggal",
+  "surat diterbitkan oleh kantor pemerintah untuk membuktikan kebenaran yang tercantum pada sertifikat tempat tinggal",
+  "o"
+ ],
+ "mh3": [
+  "surat izin mengemudi",
+  "surat diterbitkan oleh kantor polisi untuk membuktikan diizinkan mengemudi kendaraan bermotor",
+  "o"
+ ],
+ "mh4": [
+  "deskripsi",
+  "hal-hal yang dituliskan di surat dll.",
+  "o"
+ ],
+ "mh5": [
+  "periode percobaan kerja",
+  "periode untuk mencoba bekerja",
+  "o"
+ ],
+ "mh6": [
+  "ketidakcocokan",
+  "tidak cocok",
+  "o"
+ ],
+ "mh7": [
+  "perjanjian kerja",
+  "perjanjian untuk kerja",
+  "o"
+ ],
+ "mh8": [
+  "tempat kerja",
+  "tempat Anda kerja",
+  "o"
+ ],
+ "mh9": [
+  "kerja yang Anda lakukan",
+  "isi kerja",
+  "o"
+ ],
+ "mh10": [
+  "surat perjanjian kerja",
+  "surat yang tecantum perjanjian kerja",
+  "o"
+ ],
+ "mh11": [
+  "masa kontrak kerja",
+  "masa kontrak untuk bekerja",
+  "o"
+ ],
+ "mh12": [
+  "peenerbitam",
+  "proses menerbitkan",
+  "o"
+ ],
+ "mh13": [
+  "perekrutan",
+  "merekrut orang untuk mengisi peran tertantu",
+  "o"
+ ],
+ "mh14": [
+  "perekrutan karier menengah",
+  "merekrut orang yang pernah bekerja di perusahaan lain",
+  "o"
+ ],
+ "mh15": [
+  "gaji",
+  "gaji untuk mempekerjakan",
+  "o"
+ ],
+ "mh16": [
+  "hari gajian",
+  "hari membayar gajian",
+  "o"
+ ],
+ "mh17": [
+  "kenaikan gaji",
+  "gajinya dinaikkan",
+  "o"
+ ],
+ "mh18": [
+  "absen/ketidakhadiran",
+  "tidak masuk kerja pada hari kerja tanpa izin dari perusahaan.",
+  "o"
+ ],
+ "mh19": [
+  "buku gajian",
+  "buku tulis dikelola perusahaan untuk menuliskan gaji karyawan .",
+  "o"
+ ],
+ "mh20": [
+  "hari tenggat penghitungan gaji",
+  "hari tenggat untuk menghitungkan gaji sebulan",
+  "o"
+ ],
+ "mh21": [
+  "slip gaji",
+  "kertas yang dituliskan mengenai gaji",
+  "o"
+ ],
+ "mh22": [
+  "gaji pokok",
+  "bagian pokok gaji",
+  "o"
+ ],
+ "mh23": [
+  "tunjangan keluarga",
+  "uang yang diberikan perusahaan kepada karyawan yang berkeluarga",
+  "o"
+ ],
+ "mh24": [
+  "tunjangan perjalanan",
+  "pembayaran yang diberikan perusahaan kepada karyawan yang perlu ongkos pergi ke kantor",
+  "o"
+ ],
+ "mh25": [
+  "tunjangan jabatan",
+  "pembayaran yang diberikan perusahaan kepada karyawan yang menjabat tertentu",
+  "o"
+ ],
+ "mh26": [
+  "tunjangan keahlian",
+  "pembayaran yang diberikan perusahaan kepada karyawan yang mempunai keahlian tertentu",
+  "o"
+ ],
+ "mh27": [
+  "tunjangan kehadiran",
+  "pembayaran diberikan perusahaan kepada karyawan yang bekerja dengan keras tanpa absen",
+  "o"
+ ],
+ "mh28": [
+  "upah kerja lembur yang dihitungkan dengan rate tertentu",
+  "upah kerja lembur yang dihitungkan dengan rate tertentu",
+  "o"
+ ],
+ "mh29": [
+  "upah kerja lembur luar jam kerja yang dihitungkan dengan rate tertentu",
+  "upah yang dihitungkan dengan rate tertentu diberikan perusahaan kepada karyawan yang bekerja lebih banyak dari jam kerja yang ditetapkan oleh hukum.",
+  "o"
+ ],
+ "mh30": [
+  "upah kerja lembur untuk hari libur yang dihitungkan dengan rate tertentu",
+  "upah kerja lembur yang dihitungkan dengan rate tertentu diberikan perusahaan jika Anda bekerja di hari libur",
+  "o"
+ ],
+ "mh31": [
+  "upah kerja lembur untuk malam yang dihitungkan dengan rate tertentu",
+  "upah kerja lembur yang dihitungkan dengan rate tertentu jika Anda bekerja pada malam hari",
+  "o"
+ ],
+ "mh32": [
+  "tugas",
+  "tugas yang pekerja lakukan",
+  "o"
+ ],
+ "mh33": [
+  "keterampilan",
+  "keterampilan yang seseorang punya",
+  "o"
+ ],
+ "mh34": [
+  "prestasi kerja",
+  "prestasi pada kerja",
+  "o"
+ ],
+ "mh35": [
+  "upah minimum",
+  "upah yang paling rendah harus dibayar yang ditetapkan oleh hukum",
+  "o"
+ ],
+ "mh36": [
+  "tanggungan",
+  "pekerja menanggung kehidupan suami atau istri ,atau anak mereka",
+  "o"
+ ],
+ "mh37": [
+  "biaya total",
+  "sejumlah uang yang dikeluarkan",
+  "o"
+ ],
+ "mh38": [
+  "promosi jabatan",
+  "kenaikan jabatan di dalam perusahaan",
+  "o"
+ ],
+ "mh39": [
+  "demosi jabatan",
+  "pemindahan posisi atau jabatan ke posisi atau jabatan lebih rendah",
+  "o"
+ ],
+ "mh40": [
+  "tidak pernah absen",
+  "tidak absen satu hari pun kecuali cuti berbayar",
+  "o"
+ ],
+ "mh41": [
+  "sistem gaji bulanan",
+  "sistem menghitungkan gaji bulanan",
+  "o"
+ ],
+ "mh42": [
+  "sistem gaji harian",
+  "sistem menghitungkan gaji harian",
+  "o"
+ ],
+ "mh43": [
+  "sistem gaji per jam",
+  "sistem menghitungkan gaji per jam",
+  "o"
+ ],
+ "mh44": [
+  "pembayaran kelebihan",
+  "membayar uang lebih banyak daripada sebenarnya",
+  "o"
+ ],
+ "mh45": [
+  "tingkat upah tambahan yang ditentukan hukum",
+  "tingkat khusus untuk menambah upah kerja lembur atau kerja pada malam hari yang ditentukan hukum",
+  "o"
+ ],
+ "mh46": [
+  "penutupan sementara",
+  "menjadi libur dengan alasan perusahaan",
+  "o"
+ ],
+ "mh47": [
+  "upah rata-rata",
+  "sejumlah uang yang dibayar perusahaan selama tiga bulan dibagikan sejumlah hari pada tiga bulan sesuai dengan tanggalan",
+  "o"
+ ],
+ "mh48": [
+  "tunjangan pemberhentian kerja",
+  "upah yang dibayar perusahaan kepada karyawan yang diberhantikan kerja. Berdasarkan undang-undang standar ketenagakerjaan,perusahaan harus membayar lebih dari 60% dari upah rata-rata jika minta karyawan untuk tidak masuk kerja dengan alasan pihak perusahaan.",
+  "o"
+ ],
+ "mh49": [
+  "perhitungan harian",
+  "mengenai gaji dll.,menghitungkan sesuai dengan hari yang telah Anda kerja",
+  "o"
+ ],
+ "mh50": [
+  "mata uang",
+  "uang",
+  "o"
+ ],
+ "mh51": [
+  "lembaga keuangan",
+  "lembaga yang memberikan fasilitas dan produk di bidang keuangan serta memutar arus uang dalam perekonomian seperti bank",
+  "o"
+ ],
+ "mh52": [
+  "rekening bank",
+  "rekening keuangan yang dikelola oleh bank atau lembaga keuangan lainnya di mana transaksi keuangan antara bank dan pelanggan dicatat",
+  "o"
+ ],
+ "mh53": [
+  "rekning sekuritas",
+  "tempat di mana perusahaan atau orang mendepositkan sukuritas di bank",
+  "o"
+ ],
+ "mh54": [
+  "pajak penghasilan yang dipotong dari sumbernya",
+  "pajak bahwa pekerja membayar ke negara.Perusahaan membayar menggantikan pekerja dengan sistem .",
+  "o"
+ ],
+ "mh59": [
+  "iuran asuransi",
+  "membayar iuran asuransi",
+  "o"
+ ],
+ "mh60": [
+  "biaya sewa rumah milik perusahaan",
+  "biaya sewa rumah milik perusahaan",
+  "o"
+ ],
+ "mh61": [
+  "tabungan di perusahaan",
+  "uang yang ditabung karyawan di perusahaan",
+  "o"
+ ],
+ "mh62": [
+  "deposit",
+  "uang yang ditabung sedikit-sedikit untuk tujuan tertentu",
+  "o"
+ ],
+ "mh63": [
+  "iuran serikat pekerja",
+  "pembayaran anggota <serikat pekerja> untuk meningkatkan kualitas lingkungan kerja.",
+  "o"
+ ],
+ "mh64": [
+  "pembayaran darurat",
+  "Gaji dibayar pada hari yang bukan hari sudah ditetapkan.",
+  "o"
+ ],
+ "mh65": [
+  "pekerjaan yang sudah dilakukan",
+  "sejumlah pekerjaan yang sudah pekerja lakukan",
+  "o"
+ ],
+ "mh66": [
+  "kinerja",
+  "kinerja kerja dll. yang dihasilkan",
+  "o"
+ ],
+ "mh67": [
+  "bonus",
+  "uang yang dibayar perusahaan selain gaji biasa",
+  "o"
+ ],
+ "mh68": [
+  "tunjangan perumahan",
+  "sejumlah uang untuk membayar semua atau bagian biaya sewa rumah karyawan diberikan perusahaan",
+  "o"
+ ],
+ "mh69": [
+  "tunjangan keahlian di kerja",
+  "sejumlah uang yang dibayar perusahaan pada keahlian atau sertifikat bahwa pekerja punya yang diperlu pada kerja tertentu",
+  "o"
+ ],
+ "mh70": [
+  "tunjangan bertugas terpisah dengan keluarganya",
+  "sejumlah uang yang dibayar perusahaan kepada karyawan yang pidah tempat kerja terpisah dengan keluarganya",
+  "o"
+ ],
+ "mh71": [
+  "tunjangan bisnis",
+  "selumlah uang yang diperlu karyawan yang bertugas bisnis untuk mejalankan kerja. Perusahaannya membayar uang tersebut",
+  "o"
+ ],
+ "mh72": [
+  "upah borongan",
+  "upah atau imbalan yang diterima atau diperoleh pegawai yang terutang atau dibayarkan berdasarkan penyelesaian suatu jenis pekerjaan tertentu",
+  "o"
+ ],
+ "mh73": [
+  "gaji terjamin",
+  "uang yang tetap diberikan perusahaan kepada karyawan yang tidak berhubungan dengan kinerja kerja",
+  "o"
+ ],
+ "mh74": [
+  "cara kerja",
+  "tipe cara kerja seperti penuh waktu,paruh waktu,jam kerja yang dipersingkat",
+  "o"
+ ],
+ "mh75": [
+  "pembayaran lembur tetap",
+  "uang yang dibayar perusahaan untuk jam lembur yang sudah ditetapkan oleh perusahaan lebih dahulu. tidak dipikirkan <jam lembur>yang nyata",
+  "o"
+ ],
+ "mh76": [
+  "sistem upah",
+  "cara menghitung atau membayar gaji yang dibayar perusahaan kepara karyawan",
+  "o"
+ ],
+ "mh79": [
+  "penghasilan <penghasilan gaji>",
+  "mengurangi sejumlah uang yang diperlukan untuk kerja dari sejumlah uang <penghasilan> yang didapat kurun waktu satu tahun . Hasli penghitungan ini disebutkan \"pengurangan penghasilan kerja\"",
+  "o"
+ ],
+ "mh80": [
+  "penghasilan kena pajak",
+  "sejumlah uang yang kena pajak terhadap penghasilan<pajak penghasilan>",
+  "o"
+ ],
+ "mh81": [
+  "pendapatan",
+  "uang yang didapat pekerja sebagai hasil kerja. Misalnya pendapatan setiap bulan disebutkan \"pendapatan bulanan\". Uang bersih yang Anda dapat <pendapatan bersih>adalah sejumlah uang yang dikurangi pajak dan biaya asuransi kesejahteraan dari pendapatan.",
+  "o"
+ ],
+ "mh82": [
+  "sistem pengurangan penghasilan kerja",
+  "sistem untuk mengurangi sejumlah uang yang diperlukan untuk kerja dari sejumlah uang <pendapatan> yang didapat kurun waktu satu tahun supaya pajak yang harus Anda bayar dikurangi.",
+  "o"
+ ],
+ "mh83": [
+  "sistem pengurangan penghasilan",
+  "sistem mengurangi sejumlah uang yang diperlukan untuk kerja dari sejumlah uang yang didapat kurun waktu satu tahun dan setelah itu mengurangi lagi sejumlah uang yang dihitungkan sesuai dengan kondisinya. Misalnya pengurangan untuk tanggungan,pengurangan biaya medis,pengurangan asuransi jiwa,pengurangan pasangan ,pengurangan dasar,dll.",
+  "o"
+ ],
+ "mh84": [
+  "sistem pengurangan dasar",
+  "untuk menerapkan pengurangan penghasilan, mengenai semua orang yang membayar pajak, mengurangi jumlah uang tertentu dari sejumlah uang<pendapatan>pada kurun waktu setahun",
+  "o"
+ ],
+ "mh85": [
+  "sistem pengurangan untuk tanggungan",
+  "sistem mengurangi sejumlah uang tertentu dari <penghasilan>yaitu sudah dikurangi sejumlah uang yang diperlukan untuk menanggung bagi orang yang membayar pajak dan menanggung keluarganya untuk mengurangi sejumlah pajak",
+  "o"
+ ],
+ "mh87": [
+  "surat pemotongan pajak pada sumbernya",
+  "surat yang tercantum mengenai gaji yang dibayar perusahaan dan pajak yang dibayar ke negara oleh pekerja kurun waktu setahun,yaitu dari tanggal 1 Januari sampai 31 Desember untuk setiap pekerja",
+  "o"
+ ],
+ "mh91": [
+  "hubungan keluarga",
+  "hubungan dengan anggota keluarga",
+  "o"
+ ],
+ "mh92": [
+  "surat keterangan pajak",
+  "surat yang diterbitkan kantor pemerintah untuk membuktikan jumlah pajak yang akan dibayar seseorang",
+  "o"
+ ],
+ "mh93": [
+  "surat keterangan pembayaran pajak",
+  "surat yang diterbitkan kantor pemerintah untuk membuktikan pajak yang telah dibayar seseorang",
+  "o"
+ ],
+ "mh95": [
+  "jaminan sosial",
+  "sistem negara untuk membantu kehidupan masyarakat yang menghadapi kesulitan seperti sakit atau cedera atau melahirkan anak <persalinan>atau menganggur<pengangguran> atau cacat pada tubuh dan jiwa<cacat>atau menua<lanjut usia>atau meninggal dunia<kematian>dengan cara mengumpulkan pajak atau uang perusahaan atau pekerja",
+  "o"
+ ],
+ "mh96": [
+  "asuransi sosial",
+  "sistem untuk membantu kehidupan pekerja yang menghadapi sakit, cedera,menganggur<pengangguran>,menua<lanjut usia>,perlu perawatan<keperawatan> dengan mengumpul uang perusahaan dan pekerja",
+  "o"
+ ],
+ "mh97": [
+  "bantuan publik",
+  "sistem untuk membantu orang yang kurang mampu untuk hidup secara sehat dan aman dengan pajak",
+  "o"
+ ],
+ "mh98": [
+  "kesehatan masyarakat",
+  "membenahi lingkungan kota atau mencegah penularan< penyakit penularan> supaya masyarakat bisa hidup dengan sehat",
+  "o"
+ ],
+ "mh99": [
+  "kesejahteraan sosial",
+  "membantu orang yang menyandang disabilitas untuk bisa hidup dengan sehat dengan dana dari pajak",
+  "o"
+ ],
+ "mh101": [
+  "asuransi pensiun nasional",
+  "asuransi yang didaftar semua orang berusia 20 sampai 59 yang ada di Jepang untuk mempersiapkan masa pensiun atau saat sakit .",
+  "o"
+ ],
+ "mh102": [
+  "orang yang diasuransikan",
+  "orang yang telah mendaftar asuransi dan bisa mendapat uang saat pesiun atau sakit",
+  "o"
+ ],
+ "mh106": [
+  "jumlah pendapatan standar rata-rata",
+  "jumlah uang yang dihitungkan gaji termasuk bonus rata-rata sebulan. Jumlah uang itu diperlu untuk menghitungkan uang <asuransi pesiun kesejahteraan> saat pekerjanya telah pensiun",
+  "o"
+ ],
+ "mh107": [
+  "jumlah banus standar",
+  "jumlah uang yang tidak dihitungkan angka yang kurang dari seribu yen pada jumlah uang bonus sebelum dipotong pajak",
+  "o"
+ ],
+ "mh108": [
+  "membayar biaya dengan uang sendiri",
+  "membayar biaya dengan uang sendiri bukan uang perusahaan",
+  "o"
+ ],
+ "mh109": [
+  "senuoritas berdasarkan masa kerja",
+  "gaji ditetapkan oleh perusahaan sesuai dengan usia pekerja atau period bekerja",
+  "o"
+ ],
+ "mh110": [
+  "sistem skema gaji tahunan",
+  "sistem menetapkan jumlah gaji untuk satu tahun",
+  "o"
+ ],
+ "mh111": [
+  "tunjangan kualifikasi",
+  "uang yang diberikan perusahaan kepada karyawan yang ada kualifikasi tertentu",
+  "o"
+ ],
+ "mh116": [
+  "pembayaran selamat dan belasungkawa",
+  "uang yang diberikan perusahaan kepada karyawan yang menikah atau melahirkan anak atau ditinggalkan keluarganya",
+  "o"
+ ],
+ "mh117": [
+  "tunjangan cedera dan sakit",
+  "uang yang diberikan dari asuranasi kesehatan jika pekerja tidak bisa bekerja karena cedera atau sakit",
+  "o"
+ ],
+ "mh118": [
+  "dianggap sebagai lembur",
+  "uang yang dibayar perusahaan untuk<jam lembur>yang sudah ditetapkan oleh perusahaan lebih dahulu dan tidak dipikirkan<jam lembur yang nyata> yang disebutkan pembayaran lembur tetap",
+  "o"
+ ],
+ "mh119": [
+  "jam kerja",
+  "jam untuk bekerja",
+  "o"
+ ],
+ "mh120": [
+  "jam mulai kerja",
+  "jam untuk mulai kerja",
+  "o"
+ ],
+ "mh121": [
+  "jam selesai kerja",
+  "jam untuk selesai kerja",
+  "o"
+ ],
+ "mh122": [
+  "jam kerja yang ditentukan",
+  "sejumlah jam kerja yang ditentukan perusahaan yang dari jam mulai kerja sampai jam selesai kerja tidak termasuk jam istirahat",
+  "o"
+ ],
+ "mh123": [
+  "jam istirahat",
+  "jam untuk beristirahat",
+  "o"
+ ],
+ "mh124": [
+  "sistem sif",
+  "kerja secara sif dengan rekan lain",
+  "o"
+ ],
+ "mh125": [
+  "pergantian pada kerja",
+  "hal-hal mengenai jam sif atau urutan saat beralih ke orang berikutnya",
+  "o"
+ ],
+ "mh126": [
+  "kartu waktu",
+  "kartu dan mesin untuk mencetak jam kerja karyawan",
+  "o"
+ ],
+ "mh127": [
+  "stempel",
+  "mencetak jam pada kartu waktu",
+  "o"
+ ],
+ "mh128": [
+  "sistem pelaporan diri",
+  "sistem melaporkan dari diri sendiri",
+  "o"
+ ],
+ "mh129": [
+  "jam lembur",
+  "jam kerja luar jam kerja yang sudah ditetapkan",
+  "o"
+ ],
+ "mh130": [
+  "upah lembur",
+  "uang yang diberikan sebagai upah lembur",
+  "o"
+ ],
+ "mh131": [
+  "terlambat",
+  "datang ke perusahaan terlambat dari jam mulai kerja",
+  "o"
+ ],
+ "mh132": [
+  "pulang lebih cepat",
+  "pulang ke rumah lebih cepat dari jam selesai kerja",
+  "o"
+ ],
+ "mh133": [
+  "tidak bekerja",
+  "tidak bekerja pada jam untuk bekerja",
+  "o"
+ ],
+ "mh134": [
+  "sistem libur 2 hari seminggu",
+  "sistem mengadakan 2 hari untuk libur setiap minggu",
+  "o"
+ ],
+ "mh135": [
+  "tugas wajar",
+  "cara kerja yang wajar",
+  "o"
+ ],
+ "mh136": [
+  "kerja sif",
+  "bekerja dengan sistem sif",
+  "o"
+ ],
+ "mh137": [
+  "sif siang hari",
+  "bekerja pada siang hari",
+  "o"
+ ],
+ "mh138": [
+  "sif malam hari",
+  "bekerja pada malam hari",
+  "o"
+ ],
+ "mh139": [
+  "sif malam",
+  "bekerja pada malam",
+  "o"
+ ],
+ "mh140": [
+  "tabel sif",
+  "tabel yang tercantum hari dan jam sif",
+  "o"
+ ],
+ "mh141": [
+  "hari kerja habis hari tidak kerja",
+  "pada sistem sif, hari kerja setelah <hari tidak kerja> karena pekreja kerja di sif malam dan bekerja sampai pagi sebelum <hari tidak kerja>",
+  "o"
+ ],
+ "mh142": [
+  "sistem penyesuaian jam kerja",
+  "cara kerja yang menyesuiaikan jam kerja ,yaitu saat tidak sibuk mengurangi jam kerja dan saat sibuk menambah jam kerja kemudian menyesuaikan total jam kerja dalam sebulan atau setahun",
+  "o"
+ ],
+ "mh143": [
+  "jam kerja yang ditentukan oleh hukum",
+  "jam kerja yang ditentukan oleh hukum",
+  "o"
+ ],
+ "mh144": [
+  "kerja lembur",
+  "bekerja pada luar jam kerja yang sudah ditentukan",
+  "o"
+ ],
+ "mh145": [
+  "jam kerja mingguan",
+  "jam kerja dalam satu minggu yang ditetapkan oleh perusahaan",
+  "o"
+ ],
+ "mh146": [
+  "kebijakan mitigasi beban perjalanan",
+  "kebijakan untuk memudahkan perjalanan ke tempat kerja dengan cara menghindari jam sibuk dll.",
+  "o"
+ ],
+ "mh147": [
+  "mulai kerja pada jam tertetu",
+  "kebijakan mengubah jam mulai kerja dan jam selesai kerja di antara jam kerja yang ditetapkan oleh perusahaan",
+  "o"
+ ],
+ "mh148": [
+  "jumlah jam kerja rata-rata",
+  "jumlah jam kerja rata-rata pada jangka waktu tertentu yang ditetapkan oleh perusahaan",
+  "o"
+ ],
+ "mh149": [
+  "pergi dengan urusan pribadi",
+  "pergi ke luar dengan urusan pribadi",
+  "o"
+ ],
+ "mh150": [
+  "sistem jam kerja fleksibel",
+  "sistem bahwa pekerja bisa memutuskan jam mulai kerja dan jam selesai kerja",
+  "o"
+ ],
+ "mh151": [
+  "jam kerja fleksibel",
+  "pada sistem jam kerja fleksibel, jam kerja yang diperbolehkan kapan mulai atau selesai kerja",
+  "o"
+ ],
+ "mh152": [
+  "sistem dianggap jam kerja di luar tempat kerja",
+  "sistem yang dianggap jam kerja jika pekerja bekerja di luar tempat kerja dan sulit untuk menghitungkan jumlah jam yang ia kerja.",
+  "o"
+ ],
+ "mh153": [
+  "sistem jam kerja yang tidak berkaitan dengan jam kerja nyata",
+  "jam kerja yang tidak berkaitan dengan jam kerja nyata dan perusahaan metetapkan sebagai jam kerja",
+  "o"
+ ],
+ "mh154": [
+  "jam kerja inti",
+  "kurun waktu jam kerja yang pekerja harus bekerja",
+  "o"
+ ],
+ "mh155": [
+  "hari kerja dalam seminggu",
+  "jumlah hari kerja dalam seminggu yang ditetapkan oleh perusahaan",
+  "o"
+ ],
+ "mh156": [
+  "jam kerja lembur rata-rata sebulan",
+  "jam kerja lembur rata-rata sebulan luar <jam kerja tetap>",
+  "o"
+ ],
+ "mh157": [
+  "sistem jam kerja dipersingkat",
+  "sistem bisa mempersingkat jam kerja untuk pekerja yang mengasuh anak atau merawat",
+  "o"
+ ],
+ "mh158": [
+  "cuti",
+  "cuti yang diberikan kepada pekerja pada hari yang harus bekerja",
+  "o"
+ ],
+ "mh159": [
+  "tanggal penghitungan",
+  "tanggal pertama saat menghitungkan sejumlah hari",
+  "o"
+ ],
+ "mh160": [
+  "hari libur nasional",
+  "hari libur nasional yang ditentukan oleh undang-undang",
+  "o"
+ ],
+ "mh161": [
+  "akhir tahun dan tahun baru",
+  "pada akhir tahun dan tahun baru",
+  "o"
+ ],
+ "mh162": [
+  "liburan musim panas",
+  "liburan musim panas",
+  "o"
+ ],
+ "mh163": [
+  "hari libur pengganti",
+  "menggantikan hari libur dengan hari kerja sebelum hari libur",
+  "o"
+ ],
+ "mh164": [
+  "hari libur kompensasi",
+  "jika bekerja pada hari libur <dengan gaji yang ditambah dengan rate khusus> ,ia mendapat hari libur sebagai pengganti",
+  "o"
+ ],
+ "mh165": [
+  "bekerja pada hari libur",
+  "bekerja pada hari libur yang ditentukan oleh undang-undang",
+  "o"
+ ],
+ "mh166": [
+  "hari libur yang ditentukan oleh undang-undang",
+  "hari libur yang ditentukan oleh undang-undang",
+  "o"
+ ],
+ "mh167": [
+  "ibu hamil dan menyusui",
+  "wanita yang sedang hamil atau belum ada setahun setelah melahirkan bayi",
+  "o"
+ ],
+ "mh169": [
+  "hari kerja yang ditetapkan oleh perusahaan",
+  "hari kerja yang ditetapkan oleh perusahaan",
+  "o"
+ ],
+ "mh170": [
+  "tingkat kehadiran",
+  "sejumlah hari sudah bekerja dibanding hari kerja yang ditetapkan oleh perusahaan",
+  "o"
+ ],
+ "mh171": [
+  "sebelum dan sesudah melahirkan",
+  "sebelum dan sesudah melahirkan",
+  "o"
+ ],
+ "mh172": [
+  "undang-undang tentang cuti untuk pengasuahan anak atau perawatan",
+  "undang-undang tentang pengasukah anak atau perawatan keluarganya",
+  "o"
+ ],
+ "mh173": [
+  "penerusan",
+  "hal yang diteruskan jika tidak bisa diselesaikan dalam jangka tertentu",
+  "o"
+ ],
+ "mh174": [
+  "total",
+  "menghitungkan keseluruhan <contohnya sejumlah hari libur>",
+  "o"
+ ],
+ "mh175": [
+  "cuti berbayar par jam",
+  "cuti berbayar bukan per hari,tetapi per jam",
+  "o"
+ ],
+ "mh176": [
+  "hibah",
+  "hal yang hibah",
+  "o"
+ ],
+ "mh177": [
+  "hak pengubahan cuti",
+  "perusahaan meminta karyawan untuk mengubahkan hari cuti berbayar yand telah diajukan ke hari lain",
+  "o"
+ ],
+ "mh178": [
+  "kehamilan kembar",
+  "hamil lebih dari satu bayi",
+  "o"
+ ],
+ "mh179": [
+  "waktu pengasuhan anak",
+  "waktu pengasuhan anak",
+  "o"
+ ],
+ "mh180": [
+  "cuti haid",
+  "cuti untuk keberatan haid bagi wanita",
+  "o"
+ ],
+ "mh183": [
+  "cuti merawat anak",
+  "cuti untuk merawat anak yang sakit",
+  "o"
+ ],
+ "mh184": [
+  "cuti selamat dan belasungkawa",
+  "cuti untuk selamat atau belasungkawa kepada keryawan ditinngalkan",
+  "o"
+ ],
+ "mh185": [
+  "cuti sakit",
+  "cuti karena sakit",
+  "o"
+ ],
+ "mh186": [
+  "penyakit",
+  "penyakit",
+  "o"
+ ],
+ "mh187": [
+  "cuti pengganti",
+  "cuti untuk menggantikan hari kerja yang bekerja lebih banyak dari jam kerja yang ditentukan oleh undang-undang dalam sebulan",
+  "o"
+ ],
+ "mh188": [
+  "pulang kampung",
+  "pulang ke kampung halaman",
+  "o"
+ ],
+ "mh189": [
+  "hari peringatan pendirian",
+  "hari ulang tahun perusahaan",
+  "o"
+ ],
+ "mh190": [
+  "jumlah hari cuti berbayar setelah 6 bulan",
+  "jumlah hari <cuti berbayar> diberikan setelah 6 bulan sejak mulai bekerja",
+  "o"
+ ],
+ "mh191": [
+  "jumlah orang rata-rata yang menggunakan cuti berbayar",
+  "jumlah orang rata-rata yang telah menggunakan cuti berbayar",
+  "o"
+ ],
+ "mh192": [
+  "jumlah orang yang menggunakan cuti pengasuhan anak",
+  "jumlah orang yang cuti untuk mengasuh anak",
+  "o"
+ ],
+ "mh193": [
+  "hari libur",
+  "hari yang libur",
+  "o"
+ ],
+ "mh194": [
+  "menghentikan bekerja",
+  "menghentikan bekerja dengan tunjuk perusahaan jangka panjang",
+  "o"
+ ],
+ "mh195": [
+  "sejumlah tahun telah bekerja",
+  "sejumlah tahun telah bekerja di perusahaan yang sama",
+  "o"
+ ],
+ "mh196": [
+  "pengunduran diri",
+  "mengundurkan diri dari perusahaan",
+  "o"
+ ],
+ "mh197": [
+  "alasan",
+  "alasan",
+  "o"
+ ],
+ "mh198": [
+  "mutasi",
+  "sebuah sistem untuk menukar pekerjaan atau tugas karyawan",
+  "o"
+ ],
+ "mh199": [
+  "keanggotaan",
+  "menjadi salah satu anggota perusahaan",
+  "o"
+ ],
+ "mh200": [
+  "perusahaan afiliasi",
+  "perusahaan yang terkaitkan dengan kepemilikan perusahanaan",
+  "o"
+ ],
+ "mh201": [
+  "bertugas di perusahaan lain",
+  "bekerja di perusahaan lain dengan perintah perusahaan",
+  "o"
+ ],
+ "mh202": [
+  "rotasi",
+  "berubah tempat kerja",
+  "o"
+ ],
+ "mh203": [
+  "penghentian kerja",
+  "menghentikan bekerja jangka panjang dengan alasan pribadi",
+  "o"
+ ],
+ "mh204": [
+  "kembali bekerja",
+  "kembali kerja habis penghentian kerja",
+  "o"
+ ],
+ "mh205": [
+  "alasan penghentian kerja",
+  "alasan untuk menghentikan kerja jangka panjang",
+  "o"
+ ],
+ "mh206": [
+  "visum",
+  "visum yang tertulis hasil pemeriksaan dokter",
+  "o"
+ ],
+ "mh207": [
+  "hari pengumuman",
+  "hari yang mengumumkan instruksi dari perusahaan terkait dengan Anda",
+  "o"
+ ],
+ "mh208": [
+  "usia pensiun",
+  "usia yang pensiun",
+  "o"
+ ],
+ "mh209": [
+  "mempekerjakan lebih lanjut",
+  "mempekerjakan orang yang sudah berusia pensiun",
+  "o"
+ ],
+ "mh210": [
+  "surat permohonan pengunduran diri",
+  "surat untuk menyampaikan permohonan pengunduran diri",
+  "o"
+ ],
+ "mh211": [
+  "berdasarkan permintaan tersebut",
+  "jika pekerja meminta kepada pihak perusahaan",
+  "o"
+ ],
+ "mh212": [
+  "surat keterangan pengunduran diri",
+  "surat keterangan yang tercantum megenai alasan pengunduran diri dll.",
+  "o"
+ ],
+ "mh213": [
+  "pemecatan",
+  "memecat dari perusahaan",
+  "o"
+ ],
+ "mh214": [
+  "kondisi bekerja",
+  "kondisi pekerja yang sedang bekerja",
+  "o"
+ ],
+ "mh215": [
+  "kurang baik",
+  "hal yang kurang baik",
+  "o"
+ ],
+ "mh216": [
+  "pemecatan tidak dengan hormat",
+  "pemecatan sebagai sanksi",
+  "o"
+ ],
+ "mh217": [
+  "bencana alam",
+  "bencana bermacam-macam disebabkan oleh alam",
+  "o"
+ ],
+ "mh218": [
+  "tunjangan pemberitahuan sebelumnya mengenai pemecatan",
+  "pembayaran gaji lebih dari 30 hari rata-rata jika perusahaan tidak menyampaikan pemecatan sebelum 30 hari hari dari hari pemecatan.",
+  "o"
+ ],
+ "mh219": [
+  "surat keterangan alasan pemecatan",
+  "surat yang tercantum alasan pemecatan",
+  "o"
+ ],
+ "mh220": [
+  "penggelapan",
+  "mencuri uang atau barang yang dititipkan orang lain",
+  "o"
+ ],
+ "mh221": [
+  "mencederai",
+  "mencederai orang lain",
+  "o"
+ ],
+ "mh222": [
+  "absen tanpa pengetahuan",
+  "absen kerja pada hari kerja tanpa pengetahuan",
+  "o"
+ ],
+ "mh223": [
+  "pesangon",
+  "uang yang diberikan perusahaan saat keluar dari kerja",
+  "o"
+ ],
+ "mh224": [
+  "alasan pribadi",
+  "alasan atau harapan pekreja",
+  "o"
+ ],
+ "mh225": [
+  "mempekerjakan kembali",
+  "mempekerjakan kembali orang yang sudah berusia pensiun",
+  "o"
+ ],
+ "mh226": [
+  "keluarga yang ditinggalkan",
+  "keluarga yang ditinggalkan orang yang meninggal dunia",
+  "o"
+ ],
+ "mh227": [
+  "ahli waris",
+  "orang yang mewarisi uang atau barang milik orang yang meninggal dunia",
+  "o"
+ ],
+ "mh228": [
+  "sanksi",
+  "sanksi seperti pengurangan gaji atau pemberhentian kerja oleh perusahaan kepada karyawan yang melakukan jahat",
+  "o"
+ ],
+ "mh229": [
+  "alasan nyata",
+  "alasan nyata yang ada di latarbelakang perilaku tertentu",
+  "o"
+ ],
+ "mh230": [
+  "teguran",
+  "menegur orang yang melakukan perilaku yang tidak benar",
+  "o"
+ ],
+ "mh231": [
+  "surat penyesalan",
+  "surat yang dituliskan mengenai penyesalan saat gagal pada kerja",
+  "o"
+ ],
+ "mh232": [
+  "pengurangan gaji",
+  "mengurangi gaji",
+  "o"
+ ],
+ "mh233": [
+  "merumahkan",
+  "merumahkan karyawan dan tidak membayar gaji jangka waktu merumahkan",
+  "o"
+ ],
+ "mh234": [
+  "pemalsuan riwayat hidup",
+  "berbohong pada <riwayat hidup>seperti sekolah atau karier",
+  "o"
+ ],
+ "mh235": [
+  "kesalahan sengaja atau kesalahan besar",
+  "kesalahan sengaja atau kesalahan besar",
+  "o"
+ ],
+ "mh236": [
+  "tindak pidana",
+  "tindak yang melanggar hukum",
+  "o"
+ ],
+ "mh237": [
+  "perilaku buruk",
+  "perilaku biasa yang buruk",
+  "o"
+ ],
+ "mh238": [
+  "ketertiban dalam perusahaan",
+  "peraturan dalam perusahaan",
+  "o"
+ ],
+ "mh239": [
+  "ketertiban",
+  "peraturan untuk memperbaiki lingkungan kerja",
+  "o"
+ ],
+ "mh240": [
+  "perilaku buruk atau tindak pidana",
+  "perilaku buruk dan tindak pidana",
+  "o"
+ ],
+ "mh241": [
+  "fitnah",
+  "menyakiti orang lain dengan fitnah",
+  "o"
+ ],
+ "mh242": [
+  "kehormatan dan kepercayaan",
+  "hal yang ditaruh dengan kehormatan oleh orang itu dan kepercayaan orang lain kepada orang itu",
+  "o"
+ ],
+ "mh243": [
+  "keadaan pemindahan tempat kerja",
+  "keadaan pemindahan tempat kerja",
+  "o"
+ ],
+ "mh244": [
+  "sistem pensiun pengeluaran pasti",
+  "sistem menabung uang untuk masa pensiun dengan dibayar iuran oleh perusahaan",
+  "o"
+ ],
+ "mh245": [
+  "sistem pensiun pembayaran pasti",
+  "sistem membagikan uang kepada pekerja yang pensiun dan jumlah uang sudah ditetapkan",
+  "o"
+ ],
+ "mh246": [
+  "pemerpanjangan kontrak kerja",
+  "sistem memperpanjang kontrak kerja dengan orang yang telah berusia <pensiun>",
+  "o"
+ ],
+ "mh247": [
+  "surat keterangan penghentian kerja",
+  "surat yang dibutuhkan untuk mendapat <tunjangan pengangguran>setelah menghentikan kerja. surat ini diberikan dari Hellowork ke perusahaan, kemudian diberikan dari perusahaan ke Anda.",
+  "o"
+ ],
+ "mh248": [
+  "tunjangan pengangguran< pembayaran penganguran>",
+  "uang yang diberikan untuk mencari kerja baru tanpa kekhawatiran pada ongkos kehidupan karena tidak bekerja",
+  "o"
+ ],
+ "mh249": [
+  "cedera dan penyakit",
+  "cedera dan penyakit",
+  "o"
+ ],
+ "mh250": [
+  "pemulihan",
+  "cuti untuk memulihkan cedera atau penyakit",
+  "o"
+ ],
+ "mh251": [
+  "kesembuhan",
+  "sembuh dari sakit atau cedera",
+  "o"
+ ],
+ "mh252": [
+  "pengawas keamanan dan kebersihan",
+  "orang yang mengawasi lingkungan kerja supaya aman dan bersih bagi pekerja",
+  "o"
+ ],
+ "mh253": [
+  "pensiun kompensasi cedera dan sakit",
+  "uang yang diberikan negara kepada orang yang tidak sembuh dari cedera atau penyakit yang berat lebih dari satu tahun dan 6 bulan",
+  "o"
+ ],
+ "mh254": [
+  "kompensasi penggantian",
+  "pembayaran uang penggantian <pensiun kompensasi cedera dan sakit>dibayar perusahaan karena cedera atau penyakit pekerja tidak sembuh selama 3 tahun",
+  "o"
+ ],
+ "mh255": [
+  "keamanan dan kebersihan",
+  "keadaan bisa bekerja dengan aman dan sehat",
+  "o"
+ ],
+ "mh256": [
+  "kecelakaan kerja",
+  "pekerja terluka atau jatuh sakit disebabkan kerja",
+  "o"
+ ],
+ "mh257": [
+  "mesin dan perangkat",
+  "mesin dan perangkat dipakai untuk kerja",
+  "o"
+ ],
+ "mh258": [
+  "inspeksi sebelum kerja",
+  "melakkan inspeksi mesin sebelum mulai bekerja",
+  "o"
+ ],
+ "mh259": [
+  "alat keamanan",
+  "alat untuk keamanan pada mesin supaya tidak melukai pekerja",
+  "o"
+ ],
+ "mh260": [
+  "alat pelindung",
+  "alat yang dipakai untuk melindungi tubuh",
+  "o"
+ ],
+ "mh261": [
+  "perokok pasif",
+  "menghirup asap dari perokok aktif",
+  "o"
+ ],
+ "mh262": [
+  "area dilarang masuk",
+  "area yang dilarang masuk",
+  "o"
+ ],
+ "mh263": [
+  "area dilarang melewati",
+  "area yang dilarang melewati",
+  "o"
+ ],
+ "mh264": [
+  "kerapian",
+  "merapikan sekitar lingkungannya",
+  "o"
+ ],
+ "mh265": [
+  "pintu darurat",
+  "pintu untuk melarikan diri saat terjadinya bencana atau kecelakaan",
+  "o"
+ ],
+ "mh266": [
+  "alat pemadam kebakaran",
+  "alat untuk memadamkan kebakaran",
+  "o"
+ ],
+ "mh267": [
+  "kebakaran",
+  "kebakaran",
+  "o"
+ ],
+ "mh268": [
+  "bencana luar biasa",
+  "bencana luar biasa seperti gempa,ombak besar<tsunami>,angin yang sangat kencang<angin kencang>,badai,dll.",
+  "o"
+ ],
+ "mh269": [
+  "penanganan sesuai dengan situasi",
+  "mencari cara yang terbaik sesuai dengan situasinya",
+  "o"
+ ],
+ "mh270": [
+  "pemeriksaan medis",
+  "pemeriksaan untuk mengecek kesehatan",
+  "o"
+ ],
+ "mh271": [
+  "kerja berbahaya",
+  "kerja yang berdampak buruk pada tubuh",
+  "o"
+ ],
+ "mh272": [
+  "bimbingan wawancara",
+  "mengajar cara memperbaiki kondisi tubuh dan jiwa malalui wawancara",
+  "o"
+ ],
+ "mh273": [
+  "pemeriksaan stres",
+  "pemeriksaan untuk memeriksa tingkat stres pekerja",
+  "o"
+ ],
+ "mh274": [
+  "bimbingan keamanan dan kebersihan",
+  "bimbingan untuk bekerja dengan aman dan bersih bagi karyawan",
+  "o"
+ ],
+ "mh275": [
+  "kompensasi kecelakaan",
+  "kompensasi serupa uang dll. dari perusahaan jika karyawan terluka atau sakit ataupun meninggal dunia di jam kerja",
+  "o"
+ ],
+ "mh277": [
+  "pembayaran kompensasi pemulihan",
+  "uang yang dibayar dari asuransi keelakaan kerja kepada karyawan untuk memulihkan cedera atau penyakit yang terjadi di jam kerja atau di tengah perjalanan ke kantor",
+  "o"
+ ],
+ "mh278": [
+  "pembayaran kompensasi penghentian kerja",
+  "uang yang diberikan dari asuransi kecelakaan kerja kepada karyawan yang tidak bisa bekerja dan tidak bisa mendapat gaji karena terluka atau jatuh sakit di tempat kerja atau di tengah perjalanan ke kantor",
+  "o"
+ ],
+ "mh279": [
+  "pembayaran kompensasi cacat",
+  "uang yang diberikan dari kompensasi kecelakaan kerja kapada karyawan yang cacat pada tubuh atau jiwa akibat cedera atau sakit yang dialami di tempat kerja atau di tengah perjalanan ke kantor",
+  "o"
+ ],
+ "mh280": [
+  "pembayaran kompensasi perawatan",
+  "uang yang diberikan dari asuransi kompensasi kecelakaan kerja kepada karyawan yang membutuh perawatan akibat cedera atau sakit di tempat kerja atau ditengah perjalanan ke kantor",
+  "o"
+ ],
+ "mh281": [
+  "pembayaran kompensasi keluarga yang ditinggalkan",
+  "uang yang diberikan dari kompensasi kecelakaan kerja kepada keluarga yang ditinggalkan karyawan yang meninggal dunia di tempat kerja atau di tenga perjalanan ke kantor",
+  "o"
+ ],
+ "mh282": [
+  "biaya pemakaman",
+  "biaya memakamkan <upacara untuk orang yang meninggal dunia>yang diberikan dari kompensasi kecelakaan kerja kapada keluarga yang ditinggalkan karyawan yang meninggal dunia di tempat kerja atau di tengah perjalanan ke kantor",
+  "o"
+ ],
+ "mh283": [
+  "pembayaran pemeriksaan kesehatan tahap kedua",
+  "sistem untuk meperiksa lebih teliti dengan gratis jika hasil <pemeriksaan medis>nya tidak baik",
+  "o"
+ ],
+ "mh284": [
+  "pelecehan kekuasaan",
+  "menggunakan posisi atau jabatan yang tinggi untuk menguasai karyawan dengan kata-kata atau sikap yang terlalu keras",
+  "o"
+ ],
+ "mh285": [
+  "powerhara pelecehan kekuasaan",
+  "sinkatan dari power harassment bermakna pelecehan kekuasaan menggunakan posisi atau jabatan yang tinggi untuk menguasai karyawan dengan kata-kata atau sikap yang terlalu keras",
+  "o"
+ ],
+ "mh286": [
+  "hubungan yang unggul",
+  "posisi atau tingkat jabatannya lebih tinggi",
+  "o"
+ ],
+ "mh287": [
+  "lingkungan kerja",
+  "lingkungan tempat kerja",
+  "o"
+ ],
+ "mh288": [
+  "pelecehan seksual",
+  "kata-kata atau perilaku nuansa seksual membuat orang lain merasa cemas atau meperburuk lingkungan kerja",
+  "o"
+ ],
+ "mh289": [
+  "sekhara pelecehan seksual",
+  "sinkatan dari seksual harassment bermakna pelecehan seksual kata-kata atau perilaku nuansa seksual membuat orang lain merasa cemas atau meperburuk lingkungan kerja",
+  "o"
+ ],
+ "mh290": [
+  "kata-kata dan perilaku seksual",
+  "kata-kata atau perilaku yang terkait dengan seks",
+  "o"
+ ],
+ "mh291": [
+  "matahara pelecehan kehamilan",
+  "sinkatan dari maternity harassment bermakna pelecehan kehamilan kata-kata atau perilaku yang memperburuk lingkungan orang tertentu tentang kehamilan dan kebijakan perusahaan untuk membantu ibu hamil atau pengasuhan anak",
+  "o"
+ ],
+ "mh292": [
+  "orientasi seksual",
+  "mentargetkan jenis kelamin yang mana untuk mencintai",
+  "o"
+ ],
+ "mh293": [
+  "identitas gender",
+  "ingin hidup sebagai gender yang mana",
+  "o"
+ ],
+ "mh295": [
+  "periode sertifikat penduduk",
+  "periode yang diizinkan jangka waktu untuk tinggal di Jepang bagi orang asing. Hari terakhir periode sertifikat penduduk disebutkan \"batas waktu periode sertifikat penduduk\"",
+  "o"
+ ],
+ "mh296": [
+  "teknologi,pengetahuan tentang humoniora,dan layanan internasional",
+  "sertifikat untuk bekerja di bidang keahilan di Jepang bagi orang asing yang telah belajar pengetahuan atau bahasa di perguruan tinggi atau institut khusus. Misalnya teknisi,penerjemah ,atau perancang",
+  "o"
+ ],
+ "mh297": [
+  "kemampuan<status sertifikat penduduk>",
+  "sertifikat untuk bekerja di Jepang bagi orang asing yang menggunakan kemampuan tertentu misalnya koki<orang yang memasak>atau pilot<mengendarai pesawat>dll.",
+  "o"
+ ],
+ "mh298": [
+  "pekerjaan keterampilan tinggi",
+  "sertifikat untuk bekerja di Jepang bagi orang asing yang mempunyai keterampilan tinggi. Ada No.1 dan No.2 pada sertifikat ini. No.1 (イ) sertifikat untuk bidang penelitian atau pendidikan (ロ) sertifikat untuk bidang ilmu pengetahuan alam<misalnya matematika atau fisika>,ilmu pengetahuan humaniora<misalnya sastra atau sejarah> (ハ)sertifikat untuk bidang manajemen bisnis.Pemegang sertifikat ini mudah mendaftar izin tinggal tetap. Setelah periode No.1 ,bisa mengubah ke No.2 dan pilihan kerjanya bertambah. Sertifikat No.2 bisa didaftar jika pemegang sertifikat No.1 bekerja lebih dari 3 tahun.",
+  "o"
+ ],
+ "mh299": [
+  "kemampuan khusus",
+  "sertifikat untuk bekerja di Jepang bagi orang asing yang mempunyai pengetahuan atau keterampilan pada <bidang industri tertentu> di mana jumlah pekerjanya kurang di Jepang. Ada No.1 dan No.2 pada sertifikat ini. Pada No.1, orang asing yang sudah lulus ujian sektor tertentu atau menyelesaikan pelatihan teknis No.2 dengan nilainya baik, bisa bekerja pada 14 sektor kemampuan khusus yang ditetapkan oleh negara <perawatan,industri,pembangunan,perhotelan,pertanian,restoran,dll>. Pada No.2,orang asing yang mempunyai keahlian atau kemampuan tinggi bisa bekerja di 2 sektor kemamupan khusus yang ditetapkan oleh negara <pembangunan,industri perkapalan ,galangan kapal >",
+  "o"
+ ],
+ "mh300": [
+  "pelatihan teknis",
+  "sertifikat untuk belajar pengetahuan atau keterampilan sambil bekerja di Jepang. Ada No.1,No.2,dan No.3 pada sertifikat ini.Sebagian besar orang belajar di pengantara perusahaan dan magang<lembaga pengurus magang> dan kemudian bekerja di perusahaan<institusi pemerima magang> di Jepang.",
+  "o"
+ ],
+ "mh301": [
+  "institusi penerima magang",
+  "perusahaan yang menerima< magang pelatihan teknis >sebagai pekerja supaya mereka bisa belajar pengetahuan dan keterampilan di Jepang. disebutkan juga perusahaan agen penerima",
+  "o"
+ ],
+ "mh302": [
+  "lembaga pengurus magang",
+  "lembaga untuk mengurus orang asing <megang pelatihan teknis>yang akan bekerja di Jepang supaya belajar pengetahuan dan keterampilan dan membantu perusahaan yang menerima magang pelatihan teknis",
+  "o"
+ ],
+ "mh303": [
+  "institusi pelatihan untuk magang",
+  "institusi untuk mengirim orang asing<magang pelatihan teknis> ke Jepang supaya belajar pengetahuan dan keterampilan di Jepang",
+  "o"
+ ],
+ "mh304": [
+  "penduduk tetap",
+  "sertifikat untuk tinggal di Jepang selamanya",
+  "o"
+ ],
+ "mh305": [
+  "pasangan dll. dari orang Jepang",
+  "sertifikat bagi suami atau istri atau anak dari orang Jepang untuk tinggal di Jepang",
+  "o"
+ ],
+ "mh306": [
+  "pasangan dii. dari penduduk tetap",
+  "sertifikat bagi suami atau istri atau anak dari orang asing memegang status setifikat <penduduk tetap>",
+  "o"
+ ],
+ "mh307": [
+  "penduduk jangka panjang",
+  "sertifikat bagi orang asing untuk tinggal di Jepang jangka panjang dengan alasan tertentu. Misalnya cucu dari orang Jepang yang tinggal di negara lain bisa mendapat sertifikat ini.",
+  "o"
+ ],
+ "mh308": [
+  "kegiatan tertentu",
+  "sertifikat diberikan oleh Menteri Hukum Jepang kepada oang asing masing-masing yang melakukan kegiatan tertentu selain status sertifikat penduduk .Misalnya pekerja yang kerja di rumah diplomat <orang yang bekerja sebagai wakil negara> atau pekerja dengan sistem working holiday",
+  "o"
+ ],
+ "mh309": [
+  "pelajar",
+  "sertifikat bagi orang asing untuk belajar di sekolah yang berada di Jepang",
+  "o"
+ ],
+ "mh310": [
+  "keluarga dari pemegang izin tinggal",
+  "sertifikat bagi keluarga dari orang asing yang diizinkan tinggal di Jepang untuk tinggal di Jepang",
+  "o"
+ ],
+ "mh311": [
+  "working holida<worholi>",
+  "sistem mendapat liburan dan bekerja untuk hidup di negara lain berdasarkan perjanjian bilateral disebutkan <working holiday>",
+  "o"
+ ],
+ "mh312": [
+  "surat keterangan status sertifikat penduduk",
+  "surat untuk membuktikan bisa mendapat status sertifikat penduduk diterbitkan sebelum berangkat dari nagara asalnya. Perusahaan yang akan menerima orang asing atau teman juga bisa mendaftar dan mendapat surat ini di kantor imigrasi .",
+  "o"
+ ],
+ "mh313": [
+  "visa",
+  "surat untuk membuktikan kepada negara tujuan bahawa tidak ada masalah pada paspor orang asing untuk masuk ke negara itu",
+  "o"
+ ],
+ "mh314": [
+  "sektor industri tertentu",
+  "sektor industri yang menghadapi kekurangan pekerja orang Jepang . Orang yang memegang status sertifikat penduduk untuk kemampuan khusus bisa bekerja di perusahaan pada sektor tersebut.",
+  "o"
+ ],
+ "mh315": [
+  "pendaftaran izin perubahan status sertifikat penduduk",
+  "mendaftar untuk mengubah status< sertifikat penduduk>",
+  "o"
+ ],
+ "mh316": [
+  "pemerpanjangan <pendaftaran izin pemerpanjangan status sertifikat penduduk>",
+  "pendaftaran izin pemerpanjangan status sertifikat penduduk. Memperpanjang< masa berlaku sertifikat penduduk> sebelum kadaluwarsa untuk tinggal di Jepang lebih lanjut",
+  "o"
+ ],
+ "mh317": [
+  "kuasa hukum",
+  "orang yang mewakili seseorang diizinkan oleh hukum",
+  "o"
+ ],
+ "mh318": [
+  "pendaftar",
+  "orang yang mendaftar sesuatu",
+  "o"
+ ],
+ "mh320": [
+  "surat keterangan sertifikat pekerjaan",
+  "surat sertifikat yang tercantum pekerjaan apa saja diizinkan bagi orang asing",
+  "o"
+ ],
+ "mh321": [
+  "kantor imigrasi",
+  "biro imigrasi.kantor untuk pengelola orang asing yang masuk ke Jepang atau keluar dari Jepang",
+  "o"
+ ],
+ "mh322": [
+  "karyawan paruh waktu",
+  "pekerja yang bekerja dalam jam kerjanya yang lebih pendek daripada jam kerjanya yang paling panjang dalam seminggu yang ditetapka hukum",
+  "o"
+ ],
+ "mh323": [
+  "perubahan",
+  "perubahan status dll.",
+  "o"
+ ],
+ "mh324": [
+  "kontrak pekerjaan batas waktu",
+  "kontrak pekerjaan dengan batas waktu",
+  "o"
+ ],
+ "mh325": [
+  "kontrak pekerjaan tanpa batas waktu",
+  "kontrak pekerjaan tanpa batas waktu",
+  "o"
+ ],
+ "mh326": [
+  "pengakhiran kontrak kerja",
+  "ditolak perusahaan untuk memperpanjang kontrak kerja lebih lanjut setelah selesai masa kontrak kerjanya",
+  "o"
+ ],
+ "mh327": [
+  "periode kontrak kerja",
+  "periode kontrak kerja keseluruhan",
+  "o"
+ ],
+ "mh328": [
+  "undang-undang tentang penanganan khusus terhadap pekarja yang kontrak kerja batas waktu",
+  "undang-undang memperpanjang masa untuk mendaftar pengubahan kontrak kerja ke <kontrak kerja tanpa batas waktu> bagi pekerja dengan kontrak kerja batas waktu yang bekerja dengan pengetahuan atau keahlian khusus atau sudah terlewat usia <pensiun>.",
+  "o"
+ ],
+ "mh329": [
+  "hak pendafataran pengubahan kontrak kerja ke tanpa batas waktu",
+  "hak pendaftaran bagi pekreja yang kontrak kerja batas waktu untuk mengubah ke <kontrak kerja ke tanpa batas waktu >",
+  "o"
+ ],
+ "mh330": [
+  "tugas jangka waktu tertentu",
+  "tugas yang dibutuhkan pengetahuan atau keahlian pekerja dan jangka waktu lebih dari 5 tahun hingga selesai",
+  "o"
+ ],
+ "mh331": [
+  "syarat pemerpanjangan kontrak kerja",
+  "syarat untuk memperpanjang kontrak kerja saat kontrak kerja telah selesai",
+  "o"
+ ],
+ "mh332": [
+  "agen tenaga kerja",
+  "agen tenaga kerja yang kontrak kerja dengan pekerja sementara<pekerja yang kontrak kerja dengan agen tenaga kerja >",
+  "o"
+ ],
+ "mh333": [
+  "perusahaan yang menerima pekerja dari agen tenaga kerja",
+  "perusahaan yang memerima pekerja sementara yang dikirim dari <agen tenaga kerja >",
+  "o"
+ ],
+ "mh334": [
+  "kontrak kerja langsung",
+  "melakukan kontrak kerja dengan pekerja langusung tidak melalui agen tenaga kerja. Pekerja penuh waktu,pekerja kontrak kerja dengan syarat tertentu, pekerja paruh waktu adalah kontrak kerja langsung",
+  "o"
+ ],
+ "mh336": [
+  "kontrak kerja tanpa batas waktu",
+  "mempekerjakan pekerja tanpa batas waktu",
+  "o"
+ ],
+ "mh337": [
+  "kontrak kerja batas waktu",
+  "mempekerjakan pekerja dengan batas waktu",
+  "o"
+ ],
+ "mh339": [
+  "bekerja",
+  "pekerjaan",
+  "o"
+ ],
+ "mh340": [
+  "undang-undang standar ketenagakerjaan",
+  "undang-undang standar ketenagakerjaan. Undang-undang negara untuk melindungi pekerja",
+  "o"
+ ],
+ "mh341": [
+  "pekerja",
+  "orang yang bekerja",
+  "o"
+ ],
+ "mh342": [
+  "pekerjaan",
+  "pekerjaan",
+  "o"
+ ],
+ "mh343": [
+  "efisiensi pekerjaan",
+  "menyelesaikan kerja secepat mungkin",
+  "o"
+ ],
+ "mh344": [
+  "peraturan tempat kerja",
+  "peraturan di tempat kerja",
+  "o"
+ ],
+ "mh345": [
+  "kewajiban fokus pada pekerjaan",
+  "kewajiban untuk fokus pada kerja",
+  "o"
+ ],
+ "mh346": [
+  "perjanjian antara pekerja dengan manajemen",
+  "perjanjian antara serikat pekerja yang mewakili lebih dari separuh jumlah pekerja dengan pihak perusahaan",
+  "o"
+ ],
+ "mh347": [
+  "orang yang mewakili lebih dari separuh jumlah pekerja",
+  "orang yang mewakili lebih dari separuh jumlah pekerja",
+  "o"
+ ],
+ "mh348": [
+  "ketua pengawas standar ketenagakerjaan",
+  "pejabat yang paling tinggi di badan pengawas pada kondisi kerja yang sesuai dengan perjanjian yang benar",
+  "o"
+ ],
+ "mh349": [
+  "pengelolaan kesehatan ibu",
+  "pengelolaan untuk menjaga kesehatan ibu yang bekerja yang sedang hamil atau pasca kelahiran",
+  "o"
+ ],
+ "mh350": [
+  "kewawjiban pekerja",
+  "kewajiban yang ada di pekerja",
+  "o"
+ ],
+ "mh351": [
+  "konflik antara pekerja dan manajemen",
+  "konflik antara pekerja dan manajemen tentang perjanjian kerja atau hal lain.",
+  "o"
+ ],
+ "mh352": [
+  "mediasi",
+  "melerai kedua pihak yang sedang berkonflik",
+  "o"
+ ],
+ "mh353": [
+  "serikat pekerja",
+  "kelompok pekerja bertujuan untuk memperbaiki lingkungan kerja dan meningkatkan posisinya",
+  "o"
+ ],
+ "mh354": [
+  "pelaporan pelanggaran",
+  "melaporkan ke luar mengenai tindak pidana atau jahat dilakukan perusahaan",
+  "o"
+ ],
+ "mh355": [
+  "pendidikan dan pelatihan",
+  "pendidikan dan pelatihan dilakukan0 perusahaan untuk meningkatkan kemampuan karyawannya",
+  "o"
+ ],
+ "mh356": [
+  "pekerjaan sampingan",
+  "bekerja di perusahaan lain sambil bekerja di perusahaan utama",
+  "o"
+ ],
+ "mh357": [
+  "penyediaan ketenagakerjaan",
+  "bekerja di perusahaan tempat Anda bekerja",
+  "o"
+ ],
+ "mh358": [
+  "persaingan",
+  "bersaing dengan perusahaan lain yang bidangnya sama",
+  "o"
+ ],
+ "mh359": [
+  "kantor",
+  "tempat kerja",
+  "o"
+ ],
+ "mh360": [
+  "manajer",
+  "pejabat setingkat manajer di perusahaan",
+  "o"
+ ],
+ "mh361": [
+  "periode mempekerjakan",
+  "periode untuk mempekerjakan pekerja",
+  "o"
+ ],
+ "mh362": [
+  "status pekerjaan",
+  "jenis status kontrak kerja seperti karyawan penuh waktu,karyawan kontrak dengan syarat, karyawan sementara, pekerja paruh waktu dll.",
+  "o"
+ ],
+ "mh363": [
+  "karyawan peunuh waktu",
+  "karyawan yang dipekerjakan perusahaan dengan <kontrak kerja tanpa batas waktu>. Mereka bekerja pada jam kerja yang paling lama dalam <peraturan kerja> ditetapkan antara pekerja dengan perusahaaan.",
+  "o"
+ ],
+ "mh364": [
+  "sistem upah berdasarkan pekerjaan",
+  "sistem untuk memutuskan jumlah gaji sesuai dengan isi kerja",
+  "o"
+ ],
+ "mh365": [
+  "sistem jabatan",
+  "sistem perusahaan untuk memberi jabatan tertentu kepada pekerja sesuai dengan kemampuan atau kerja",
+  "o"
+ ],
+ "mh366": [
+  "sistem upah berdasarkan kemampuan",
+  "sistem membayar gaji sesuai dengan kemampuan pekerja",
+  "o"
+ ],
+ "mh367": [
+  "sistem prinsip mengutamakan kinerja",
+  "menaikkan gaji atau memberi jabatan yang penting sesuai dengan kinerja pekerja",
+  "o"
+ ],
+ "mh368": [
+  "program kesejahteraan",
+  "program perusahaan untuk menbantu karyawan atau keluarganya selain gaji",
+  "o"
+ ],
+ "mh369": [
+  "kantin karyawan",
+  "ruang makan untuk karyawan yang berada di perusahaan",
+  "o"
+ ],
+ "mh370": [
+  "asrama",
+  "asrama untuk karyawan dan ada kamar untuk karyawan masing-masing",
+  "o"
+ ],
+ "mh371": [
+  "rumah milik perusahaan",
+  "rumah disewakan perusahaan kepada karyawan",
+  "o"
+ ],
+ "mh372": [
+  "kos milik perusahaan",
+  "kos untuk pekerja",
+  "o"
+ ],
+ "mh374": [
+  "keseimbangan hidup dan kerja",
+  "keadaan seimbang baik antara kerja dan hidup",
+  "o"
+ ],
+ "mh375": [
+  "ketaatan",
+  "menaati hukum dll.",
+  "o"
+ ],
+ "mh376": [
+  "kewajiban",
+  "hal yang harus dilakukan",
+  "o"
+ ],
+ "mh377": [
+  "selain kerja",
+  "hal selain pekerjaan",
+  "o"
+ ],
+ "mh378": [
+  "selesai",
+  "hal yang selesai",
+  "o"
+ ],
+ "mh379": [
+  "pinjam uang atau barang",
+  "meminjam uang atau barang",
+  "o"
+ ],
+ "mh380": [
+  "pemberian",
+  "memberikan uang atau barang",
+  "o"
+ ],
+ "mh381": [
+  "kecurangan",
+  "tindak yang melanggar hukum",
+  "o"
+ ],
+ "mh382": [
+  "klien",
+  "perusahaan yang bekerja sama dengan perusahaan tertentu",
+  "o"
+ ],
+ "mh383": [
+  "kebocoran rahasia",
+  "berbicara rahasia kepada orang lain",
+  "o"
+ ],
+ "mh384": [
+  "mabuk",
+  "keadaan mabuk",
+  "o"
+ ],
+ "mh385": [
+  "perlindungan data pribadi",
+  "melindungi informasi mengenai orang ,perusahaan ,dan klien",
+  "o"
+ ],
+ "mh386": [
+  "persetujuan sebelumnya",
+  "meminta izin sebelum melakukannya",
+  "o"
+ ],
+ "mh387": [
+  "persetujuan setelahnya",
+  "meminta izin setelah melakukannya",
+  "o"
+ ],
+ "mh388": [
+  "pengurangan",
+  "mengurangi",
+  "o"
+ ],
+ "mh389": [
+  "area dikelola",
+  "area dikelola pada tempat tinggal Anda atau tempat perusahaan",
+  "o"
+ ],
+ "mh390": [
+  "bimbingan kesehatan",
+  "bimbingan untuk kesehatan",
+  "o"
+ ],
+ "mh391": [
+  "pemeriksaan kesehatan",
+  "pemeriksaan untuk memerikasa kondisi kesehatan",
+  "o"
+ ],
+ "mh392": [
+  "pergi ke dokter pada jam kerja",
+  "pergi ke dokter pada jam kerja",
+  "o"
+ ],
+ "mh393": [
+  "pasangan",
+  "suami atau istri",
+  "o"
+ ],
+ "mh394": [
+  "juri",
+  "orang yang menilai dan memutuskan kalah atau menang",
+  "o"
+ ],
+ "mh395": [
+  "pengelola makanan dan kebersihan",
+  "orang yang mengelola tempat kerja untuk membuat makanan yang aman dan sehat di pabrik pengolah makanan",
+  "o"
+ ],
+ "mh396": [
+  "koki",
+  "orang yang berprofesi koki yang diizinkan bekerja sebagai koki dengan pengetahuan dan keahlian masak",
+  "o"
+ ],
+ "mh397": [
+  "ahli gizi",
+  "orang yang mengajar atau mengelola mengenai gizi",
+  "o"
+ ],
+ "mh398": [
+  "tanggung jawab perusahaan",
+  "tanggung jawab yang berada di perusahaan",
+  "o"
+ ],
+ "mh399": [
+  "pengecer",
+  "pekerjaan yang membeli barang dari produsen dan menjual ke konsumen",
+  "o"
+ ],
+ "mh400": [
+  "industri jasa",
+  "perkerjaan yang menyediakan jasa",
+  "o"
+ ],
+ "mh401": [
+  "industri grosir",
+  "pekerjaan yang membeli barang dari produsen dan menjual ke perusahaan penjual",
+  "o"
+ ],
+ "mh402": [
+  "alasan perusahaan",
+  "alasan yang beradan pada pihak perusahaan",
+  "o"
+ ],
+ "mh403": [
+  "penanganan terhadap perokok pasif di dalam ruangan",
+  "menangani untuk mencegah menghirup asap rokok di dalam ruangan",
+  "o"
+ ],
+ "mh404": [
+  "pergi ke kantor naik mobil sendiri",
+  "pergi ke kantor menggunakan mobil sendiri",
+  "o"
+ ],
+ "mh405": [
+  "batas usia",
+  "keadaan batas usia untuk melakukan sesuatu",
+  "o"
+ ],
+ "mh406": [
+  "angka nilai mempekerjakan orang asing",
+  "angka yang menunjukkan jumlah orang asing yang dipekerjakan di perusahaan",
+  "o"
+ ],
+ "mh407": [
+  "tempat penitipan anak yang bisa digunakan",
+  "tempat penitipan anak yang berumur 6 tahun ke bawah untuk pekerja",
+  "o"
+ ],
+ "mh408": [
+  "periode kerja rata-rata",
+  "periode rata-rata bahwa satu pekerja bekerja di satu perusahaan",
+  "o"
+ ],
+ "mh409": [
+  "sistem saran",
+  "sistem bahwa atasan membatu bawahannya",
+  "o"
+ ],
+ "mh410": [
+  "sistem konsultasi tentang karier",
+  "sisitem konsultasi untuk memilih kerja atau meningkatkan kemampuan bagi karyawan",
+  "o"
+ ],
+ "mh411": [
+  "ujian perusahaan",
+  "ujian yang diselenggarakan oleh perusahaan kepada karyawan",
+  "o"
+ ],
+ "mh412": [
+  "jumlah orang yang melahirkan",
+  "jumlah orang yang melahirkan bayi",
+  "o"
+ ],
+ "mh413": [
+  "persentase wanita yang menjabat tinggi",
+  "angka persentase wanita yang menjabat tinggi dari jumlah penjabat",
+  "o"
+ ],
+ "mh414": [
+  "pengembangan diri",
+  "belajar pengetahuan atau meningkatkan kemampuan kerja bagi karyawan",
+  "o"
+ ],
+ "mh415": [
+  "biaya air,listrik ,dan gas",
+  "uang untuk menggunakan air,listrik ,dan gas",
+  "o"
+ ],
+ "mh416": [
+  "kematian akibat kelelahan",
+  "kematian akibat kelelahan karena bekerja terlalu lama",
+  "o"
+ ],
+ "mh417": [
+  "kepatuhan",
+  "mematuhi hukum dan peraturan sosial",
+  "o"
+ ],
+ "mh418": [
+  "tandatangan",
+  "menuliskan nama sendiri untuk menunjukkan persetujuan dengan isi yang tercantum pada surat tertentu",
+  "o"
+ ],
+ "jl保護者": [
+  "Orang tua/wali",
+  "Orang tua atau wali.",
+  "c"
+ ],
+ "jl保証人": [
+  "Penjamin",
+  "Orang yang memberi jaminan.",
+  "c"
+ ],
+ "jl本人確認": [
+  "Verifikasi identitas",
+  "Pemeriksaan untuk memastikan identitas seseorang.",
+  "c"
+ ],
+ "dr生年月日": [
+  "Tanggal lahir",
+  "Tahun, bulan, dan tanggal Anda lahir.",
+  "c"
+ ],
+ "dr受付": [
+  "Resepsionis/loket pendaftaran",
+  "Tempat atau petugas yang pertama kali melayani orang yang datang ke rumah sakit atau kantor pemerintah.",
+  "c"
+ ],
+ "dr診察券": [
+  "Kartu pasien",
+  "Kartu dari rumah sakit. Tunjukkan di resepsionis saat datang lagi ke rumah sakit yang sama.",
+  "c"
+ ],
+ "dr間取り": [
+  "Denah ruangan",
+  "Jenis dan jumlah ruangan di dalam rumah. Ditulis seperti \"1K\" atau \"1LDK\".",
+  "c"
+ ],
+ "dr1K": [
+  "1K (satu kamar + dapur)",
+  "Rumah dengan satu kamar dan dapur (K).",
+  "c"
+ ],
+ "dr管理費": [
+  "Biaya pengelolaan",
+  "Uang untuk fasilitas bersama di apartemen. Dibayar oleh para penghuni.",
+  "c"
+ ],
+ "dr敷金": [
+  "Uang jaminan (deposit)",
+  "Uang yang dititipkan ke pemilik saat menyewa kamar. Sisanya bisa dikembalikan saat pindah keluar.",
+  "c"
+ ],
+ "dr入居": [
+  "Mulai menempati",
+  "Mulai tinggal di kamar atau rumah yang disewa.",
+  "c"
+ ],
+ "dr内見": [
+  "Melihat kamar (survei)",
+  "Pergi melihat kamar secara langsung sebelum setuju menyewa.",
+  "c"
+ ],
+ "dr保証会社": [
+  "Perusahaan penjamin sewa",
+  "Perusahaan yang menggantikan penjamin saat menyewa kamar. Jika Anda tidak bisa membayar sewa, perusahaan ini yang membayar.",
+  "c"
+ ],
+ "dr在職証明書": [
+  "Surat keterangan kerja",
+  "Surat yang menyatakan Anda sedang bekerja di perusahaan tersebut. Diminta dari tempat kerja Anda.",
+  "c"
+ ],
+ "dr緊急連絡先": [
+  "Kontak darurat",
+  "Nomor telepon dll. orang yang dihubungi atas nama Anda saat terjadi keadaan darurat.",
+  "c"
+ ],
+ "dr重要事項説明": [
+  "Penjelasan hal-hal penting",
+  "Penjelasan tentang hal penting sebelum kontrak sewa. Dengarkan baik-baik dan tanyakan yang tidak dimengerti.",
+  "c"
+ ],
+ "dr転出証明書": [
+  "Surat keterangan pindah keluar",
+  "Surat dari kantor pemerintah kota lama saat pindah. Serahkan ke kantor pemerintah kota baru.",
+  "c"
+ ],
+ "dr市民課": [
+  "Bagian Kependudukan",
+  "Bagian di balai kota untuk urusan seperti lapor alamat.",
+  "c"
+ ],
+ "dr洗濯機": [
+  "Mesin cuci",
+  "Mesin untuk mencuci pakaian. Tidak boleh dibuang sebagai sampah besar.",
+  "c"
+ ],
+ "dr持ち込み": [
+  "Membawa sendiri",
+  "Membawa barang sendiri ke tempat yang ditentukan.",
+  "c"
+ ],
+ "dr収集日": [
+  "Hari pengambilan sampah",
+  "Hari sampah diambil. Buang sampah di tempat yang ditentukan pada hari itu.",
+  "c"
+ ],
+ "dr開栓": [
+  "Pembukaan gas",
+  "Membuat gas bisa digunakan. Biasanya petugas datang ke rumah.",
+  "c"
+ ],
+ "dr立ち会い": [
+  "Mendampingi",
+  "Hadir saat petugas bekerja. Anda atau orang lain menunggu di rumah.",
+  "c"
+ ],
+ "dr都市ガス": [
+  "Gas kota",
+  "Salah satu jenis gas. Gas yang dialirkan ke rumah melalui pipa.",
+  "c"
+ ],
+ "drプロパンガス": [
+  "Gas propana (LPG)",
+  "Salah satu jenis gas. Disebut juga gas LP.",
+  "c"
+ ],
+ "drガスコンロ": [
+  "Kompor gas",
+  "Alat memasak dengan api gas. Hanya bisa dipakai jika cocok dengan jenis gasnya.",
+  "c"
+ ],
+ "dr口座振替": [
+  "Debit otomatis rekening",
+  "Cara membayar otomatis dari rekening bank Anda. Perlu mengisi formulir pendaftaran.",
+  "c"
+ ],
+ "drお客さまセンター": [
+  "Pusat layanan pelanggan",
+  "Bagian perusahaan yang menerima telepon dan konsultasi dari pelanggan.",
+  "c"
+ ],
+ "drお客さま番号": [
+  "Nomor pelanggan",
+  "Nomor yang diberikan perusahaan kepada Anda. Tertulis di tagihan atau lembar meteran. Sebutkan saat menelepon.",
+  "c"
+ ],
+ "dr検針票": [
+  "Lembar hasil baca meteran",
+  "Kertas yang mencatat berapa banyak gas, listrik, atau air yang dipakai.",
+  "c"
+ ],
+ "dr使用期間": [
+  "Periode pemakaian",
+  "Jangka waktu pemakaian, dari kapan sampai kapan.",
+  "c"
+ ],
+ "dr使用量": [
+  "Jumlah pemakaian",
+  "Banyaknya gas dll. yang dipakai.",
+  "c"
+ ],
+ "dr再発行": [
+  "Penerbitan ulang",
+  "Meminta dokumen dll. dibuat dan diberikan lagi.",
+  "c"
+ ],
+ "dr在庫": [
+  "Stok",
+  "Barang dagangan di toko. Meski tidak ada di rak, mungkin ada di gudang toko.",
+  "c"
+ ],
+ "dr試着": [
+  "Mencoba pakaian",
+  "Mencoba memakai baju sebelum membeli. Beri tahu pegawai toko dulu.",
+  "c"
+ ],
+ "drお取り寄せ": [
+  "Pemesanan barang",
+  "Meminta barang yang tidak ada di toko dikirim dari toko lain dll.",
+  "c"
+ ],
+ "dr切らしております": [
+  "Sedang kosong (stok habis)",
+  "Artinya barang itu sekarang tidak ada di toko. Ungkapan sopan.",
+  "c"
+ ],
+ "drサービスカウンター": [
+  "Konter layanan",
+  "Tempat di toko untuk pengembalian, penukaran barang, dan konsultasi.",
+  "c"
+ ],
+ "dr返品": [
+  "Pengembalian barang",
+  "Mengembalikan barang yang dibeli ke toko dan menerima uang kembali.",
+  "c"
+ ],
+ "dr交換": [
+  "Penukaran barang",
+  "Menukar barang yang dibeli dengan barang sama yang lain.",
+  "c"
+ ],
+ "dr粗大ごみ": [
+  "Sampah besar",
+  "Sampah besar seperti perabot. Biasanya dibuang setelah mendaftar lewat telepon atau internet.",
+  "c"
+ ],
+ "dr処理券": [
+  "Stiker pembuangan sampah besar",
+  "Stiker yang dibeli dan ditempel pada sampah besar. Biasanya dijual di minimarket dll.",
+  "c"
+ ],
+ "dr家電リサイクル": [
+  "Daur ulang peralatan elektronik rumah tangga",
+  "Aturan membuang AC, TV, kulkas, mesin cuci, dll. Tidak bisa dibuang sebagai sampah besar. Minta bantuan toko tempat membeli dll.",
+  "c"
+ ],
+ "dr冷蔵庫": [
+  "Kulkas",
+  "Kotak listrik untuk mendinginkan makanan dan minuman.",
+  "c"
+ ],
+ "dr収集": [
+  "Pengambilan sampah",
+  "Mengumpulkan dan mengangkut sampah.",
+  "c"
+ ],
+ "dr受付センター": [
+  "Pusat penerimaan pendaftaran",
+  "Tempat yang menerima pendaftaran lewat telepon atau internet.",
+  "c"
+ ],
+ "dr予約": [
+  "Reservasi",
+  "Menentukan dan memesan hari atau jam lebih dulu.",
+  "c"
+ ],
+ "dr満席": [
+  "Penuh",
+  "Semua kursi terisi, tidak ada kursi kosong.",
+  "c"
+ ],
+ "drコース": [
+  "Menu course",
+  "Paket makanan di restoran yang disajikan sesuai urutan tertentu.",
+  "c"
+ ],
+ "drお席": [
+  "Kursi/tempat duduk (sopan)",
+  "Cara sopan menyebut \"kursi\", yaitu tempat duduk.",
+  "c"
+ ],
+ "dr名様": [
+  "… orang (sopan)",
+  "Cara sopan menyebut \"… orang\". \"2名様\" artinya \"2 orang\".",
+  "c"
+ ],
+ "drお迎え": [
+  "Penjemputan",
+  "Mobil datang ke tempat Anda berada.",
+  "c"
+ ],
+ "dr目印": [
+  "Penanda/patokan",
+  "Sesuatu yang mudah terlihat untuk mengetahui lokasi, seperti toko atau gedung di dekatnya.",
+  "c"
+ ],
+ "dr予約料": [
+  "Biaya pemesanan",
+  "Biaya yang mungkin dikenakan saat memesan taksi untuk menjemput.",
+  "c"
+ ],
+ "dr初診": [
+  "Kunjungan pertama",
+  "Diperiksa dokter untuk pertama kali di rumah sakit itu.",
+  "c"
+ ],
+ "dr保険証": [
+  "Kartu asuransi kesehatan",
+  "Kartu bukti ikut asuransi kesehatan. Tunjukkan di resepsionis rumah sakit.",
+  "c"
+ ],
+ "drマイナンバーカード": [
+  "Kartu My Number",
+  "Kartu berisi nomor pribadi setiap orang. Kadang bisa dipakai sebagai pengganti kartu asuransi di rumah sakit.",
+  "c"
+ ],
+ "drせき": [
+  "Batuk",
+  "Napas keluar kuat dari tenggorokan (\"uhuk-uhuk\"). Sering terjadi saat flu.",
+  "c"
+ ],
+ "dr問診票": [
+  "Kuesioner medis",
+  "Kertas untuk menulis gejala, sejak kapan, obat yang diminum, dll. Diisi sebelum diperiksa dokter.",
+  "c"
+ ],
+ "dr返金": [
+  "Pengembalian uang",
+  "Toko mengembalikan uang barang yang dibeli. Jika bayar dengan kartu, uang biasanya kembali ke kartu.",
+  "c"
+ ],
+ "drレシート": [
+  "Struk",
+  "Kertas dari toko saat berbelanja. Berisi barang dan harganya. Tunjukkan saat menukar barang.",
+  "c"
+ ],
+ "dr初期不良": [
+  "Cacat produk sejak awal",
+  "Barang rusak atau tidak berfungsi dengan baik padahal baru dibeli.",
+  "c"
+ ],
+ "drコードレス掃除機": [
+  "Penyedot debu tanpa kabel",
+  "Penyedot debu tanpa kabel listrik. Memakai baterai yang diisi ulang.",
+  "c"
+ ],
+ "dr取り寄せ": [
+  "Pemesanan barang",
+  "Meminta barang yang tidak ada di toko dikirim dari toko atau perusahaan lain. Tunggu sampai barang tiba.",
+  "c"
+ ],
+ "dr何名様": [
+  "Berapa orang?",
+  "Artinya \"Berapa orang?\". Jawab jumlah orang, misalnya \"3 orang\", atau tunjukkan dengan jari.",
+  "c"
+ ],
+ "dr禁煙席": [
+  "Area dilarang merokok",
+  "Kursi di mana tidak boleh merokok.",
+  "c"
+ ],
+ "dr喫煙席": [
+  "Area merokok",
+  "Kursi di mana boleh merokok. Orang di bawah usia legal merokok tidak boleh masuk.",
+  "c"
+ ],
+ "dr全席禁煙": [
+  "Dilarang merokok di semua kursi",
+  "Tidak boleh merokok di kursi mana pun di toko.",
+  "c"
+ ],
+ "dr喫煙室": [
+  "Ruang merokok",
+  "Ruangan untuk merokok. Di dalam toko, kadang hanya boleh merokok di ruangan ini.",
+  "c"
+ ],
+ "drテーブル席": [
+  "Kursi meja",
+  "Tempat duduk biasa dengan meja dan kursi.",
+  "c"
+ ],
+ "drカウンター席": [
+  "Kursi konter",
+  "Duduk berjajar di meja panjang di depan tempat pegawai bekerja.",
+  "c"
+ ],
+ "drお子様用のいす": [
+  "Kursi anak",
+  "Kursi khusus untuk anak kecil.",
+  "c"
+ ],
+ "dr照り焼き": [
+  "Teriyaki",
+  "Masakan yang dipanggang dengan saus manis dari kecap asin, mirin, dll.",
+  "c"
+ ],
+ "dr塩焼き": [
+  "Bakar garam (shioyaki)",
+  "Masakan yang dipanggang dengan garam. Biasanya ikan.",
+  "c"
+ ],
+ "dr定食": [
+  "Paket makanan (teishoku)",
+  "Satu set makanan berisi nasi, sup miso, lauk, dll.",
+  "c"
+ ],
+ "drみりん": [
+  "Mirin",
+  "Bumbu untuk memberi rasa manis pada masakan. Mengandung alkohol.",
+  "c"
+ ],
+ "dr料理酒": [
+  "Arak masak",
+  "Minuman beralkohol yang dipakai untuk memberi rasa pada masakan.",
+  "c"
+ ],
+ "drラード": [
+  "Lemak babi (lard)",
+  "Lemak babi. Dipakai untuk memasak.",
+  "c"
+ ],
+ "drゼラチン": [
+  "Gelatin",
+  "Bahan untuk mengentalkan jeli dll. Kadang dibuat dari hewan seperti babi.",
+  "c"
+ ],
+ "drだし": [
+  "Kaldu (dashi)",
+  "Dasar sup yang dibuat dengan merebus ikan, rumput laut kombu, daging, dll. Untuk memberi rasa pada masakan.",
+  "c"
+ ],
+ "pj81": [
+  "Sistem Dukungan Kemandirian bagi Orang yang Kesulitan Hidup",
+  "Sistem di mana kantor pemerintah kota tempat tinggal Anda ikut memikirkan dan membantu orang yang kesulitan hidup (tidak punya uang, pekerjaan, atau tempat tinggal).",
+  "c"
+ ],
+ "pj82": [
+  "Pajak",
+  "Uang yang dibayarkan kepada negara, prefektur, kota, distrik, dan sebagainya.",
+  "c"
+ ],
+ "pj83": [
+  "Ortopedi",
+  "Rumah sakit/klinik yang mengobati tulang, sendi, otot, dan sebagainya.",
+  "c"
+ ],
+ "pj84": [
+  "Buku Kesehatan dan Kesejahteraan Penyandang Disabilitas Mental",
+  "Buku yang diterima dari kantor pemerintah kota oleh orang yang memiliki disabilitas mental dan kesulitan dalam kehidupan sehari-hari.",
+  "c"
+ ],
+ "pj85": [
+  "Perjanjian Pajak",
+  "Kesepakatan antarnegara tentang pajak. Warga negara yang memiliki perjanjian dengan Jepang bisa mendapat keringanan pajak.",
+  "c"
+ ],
+ "pj86": [
+  "Tertanggung Kategori 1",
+  "Orang yang hanya ikut Pensiun Nasional. Misalnya orang yang punya usaha/toko sendiri, petani, nelayan, atau orang yang tidak bekerja.",
+  "c"
+ ],
+ "pj87": [
+  "Tertanggung Kategori 3",
+  "Orang yang suami/istrinya ikut Asuransi Pensiun Karyawan, suami/istrinya belum berusia 65 tahun, dan penghasilan tahunannya kurang dari 1,3 juta yen. Hanya ikut Pensiun Nasional.",
+  "c"
+ ],
+ "pj88": [
+  "Surat pengunduran diri",
+  "Surat berisi alasan dan lainnya yang diserahkan ke perusahaan saat berhenti bekerja.",
+  "c"
+ ],
+ "pj89": [
+  "Tertanggung Kategori 2",
+  "Orang yang ikut Pensiun Nasional dan Asuransi Pensiun Karyawan, yaitu orang yang bekerja di perusahaan, pabrik, toko, dan sebagainya.",
+  "c"
+ ],
+ "pj90": [
+  "Pembayaran sekaligus saat keluar dari pensiun",
+  "Uang yang bisa diterima oleh orang yang berhenti dari pensiun Jepang dan pulang ke negaranya.",
+  "c"
+ ],
+ "pj91": [
+  "Pekerja paruh waktu",
+  "Pekerja part-time, arubaito, dan lainnya yang jam kerjanya lebih pendek dari karyawan tetap.",
+  "c"
+ ],
+ "pj92": [
+  "Biaya perantara (komisi agen properti)",
+  "Uang yang dibayarkan kepada agen properti yang mengenalkan rumah kepada Anda saat menyewa rumah.",
+  "c"
+ ],
+ "pj93": [
+  "Ujian Pengakuan Setara Lulusan SMP",
+  "Ujian bagi orang yang belum lulus SMP di Jepang. Jika lulus, dapat mengikuti ujian masuk SMA di Jepang.",
+  "c"
+ ],
+ "pj94": [
+  "Kontrak sewa",
+  "Kesepakatan antara orang yang menyewakan rumah dan orang yang menyewa.",
+  "c"
+ ],
+ "pj95": [
+  "Laporan pindah alamat (dalam kota yang sama)",
+  "Formulir yang diserahkan ke kantor pemerintah saat pindah rumah di dalam kota yang sama.",
+  "c"
+ ],
+ "pj96": [
+  "Laporan pindah keluar",
+  "Formulir yang diserahkan ke kantor pemerintah alamat lama saat pindah ke kota lain. Juga diserahkan saat pindah meninggalkan Jepang.",
+  "c"
+ ],
+ "pj97": [
+  "Laporan pindah masuk",
+  "Formulir yang diserahkan ke kantor pemerintah alamat baru setelah pindah dari kota lain. Juga diserahkan saat mulai tinggal di Jepang.",
+  "c"
+ ],
+ "pj98": [
+  "Tunjangan Khusus Pengasuhan Anak",
+  "Uang yang bisa diterima oleh orang yang membesarkan anak penyandang disabilitas.",
+  "c"
+ ],
+ "pj99": [
+  "Pemungutan khusus (pajak penduduk melalui perusahaan)",
+  "Perusahaan membayar pajak penduduk karyawan ke kantor pemerintah kota tempat tinggalnya. Perusahaan memotong pajak dari gaji Anda lalu membayarkannya.",
+  "c"
+ ],
+ "pj100": [
+  "Laporan rencana pendakian",
+  "Dokumen berisi nama, alamat, nomor telepon, rute pendakian, dll. yang diserahkan ke kantor pemerintah dan lainnya sebelum mendaki gunung. Berguna untuk menolong orang yang mengalami kecelakaan di gunung.",
+  "c"
+ ],
+ "pj101": [
+  "Penyakit dalam",
+  "Rumah sakit/klinik yang mengobati penyakit di dalam tubuh (seperti flu).",
+  "c"
+ ],
+ "pj102": [
+  "Ujian Masuk Universitas Jepang bagi Mahasiswa Asing (EJU)",
+  "Ujian bagi pelajar dari luar negeri yang ingin kuliah di universitas di Jepang.",
+  "c"
+ ],
+ "pj103": [
+  "Pemeriksaan kesehatan bayi dan balita",
+  "Pemeriksaan oleh kantor pemerintah kota untuk mengetahui apakah bayi sehat.",
+  "c"
+ ],
+ "pj104": [
+  "Nintei Kodomo-en (PAUD terpadu)",
+  "Tempat bagi anak sebelum masuk SD. Memiliki ciri taman kanak-kanak sekaligus tempat penitipan anak.",
+  "c"
+ ],
+ "pj105": [
+  "Pemeriksaan kesehatan ibu hamil",
+  "Pemeriksaan untuk mengetahui apakah ibu hamil sehat.",
+  "c"
+ ],
+ "pj106": [
+  "Pensiun",
+  "Sistem yang mengumpulkan uang dari semua orang untuk membantu lansia dan orang yang menjadi disabilitas karena sakit atau cedera.",
+  "c"
+ ],
+ "pj107": [
+  "Buku Pensiun",
+  "Buku yang diterima oleh orang yang ikut program pensiun.",
+  "c"
+ ],
+ "pj108": [
+  "Cuti tahunan berbayar",
+  "Cuti kerja di mana Anda tetap menerima gaji.",
+  "c"
+ ],
+ "pj109": [
+  "Penyesuaian pajak akhir tahun",
+  "Sistem di mana pada bulan Desember perusahaan menghitung dan menyesuaikan pajak penghasilan yang sudah dipotong. Jika kelebihan, perusahaan mengembalikan uang; jika kurang, Anda membayar ke perusahaan.",
+  "c"
+ ],
+ "pj110": [
+  "Karyawan alih daya (outsourcing)",
+  "Orang yang terikat kontrak dengan perusahaan penyalur tenaga kerja dan bekerja di perusahaan lain.",
+  "c"
+ ],
+ "pj111": [
+  "Peta rawan bencana (hazard map)",
+  "Peta yang menunjukkan tempat berbahaya dan tempat evakuasi saat terjadi bencana.",
+  "c"
+ ],
+ "pj112": [
+  "Kelas calon ibu dan ayah",
+  "Tempat yang mengajarkan hal penting tentang melahirkan dan merawat bayi kepada calon ayah dan ibu.",
+  "c"
+ ],
+ "pj113": [
+  "Hello Work (Kantor Layanan Ketenagakerjaan)",
+  "Kantor pemerintah pusat yang memperkenalkan lowongan pekerjaan.",
+  "c"
+ ],
+ "pj114": [
+  "Family Support Center",
+  "Tempat yang mengenalkan orang yang bisa mengasuh anak saat Anda ada keperluan.",
+  "c"
+ ],
+ "pj115": [
+  "Agen properti",
+  "Toko yang memperkenalkan berbagai rumah kepada orang yang ingin menyewa atau membeli rumah.",
+  "c"
+ ],
+ "pj116": [
+  "Tempat penitipan anak (Hoikuen)",
+  "Tempat yang mengasuh anak usia 0 tahun sampai sebelum SD saat orang tua bekerja. Anak dirawat dan belajar berbagai hal sambil bermain.",
+  "c"
+ ],
+ "pj117": [
+  "Klub anak sepulang sekolah (Gakudo Hoiku)",
+  "Tempat yang mengasuh anak SD saat orang tua bekerja.",
+  "c"
+ ],
+ "pj118": [
+  "Latihan penanggulangan bencana dan evakuasi",
+  "Latihan mengungsi dengan aman dan memadamkan api sebagai persiapan saat terjadi bencana.",
+  "c"
+ ],
+ "pj119": [
+  "Pencegahan kejahatan",
+  "Upaya agar tidak menjadi korban kejahatan.",
+  "c"
+ ],
+ "pj120": [
+  "Buku Kesehatan Ibu dan Anak",
+  "Buku yang diterima ibu hamil dari kantor pemerintah kota. Untuk mencatat kesehatan bayi dan ibu.",
+  "c"
+ ],
+ "pj121": [
+  "Rumah sewa swasta",
+  "Rumah yang disewa dari pemilik rumah (No.9).",
+  "c"
+ ],
+ "pj122": [
+  "Rumah milik sendiri",
+  "Rumah yang dibeli sendiri.",
+  "c"
+ ],
+ "pj123": [
+  "SMP malam",
+  "Sekolah bagi orang yang belum lulus SMP atau tidak cukup bersekolah. Lulusannya dapat mengikuti ujian masuk SMA.",
+  "c"
+ ],
+ "pj124": [
+  "Uang sewa rumah",
+  "Uang yang dibayar setiap bulan saat menyewa rumah.",
+  "c"
+ ],
+ "pj125": [
+  "Apotek / toko obat",
+  "Toko yang menjual obat.",
+  "c"
+ ],
+ "pj126": [
+  "Taman kanak-kanak",
+  "Tempat bagi anak usia 3 tahun sampai sebelum masuk SD. Anak belajar berbagai hal sambil bermain.",
+  "c"
+ ],
+ "pj127": [
+  "Imunisasi / vaksinasi",
+  "Suntikan untuk mencegah penyakit.",
+  "c"
+ ],
+ "pj128": [
+  "Buku Ryoiku (untuk penyandang disabilitas intelektual)",
+  "Buku yang diterima penyandang disabilitas intelektual dari kantor pemerintah kota.",
+  "c"
+ ],
+ "pj129": [
+  "Biaya pengobatan (penggantian)",
+  "Uang yang bisa diterima kemudian dari asuransi kesehatan setelah Anda membayar penuh biaya rumah sakit sendiri.",
+  "c"
+ ],
+ "pj130": [
+  "Uang terima kasih (reikin)",
+  "Uang tanda terima kasih yang dibayar penyewa kepada pemilik saat rumah sewa sudah ditentukan.",
+  "c"
+ ],
+ "pj131": [
+  "Penjamin bersama (kontrak sewa)",
+  "Orang yang membayar sewa sebagai pengganti jika penyewa tidak bisa membayar.",
+  "c"
+ ],
+ "pj132": [
+  "Asuransi Kecelakaan Kerja",
+  "Sistem yang mengumpulkan uang dari perusahaan untuk membantu orang yang cedera atau sakit karena pekerjaan.",
+  "c"
+ ],
+ "pj133": [
+  "Pensiun Dasar Hari Tua",
+  "Uang dari Pensiun Nasional yang bisa diterima orang berusia 65 tahun ke atas.",
+  "c"
+ ],
+ "pj134": [
+  "Pensiun Hari Tua Karyawan",
+  "Uang dari Asuransi Pensiun Karyawan yang bisa diterima orang berusia 65 tahun ke atas.",
+  "c"
+ ],
+ "jl印鑑登録": [
+  "Pendaftaran stempel (inkan)",
+  "Pendaftaran stempel pribadi resmi.",
+  "c"
+ ],
+ "jl火災保険": [
+  "Asuransi kebakaran",
+  "Asuransi kebakaran.",
+  "c"
+ ],
+ "jl義務教育": [
+  "Pendidikan wajib",
+  "Pendidikan wajib.",
+  "c"
+ ],
+ "jl教育委員会": [
+  "Dewan Pendidikan",
+  "Dewan pendidikan.",
+  "c"
+ ],
+ "jl警察署": [
+  "Kantor polisi",
+  "Kantor polisi.",
+  "c"
+ ],
+ "jl契約書": [
+  "Surat kontrak",
+  "Dokumen kontrak.",
+  "c"
+ ],
+ "jl公共職業安定所": [
+  "Kantor Layanan Ketenagakerjaan Umum",
+  "Kantor layanan ketenagakerjaan umum.",
+  "c"
+ ],
+ "jl住民基本台帳": [
+  "Daftar Dasar Penduduk",
+  "Daftar dasar penduduk.",
+  "c"
+ ],
+ "jl住民票": [
+  "Surat keterangan domisili (jūminhyō)",
+  "Catatan data penduduk.",
+  "c"
+ ],
+ "jl出入国管理": [
+  "Pengawasan imigrasi",
+  "Pengawasan keluar masuk negara (imigrasi).",
+  "c"
+ ],
+ "jl職業訓練": [
+  "Pelatihan kerja",
+  "Pelatihan keterampilan kerja.",
+  "c"
+ ],
+ "jl申請書": [
+  "Formulir permohonan",
+  "Surat permohonan; formulir permohonan.",
+  "c"
+ ],
+ "jl請求書": [
+  "Tagihan (invoice)",
+  "Surat tagihan; surat permintaan pembayaran.",
+  "c"
+ ],
+ "jl世帯主": [
+  "Kepala rumah tangga",
+  "Kepala rumah tangga.",
+  "c"
+ ],
+ "jl損害賠償": [
+  "Ganti rugi",
+  "Ganti rugi atas kerugian.",
+  "c"
+ ],
+ "jl損害保険": [
+  "Asuransi umum (non-jiwa)",
+  "Asuransi kerugian selain asuransi jiwa.",
+  "c"
+ ],
+ "jl宅地建物取引業": [
+  "Usaha perantara properti",
+  "Usaha jual beli dan perantara tanah dan bangunan.",
+  "c"
+ ],
+ "jl通知書": [
+  "Surat pemberitahuan",
+  "Surat pemberitahuan.",
+  "c"
+ ],
+ "jl手数料": [
+  "Biaya administrasi; komisi",
+  "Biaya layanan; komisi.",
+  "c"
+ ],
+ "jl登録証": [
+  "Kartu/sertifikat registrasi",
+  "Sertifikat registrasi.",
+  "c"
+ ],
+ "jl登録証明書": [
+  "Surat keterangan registrasi",
+  "Sertifikat registrasi.",
+  "c"
+ ],
+ "jl難民認定": [
+  "Pengakuan status pengungsi",
+  "Pengakuan (status) pengungsi.",
+  "c"
+ ],
+ "jl不動産": [
+  "Properti (tanah dan bangunan)",
+  "Harta tidak bergerak.",
+  "c"
+ ],
+ "jl分割払い": [
+  "Pembayaran cicilan",
+  "Pembayaran secara mencicil.",
+  "c"
+ ],
+ "jl保育所": [
+  "Tempat penitipan anak",
+  "Tempat penitipan anak.",
+  "c"
+ ],
+ "jl保険料": [
+  "Premi asuransi",
+  "Premi asuransi.",
+  "c"
+ ],
+ "pj1": [
+  "Cuti mengasuh anak (Ikuji Kyūgyō)",
+  "Cuti yang dapat diambil untuk mengasuh anak.",
+  "c"
+ ],
+ "pj2": [
+  "Tunjangan cuti mengasuh anak",
+  "Uang yang dapat diterima dari Asuransi Ketenagakerjaan selama cuti mengasuh anak.",
+  "c"
+ ],
+ "pj3": [
+  "Pensiun Dasar untuk Keluarga yang Ditinggalkan",
+  "Uang yang dapat diterima keluarga dari Pensiun Nasional saat peserta Pensiun Nasional meninggal dunia.",
+  "c"
+ ],
+ "pj4": [
+  "Pensiun Karyawan untuk Keluarga yang Ditinggalkan",
+  "Uang yang dapat diterima keluarga dari Asuransi Pensiun Karyawan saat peserta asuransi tersebut meninggal dunia.",
+  "c"
+ ],
+ "pj5": [
+  "Asuransi kesehatan",
+  "Sistem yang mengumpulkan uang dari semua orang untuk membantu orang yang pergi ke rumah sakit karena cedera atau sakit.",
+  "c"
+ ],
+ "pj6": [
+  "Surat Keterangan Pendaftaran Cap (Inkan Tōroku Shōmeisho)",
+  "Surat yang menunjukkan cap resmi (jitsuin) Anda. Dapat diperoleh di kantor pemerintah kota tempat tinggal Anda.",
+  "c"
+ ],
+ "pj7": [
+  "Kartu Pendaftaran Cap (Inkan Tōroku Shō)",
+  "Kartu yang digunakan untuk mendapatkan Surat Keterangan Pendaftaran Cap di kantor pemerintah kota. Diterima saat kantor pemerintah kota mengesahkan cap resmi (jitsuin) Anda.",
+  "c"
+ ],
+ "pj8": [
+  "Overstay (tinggal melebihi izin)",
+  "Tetap berada di Jepang setelah masa berlaku izin tinggal habis.",
+  "c"
+ ],
+ "pj9": [
+  "Pemilik rumah sewa",
+  "Orang yang menyewakan rumah.",
+  "c"
+ ],
+ "pj10": [
+  "Perawatan lansia/disabilitas (kaigo)",
+  "Membantu orang yang kesulitan menjalani kegiatan sehari-hari (makan, mandi, dll.) karena usia lanjut atau penyakit tertentu.",
+  "c"
+ ],
+ "pj11": [
+  "Cuti merawat keluarga",
+  "Cuti yang dapat diambil untuk merawat anggota keluarga.",
+  "c"
+ ],
+ "pj12": [
+  "Tunjangan cuti merawat keluarga",
+  "Uang yang dapat diterima dari Asuransi Ketenagakerjaan selama cuti merawat keluarga.",
+  "c"
+ ],
+ "pj13": [
+  "Sekolah internasional/sekolah untuk orang asing",
+  "Sekolah untuk anak-anak orang asing. Ada sekolah yang disesuaikan dengan budaya dan bahasa masing-masing negara.",
+  "c"
+ ],
+ "pj14": [
+  "Asuransi Perawatan Jangka Panjang (Kaigo Hoken)",
+  "Sistem yang mengumpulkan uang dari orang berusia 40 tahun ke atas untuk membantu orang yang membutuhkan perawatan.",
+  "c"
+ ],
+ "pj15": [
+  "Papan edaran (kairanban)",
+  "Edaran berisi pemberitahuan dari kantor pemerintah kota dan lainnya, digunakan oleh perkumpulan warga. Setelah dibaca, serahkan ke orang berikutnya.",
+  "c"
+ ],
+ "pj16": [
+  "Pelaporan pajak tahunan (Kakutei Shinkoku)",
+  "Cara membayar pajak penghasilan bagi orang yang pajaknya tidak dipotong atau disesuaikan di akhir tahun oleh perusahaan. Dokumen diserahkan ke kantor pajak di daerah tempat tinggal.",
+  "c"
+ ],
+ "pj17": [
+  "Pensiun janda",
+  "Uang yang dapat diterima istri dari Pensiun Nasional saat suaminya meninggal dunia.",
+  "c"
+ ],
+ "pj18": [
+  "Dokter mata (oftalmologi)",
+  "Klinik/rumah sakit yang mengobati penyakit mata.",
+  "c"
+ ],
+ "pj19": [
+  "Biaya pengelolaan (biaya bersama)",
+  "Uang untuk fasilitas yang digunakan bersama di apartemen. Dikumpulkan dari para penghuni.",
+  "c"
+ ],
+ "pj20": [
+  "Sekolah pendidikan wajib terpadu",
+  "Sekolah yang menggabungkan SD dan SMP menjadi satu.",
+  "c"
+ ],
+ "pj21": [
+  "Ambulans",
+  "Mobil yang membawa orang yang tiba-tiba sakit atau terluka ke rumah sakit.",
+  "c"
+ ],
+ "pj22": [
+  "Bukti potong pajak penghasilan gaji (Gensen Chōshūhyō)",
+  "Dokumen dari perusahaan berisi gaji Anda selama setahun dan pajak penghasilan yang dipotong.",
+  "c"
+ ],
+ "pj23": [
+  "Slip gaji",
+  "Dokumen dari perusahaan berisi gaji bulanan Anda dan pajak penghasilan yang dipotong.",
+  "c"
+ ],
+ "pj24": [
+  "Peringatan Dini Gempa Bumi",
+  "Pemberitahuan di TV atau ponsel pintar sesaat sebelum gempa kuat terjadi.",
+  "c"
+ ],
+ "pj25": [
+  "Manajer perawatan (care manager)",
+  "Tenaga ahli yang menerima konsultasi dan menyusun rencana perawatan.",
+  "c"
+ ],
+ "pj26": [
+  "Karyawan kontrak",
+  "Pekerja dengan masa kerja yang sudah ditentukan. Kontrak (perjanjian antara perusahaan dan pekerja) berakhir dalam 3 tahun.",
+  "c"
+ ],
+ "pj27": [
+  "Bedah",
+  "Klinik/rumah sakit yang mengobati cedera dan melakukan operasi.",
+  "c"
+ ],
+ "pj28": [
+  "Asuransi Kesehatan (Kenkō Hoken)",
+  "Asuransi kesehatan untuk orang yang bekerja di perusahaan.",
+  "c"
+ ],
+ "pj29": [
+  "Pemotongan pajak di sumber",
+  "Perusahaan membayar pajak penghasilan ke negara atas nama Anda dengan memotongnya dari gaji Anda.",
+  "c"
+ ],
+ "pj30": [
+  "Perumahan umum",
+  "Rumah yang disewakan oleh prefektur, kota, dan lainnya.",
+  "c"
+ ],
+ "pj31": [
+  "Tunjangan biaya pengobatan tinggi",
+  "Uang yang dikembalikan jika biaya rumah sakit dalam sebulan menjadi besar.",
+  "c"
+ ],
+ "pj32": [
+  "Sistem Asuransi Kesehatan untuk Lansia Usia 75+",
+  "Asuransi kesehatan untuk orang berusia 75 tahun ke atas.",
+  "c"
+ ],
+ "pj33": [
+  "Beasiswa bantuan untuk siswa SMA",
+  "Uang yang dapat diterima siswa SMA dari keluarga berpenghasilan rendah untuk membeli buku pelajaran dan perlengkapan belajar.",
+  "c"
+ ],
+ "pj34": [
+  "Biaya perpanjangan (kontrak sewa)",
+  "Uang selain sewa yang dibayar untuk tetap tinggal di rumah yang sama setelah kontrak sewa berakhir.",
+  "c"
+ ],
+ "pj35": [
+  "Asuransi Pensiun Karyawan (Kōsei Nenkin)",
+  "Pensiun untuk orang sampai usia 69 tahun yang bekerja di perusahaan, pabrik, toko, dll. melebihi jam kerja tertentu.",
+  "c"
+ ],
+ "pj36": [
+  "Ujian Kesetaraan Lulusan SMA",
+  "Ujian bagi orang yang belum lulus SMA di Jepang. Jika lulus, dapat mengikuti ujian masuk universitas, sekolah kejuruan, dll.",
+  "c"
+ ],
+ "pj37": [
+  "Bantuan Biaya Sekolah SMA",
+  "Biaya sekolah SMA yang dibayar oleh negara untuk Anda.",
+  "c"
+ ],
+ "pj38": [
+  "Asuransi Kesehatan Nasional (Kokumin Kenkō Hoken)",
+  "Asuransi kesehatan yang diikuti sendiri oleh orang yang tidak ikut asuransi kesehatan perusahaan.",
+  "c"
+ ],
+ "pj39": [
+  "Pensiun Nasional (Kokumin Nenkin)",
+  "Pensiun negara yang wajib diikuti semua orang berusia 20 sampai 59 tahun.",
+  "c"
+ ],
+ "pj40": [
+  "Pajak aset tetap (pajak properti)",
+  "Pajak yang dibayar oleh pemilik tanah atau rumah.",
+  "c"
+ ],
+ "pj41": [
+  "Asuransi Ketenagakerjaan (Koyō Hoken)",
+  "Sistem yang membantu orang yang belum mendapat pekerjaan setelah berhenti kerja, serta orang yang sedang cuti mengasuh anak atau merawat keluarga.",
+  "c"
+ ],
+ "pj42": [
+  "Pendaftaran pernikahan",
+  "Formulir yang diserahkan ke kantor pemerintah kota oleh orang yang menikah.",
+  "c"
+ ],
+ "pj43": [
+  "Surat Keterangan Memenuhi Syarat Menikah",
+  "Dokumen yang diperlukan orang asing saat menyerahkan pendaftaran pernikahan ke kantor pemerintah kota.",
+  "c"
+ ],
+ "pj44": [
+  "Upah minimum",
+  "Gaji terendah yang ditetapkan oleh hukum.",
+  "c"
+ ],
+ "pj45": [
+  "Kartu Izin Tinggal (Zairyū Card)",
+  "Kartu dari Imigrasi untuk orang asing yang tinggal di Jepang lebih dari 3 bulan. Berisi nama, kewarganegaraan, alamat, dll.",
+  "c"
+ ],
+ "pj46": [
+  "Izin Perpanjangan Masa Tinggal",
+  "Izin untuk memperpanjang masa berlaku izin tinggal. Status izin tinggal tidak berubah.",
+  "c"
+ ],
+ "pj47": [
+  "Batas masa tinggal",
+  "Hari terakhir orang asing boleh berada di Jepang.",
+  "c"
+ ],
+ "pj48": [
+  "Status izin tinggal (visa)",
+  "Hal yang boleh dilakukan orang asing di Jepang, seperti bekerja, sekolah, atau tinggal bersama keluarga.",
+  "c"
+ ],
+ "pj49": [
+  "Izin Perolehan Status Izin Tinggal",
+  "Bayi orang asing yang lahir di Jepang mendapatkan Kartu Izin Tinggal.",
+  "c"
+ ],
+ "pj50": [
+  "Izin Perubahan Status Izin Tinggal",
+  "Izin untuk mengubah status izin tinggal.",
+  "c"
+ ],
+ "pj51": [
+  "Lembur",
+  "Bekerja lebih dari 8 jam sehari, atau lebih dari 40 jam seminggu.",
+  "c"
+ ],
+ "pj52": [
+  "Cuti melahirkan (sebelum dan sesudah)",
+  "Cuti yang dapat diambil pekerja perempuan sebelum melahirkan, dan cuti yang wajib diambil setelah melahirkan.",
+  "c"
+ ],
+ "pj53": [
+  "Kebidanan dan kandungan (obstetri-ginekologi)",
+  "Klinik/rumah sakit untuk penyakit perempuan dan melahirkan.",
+  "c"
+ ],
+ "pj54": [
+  "Dokter gigi",
+  "Klinik yang mengobati gigi.",
+  "c"
+ ],
+ "pj55": [
+  "Izin Kegiatan di Luar Status",
+  "Izin bagi orang dengan status izin tinggal yang tidak boleh bekerja, agar dapat bekerja.",
+  "c"
+ ],
+ "pj56": [
+  "Uang jaminan (deposit)",
+  "Uang yang dibayar saat menyewa rumah. Digunakan pemilik rumah untuk memperbaiki kerusakan atau kotoran setelah penyewa keluar.",
+  "c"
+ ],
+ "pj57": [
+  "Perkumpulan warga (RT/RW)",
+  "Perkumpulan yang dibentuk warga sekitar untuk bersama-sama membuat lingkungan aman dan nyaman.",
+  "c"
+ ],
+ "pj58": [
+  "Cap resmi terdaftar (jitsuin)",
+  "Cap yang telah disahkan kantor pemerintah kota. Digunakan saat membeli mobil, rumah, dll.",
+  "c"
+ ],
+ "pj59": [
+  "Pajak berat kendaraan",
+  "Pajak yang dibayar saat inspeksi kendaraan (shaken) dan lainnya.",
+  "c"
+ ],
+ "pj60": [
+  "Pajak Kendaraan/Pajak Kendaraan Ringan (berdasarkan kinerja lingkungan)",
+  "Pajak yang dibayar saat membeli mobil.",
+  "c"
+ ],
+ "pj61": [
+  "Pajak Kendaraan/Pajak Kendaraan Ringan (berdasarkan jenis)",
+  "Pajak yang dibayar oleh pemilik kendaraan setiap tanggal 1 April.",
+  "c"
+ ],
+ "pj62": [
+  "Tunjangan anak",
+  "Uang yang dapat diterima orang yang mengasuh anak sampai anak lulus SMP.",
+  "c"
+ ],
+ "pj63": [
+  "Tunjangan nafkah anak (orang tua tunggal)",
+  "Uang yang dapat diterima orang yang mengasuh sendiri anak sampai usia 18 tahun karena perceraian dan lainnya. Juga untuk yang mengasuh sendiri anak penyandang disabilitas sampai usia 19 tahun.",
+  "c"
+ ],
+ "pj64": [
+  "Asuransi wajib kendaraan (Jibaiseki)",
+  "Sistem yang mengumpulkan uang dari pengemudi mobil dan sepeda motor untuk membantu korban kecelakaan.",
+  "c"
+ ],
+ "pj65": [
+  "Uang duka sekaligus",
+  "Uang yang diterima keluarga dari Pensiun Nasional saat peserta pensiun meninggal dunia.",
+  "c"
+ ],
+ "pj66": [
+  "Laporan kematian",
+  "Formulir yang diserahkan ke kantor pemerintah kota saat anggota keluarga atau orang yang tinggal bersama meninggal dunia.",
+  "c"
+ ],
+ "pj67": [
+  "Asuransi sosial dan asuransi tenaga kerja",
+  "Sistem negara yang mengumpulkan uang dari pekerja dan perusahaan untuk membantu orang yang kesulitan.",
+  "c"
+ ],
+ "pj68": [
+  "Inspeksi kendaraan (shaken)",
+  "Pemeriksaan setiap 1 atau 2 tahun apakah mobil atau sepeda motor aman dan layak digunakan.",
+  "c"
+ ],
+ "pj69": [
+  "Sertifikat inspeksi kendaraan",
+  "Dokumen yang diterima setelah inspeksi kendaraan selesai.",
+  "c"
+ ],
+ "pj70": [
+  "Bantuan biaya sekolah",
+  "Menerima uang untuk perlengkapan sekolah, makan siang sekolah, dll. Untuk orang tua siswa SD/SMP berpenghasilan rendah.",
+  "c"
+ ],
+ "pj71": [
+  "Peraturan kerja perusahaan",
+  "Aturan kerja terperinci yang ditetapkan perusahaan.",
+  "c"
+ ],
+ "pj72": [
+  "Pajak penduduk",
+  "Pajak yang dibayar ke prefektur, kota, atau distrik oleh orang yang bekerja dan beralamat di Jepang pada 1 Januari.",
+  "c"
+ ],
+ "pj73": [
+  "Tunjangan melahirkan (pengganti gaji)",
+  "Uang yang dapat diterima dari Asuransi Kesehatan saat cuti kerja untuk melahirkan dan tidak menerima gaji.",
+  "c"
+ ],
+ "pj74": [
+  "Laporan kelahiran",
+  "Formulir yang diserahkan ke kantor pemerintah kota saat bayi lahir.",
+  "c"
+ ],
+ "pj75": [
+  "Tunjangan sekaligus melahirkan dan mengasuh anak",
+  "Uang yang dapat diterima dari Asuransi Kesehatan dan lainnya saat melahirkan.",
+  "c"
+ ],
+ "pj76": [
+  "Pensiun Dasar Disabilitas",
+  "Uang yang dapat diterima penyandang disabilitas dari Pensiun Nasional.",
+  "c"
+ ],
+ "pj77": [
+  "Pensiun Karyawan Disabilitas",
+  "Uang yang dapat diterima penyandang disabilitas dari Asuransi Pensiun Karyawan.",
+  "c"
+ ],
+ "pj78": [
+  "Pajak konsumsi",
+  "Pajak yang dibayar saat membeli barang atau menggunakan jasa.",
+  "c"
+ ],
+ "pj79": [
+  "Pajak penghasilan",
+  "Pajak yang dibayar ke negara dari penghasilan (gaji dari bekerja, dll.).",
+  "c"
+ ],
+ "pj80": [
+  "Buku Penyandang Disabilitas Fisik",
+  "Buku yang diterima penyandang disabilitas fisik dari kantor pemerintah kota tempat tinggalnya.",
+  "c"
+ ],
+ "dr国際交流協会": [
+  "Asosiasi Pertukaran Internasional",
+  "Organisasi yang menghubungkan warga asing dan warga setempat. Mereka mengadakan kelas bahasa Jepang dan lain-lain.",
+  "c"
+ ],
+ "dr日本語教室": [
+  "Kelas bahasa Jepang",
+  "Kelas untuk belajar bahasa Jepang. Di kelas lokal, pengajarnya sering relawan.",
+  "c"
+ ],
+ "drボランティア": [
+  "Relawan",
+  "Orang yang membantu orang lain tanpa dibayar.",
+  "c"
+ ],
+ "dr見学": [
+  "Kunjungan observasi",
+  "Datang melihat kelas atau tempat sebelum ikut serta.",
+  "c"
+ ],
+ "dr教材費": [
+  "Biaya bahan ajar",
+  "Biaya untuk buku (teks) dan bahan belajar lainnya.",
+  "c"
+ ],
+ "dr空き待ち": [
+  "Daftar tunggu",
+  "Menunggu sampai ada tempat kosong saat kelas atau tempat sudah penuh.",
+  "c"
+ ],
+ "dr試験対策": [
+  "Persiapan ujian",
+  "Belajar supaya lulus ujian.",
+  "c"
+ ],
+ "drチラシ": [
+  "Selebaran",
+  "Selembar kertas berisi pengumuman atau iklan.",
+  "c"
+ ],
+ "dr申し込み": [
+  "Pendaftaran",
+  "Memberi tahu pihak lain bahwa Anda ingin ikut atau ingin memakai sesuatu.",
+  "c"
+ ],
+ "dr面談": [
+  "Wawancara / pertemuan",
+  "Bertemu langsung dan berbicara dengan seseorang.",
+  "c"
+ ],
+ "dr集会室": [
+  "Ruang pertemuan",
+  "Ruangan tempat orang berkumpul untuk berdiskusi atau berkegiatan.",
+  "c"
+ ],
+ "dr調理室": [
+  "Ruang masak",
+  "Ruangan untuk memasak.",
+  "c"
+ ],
+ "dr長机": [
+  "Meja panjang",
+  "Meja yang panjang ke samping. Dipakai beberapa orang secara berjajar.",
+  "c"
+ ],
+ "dr利用者登録": [
+  "Registrasi pengguna",
+  "Mendaftarkan nama dan data lain sebelum memakai fasilitas. Di beberapa tempat, ini perlu sebelum memesan ruangan.",
+  "c"
+ ],
+ "dr団体登録": [
+  "Registrasi kelompok",
+  "Mendaftarkan kelompok terlebih dahulu agar bisa memakai fasilitas sebagai kelompok.",
+  "c"
+ ],
+ "dr飲食": [
+  "Makan dan minum",
+  "Kegiatan makan atau minum.",
+  "c"
+ ],
+ "dr持ち寄り": [
+  "Bawa makanan bersama (potluck)",
+  "Setiap orang membawa sedikit makanan atau barang, lalu dikumpulkan bersama.",
+  "c"
+ ],
+ "dr利用者カード": [
+  "Kartu perpustakaan",
+  "Kartu yang dipakai saat meminjam buku dan lainnya di perpustakaan.",
+  "c"
+ ],
+ "dr貸出": [
+  "Peminjaman",
+  "Meminjamkan buku dan lainnya. Kata yang dipakai saat meminjam buku di perpustakaan.",
+  "c"
+ ],
+ "dr返却": [
+  "Pengembalian",
+  "Mengembalikan barang yang dipinjam.",
+  "c"
+ ],
+ "dr返却期限": [
+  "Batas waktu pengembalian",
+  "Hari terakhir untuk mengembalikan barang yang dipinjam.",
+  "c"
+ ],
+ "dr返却ポスト": [
+  "Kotak pengembalian buku",
+  "Kotak untuk mengembalikan buku pinjaman. Sering bisa dipakai saat perpustakaan tutup.",
+  "c"
+ ],
+ "dr延長": [
+  "Perpanjangan",
+  "Memperpanjang waktu atau tanggal yang ditentukan. Di perpustakaan, berarti mengundur tanggal pengembalian.",
+  "c"
+ ],
+ "dr館内閲覧": [
+  "Baca di tempat",
+  "Hanya boleh dibaca di dalam perpustakaan, tidak boleh dibawa pulang.",
+  "c"
+ ],
+ "dr最新号": [
+  "Edisi terbaru",
+  "Terbitan paling baru dari majalah dan sejenisnya.",
+  "c"
+ ],
+ "dr速達": [
+  "Pos kilat",
+  "Layanan pos untuk mengirim lebih cepat. Biayanya lebih mahal dari pos biasa.",
+  "c"
+ ],
+ "dr書留": [
+  "Pos tercatat",
+  "Layanan pos yang menyimpan catatan pengiriman. Biayanya lebih mahal dari pos biasa.",
+  "c"
+ ],
+ "dr小包": [
+  "Paket pos",
+  "Barang yang dikirim lewat pos.",
+  "c"
+ ],
+ "dr国際郵便": [
+  "Pos internasional",
+  "Surat atau paket yang dikirim ke luar negeri atau datang dari luar negeri.",
+  "c"
+ ],
+ "dr不在連絡票": [
+  "Pemberitahuan tidak di tempat",
+  "Kertas yang ditinggalkan saat kiriman tidak bisa diserahkan karena Anda tidak di rumah. Gunakan ini untuk meminta pengiriman ulang.",
+  "c"
+ ],
+ "dr再配達": [
+  "Pengiriman ulang",
+  "Meminta surat atau paket yang belum diterima diantar sekali lagi.",
+  "c"
+ ],
+ "dr席を外しております": [
+  "Sedang tidak di tempat",
+  "Orang itu sekarang tidak ada di mejanya. Tunggu sebentar atau telepon lagi nanti.",
+  "c"
+ ],
+ "drあいにく": [
+  "Sayangnya",
+  "Artinya \"sayang sekali\". Setelah ini, akan disebutkan hal yang tidak bisa dilakukan.",
+  "c"
+ ],
+ "dr申し訳ございません": [
+  "Mohon maaf",
+  "Cara sopan untuk mengatakan \"maaf\".",
+  "c"
+ ],
+ "drお手数ですが": [
+  "Mohon maaf merepotkan",
+  "Artinya \"maaf merepotkan, tapi tolong\". Setelah ini, akan disebutkan hal yang perlu Anda lakukan.",
+  "c"
+ ],
+ "dr差し支えなければ": [
+  "Jika tidak keberatan",
+  "Artinya \"kalau tidak apa-apa\". Jika tidak mau, Anda tidak perlu menjawab.",
+  "c"
+ ],
+ "drご用件": [
+  "Keperluan",
+  "Alasan Anda menelepon atau datang. Sampaikan keperluan Anda dengan singkat.",
+  "c"
+ ],
+ "dr念のため": [
+  "Untuk memastikan",
+  "Artinya \"sekali lagi, supaya tidak ada kesalahan\".",
+  "c"
+ ],
+ "drよろしいでしょうか": [
+  "Apakah boleh?",
+  "Cara sopan untuk bertanya \"boleh?\". Jika boleh, jawab \"ya\".",
+  "c"
+ ],
+ "drお伺いします": [
+  "Saya akan bertanya / berkunjung",
+  "Cara sopan untuk mengatakan \"bertanya\" atau \"datang\".",
+  "c"
+ ],
+ "dr失礼いたします": [
+  "Permisi",
+  "Salam sopan. Diucapkan saat menutup telepon, masuk ruangan, dan lain-lain.",
+  "c"
+ ],
+ "drお越しください": [
+  "Silakan datang",
+  "Cara sopan untuk mengatakan \"datanglah\".",
+  "c"
+ ],
+ "drお持ちください": [
+  "Mohon bawa",
+  "Cara sopan untuk mengatakan \"tolong bawa\".",
+  "c"
+ ],
+ "drご記入ください": [
+  "Mohon diisi",
+  "Cara sopan untuk mengatakan \"tolong tulis di kertas\".",
+  "c"
+ ],
+ "drご本人様": [
+  "Yang bersangkutan",
+  "Orang itu sendiri. Bukan keluarga atau orang lain, tetapi orang itu sendiri yang datang atau berbicara.",
+  "c"
+ ],
+ "drフルネーム": [
+  "Nama lengkap",
+  "Nama keluarga dan nama depan secara lengkap.",
+  "c"
+ ],
+ "dr日中つながる": [
+  "Bisa dihubungi siang hari",
+  "Bisa menerima telepon pada siang hari. Sebutkan nomor telepon yang bisa diangkat siang hari.",
+  "c"
+ ],
+ "drご連絡先": [
+  "Kontak",
+  "Nomor telepon, alamat email, dan lainnya untuk menghubungi Anda.",
+  "c"
+ ],
+ "drお手元": [
+  "Di tangan Anda",
+  "Sesuatu yang sekarang ada di dekat Anda atau Anda pegang.",
+  "c"
+ ],
+ "dr控え": [
+  "Salinan arsip",
+  "Kertas yang isinya sama dengan dokumen yang diserahkan. Simpan sendiri.",
+  "c"
+ ],
+ "dr窓口": [
+  "Loket",
+  "Tempat di kantor pemerintah atau perusahaan untuk berkonsultasi atau mengurus prosedur.",
+  "c"
+ ],
+ "dr担当の者": [
+  "Petugas yang menangani",
+  "Orang yang bertugas mengurus hal itu. Orang itu yang akan berbicara dengan Anda.",
+  "c"
+ ],
+ "drお預かりします": [
+  "Saya terima dulu",
+  "Artinya \"saya terima untuk sementara\". Serahkan dokumen, uang, dan lainnya.",
+  "c"
+ ],
+ "dr写し": [
+  "Salinan",
+  "Fotokopi dari dokumen.",
+  "c"
+ ],
+ "dr原本": [
+  "Dokumen asli",
+  "Dokumen yang asli, bukan fotokopi.",
+  "c"
+ ],
+ "dr最短": [
+  "Paling cepat",
+  "Dalam kasus paling cepat atau paling singkat.",
+  "c"
+ ],
+ "dr空き": [
+  "Tempat kosong",
+  "Masih ada tempat atau slot yang tersedia untuk reservasi dan lainnya.",
+  "c"
+ ],
+ "drお申し込み": [
+  "Pendaftaran / permohonan",
+  "Meminta dan mengurus prosedur karena ingin memakai layanan dan sebagainya.",
+  "c"
+ ],
+ "drハラール": [
+  "Halal",
+  "Makanan yang boleh dimakan menurut aturan agama Islam.",
+  "c"
+ ],
+ "dr揚げ油": [
+  "Minyak goreng (deep fry)",
+  "Minyak banyak untuk menggoreng tempura dan lainnya. Banyak toko memakai minyak yang sama untuk masakan lain.",
+  "c"
+ ],
+ "dr染み抜き": [
+  "Penghilangan noda",
+  "Menghilangkan noda pada pakaian. Sering dikenakan biaya tambahan di luar tarif biasa.",
+  "c"
+ ],
+ "drデラックス": [
+  "Layanan deluxe",
+  "Layanan dengan penyelesaian lebih teliti dari biasa. Sering dikenakan biaya tambahan di luar tarif biasa.",
+  "c"
+ ],
+ "dr仕上がり": [
+  "Selesai (laundry)",
+  "Pakaian selesai dicuci di laundry. \"Tanggal selesai\" adalah hari pakaian bisa diambil.",
+  "c"
+ ],
+ "drワイシャツ": [
+  "Kemeja",
+  "Kemeja berkerah dan berkancing yang dipakai untuk bekerja dan lainnya.",
+  "c"
+ ],
+ "drハンガー仕上げ": [
+  "Selesai digantung",
+  "Pakaian yang sudah dicuci dikembalikan dalam keadaan digantung di hanger.",
+  "c"
+ ],
+ "drたたみ仕上げ": [
+  "Selesai dilipat",
+  "Pakaian yang sudah dicuci dikembalikan dalam keadaan dilipat.",
+  "c"
+ ],
+ "dr引換券": [
+  "Tiket pengambilan",
+  "Kertas yang ditunjukkan saat mengambil pakaian. Jangan sampai hilang.",
+  "c"
+ ],
+ "dr会員カード": [
+  "Kartu anggota",
+  "Kartu milik anggota toko. Kadang dipakai untuk poin atau diskon.",
+  "c"
+ ],
+ "dr海外送金": [
+  "Transfer uang ke luar negeri",
+  "Mengirim uang ke orang atau bank di luar negeri.",
+  "c"
+ ],
+ "dr外国送金依頼書": [
+  "Formulir permohonan transfer luar negeri",
+  "Formulir yang diserahkan ke bank saat mengirim uang ke luar negeri. Ditulis nama penerima, bank, dan lainnya.",
+  "c"
+ ],
+ "drSWIFTコード": [
+  "Kode SWIFT",
+  "Kode tiap bank untuk mengirim uang ke luar negeri. Sebaiknya tanyakan dulu kepada keluarga.",
+  "c"
+ ],
+ "drマイナンバー": [
+  "My Number (nomor identitas pribadi)",
+  "Nomor milik setiap orang yang tinggal di Jepang. Dipakai untuk urusan pajak dan lainnya.",
+  "c"
+ ],
+ "dr中継銀行": [
+  "Bank perantara",
+  "Bank yang berada di tengah saat mengirim uang ke luar negeri. Kadang ada biaya.",
+  "c"
+ ],
+ "dr受取人": [
+  "Penerima",
+  "Orang yang menerima uang atau barang.",
+  "c"
+ ],
+ "dr特急": [
+  "Kereta ekspres terbatas (tokkyu)",
+  "Kereta yang sangat cepat dan tidak berhenti di beberapa stasiun. Biasanya perlu tiket ekspres selain tiket naik.",
+  "c"
+ ],
+ "dr快速": [
+  "Kereta rapid (kaisoku)",
+  "Kereta yang lebih cepat dari kereta biasa. Tidak berhenti di beberapa stasiun.",
+  "c"
+ ],
+ "dr乗車券": [
+  "Tiket naik",
+  "Tiket untuk naik kereta.",
+  "c"
+ ],
+ "dr特急券": [
+  "Tiket ekspres terbatas",
+  "Tiket yang dibeli selain tiket naik untuk naik kereta tokkyu.",
+  "c"
+ ],
+ "dr指定席": [
+  "Kursi reservasi",
+  "Kursi yang sudah ditentukan. Nomor kursi tertulis di tiket.",
+  "c"
+ ],
+ "dr自由席": [
+  "Kursi bebas (non-reservasi)",
+  "Kursi tanpa nomor tetap. Boleh duduk di kursi yang kosong.",
+  "c"
+ ],
+ "dr乗り換え": [
+  "Pindah kereta / ganti operator",
+  "Pindah ke kereta lain di tengah perjalanan. Untuk ponsel, juga berarti pindah ke perusahaan lain.",
+  "c"
+ ],
+ "dr振替輸送": [
+  "Transportasi pengganti",
+  "Saat kereta berhenti, boleh naik kereta atau bus lain sebagai gantinya.",
+  "c"
+ ],
+ "drフロント": [
+  "Resepsionis (front desk)",
+  "Meja penerimaan tamu di hotel.",
+  "c"
+ ],
+ "dr手配": [
+  "Pengaturan / pemesanan",
+  "Menyiapkan hal yang diperlukan. Memesan taksi berarti memanggil taksi.",
+  "c"
+ ],
+ "dr正面玄関": [
+  "Pintu masuk utama",
+  "Pintu masuk terbesar di bagian depan gedung.",
+  "c"
+ ],
+ "dr迎車": [
+  "Taksi jemputan",
+  "Taksi datang menjemput ke tempat penumpang. Kadang dikenakan biaya jemput.",
+  "c"
+ ],
+ "drワゴン": [
+  "Mobil van",
+  "Mobil besar yang muat banyak orang atau barang.",
+  "c"
+ ],
+ "drクレジットカード": [
+  "Kartu kredit",
+  "Kartu untuk membayar belakangan sekaligus. Bisa atau tidaknya dipakai tergantung tempat.",
+  "c"
+ ],
+ "dr運転免許更新センター": [
+  "Pusat perpanjangan SIM",
+  "Tempat mengurus perpanjangan SIM.",
+  "c"
+ ],
+ "dr更新のお知らせ": [
+  "Pemberitahuan perpanjangan",
+  "Kartu pos pemberitahuan bahwa masa berlaku SIM hampir habis. Setelah diterima, perpanjang dalam periode yang ditentukan.",
+  "c"
+ ],
+ "dr有効期限": [
+  "Masa berlaku",
+  "Hari terakhir boleh dipakai. Setelah lewat, tidak bisa dipakai lagi.",
+  "c"
+ ],
+ "dr講習区分": [
+  "Jenis kursus",
+  "Jenis kursus yang diikuti saat perpanjangan SIM. Waktu dan biaya berbeda tiap jenis.",
+  "c"
+ ],
+ "dr優良運転者講習": [
+  "Kursus pengemudi teladan",
+  "Kursus untuk pengemudi aman tanpa kecelakaan atau pelanggaran lalu lintas.",
+  "c"
+ ],
+ "dr一般講習": [
+  "Kursus umum",
+  "Kursus biasa saat perpanjangan SIM. Diikuti oleh orang yang bukan pengemudi teladan dan lainnya.",
+  "c"
+ ],
+ "dr適性検査": [
+  "Tes kelayakan",
+  "Tes apakah boleh mengemudi, misalnya penglihatan. Bawa kacamata jika memakainya.",
+  "c"
+ ],
+ "dr住民票の写し": [
+  "Salinan surat keterangan domisili (juminhyo)",
+  "Dokumen berisi alamat, nama, dan lainnya. Bisa didapat di kantor pemerintah kota tempat tinggal.",
+  "c"
+ ],
+ "drAT限定": [
+  "SIM khusus mobil matic",
+  "SIM yang hanya untuk mobil otomatis. Tidak boleh mengemudi mobil manual.",
+  "c"
+ ],
+ "drマニュアル": [
+  "Mobil manual",
+  "Mobil yang giginya dipindah sendiri. Untuk mengemudikannya, perlu SIM yang bukan khusus matic.",
+  "c"
+ ],
+ "dr普通車": [
+  "Mobil biasa",
+  "Mobil berukuran biasa. Bisa dikemudikan dengan SIM biasa.",
+  "c"
+ ],
+ "dr教習": [
+  "Latihan mengemudi",
+  "Belajar mengemudi mobil di sekolah mengemudi.",
+  "c"
+ ],
+ "dr短期プラン": [
+  "Paket kilat",
+  "Kursus untuk belajar berturut-turut dan lulus dalam waktu singkat.",
+  "c"
+ ],
+ "dr送迎バス": [
+  "Bus antar-jemput",
+  "Bus yang mengantar dan menjemput orang antara stasiun dan sekolah mengemudi.",
+  "c"
+ ],
+ "dr技能検定": [
+  "Ujian keterampilan",
+  "Ujian di sekolah mengemudi untuk melihat apakah bisa mengemudi dengan benar.",
+  "c"
+ ],
+ "dr任意保険": [
+  "Asuransi mobil sukarela",
+  "Asuransi mobil yang perusahaan dan isinya dipilih sendiri. Menutup kekurangan asuransi wajib (jibaiseki).",
+  "c"
+ ],
+ "dr型式": [
+  "Tipe kendaraan",
+  "Kode atau nomor jenis mobil. Tertulis di sertifikat pemeriksaan kendaraan.",
+  "c"
+ ],
+ "dr登録番号": [
+  "Nomor registrasi",
+  "Nomor yang tertulis di pelat nomor mobil.",
+  "c"
+ ],
+ "dr納車": [
+  "Penyerahan mobil",
+  "Menerima mobil yang dibeli dari toko.",
+  "c"
+ ],
+ "dr妊婦健診": [
+  "Pemeriksaan kehamilan",
+  "Pemeriksaan di rumah sakit untuk ibu hamil. Memeriksa tubuh ibu dan bayi.",
+  "c"
+ ],
+ "dr受診票": [
+  "Kupon pemeriksaan",
+  "Kertas yang diserahkan ke rumah sakit saat pemeriksaan. Didapat dari kota. Kota membayar sebagian biayanya.",
+  "c"
+ ],
+ "dr補助券": [
+  "Kupon subsidi",
+  "Kertas yang membuat kota membayar sebagian biaya. Untuk pemeriksaan, artinya kupon pemeriksaan.",
+  "c"
+ ],
+ "dr妊娠週数": [
+  "Usia kehamilan (minggu)",
+  "Minggu keberapa kehamilan. Dihitung dari hari pertama haid terakhir.",
+  "c"
+ ],
+ "dr在留資格取得": [
+  "Perolehan status tinggal",
+  "Mendapat status tinggal baru di Jepang. Anak berkewarganegaraan asing yang lahir di Jepang harus diajukan ke imigrasi.",
+  "c"
+ ],
+ "dr出生届受理証明書": [
+  "Surat keterangan penerimaan akta kelahiran",
+  "Surat bukti kantor pemerintah telah menerima laporan kelahiran bayi. Didapat di kantor pemerintah.",
+  "c"
+ ],
+ "dr大使館": [
+  "Kedutaan besar",
+  "Kantor pemerintah negara Anda di Jepang. Mengurus paspor dan lainnya.",
+  "c"
+ ],
+ "dr乳幼児健診": [
+  "Pemeriksaan kesehatan bayi dan balita",
+  "Pemeriksaan tubuh dan pertumbuhan bayi atau anak kecil.",
+  "c"
+ ],
+ "dr月齢": [
+  "Usia bulan (bayi)",
+  "Berapa bulan sejak bayi lahir.",
+  "c"
+ ],
+ "dr医療証": [
+  "Kartu subsidi medis anak",
+  "Kartu bukti bantuan biaya berobat anak dari kota. Tunjukkan di resepsionis rumah sakit.",
+  "c"
+ ],
+ "dr自費": [
+  "Biaya sendiri",
+  "Membayar seluruh biaya sendiri tanpa asuransi atau bantuan kota.",
+  "c"
+ ],
+ "dr保育課": [
+  "Bagian penitipan anak",
+  "Bagian di kantor kota yang mengurus pendaftaran tempat penitipan anak dan lainnya.",
+  "c"
+ ],
+ "dr入園申請": [
+  "Pendaftaran masuk penitipan anak",
+  "Pendaftaran untuk masuk tempat penitipan anak. Biasanya diserahkan ke loket kota.",
+  "c"
+ ],
+ "dr申込書": [
+  "Formulir pendaftaran",
+  "Kertas yang diisi dan diserahkan saat mendaftar sesuatu.",
+  "c"
+ ],
+ "dr就労証明書": [
+  "Surat keterangan kerja",
+  "Dokumen bukti Anda bekerja. Diisi oleh perusahaan tempat Anda bekerja.",
+  "c"
+ ],
+ "dr締め切り": [
+  "Batas waktu",
+  "Hari terakhir menyerahkan dokumen. Serahkan paling lambat hari itu.",
+  "c"
+ ],
+ "dr一次募集": [
+  "Pendaftaran gelombang pertama",
+  "Penerimaan pendaftaran yang pertama. Kadang ada pendaftaran lagi (gelombang kedua).",
+  "c"
+ ],
+ "dr途中入園": [
+  "Masuk penitipan di tengah tahun",
+  "Masuk tempat penitipan anak di tengah tahun, bukan bulan April.",
+  "c"
+ ],
+ "dr学務課": [
+  "Bagian urusan sekolah",
+  "Bagian di dewan pendidikan yang mengurus pendaftaran sekolah anak dan lainnya.",
+  "c"
+ ],
+ "dr日本語学級": [
+  "Kelas bahasa Jepang",
+  "Kelas di sekolah untuk belajar bahasa Jepang. Sebagian pelajaran diikuti di sini. Disebut juga kelas internasional.",
+  "c"
+ ],
+ "dr日本語支援": [
+  "Dukungan bahasa Jepang",
+  "Bantuan di sekolah untuk anak yang belum paham bahasa Jepang.",
+  "c"
+ ],
+ "dr支援員": [
+  "Staf pendamping",
+  "Orang yang datang ke sekolah untuk membantu belajar anak dan lainnya.",
+  "c"
+ ],
+ "dr就学時健康診断": [
+  "Pemeriksaan kesehatan sebelum masuk SD",
+  "Pemeriksaan tubuh untuk anak yang akan masuk SD tahun depan. Biasanya di SD yang akan dimasuki.",
+  "c"
+ ],
+ "dr上履き": [
+  "Sepatu dalam ruangan",
+  "Sepatu yang dipakai di dalam gedung seperti sekolah.",
+  "c"
+ ],
+ "dr養護教諭": [
+  "Guru UKS",
+  "Guru di ruang kesehatan sekolah. Menangani luka, sakit, dan kesehatan anak.",
+  "c"
+ ],
+ "dr就学相談": [
+  "Konsultasi pendidikan",
+  "Berdiskusi dengan dewan pendidikan kota tentang sekolah atau kelas yang cocok untuk anak. Pendapat orang tua juga didengar.",
+  "c"
+ ],
+ "dr聴力": [
+  "Pendengaran",
+  "Kemampuan mendengar suara. Pada pemeriksaan, dicek apakah suara terdengar jelas.",
+  "c"
+ ],
+ "dr給食費": [
+  "Biaya makan siang sekolah",
+  "Uang yang dibayar orang tua untuk makan siang anak di sekolah.",
+  "c"
+ ],
+ "dr引き落とし": [
+  "Debit otomatis",
+  "Uang dibayar otomatis dari rekening bank. Pastikan ada saldo di rekening.",
+  "c"
+ ],
+ "dr届け出印": [
+  "Stempel terdaftar (stempel bank)",
+  "Stempel yang didaftarkan ke bank saat membuka rekening. Disebut juga \"stempel bank\".",
+  "c"
+ ],
+ "dr進路相談": [
+  "Konsultasi jenjang lanjutan",
+  "Berbicara dengan guru tentang masa depan, misalnya SMA mana setelah lulus SMP.",
+  "c"
+ ],
+ "dr三者面談": [
+  "Pertemuan tiga pihak (guru, orang tua, dan murid)",
+  "Pembicaraan antara wali kelas, orang tua, dan anak. Di kelas 3 SMP, dibahas rencana setelah lulus.",
+  "c"
+ ],
+ "dr担任": [
+  "Wali kelas",
+  "Guru yang bertanggung jawab atas suatu kelas.",
+  "c"
+ ],
+ "dr通訳": [
+  "Penerjemah lisan / juru bahasa",
+  "Menerjemahkan dan menyampaikan ucapan antara orang yang berbicara bahasa berbeda. Juga berarti orang yang melakukan pekerjaan itu.",
+  "c"
+ ],
+ "dr高校進学": [
+  "Melanjutkan ke SMA",
+  "Lulus SMP lalu masuk SMA. Biasanya ada ujian masuk SMA.",
+  "c"
+ ],
+ "dr放課後": [
+  "Sepulang sekolah",
+  "Waktu setelah semua pelajaran di sekolah selesai.",
+  "c"
+ ],
+ "dr折り返し": [
+  "Telepon balik",
+  "Pihak lain akan menelepon Anda lagi nanti. Tutup telepon dan tunggu.",
+  "c"
+ ],
+ "dr特別支援学級": [
+  "Kelas pendidikan khusus",
+  "Kelas di dalam SD atau SMP untuk anak yang butuh bantuan khusus karena kondisi fisik, mental, belajar, dan lainnya.",
+  "c"
+ ],
+ "dr特別支援学校": [
+  "Sekolah pendidikan khusus (SLB)",
+  "Sekolah untuk anak yang butuh bantuan khusus karena kondisi fisik, mental, belajar, dan lainnya.",
+  "c"
+ ],
+ "dr通級による指導": [
+  "Bimbingan khusus paruh waktu (tsūkyū)",
+  "Belajar di kelas biasa, tetapi menerima bimbingan khusus secara terpisah pada sebagian waktu.",
+  "c"
+ ],
+ "dr特別支援教育コーディネーター": [
+  "Koordinator pendidikan khusus",
+  "Guru di sekolah yang menerima konsultasi tentang anak yang butuh bantuan khusus dan menghubungkan guru dengan orang tua.",
+  "c"
+ ],
+ "dr求職申込み": [
+  "Pendaftaran pencari kerja",
+  "Mendaftar di Hello Work (kantor penempatan kerja umum) untuk mencari pekerjaan. Biasanya ini langkah pertama.",
+  "c"
+ ],
+ "dr求人票": [
+  "Lembar lowongan kerja",
+  "Kertas dari perusahaan yang mencari pekerja, berisi isi pekerjaan, jam kerja, gaji, dan lainnya.",
+  "c"
+ ],
+ "dr紹介状": [
+  "Surat pengantar (rujukan)",
+  "Kertas dari loket yang memperkenalkan Anda ke perusahaan. Ada pekerjaan yang hanya bisa dilamar setelah menerima surat ini.",
+  "c"
+ ],
+ "dr就職説明会": [
+  "Sesi informasi rekrutmen",
+  "Pertemuan di mana perusahaan menjelaskan isi pekerjaan dan lainnya kepada pencari kerja.",
+  "c"
+ ],
+ "dr履歴書": [
+  "Daftar riwayat hidup (CV)",
+  "Kertas berisi nama, alamat, riwayat sekolah dan pengalaman kerja. Diserahkan saat melamar pekerjaan.",
+  "c"
+ ],
+ "dr職業相談": [
+  "Konsultasi pekerjaan",
+  "Berkonsultasi dengan petugas loket tentang mencari kerja. Gratis.",
+  "c"
+ ],
+ "drパート": [
+  "Kerja paruh waktu (part-time)",
+  "Bekerja dengan jam lebih pendek dari karyawan tetap. Biasanya dibayar per jam.",
+  "c"
+ ],
+ "drアルバイト": [
+  "Kerja sambilan (arubaito)",
+  "Bekerja dalam jam atau jangka waktu pendek. Biasanya dibayar per jam.",
+  "c"
+ ],
+ "dr派遣": [
+  "Pekerja alih daya (outsourcing)",
+  "Cara kerja dengan kontrak dengan agen penyalur tenaga kerja, lalu bekerja di perusahaan lain.",
+  "c"
+ ],
+ "dr求人": [
+  "Lowongan kerja",
+  "Perusahaan atau lainnya mencari pekerja.",
+  "c"
+ ],
+ "dr時給": [
+  "Upah per jam",
+  "Uang yang diterima untuk 1 jam kerja.",
+  "c"
+ ],
+ "dr営業部": [
+  "Departemen penjualan",
+  "Bagian di perusahaan yang bertugas menjual produk atau layanan.",
+  "c"
+ ],
+ "dr人身事故": [
+  "Kecelakaan yang melibatkan orang",
+  "Kecelakaan saat orang tertabrak kereta dan terluka atau meninggal. Kereta bisa berhenti atau terlambat.",
+  "c"
+ ],
+ "dr運転見合わせ": [
+  "Operasi dihentikan sementara",
+  "Kereta atau bus berhenti dan tidak beroperasi untuk sementara.",
+  "c"
+ ],
+ "dr遅延証明書": [
+  "Surat keterangan keterlambatan",
+  "Kertas yang menyatakan kereta terlambat. Biasanya bisa didapat di stasiun atau situs web perusahaan kereta.",
+  "c"
+ ],
+ "dr出社": [
+  "Masuk kantor",
+  "Pergi ke kantor untuk bekerja.",
+  "c"
+ ],
+ "dr総務部": [
+  "Departemen urusan umum",
+  "Bagian di perusahaan yang mengurus pekerjaan umum seperti dokumen, gedung, dan karyawan.",
+  "c"
+ ],
+ "dr内線": [
+  "Telepon internal (ekstensi)",
+  "Telepon yang hanya dipakai di dalam perusahaan atau gedung yang sama.",
+  "c"
+ ],
+ "dr席を外しています": [
+  "Sedang tidak di tempat",
+  "Orang itu sedang tidak berada di dekat mejanya untuk sementara.",
+  "c"
+ ],
+ "dr会議中": [
+  "Sedang rapat",
+  "Sedang rapat sehingga tidak bisa menerima telepon.",
+  "c"
+ ],
+ "dr戻る": [
+  "Kembali",
+  "Datang kembali ke tempat semula.",
+  "c"
+ ],
+ "drかけ直す": [
+  "Menelepon ulang",
+  "Menutup telepon dulu, lalu menelepon lagi nanti.",
+  "c"
+ ],
+ "drお疲れさまです": [
+  "Otsukaresama desu (salam antarrekan kerja)",
+  "Salam antarrekan di perusahaan. Di telepon internal, biasanya diikuti dengan menyebut nama.",
+  "c"
+ ],
+ "dr納品": [
+  "Pengiriman barang pesanan",
+  "Mengantarkan barang yang dipesan kepada pihak pemesan.",
+  "c"
+ ],
+ "dr注文書": [
+  "Formulir pesanan (purchase order)",
+  "Kertas berisi barang apa dan berapa banyak yang ingin dibeli.",
+  "c"
+ ],
+ "dr出荷": [
+  "Pengiriman (dari gudang)",
+  "Mengeluarkan barang dari perusahaan atau gudang untuk dikirim ke pelanggan.",
+  "c"
+ ],
+ "dr数量": [
+  "Jumlah",
+  "Banyaknya atau jumlah suatu barang.",
+  "c"
+ ],
+ "dr先方": [
+  "Pihak lain (mitra)",
+  "Orang atau perusahaan pihak lawan bicara.",
+  "c"
+ ],
+ "dr経緯": [
+  "Kronologi",
+  "Alur bagaimana sesuatu terjadi dan bagaimana hasilnya.",
+  "c"
+ ],
+ "dr光回線": [
+  "Jaringan fiber optik",
+  "Jalur cepat untuk internet di rumah. Biasanya perlu pemasangan.",
+  "c"
+ ],
+ "drプロバイダー": [
+  "Penyedia layanan internet (ISP)",
+  "Perusahaan yang menyediakan layanan koneksi internet. Kadang kontraknya terpisah dari perusahaan jaringan.",
+  "c"
+ ],
+ "dr開通工事": [
+  "Pemasangan jaringan",
+  "Pekerjaan menyambungkan kabel di rumah agar internet bisa dipakai. Biasanya Anda harus ada di rumah.",
+  "c"
+ ],
+ "dr解約金": [
+  "Biaya pemutusan kontrak",
+  "Uang yang dibayar jika berhenti kontrak sebelum masa yang disepakati berakhir.",
+  "c"
+ ],
+ "drホームルーター": [
+  "Router rumah",
+  "Alat yang cukup dicolokkan ke stopkontak untuk memakai internet.",
+  "c"
+ ],
+ "drプラン": [
+  "Paket",
+  "Kombinasi tarif dan layanan yang bisa dipakai.",
+  "c"
+ ],
+ "drデータ容量": [
+  "Kuota data",
+  "Batas pemakaian internet di ponsel dalam 1 bulan.",
+  "c"
+ ],
+ "drかけ放題": [
+  "Telepon sepuasnya",
+  "Layanan dengan biaya tetap; tarif tidak berubah walau banyak menelepon.",
+  "c"
+ ],
+ "drオプション": [
+  "Layanan tambahan (opsi)",
+  "Layanan lain yang bisa ditambahkan ke paket. Setelah masa gratis habis, biasanya berbayar.",
+  "c"
+ ],
+ "dr補償サービス": [
+  "Layanan perlindungan perangkat",
+  "Layanan yang membantu jika ponsel rusak atau hilang.",
+  "c"
+ ],
+ "dr本人確認書類": [
+  "Dokumen identitas diri",
+  "Kartu atau dokumen untuk menunjukkan siapa Anda. Orang asing biasanya menunjukkan Kartu Izin Tinggal (zairyū card).",
+  "c"
+ ],
+ "dr担当": [
+  "Penanggung jawab",
+  "Orang yang menangani pekerjaan tersebut.",
+  "c"
+ ],
+ "dr伝言": [
+  "Pesan",
+  "Meminta orang lain menyampaikan sesuatu kepada orang yang tidak ada. Sebutkan nama, nomor telepon, dan keperluan secara singkat.",
+  "c"
+ ],
+ "dr承ります": [
+  "Akan kami terima/dengarkan",
+  "Cara sopan untuk \"mendengar\" atau \"menerima\". Silakan sampaikan keperluan Anda.",
+  "c"
+ ],
+ "dr外出": [
+  "Sedang keluar kantor",
+  "Sedang keluar untuk urusan pekerjaan dan tidak ada saat ini.",
+  "c"
+ ],
+ "dr席を外して": [
+  "Sedang tidak di tempat",
+  "Orang itu sedang tidak ada di dekat untuk sementara. Titipkan pesan atau telepon lagi nanti.",
+  "c"
+ ],
+ "dr復唱": [
+  "Mengulang untuk konfirmasi",
+  "Mengulang apa yang didengar untuk memastikan. Dengarkan baik-baik apakah ada yang salah.",
+  "c"
+ ],
+ "dr少々お待ちください": [
+  "Mohon tunggu sebentar",
+  "Artinya \"tunggu sebentar\". Jangan tutup telepon, tunggu.",
+  "c"
+ ],
+ "drお待たせいたしました": [
+  "Maaf telah menunggu",
+  "Artinya \"maaf membuat Anda menunggu\". Pembicaraan akan dilanjutkan.",
+  "c"
+ ],
+ "dr恐れ入りますが": [
+  "Mohon maaf, tetapi...",
+  "Artinya \"maaf, tetapi\". Setelah ini ada permintaan atau pertanyaan.",
+  "c"
+ ],
+ "drかしこまりました": [
+  "Baik, saya mengerti",
+  "Cara sopan untuk mengatakan \"mengerti\".",
+  "c"
+ ],
+ "dr承知いたしました": [
+  "Baik, saya mengerti",
+  "Cara sopan untuk mengatakan \"mengerti\".",
+  "c"
+ ],
+ "drお掛け直しください": [
+  "Silakan telepon kembali",
+  "Artinya \"silakan menelepon lagi\". Tutup telepon dan telepon lagi nanti.",
+  "c"
+ ],
+ "dr在学証明書": [
+  "Surat keterangan masih bersekolah",
+  "Kertas dari sekolah yang menyatakan bahwa anak adalah murid sekolah itu.",
+  "c"
+ ],
+ "dr転入学通知書": [
+  "Surat pemberitahuan pindah sekolah",
+  "Kertas pemberitahuan masuk sekolah baru. Didapat di kantor pemerintah (Dewan Pendidikan), lalu diserahkan ke sekolah baru.",
+  "c"
+ ],
+ "dr総合案内": [
+  "Meja informasi umum",
+  "Meja resepsionis dekat pintu masuk kantor pemerintah. Petugas memberi tahu loket mana yang harus dituju.",
+  "c"
+ ],
+ "dr転入": [
+  "Pindah masuk (lapor kedatangan)",
+  "Pindah dari kota lain. Harus melapor ke kantor pemerintah dalam batas waktu yang ditentukan.",
+  "c"
+ ],
+ "dr保険年金課": [
+  "Bagian Asuransi dan Pensiun",
+  "Bagian di kantor pemerintah yang mengurus Asuransi Kesehatan Nasional dan Pensiun Nasional. Nama bagian berbeda tiap daerah.",
+  "c"
+ ],
+ "dr番号札": [
+  "Kertas nomor antrean",
+  "Kertas bertuliskan nomor. Ambil di loket dan tunggu sampai nomor Anda dipanggil.",
+  "c"
+ ],
+ "dr納付書": [
+  "Slip pembayaran",
+  "Kertas untuk membayar pajak atau iuran asuransi. Bisa dibayar di bank, loket kantor pemerintah, minimarket, dan lainnya.",
+  "c"
+ ],
+ "dr普通徴収": [
+  "Pembayaran pajak secara mandiri",
+  "Cara membayar pajak penduduk sendiri dengan slip pembayaran, tidak dipotong dari gaji.",
+  "c"
+ ],
+ "dr届出印": [
+  "Stempel terdaftar (bank)",
+  "Stempel (hanko) yang didaftarkan saat membuka rekening bank.",
+  "c"
+ ],
+ "dr税務課": [
+  "Bagian Perpajakan",
+  "Bagian di kantor pemerintah yang mengurus pajak.",
+  "c"
+ ],
+ "dr柴犬": [
+  "Shiba Inu",
+  "Salah satu jenis anjing Jepang.",
+  "c"
+ ],
+ "dr環境衛生課": [
+  "Bagian Kesehatan Lingkungan",
+  "Salah satu bagian di kantor pemerintah. Mengurus pendaftaran anjing dan lainnya.",
+  "c"
+ ],
+ "dr犬の登録": [
+  "Pendaftaran anjing",
+  "Melapor ke kota saat mulai memelihara anjing. Diwajibkan oleh hukum, biasanya sekali seumur hidup anjing.",
+  "c"
+ ],
+ "dr狂犬病": [
+  "Rabies",
+  "Penyakit sangat berbahaya yang menular dari anjing dan hewan lain. Anjing divaksin setiap tahun.",
+  "c"
+ ],
+ "dr予防注射": [
+  "Vaksinasi",
+  "Suntikan untuk mencegah penyakit. Anjing menerima vaksin rabies setiap tahun.",
+  "c"
+ ],
+ "dr注射済証": [
+  "Tanda bukti vaksinasi rabies",
+  "Tanda bahwa anjing sudah divaksin rabies. Dipasang pada anjing.",
+  "c"
+ ],
+ "dr鑑札": [
+  "Plakat pendaftaran anjing",
+  "Plakat yang diterima saat mendaftarkan anjing. Dipasang pada anjing.",
+  "c"
+ ],
+ "dr資格喪失証明書": [
+  "Surat keterangan berhenti kepesertaan asuransi",
+  "Dokumen yang menunjukkan tanggal berhentinya asuransi kesehatan dari perusahaan sebelumnya.",
+  "c"
+ ]
+}

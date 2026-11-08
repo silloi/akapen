@@ -68,6 +68,28 @@ export const JA = {
   "major.8": "社会の一員となる",
   "major.9": "自身を豊かにする",
   "major.10": "情報を収集・発信する",
+  // 用語集（ことば）。公的な用語集と、Claude の下書き
+  "glossary.word": "ことば",
+  "glossary.tapHint": "下線のことばをタップすると、意味が出ます",
+  "glossary.source": "出典",
+  "glossary.draft": "Claude の下書き（日本語教師がまだ確かめていない）",
+  "glossary.trByClaude": "訳: Claude",
+  "glossary.draftShort": "下書き",
+  "glossary.official": "公的な用語集",
+  "glossary.legend":
+    "「公的な用語集」は国の用語集の説明です。「下書き」は Claude が書いた説明で、日本語教師はまだ確かめていません。",
+  "review.words": "この会話に出てきたことば",
+  "review.wordsHint": "電話や窓口でよく聞くことばの意味です",
+  "kanpe.words": "ことば",
+  "kanpe.wordsHint": "カンペに出てくることばの意味",
+  "kanpe.jump.words": "ことば",
+  // 場面に関係する公的な情報（カンペの画面の下）
+  "info.title": "この場面に関係する公的な情報",
+  "info.note":
+    "国などの公的なページです（Claude が書いたものではありません）。手続きのくわしいことは、住んでいるまちの役所などで確かめてください。",
+  "info.chapters": "関係する章",
+  "info.langs": "{n}のことば",
+  "info.hasLang": "{lang}あり",
   // トップの動画（実際の画面を順に見せる）
   "hero.langs": "11のことば",
   "hero.alt":

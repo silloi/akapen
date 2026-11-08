@@ -6,7 +6,12 @@ import { defineConfig, lazyPlugins } from "vite-plus";
 export default defineConfig({
   fmt: {
     // public/fonts/ は配布物をそのまま置く（Furifont。整形すると元と食い違い、重くなる）
-    ignorePatterns: ["worker-configuration.d.ts", "data/*.json", "docs/mock/**", "public/fonts/**"],
+    ignorePatterns: [
+      "worker-configuration.d.ts",
+      "data/**/*.json",
+      "docs/mock/**",
+      "public/fonts/**",
+    ],
   },
   lint: {
     ignorePatterns: ["dist/**", "worker-configuration.d.ts"],

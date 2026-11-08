@@ -13,6 +13,7 @@ const JUMPS = [
   { id: "k-help", label: "kanpe.jump.help" },
   { id: "k-memo", label: "kanpe.jump.memo" },
   { id: "k-know", label: "kanpe.jump.know" },
+  { id: "k-words", label: "kanpe.jump.words" },
 ] as const;
 function jump(id: string) {
   const el = document.getElementById(id);

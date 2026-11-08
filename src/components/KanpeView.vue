@@ -8,6 +8,7 @@ import { SAMPLE_KANPE } from "../lib/sample.ts";
 import { defaultKanpeLang, t } from "../lib/i18n.ts";
 import { shareKanpe } from "../lib/share.ts";
 import KanpeSheet from "./KanpeSheet.vue";
+import PublicInfo from "./PublicInfo.vue";
 
 const props = defineProps<{
   scene: SceneWithCando;
@@ -133,6 +134,9 @@ async function copy() {
       </div>
     </div>
   </div>
+
+  <!-- 場面に関係する公的な情報。カンペを作っている間も出し、作り終えるとカンペの下に残る -->
+  <PublicInfo :scene-id="scene.id" />
 
   <div class="foot no-print">
     <button class="btn ghost" type="button" @click="emit('back')">{{ t("kanpe.back") }}</button>
