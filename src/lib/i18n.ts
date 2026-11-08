@@ -74,6 +74,7 @@ export const JA = {
   "glossary.source": "出典",
   "glossary.draft": "Claude の下書き（日本語教師がまだ確かめていない）",
   "glossary.trByClaude": "訳: Claude",
+  "glossary.trByMhlw": "訳: 厚生労働省の用語集",
   "glossary.draftShort": "下書き",
   "glossary.official": "公的な用語集",
   "glossary.legend":

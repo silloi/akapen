@@ -269,6 +269,26 @@
   "pajak bahwa pekerja membayar ke negara.Perusahaan membayar menggantikan pekerja dengan sistem .",
   "o"
  ],
+ "pj72": [
+  "pajak penduduk",
+  "pajak untuk membayar ke daerah atau kota tempat Anda tinggal",
+  "o"
+ ],
+ "pj28": [
+  "asuransi kesehatan",
+  "asuransi medis bahwa karyawan mendaftar untuk cedera atau sakit",
+  "o"
+ ],
+ "pj35": [
+  "asuransi kesejahteraan",
+  "asuransi untuk menerima uang saat pensiun dan asuransi ini bisa didaftar pekerja yang berusia sampai 69 tahun yang telah bekerja lebih dari kurun waktu tertentu",
+  "o"
+ ],
+ "pj41": [
+  "asuransi pengangguran",
+  "asuransi untuk orang yang menganggur",
+  "o"
+ ],
  "mh59": [
   "iuran asuransi",
   "membayar iuran asuransi",
@@ -359,6 +379,16 @@
   "cara menghitung atau membayar gaji yang dibayar perusahaan kepara karyawan",
   "o"
  ],
+ "pj78": [
+  "pajak konsumsi",
+  "pajak pada barang atau jasa",
+  "o"
+ ],
+ "pj79": [
+  "pajak penghasilan",
+  "pajak yang dibayar orang yang mendapat uang hasil pekerjaan ke negara",
+  "o"
+ ],
  "mh79": [
   "penghasilan <penghasilan gaji>",
   "mengurangi sejumlah uang yang diperlukan untuk kerja dari sejumlah uang <penghasilan> yang didapat kurun waktu satu tahun . Hasli penghitungan ini disebutkan \"pengurangan penghasilan kerja\"",
@@ -394,9 +424,29 @@
   "sistem mengurangi sejumlah uang tertentu dari <penghasilan>yaitu sudah dikurangi sejumlah uang yang diperlukan untuk menanggung bagi orang yang membayar pajak dan menanggung keluarganya untuk mengurangi sejumlah pajak",
   "o"
  ],
+ "pj29": [
+  "pemotongan pajak pada sumbernya",
+  "sistem bahwa perusahaan membayar pajak ke negara menggantikan karyawan, yaitu saat perusahaan membayar gaji sesudah memotong pajak <pajak penghasilan>",
+  "o"
+ ],
  "mh87": [
   "surat pemotongan pajak pada sumbernya",
   "surat yang tercantum mengenai gaji yang dibayar perusahaan dan pajak yang dibayar ke negara oleh pekerja kurun waktu setahun,yaitu dari tanggal 1 Januari sampai 31 Desember untuk setiap pekerja",
+  "o"
+ ],
+ "pj99": [
+  "sistem perpajakan khusus",
+  "sistem yang perusahaan membayar pajak ke kota menggantikan karyawan, yaitu saat perusahaan membayar gaji ,sudah dipotong pajak <pajak penduduk>",
+  "o"
+ ],
+ "pj109": [
+  "penyesuaian pajak akhir tahun",
+  "penyesuaian pajak akhir tahun adalah laporan ke negara mengenai sejumlah pajak penghasilan yang dihitungkan perusahaan menggantikan karyawan pada bulan Desember. Jika ada pengambilan kelebihan perusahaan mengembalikan ke karyawan dan jika ada kekurangan karyawan membayar ke perusahaan",
+  "o"
+ ],
+ "pj16": [
+  "pelaporan pajak penghasilan ke kantor pajak",
+  "pelaporan ke negara mengenai sejumah pajak <pajiak penghasilan> yang dihitungkan dengan sejumlah uang yang pekerja dapat dari tanggal 1 Januari sampai tanggal 31 Desember dan kondisi dan masa menanggung keluarganya <keluarganya yang ditanggung >",
   "o"
  ],
  "mh91": [
@@ -412,6 +462,11 @@
  "mh93": [
   "surat keterangan pembayaran pajak",
   "surat yang diterbitkan kantor pemerintah untuk membuktikan pajak yang telah dibayar seseorang",
+  "o"
+ ],
+ "pj38": [
+  "asuransi kesehatan nasional",
+  "asuransi untuk kesehatan yang didaftar orang yang tidak mendaftar asuransi kesehatan swasta",
   "o"
  ],
  "mh95": [
@@ -439,6 +494,11 @@
   "membantu orang yang menyandang disabilitas untuk bisa hidup dengan sehat dengan dana dari pajak",
   "o"
  ],
+ "pj14": [
+  "asuransi keperawatan",
+  "asuransi swasta yang didaftar pekerja untuk mempersiapkan saat perlu keperawatan",
+  "o"
+ ],
  "mh101": [
   "asuransi pensiun nasional",
   "asuransi yang didaftar semua orang berusia 20 sampai 59 yang ada di Jepang untuk mempersiapkan masa pensiun atau saat sakit .",
@@ -447,6 +507,21 @@
  "mh102": [
   "orang yang diasuransikan",
   "orang yang telah mendaftar asuransi dan bisa mendapat uang saat pesiun atau sakit",
+  "o"
+ ],
+ "pj90": [
+  "pembayaran penarikan lump sum",
+  "uang yang didapat orang yang pulang ke negara sendiri karena telah berhenti pendaftaran asuransi pensiun nasional Jepang.Orang asing yang bekerja di Jepang dan mebayar iuran asuransi bisa mendapat uang <asuransi pensiun nasional>dan <asuransi pensiun kesejahteraan> yang semua orang yang tinggal di Jepang mendapat saat pensiun . Anda mungkin mendapat pembayaran penarikan lump sum asuransi sesuai dengan masa bayar iuran jika Anda tidak kembali ke Jepang dan mengajukan permohonan ke Lembaga pensiun Jepang dalam 2 tahun.",
+  "o"
+ ],
+ "pj133": [
+  "pensiun hari tua dasar",
+  "uang yang bisa didapat orang yang genap berusia 65 tahun ke atas yang sudah mendaftar asuransi pensiun nasional salama 10 tahun",
+  "o"
+ ],
+ "pj76": [
+  "pensiun cacat dasar",
+  "uang yang didapat orang yang telah mendaftar asuransi pensiun nasional yang ada cacat akibat sakit atau cedera",
   "o"
  ],
  "mh106": [
@@ -477,6 +552,26 @@
  "mh111": [
   "tunjangan kualifikasi",
   "uang yang diberikan perusahaan kepada karyawan yang ada kualifikasi tertentu",
+  "o"
+ ],
+ "pj2": [
+  "tunjangan cuti pengasuhan anak",
+  "uang yang diberikan dari asuransi pengangguran jika pekerja tidak bisa bekerja untuk mengasuh anak",
+  "o"
+ ],
+ "pj73": [
+  "tunjangan persalinan",
+  "uang yang diberikan dari asuransi kesehatan jika pekerja tidak bisa bekerja untuk persalinan",
+  "o"
+ ],
+ "pj75": [
+  "pembayaran untuk biaya persalinan dan pengasuhan anak lum sum",
+  "uang yang diberikan dari asuransi kesehatan dll. saat melahirkan anak",
+  "o"
+ ],
+ "pj12": [
+  "tunjangan cuti perawatan",
+  "uang yang diberikan dari asuransi pengangguran jika pekerja tidak bisa bekerja untuk perawatan",
   "o"
  ],
  "mh116": [
@@ -739,6 +834,11 @@
   "wanita yang sedang hamil atau belum ada setahun setelah melahirkan bayi",
   "o"
  ],
+ "pj108": [
+  "cuti berbayar setahun",
+  "cuti berbayar",
+  "o"
+ ],
  "mh169": [
   "hari kerja yang ditetapkan oleh perusahaan",
   "hari kerja yang ditetapkan oleh perusahaan",
@@ -797,6 +897,16 @@
  "mh180": [
   "cuti haid",
   "cuti untuk keberatan haid bagi wanita",
+  "o"
+ ],
+ "pj1": [
+  "cuti pengasuhan anak",
+  "cuti untuk mengasuh anak jangka panjang",
+  "o"
+ ],
+ "pj11": [
+  "cuti perawatan",
+  "cuti untuk merawat keluarganya jangka panjang",
   "o"
  ],
  "mh183": [
@@ -1264,6 +1374,11 @@
   "kompensasi serupa uang dll. dari perusahaan jika karyawan terluka atau sakit ataupun meninggal dunia di jam kerja",
   "o"
  ],
+ "pj132": [
+  "asuransi kecelakaan kerja",
+  "asuransi kompensasi kecelakaan kerja ,yaitu kompensasi serupa uang dll. dari perusahaan jika karyawan terluka atau sakit ataupun meninggal di jam kerja atau di tengah perjalanan ke kantor.",
+  "o"
+ ],
  "mh277": [
   "pembayaran kompensasi pemulihan",
   "uang yang dibayar dari asuransi keelakaan kerja kepada karyawan untuk memulihkan cedera atau penyakit yang terjadi di jam kerja atau di tengah perjalanan ke kantor",
@@ -1347,6 +1462,11 @@
  "mh293": [
   "identitas gender",
   "ingin hidup sebagai gender yang mana",
+  "o"
+ ],
+ "pj48": [
+  "status sertifikat penduduk",
+  "apa yang dilakaukan orang asing di Jepang",
   "o"
  ],
  "mh295": [
@@ -1469,6 +1589,11 @@
   "orang yang mendaftar sesuatu",
   "o"
  ],
+ "pj55": [
+  "izin kegiatan luar status sertifikat penduduk",
+  "izin untuk melakukan kegiatan tertentu selain kegiatan yang telah diizinkan pada status sertifikat penduduk",
+  "o"
+ ],
  "mh320": [
   "surat keterangan sertifikat pekerjaan",
   "surat sertifikat yang tercantum pekerjaan apa saja diizinkan bagi orang asing",
@@ -1544,6 +1669,11 @@
   "melakukan kontrak kerja dengan pekerja langusung tidak melalui agen tenaga kerja. Pekerja penuh waktu,pekerja kontrak kerja dengan syarat tertentu, pekerja paruh waktu adalah kontrak kerja langsung",
   "o"
  ],
+ "pj26": [
+  "karyawan kontrak dengan syarat",
+  "orang yang ditetapkan masa kerja",
+  "o"
+ ],
  "mh336": [
   "kontrak kerja tanpa batas waktu",
   "mempekerjakan pekerja tanpa batas waktu",
@@ -1552,6 +1682,11 @@
  "mh337": [
   "kontrak kerja batas waktu",
   "mempekerjakan pekerja dengan batas waktu",
+  "o"
+ ],
+ "pj71": [
+  "peraturan kerja",
+  "peraturan ditentukan oleh perusahaan untuk pekerja dan perusahaan",
   "o"
  ],
  "mh339": [
@@ -1722,6 +1857,11 @@
  "mh372": [
   "kos milik perusahaan",
   "kos untuk pekerja",
+  "o"
+ ],
+ "pj113": [
+  "hellowork",
+  "kantor pemerintah untuk membantu orang yang mencari kerja",
   "o"
  ],
  "mh374": [
@@ -2394,11 +2534,6 @@
   "Orang yang ikut Pensiun Nasional dan Asuransi Pensiun Karyawan, yaitu orang yang bekerja di perusahaan, pabrik, toko, dan sebagainya.",
   "c"
  ],
- "pj90": [
-  "Pembayaran sekaligus saat keluar dari pensiun",
-  "Uang yang bisa diterima oleh orang yang berhenti dari pensiun Jepang dan pulang ke negaranya.",
-  "c"
- ],
  "pj91": [
   "Pekerja paruh waktu",
   "Pekerja part-time, arubaito, dan lainnya yang jam kerjanya lebih pendek dari karyawan tetap.",
@@ -2437,11 +2572,6 @@
  "pj98": [
   "Tunjangan Khusus Pengasuhan Anak",
   "Uang yang bisa diterima oleh orang yang membesarkan anak penyandang disabilitas.",
-  "c"
- ],
- "pj99": [
-  "Pemungutan khusus (pajak penduduk melalui perusahaan)",
-  "Perusahaan membayar pajak penduduk karyawan ke kantor pemerintah kota tempat tinggalnya. Perusahaan memotong pajak dari gaji Anda lalu membayarkannya.",
   "c"
  ],
  "pj100": [
@@ -2484,16 +2614,6 @@
   "Buku yang diterima oleh orang yang ikut program pensiun.",
   "c"
  ],
- "pj108": [
-  "Cuti tahunan berbayar",
-  "Cuti kerja di mana Anda tetap menerima gaji.",
-  "c"
- ],
- "pj109": [
-  "Penyesuaian pajak akhir tahun",
-  "Sistem di mana pada bulan Desember perusahaan menghitung dan menyesuaikan pajak penghasilan yang sudah dipotong. Jika kelebihan, perusahaan mengembalikan uang; jika kurang, Anda membayar ke perusahaan.",
-  "c"
- ],
  "pj110": [
   "Karyawan alih daya (outsourcing)",
   "Orang yang terikat kontrak dengan perusahaan penyalur tenaga kerja dan bekerja di perusahaan lain.",
@@ -2507,11 +2627,6 @@
  "pj112": [
   "Kelas calon ibu dan ayah",
   "Tempat yang mengajarkan hal penting tentang melahirkan dan merawat bayi kepada calon ayah dan ibu.",
-  "c"
- ],
- "pj113": [
-  "Hello Work (Kantor Layanan Ketenagakerjaan)",
-  "Kantor pemerintah pusat yang memperkenalkan lowongan pekerjaan.",
   "c"
  ],
  "pj114": [
@@ -2602,16 +2717,6 @@
  "pj131": [
   "Penjamin bersama (kontrak sewa)",
   "Orang yang membayar sewa sebagai pengganti jika penyewa tidak bisa membayar.",
-  "c"
- ],
- "pj132": [
-  "Asuransi Kecelakaan Kerja",
-  "Sistem yang mengumpulkan uang dari perusahaan untuk membantu orang yang cedera atau sakit karena pekerjaan.",
-  "c"
- ],
- "pj133": [
-  "Pensiun Dasar Hari Tua",
-  "Uang dari Pensiun Nasional yang bisa diterima orang berusia 65 tahun ke atas.",
   "c"
  ],
  "pj134": [
@@ -2749,16 +2854,6 @@
   "Premi asuransi.",
   "c"
  ],
- "pj1": [
-  "Cuti mengasuh anak (Ikuji Kyūgyō)",
-  "Cuti yang dapat diambil untuk mengasuh anak.",
-  "c"
- ],
- "pj2": [
-  "Tunjangan cuti mengasuh anak",
-  "Uang yang dapat diterima dari Asuransi Ketenagakerjaan selama cuti mengasuh anak.",
-  "c"
- ],
  "pj3": [
   "Pensiun Dasar untuk Keluarga yang Ditinggalkan",
   "Uang yang dapat diterima keluarga dari Pensiun Nasional saat peserta Pensiun Nasional meninggal dunia.",
@@ -2799,34 +2894,14 @@
   "Membantu orang yang kesulitan menjalani kegiatan sehari-hari (makan, mandi, dll.) karena usia lanjut atau penyakit tertentu.",
   "c"
  ],
- "pj11": [
-  "Cuti merawat keluarga",
-  "Cuti yang dapat diambil untuk merawat anggota keluarga.",
-  "c"
- ],
- "pj12": [
-  "Tunjangan cuti merawat keluarga",
-  "Uang yang dapat diterima dari Asuransi Ketenagakerjaan selama cuti merawat keluarga.",
-  "c"
- ],
  "pj13": [
   "Sekolah internasional/sekolah untuk orang asing",
   "Sekolah untuk anak-anak orang asing. Ada sekolah yang disesuaikan dengan budaya dan bahasa masing-masing negara.",
   "c"
  ],
- "pj14": [
-  "Asuransi Perawatan Jangka Panjang (Kaigo Hoken)",
-  "Sistem yang mengumpulkan uang dari orang berusia 40 tahun ke atas untuk membantu orang yang membutuhkan perawatan.",
-  "c"
- ],
  "pj15": [
   "Papan edaran (kairanban)",
   "Edaran berisi pemberitahuan dari kantor pemerintah kota dan lainnya, digunakan oleh perkumpulan warga. Setelah dibaca, serahkan ke orang berikutnya.",
-  "c"
- ],
- "pj16": [
-  "Pelaporan pajak tahunan (Kakutei Shinkoku)",
-  "Cara membayar pajak penghasilan bagi orang yang pajaknya tidak dipotong atau disesuaikan di akhir tahun oleh perusahaan. Dokumen diserahkan ke kantor pajak di daerah tempat tinggal.",
   "c"
  ],
  "pj17": [
@@ -2874,24 +2949,9 @@
   "Tenaga ahli yang menerima konsultasi dan menyusun rencana perawatan.",
   "c"
  ],
- "pj26": [
-  "Karyawan kontrak",
-  "Pekerja dengan masa kerja yang sudah ditentukan. Kontrak (perjanjian antara perusahaan dan pekerja) berakhir dalam 3 tahun.",
-  "c"
- ],
  "pj27": [
   "Bedah",
   "Klinik/rumah sakit yang mengobati cedera dan melakukan operasi.",
-  "c"
- ],
- "pj28": [
-  "Asuransi Kesehatan (Kenkō Hoken)",
-  "Asuransi kesehatan untuk orang yang bekerja di perusahaan.",
-  "c"
- ],
- "pj29": [
-  "Pemotongan pajak di sumber",
-  "Perusahaan membayar pajak penghasilan ke negara atas nama Anda dengan memotongnya dari gaji Anda.",
   "c"
  ],
  "pj30": [
@@ -2919,11 +2979,6 @@
   "Uang selain sewa yang dibayar untuk tetap tinggal di rumah yang sama setelah kontrak sewa berakhir.",
   "c"
  ],
- "pj35": [
-  "Asuransi Pensiun Karyawan (Kōsei Nenkin)",
-  "Pensiun untuk orang sampai usia 69 tahun yang bekerja di perusahaan, pabrik, toko, dll. melebihi jam kerja tertentu.",
-  "c"
- ],
  "pj36": [
   "Ujian Kesetaraan Lulusan SMA",
   "Ujian bagi orang yang belum lulus SMA di Jepang. Jika lulus, dapat mengikuti ujian masuk universitas, sekolah kejuruan, dll.",
@@ -2934,11 +2989,6 @@
   "Biaya sekolah SMA yang dibayar oleh negara untuk Anda.",
   "c"
  ],
- "pj38": [
-  "Asuransi Kesehatan Nasional (Kokumin Kenkō Hoken)",
-  "Asuransi kesehatan yang diikuti sendiri oleh orang yang tidak ikut asuransi kesehatan perusahaan.",
-  "c"
- ],
  "pj39": [
   "Pensiun Nasional (Kokumin Nenkin)",
   "Pensiun negara yang wajib diikuti semua orang berusia 20 sampai 59 tahun.",
@@ -2947,11 +2997,6 @@
  "pj40": [
   "Pajak aset tetap (pajak properti)",
   "Pajak yang dibayar oleh pemilik tanah atau rumah.",
-  "c"
- ],
- "pj41": [
-  "Asuransi Ketenagakerjaan (Koyō Hoken)",
-  "Sistem yang membantu orang yang belum mendapat pekerjaan setelah berhenti kerja, serta orang yang sedang cuti mengasuh anak atau merawat keluarga.",
   "c"
  ],
  "pj42": [
@@ -2984,11 +3029,6 @@
   "Hari terakhir orang asing boleh berada di Jepang.",
   "c"
  ],
- "pj48": [
-  "Status izin tinggal (visa)",
-  "Hal yang boleh dilakukan orang asing di Jepang, seperti bekerja, sekolah, atau tinggal bersama keluarga.",
-  "c"
- ],
  "pj49": [
   "Izin Perolehan Status Izin Tinggal",
   "Bayi orang asing yang lahir di Jepang mendapatkan Kartu Izin Tinggal.",
@@ -3017,11 +3057,6 @@
  "pj54": [
   "Dokter gigi",
   "Klinik yang mengobati gigi.",
-  "c"
- ],
- "pj55": [
-  "Izin Kegiatan di Luar Status",
-  "Izin bagi orang dengan status izin tinggal yang tidak boleh bekerja, agar dapat bekerja.",
   "c"
  ],
  "pj56": [
@@ -3099,49 +3134,14 @@
   "Menerima uang untuk perlengkapan sekolah, makan siang sekolah, dll. Untuk orang tua siswa SD/SMP berpenghasilan rendah.",
   "c"
  ],
- "pj71": [
-  "Peraturan kerja perusahaan",
-  "Aturan kerja terperinci yang ditetapkan perusahaan.",
-  "c"
- ],
- "pj72": [
-  "Pajak penduduk",
-  "Pajak yang dibayar ke prefektur, kota, atau distrik oleh orang yang bekerja dan beralamat di Jepang pada 1 Januari.",
-  "c"
- ],
- "pj73": [
-  "Tunjangan melahirkan (pengganti gaji)",
-  "Uang yang dapat diterima dari Asuransi Kesehatan saat cuti kerja untuk melahirkan dan tidak menerima gaji.",
-  "c"
- ],
  "pj74": [
   "Laporan kelahiran",
   "Formulir yang diserahkan ke kantor pemerintah kota saat bayi lahir.",
   "c"
  ],
- "pj75": [
-  "Tunjangan sekaligus melahirkan dan mengasuh anak",
-  "Uang yang dapat diterima dari Asuransi Kesehatan dan lainnya saat melahirkan.",
-  "c"
- ],
- "pj76": [
-  "Pensiun Dasar Disabilitas",
-  "Uang yang dapat diterima penyandang disabilitas dari Pensiun Nasional.",
-  "c"
- ],
  "pj77": [
   "Pensiun Karyawan Disabilitas",
   "Uang yang dapat diterima penyandang disabilitas dari Asuransi Pensiun Karyawan.",
-  "c"
- ],
- "pj78": [
-  "Pajak konsumsi",
-  "Pajak yang dibayar saat membeli barang atau menggunakan jasa.",
-  "c"
- ],
- "pj79": [
-  "Pajak penghasilan",
-  "Pajak yang dibayar ke negara dari penghasilan (gaji dari bekerja, dll.).",
   "c"
  ],
  "pj80": [

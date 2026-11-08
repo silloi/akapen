@@ -32,6 +32,10 @@ const SHORT: Record<string, string> = {
 };
 const draft = computed(() => props.entry.source === "draft");
 /** 訳が Claude のものか（厚労省の用語集の訳・対訳辞書の英訳は公式） */
+/** 書き換え例の語に、厚労省の用語集の公式の訳を付けたか（訳の出典を分けて書く） */
+const trByMhlw = computed(
+  () => !isJa.value && tr.value?.[2] === "o" && props.entry.source !== "mhlw-tagengo-yougo",
+);
 const trByClaude = computed(
   () => !isJa.value && tr.value?.[2] === "c" && !(props.lang === "en" && props.entry.en),
 );
@@ -55,6 +59,7 @@ const trByClaude = computed(
         >{{ t("glossary.official") }}: {{ SHORT[entry.source] }}</span
       >
       <template v-if="trByClaude"> ・ {{ t("glossary.trByClaude") }}</template>
+      <template v-else-if="trByMhlw"> ・ {{ t("glossary.trByMhlw") }}</template>
     </p>
     <p v-else class="src">
       <template v-if="draft">{{ t("glossary.draft") }}</template>
@@ -63,6 +68,7 @@ const trByClaude = computed(
         <a :href="source.url" target="_blank" rel="noopener">{{ source.name }}</a>
       </template>
       <template v-if="trByClaude"> ・ {{ t("glossary.trByClaude") }}</template>
+      <template v-else-if="trByMhlw"> ・ {{ t("glossary.trByMhlw") }}</template>
     </p>
   </div>
 </template>

@@ -126,9 +126,10 @@ for (const r of readJsonl<{
   if (!same) {
     entries.push({ id, term: r.term, reading: r.reading, easy, source: "mhlw-tagengo-yougo" });
   }
+  // 同じ語なら、書き換え例の語にも厚労省の公式の訳を使う
   for (const l of LANGS) {
     const t = r.tr?.[MHLW_LANG[l]];
-    if (t?.term && t.definition && !same) official.get(l)![id] = [t.term, t.definition, "o"];
+    if (t?.term && t.definition) official.get(l)![id] = [t.term, t.definition, "o"];
   }
 }
 

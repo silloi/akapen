@@ -269,6 +269,26 @@
   "Tiền thuế mà người lao động phải nộp cho nhà nước. Công ty sẽ thanh toán thay người đó bằng cách sử dụng cơ chế thanh toán.",
   "o"
  ],
+ "pj72": [
+  "Thuế cư trú",
+  "Tiền thuế nộp cho tỉnh và thành phố nơi bản thân đang sinh sống.",
+  "o"
+ ],
+ "pj28": [
+  "Bảo hiểm y tế",
+  "Bảo hiểm y tế mà những người đang làm việc tại công ty phải tham gia đề phòng cho trường hợp bị chấn thương hoặc bệnh tật.",
+  "o"
+ ],
+ "pj35": [
+  "Bảo hiểm hưu trí phúc lợi",
+  "Chế độ lương hưu mà những người đến 69 tuổi và đã làm việc bằng hoặc nhiều hơn số thời gian công ty quy định phải tham gia để sau khi có tuổi và thôi việc sẽ được nhận tiền.",
+  "o"
+ ],
+ "pj41": [
+  "Bảo hiểm thất nghiệp",
+  "Bảo hiểm dành cho khi bị mất việc hoặc chưa tìm được việc mới sau khi thôi việc.",
+  "o"
+ ],
  "mh59": [
   "Phần thanh toán của người được bảo hiểm",
   "Việc người đang tham gia bảo hiểm thanh toán số tiền bảo hiểm mà người đó phải thanh toán.",
@@ -359,6 +379,16 @@
   "Cách tính và thanh toán tiền lương mà công ty sẽ thanh toán cho người lao động.",
   "o"
  ],
+ "pj78": [
+  "Thuế tiêu dùng",
+  "Tiền thuế phải trả khi mua đồ hoặc khi hưởng dịch vụ.",
+  "o"
+ ],
+ "pj79": [
+  "Thuế thu nhập",
+  "Tiền thuế mà những người làm việc và nhận lương phải nộp cho nhà nước.",
+  "o"
+ ],
  "mh79": [
   "Thu nhập thuần (thu nhập tiền lương)",
   "Số tiền còn lại sau khi trừ đi các khoản tiền cần thiết để làm việc (các khoản này được gọi là 「Khấu trừ thu nhập tiền lương」) từ số tiền mà người lao động đã làm việc và được nhận (thu nhập) trong một năm.",
@@ -394,9 +424,29 @@
   "Việc giảm tiền thuế phải nộp bằng cách trừ đi một khoản tiền nhất định vào số tiền còn lại, sau khi đã trừ đi số tiền cần thiết để làm việc (thu nhập thuần) cho người nộp thuế có gia đình đang phải chăm sóc (phụ dưỡng) để trợ giúp việc chăm sóc đó.",
   "o"
  ],
+ "pj29": [
+  "Trưng thu tại nguồn",
+  "Cơ chế theo đó khi công ty thanh toán tiền lương, thuế (thuế thu nhập) mà người lao động nộp cho quốc gia được trừ vào tiền lương, và công ty trả thuế thu nhập cho quốc gia đó thay cho người lao động.",
+  "o"
+ ],
  "mh87": [
   "Phiếu trưng thu tại nguồn",
   "Giấy tờ có ghi về việc người lao động đã nhận bao nhiều tiền lương từ công ty và đã nộp bao nhiêu tiền thuế cho nhà nước trong một năm kể từ ngày 1 tháng 1 đến ngày 31 tháng 12.",
+  "o"
+ ],
+ "pj99": [
+  "Trưng thu đặc biệt",
+  "Cơ chế theo đó khi công ty thanh toán tiền lương, thuế (thuế cư trú) trả cho tỉnh hoặc thành phố nơi người lao động sinh sống khấu trừ vào tiền lương và công ty trả thuế cư trú cho tỉnh hoặc thành phố nơi người đó đang sinh sống thay cho người lao động.",
+  "o"
+ ],
+ "pj109": [
+  "Điều chỉnh cuối năm",
+  "Việc thông báo cho quốc gia biết số tiền thuế (thuế thu nhập) mà một công nhân sẽ nộp cho quốc gia bằng cách Trưng thu tại nguồn (công ty sẽ trả thuế thu nhập cho quốc gia thay cho người lao động) vào tháng 12. Nếu đã nộp quá nhiều thì công ty sẽ trả lại tiền cho người lao động, còn nếu đã nộp quá ít thì người lao động phải nộp tiền cho công ty.",
+  "o"
+ ],
+ "pj16": [
+  "Khai báo thuế",
+  "Việc người lao động cho nhà nước biết số tiền thuế (thuế thu nhập) phải nộp sau khi đã cân nhắc đến số tiền mà người đó làm việc nhận được từ ngày 1 tháng 1 đến ngày 31 tháng 12 và tình cảnh gia đình (người phụ dưỡng) mà người đó đang chăm sóc trong thời gian đó.",
   "o"
  ],
  "mh91": [
@@ -412,6 +462,11 @@
  "mh93": [
   "Giấy chứng nhận nộp thuế",
   "Giấy tờ do trụ sở hành chính phát hành để chứng nhận việc người đó đã nộp thuế.",
+  "o"
+ ],
+ "pj38": [
+  "Bảo hiểm y tế quốc dân",
+  "Bảo hiểm tham gia để đề phòng cho khi bị chấn thương hoặc bệnh tật dành cho những người không tham gia bảo hiểm y tế của công ty.",
   "o"
  ],
  "mh95": [
@@ -439,6 +494,11 @@
   "Việc sử dụng thuế để trợ giúp những người có khuyết tật, để họ có thể sinh sống khỏe mạnh và an toàn.",
   "o"
  ],
+ "pj14": [
+  "Bảo hiểm chăm sóc điều dưỡng",
+  "Bảo hiểm dành cho những người làm việc tại công ty để đề phòng cho trường hợp cần được chăm sóc điều dưỡng.",
+  "o"
+ ],
  "mh101": [
   "Bảo hiểm hưu trí quốc dân",
   "Bảo hiểm dành cho tất cả những người từ 20 tuổi đến 59 tuổi ở Nhật Bản để đề phòng cho trường hợp không thể làm việc vàkiếm tiền do đã nhiều tuổi và thôi việc hoặc do bị bệnh tật, v.v.",
@@ -447,6 +507,21 @@
  "mh102": [
   "Người được bảo hiểm",
   "Người tham gia bảo hiểm và được nhận tiền sau khi nhiều tuổi và thôi việc hoặc khi bị bệnh tật, v.v.",
+  "o"
+ ],
+ "pj90": [
+  "Thanh toán rút tiền một lần",
+  "Số tiền có thể nhận được khi rút khỏi hưu trí của Nhật Bản và về nước . Những người nước ngoài làm việc tại Nhật Bản, nếu đã nộp tiền trong thời gian làm việc, sau khi nghỉ hưu do tuổi già, thì những người sinh sống tại Nhật Bản có thể nhận được tiền bảo hiểm (Bảo hiểm hưu trí quốc dân) khi về già và nghỉ hưu, hay những người đang làm việc có thể nhận được tiền bảo hiểm (Bảo hiểm hưu trí phúc lợi) sau khi nghỉ việc tại công ty khi về già. Tuy nhiên các trường hợp không trở lại Nhật Bản sau khi về nước, nếu làm thủ tục xin cấp với Quỹ Hưu trí Nhật Bản trong vòng 2 năm kể từ khi rời Nhật Bản, sẽ được nhận khoản thanh toán rút tiền một lần tùy theo khoảng thời gian mà người đó đóng bảo hiểm.",
+  "o"
+ ],
+ "pj133": [
+  "Lương hưu cơ bản tuổi già",
+  "Khoản tiền mà những người đã tham gia hưu trí quốc dân từ 10 năm trở lên được nhận từ khi đủ 65 tuổi.",
+  "o"
+ ],
+ "pj76": [
+  "Lương hưu cơ bản dành cho người tàn tật",
+  "Khoản tiền mà những người có tham gia hưu trí quốc dân và bị tàn tật về thể chất, v.v. do bệnh tật hoặc chấn thương được nhận từ nhà nước.",
   "o"
  ],
  "mh106": [
@@ -477,6 +552,26 @@
  "mh111": [
   "Phụ cấp bằng cấp",
   "Khoản tiền mà người có bằng cấp đặc biệt được nhận từ công ty.",
+  "o"
+ ],
+ "pj2": [
+  "Tiền trợ cấp nghỉ việc chăm con",
+  "Khoản tiền được nhận được từ Bảo hiểm việc làm khi nghỉ việc để chăm con.",
+  "o"
+ ],
+ "pj73": [
+  "Trợ cấp nghỉ sinh con",
+  "Khoản tiền được nhận từ Bảo hiểm y tế khi nghỉ làm để sinh con và không được nhận lương.",
+  "o"
+ ],
+ "pj75": [
+  "Trợ cấp sinh con",
+  "Khoản tiền được nhận từ Bảo hiểm y tế, v.v. khi sinh con.",
+  "o"
+ ],
+ "pj12": [
+  "Tiền trợ cấp nghỉ điều dưỡng",
+  "Khoản tiền được nhận từ Bảo hiểm việc làm để sinh sống trong thời gian nghỉ việc để chăm sóc điều dưỡng.",
   "o"
  ],
  "mh116": [
@@ -739,6 +834,11 @@
   "Phụ nữ đang có thai hoặc đã sinh con chưa đầy một năm.",
   "o"
  ],
+ "pj108": [
+  "Nghỉ phép có lương hàng năm",
+  "Ngày có thể nghỉ mà vẫn được nhận lương.",
+  "o"
+ ],
  "mh169": [
   "Ngày lao động quy định",
   "Ngày làm việc do công ty quy định.",
@@ -797,6 +897,16 @@
  "mh180": [
   "Nghỉ kinh nguyệt",
   "Ngày nghỉ dành cho phụ nữ trong thời kỳ kinh nguyệt.",
+  "o"
+ ],
+ "pj1": [
+  "Nghỉ việc dài hạn chăm con",
+  "Nghỉ dài để chăm con.",
+  "o"
+ ],
+ "pj11": [
+  "Nghỉ việc dài hạn chăm sóc điều dưỡng",
+  "Nghỉ dài để chăm sóc gia đình.",
   "o"
  ],
  "mh183": [
@@ -1264,6 +1374,11 @@
   "Việc công ty bồi thường bằng tiền, v.v. khi người lao động bị chấn thương, bệnh tật hoặc tử vong trong công việc.",
   "o"
  ],
+ "pj132": [
+  "Bảo hiểm tai nạn lao động",
+  "Là bảo hiểm bồi thường tai nạn cho người lao động. Khi người lao động bị chấn thương, bệnh tật hoặc tử vong trong khi làm việc hoặc trên đường đi làm, công ty sẽ đền bù bằng tiền, v.v.",
+  "o"
+ ],
  "mh277": [
   "Trợ cấp bồi thường điều trị y tế",
   "Khoản tiền được nhận từ Bảo hiểm tai nạn lao động để chữa trị bệnh tật hoặc đi bệnh viện khi người lao động bị chấn thương hoặc bệnh tật trong công việc hoặc trên đường đi làm.",
@@ -1347,6 +1462,11 @@
  "mh293": [
   "Giới tính tự giác",
   "Muốn sống theo giới tính nào.",
+  "o"
+ ],
+ "pj48": [
+  "Tư cách lưu trú",
+  "Những việc người nước ngoài được phép làm tại Nhật Bản.",
   "o"
  ],
  "mh295": [
@@ -1469,6 +1589,11 @@
   "Người đăng ký làm thủ tục nào đó.",
   "o"
  ],
+ "pj55": [
+  "Cấp phép hoạt động ngoài tư cách",
+  "Loại cấp phép mà người nước ngoài ở Nhật Bản nhận được khi họ muốn thực hiện các hoạt động vốn không thể thực hiện với tư cách (tư cách lưu trú) ở Nhật Bản mà họ hiện có.",
+  "o"
+ ],
  "mh320": [
   "Giấy chứng nhận tư cách lao động",
   "Giấy chứng nhận có ghi về việc người nước ngoài khi làm việc tại Nhật Bản sẽ được phép làm công việc nào.",
@@ -1544,6 +1669,11 @@
   "Việc công ty và người lao động trực tiếp ký kết hợp đồng và tuyển dụng người đó mà không thông qua nơi phái cử đi. Nhân viên chính thức, nhân viên hợp đồng, nhân viên bán thời gian và nhân viên làm thêm đều là tuyển dụng trực tiếp.",
   "o"
  ],
+ "pj26": [
+  "Nhân viên hợp đồng",
+  "Người có quyết định sẽ làm việc đến bao giờ.",
+  "o"
+ ],
  "mh336": [
   "Tuyển dụng vô thời hạn",
   "Việc công ty tuyển dụng người lao động mà không quy định ngày kết thúc thời gian làm việc.",
@@ -1552,6 +1682,11 @@
  "mh337": [
   "Tuyển dụng có thời hạn",
   "Việc công ty tuyển dụng người lao động có quy định về thời gian làm việc.",
+  "o"
+ ],
+ "pj71": [
+  "Nội quy lao động",
+  "Các quy định khi làm việc đối với người lao động và công ty do công ty quy định.",
   "o"
  ],
  "mh339": [
@@ -1722,6 +1857,11 @@
  "mh372": [
   "Ký túc xá sống chung",
   "Ngôi nhà nơi người lao động ăn, ngủ cùng nhau.",
+  "o"
+ ],
+ "pj113": [
+  "Hello Work",
+  "Cơ sở hành chính của nhà nước giới thiệu việc làm cho những người đang tìm việc.",
   "o"
  ],
  "mh374": [
@@ -2394,11 +2534,6 @@
   "Người tham gia cả Lương hưu quốc dân và Bảo hiểm lương hưu phúc lợi. Là người làm việc tại công ty, nhà máy, cửa hàng, v.v.",
   "c"
  ],
- "pj90": [
-  "Tiền trợ cấp rút khỏi chế độ lương hưu một lần",
-  "Tiền mà người ngừng tham gia lương hưu Nhật Bản và về nước có thể nhận.",
-  "c"
- ],
  "pj91": [
   "Người lao động làm việc thời gian ngắn",
   "Người làm bán thời gian, làm thêm, v.v. có thời gian làm việc ngắn hơn nhân viên chính thức.",
@@ -2437,11 +2572,6 @@
  "pj98": [
   "Trợ cấp nuôi dưỡng trẻ em đặc biệt",
   "Tiền mà người đang nuôi con bị khuyết tật có thể nhận.",
-  "c"
- ],
- "pj99": [
-  "Thu thuế đặc biệt (khấu trừ qua lương)",
-  "Công ty trừ thuế cư trú từ lương của người lao động và nộp thay cho cơ quan hành chính nơi người đó sống.",
   "c"
  ],
  "pj100": [
@@ -2484,16 +2614,6 @@
   "Sổ được cấp cho người tham gia lương hưu.",
   "c"
  ],
- "pj108": [
-  "Nghỉ phép năm có hưởng lương",
-  "Ngày nghỉ làm mà vẫn được nhận lương.",
-  "c"
- ],
- "pj109": [
-  "Điều chỉnh thuế cuối năm",
-  "Vào tháng 12, công ty tính lại thuế thu nhập đã khấu trừ tại nguồn để điều chỉnh. Nếu nộp thừa, công ty trả lại tiền cho bạn; nếu nộp thiếu, bạn trả thêm cho công ty.",
-  "c"
- ],
  "pj110": [
   "Nhân viên phái cử",
   "Người ký hợp đồng với công ty phái cử và làm việc tại một công ty khác.",
@@ -2507,11 +2627,6 @@
  "pj112": [
   "Lớp học dành cho bố mẹ",
   "Nơi dạy những điều quan trọng về sinh và nuôi con cho những người sắp làm bố, làm mẹ.",
-  "c"
- ],
- "pj113": [
-  "Hello Work (Trung tâm giới thiệu việc làm)",
-  "Cơ quan nhà nước giới thiệu việc làm.",
   "c"
  ],
  "pj114": [
@@ -2602,16 +2717,6 @@
  "pj131": [
   "Người bảo lãnh liên đới (hợp đồng thuê nhà)",
   "Người trả tiền thuê nhà thay khi người thuê không thể trả.",
-  "c"
- ],
- "pj132": [
-  "Bảo hiểm tai nạn lao động",
-  "Chế độ thu tiền từ các công ty để giúp người bị thương hoặc bị bệnh do công việc.",
-  "c"
- ],
- "pj133": [
-  "Lương hưu cơ bản tuổi già",
-  "Tiền mà người từ 65 tuổi trở lên có thể nhận từ Lương hưu quốc dân.",
   "c"
  ],
  "pj134": [
@@ -2749,16 +2854,6 @@
   "Tiền trả để tham gia bảo hiểm.",
   "c"
  ],
- "pj1": [
-  "Nghỉ chăm con (nghỉ nuôi con nhỏ)",
-  "Kỳ nghỉ có thể xin để nuôi con.",
-  "c"
- ],
- "pj2": [
-  "Trợ cấp nghỉ chăm con",
-  "Tiền nhận từ bảo hiểm việc làm trong thời gian nghỉ chăm con.",
-  "c"
- ],
  "pj3": [
   "Lương hưu cơ bản cho thân nhân (gia đình người đã mất)",
   "Tiền gia đình nhận từ Lương hưu quốc dân khi người tham gia Lương hưu quốc dân qua đời.",
@@ -2799,34 +2894,14 @@
   "Việc giúp đỡ người gặp khó khăn trong sinh hoạt hằng ngày (ăn uống, tắm rửa...) do tuổi cao hoặc mắc bệnh đặc biệt.",
   "c"
  ],
- "pj11": [
-  "Nghỉ chăm sóc người thân",
-  "Kỳ nghỉ có thể xin để chăm sóc điều dưỡng người trong gia đình.",
-  "c"
- ],
- "pj12": [
-  "Trợ cấp nghỉ chăm sóc người thân",
-  "Tiền nhận từ bảo hiểm việc làm trong thời gian nghỉ chăm sóc người thân.",
-  "c"
- ],
  "pj13": [
   "Trường dành cho người nước ngoài",
   "Trường học dành cho con em người nước ngoài. Có các trường phù hợp với văn hóa và ngôn ngữ của từng nước.",
   "c"
  ],
- "pj14": [
-  "Bảo hiểm chăm sóc điều dưỡng",
-  "Chế độ thu tiền từ người từ 40 tuổi trở lên để hỗ trợ người cần được chăm sóc điều dưỡng.",
-  "c"
- ],
  "pj15": [
   "Bảng thông báo luân chuyển (kairanban)",
   "Tập thông báo của hội tự quản/hội khu phố, gồm thông tin từ cơ quan hành chính địa phương... Đọc xong thì chuyển cho nhà tiếp theo.",
-  "c"
- ],
- "pj16": [
-  "Khai báo thuế cuối năm (kakutei shinkoku)",
-  "Cách nộp thuế thu nhập dành cho người không được công ty khấu trừ tại nguồn hoặc quyết toán cuối năm. Nộp hồ sơ tại cục thuế (cơ quan phụ trách thuế) nơi bạn sống.",
   "c"
  ],
  "pj17": [
@@ -2874,24 +2949,9 @@
   "Chuyên gia tư vấn về chăm sóc điều dưỡng và lên kế hoạch chăm sóc.",
   "c"
  ],
- "pj26": [
-  "Nhân viên hợp đồng",
-  "Người làm việc có thời hạn xác định. Hợp đồng (thỏa thuận giữa công ty và người lao động) kết thúc trong vòng 3 năm.",
-  "c"
- ],
  "pj27": [
   "Khoa ngoại",
   "Nơi chữa vết thương và phẫu thuật.",
-  "c"
- ],
- "pj28": [
-  "Bảo hiểm sức khỏe (kenko hoken)",
-  "Bảo hiểm y tế dành cho người làm việc tại công ty.",
-  "c"
- ],
- "pj29": [
-  "Khấu trừ thuế tại nguồn",
-  "Việc công ty nộp thuế thu nhập cho nhà nước thay bạn. Công ty trừ thuế thu nhập... từ lương của bạn để nộp.",
   "c"
  ],
  "pj30": [
@@ -2919,11 +2979,6 @@
   "Tiền trả ngoài tiền nhà khi hết hợp đồng thuê mà vẫn tiếp tục ở lại nhà đó.",
   "c"
  ],
- "pj35": [
-  "Bảo hiểm lương hưu phúc lợi (kosei nenkin)",
-  "Chế độ lương hưu (NO.106) dành cho người đến 69 tuổi làm việc từ số giờ nhất định trở lên tại công ty, nhà máy, cửa hàng...",
-  "c"
- ],
  "pj36": [
   "Kỳ thi công nhận trình độ tốt nghiệp THPT",
   "Kỳ thi dành cho người chưa tốt nghiệp THPT ở Nhật. Nếu đỗ, có thể dự thi vào đại học, trường chuyên môn...",
@@ -2934,11 +2989,6 @@
   "Học phí THPT được nhà nước chi trả thay bạn.",
   "c"
  ],
- "pj38": [
-  "Bảo hiểm sức khỏe quốc dân (kokumin kenko hoken)",
-  "Bảo hiểm y tế tự tham gia dành cho người không có bảo hiểm sức khỏe của công ty...",
-  "c"
- ],
  "pj39": [
   "Lương hưu quốc dân (kokumin nenkin)",
   "Chế độ lương hưu của nhà nước mà mọi người từ 20 đến 59 tuổi đều tham gia.",
@@ -2947,11 +2997,6 @@
  "pj40": [
   "Thuế tài sản cố định",
   "Thuế do người sở hữu đất hoặc nhà nộp.",
-  "c"
- ],
- "pj41": [
-  "Bảo hiểm việc làm",
-  "Chế độ hỗ trợ người chưa tìm được việc sau khi nghỉ việc, hoặc người đang nghỉ chăm con, nghỉ chăm sóc người thân.",
   "c"
  ],
  "pj42": [
@@ -2984,11 +3029,6 @@
   "Ngày cuối cùng người nước ngoài được phép ở Nhật Bản.",
   "c"
  ],
- "pj48": [
-  "Tư cách lưu trú",
-  "Những việc người nước ngoài được phép làm ở Nhật, như làm việc, đi học, sống cùng gia đình...",
-  "c"
- ],
  "pj49": [
   "Giấy phép lấy tư cách lưu trú",
   "Việc em bé người nước ngoài sinh ra ở Nhật được cấp thẻ lưu trú.",
@@ -3017,11 +3057,6 @@
  "pj54": [
   "Nha khoa",
   "Nơi chữa răng.",
-  "c"
- ],
- "pj55": [
-  "Giấy phép hoạt động ngoài tư cách lưu trú",
-  "Giấy phép nhận khi người có tư cách lưu trú không được làm việc muốn đi làm.",
   "c"
  ],
  "pj56": [
@@ -3099,49 +3134,14 @@
   "Hỗ trợ tiền đồ dùng học tập, tiền ăn trưa ở trường... Phụ huynh có thu nhập thấp của học sinh tiểu học, THCS được nhận.",
   "c"
  ],
- "pj71": [
-  "Nội quy lao động",
-  "Quy định chi tiết về việc làm do công ty đặt ra.",
-  "c"
- ],
- "pj72": [
-  "Thuế cư trú",
-  "Thuế nộp cho tỉnh, thành phố, quận... của người có địa chỉ ở Nhật vào ngày 1 tháng 1 và đang đi làm.",
-  "c"
- ],
- "pj73": [
-  "Trợ cấp thai sản (khi nghỉ sinh)",
-  "Tiền nhận từ bảo hiểm sức khỏe khi nghỉ làm để sinh con và không được trả lương.",
-  "c"
- ],
  "pj74": [
   "Khai sinh",
   "Giấy nộp cho cơ quan hành chính khi em bé chào đời.",
   "c"
  ],
- "pj75": [
-  "Trợ cấp sinh con một lần",
-  "Tiền nhận từ bảo hiểm sức khỏe... khi sinh con.",
-  "c"
- ],
- "pj76": [
-  "Lương hưu cơ bản cho người khuyết tật",
-  "Tiền người khuyết tật nhận từ Lương hưu quốc dân.",
-  "c"
- ],
  "pj77": [
   "Lương hưu phúc lợi cho người khuyết tật",
   "Tiền người khuyết tật nhận từ Bảo hiểm lương hưu phúc lợi.",
-  "c"
- ],
- "pj78": [
-  "Thuế tiêu dùng",
-  "Thuế trả khi mua hàng hoặc sử dụng dịch vụ.",
-  "c"
- ],
- "pj79": [
-  "Thuế thu nhập",
-  "Thuế nộp cho nhà nước từ thu nhập (tiền lương...).",
   "c"
  ],
  "pj80": [

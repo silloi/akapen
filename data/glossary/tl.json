@@ -269,6 +269,26 @@
   "Mga buwis na binabayaran ng mga mangagawa sa bansa gamit ang mekanismo na binabayaran ng kumpanya para sa manggagawa.",
   "o"
  ],
+ "pj72": [
+  "Residential Tax",
+  "Ang mga buwis na binabayaran sa prefecture o munisipalidad ng iyong tinitirhan.",
+  "o"
+ ],
+ "pj28": [
+  "Health Insurance",
+  "Medical Insurance para sa mga nagtatrabaho sa kumpanya kung sakaling may pinsala o karamdaman.",
+  "o"
+ ],
+ "pj35": [
+  "Welfare Pension Insurance",
+  "Pensiyon para sa mga mangagawa na nagtrabaho sa kumpanya hanggang sa edad na 69, amkukuha ito pagkatapos tumigil sa kumpanya ng dahil sa kanilang pagtanda.",
+  "o"
+ ],
+ "pj41": [
+  "Employment Insurance",
+  "Ang insurance para sa nawalan ng trabaho o hindi makahanap ng trabaho pagkatapos umalis sa kumpanya.",
+  "o"
+ ],
  "mh59": [
   "Health Insurance Expense",
   "Ang isang naka insured na tao ay kinakailangan bayaran ang halaga ng insurance.",
@@ -359,6 +379,16 @@
   "Paraan ng pagkalkula at pagbayad ng suweldo/sahod sa mga taong nagtatrabaho para sa kumpanya.",
   "o"
  ],
+ "pj78": [
+  "Consumption tax",
+  "Mga buwis na babayaran kapag bumili ka ng isang bagay o nakakatanggap ng serbisyo.",
+  "o"
+ ],
+ "pj79": [
+  "Income tax",
+  "Mga buwis na binabayaran sa bansa ng mga nagtatrabaho at tumatanggap ng pera.",
+  "o"
+ ],
  "mh79": [
   "Income (Earned Income)",
   "Ang halagang natitira pagkatapos ibawas ang mga dapat ibawas (ito ay tinatawag na Wage salary deduction) mula sa pera (kita) ng manggagawa sa isang taon.",
@@ -394,9 +424,29 @@
   "Sa nagbabayad ng buwis, mula sa halaga (income) na natitira pagkatapos ibawas ang halaga na dapat, ibawas ang nararapat na halaga kung siya ay (Supporter) na may pamilya na sinusuportahan upang mapababa ang buwis.",
   "o"
  ],
+ "pj29": [
+  "Tax Withholding System",
+  "Kapag binabayaran ng kumpanya ang suweldo, ang buwis (Income tax) na binabayaran ng manggagawa sa bansa ay ibabawas mula sa suweldo nito, at ang kumpanya naman ang magbabayad ng buwis na ito sa ngalan ng manggagawa.",
+  "o"
+ ],
  "mh87": [
   "Tax Withholding Slip",
   "Isang dokumento na naglalarawan kung magkano ang natanggap na suweldo ng manggagawa mula sa kumpanya at kung magkano ang ibinayad niyang buwis sa bansa sa taon mula Enero ika-1 hanggang Disyembre 31.",
+  "o"
+ ],
+ "pj99": [
+  "Special Collection",
+  "Kapag binabayaran ng kumpanya ang suweldo, ang buwis (Residential tax) na binayaran sa prefecture o munisipalidad kung saan nakatira ang manggagawa ay ibabawas mula sa suweldo nito, at ang kumpanya naman ang magbabayad ng buwis na ito sa prefecture o munisipalidad kung saan nakatira ang manggagawa. Ito ang mekanismo ng pagbabayad ng buwis sa paninirahan.",
+  "o"
+ ],
+ "pj109": [
+  "Year-End Adjustment",
+  "Kinakalkula ng kumpanya ang nabawas na pera (pagbabayad ng buwis sa kita sa bansa sa ngalan ng manggagawa) tuwing Disyembre at ire-report sa bansa kung magkano ang buwis (income tax) na babayaran ng manggagawa sa bansa. Kapag sobra ito, ibabalik ng kumpanya ang sobrang pera sa mga manggagawa, at kapag kulang ito, magbabayad ng kulang ang mga manggagawa sa kumpanya.",
+  "o"
+ ],
+ "pj16": [
+  "Final Tax Return",
+  "Isaalang-alang ang halaga ng kita ng manggagawa mula Enero 1 hanggang Disyembre 31 at ang sitwasyon ng pamilya (dependent) kung ang manggagawa ay sumuporta sa panahong iyon. Kalkulahin ang halaga ng buwis sa base sa (income tax) at i-report ito sa bansa.",
   "o"
  ],
  "mh91": [
@@ -412,6 +462,11 @@
  "mh93": [
   "Tax Payment Certificate",
   "Mga dokumentong inilabas ng tanggapan ng gobyerno na nagpapatunay kung ang nasabing tao ay nagbabayad ng buwis.",
+  "o"
+ ],
+ "pj38": [
+  "National Health Insurance",
+  "Ang insurance na ito ay para sa mga taong hindi sakop ng health insurance ng kumpanya, sa panahon ng pinsala o karamdaman.",
   "o"
  ],
  "mh95": [
@@ -439,6 +494,11 @@
   "Gumamit ng mga buwis upang matulungan ang mga taong may kapansanan na mabuhay ng isang malusog at ligtas sa pamumuhyay.",
   "o"
  ],
+ "pj14": [
+  "Long-term Care Insurance",
+  "Insurance para sa mga taong nagtatrabaho sa kumpanya kung sakaling kailangan ng mahabang pangangalaga.",
+  "o"
+ ],
  "mh101": [
   "National Pension Insurance",
   "Insurance na sumasakop sa lahat ng mga taong nasa edad 20 at 59 sa Japan kung sakaling walang kikitaing pera sa pamamagitan ng pagtatrabaho, katulad ng sa pagtanda at pagtigilt sa kumpanya o sa pagkakasakit.",
@@ -447,6 +507,21 @@
  "mh102": [
   "Insured",
   "Ang mga taong insured at maaaring makakuha ng pera pagkatapos na tumigil sa kumpanya sa kanilang pagtanda o kapag nagkasakit sila.",
+  "o"
+ ],
+ "pj90": [
+  "Lump-sum withdrawal payment",
+  "Pera na makukuha ng mga taong umalis sa Japan Pension at bumalik sa kanilang sariling bansa. Ang mga dayuhan na nagtrabaho sa Japan, kung nagbabayad sila habang nagtatrabaho, ay makakakuha ng pera pagkakatanda nila at umalis sa kumpanya, at pagkatapos ng lahat ng mga naninirahan sa Japan ay tumanda at umalis sa kumpanya. Maaari kang makakuha ng pera para sa seguro (National Pension Insurance) at insurance na nagbibigay-daan sa mga taong nagtatrabaho upang makakuha ng pera pagkatapos na umalis sa kumpanya habang tumatanda sila (Welfare Pension Insurance). Gayunpaman, kung hindi ka babalik sa Japan pagkatapos bumalik sa iyong sariling bansa, at kung nag-apply ka sa Japan Pension Service sa loob ng dalawang taon matapos mo umalis sa Japan, maaari kang makatanggap ng lump-sum withdrawal payment alinsunod sa mga panahon na nagbayad ka.",
+  "o"
+ ],
+ "pj133": [
+  "Old-age Basic Pension",
+  "Pera na makukuha ng mga taong nasa National Pension nang higit sa 10 taon pagtungtong ng 65 anyos.",
+  "o"
+ ],
+ "pj76": [
+  "Disability Basic Pension",
+  "Pera na maaaring makuha mula sa bansa para sa mga taong nasa National Pension na nagkaroon ng kapansanan sanhi ng sakit o pinsala.",
   "o"
  ],
  "mh106": [
@@ -477,6 +552,26 @@
  "mh111": [
   "Qualification allowance",
   "Pera na makukuha mula sa kumpanya ng isang taong may espesyal na kwalipikasyon.",
+  "o"
+ ],
+ "pj2": [
+  "Childcare Leave Benefits",
+  "Makakakuha ka ng pera mula sa insurance sa trabaho kapag kailangang lumiban sa trabaho para sa pag-aalaga ng iyong anak.",
+  "o"
+ ],
+ "pj73": [
+  "Maternity Allowance",
+  "Pera na maaari mong makuha mula sa iyong health insurance kung hindi tumatanggap ng suweldo dahil sa pagliban sa trabaho para sa panganganak.",
+  "o"
+ ],
+ "pj75": [
+  "Childbirth and Nursing Lump-Sum Allowance",
+  "Pera na maaari mong makuha sa health insurance pagkapanganak.",
+  "o"
+ ],
+ "pj12": [
+  "Nursing Care Leave Benefits",
+  "Pera na maaaring makuha mula sa insurance sa trabaho para sa pamumuhay sa panahong walang trabaho para sa nursing care.",
   "o"
  ],
  "mh116": [
@@ -739,6 +834,11 @@
   "Buntis o bagong panganak na hindi lumalagpas ng isang taon.",
   "o"
  ],
+ "pj108": [
+  "Annual paid leave",
+  "Isang leave na maaari mong gamitin habang tumatanggap ng suweldo/sahod.",
+  "o"
+ ],
  "mh169": [
   "Schedule ng mga araw ng pagtatrabaho",
   "Araw ng trabaho na napagpasyahan ng kumpanya.",
@@ -797,6 +897,16 @@
  "mh180": [
   "Menstrual leave",
   "Leave para sa mga kababaihan kung may menstrual period.",
+  "o"
+ ],
+ "pj1": [
+  "Childcare leave",
+  "Mahabang leave para sa pangangalaga ng anak.",
+  "o"
+ ],
+ "pj11": [
+  "Nursing care leave",
+  "Mahabang leave para sa pagaalaga ng pamilya.",
   "o"
  ],
  "mh183": [
@@ -1264,6 +1374,11 @@
   "Kapag ang isang manggagawa ay nasugatan, nagkasakit, o namatay habang nagtatrabaho, binabayaran ito ng kumpanya.",
   "o"
  ],
+ "pj132": [
+  "Insurance para sa manggagawa na naaksidente (Worker's Accident Compensation Insurance )",
+  "Kapag ang isang manggagawa ay nasugatan, nagkasakit, o namatay habang nagtatrabaho o nagbibiyahe, binabayaran ito ng kumpanya.",
+  "o"
+ ],
  "mh277": [
   "Medical Compensation Benefits",
   "Pera na maaaring makuha mula sa Worker's Accident Compensation Insurance ng manggagawa upang magpagaling sa sakit o pumunta sa ospital kapang nasugatan o nagkasakit sanhi ng trabaho o pag-commute.",
@@ -1347,6 +1462,11 @@
  "mh293": [
   "Self-sex identification",
   "Anong kasarian ang gusto mong panindigan.",
+  "o"
+ ],
+ "pj48": [
+  "Status of residence",
+  "Katayuan ng paninirahan ng mga dayuhan sa Japan.",
   "o"
  ],
  "mh295": [
@@ -1469,6 +1589,11 @@
   "Isang tao na nag-apply para sa ilang mga pamamaraan.",
   "o"
  ],
+ "pj55": [
+  "Permit to engage in an activity other than that permitted under the status of residence previously granted",
+  "Pahintulot na ibinibigay sa mga dayuhan sa Japan kung nais nilang gumawa ng mga aktibidad na hindi sakop ng kanilang katayuan ng paninirahan sa Japan (Status of Residence).",
+  "o"
+ ],
  "mh320": [
   "Certificate of Qualification for Employment",
   "Isang sertipiko na nagsasaad kung anong uri ng trabaho ang maaaring gawin ng isang dayuhan kapag nagtatrabaho sa Japan.",
@@ -1544,6 +1669,11 @@
   "Ang isang tao na nagtatrabaho ay direktang nakakontrata sa isang kumpanya na hindi dumaan sa dispatching agency. Ang mga full-time, contractual, at mga part-time employee ay direktang kinukuha.",
   "o"
  ],
+ "pj26": [
+  "Contractual employee",
+  "Isang tao na nagpasya kung hanggang kailan siya magtatrabaho.",
+  "o"
+ ],
  "mh336": [
   "Permanent Employment",
   "Ang pag-hire ng mga taong magtatrabaho para sa kumpanya nang walang nakafixed na araw sa pagtatapos ng working period.",
@@ -1552,6 +1682,11 @@
  "mh337": [
   "Fixed-term Employment",
   "Ang pag-hire ng mga taong magtatrabaho para sa kumpanya sa isang fixed period of time.",
+  "o"
+ ],
+ "pj71": [
+  "Mga panuntunan sa trabaho",
+  "Ang mga patakaran ng kumpanya, para sa mga manggagawa at kumpanya kapag nagtatrabaho.",
   "o"
  ],
  "mh339": [
@@ -1722,6 +1857,11 @@
  "mh372": [
   "Dormitoryo",
   "Bahay kung saan magkasamang natutulog at kumakain ang mga manggagawa.",
+  "o"
+ ],
+ "pj113": [
+  "Hello Work",
+  "Isang tanggapan ng National Government Office na nagbibigay ng mga impormasyon sa mga bakanteng trabaho sa mga taong naghahanap ng trabaho.",
   "o"
  ],
  "mh374": [
@@ -1949,16 +2089,6 @@
   "Isulat ang pangalan ng tao sa isang dokumento, atbp upang ipahiwatig na kinilala ng tao ang nilalaman ng dokumento.",
   "o"
  ],
- "pj1": [
-  "Childcare leave (Ikuji Kyugyo)",
-  "Bakasyon na puwedeng kunin para mag-alaga ng anak.",
-  "c"
- ],
- "pj2": [
-  "Childcare leave benefit",
-  "Perang puwedeng matanggap mula sa Employment Insurance habang naka-childcare leave.",
-  "c"
- ],
  "pj3": [
   "Survivors' Basic Pension",
   "Perang puwedeng matanggap ng pamilya mula sa National Pension kapag namatay ang taong miyembro nito.",
@@ -1999,34 +2129,14 @@
   "Pagtulong sa mga taong nahihirapan sa pang-araw-araw na buhay (pagkain, pagligo, atbp.) dahil sa katandaan o espesyal na sakit.",
   "c"
  ],
- "pj11": [
-  "Family care leave (Kaigo Kyugyo)",
-  "Bakasyon na puwedeng kunin para mag-alaga ng kapamilya.",
-  "c"
- ],
- "pj12": [
-  "Family care leave benefit",
-  "Perang puwedeng matanggap mula sa Employment Insurance habang naka-family care leave.",
-  "c"
- ],
  "pj13": [
   "Paaralan para sa mga dayuhan",
   "Paaralan para sa mga batang dayuhan. May mga paaralang angkop sa kultura at wika ng bawat bansa.",
   "c"
  ],
- "pj14": [
-  "Long-term care insurance (Kaigo Hoken)",
-  "Sistemang nag-iipon ng pera mula sa mga edad 40 pataas para tulungan ang mga nangangailangan ng pag-aalaga.",
-  "c"
- ],
  "pj15": [
   "Circular notice board (Kairanban)",
   "Ginagamit ng neighborhood association; may mga abiso mula sa munisipyo at iba pa. Ipasa sa susunod na tao pagkatapos basahin.",
-  "c"
- ],
- "pj16": [
-  "Final tax return (Kakutei Shinkoku)",
-  "Paraan ng pagbabayad ng income tax para sa mga hindi dumadaan sa withholding o year-end adjustment ng kompanya. Magsumite ng papeles sa tax office (opisina ng buwis) sa inyong lugar.",
   "c"
  ],
  "pj17": [
@@ -2074,24 +2184,9 @@
   "Espesyalistang tumatanggap ng konsultasyon tungkol sa pag-aalaga at nagpaplano kung paano ito gagawin.",
   "c"
  ],
- "pj26": [
-  "Contract employee",
-  "Manggagawang may takdang panahon ng trabaho. Natatapos ang kontrata (kasunduan ng kompanya at manggagawa) sa loob ng 3 taon.",
-  "c"
- ],
  "pj27": [
   "Surgery (klinika ng operasyon)",
   "Ospital na gumagamot ng pinsala at nag-oopera.",
-  "c"
- ],
- "pj28": [
-  "Health insurance (Kenko Hoken)",
-  "Medical insurance para sa mga nagtatrabaho sa kompanya.",
-  "c"
- ],
- "pj29": [
-  "Withholding tax (Gensen Choshu)",
-  "Pagbabayad ng kompanya ng income tax sa gobyerno para sa iyo. Kinakaltas ito ng kompanya mula sa iyong sahod.",
   "c"
  ],
  "pj30": [
@@ -2119,11 +2214,6 @@
   "Perang ibinabayad bukod sa upa kapag patuloy kang titira sa parehong bahay pagkatapos ng kontrata.",
   "c"
  ],
- "pj35": [
-  "Employees' Pension Insurance (Kosei Nenkin)",
-  "Pension para sa mga edad hanggang 69 na nagtatrabaho nang lampas sa takdang oras sa kompanya, pabrika, tindahan, at iba pa (NO.106).",
-  "c"
- ],
  "pj36": [
   "High school equivalency exam",
   "Pagsusulit para sa mga hindi nakatapos ng high school sa Japan. Kapag pumasa, puwedeng kumuha ng entrance exam sa unibersidad, vocational school, at iba pa.",
@@ -2134,11 +2224,6 @@
   "Matrikula sa high school na binabayaran ng gobyerno para sa iyo.",
   "c"
  ],
- "pj38": [
-  "National Health Insurance (Kokumin Kenko Hoken)",
-  "Medical insurance na sinasalihan ng mga walang health insurance mula sa kompanya.",
-  "c"
- ],
  "pj39": [
   "National Pension (Kokumin Nenkin)",
   "Pension ng gobyerno na dapat salihan ng lahat ng edad 20 hanggang 59.",
@@ -2147,11 +2232,6 @@
  "pj40": [
   "Fixed asset tax (buwis sa ari-arian)",
   "Buwis na binabayaran ng may-ari ng lupa o bahay.",
-  "c"
- ],
- "pj41": [
-  "Employment insurance (Koyo Hoken)",
-  "Sistemang tumutulong sa mga walang mahanap na trabaho pagkaalis sa kompanya, at sa mga naka-childcare o family care leave.",
   "c"
  ],
  "pj42": [
@@ -2184,11 +2264,6 @@
   "Huling araw na puwedeng manatili ang dayuhan sa Japan.",
   "c"
  ],
- "pj48": [
-  "Status of residence (Zairyu Shikaku)",
-  "Mga puwedeng gawin ng dayuhan sa Japan, gaya ng magtrabaho, mag-aral, o tumira kasama ang pamilya.",
-  "c"
- ],
  "pj49": [
   "Permission to acquire status of residence",
   "Pagkuha ng residence card ng sanggol na dayuhang ipinanganak sa Japan.",
@@ -2217,11 +2292,6 @@
  "pj54": [
   "Dentistry (dentista)",
   "Ospital na gumagamot ng ngipin.",
-  "c"
- ],
- "pj55": [
-  "Permission to engage in activity other than that permitted",
-  "Natatanggap ng taong may status of residence na hindi pinapayagang magtrabaho kapag gusto niyang magtrabaho.",
   "c"
  ],
  "pj56": [
@@ -2299,49 +2369,14 @@
   "Tulong na pera para sa gamit sa paaralan, school lunch, at iba pa. Puwedeng matanggap ng mga magulang na mababa ang kita na may anak sa elementarya o junior high.",
   "c"
  ],
- "pj71": [
-  "Work rules (Shugyo Kisoku)",
-  "Detalyadong patakaran sa trabaho na itinakda ng kompanya.",
-  "c"
- ],
- "pj72": [
-  "Resident tax (Juminzei)",
-  "Buwis na binabayaran sa prefecture, lungsod, o ward ng mga nagtatrabaho na may address sa Japan tuwing Enero 1.",
-  "c"
- ],
- "pj73": [
-  "Maternity allowance",
-  "Perang puwedeng matanggap mula sa health insurance kapag lumiban sa trabaho para manganak at walang sahod.",
-  "c"
- ],
  "pj74": [
   "Birth registration",
   "Papel na isinusumite sa munisipyo kapag may ipinanganak na sanggol.",
   "c"
  ],
- "pj75": [
-  "Lump-sum childbirth allowance",
-  "Perang puwedeng matanggap mula sa health insurance at iba pa kapag nanganak.",
-  "c"
- ],
- "pj76": [
-  "Disability Basic Pension",
-  "Perang puwedeng matanggap mula sa National Pension ng taong may kapansanan.",
-  "c"
- ],
  "pj77": [
   "Disability Employees' Pension",
   "Perang puwedeng matanggap mula sa Employees' Pension Insurance ng taong may kapansanan.",
-  "c"
- ],
- "pj78": [
-  "Consumption tax",
-  "Buwis na binabayaran kapag bumibili ng gamit o gumagamit ng serbisyo.",
-  "c"
- ],
- "pj79": [
-  "Income tax",
-  "Buwis na binabayaran sa gobyerno mula sa kita (gaya ng sahod).",
   "c"
  ],
  "pj80": [
@@ -2394,11 +2429,6 @@
   "Taong naka-enroll sa National Pension at Employees' Pension Insurance. Mga nagtatrabaho sa kompanya, pabrika, tindahan, at iba pa.",
   "c"
  ],
- "pj90": [
-  "Lump-sum Withdrawal Payment",
-  "Perang maaaring matanggap ng taong titigil sa pension ng Japan at uuwi sa sariling bansa.",
-  "c"
- ],
  "pj91": [
   "Part-time Worker",
   "Mga part-timer o arubaito na mas maikli ang oras ng trabaho kaysa sa regular na empleyado.",
@@ -2437,11 +2467,6 @@
  "pj98": [
   "Special Child Rearing Allowance",
   "Perang maaaring matanggap ng taong nag-aalaga ng batang may kapansanan.",
-  "c"
- ],
- "pj99": [
-  "Special Collection (Pagbabawas ng Buwis sa Sahod)",
-  "Ang kompanya ang nagbabayad ng residence tax ng empleyado sa munisipyo. Ibinabawas ng kompanya ang buwis sa iyong sahod.",
   "c"
  ],
  "pj100": [
@@ -2484,16 +2509,6 @@
   "Handbook na natatanggap ng taong naka-enroll sa pension.",
   "c"
  ],
- "pj108": [
-  "Annual Paid Leave",
-  "Bakasyon kung saan may sahod ka pa rin kahit hindi pumasok sa trabaho.",
-  "c"
- ],
- "pj109": [
-  "Year-end Tax Adjustment",
-  "Sistema kung saan sa Disyembre, kinukuwenta at inaayos ng kompanya ang income tax na ibinawas sa sahod. Kung sobra, ibabalik sa iyo ng kompanya ang pera. Kung kulang, ikaw ang magbabayad sa kompanya.",
-  "c"
- ],
  "pj110": [
   "Dispatched Worker",
   "Taong may kontrata sa dispatch agency at nagtatrabaho sa ibang kompanya.",
@@ -2507,11 +2522,6 @@
  "pj112": [
   "Klase para sa mga Magiging Ina at Ama",
   "Lugar kung saan itinuturo sa mga bagong magiging magulang ang mahahalagang bagay sa panganganak at pag-aalaga ng sanggol.",
-  "c"
- ],
- "pj113": [
-  "Hello Work",
-  "Opisina ng gobyerno na nagpapakilala ng trabaho.",
   "c"
  ],
  "pj114": [
@@ -2602,16 +2612,6 @@
  "pj131": [
   "Joint Guarantor (sa Kontrata ng Pag-upa)",
   "Taong magbabayad ng upa kapalit ng umuupa kapag hindi ito makabayad.",
-  "c"
- ],
- "pj132": [
-  "Workers' Accident Compensation Insurance",
-  "Sistemang nangongolekta ng pera mula sa mga kompanya para tulungan ang mga nasaktan o nagkasakit dahil sa trabaho.",
-  "c"
- ],
- "pj133": [
-  "Old-age Basic Pension",
-  "Perang maaaring matanggap mula sa National Pension ng mga 65 taong gulang pataas.",
   "c"
  ],
  "pj134": [

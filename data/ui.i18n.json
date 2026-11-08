@@ -165,7 +165,8 @@
     "info.hasLang": "{lang}が あります",
     "glossary.draftShort": "下書き",
     "glossary.official": "国の用語集",
-    "glossary.legend": "「国の用語集」は、国が作った用語集の説明です。「下書き」は、Claude が書いた説明です。日本語の先生は、まだ「下書き」を見ていません。"
+    "glossary.legend": "「国の用語集」は、国が作った用語集の説明です。「下書き」は、Claude が書いた説明です。日本語の先生は、まだ「下書き」を見ていません。",
+    "glossary.trByMhlw": "訳: 厚生労働省（国の役所）の ことばの リスト"
   },
   "en": {
     "app.name": "JAWS: Good for Japanese",
@@ -333,7 +334,8 @@
     "info.hasLang": "Available in {lang}",
     "glossary.draftShort": "Draft",
     "glossary.official": "Official glossary",
-    "glossary.legend": "\"Official glossary\" entries come from a glossary made by the Japanese government. \"Draft\" entries were written by Claude. A Japanese teacher has not checked the \"Draft\" entries yet."
+    "glossary.legend": "\"Official glossary\" entries come from a glossary made by the Japanese government. \"Draft\" entries were written by Claude. A Japanese teacher has not checked the \"Draft\" entries yet.",
+    "glossary.trByMhlw": "Translation: Glossary by the Ministry of Health, Labour and Welfare (MHLW)"
   },
   "zh": {
     "app.name": "JAWS 日语说得很好",
@@ -501,7 +503,8 @@
     "info.hasLang": "有{lang}版",
     "glossary.draftShort": "草稿",
     "glossary.official": "国家术语集",
-    "glossary.legend": "“国家术语集”是国家编写的术语集中的解释。“草稿”是 Claude 写的解释，日语老师还没有确认过。"
+    "glossary.legend": "“国家术语集”是国家编写的术语集中的解释。“草稿”是 Claude 写的解释，日语老师还没有确认过。",
+    "glossary.trByMhlw": "译文：厚生劳动省（日本政府部门）的用语表"
   },
   "vi": {
     "app.name": "JAWS: Giỏi tiếng Nhật",
@@ -669,7 +672,8 @@
     "info.hasLang": "Có {lang}",
     "glossary.draftShort": "Bản nháp",
     "glossary.official": "Thuật ngữ chính thức",
-    "glossary.legend": "\"Thuật ngữ chính thức\" là giải thích lấy từ bảng thuật ngữ do nhà nước Nhật Bản soạn. \"Bản nháp\" là giải thích do Claude viết. Giáo viên tiếng Nhật chưa kiểm tra \"Bản nháp\"."
+    "glossary.legend": "\"Thuật ngữ chính thức\" là giải thích lấy từ bảng thuật ngữ do nhà nước Nhật Bản soạn. \"Bản nháp\" là giải thích do Claude viết. Giáo viên tiếng Nhật chưa kiểm tra \"Bản nháp\".",
+    "glossary.trByMhlw": "Bản dịch: Danh sách từ ngữ của Bộ Y tế, Lao động và Phúc lợi (cơ quan nhà nước)"
   },
   "tl": {
     "app.name": "JAWS: Magaling sa Nihongo",
@@ -837,7 +841,8 @@
     "info.hasLang": "May {lang}",
     "glossary.draftShort": "Draft",
     "glossary.official": "Opisyal na glosaryo",
-    "glossary.legend": "Ang \"Opisyal na glosaryo\" ay paliwanag mula sa glosaryong ginawa ng gobyerno. Ang \"Draft\" ay paliwanag na isinulat ni Claude. Hindi pa ito nasusuri ng guro ng Japanese."
+    "glossary.legend": "Ang \"Opisyal na glosaryo\" ay paliwanag mula sa glosaryong ginawa ng gobyerno. Ang \"Draft\" ay paliwanag na isinulat ni Claude. Hindi pa ito nasusuri ng guro ng Japanese.",
+    "glossary.trByMhlw": "Salin: listahan ng mga salita ng Ministry of Health, Labour and Welfare (MHLW, ahensya ng gobyerno ng Japan)"
   },
   "ne": {
     "app.name": "JAWS: राम्रो जापानी",
@@ -1005,7 +1010,8 @@
     "info.hasLang": "{lang} उपलब्ध",
     "glossary.draftShort": "मस्यौदा",
     "glossary.official": "सरकारी शब्दावली",
-    "glossary.legend": "「सरकारी शब्दावली」 भनेको सरकारले बनाएको शब्दावलीको व्याख्या हो। 「मस्यौदा」 भनेको Claude ले लेखेको व्याख्या हो। जापानी भाषाका शिक्षकले अझै 「मस्यौदा」 हेर्नुभएको छैन।"
+    "glossary.legend": "「सरकारी शब्दावली」 भनेको सरकारले बनाएको शब्दावलीको व्याख्या हो। 「मस्यौदा」 भनेको Claude ले लेखेको व्याख्या हो। जापानी भाषाका शिक्षकले अझै 「मस्यौदा」 हेर्नुभएको छैन।",
+    "glossary.trByMhlw": "अनुवाद: स्वास्थ्य, श्रम तथा कल्याण मन्त्रालय (जापान सरकारको कार्यालय) को शब्दसूची"
   },
   "id": {
     "app.name": "JAWS: Jago Bahasa Jepang",
@@ -1173,7 +1179,8 @@
     "info.hasLang": "Tersedia dalam {lang}",
     "glossary.draftShort": "Draf",
     "glossary.official": "Glosarium resmi",
-    "glossary.legend": "\"Glosarium resmi\" adalah penjelasan dari glosarium yang dibuat oleh pemerintah. \"Draf\" adalah penjelasan yang ditulis oleh Claude. Guru bahasa Jepang belum memeriksa \"Draf\" ini."
+    "glossary.legend": "\"Glosarium resmi\" adalah penjelasan dari glosarium yang dibuat oleh pemerintah. \"Draf\" adalah penjelasan yang ditulis oleh Claude. Guru bahasa Jepang belum memeriksa \"Draf\" ini.",
+    "glossary.trByMhlw": "Terjemahan: daftar istilah dari Kementerian Kesehatan, Ketenagakerjaan, dan Kesejahteraan Jepang (MHLW)"
   },
   "pt": {
     "app.name": "JAWS: Bom de Japonês",
@@ -1341,7 +1348,8 @@
     "info.hasLang": "Disponível em {lang}",
     "glossary.draftShort": "Rascunho",
     "glossary.official": "Glossário oficial",
-    "glossary.legend": "\"Glossário oficial\" é a explicação do glossário feito pelo governo do Japão. \"Rascunho\" é a explicação escrita pelo Claude. O professor de japonês ainda não revisou o \"Rascunho\"."
+    "glossary.legend": "\"Glossário oficial\" é a explicação do glossário feito pelo governo do Japão. \"Rascunho\" é a explicação escrita pelo Claude. O professor de japonês ainda não revisou o \"Rascunho\".",
+    "glossary.trByMhlw": "Tradução: glossário do Ministério da Saúde, Trabalho e Bem-Estar do Japão"
   },
   "ko": {
     "app.name": "JAWS 일본어 잘하다",
@@ -1509,7 +1517,8 @@
     "info.hasLang": "{lang} 있음",
     "glossary.draftShort": "초안",
     "glossary.official": "국가 용어집",
-    "glossary.legend": "'국가 용어집'은 국가가 만든 용어집의 설명입니다. '초안'은 Claude가 쓴 설명입니다. 일본어 선생님이 아직 '초안'을 확인하지 않았습니다."
+    "glossary.legend": "'국가 용어집'은 국가가 만든 용어집의 설명입니다. '초안'은 Claude가 쓴 설명입니다. 일본어 선생님이 아직 '초안'을 확인하지 않았습니다.",
+    "glossary.trByMhlw": "번역: 후생노동성(일본 정부 기관)의 용어집"
   },
   "my": {
     "app.name": "JAWS ဂျပန်စကား တော်တယ်",
@@ -1677,6 +1686,7 @@
     "info.hasLang": "{lang} ရှိသည်",
     "glossary.draftShort": "မူကြမ်း",
     "glossary.official": "အစိုးရ ဝေါဟာရစာရင်း",
-    "glossary.legend": "「အစိုးရ ဝေါဟာရစာရင်း」 ဆိုတာ အစိုးရက ပြုစုထားတဲ့ ဝေါဟာရစာရင်းထဲက ရှင်းလင်းချက်ပါ။ 「မူကြမ်း」 ဆိုတာ Claude ရေးထားတဲ့ ရှင်းလင်းချက်ပါ။ ဂျပန်စာ ဆရာက 「မူကြမ်း」 ကို မစစ်ဆေးရသေးပါ။"
+    "glossary.legend": "「အစိုးရ ဝေါဟာရစာရင်း」 ဆိုတာ အစိုးရက ပြုစုထားတဲ့ ဝေါဟာရစာရင်းထဲက ရှင်းလင်းချက်ပါ။ 「မူကြမ်း」 ဆိုတာ Claude ရေးထားတဲ့ ရှင်းလင်းချက်ပါ။ ဂျပန်စာ ဆရာက 「မူကြမ်း」 ကို မစစ်ဆေးရသေးပါ။",
+    "glossary.trByMhlw": "ဘာသာပြန်: ကျန်းမာရေး၊ အလုပ်သမားနှင့် လူမှုဖူလုံရေးဝန်ကြီးဌာန (ဂျပန်အစိုးရ) ၏ ဝေါဟာရစာရင်း"
   }
 }

@@ -269,6 +269,26 @@
   "Tax a worker pays to the government. His/her company will pay the tax on behalf of the worker.",
   "o"
  ],
+ "pj72": [
+  "Residence tax",
+  "Tax paid to the prefecture or municipality where you live.",
+  "o"
+ ],
+ "pj28": [
+  "Health insurance",
+  "Medical insurance a company worker joins to get insured when he/she gets injured or ill.",
+  "o"
+ ],
+ "pj35": [
+  "Welfare pension insurance",
+  "A pension for people until 60 years old who works in a company more than the required hours in order to get some pension money after they get old and quit the company.",
+  "o"
+ ],
+ "pj41": [
+  "Employment insurance",
+  "Insurance for when someone cannot not find a new job after losing a previous one or leaving a company.",
+  "o"
+ ],
  "mh59": [
   "Burden of an insured person",
   "The amount of insurance an insured person has to pay.",
@@ -359,6 +379,16 @@
   "The way the company calculates employee's wage and pays.",
   "o"
  ],
+ "pj78": [
+  "Consumption Tax",
+  "Taxes you pay when you purchase an item or service.",
+  "o"
+ ],
+ "pj79": [
+  "Income Tax",
+  "Taxes paid to the government by those who work and receive money.",
+  "o"
+ ],
  "mh79": [
   "Income (Employment Income)",
   "The remaining amount from money a worker gets after working for a year (salary) subtracted with the necessary expenses for employment (this is called employment income deduction).",
@@ -394,9 +424,29 @@
   "To reduce the amount of tax to pay by subtracting a certain amount of money from the amount of money (income) remained after subtracting with the necessary expenses for employment in order to fund taxpayers to look after their family members.",
   "o"
  ],
+ "pj29": [
+  "Withholding",
+  "A system in which the company pays income tax to the government on behalf of the workers by subtracting their tax (income tax) from their salary.",
+  "o"
+ ],
  "mh87": [
   "Withholding Slip",
   "A document describing how much money an employee got from the company and how much tax he/she has paid to the government, in a year span from January 1st to December 31st.",
+  "o"
+ ],
+ "pj99": [
+  "Special Collection (Levy)",
+  "A system in which the company pays tax to the prefecture or municipality of residence (residence tax) on behalf of the workers by subtracting their taxes from their salaries.",
+  "o"
+ ],
+ "pj109": [
+  "Year-end adjustment",
+  "The company calculates the withholding tax (payment of income tax to the country on behalf of the worker) in December and notifies the country how much tax (income tax) the worker will pay. When the amount is too much, the company returns the money to the worker, and when the amount is too little, the worker pays the company.",
+  "o"
+ ],
+ "pj16": [
+  "Final tax return",
+  "Workers calculate and notify the country the amount of taxes to pay considering the amount of money he/she worked for from January 1st to December 31st and their family composition (dependents) during that period.",
   "o"
  ],
  "mh91": [
@@ -412,6 +462,11 @@
  "mh93": [
   "Tax payment certificate",
   "Document issued from city/ward office to prove that the person is paying taxes.",
+  "o"
+ ],
+ "pj38": [
+  "National health insurance",
+  "This insurance is for people who are not covered by a company health insurance in case of injury or illness.",
   "o"
  ],
  "mh95": [
@@ -439,6 +494,11 @@
   "To help people with disabilities to live a healthy and safe life with using tax.",
   "o"
  ],
+ "pj14": [
+  "Nursing care insurance",
+  "Insurance for people who work for the company in case they need long-term care.",
+  "o"
+ ],
  "mh101": [
   "National pension insurance",
   "Insurance that covers all people between the ages of 20 and 59 in Japan in case they cannot get money by working, such as when you get old and quit the company or get sick.",
@@ -447,6 +507,21 @@
  "mh102": [
   "Insured person",
   "People who are insured and can get money after quitting their job due to age or when they get sick.",
+  "o"
+ ],
+ "pj90": [
+  "Lump-sum withdrawal",
+  "Money that can be obtained by people who leave the Japanese pension system and return to their own country. Foreigners who worked in Japan and paid part of their salary while working, can get money from insurance (national pension system) if they stay in Japan after getting old and stop working, and insurance that allows workers to get money after quitting working as they age (social pension insurance). However, a lump sum withdrawal payment proportional to the period during which the person was paying the insurance money may be received in case of not returning to Japan after returning to their own country, if a request is submitted to the Service of Japan Pensions within a maximum of two years after their departure from Japan.",
+  "o"
+ ],
+ "pj133": [
+  "Basic old age pension",
+  "Money that a person who has been in the national pension for 10 years or more can get after turning 65 years old.",
+  "o"
+ ],
+ "pj76": [
+  "Disability basic pension",
+  "Money that can be obtained from the country for people who join the national pension and have physical disabilities due to illness or injury.",
   "o"
  ],
  "mh106": [
@@ -477,6 +552,26 @@
  "mh111": [
   "Qualification allowance",
   "Money that those who has special qualifications can receive from a company.",
+  "o"
+ ],
+ "pj2": [
+  "Childcare leave benefits",
+  "Money you can get from the employment insurance when you take days off to raise your children.",
+  "o"
+ ],
+ "pj73": [
+  "Maternity allowance",
+  "Money you can get from the health insurance when you do not get your salary for taking days off to give birth.",
+  "o"
+ ],
+ "pj75": [
+  "Lump-sum allowance for childbirth",
+  "Money you can get from the health insurance when you give birth.",
+  "o"
+ ],
+ "pj12": [
+  "Nursing care leave benefits",
+  "Money you can get from the employment insurance for living during the period you took days off to take care of your family members.",
   "o"
  ],
  "mh116": [
@@ -739,6 +834,11 @@
   "Pregnant women or nursing mothers with babies less than one year old.",
   "o"
  ],
+ "pj108": [
+  "Annual paid leave",
+  "Holiday you can take while still receiving a salary.",
+  "o"
+ ],
  "mh169": [
   "Regular working days",
   "Working days decided by the company.",
@@ -797,6 +897,16 @@
  "mh180": [
   "Menstrual leave",
   "A leave for women during menstruation.",
+  "o"
+ ],
+ "pj1": [
+  "Childcare leave",
+  "A long leave to raise a child.",
+  "o"
+ ],
+ "pj11": [
+  "Family care leave",
+  "A long leave to take care of your family members.",
   "o"
  ],
  "mh183": [
@@ -1264,6 +1374,11 @@
   "To get compensated with money by the company when a worker is injured, becomes ill, or dies while working.",
   "o"
  ],
+ "pj132": [
+  "Worker's accident insurance",
+  "Workers' accident compensation insurance. To get compensated with money by a company when its worker get injured, becomes ill, or dies while working or commuting.",
+  "o"
+ ],
  "mh277": [
   "Medical compensation benefit",
   "Money that is paid from the workers' accident insurance to cure an illness or go to the hospital when a worker gets injured or sick due when working or commuting.",
@@ -1347,6 +1462,11 @@
  "mh293": [
   "Gender identity",
   "What gender you identify as.",
+  "o"
+ ],
+ "pj48": [
+  "Status of evidence",
+  "What foreign nationals can do in Japan.",
   "o"
  ],
  "mh295": [
@@ -1469,6 +1589,11 @@
   "A person applying for some procedure.",
   "o"
  ],
+ "pj55": [
+  "Permission to engage in an activity other than that permitted by the status of residence",
+  "Permission given to foreign nationals staying in Japan when they would like to do some activities that cannot be done with the status of residence they have.",
+  "o"
+ ],
  "mh320": [
   "Certificate of Qualification for Employment",
   "A certificate that describes what kind of work the foreigner can do when he / she works in Japan.",
@@ -1544,6 +1669,11 @@
   "To hire a worker by making a contract with the worker directly not through a dispatch company. Full-time employees, contract employee, part-time employees are directly hired.",
   "o"
  ],
+ "pj26": [
+  "Contract worker",
+  "A person whose work term is determined.",
+  "o"
+ ],
  "mh336": [
   "Indefinite period contract",
   "Hiring workers without a definite ending day of their working period",
@@ -1552,6 +1682,11 @@
  "mh337": [
   "Fixed term contract",
   "Hiring workers with a fixed day at the end of the working period",
+  "o"
+ ],
+ "pj71": [
+  "Work rules",
+  "The rules established for the workers and the company, decided by the company.",
   "o"
  ],
  "mh339": [
@@ -1722,6 +1857,11 @@
  "mh372": [
   "Dormitory / Boarding house",
   "A house where workers sleep and eat together.",
+  "o"
+ ],
+ "pj113": [
+  "Hello Work",
+  "A national government office that introduces jobs to people looking for a job.",
   "o"
  ],
  "mh374": [
@@ -2394,11 +2534,6 @@
   "A person enrolled in both the National Pension and Employees' Pension Insurance, such as people working at companies, factories, or shops.",
   "c"
  ],
- "pj90": [
-  "Lump-sum withdrawal payment",
-  "Money that people who leave the Japanese pension system and return to their home country can receive.",
-  "c"
- ],
  "pj91": [
   "Short-time worker",
   "Part-time workers and others who work fewer hours than full-time employees.",
@@ -2437,11 +2572,6 @@
  "pj98": [
   "Special Child Rearing Allowance",
   "Money that people raising a child with a disability can receive.",
-  "c"
- ],
- "pj99": [
-  "Special collection (payroll deduction of resident tax)",
-  "When a company pays employees' resident tax to their local city office. The company deducts the tax from your salary.",
   "c"
  ],
  "pj100": [
@@ -2484,16 +2614,6 @@
   "A booklet given to people who join the pension system.",
   "c"
  ],
- "pj108": [
-  "Annual paid leave",
-  "Days off work for which you still receive your salary.",
-  "c"
- ],
- "pj109": [
-  "Year-end tax adjustment",
-  "In December, your company recalculates the income tax withheld. If too much was withheld, you get money back; if too little, you pay the company.",
-  "c"
- ],
  "pj110": [
   "Dispatched worker (temp worker)",
   "A person who has a contract with a staffing agency and works at another company.",
@@ -2507,11 +2627,6 @@
  "pj112": [
   "Parenting classes for expectant mothers and fathers",
   "Classes that teach new parents important things about giving birth and raising a baby.",
-  "c"
- ],
- "pj113": [
-  "Hello Work",
-  "A government office that helps people find jobs.",
   "c"
  ],
  "pj114": [
@@ -2602,16 +2717,6 @@
  "pj131": [
   "Joint guarantor (for a rental contract)",
   "A person who pays the rent instead if the tenant cannot pay.",
-  "c"
- ],
- "pj132": [
-  "Workers' accident compensation insurance",
-  "A system funded by companies that helps people injured or sick because of work.",
-  "c"
- ],
- "pj133": [
-  "Old-age Basic Pension",
-  "Money people aged 65 or older can receive from the National Pension.",
   "c"
  ],
  "pj134": [
@@ -2749,16 +2854,6 @@
   "Money paid for insurance.",
   "c"
  ],
- "pj1": [
-  "Childcare leave",
-  "Time off you can take from work to raise your child.",
-  "c"
- ],
- "pj2": [
-  "Childcare leave benefit",
-  "Money you can receive from Employment Insurance while you are on childcare leave.",
-  "c"
- ],
  "pj3": [
   "Basic survivors' pension",
   "Money the family can receive from the National Pension when a person enrolled in it dies.",
@@ -2799,34 +2894,14 @@
   "Helping people who have difficulty with daily life (eating, bathing, etc.) because of old age or a serious illness.",
   "c"
  ],
- "pj11": [
-  "Family care leave",
-  "Time off you can take from work to care for a family member.",
-  "c"
- ],
- "pj12": [
-  "Family care leave benefit",
-  "Money you can receive from Employment Insurance while you are on family care leave.",
-  "c"
- ],
  "pj13": [
   "International / foreign school",
   "A school for foreign children. There are schools suited to the culture and language of each country.",
   "c"
  ],
- "pj14": [
-  "Long-term care insurance",
-  "A system that collects money from people aged 40 and over to help people who need nursing care.",
-  "c"
- ],
  "pj15": [
   "Circular notice board (kairanban)",
   "A board used by the neighborhood association with notices from the city office and others. After reading it, pass it to the next household.",
-  "c"
- ],
- "pj16": [
-  "Final tax return",
-  "A way of paying income tax for people whose tax is not withheld or adjusted at year-end by an employer. You submit documents to your local tax office.",
   "c"
  ],
  "pj17": [
@@ -2874,24 +2949,9 @@
   "A specialist who gives advice on nursing care and plans how care will be provided.",
   "c"
  ],
- "pj26": [
-  "Contract employee",
-  "A worker whose period of employment is fixed. The contract (an agreement between the company and the worker) ends within 3 years.",
-  "c"
- ],
  "pj27": [
   "Surgery",
   "A clinic or department that treats injuries and performs operations.",
-  "c"
- ],
- "pj28": [
-  "Health insurance (employee)",
-  "Medical insurance for people who work at a company.",
-  "c"
- ],
- "pj29": [
-  "Tax withholding",
-  "Your employer pays income tax to the government for you by deducting it from your salary.",
   "c"
  ],
  "pj30": [
@@ -2919,11 +2979,6 @@
   "Money paid in addition to rent when you renew your lease and stay in the same home.",
   "c"
  ],
- "pj35": [
-  "Employees' Pension Insurance",
-  "A pension for people up to age 69 who work at least a set number of hours at a company, factory, shop, etc.",
-  "c"
- ],
  "pj36": [
   "High school equivalency exam",
   "An exam for people who did not graduate from a Japanese high school. If you pass, you can take entrance exams for universities, vocational schools, etc.",
@@ -2934,11 +2989,6 @@
   "High school tuition that the government pays for you.",
   "c"
  ],
- "pj38": [
-  "National Health Insurance",
-  "Medical insurance that people not covered by an employer's health insurance join themselves.",
-  "c"
- ],
  "pj39": [
   "National Pension",
   "The national pension that everyone aged 20 to 59 must join.",
@@ -2947,11 +2997,6 @@
  "pj40": [
   "Fixed asset tax (property tax)",
   "A tax paid by people who own land or buildings.",
-  "c"
- ],
- "pj41": [
-  "Employment Insurance",
-  "A system that helps people who cannot find work after leaving a job, and people on childcare or family care leave.",
   "c"
  ],
  "pj42": [
@@ -2984,11 +3029,6 @@
   "The last day a foreign national can stay in Japan.",
   "c"
  ],
- "pj48": [
-  "Status of residence (visa status)",
-  "What a foreign national is allowed to do in Japan, such as work, attend school, or live with family.",
-  "c"
- ],
  "pj49": [
   "Permission to acquire status of residence",
   "Getting a residence card for a foreign baby born in Japan.",
@@ -3017,11 +3057,6 @@
  "pj54": [
   "Dentistry",
   "A clinic that treats teeth.",
-  "c"
- ],
- "pj55": [
-  "Permission to engage in activity other than that permitted",
-  "Permission needed when a person whose status of residence does not allow work wants to work.",
   "c"
  ],
  "pj56": [
@@ -3099,49 +3134,14 @@
   "Financial help for school supplies, school lunches, etc. Parents of elementary and junior high school students with low income can receive it.",
   "c"
  ],
- "pj71": [
-  "Work rules",
-  "Detailed rules for working, set by the company.",
-  "c"
- ],
- "pj72": [
-  "Resident tax",
-  "A tax paid to the prefecture and city/ward by working people who had an address in Japan on January 1.",
-  "c"
- ],
- "pj73": [
-  "Maternity allowance",
-  "Money you can receive from health insurance when you take time off work to give birth and do not receive a salary.",
-  "c"
- ],
  "pj74": [
   "Birth registration",
   "A form submitted to the city office when a baby is born.",
   "c"
  ],
- "pj75": [
-  "Lump-sum childbirth allowance",
-  "Money you can receive from health insurance, etc. when you give birth.",
-  "c"
- ],
- "pj76": [
-  "Basic disability pension",
-  "Money people with a disability can receive from the National Pension.",
-  "c"
- ],
  "pj77": [
   "Disability employees' pension",
   "Money people with a disability can receive from Employees' Pension Insurance.",
-  "c"
- ],
- "pj78": [
-  "Consumption tax",
-  "A tax paid when you buy goods or services.",
-  "c"
- ],
- "pj79": [
-  "Income tax",
-  "A tax paid to the government on your income (such as wages from work).",
   "c"
  ],
  "pj80": [

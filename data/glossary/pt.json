@@ -269,6 +269,26 @@
   "Imposto que os funcionários pagam ao país. A empresa utiliza um sistema de pagamento para pagar no lugar dessa pessoa.",
   "o"
  ],
+ "pj72": [
+  "Imposto residencial",
+  "Imposto que se paga à província e cidade onde mora.",
+  "o"
+ ],
+ "pj28": [
+  "Seguro de saúde",
+  "Seguro médico que o funcionário da empresa entra para caso sofra algum ferimento ou doença.",
+  "o"
+ ],
+ "pj35": [
+  "Seguro de pensão e bem-estar",
+  "Pensão que é entrada por pessoas de até 69 anos que trabalham mais do que as horas decididas pela empresa para receber dinheiro mesmo depois de se desligarem da empresa por conta da idade.",
+  "o"
+ ],
+ "pj41": [
+  "Seguro desemprego",
+  "Seguro para quando não se tem trabalho, ou quando não se acha trabalho após se desligar da empresa.",
+  "o"
+ ],
  "mh59": [
   "Bancado pelo segurado",
   "Pagar o valor do seguro que deve ser pago pela pessoa que está no seguro.",
@@ -359,6 +379,16 @@
   "Forma de cálculo e pagamento do salário das pessoas que trabalham na empresa.",
   "o"
  ],
+ "pj78": [
+  "Imposto de consumo",
+  "Impostos a pagar quando na compra de algo ou quando receber um serviço.",
+  "o"
+ ],
+ "pj79": [
+  "Imposto de renda",
+  "Impostos pagos ao governo por quem trabalha e é remunerado.",
+  "o"
+ ],
  "mh79": [
   "Renda (renda salarial)",
   "O valor restante após a subtração do dinheiro necessário para trabalhar (dedução da renda salarial) do dinheiro (renda) que o funcionário foi remunerado em 1 ano.",
@@ -394,9 +424,29 @@
   "No caso de o contribuinte estar sustentando membros da família (dependentes), o imposto a ser pago pode ser reduzido quando um certo valor para subsidiar o dependente é deduzido do valor da renda que sobra após descontar o valor necessário para trabalhar.",
   "o"
  ],
+ "pj29": [
+  "Retenção na fonte",
+  "Quando a empresa paga o salário, o imposto (imposto de renda) que o funcionário deve pagar ao governo é subtraído do salário, e a empresa paga o imposto de renda ao governo em nome do trabalhador.",
+  "o"
+ ],
  "mh87": [
   "Comprovante de renda com retenção na fonte",
   "Documento que informa quanto o trabalhador recebeu de salário da empresa e quanto de imposto pagou ao governo durante um ano, a partir do dia 1 de janeiro ao dia 31 de dezembro.",
+  "o"
+ ],
+ "pj99": [
+  "Recolhimento especial",
+  "Sistema de pagamento do imposto residencial no qual a empresa subtrai do salário o imposto (imposto residencial) a ser pago à prefeitura ou município onde o funcionário mora, e a mesma paga à prefeitura ou município onde a pessoa reside no lugar dela.",
+  "o"
+ ],
+ "pj109": [
+  "Ajuste fiscal de fim de ano",
+  "Cálculo que a empresa faz em dezembro do valor que foi retirado direto da fonte (a empresa paga o imposto de renda ao governo em nome do trabalhador), e informa ao governo quanto será o valor do imposto (imposto de renda) que o funcionário pagará ao governo. No caso de exceder, a empresa devolve o dinheiro ao funcionário, e no caso do valor ser insuficiente, o funcionário paga à empresa.",
+  "o"
+ ],
+ "pj16": [
+  "Declaração fiscal",
+  "Cálculo e declaração que o trabalhador faz ao governo sobre o valor do imposto (imposto de renda) a ser pago para o governo, considerando o valor recebido do trabalho em um ano, desde o dia 1 de janeiro até dia 31 de dezembro e as condições da família que ele sustenta (dependentes) durante esse período, etc.",
   "o"
  ],
  "mh91": [
@@ -412,6 +462,11 @@
  "mh93": [
   "Certificado de pagamento de imposto",
   "Documento emitido pela prefeitura que prova que esta pessoa está pagando imposto.",
+  "o"
+ ],
+ "pj38": [
+  "Seguro Nacional de Saúde",
+  "Seguro para o caso de doença ou lesão, e para pessoas que não estão no seguro de saúde da empresa.",
   "o"
  ],
  "mh95": [
@@ -439,6 +494,11 @@
   "Utilizar os impostos para ajudar pessoas com deficiências para que possam viver com saúde e segurança.",
   "o"
  ],
+ "pj14": [
+  "Seguro de Cuidados e Assistência",
+  "Seguro que trabalhadores de empresas entram para quando necessitarem de assistência e cuidado.",
+  "o"
+ ],
  "mh101": [
   "Plano Nacional de aposentadoria",
   "Seguro que todas as pessoas entre 20 e 59 anos no Japão entram para quando não puderem mais trabalhar e receber, como quando se desligarem da empresa por questões de idade, doença, etc.",
@@ -447,6 +507,21 @@
  "mh102": [
   "Segurado",
   "A pessoa que está no seguro e a pessoa que consegue receber dinheiro após se desligar da empresa por questões de idade, ou quando fica doente, e etc.",
+  "o"
+ ],
+ "pj90": [
+  "Retirada do montante total",
+  "No caso de um estrangeiro trabalhar no Japão e contribuir durante o período trabalhado, ao se desligar da empresa na velhice, este pode receber dinheiro da aposentadoria do seguro (plano nacional de aposentaria) que pode ser recebido por todos que residem no Japão após se desligarem da empresa por velhice, ou do seguro (plano de previdência social), que pode ser recebido ao se desligar da empresa que trabalha por velhice. No entanto, no caso de voltar para o país de origem e não retornar mais ao Japão, fazendo a solicitação do serviço de aposentadoria do Japão em menos de 2 anos após a saída do Japão, é possível fazer a retirada do montante de acordo com o período em que pagou o seguro.",
+  "o"
+ ],
+ "pj133": [
+  "Pensão Básica de Velhice",
+  "Dinheiro que é possível ser recebido depois dos 65 anos pelas pessoas que estão no plano de aposentadoria nacional por mais de 10 anos.",
+  "o"
+ ],
+ "pj76": [
+  "Pensão Básica por Invalidez",
+  "Valor que é possível receber do governo pelas pessoas que estão na aposentadoria nacional e que possuem uma deficiência no corpo e/ou outros lugares por conta de doença ou lesão.",
   "o"
  ],
  "mh106": [
@@ -477,6 +552,26 @@
  "mh111": [
   "Subsídio de qualificação",
   "Valor que uma pessoa com uma qualificação especial pode receber da empresa.",
+  "o"
+ ],
+ "pj2": [
+  "Benefícios de licença de maternidade",
+  "Valor que pode ser obtido usando o seguro de emprego quando se ausentar do trabalho para cuidar de filhos.",
+  "o"
+ ],
+ "pj73": [
+  "Subsídio de parto",
+  "Valor que pode ser obtido usando o seguro de saúde quando se ausentar do trabalho para o parto e não receber salário.",
+  "o"
+ ],
+ "pj75": [
+  "Auxílio temporário para o parto e para cuidar de filhos",
+  "Valor que pode ser recebido através do seguro de saúde e outros, quando nasce um filho.",
+  "o"
+ ],
+ "pj12": [
+  "Benefício de licença para cuidados familiares",
+  "Valor que pode ser obtido utilizando o seguro de emprego para subsistência durante o período de ausência no trabalho para cuidados familiares.",
   "o"
  ],
  "mh116": [
@@ -739,6 +834,11 @@
   "Mulher grávida ou que teve filho há menos de um ano atrás.",
   "o"
  ],
+ "pj108": [
+  "Férias anuais remuneradas",
+  "Folga que pode ser tirada recebendo salário.",
+  "o"
+ ],
  "mh169": [
   "Dia de trabalho regular",
   "Dias de trabalho determinados pela empresa.",
@@ -797,6 +897,16 @@
  "mh180": [
   "Licença menstrual",
   "Folga para mulheres durante o período menstrual.",
+  "o"
+ ],
+ "pj1": [
+  "Licença para cuidados aos filhos",
+  "Folga longa para cuidar dos filhos.",
+  "o"
+ ],
+ "pj11": [
+  "Licença de assistência familiar",
+  "Folga longa para prestar assistência domiciliar à família.",
   "o"
  ],
  "mh183": [
@@ -1264,6 +1374,11 @@
   "Dinheiro e outros meios que a empresa usa como compensa quando um funcionário fica ferido, doente ou falece durante o trabalho.",
   "o"
  ],
+ "pj132": [
+  "Seguro de acidente de Trabalho",
+  "Seguro de indenização por acidente de trabalho para funcionários. Dinheiro e outros meios que a empresa usa como compensa quando o funcionário fica ferido, doente ou felece durante o trabalho ou no trajeto de ida ou volta do trabalho.",
+  "o"
+ ],
  "mh277": [
   "Benefício de compensação de tratamento médico",
   "Dinheiro que pode ser obtido do seguro de acidentes de trabalho para um trabalhador se recuperar ou ir ao hospital por motivo de lesão ou doença devido ao trabalho ou no trajeto para o trabalho.",
@@ -1347,6 +1462,11 @@
  "mh293": [
   "Identidade de gênero",
   "O gênero com o qual você se identifica e se comporta.",
+  "o"
+ ],
+ "pj48": [
+  "Status de permanência",
+  "Algo que o estrangeiro consegue no Japão.",
   "o"
  ],
  "mh295": [
@@ -1469,6 +1589,11 @@
   "A pessoa que faz a solicitação de algum procedimento.",
   "o"
  ],
+ "pj55": [
+  "Permissão para atividades fora da qualificação do visto",
+  "Permissão concedida a estrangeiros no Japão quando desejam realizar atividades que não podem ser realizadas com a qualificação (status de residência) que possuem atualmente.",
+  "o"
+ ],
  "mh320": [
   "Certificado de qualificação de trabalho",
   "Certificado que descreve o tipo de trabalho que um estrangeiro pode fazer ao trabalhar no Japão.",
@@ -1544,6 +1669,11 @@
   "Quando a empresa emprega o trabalhador e eles fecham o contrato de emprego sem intermediário de empreiteiras. Funcionários de período de contrato indefinido, funcionários de período de contrato definido, funcionários de meio período e funcionários temporários são recrutados diretamente.",
   "o"
  ],
+ "pj26": [
+  "Empregado com contrato determinado",
+  "Pessoa que tem contrato com tempo de trabalho determinado.",
+  "o"
+ ],
  "mh336": [
   "Contrato por tempo indeterminado",
   "Contratação de pessoas que trabalham para a empresa sem prazo fixo no final do contrato de trabalho.",
@@ -1552,6 +1682,11 @@
  "mh337": [
   "Contrato por tempo determinado",
   "Contratação de pessoas que trabalham para a empresa por tempo determinado.",
+  "o"
+ ],
+ "pj71": [
+  "Regulamento interno de trabalho",
+  "Regras decididas pela empresa para os funcionários e para a empresa.",
   "o"
  ],
  "mh339": [
@@ -1722,6 +1857,11 @@
  "mh372": [
   "Pensão",
   "Casa onde os funcionários da empresa repousam e fazem refeições juntos.",
+  "o"
+ ],
+ "pj113": [
+  "Hello Work",
+  "Um escritório do governo nacional que apresenta empregos para as pessoas que estão procurando.",
   "o"
  ],
  "mh374": [
@@ -2394,11 +2534,6 @@
   "Pessoa inscrita na Pensão Nacional e no Seguro de Pensão dos Empregados. São pessoas que trabalham em empresas, fábricas, lojas etc.",
   "c"
  ],
- "pj90": [
-  "Pagamento de reembolso por desligamento (Dattai Ichijikin)",
-  "Dinheiro que pode receber quem sai do sistema de pensão japonês e volta para seu país.",
-  "c"
- ],
  "pj91": [
   "Trabalhador de jornada parcial",
   "Trabalhadores de meio período (pāto, arubaito etc.) que trabalham menos horas que um funcionário efetivo.",
@@ -2437,11 +2572,6 @@
  "pj98": [
   "Auxílio Especial para Criação de Filhos com Deficiência",
   "Dinheiro que pode receber quem cria uma criança com deficiência.",
-  "c"
- ],
- "pj99": [
-  "Recolhimento especial (desconto em folha)",
-  "A empresa paga o imposto residencial do funcionário à prefeitura da cidade onde ele mora, descontando o valor do salário.",
   "c"
  ],
  "pj100": [
@@ -2484,16 +2614,6 @@
   "Caderneta que recebe quem se inscreve no sistema de pensão.",
   "c"
  ],
- "pj108": [
-  "Férias anuais remuneradas",
-  "Folga do trabalho em que você continua recebendo salário.",
-  "c"
- ],
- "pj109": [
-  "Ajuste de fim de ano (Nenmatsu Chōsei)",
-  "Em dezembro, a empresa recalcula e ajusta o imposto de renda retido na fonte. Se pagou a mais, a empresa devolve; se pagou a menos, você paga a diferença à empresa.",
-  "c"
- ],
  "pj110": [
   "Trabalhador temporário (haken)",
   "Pessoa que tem contrato com uma empreiteira (agência de trabalho temporário) e trabalha em outra empresa.",
@@ -2507,11 +2627,6 @@
  "pj112": [
   "Curso para gestantes e futuros pais",
   "Lugar que ensina a futuros pais e mães coisas importantes sobre o parto e a criação do bebê.",
-  "c"
- ],
- "pj113": [
-  "Hello Work",
-  "Órgão público do governo que apresenta ofertas de emprego.",
   "c"
  ],
  "pj114": [
@@ -2602,16 +2717,6 @@
  "pj131": [
   "Fiador solidário (do contrato de aluguel)",
   "Pessoa que paga o aluguel no lugar do inquilino quando ele não consegue pagar.",
-  "c"
- ],
- "pj132": [
-  "Seguro contra acidentes de trabalho (Rōsai Hoken)",
-  "Sistema que recolhe dinheiro das empresas para ajudar pessoas que se machucaram ou ficaram doentes por causa do trabalho.",
-  "c"
- ],
- "pj133": [
-  "Pensão Básica por Idade",
-  "Dinheiro que pessoas de 65 anos ou mais podem receber da Pensão Nacional.",
   "c"
  ],
  "pj134": [
@@ -2749,16 +2854,6 @@
   "Valor pago para manter um seguro.",
   "c"
  ],
- "pj1": [
-  "Licença para cuidar dos filhos (licença parental)",
-  "Licença que você pode tirar do trabalho para cuidar dos filhos.",
-  "c"
- ],
- "pj2": [
-  "Auxílio de licença parental",
-  "Dinheiro que você pode receber do seguro-desemprego (Koyou Hoken) durante a licença parental.",
-  "c"
- ],
  "pj3": [
   "Pensão básica por morte",
   "Dinheiro que a família pode receber da Pensão Nacional quando morre uma pessoa que era inscrita nela.",
@@ -2799,34 +2894,14 @@
   "Ajudar pessoas que têm dificuldade nas atividades do dia a dia (comer, tomar banho etc.) por causa da idade ou de uma doença.",
   "c"
  ],
- "pj11": [
-  "Licença para cuidar de familiar",
-  "Licença que você pode tirar do trabalho para cuidar de um familiar.",
-  "c"
- ],
- "pj12": [
-  "Auxílio de licença para cuidar de familiar",
-  "Dinheiro que você pode receber do seguro-desemprego (Koyou Hoken) durante a licença para cuidar de familiar.",
-  "c"
- ],
  "pj13": [
   "Escola estrangeira",
   "Escola para crianças estrangeiras. Há escolas de acordo com a cultura e a língua de cada país.",
   "c"
  ],
- "pj14": [
-  "Seguro de cuidados de longa duração (Kaigo Hoken)",
-  "Sistema que junta dinheiro de pessoas com 40 anos ou mais para ajudar quem precisa de cuidados.",
-  "c"
- ],
  "pj15": [
   "Circular da associação de moradores (kairanban)",
   "Prancheta com avisos da prefeitura e de outros órgãos, usada pela associação de moradores. Depois de ler, passe para o vizinho seguinte.",
-  "c"
- ],
- "pj16": [
-  "Declaração de imposto de renda (kakutei shinkoku)",
-  "Forma de pagar o imposto de renda para quem não tem desconto na fonte nem ajuste de fim de ano pela empresa. Entregue os documentos na Receita Federal (zeimusho) da sua região.",
   "c"
  ],
  "pj17": [
@@ -2874,24 +2949,9 @@
   "Profissional que dá orientação sobre cuidados e planeja como eles serão feitos.",
   "c"
  ],
- "pj26": [
-  "Funcionário contratado (por prazo determinado)",
-  "Pessoa que trabalha por um período definido. O contrato com a empresa termina em até 3 anos.",
-  "c"
- ],
  "pj27": [
   "Cirurgia",
   "Hospital ou clínica que trata ferimentos e faz operações.",
-  "c"
- ],
- "pj28": [
-  "Seguro de saúde (Kenkou Hoken)",
-  "Seguro de saúde para quem trabalha em empresa.",
-  "c"
- ],
- "pj29": [
-  "Desconto na fonte (gensen choushuu)",
-  "A empresa desconta o imposto de renda do seu salário e paga ao governo por você.",
   "c"
  ],
  "pj30": [
@@ -2919,11 +2979,6 @@
   "Dinheiro pago, além do aluguel, para continuar morando na mesma casa quando o contrato termina.",
   "c"
  ],
- "pj35": [
-  "Seguro de Pensão dos Trabalhadores (Kousei Nenkin)",
-  "Pensão (NO.106) para pessoas de até 69 anos que trabalham um número mínimo de horas em empresas, fábricas, lojas etc.",
-  "c"
- ],
  "pj36": [
   "Exame de equivalência do ensino médio",
   "Exame para quem não se formou no ensino médio no Japão. Quem passa pode fazer o exame de entrada em universidades e escolas técnicas.",
@@ -2934,11 +2989,6 @@
   "Mensalidade do ensino médio paga pelo governo no seu lugar.",
   "c"
  ],
- "pj38": [
-  "Seguro Nacional de Saúde (Kokumin Kenkou Hoken)",
-  "Seguro de saúde que a pessoa contrata por conta própria quando não tem o seguro de saúde da empresa.",
-  "c"
- ],
  "pj39": [
   "Pensão Nacional (Kokumin Nenkin)",
   "Pensão do governo em que todas as pessoas de 20 a 59 anos devem se inscrever.",
@@ -2947,11 +2997,6 @@
  "pj40": [
   "Imposto sobre bens imóveis",
   "Imposto pago por quem tem terreno ou casa.",
-  "c"
- ],
- "pj41": [
-  "Seguro-desemprego (Koyou Hoken)",
-  "Sistema que ajuda quem saiu da empresa e não achou trabalho, e quem está em licença parental ou licença para cuidar de familiar.",
   "c"
  ],
  "pj42": [
@@ -2984,11 +3029,6 @@
   "Último dia em que o estrangeiro pode ficar no Japão.",
   "c"
  ],
- "pj48": [
-  "Status de residência (visto)",
-  "O que o estrangeiro pode fazer no Japão: trabalhar, estudar, viver com a família etc.",
-  "c"
- ],
  "pj49": [
   "Permissão de aquisição de status de residência",
   "Procedimento para o bebê estrangeiro nascido no Japão receber o cartão de residência.",
@@ -3017,11 +3057,6 @@
  "pj54": [
   "Odontologia (dentista)",
   "Hospital ou clínica que trata os dentes.",
-  "c"
- ],
- "pj55": [
-  "Permissão para atividades fora do status",
-  "Permissão para quem tem status de residência que não permite trabalhar poder trabalhar.",
   "c"
  ],
  "pj56": [
@@ -3099,49 +3134,14 @@
   "Dinheiro para material escolar, merenda etc. Pais de baixa renda com filhos no ensino fundamental podem receber.",
   "c"
  ],
- "pj71": [
-  "Regulamento interno de trabalho",
-  "Regras detalhadas de trabalho definidas pela empresa.",
-  "c"
- ],
- "pj72": [
-  "Imposto residencial",
-  "Imposto pago à província e à cidade por quem trabalha e tem endereço no Japão em 1º de janeiro.",
-  "c"
- ],
- "pj73": [
-  "Auxílio-maternidade (shussan teatekin)",
-  "Dinheiro do seguro de saúde para quem falta ao trabalho para ter bebê e fica sem salário.",
-  "c"
- ],
  "pj74": [
   "Registro de nascimento",
   "Documento entregue na prefeitura quando nasce um bebê.",
   "c"
  ],
- "pj75": [
-  "Auxílio único para parto e criação",
-  "Dinheiro que você pode receber do seguro de saúde etc. ao ter um bebê.",
-  "c"
- ],
- "pj76": [
-  "Pensão básica por invalidez",
-  "Dinheiro que pessoas com deficiência podem receber da Pensão Nacional.",
-  "c"
- ],
  "pj77": [
   "Pensão por invalidez do Seguro de Pensão dos Trabalhadores",
   "Dinheiro que pessoas com deficiência podem receber do Seguro de Pensão dos Trabalhadores.",
-  "c"
- ],
- "pj78": [
-  "Imposto sobre consumo",
-  "Imposto pago ao comprar produtos ou usar serviços.",
-  "c"
- ],
- "pj79": [
-  "Imposto de renda",
-  "Imposto pago ao governo sobre a renda (salário etc.).",
   "c"
  ],
  "pj80": [

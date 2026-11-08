@@ -4,11 +4,11 @@
 
 ## 公的な用語集（そのまま使う）
 
-| 用語集                                                                      | 語の数 | 出典                                                                                                                                                                                              |
-| --------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 在留支援のためのやさしい日本語ガイドライン 別冊「やさしい日本語書き換え例」 | 134    | 出典：出入国在留管理庁・文化庁「在留支援のためのやさしい日本語ガイドライン 別冊 やさしい日本語書き換え例」（https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html）を加工して作成 |
-| 厚生労働省「雇用管理に役立つ多言語用語集」（Excel 版）                      | 390    | 出典：厚生労働省「雇用管理に役立つ多言語用語集」（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html）を加工して作成                            |
-| 法令用語日英標準対訳辞書                                                    | 29     | 出典：日本法令外国語訳データベースシステム（法務省）「法令用語日英標準対訳辞書」第19.0版（https://www.japaneselawtranslation.go.jp/ja/dicts/download）を加工して作成                              |
+| 用語集 | 語の数 | 出典 |
+| --- | --- | --- |
+| 在留支援のためのやさしい日本語ガイドライン 別冊「やさしい日本語書き換え例」 | 134 | 出典：出入国在留管理庁・文化庁「在留支援のためのやさしい日本語ガイドライン 別冊 やさしい日本語書き換え例」（https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html）を加工して作成 |
+| 厚生労働省「雇用管理に役立つ多言語用語集」（Excel 版） | 390 | 出典：厚生労働省「雇用管理に役立つ多言語用語集」（https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html）を加工して作成 |
+| 法令用語日英標準対訳辞書 | 29 | 出典：日本法令外国語訳データベースシステム（法務省）「法令用語日英標準対訳辞書」第19.0版（https://www.japaneselawtranslation.go.jp/ja/dicts/download）を加工して作成 |
 
 ## Claude の下書き（作り手が確かめる）
 
