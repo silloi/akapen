@@ -6,7 +6,7 @@
 - デモ動画: 準備中（11/8 に追加）
 - Built with Claude: Japan 2026 の作品です。作り手は日本語教師です。
 
-アプリの名前は「JAWS」で、副題は言語ごとに訳し分けています（英語 JAWS: Good for Japanese、中国語 JAWS 日语说得很好、韓国語 JAWS 일본어 잘하다 など）。リポジトリ名の `akapen` は「赤ペン（先生の添削）」です。
+アプリの名前は「JAWS」で、副題は言語ごとに訳し分けています（英語 JAWS: Good for Japanese、中国語（简体）JAWS 日语说得很好、中国語（正體）JAWS 日語說得很好、韓国語 JAWS 일본어 잘하다 など）。リポジトリ名の `akapen` は「赤ペン（先生の添削）」です。
 
 ## 誰のための、何か
 
@@ -20,7 +20,7 @@ JAWS は、学習用の会話相手ではありません。**本番を通すた�
 4. **本番のカンペ**: 聞かれること・言うこと・困ったときの言い方を、その人の言語と並べます。赤ペンで直した言い方が入り、その場面で前もって知っておくことと、ことばの意味を添えます。QR でスマホに送ると、大きい文字の本番用の画面で開きます。カンペの画面の下には、**その場面に関係する公的な情報**（国などのページ。住所の届け出・部屋探し・年金・学校の手続き など）と、外国人のための相談窓口の一覧へのリンクを出します。カンペを作っている間から見えます。
 5. **もう一度練習**: 赤ペンの「次はどう言う？」を横に置いて同じ場面を練習し、前回のつまずきが直せたかを ○△ で見ます。
 
-画面は、日本語・やさしい日本語・英語・中国語・ベトナム語・フィリピン語・ネパール語・インドネシア語・ポルトガル語・韓国語・ミャンマー語で読めます。会話そのものは日本語のままです。
+画面は、日本語・やさしい日本語・英語・中国語（简体）・中国語（正體。台湾の繁体字）・ベトナム語・フィリピン語・ネパール語・インドネシア語・ポルトガル語・韓国語・ミャンマー語で読めます。中国語は字だけでなく語彙も分け、正體は台湾でふつうに使う言い方で訳しています（台湾出身の人に、簡体字しかないと言われたので足しました）。会話そのものは日本語のままです。
 
 ## 試し方
 
@@ -39,7 +39,7 @@ JAWS は、学習用の会話相手ではありません。**本番を通すた�
 | 赤ペン | 相手役とは**別の呼び出し**。演じる役と、指針に照らして見る役を分ける。優先順は「用件が変わる・止まる ＞ 聞き取れていない ＞ 失礼に聞こえそう ＞ 文法」。2回目以降は、前回の赤ペンを渡して ○△ を返させる。                                                     |
 | カンペ | 渡した「知っておくこと」（場面のメモと、生活・文化・社会的情報）**だけ**を元に書かせ、料金や制度などの事実を足させない。                                                                                                                                      |
 | 場面   | Claude が生活Can do から場面カードを下書きし、**別の呼び出しの検査役**が決まった項目（実在の名前・電話番号、医療の助言、Can do との対応など）で確かめ、通らなければ1回だけ書き直させる。先生が確かめるまで「下書き」として扱う（`scripts/build-scenes.ts`）。 |
-| 多言語 | 画面の言葉を、まずガイドラインに沿って**やさしい日本語**に書き換え、それを元に9言語に訳す（`scripts/build-i18n.ts`）。                                                                                                                                        |
+| 多言語 | 画面の言葉を、まずガイドラインに沿って**やさしい日本語**に書き換え、それを元に10言語に訳す（`scripts/build-i18n.ts`。中国語は简体と正體の2つ）。                                                                                                              |
 
 - モデルは `claude-opus-5-5`。赤ペン・カンペ・相手役の返事は構造化出力（`output_config.format`）で受け取ります。混んでいるときは別のモデルに切り替わる設定です（`fallbacks: "default"`）。
 - Claude の出力をそのまま信じない: 赤ペンの引用が会話に文字どおりあるかを照合し、無いものは捨てます。優先順の並べ替えと「多くても3つ」はコードで決めます（`shared/validate.ts`）。
@@ -84,7 +84,7 @@ JAWS は、学習用の会話相手ではありません。**本番を通すた�
 - 文化審議会国語分科会「地域における日本語教育の在り方について」（報告）別冊「日本語教育の参照枠」に基づく「生活Can do」一覧（令和4年11月29日、文化庁 https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/ ）を加工して作成。公共データ利用規約（PDL1.0）。jf の付いた Can do は国際交流基金の JF Can-do・JF生活日本語Can-do から採用されたもので、みんなのCan-doサイトの著作権ポリシーに従います。取り込みは [yasashii-refs](https://github.com/silloi/yasashii-refs) の `data/seikatsu-cando.jsonl` から（`scripts/build-data.ts`、詳細は `data/cando.meta.json`）。
 - ふりがなは [Furifont](https://furifont.antfu.me)（Anthony Fu、0.7.0）を使っています。フォントは SIL Open Font License 1.1（Adobe の Source Han Sans から）、送りがなの続く漢字の読みを選ぶ表は CC BY-SA 4.0（JMdict・JMnedict・KANJIDIC2（EDRDG）、JmdictFurigana など）。読みを選ぶ処理は Furifont のユーザースクリプト（MIT）から移しました（`src/lib/furigana.ts`、ファイルと利用条件は `public/fonts/furifont/`）。
 - 出入国在留管理庁・文化庁「在留支援のためのやさしい日本語ガイドライン 別冊 やさしい日本語書き換え例」（2020年8月 https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html ）を加工して作成（PDL1.0）。画面の言葉をやさしい日本語に書き換えるときの用語集で、ことばの意味（用語集）にも使います（`data/plain-japanese.json`、`data/glossary/`）。
-- 厚生労働省「雇用管理に役立つ多言語用語集」（2023年4月20日 https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html ）を加工して作成（PDL1.0）。ことばの意味と、9言語の訳に使います。
+- 厚生労働省「雇用管理に役立つ多言語用語集」（2023年4月20日 https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/jigyounushi/tagengoyougosyu.html ）を加工して作成（PDL1.0）。ことばの意味と、10言語の訳に使います（中国語は简体・繁体の両方の公式の訳があります）。
 - 日本法令外国語訳データベースシステム（法務省）「法令用語日英標準対訳辞書」第19.0版（https://www.japaneselawtranslation.go.jp/ja/dicts/download ）を加工して作成（PDL1.0）。場面と会話に出てくる語の英訳に使います。
 - 用語集の取り込みは [yasashii-refs](https://github.com/silloi/yasashii-refs) の `data/` から（`scripts/build-glossary.ts`、出典と件数は `data/glossary/meta.json`）。公的な情報のリンクは、同じ yasashii-refs の目録（`catalog/`。各ページの発行元・URL・言語・確かめた日）から選んでいます（`scripts/build-public-info.ts`、`data/public-info.json`）。リンク先の内容は、それぞれの発行元の利用条件に従います。
 

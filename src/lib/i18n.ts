@@ -8,13 +8,27 @@ import uiI18n from "../../data/ui.i18n.json" with { type: "json" };
 import type { KanpeLang } from "../../shared/types.ts";
 
 /** 画面の言語（yasashii-refs の第1群の9言語＋日本語） */
-export type UiLang = "ja" | "easy" | "en" | "zh" | "vi" | "tl" | "ne" | "id" | "pt" | "ko" | "my";
+export type UiLang =
+  | "ja"
+  | "easy"
+  | "en"
+  | "zh"
+  | "zh-TW"
+  | "vi"
+  | "tl"
+  | "ne"
+  | "id"
+  | "pt"
+  | "ko"
+  | "my";
 
 export const UI_LANGS: Record<UiLang, string> = {
   ja: "日本語",
   easy: "やさしい日本語",
   en: "English",
-  zh: "中文",
+  zh: "中文（简体）",
+  // 繁体字（臺灣では「正體字」と言う）。字だけでなく、臺灣の語彙で訳す
+  "zh-TW": "中文（正體）",
   vi: "Tiếng Việt",
   tl: "Filipino",
   ne: "नेपाली",
@@ -92,7 +106,7 @@ export const JA = {
   "info.langs": "{n}のことば",
   "info.hasLang": "{lang}あり",
   // トップの動画（実際の画面を順に見せる）
-  "hero.langs": "11のことば",
+  "hero.langs": "12のことば",
   "hero.alt":
     "アプリの画面の動画。電話の予行演習、会話の記録に入った赤ペン、本番のカンペ、いろいろなことばの画面を順に見せます。",
   "hero.pause": "動画を止める",
@@ -229,7 +243,14 @@ function detect(): UiLang {
     // 読めない環境（プライベートウィンドウなど）
   }
   const nav = (navigator.language || "ja").toLowerCase();
-  const code = nav.startsWith("zh") ? "zh" : nav.startsWith("fil") ? "tl" : nav.slice(0, 2);
+  // 中国語は、臺灣・香港・澳門・繁体字の設定なら正體中文、ほかは简体中文
+  const code = /^zh-(tw|hk|mo|hant)/.test(nav)
+    ? "zh-TW"
+    : nav.startsWith("zh")
+      ? "zh"
+      : nav.startsWith("fil")
+        ? "tl"
+        : nav.slice(0, 2);
   return (code in UI_LANGS && code !== "easy" ? code : "ja") as UiLang;
 }
 
@@ -244,6 +265,7 @@ export const lang = ref<UiLang>(detect());
 const FONTS: Partial<Record<UiLang, string>> = {
   vi: "Be+Vietnam+Pro:wght@400;500;700",
   zh: "Noto+Sans+SC:wght@400;500;700",
+  "zh-TW": "Noto+Sans+TC:wght@400;500;700",
   ko: "Noto+Sans+KR:wght@400;500;700",
   ne: "Noto+Sans+Devanagari:wght@400;500;700",
   my: "Noto+Sans+Myanmar:wght@400;500;700",

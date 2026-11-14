@@ -6,7 +6,7 @@
 import { calendarLines, formatDate, todayJst, type Ymd } from "./calendar.ts";
 import type { CanDo, Kanpe, KanpeLang, Mark, Scene, Turn } from "./types.ts";
 
-export const PROMPT_VERSION = "2026-11-08.1";
+export const PROMPT_VERSION = "2026-11-13.1";
 
 export type Speed = "slow" | "natural";
 
@@ -262,8 +262,25 @@ ${lines}${prev}`;
 
 // ───────────────────────── カンペ ─────────────────────────
 
+/**
+ * 訳を頼むときに、言語の名前の次に添える注意。中国語は2つあり、字だけでなく語彙も分ける
+ * （臺灣の人に、簡体字や中国大陸の言い方で出さない。臺灣では繁体字を「正體字」と言う）。
+ */
+export const LANG_NOTES: Partial<Record<string, string>> = {
+  zh: "中国大陸の簡体字で書く。",
+  "zh-TW":
+    "臺灣の正體字（繁體字）で書く。臺灣でふつうに使う語彙・言い方にする（簡体字や中国大陸の語彙を使わない。例: 計程車・預約・健保卡・手機・網路・垃圾車）。",
+};
+
+/** 「## 言語」の行（名前・コードと、あれば書き方の注意） */
+export function langLine(name: string, lang: string): string {
+  const note = LANG_NOTES[lang];
+  return `${name}（${lang}）${note ? `\n${note}` : ""}`;
+}
+
 export const LANG_NAMES: Record<KanpeLang, string> = {
   zh: "中文（简体）",
+  "zh-TW": "中文（正體）",
   vi: "Tiếng Việt",
   en: "English",
   ne: "नेपाली",
@@ -337,7 +354,7 @@ export function kanpeUser(
   social: { no: number; text: string }[],
 ): string {
   return `## 言語
-${LANG_NAMES[lang]}（${lang}）
+${langLine(LANG_NAMES[lang], lang)}
 
 ## 場面
 ${scene.title}（相手: ${scene.partnerRole}）
@@ -364,6 +381,7 @@ export function emptyKanpe(lang: KanpeLang): Kanpe {
 export const UI_LANG_NAMES = {
   en: "English",
   zh: "中文（简体）",
+  "zh-TW": "中文（正體）",
   vi: "Tiếng Việt",
   tl: "Filipino",
   ne: "नेपाली",

@@ -19,7 +19,7 @@ import { SCENES } from "../shared/scenes.ts";
 
 const { values, positionals } = parseArgs({
   allowPositionals: true,
-  options: { i18n: { type: "boolean", default: false } },
+  options: { i18n: { type: "boolean", default: false }, langs: { type: "string" } },
 });
 const refs = positionals[0];
 if (!refs) {
@@ -236,10 +236,12 @@ for (const s of SCENES) {
 const prev: PublicInfoData | null = existsSync(OUT)
   ? (JSON.parse(readFileSync(OUT, "utf8")) as PublicInfoData)
   : null;
-const LANGS = ["en", "zh", "vi", "tl", "ne", "id", "pt", "ko", "my", "easy"] as const;
+const LANGS = ["en", "zh", "zh-TW", "vi", "tl", "ne", "id", "pt", "ko", "my", "easy"] as const;
 const LANG_NAME: Record<(typeof LANGS)[number], string> = {
   en: "英語",
   zh: "中国語（簡体字）",
+  "zh-TW":
+    "中国語の正體字（繁體字）。臺灣でふつうに使う語彙・言い方で（簡体字や中国大陸の語彙を使わない）",
   vi: "ベトナム語",
   tl: "フィリピノ語（タガログ語）",
   ne: "ネパール語",
@@ -276,8 +278,9 @@ if (values.i18n) {
     required: ["items"],
     additionalProperties: false,
   } as const;
+  const only = values.langs ? values.langs.split(",") : null;
   await Promise.all(
-    LANGS.map(async (l) => {
+    LANGS.filter((l) => !only || only.includes(l)).map(async (l) => {
       const items = [
         ...resources.map((r) => ({ id: r.id, name: r.label ?? r.name, desc: r.desc })),
         ...Object.entries(CHAPTERS).map(([n, name]) => ({ id: `ch${n}`, name, desc: "" })),

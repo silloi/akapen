@@ -148,6 +148,7 @@ export interface Akapen {
 /** カンペの言語 */
 export type KanpeLang =
   | "zh"
+  | "zh-TW"
   | "vi"
   | "en"
   | "ne"

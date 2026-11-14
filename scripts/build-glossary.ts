@@ -45,11 +45,12 @@ const OUT = resolve(import.meta.dirname, "../data/glossary");
 mkdirSync(OUT, { recursive: true });
 
 /** 画面の言語（日本語・やさしい日本語のほか）と、厚労省の用語集の言語の名前 */
-const LANGS = ["en", "zh", "vi", "tl", "ne", "id", "pt", "ko", "my"] as const;
+const LANGS = ["en", "zh", "zh-TW", "vi", "tl", "ne", "id", "pt", "ko", "my"] as const;
 type Lang = (typeof LANGS)[number];
 const MHLW_LANG: Record<Lang, string> = {
   en: "en",
   zh: "zh-Hans",
+  "zh-TW": "zh-Hant",
   vi: "vi",
   tl: "tl",
   ne: "ne",
@@ -61,6 +62,8 @@ const MHLW_LANG: Record<Lang, string> = {
 const LANG_NAME: Record<Lang, string> = {
   en: "英語",
   zh: "中国語（簡体字）",
+  "zh-TW":
+    "中国語の正體字（繁體字）。臺灣でふつうに使う語彙・言い方で（簡体字や中国大陸の語彙を使わない）",
   vi: "ベトナム語",
   tl: "フィリピノ語（タガログ語）",
   ne: "ネパール語",

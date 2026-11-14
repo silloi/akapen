@@ -12,6 +12,7 @@ import {
   KANPE_SYSTEM,
   kanpeUser,
   LANG_NAMES,
+  langLine,
   PARTNER_SCHEMA,
   partnerMessages,
   partnerSystem,
@@ -165,7 +166,7 @@ async function handleTranslate(request: Request, env: Env): Promise<Response> {
     messages: [
       {
         role: "user",
-        content: `## 言語\n${langName}（${lang}）\n\n## 文（順番どおり、同じ数だけ返す）\n${JSON.stringify(texts)}`,
+        content: `## 言語\n${langLine(langName, lang)}\n\n## 文（順番どおり、同じ数だけ返す）\n${JSON.stringify(texts)}`,
       },
     ],
     schema: {

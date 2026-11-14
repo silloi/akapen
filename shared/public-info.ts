@@ -33,5 +33,11 @@ export interface PublicInfoData {
 
 /** 画面の言語のコード → 目録の言語のコード */
 export function catalogLang(uiLang: string): string {
-  return uiLang === "zh" ? "zh-Hans" : uiLang === "easy" ? "ja-easy" : uiLang;
+  return uiLang === "zh"
+    ? "zh-Hans"
+    : uiLang === "zh-TW"
+      ? "zh-Hant"
+      : uiLang === "easy"
+        ? "ja-easy"
+        : uiLang;
 }

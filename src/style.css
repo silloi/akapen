@@ -46,6 +46,11 @@
     "Zen Kaku Gothic New", "Noto Sans SC", "Hiragino Sans", "PingFang SC", "Microsoft YaHei",
     sans-serif;
 }
+:root[data-lang="zh-TW"] {
+  --body:
+    "Zen Kaku Gothic New", "Noto Sans TC", "Hiragino Sans", "PingFang TC", "Microsoft JhengHei",
+    sans-serif;
+}
 :root[data-lang="ko"] {
   --body:
     "Zen Kaku Gothic New", "Noto Sans KR", "Hiragino Sans", "Apple SD Gothic Neo", "Malgun Gothic",
@@ -68,6 +73,11 @@
 }
 .kanpe .tr:lang(zh) {
   font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Zen Kaku Gothic New", sans-serif;
+}
+/* :lang(zh) は zh-TW にも当たるので、その後ろで臺灣の書体にする */
+.kanpe .tr:lang(zh-TW) {
+  font-family:
+    "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Zen Kaku Gothic New", sans-serif;
 }
 .kanpe .tr:lang(ko) {
   font-family:

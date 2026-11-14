@@ -14,9 +14,12 @@ import {
   type GlossTr,
 } from "../../shared/glossary.ts";
 
-const trFiles = import.meta.glob<GlossTr>("../../data/glossary/{en,zh,vi,tl,ne,id,pt,ko,my}.json", {
-  import: "default",
-});
+const trFiles = import.meta.glob<GlossTr>(
+  "../../data/glossary/{en,zh,zh-TW,vi,tl,ne,id,pt,ko,my}.json",
+  {
+    import: "default",
+  },
+);
 
 export interface Glossary {
   index: GlossIndex;

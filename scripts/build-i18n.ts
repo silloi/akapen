@@ -20,6 +20,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { parseArgs } from "node:util";
 import plain from "../data/plain-japanese.json" with { type: "json" };
 import { callJson } from "../shared/claude.ts";
+import { langLine } from "../shared/prompts.ts";
 import { SCENES } from "../shared/scenes.ts";
 import { JA, UI_LANGS, type UiLang } from "../src/lib/i18n.ts";
 
@@ -243,7 +244,7 @@ if (doUi) {
     const src = Object.fromEntries(keys.map((k) => [k, { easy: easyAll[k] ?? JA[k], ja: JA[k] }]));
     const got = await askPairs(
       TRANSLATE_SYSTEM,
-      `## 言語\n${UI_LANGS[l]}（${l}）\n\n## 鍵: {easy: やさしい日本語, ja: 元の日本語}\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。`,
+      `## 言語\n${langLine(UI_LANGS[l], l)}\n\n## 鍵: {easy: やさしい日本語, ja: 元の日本語}\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。`,
       keys,
     );
     out[l] = { ...have, ...got };
@@ -324,7 +325,7 @@ if (doScenes) {
     );
     const got = await askScenes(
       TRANSLATE_SYSTEM,
-      `## 言語\n${UI_LANGS[l]}（${l}）\n\n## id: {easy: やさしい日本語, ja: 元の日本語}。人物・店・地名は架空\n${JSON.stringify(src, null, 1)}\n\nすべての id について、{id, title, summary} の形で訳を返してください。title は短く。`,
+      `## 言語\n${langLine(UI_LANGS[l], l)}\n\n## id: {easy: やさしい日本語, ja: 元の日本語}。人物・店・地名は架空\n${JSON.stringify(src, null, 1)}\n\nすべての id について、{id, title, summary} の形で訳を返してください。title は短く。`,
       ts.map((s) => s.id),
     );
     out[l] = { ...have, ...got };
@@ -347,7 +348,7 @@ if (doScenes) {
     );
     const got = await askPairs(
       TRANSLATE_SYSTEM,
-      `## 言語\n${UI_LANGS[l]}（${l}）\n\n## 「本番で聞かれること」の見出し。鍵は「場面の id/項目」。鍵: {easy: やさしい日本語, ja: 元の日本語}。電話や窓口で相手が聞いてくる項目の名前（名前・住所・用件 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。見出しは短く（語か、短い句）。`,
+      `## 言語\n${langLine(UI_LANGS[l], l)}\n\n## 「本番で聞かれること」の見出し。鍵は「場面の id/項目」。鍵: {easy: やさしい日本語, ja: 元の日本語}。電話や窓口で相手が聞いてくる項目の名前（名前・住所・用件 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。見出しは短く（語か、短い句）。`,
       keys,
     );
     putAsks(have, got);
@@ -373,7 +374,7 @@ if (doScenes) {
     );
     const got = await askPairs(
       TRANSLATE_SYSTEM,
-      `## 言語\n${UI_LANGS[l]}（${l}）\n\n## 練習で使う架空の情報の見出し。鍵は「場面の id|見出し」。鍵: {easy: やさしい日本語, ja: 元の日本語}。本番で言う自分の情報の項目名（名前・住所・子どもの名前 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。見出しは短く（語か、短い句）。`,
+      `## 言語\n${langLine(UI_LANGS[l], l)}\n\n## 練習で使う架空の情報の見出し。鍵は「場面の id|見出し」。鍵: {easy: やさしい日本語, ja: 元の日本語}。本番で言う自分の情報の項目名（名前・住所・子どもの名前 など）\n${JSON.stringify(src, null, 1)}\n\nすべての鍵について、{key, text} の形で訳を返してください。見出しは短く（語か、短い句）。`,
       keys,
     );
     putInfo(have, got);

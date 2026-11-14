@@ -22,6 +22,7 @@ export const PERSONAS: Record<string, Persona> = {
   easy: { name: "リン・メイ", child: "リン・ハオ", spouse: "リン・ジュン" },
   en: { name: "ブラウン・サラ", child: "ブラウン・レオ", spouse: "ブラウン・ダニエル" },
   zh: { name: "リン・メイ", child: "リン・ハオ", spouse: "リン・ジュン" },
+  "zh-TW": { name: "チェン・イーティン", child: "チェン・ユーシャン", spouse: "チェン・ジーハオ" },
   vi: { name: "グエン・ラン", child: "グエン・ミン", spouse: "グエン・ナム" },
   tl: { name: "サントス・アナ", child: "サントス・ミゲル", spouse: "サントス・ホセ" },
   ne: { name: "タパ・スニタ", child: "タパ・アニシュ", spouse: "タパ・ラメシュ" },
